@@ -1,0 +1,17 @@
+{
+  "ticker": "NOVA",
+  "name": "Nova Robotics (가상 예시)",
+  "as_of": "2026-10-16",
+  "researched": "2026-10-16",
+  "sources": [
+    {"id": "S1", "type": "filing", "title": "10-K FY2025", "url": "https://example.com/nova/10k-2025", "date": "2026-02-20", "note": "매출 12억 달러(+68%), 하드웨어 총이익률 31%·소프트웨어 82%, 영업현금흐름 1.4억 달러, 순현금 9억 달러, 창업자 지분 18%(차등의결권)"},
+    {"id": "S2", "type": "filing", "title": "10-Q 2026 Q2", "url": "https://example.com/nova/10q-2026q2", "date": "2026-08-05", "note": "설치 대수 4.1만 대(+72%), 상위 3개 고객 매출 비중 47%(전년 55%), 로봇 1대당 회수기간 16개월"},
+    {"id": "S3", "type": "call", "title": "2026 Q2 어닝콜", "url": "https://example.com/nova/call-2026q2", "date": "2026-08-05", "note": "CEO: '이익 전액을 차세대 플랫폼 R&D에 재투자'. 순매출유지율 138%. 2027년 중형 고객 대상 구독형(RaaS) 확대"},
+    {"id": "S4", "type": "conference", "title": "Investor Day 2026", "url": "https://example.com/nova/investor-day-2026", "date": "2026-05-14", "note": "2030년 시장 규모 1,800억 달러 제시. 플릿 데이터로 신규 현장 배치 기간 9주→3주. 하드웨어 원가 연 12% 하락 목표"},
+    {"id": "S5", "type": "filing", "title": "DEF 14A 2026", "url": "https://example.com/nova/proxy-2026", "date": "2026-04-10", "note": "CEO 보상의 90%가 10년 베스팅 주식, 매출·FCF 연동"},
+    {"id": "S6", "type": "news", "title": "범용 휴머노이드 업체들, 창고 시장 진입 선언", "url": "https://example.com/news/humanoid-warehouse", "date": "2026-09-22", "note": "빅테크 2곳이 2028년 창고용 휴머노이드 상용화 목표 (보도)"},
+    {"id": "S7", "type": "data", "title": "시장 데이터", "url": "https://example.com/nova/quote", "date": "2026-10-15", "note": "주가 84달러, 시가총액 210억 달러, 희석 주식 수 2.5억 주, 2025년 FCF 0.6억 달러"},
+    {"id": "S8", "type": "news", "title": "Nova, 신규 공장 증설 발표", "url": "https://example.com/news/nova-factory", "date": "2026-07-01", "note": "증설 자금은 보유 현금과 영업현금흐름으로 충당, 차입 없음"}
+  ],
+  "gaps": ["코호트별 CAC 공시 없음"]
+}
