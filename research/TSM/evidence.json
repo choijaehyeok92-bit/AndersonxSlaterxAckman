@@ -586,6 +586,42 @@
       "note": "Yahoo Finance",
       "date": "2026-10-07",
       "retrieved": "2026-10-17T17:50:27Z"
+    },
+    {
+      "id": "S66",
+      "type": "filing",
+      "title": "TSMC 2Q26 Management Report",
+      "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-07/bf09036349a253e83f78155099133806cad0320b/2Q26%20ManagementReport.pdf",
+      "date": "2026-07-16",
+      "note": "2Q26 매출 NT$1,270.38bn(1Q26 NT$1,134.10bn 대비 +12.0%), 매출총이익률 67.7%, 영업이익률 60.3%. 검색 요약으로 확인했고 원문은 읽지 못함.",
+      "retrieved": "2026-10-17T17:53:49Z"
+    },
+    {
+      "id": "S67",
+      "type": "call",
+      "title": "Taiwan Semiconductor Reports Q2 2026 Results: Full Earnings Call Transcript (Webull)",
+      "url": "https://www.webull.com/news/15237944504312832",
+      "date": "2026-07-16",
+      "note": "2Q26 영업활동현금흐름 약 NT$783bn, 설비투자 NT$496bn(약 US$15.7bn). 2026 설비투자 가이던스 US$60~64bn(직전 US$52~56bn), 3Q26 매출 가이던스 US$44.6~45.8bn. 검색 요약으로 확인했고 원문은 읽지 못함.",
+      "retrieved": "2026-10-17T17:53:49Z"
+    },
+    {
+      "id": "S68",
+      "type": "news",
+      "title": "TSMC FY2025 cash flow aggregators (Tickerleague, AlphaSense)",
+      "url": "https://tickerleague.com/companies/TSM/financials/operating-cash-flow",
+      "date": "2026-01-15",
+      "note": "보도·집계 사이트(2차 자료). FY2025 영업현금흐름 약 NT$2.3~2.38조, 설비투자 약 NT$1.29~1.3조(US$40.9bn)로 출처 간 값이 달라 사실로 넣지 않음. 20-F 원문 확인 필요.",
+      "retrieved": "2026-10-17T17:53:49Z"
+    },
+    {
+      "id": "S69",
+      "type": "filing",
+      "title": "TSMC 2025Q4 Consolidated Financial Statements (English, audited)",
+      "url": "https://investor.tsmc.com/sites/ir/financial-report/2025/TSMC%202025Q4%20Consolidated%20Financial%20Statements_E.pdf",
+      "date": "2026-02-24",
+      "note": "연결 현금흐름표(NT$ 천): 영업활동 순현금 2,274,975,625 · 유형자산 취득 (1,272,410,529)",
+      "retrieved": "2026-10-17T18:19:06Z"
     }
   ],
   "facts": [
@@ -1701,19 +1737,132 @@
       "basis": "market",
       "source": "S63",
       "origin": "research"
+    },
+    {
+      "id": "F102",
+      "metric": "revenue",
+      "value": 1134100000000,
+      "unit": "TWD",
+      "period": "FY2026Q1",
+      "end": "2026-03-31",
+      "basis": "reported",
+      "source": "S66",
+      "origin": "research"
+    },
+    {
+      "id": "F103",
+      "metric": "revenue",
+      "value": 1270380000000,
+      "unit": "TWD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S66",
+      "origin": "research"
+    },
+    {
+      "id": "F104",
+      "metric": "gross_margin",
+      "value": 0.677,
+      "unit": "ratio",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S66",
+      "origin": "research"
+    },
+    {
+      "id": "F105",
+      "metric": "operating_margin",
+      "value": 0.603,
+      "unit": "ratio",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S66",
+      "origin": "research"
+    },
+    {
+      "id": "F106",
+      "metric": "ocf",
+      "value": 783000000000,
+      "unit": "TWD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S67",
+      "origin": "research"
+    },
+    {
+      "id": "F107",
+      "metric": "capex",
+      "value": 496000000000,
+      "unit": "TWD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S67",
+      "origin": "research"
+    },
+    {
+      "id": "F108",
+      "metric": "capex",
+      "value": 15700000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S67",
+      "origin": "research"
+    },
+    {
+      "id": "F109",
+      "metric": "revenue",
+      "value": 45200000000,
+      "unit": "USD",
+      "period": "FY2026Q3",
+      "end": "2026-09-30",
+      "basis": "guidance",
+      "low": 44600000000,
+      "high": 45800000000,
+      "source": "S67",
+      "origin": "research"
+    },
+    {
+      "id": "F110",
+      "metric": "ocf",
+      "value": 2274975625000,
+      "unit": "TWD",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "scope": "consolidated",
+      "source": "S69",
+      "origin": "research"
+    },
+    {
+      "id": "F111",
+      "metric": "capex",
+      "value": 1272410529000,
+      "unit": "TWD",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "scope": "consolidated",
+      "source": "S69",
+      "origin": "research"
     }
   ],
   "as_of": "2026-10-18",
   "collected": "2026-10-17T17:52:17Z",
   "gaps": [
-    "FY2025 연간 영업활동현금흐름·NT$ 설비투자·영업이익·현금·차입금 (20-F S30 본문 미확인)",
-    "FY2025 순이익 NT$1.7178조는 단일 보도 출처뿐이라 20-F로 교차 확인 필요",
-    "FY2025Q1~Q3, FY2026Q1~Q2 분기별 매출·영업현금흐름·설비투자 단독 값 — TTM 계산 불가",
-    "3Q26 영업현금흐름·설비투자·현금·차입금, 3Q콜에서 갱신된 2026 설비투자 가이던스 (XTB 요약의 US$64bn은 미확인)",
-    "TWD/USD 시장 환율(기준일 직전 거래일 현물). 가이던스 가정치 31.8은 시장 환율이 아님",
+    "FY2025 연간 영업활동현금흐름·NT$ 설비투자: 집계 사이트마다 값이 다르다(OCF 약 NT$2.3~2.38조, 설비투자 약 NT$1.29~1.3조). 20-F(S30) 현금흐름표 원문을 읽지 못해 사실로 넣지 않았다",
+    "FY2025Q4 단독 매출(TTM 4분기 중 하나), FY2026Q1 영업현금흐름·설비투자, FY2026Q3 영업현금흐름·설비투자: 확인하지 못해 TTM의 ocf·capex는 계산할 수 없다",
+    "FY2026Q2 영업현금흐름·설비투자와 FY2026Q3 매출 가이던스는 어닝콜 원문이 아닌 검색 요약으로만 확인했다(단일 경로)",
     "FY2026·FY2027 매출·EPS 컨센서스",
-    "과거 가이던스 2~4개 분기 (3Q26 가이던스 US$44.6~45.8bn은 단일 보도로만 확인되어 사실로 넣지 않음)",
-    "희석 주식 수 최신값, 어닝콜 원문 본문(핵심 Q&A, 2027 '신중' 발언의 구체 내용)",
+    "과거 가이던스 2~4개 분기: 3Q26 가이던스만 확인했고 실제와 대조할 다른 분기는 없다",
+    "희석 주식 수 최신값, 현금·차입금 최신값(2025·2026 분기)",
+    "어닝콜 원문 본문(2027 '신중' 발언의 구체 내용, 3Q콜에서 갱신된 2026 설비투자 가이던스)",
     "고객 집중도, 공정별(2nm·3nm·5nm)·HPC 매출 비중, 웨이퍼 가격 인상, CoWoS 캐파",
     "회계 품질 단서(감사의견·감사인 변경·정정·특수관계자 거래), 경영진 보상·내부자 매매",
     "삼성 파운드리·인텔 18A 등 경쟁사와 ASML·엔비디아 교차 확인, 지정학·관세 리스크",

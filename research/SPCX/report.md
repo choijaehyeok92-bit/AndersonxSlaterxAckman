@@ -2,9 +2,9 @@
 
 **판정 불가 — 근거 충분성** — 토론 전 단계에서 멈춤
 
-- 게이트: 근거 충분성 ✗ 연간 매출 사실 0개 < 2개; 주가·주식 수 없음 — 시장 가격과 비교할 수 없다
+- 게이트: 근거 충분성 ✗ 연간 매출 사실 1개 < 2개
 
-> 게이트에서 멈췄다 — 뒤 단계(모델·토론)는 실행하지 않는다. 이유: 연간 매출 사실 0개 < 2개; 주가·주식 수 없음 — 시장 가격과 비교할 수 없다
+> 게이트에서 멈췄다 — 뒤 단계(모델·토론)는 실행하지 않는다. 이유: 연간 매출 사실 1개 < 2개
 
 ## 5. 확신도와 비중
 
@@ -13,9 +13,32 @@
 
 
 - ⚠ call 유형 근거 없음 — 리서치 보강 필요
-- ⚠ 주가 사실 없음 (metric=price, basis=market, 단위 USD/share 또는 USD/ADR)
 ## 계산 근거 (L3)
 
+### 재무 이력 (코드 계산 · 인용은 C:지표@기간, 예: C:fcf_margin@FY2025)
+
+| 지표 (키) | FY2025 |
+|---|---|
+| 매출 (revenue) | 187.0억 USD |
+| 설비투자 (capex) | 207.0억 USD |
+
+표에 없는 키도 인용할 수 있다: adjusted_ebitda, debt_total
+
+### 시장 · FY2025 기준 (C:키)
+
+| 항목 | 값 |
+|---|---|
+| 주가 (price) | 146.03 USD/share (2026-10-16, F19) |
+| 희석 주식 수 (shares) | 58.6억 |
+| 시가총액 (market_cap) | 8,563.2억 USD |
+| 순현금 (net_cash) | 617.2억 USD |
+| EV (ev) | 7,946.0억 USD |
+| FCF 수익률 (fcf_yield) | — |
+| P/FCF (p_fcf) | — |
+| EV/매출 (ev_revenue) | 42.49x |
+| PER (pe) | — |
+| 순부채/EBITDA (net_debt_to_ebitda) | — |
+| 현금 소진 연수 (runway_years) | — |
 
 ### 회계 품질 신호 (코드 계산 — forensic이 하나씩 해명해야 한다)
 
@@ -25,11 +48,7 @@
 
 - 앤더슨 case={"from": "bull"}: 
 - 슬레이터 case={"from": "base"}: 
-- 애크먼 case={"from": "base"}: leveraged=아니오
-
-### 계산 경고
-
-- 주가 사실 없음 (metric=price, basis=market, 단위 USD/share 또는 USD/ADR)
+- 애크먼 case={"from": "base"}: price=146.0, leveraged=아니오
 
 ## 근거
 
@@ -65,3 +84,5 @@
 | S28 | news | 2026-10-13 | [SpaceX Dragon Lifts Off for Thursday Cargo Delivery - NASA (.gov)](https://news.google.com/rss/articles/CBMipgFBVV95cUxPUEJfNDNWV2dRTnhkRjU0QzZ4UTdwM05xSE5WQVdFaU5BVllXclo5YmF1OHN4QzdzMXpoMkhYdm1XMzdFc1FHTDRicEtCdkZya2d5LWRMMTFZQm5ZSjBwNXZrVUVfc1dTbjNwd3AzMmRsTk12c21QQ3dhUl95VTNuVS1zeTNTMXI5ZERFdmlLNFg0RFJ4MWVkM0ZqMzI1M1JWbTRTVFVn?oc=5) | NASA (.gov) |
 | S29 | news | 2026-10-13 | [SpaceX Dragon Counts Down to Launch for Station Resupply Mission - NASA (.gov)](https://news.google.com/rss/articles/CBMitwFBVV95cUxOLTJTbzBwM2k1RjhKSmpvTjZtU181TjRYSE1tZnJaalBZM04xdGtjWkJ4d0ZRTmM0X25FRkNLWnNCNEVudDVpUTB2dFNlWlZxeUNIdl9HQWxTSlRkbm5LWjZ1WVNnUXlHUUNLNGlkN1VBMGFkd2I1RFYzR2Z1RXU1dEtoTDJ5ZnVEaUJCZ29BNzl5NHhmZjQ0U3UtazRaNmdMZ1hDNEJGTEJYMHJXRjZoVmxwRGVkYlE?oc=5) | NASA (.gov) |
 | S30 | news | 2026-09-19 | [NASA awards SpaceX $946 million for 3 more astronaut missions to the ISS - Space](https://news.google.com/rss/articles/CBMizAFBVV95cUxOVGlvX2gzOEhfbTlqTVZreXg2RTctM0ZzZXJURk1mRzhRaHZUU1JkeWJHUFZLWUo0ZndDLUZpemJ1bnJqYTU0NGJBRDJEWmlXVWNsdXBoRTM5eFByVWVMWGUwZ0l2VTlkTmZXcDlYcXM5ZXBKTWxwNTVxVDV2VWRsX2oyOGhfbGJEYU9CZUxxQ2xkcmJIRkpZeUNibXFrMTc3V3VSNk1rZldudkZMM19DOGdPT0htSGxJc3hlSThERlY5UE9iS3VhdkRZVjU?oc=5) | Space |
+| S31 | data | 2026-10-16 | [Yahoo Finance SPCX historical prices](https://finance.yahoo.com/quote/SPCX/history/) | 2026-10-16 종가 146.03 USD |
+| S32 | news | 2026-05-21 | [SpaceX S-1 analysis (Tom Tunguz)](https://tomtunguz.com/spacex-s1-analysis) | 2차 자료(블로그 분석). S-1 인용 수치로, 재무제표 원문이 아니다. FY2025 연결 매출 187억 달러, 조정 EBITDA 66억 달러, 총 설비투자 207억 달러. 부문별로는 Starlink 매출 114억 달러·영업이익 44억 달러·설비투자 42억 달러, Space 매출 41억 달러·영업손실 6.57억 달러·설비투자 38억 달러, AI 매출 32억 달러·영업손실 약 64억 달러·설비투자 127억 달러. Starlink 가입자는 2023년 230만, 2024년 440만. 연결 순이익·영업현금흐름·현금은 이 글에 없다. |

@@ -6,22 +6,22 @@
 
 ## 1. Variant perception
 
-- 시장이 반영한 것: 현재 주가는 매출 성장 20%대가 길게 이어지고 이익이 크게 개선된다는 가정을 담고 있다. 최근 가이던스 상향과 분석가 목표가 상향이 주가를 밀어 올렸다. 시장이 가격에 반영한 성장률은 역DCF(C:implied_cagr)로 확인한다. FY2027 이후 컨센서스는 수집하지 못해 대조할 수 없다. FY2026 컨센서스(F150)는 가이던스 상향 전 값일 수 있다.
-- 우리가 다르게 보는 점: FY2026 매출은 시장과 크게 다르지 않게 본다. 다만 시장이 보는 이익 개선은 조정 EBITDA와 평가이익에 기댄 부분이 크다고 본다. SBC와 희석을 비용으로 보면 주주에게 돌아오는 가치는 매출 성장보다 느리게 늘어난다. 우리는 기본 시나리오의 가치가 현재 주가와 비슷한 수준이거나 그 아래라고 본다. 상승 여력은 강세 시나리오(고성장과 마진 레버리지가 함께 오는 경우)에 집중되어 있다.
-- 왜 우리가 맞는가: 2분기 순이익 흑자는 영업이 아닌 미실현 평가이익에서 나왔고 영업손실은 계속된다. 조정 EBITDA는 SBC를 제외한 값이라 GAAP 영업이익과 격차가 크다. 분기 SBC는 계속 늘었고 희석도 크다. 매출채권과 DSO가 늘어 현금 회수가 매출 성장을 따라가지 못한다. 여기에 $1.5B Personalis 인수는 보유 현금보다 크지만 조달 방식이 알려지지 않았다. 이 인수가 주식으로 조달되면 희석이 커진다. [F80] [F95] [F149] [F130] [C:dso@FY2025] [C:dilution] [F150] [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5) [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm)
-- 촉매: Personalis 인수 대금 조달 방식 공개, 3분기·4분기 실적(영업손실 폭, 매출채권, SBC), 2027년 가이던스.
-- 시점: FY2026 4분기 실적 발표(2027년 초)와 인수 종결 시점(4Q26~1Q27)
+- 시장이 반영한 것: 주가는 2026-10-05 83.55달러에서 10-16 64.72달러로 내렸다(S38). 하루 낙폭은 약 -9%였고 사유는 확인하지 못했다. 7~8월에는 가이던스 상향과 Personalis 인수 발표 뒤 급등했다(S22, S29). 시장은 25% 안팎 성장 가속과 GAAP 흑자 전환을 이미 가격에 넣은 듯하다. 코드의 EV·역DCF는 희석 주식 수 단위 오류로 쓸 수 없다(forensic 지적). 시가총액은 F145와 F146으로 따로 구해야 하고, 시장 내재 성장은 검증하지 못했다. FY2026 컨센서스(F150)는 가이던스 상향 전 값일 수 있고 FY2027·FY2028 컨센서스는 없다.
+- 우리가 다르게 보는 점: 매출 성장은 가이던스대로 간다고 본다. 우리가 다르게 보는 것은 수익의 질이다. 2Q26 GAAP 순이익 흑자는 미실현 시장성증권 평가이익에서 나왔고, 영업이익은 -7,591만 달러였다(F80, F95, S40). 조정 EBITDA 흑자는 SBC를 빼고 얻은 숫자다(F149). SBC 차감 FCF 기준으로 보면 손익분기는 시장 서사보다 늦고, 인수와 SBC로 인한 희석이 주당 가치를 깎는다고 본다.
+- 왜 우리가 맞는가: 근거 세 가지다. 첫째, 영업손실이 FY2025 -19.9% 마진(C:operating_margin@FY2025)에서 분기 기준으로 줄지 않았다(F94, F95). 둘째, 분기 SBC가 FY2025Q3 3,398만에서 FY2026Q2 5,412만 달러로 계속 커졌다(F128, F130). 셋째, 현금 소진 연수가 2.3년인데 Personalis 인수 규모(S19)는 현금(F15)보다 크다. 조달 방식이 미확인이어서 희석 위험을 가격이 충분히 반영했는지 알 수 없다. [F80] [F95] [F149] [F94] [F128] [F130] [F15] [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5) [S38](https://stockanalysis.com/stocks/tem/history/) [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [C:runway_years] [C:operating_margin@FY2025]
+- 촉매: 3Q26 실적(영업손실과 SBC), Personalis 인수 종결과 조달 조건 공개, 10-K의 시장성증권 구성과 감사 관련 사항 공개
+- 시점: 2026년 4분기~2027년 1분기
 - 컨센서스 대비 revenue FY2026: +0.8% (16.0억 USD vs 15.9억 USD)
 
 ## 2. 시나리오 분포와 기대수익률
 
-확률 가중 IV **40,415.98** vs 주가 64.72 · 기대 연 수익률 **+298.6%** · 손실 확률 0%
+확률 가중 IV **33,674.34** vs 주가 64.72 · 기대 연 수익률 **+284.3%** · 손실 확률 0%
 
 | 시나리오 | 확률 | 주당 가치 | IV | 연 수익률 | 근거 |
 |---|---|---|---|---|---|
-| 약세 | 30% | 8,762.59 | 5,440.88 | +166.9% | 올해 가이던스는 달성하지만 이후 성장이 급격히 꺾이는 경우다. 데이터·애플리케이션 부문의 제약사 계약 갱신이 부진하고, 진단 검사의 상환 단가가 낮아지고, 매출채권 회수(DSO)가 더 길어진다. Personalis  |
-| 기본 | 50% | 66,903.40 | 41,541.74 | +300.8% | 첫해는 회사 가이던스 중간값(Personalis 제외)을 그대로 따른다. 이후 성장률은 매년 낮아져 5년 연평균 20% 안팎이다. 기저율상 드문 구간이므로 가정을 더 높이지 않았다. FCF 마진은 FY2025의 음수 |
-| 강세 | 20% | 145,049.30 | 90,064.20 | +367.8% | 진단 물량이 늘고 데이터 사업이 대형 제약 계약으로 확장되며(Recursion 제휴 확대가 한 사례), Personalis가 진단 매출과 마진에 더해지는 경우다. 고정비 레버리지가 나타나 FCF 마진이 22%까지 오 |
+| 약세 | 30% | 4,741.27 | 2,943.96 | +136.0% | 이 시나리오는 2026년 가이던스는 거의 맞추지만 그 뒤 성장이 급격히 꺾이는 경우다. 2Q26 매출은 +22%였고 종양학 검사 물량은 +31%였다. 그러나 매출채권 회수가 계속 느려지고(C:dso@FY2025) 데 |
+| 기본 | 50% | 56,533.21 | 35,102.68 | +287.5% | 2026년은 가이던스 중간값(F147) 수준으로 약 26% 성장하고, 이후 성장은 둔화하며 규모의 효과가 쌓인다. 근거는 FY2023~FY2025 FCF 마진이 -46.8%, -30.5%, -18.8%로 개선된 추세 |
+| 강세 | 20% | 122,719.35 | 76,199.06 | +352.5% | MRD와 xT CDx·xF가 2028년 증분 매출 약 $400M 목표(S45)를 넘어서고, 데이터 사업이 제약사 계약 확대(S20)로 고마진 반복 매출이 되는 경우다. 규모의 효과가 영업 단계까지 내려와 FCF 마진 |
 
 ## 3. 반증 조건 (thesis break)
 
@@ -34,210 +34,240 @@
 - [자료 없음] 애크먼: 3분기 GAAP 영업이익이 흑자로 돌아서면 예측 가능성 반대 논거가 약해진다 — `operating_income > 0` (FY2026Q3)
 - [자료 없음] 애크먼: 영업현금흐름이 양수로 돌아서면 자본시장 의존 논거가 약해진다 — `ocf > 0` (FY2026Q3)
 - [수동 확인] 애크먼: Personalis 인수를 보유 현금만으로 조달한다고 공시 — 수동 확인
-- [미충족] 레드팀: 영업권이 10억 USD를 넘음 — 대형 인수가 종결되어 손상 위험이 대차대조표에 올라옴 — `goodwill > 1e+09`
-- [미충족] 레드팀: 분기 영업손실이 1분기(−8,471만 USD)보다 커짐 — 비용 레버리지가 아니라 비용 확대가 진행 중 — `operating_income < -8.5e+07`
-- [미충족] 레드팀: 매출채권이 4.0억 USD를 넘음 — 2분기(3.6억)보다 더 늘어 회수 지연이 진행 중 — `receivables > 4e+08`
-- [미충족] 레드팀: 이연매출이 7,000만 USD 아래로 내려감 — 선수금·계약 유입 둔화, 데이터 계약 갱신 부진 — `deferred_revenue < 7e+07`
+- [미충족] 레드팀: 분기 SBC가 2Q26의 5,412만 USD(F130)를 넘어 계속 커짐 — 주식 보상과 조달로 희석이 이어지는 중 — `sbc > 6e+07`
+- [미충족] 레드팀: 분기 영업손실이 1Q26 수준(-8,471만 USD, F94)보다 나빠짐 — 규모의 효과가 영업 단계로 내려오지 않음 — `operating_income < -8e+07`
+- [미충족] 레드팀: 매출채권이 FY2026Q2의 3.6억 USD(F103)를 크게 넘어 늘어남 — 매출보다 빠른 채권 증가가 이어지는 중 — `receivables > 4e+08`
+- [미충족] 레드팀: 이연수익이 FY2026Q1의 7,287만 USD(F22) 아래로 내려감 — 데이터 계약 선수금이 줄어드는 중 — `deferred_revenue < 7e+07`
 
 ## 4. 모니터링 KPI (예측 — 교정의 재료)
 
 | ID | 지표 | 기간 | 기대 | 확률 | 이유 |
 |---|---|---|---|---|---|
-| K1 | revenue | FY2026 | >= 1.6e+09 | 60% | 가이던스 중간값 달성 여부로, 성장 가속이 가이던스대로 이어진다는 기본 시나리오 첫해 가정을 시험한다. |
-| K2 | adjusted_ebitda | FY2026 | >= 6.5e+07 | 65% | 경영진이 유지한 수익성 가이던스의 신뢰도를 본다. 이 지표 달성이 GAAP 영업이익 개선으로 이어지는지는 아래 KPI로 따로 본다. |
-| K3 | operating_income | FY2026Q3 | >= -7e+07 | 45% | SBC가 늘어도 영업손실이 2분기보다 줄어드는지 확인한다. 줄지 않으면 마진 개선 경로(기본·강세)가 약해진다. |
-| K4 | revenue | FY2026Q3 | >= 4.1e+08 | 60% | 연간 가이던스가 하반기 매출 가속을 전제하므로 3분기가 그 가속의 첫 확인점이다. |
+| K1 | revenue | FY2026 | >= 1.6e+09 | 60% | 가이던스 중간값 달성 여부다. 기본 시나리오 첫해의 26% 성장 가정을 시험한다. |
+| K2 | adjusted_ebitda | FY2026 | >= 6.5e+07 | 65% | 유지된 수익성 가이던스의 신뢰도를 본다. 경영진 가이던스 이력이 없어 첫 확인점이다. |
+| K3 | operating_income | FY2026Q3 | >= -7e+07 | 45% | SBC가 늘어도 영업손실이 2분기(-7,591만)보다 줄어드는지 확인한다. 줄지 않으면 FCF 마진 15% 경로가 약해지고 약세 시나리오 비중이 커진다. |
+| K4 | revenue | FY2026Q3 | >= 4.1e+08 | 60% | 연간 가이던스는 하반기 매출 가속을 전제로 한다. 3분기가 그 가속의 첫 확인점이다. |
+| K5 | mrd_tests | FY2026Q3 | >= 10000 | 55% | MRD가 2028년 증분 매출 서사(S45)의 동력인지 본다. 2분기 9,000건에서 분기 증가가 이어져야 한다. |
 
 ## 5. 확신도와 비중
 
-- 확신 가중 점수 -0.33 · 비중 참고값 0.0% (반대 우세 — 신규 비중 없음) · 슬레이터 시작 비중 1.0%
+- 확신 가중 점수 -0.33 · 비중 참고값 0.0% (반대 우세 — 신규 비중 없음) · 슬레이터 시작 비중 0.0%
 - **최종 확신도와 비중은 사람이 정한다** — `python3 council.py decide <TICKER> --size 0.02 --note "이유"`
 
 ## 표결
 
 | 에이전트 | 1라운드 → 최종 | 확신 | 레드라인 | 논거 검증 | 지표 (코드 계산 포함) |
 |---|---|---|---|---|---|
-| 앤더슨 | 보류 → 보류 | 2/5 | ✓ | 1/5 실패 | founder_led=예, upside_10y=4077.05x, revenue_5y=2.81x |
-| 슬레이터 | 보류 → 보류 | 2/5 | ✓ | 1/5 실패 | unit_economics=unclear, starter_weight=1.0%, cash_survives=예, cash_min=3.1억 USD |
-| 애크먼 | 반대 → 반대 | 5/5 | ✗ 단순·예측 가능한 사업이 아님; 잉여현금흐름을 만들지 못함 (코드 계산); 레버리지·자본시장 의존 | 1/5 실패 | simple_predictable=아니오, capital_markets_dependent=예, catalyst=없음. Personalis 인수 조달 방식 공개는 희석 위험을 키울 수 있는 사건이지 가치와 가격의 격차를 좁히는 행동이 아니다., intrinsic_value=5,440.9, mos=98.8% |
+| 앤더슨 | 보류 → 보류 | 2/5 | ✓ | 1/5 실패 | founder_led=예, upside_10y=4227.59x, revenue_5y=2.74x |
+| 슬레이터 | 보류 → 보류 | 2/5 | ✓ | 0/5 실패 | unit_economics=unclear, starter_weight=0.0%, cash_survives=예, cash_min=3.1억 USD, runway_years=2.3 |
+| 애크먼 | 반대 → 반대 | 5/5 | ✗ 단순·예측 가능한 사업이 아님; 잉여현금흐름을 만들지 못함 (코드 계산); 레버리지·자본시장 의존 | 1/5 실패 | simple_predictable=아니오, capital_markets_dependent=예, catalyst=없음, fcf_positive=아니오, intrinsic_value=2,944.0, mos=97.8% |
 
-- ⚠ 앤더슨: arguments[1] unsupported: 출처 없는 숫자 2.75e+10, 1.17e+10, 2.4 — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
-- ⚠ 앤더슨: rebuttals[2] unsupported: 출처 없는 숫자 7e+07 — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
-- ⚠ 앤더슨: arguments[1]: 인용하지 않은 근거의 숫자 7.9e+08(C:fcf@bull) — cites에 추가
-- ⚠ 슬레이터: rebuttals[1] unsupported: 없는 근거 인용: C:cash_survives
-- ⚠ 슬레이터: arguments[0] unsupported: 없는 근거 인용: C:cash_survives
-- ⚠ 애크먼: rebuttals[1] unsupported: 없는 근거 인용: C:cash_survives
-- ⚠ 애크먼: arguments[4] unsupported: 출처 없는 숫자 1.17e+10 — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
-- ⚠ 애크먼: rebuttals[0] unsupported: 출처 없는 숫자 2.4 — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
-- ⚠ 애크먼: arguments[1] leap: OCF -2.18억과 인수 규모는 맞지만, 현금이 외부 조달로 늘었다고 단정하고 자본시장 의존이 구조적이라고 한 것은 인용 자료에서 따라 나오지 않는다.
-- ⚠ 애크먼: rebuttals[2]: 인용하지 않은 근거의 숫자 99.8%(C:operating_margin@FY2024) — cites에 추가
-- ⚠ 애크먼: arguments[4]: 인용하지 않은 근거의 숫자 99.8%(C:operating_margin@FY2024) — cites에 추가
-- ⚠ call 유형 근거 없음 — 리서치 보강 필요
+- ⚠ 앤더슨: arguments[2] unsupported: S39는 Class A/B 이중 구조만 보이고 S44는 Lefkofsky를 CEO로만 적어 '창업자'임은 인용에 없다.
+- ⚠ 앤더슨: risks[1] contradicted: 인용한 F94(-8,471만)와 F95(-7,591만)는 영업손실이 줄었음을 보여 '줄지 않았다'와 어긋난다.
+- ⚠ 슬레이터: risks[1] unsupported: 인용은 FY2025 DSO 한 점과 매출채권 한 점뿐이라 '매출보다 빨리 늘고 DSO가 길어지고 있다'는 추세를 보일 수 없다.
+- ⚠ 슬레이터: rebuttals[0] unsupported: 출처 없는 숫자 1.17e+10 — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- ⚠ 슬레이터: rebuttals[1] leap: 소진 2.3년, 인수액>현금, 물량 +31%·MRD 9,000건은 맞지만 회사 검사 물량으로 '시장이 커지고 있다'고 단정하는 것은 비약이다.
+- ⚠ 슬레이터: risks[2] unsupported: 이연수익 F23 한 점만으로는 '정체'를 보일 수 없고, 직전 분기보다 오히려 늘었으며 1년 전보다 낮은 점은 인용에 없다.
+- ⚠ 슬레이터: rebuttals[0]: 인용하지 않은 근거의 숫자 22%(C:deferred_revenue_growth@FY2025·C:fcf_margin@bull·C:revenue_cagr@bull) — cites에 추가
+- ⚠ 슬레이터: rebuttals[2]: 인용하지 않은 근거의 숫자 3%(C:fcf_margin@bear) — cites에 추가
+- ⚠ 슬레이터: arguments[3]: 인용하지 않은 근거의 숫자 1.5e+09(C:total_assets@FY2025Q1·F133·S21) — cites에 추가
+- ⚠ 애크먼: arguments[3] unsupported: 출처 없는 숫자 1.17e+10 — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- ⚠ 애크먼: rebuttals[1] unsupported: 출처 없는 숫자 1.17e+10 — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- ⚠ 애크먼: arguments[0] leap: FCF 마진 개선과 두 축 매출은 맞지만, 인수 효과가 섞였다는 근거로 성장률 83.4%만 인용해 유기 성장 분리 불가를 이끌어 내는 것은 비약이다.
+- ⚠ 애크먼: rebuttals[2]: 인용하지 않은 근거의 숫자 3%(C:fcf_margin@bear) — cites에 추가
 - ⚠ 모델이 컨센서스와 사실상 같다 — variant perception이 없다면 알파도 없다
 - ⚠ 기저율 표 없음 — `python3 council.py baserate`로 data/base_rates.json을 만든다
-- ⚠ 사업·산업 findings[0]: 인용하지 않은 근거의 숫자 1.27e+09(C:revenue@FY2025·F107) — cites에 추가
-- ⚠ 레드팀 weakest[0] 검증 실패(unsupported): 없는 근거 인용: C:base_rate@base
-- ⚠ 경영진·자본배분 findings[3] 검증 실패(unsupported): 출처 없는 숫자 3% — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
-- ⚠ 회계 품질 flags[1]: 인용하지 않은 근거의 숫자 1.5e+09(C:total_assets@FY2025Q1·F133·S21) — cites에 추가
+- ⚠ 회계 품질 findings[5] 검증 실패(unsupported): 없는 근거 인용: C:deferred_revenue_growth
+- ⚠ 레드팀 premortem[0] 검증 실패(contradicted): S38에서 83.55달러(10-05)→64.72달러(10-16)는 11일간 약 -22%이고, 하루 -9%는 71.13→64.72(10-15→10-16)뿐이라 주장이 기간을 섞어 잘못 옮겼다.
+- ⚠ 레드팀 premortem[1] 검증 실패(contradicted): F94(-8,471만)에서 F95(-7,591만)로 영업손실이 줄었으므로 '줄지 않았다'는 인용값과 반대다.
+- ⚠ 경영진·자본배분 findings[3] 검증 실패(unsupported): FY2024 희석 89.3%와 FY2024 SBC/매출 77.0%·SBC 5.3억은 인용에 없다. 분기 SBC와 FY2025 값(45.4%, 9.8%, 40.4%)은 맞다.
+- ⚠ 회계 품질 flags[1] 검증 실패(unsupported): 희석 증가가 IPO 우선주 전환과 2025년 인수에서 비롯됐다는 원인은 인용 어디에도 없고 주식 수 증가 값만 있다.
+- ⚠ 모델러 variant 검증 실패(contradicted): F94(-8,471만)에서 F95(-7,591만)로 분기 영업손실이 줄었는데 '분기 기준으로 줄지 않았다'고 썼다.
+- ⚠ 레드팀 premortem[2] 검증 실패(unsupported): DSO FY2023 64.8일은 인용에 없다. 이외 FY2025 DSO, 매출채권 3.1억→3.6억, 음수 OCF는 맞다.
+- ⚠ 모델러 scenarios.bear 검증 실패(unsupported): +22%와 +31%는 인용 자료에 없고, 영업손실이 줄지 않는다는 말도 F95 한 점으로는 보일 수 없다.
+- ⚠ 레드팀 weakest[2] 검증 실패(unsupported): 없는 근거 인용: C:base_rate@base
+- ⚠ 경영진·자본배분 findings[5]: 인용하지 않은 근거의 숫자 20%(C:operating_margin@FY2025·C:p@bull·S40) — cites에 추가
+- ⚠ 회계 품질 flags[0] 검증 실패(unsupported): FY2023 DSO 64.8일과 문턱 15%p는 인용에 없다. 이외 매출채권 격차 33.5%p, DSO 81.5·89.3일, 매출채권 증가는 맞다.
+- ⚠ 회계 품질 findings[7] 검증 실패(unsupported): S9는 내용이 없는 목록 항목이라 '대주주가 이사회와 경영진을 겸한다'는 사실을 받쳐 주지 못한다.
+- ⚠ 회계 품질 findings[3]: 인용하지 않은 근거의 숫자 20%(C:operating_margin@FY2025·C:p@bull·S40) — cites에 추가
+- ⚠ 사업·산업 findings[1] 검증 실패(unsupported): 출처 없는 숫자 2.026e+15 — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- ⚠ 레드팀 weakest[1] 검증 실패(unsupported): 희석 45.4%·40.4%, 소진 2.3년, 조달 미확인은 맞지만 'SBC 분기 5천만 달러대'는 인용에 SBC 값이 없어 받쳐지지 않는다.
 
 ## 앤더슨 — 보류 (2/5)
 
-> 매출이 연 20%대로 크는 성장 플랫폼이고, 진단에서 쌓은 데이터를 제약사에 파는 구조는 내가 관심을 두는 유형이다. 그런데 이 종목이 5배가 될 수 있다는 증거는 아직 없다. 코드가 낸 10년 상방 배수는 희석 주식 수가 천 단위로 저장된 탓에 수천 배로 부풀려져 있다. 이 숫자로 찬성하는 것은 오류를 이용하는 일이다. 실제 시가총액은 주가와 발행주식(F146)으로 보면 100억 달러대 초반이다. 강세 시나리오를 5년 돌려도 시총은 2배 반 안팎이다. 10년으로 늘려도 5배에 확신하기 어렵고, 여기에 인수 조달이 낳을 희석이 얹힌다. 단위경제(총이익률·검사 물량·순매출유지율)가 수집되지 않았고, 2분기 흑자는 평가이익에서 나왔다. 상방은 크지만 입증되지 않았다. 지금은 찬성도 반대도 하지 않고, 데이터 사업의 계약 잔고와 영업손실 개선이 확인되면 다시 본다.
+> 성장 가설은 살아 있다. 매출 성장이 가속하고, 종양학 검사 물량과 MRD가 늘고, 적자 폭은 해마다 줄어든다. 그러나 앤더슨의 기준은 5년 안에 5배가 현실적인가이고, 이 입력에서는 그 질문에 답할 수 없다. 코드의 10년 가치 계산(upside_10y 4227배)은 희석 주식 수 단위 오류(F32는 천 주 단위, F146은 주 단위) 때문에 무의미하다. 이 값이 5배 문턱을 넘었다고 찬성할 수는 없다. 주가(F145)와 발행주식(F146)으로 따로 보면 시가총액은 약 117억 달러이고, bull 시나리오도 5년 뒤 약 2배에 그친다. 10년에 5배가 되려면 bull 이후에도 성장이 이어져야 한다. 게다가 Personalis 인수 조달이 불명확하고 분기 SBC가 계속 커지고 있다. 방향은 맞아 보이지만, 확신 없이 담을 만큼 비대칭이 입증되지 않았다. 그래서 반대가 아니라 보류다.
+
+*이전 판단 대비: 직전 판단과 같은 보류·확신 2다. 새 근거는 없고, 이번에는 코드 계산값(upside_10y)이 주식 수 단위 오류로 신뢰할 수 없어 레드라인 통과를 근거로 쓰지 않는다는 점을 분명히 했다(F32, F146).*
 
 **논거**
-- 성장은 실재한다. 2분기 매출은 +22%이고 연간 가이던스는 약 +25%로 상향됐다. FY2025의 83.4% 성장은 인수 효과가 섞여 있어 유기적 성장으로 읽지 않는다. 그래도 20% 중반 성장이 큰 규모에서 이어지는 것은 질문 1(5년 내 매출 2배)에 부합한다. [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [F147] [C:revenue_growth@FY2025]
-- 강세 시나리오는 연 22.9% 성장, FCF 마진 22%, 출구 P/FCF 35배다. 질문 10의 5배 경로를 보려면 이 가정으로 부족하다. 추정: 5년 뒤 강세 매출 35.7억 USD × FCF 마진 22% ≈ 7.9억 USD, × 35배 ≈ 275억 USD다. 현재 시총 추정치 약 117억 USD(주가 64.72 × 발행주식 1.80435억 주)의 2.4배 안팎이고, 희석 전 값이다. [C:revenue@bull] [C:fcf_margin@bull] [C:exit_multiple@bull] [C:revenue_cagr@bull] [F145] [F146]
-- 코드가 계산한 upside_10y는 믿지 않는다. 희석 주식 수 F32가 천 단위로 저장돼 시가총액·EV·주당 가치가 모두 단위 오류다. 모델 표의 주당 가치가 수만 달러로 나오는 것도 같은 원인이다. 이 값으로 레드라인을 통과하는 것은 분석이 아니다. 판단은 발행주식 F146 기준의 내 추정으로 한다. [F32] [F146] [C:market_cap] [C:ev]
-- 질문 9에 대한 답은 아직 없다. 시장이 이 기회를 과소평가한다는 근거를 찾지 못했다. 가이던스 상향과 목표가 상향으로 주가가 크게 올랐다는 보도가 있고, 시장은 이미 20%대 성장을 길게 가격에 담은 것으로 보인다. FY2027 이후 컨센서스가 없어 variant를 확인할 수 없다. 모델의 FY2026 매출도 컨센서스와 +0.8% 차이뿐이다. [S23](https://news.google.com/rss/articles/CBMilwFBVV95cUxPTUFTRVJtSy1LTklQUzRkV3JfVllFTXFtSElRVnBLeHBiTVBzSi1yTHhZVm43M1A0QU04NnMxYzROR0R6ZUxpZmQ2dEJkTG83NGZRZGJNekVEQTVEX1dVOS1NNFRzTDN0SUdiUUdVSnJ0UU81cnVicUFkQVlURklTalNxMUVYaVRYLTczUEU4bkgxRGxsNVJr?oc=5) [S29](https://news.google.com/rss/articles/CBMilAFBVV95cUxQWTZKb1VmcG5EMVkyZE9KZjlfTkJ4QWRZdlU4bnRabHNDdURPa0NZMHdCTk5LYkJoWGxkaFpreVVPU25tVmZpTXQ0cTMtS3JJMDR3em90RnZMR0g4akdCR1p0N1o5STVfLTc0Z21QTWMyd2dKS19ycGJqVk1yOGw5WUZHRW1Jb1BJckdOazRuZEx0Ym1Q?oc=5) [F150] [C:consensus_diff@revenue@FY2026]
-- 이익률 상승 여지(질문 6)는 있다. FCF 마진이 FY2022 -58.2%에서 FY2025 -18.8%로 좋아졌고 현금은 6.0억 USD다. 그러나 영업손실은 2분기에도 크고 SBC는 분기마다 커졌다. 마진 개선이 고정비 레버리지인지 조정 지표의 착시인지 아직 가를 수 없다. [C:fcf_margin@FY2022] [C:fcf_margin@FY2025] [F15] [F95] [F130]
+- 성장 가속이 확인된다. 2분기 매출은 $382.5M(+22%)이고 종양학 검사 물량은 +31%다. 2026 매출 가이던스는 약 +25%로 상향됐고, 여기에는 Personalis 인수 효과가 빠져 있다. 1번 질문(5년 내 매출 두 배)에는 이 속도면 답이 된다. 추정: 연 25%가 5년 이어지면 매출은 약 3배(1.25^5)다. [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [S44](https://quartr.com/events/tempus-ai-inc-tem-q2-2026_F3j4vqTx) [F147]
+- 현금 창출 경로가 개선 중이다. FCF 마진은 FY2023 -46.8%에서 FY2025 -18.8%로 올라왔다. 이익률 상승 여지(6번 질문)는 있다. 다만 SBC 차감 FCF는 FY2025에도 큰 적자여서 이 개선을 아직 이익 개선으로 읽지 않는다. [C:fcf_margin@FY2023] [C:fcf_margin@FY2025] [C:fcf_after_sbc@FY2025]
+- 창업자 CEO가 이끄는 이중 클래스 구조라 시간 지평이 길다. 진단 위에 데이터·애플리케이션을 얹는 구조에서 데이터가 축적될수록 수확체증이 날 수 있다. 다만 이는 가설이다. 계약 잔고(TCV)와 순매출유지율이 없어 해자는 입증되지 않았다. [S44](https://quartr.com/events/tempus-ai-inc-tem-q2-2026_F3j4vqTx) [S39](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326090/tem-20260630.htm) [S34](https://news.google.com/rss/articles/CBMijgFBVV95cUxNU3oxaWJSVXNZYkNva3lMTFl5ZFBBaXBxZjdzcnVaVEdjNU50cXFxSzBPWFhXcDZZOG1YS09ucTJkeVluMlhqWVFoQ3hBY2JWU0pxNXVGay1VMFRWQzdhLXpCX2hpRGdqSkVVajBDWTgzMk8yN1VHbktyS3pQc3c3Ym5FWDM0Xy1MbF9TbUln?oc=5)
+- 추정: 코드 계산이 깨져 있어 직접 가늠한다. 시가총액은 64.72달러에 1.80435억 주를 곱한 약 117억 달러다. bull의 5년 뒤 매출 34.9억 달러에 FCF 마진 22%, 출구 30배를 쓰면 5년 뒤 가치는 약 230억 달러, 곧 현재의 2배 안팎이다. 10년 5배(10번 질문)는 bull 이후 5년 동안 높은 성장과 마진이 이어져야 닿는다. 가능성은 있지만 충분히 입증되지 않았다. [F145] [F146] [C:revenue@bull] [C:fcf_margin@bull] [C:exit_multiple@bull]
+- 시장이 이 기회를 과소평가하는지(9번 질문)는 검증하지 못했다. 역DCF가 단위 오류로 계산되지 않았고 FY2027·FY2028 컨센서스도 없다. 모델은 FY2026 컨센서스와 사실상 같다. 우리가 다르게 보는 것은 성장이 아니라 수익의 질이어서 variant가 성장 쪽 알파를 주지 않는다. [C:consensus_diff@revenue@FY2026] [F150] [F32] [F146]
 
 **사전 부검**
-- 사전 부검: 이 판단이 틀렸다면, 즉 지금 사지 않아 놓치는 경우는 데이터 사업이 대형 제약 계약으로 확장되고 고정비 레버리지가 나타나 마진이 급격히 오르는 경로다. 이 경로의 초기 징후(계약 잔고, 영업손실 축소)를 지금은 볼 수 없다. 증거를 기다리다 구간을 놓칠 위험은 인정한다. [S20](https://news.google.com/rss/articles/CBMickFVX3lxTFB6WnpqMEdtOUNzLW5nTU9JdElFNml1WFZNalBJYzdMa3czeDZUaFNDNVA2S1NDc3o5eVBiRlVxM1dCbFZ6YnJuMThtZGNMWEdBVWhOQ01IU0NPUTduRXE5WU9FS2FtU0RmWUFJQXk3MHVSdw?oc=5) [S34](https://news.google.com/rss/articles/CBMijgFBVV95cUxNU3oxaWJSVXNZYkNva3lMTFl5ZFBBaXBxZjdzcnVaVEdjNU50cXFxSzBPWFhXcDZZOG1YS09ucTJkeVluMlhqWVFoQ3hBY2JWU0pxNXVGay1VMFRWQzdhLXpCX2hpRGdqSkVVajBDWTgzMk8yN1VHbktyS3pQc3c3Ym5FWDM0Xy1MbF9TbUln?oc=5) [F95]
-- 사전 부검: 이 판단이 틀렸다면, 즉 사는 쪽이 옳았다고 해도 Personalis 인수는 조달 방식에 따라 가치를 크게 깎는다. 인수 규모는 보유 현금 6.0억 USD보다 훨씬 크다. 주식이나 전환사채로 조달하면 이미 높은 희석이 더 커진다. [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5) [S21](https://news.google.com/rss/articles/CBMid0FVX3lxTE5FN2N1bEFsMVJ4bTF2VXBRRmp0d2VSSm9Hc0Fvc2dIc0NaR29VOVR5bENBM1E4V0x6WXNiLTUwRkljbW9XMDhoQU9qbGlxY0ZSNnBwQUhvUllPYUoyRTdzNVFHZkwwLWpYSUF5eDlvTENndFQ2S3B3?oc=5) [F15] [C:dilution]
-- 사전 부검: 2분기 순이익 흑자는 미실현 평가이익 98.5M USD에서 나왔고 영업손실은 계속된다. 매출채권과 DSO가 길어져 청구한 매출이 현금으로 돌아오는 속도가 느리다. 이 둘이 성장 가설 자체를 훼손하는지는 확인되지 않았고, 지금은 소음과 신호를 가르지 못한 상태다. [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [F80] [F95] [C:dso@FY2025] [F103]
+- Personalis 인수를 대규모 신주나 전환사채로 치르면 희석이 가파르게 늘어, 5~10년 주당 가치 경로를 훼손한다. 인수 규모는 현금 6.0억 달러보다 훨씬 크고, 희석은 이미 연 40.4%로 경고 상태다. [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5) [F15] [C:dilution]
+- 2분기 GAAP 순이익 흑자는 미실현 시장성증권 평가이익에서 나왔고 영업손실은 줄지 않았다. 성장이 규모의 경제로 이어지지 않으면 FCF 마진 15~22% 가정이 무너진다. 이 경우 성장은 맞아도 가치는 따라오지 않는다. [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [F95] [F94]
+- 매출채권이 매출보다 빨리 늘고 DSO가 길어지고 있다. 매출 성장의 상당 부분이 인수나 느린 수금에 가려진 것이라면 성장 가설 자체가 약해진다. 현금 소진 연수 2.3년은 외부 자본 접근성에 의존한다. [C:dso@FY2023] [C:dso@FY2025] [C:receivables_gap] [C:runway_years]
 
 **반론**
-- → 애크먼: 애크먼의 가장 강한 논거는 영업적자와 자본시장 의존, 그리고 2분기 흑자가 평가이익이라는 점이다. 이 중 평가이익과 영업적자는 인정한다. 그러나 '예측 불가능'이라는 이유로 반대하는 것은 아웃라이어의 초기 구간을 구조적으로 배제하는 기준이다. 현금이 6.0억 USD이고 FCF 마진이 -58.2%에서 -18.8%로 좋아지는 추세를 '구조적 의존'으로 단정할 수는 없다. 의존 여부를 가르는 것은 Personalis 조달 방식이다. 지금 확인되지 않는 것을 확정된 결함처럼 쓰는 것은 과하다. 나는 반대가 아니라 보류에 머문다. [F15] [C:fcf_margin@FY2022] [C:fcf_margin@FY2025] [F95] [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5)
-- → 슬레이터: 슬레이터의 가장 강한 논거는 단위경제 지표가 하나도 수집되지 않아 시작 비중을 정당화할 수 없다는 것이다. 이 점은 동의한다. 다만 나는 증거가 갖춰질 때까지 기다리는 것 자체가 가장 가치 있는 구간을 놓치는 비용이 될 수 있다고 본다. 가이던스 상향과 Recursion 제휴 확대는 고객 접점이 있다는 정황이지 입증은 아니다. 결국 데이터 계약 잔고와 순매출유지율이 확인되는 시점에 판단이 바뀐다는 점에서 우리 둘은 같은 자리에 있다. [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [S20](https://news.google.com/rss/articles/CBMickFVX3lxTFB6WnpqMEdtOUNzLW5nTU9JdElFNml1WFZNalBJYzdMa3czeDZUaFNDNVA2S1NDc3o5eVBiRlVxM1dCbFZ6YnJuMThtZGNMWEdBVWhOQ01IU0NPUTduRXE5WU9FS2FtU0RmWUFJQXk3MHVSdw?oc=5) [S3](https://www.sec.gov/Archives/edgar/data/1717115/000119312526309073/d128960d8k.htm) [S34](https://news.google.com/rss/articles/CBMijgFBVV95cUxNU3oxaWJSVXNZYkNva3lMTFl5ZFBBaXBxZjdzcnVaVEdjNU50cXFxSzBPWFhXcDZZOG1YS09ucTJkeVluMlhqWVFoQ3hBY2JWU0pxNXVGay1VMFRWQzdhLXpCX2hpRGdqSkVVajBDWTgzMk8yN1VHbktyS3pQc3c3Ym5FWDM0Xy1MbF9TbUln?oc=5)
-- → 레드팀: 레드팀의 사전 부검 가운데 성장 가설 자체를 깨는 것은 데이터·애플리케이션 부문의 계약 갱신 부진과 진단 가격 압박이다. 이연매출이 7,000만 USD 아래로 내려가면 신호다. 현재 이연매출은 8,725만 USD로 그 선 위에 있다. 반면 평가이익 의존, 영업손실 지속, 매출채권 증가는 성장 가설을 직접 깨기보다 경로의 소음이거나 이익 질의 문제에 가깝다. 인수 조달에 따른 희석은 성장 가설이 아니라 주당 가치를 깎는 요인이며 가장 실질적인 위험이다. 이 점은 받아들여 상방 계산에서 희석을 보수적으로 둔다. [F23] [S34](https://news.google.com/rss/articles/CBMijgFBVV95cUxNU3oxaWJSVXNZYkNva3lMTFl5ZFBBaXBxZjdzcnVaVEdjNU50cXFxSzBPWFhXcDZZOG1YS09ucTJkeVluMlhqWVFoQ3hBY2JWU0pxNXVGay1VMFRWQzdhLXpCX2hpRGdqSkVVajBDWTgzMk8yN1VHbktyS3pQc3c3Ym5FWDM0Xy1MbF9TbUln?oc=5) [S3](https://www.sec.gov/Archives/edgar/data/1717115/000119312526309073/d128960d8k.htm) [F80] [F95] [C:dso@FY2025] [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5) [C:dilution]
+- → 애크먼: 애크먼의 가장 강한 논거는 현금이 얇아 자본시장에 기댄다는 것이다. 이 점은 맞다. 그러나 '10년 뒤 FCF 범위를 좁힐 수 없다'는 것은 멱법칙 투자에서 결격 사유가 아니라 전제다. 종양학 검사 물량이 빠르게 늘고 FCF 마진이 해마다 개선되는 방향은 확인된다. 반대로 단순성은 내 기준이 아니다. 내 기준은 성장 가설이 살아 있는가이고, 그 가설은 지금 훼손되지 않았다. 그래서 나는 반대가 아니라 보류에 머문다. [S44](https://quartr.com/events/tempus-ai-inc-tem-q2-2026_F3j4vqTx) [F161] [C:fcf_margin@FY2023] [C:fcf_margin@FY2025]
+- → 슬레이터: 슬레이터의 가장 강한 논거는 단위경제(총이익률, CAC, 유지율, ASP)가 수집되지 않았다는 것이다. 이는 인정한다. 다만 증거가 모두 갖춰질 때까지 기다리면 가장 가치 있는 구간을 놓칠 수 있다. 그래서 3분기 영업손실, MRD 물량, 인수 조달 조건이라는 확인점을 미리 정해 두고, 그 결과가 나오면 첫 비중을 키우는 쪽으로 다시 판단한다. 나는 슬레이터와 같은 이유로 기권하되, 기다리는 동안 이 종목을 놓치는 비용을 의식한다. [F95] [F162] [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5) [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm)
+- → 레드팀: 사전 부검 네 가지를 성장 가설을 깨는 것과 경로의 소음으로 나눈다. 수금 지연(DSO)과 SBC 증가는 보험·병원 상환 구조에 걸린 경로의 소음일 가능성이 크고, 상환율 KPI가 나오기 전에는 가설 훼손으로 읽지 않는다. 반면 Personalis 인수를 신주나 전환사채로 조달해 주당 가치가 깎이는 것은 주당 10년 경로를 직접 훼손하므로 가설에 닿는다. 가장 치명적인 것은 데이터·애플리케이션이 반복 매출이 아니라는 시나리오다. 이연수익이 1년 전보다 낮고 애널리스트도 이 사업을 시험대로 본다. 이 둘이 내가 감시할 진짜 반증이다. [C:dso@FY2025] [F130] [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5) [F19] [F23] [S34](https://news.google.com/rss/articles/CBMijgFBVV95cUxNU3oxaWJSVXNZYkNva3lMTFl5ZFBBaXBxZjdzcnVaVEdjNU50cXFxSzBPWFhXcDZZOG1YS09ucTJkeVluMlhqWVFoQ3hBY2JWU0pxNXVGay1VMFRWQzdhLXpCX2hpRGdqSkVVajBDWTgzMk8yN1VHbktyS3pQc3c3Ym5FWDM0Xy1MbF9TbUln?oc=5)
 
 **인정한 점**
-- 애크먼이 짚은 대로 2분기 GAAP 흑자는 평가이익이어서 마진 개선의 증거로 쓸 수 없다. 이 항목은 내 낙관 근거에서 뺀다.
-- 레드팀이 짚은 대로 기본 시나리오의 연 3% 희석은 실제 주식 수 증가와 인수 조달 불확실성에 비해 낙관적이다. 강세 시나리오로 10년을 늘려 봐도 희석이 더 크면 5배 경로는 더 멀어진다.
-- 코드의 upside_10y는 희석 주식 수 단위 오류로 부풀려져 있어 레드라인 통과를 근거로 삼지 않는다. 입장은 찬성이 아니라 보류로 유지한다.
+- 레드팀의 지적대로 모델의 기본 희석 가정은 실제 이력보다 낮다. 그러므로 코드의 10년 주당 가치 계산을 레드라인 통과의 근거로 쓰지 않는다. 입력의 희석 주식 수 단위 오류(F32, F146)까지 겹쳐 있어 이 값은 해석하지 않는다.
+- 애크먼과 슬레이터가 짚은 대로 단위경제와 인수 조달 방식이 확인되지 않아 5배 비대칭이 입증됐다고 말할 수 없다. 그래서 확신을 올리지 않고 보류를 유지한다.
+- variant가 성장이 아니라 수익의 질에 있다는 점은 성장 쪽 알파를 주지 못한다. 이는 내 보류 논거를 약하게 만든다.
 
 
 ## 슬레이터 — 보류 (2/5)
 
-> 매출은 가이던스대로 늘고 있고, 기본 시나리오의 현금 경로로는 외부 자본 없이 버틴다. 그러나 이 종목이 '증거로 키울' 단계인지는 입증되지 않았다. 총이익률, 고객획득비용(CAC), 순매출유지율, 검사 물량 같은 단위경제 지표가 하나도 수집되지 않았다. 2분기 GAAP 흑자는 영업이 아니라 미실현 평가이익($98.5M)에서 나왔고 영업손실은 계속된다. Personalis 인수($1.5B)는 보유 현금보다 크고 조달 방식을 모른다. 가설을 시험할 지표가 없고 생존 경로도 인수 조달에 따라 바뀌므로, 시작 비중을 정당화할 증거가 부족해 찬성하지 않는다. 반대할 만큼 깨진 것도 없다. 지표가 확인되면 입장을 바꾼다.
+> 성장은 증명됐지만 단위경제와 생존 경로는 아직 증명되지 않았다. 그래서 지금은 담지 않고 증거를 기다린다. 2Q26 매출은 $382.5M(+22%)이고 종양학 물량은 +31%로, 기회의 크기와 성장 속도는 확인된다. 반면 총이익률·CAC·순매출유지율은 수집되지 않았고, 영업손실은 줄지 않았다. GAAP 흑자 $5.6M은 평가이익 $98.5M 덕분이다. 현금 6.0억 USD로 소진 연수가 2.3년인데, 현금보다 큰 Personalis 인수($1.5B)의 조달 방식을 모른다. 이 조달이 주식·전환사채로 이뤄지면 희석이 커진다. 외부 자본 없이 계획을 실행할 수 있다고 말할 수 없어 survival_path는 불명이다. 코드의 시가총액·EV·역DCF·시나리오 가치는 희석 주식 수의 단위 오류로 오염돼 있어 쓰지 않는다. 그래서 가격이 싼지 비싼지는 이 표에서 판단하지 않는다. 가설이 깨진 것은 아니므로 반대하지도 않는다. 3분기 영업손실, MRD 물량, 인수 조달 조건이 나오면 첫 비중을 다시 판단한다.
+
+*이전 판단 대비: 직전 판단과 같은 기권이다. 새 근거는 없고 입장과 확신은 바뀌지 않았다. 코드 계산값(시가총액·EV·시나리오 가치)은 단위 오류로 쓰지 않았다.*
 
 **논거**
-- 생존은 현재 기준으로 문제없다. 기본 시나리오의 현금 경로는 모델 기간 내내 0 위에 있고, 분기 말 현금은 FY2026Q2에 6.0억 USD다. 다만 이 계산에는 Personalis 인수가 들어 있지 않다. [C:cash_survives] [F15] [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm)
-- 단위경제를 판단할 증거가 없다. 총이익률, CAC, 순매출유지율, 검사 물량, 데이터 계약 잔고는 수집되지 않았다. 사업 분석도 '불명(unclear)'으로 분류했다. 매출 성장 가속과 영업적자 지속만 확인될 뿐 가설이 입증된 상태가 아니다. [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [F95] [C:revenue_growth@FY2025] [C:operating_margin@FY2025]
-- 2분기 GAAP 순이익 흑자는 미실현 시장성증권 평가이익 $98.5M이 들어간 결과이고 영업손실은 계속된다. 조정 EBITDA는 SBC를 제외한 값이라 5,412만 USD의 분기 SBC와 함께 읽어야 한다. 마진 개선을 증거로 쓸 수 없다. [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [F80] [F95] [F149] [F130]
-- Personalis 인수($1.5B)는 현금보다 크다. 현금·주식·전환사채 중 무엇으로 내는지에 따라 생존 경로와 희석이 모두 바뀐다. 슬레이터가 2022년에 배운 '외부 조달 의존' 위험이 바로 이 지점에 있다. 조달이 확인되기 전에는 시작 비중을 정당화하기 어렵다. [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5) [S21](https://news.google.com/rss/articles/CBMid0FVX3lxTE5FN2N1bEFsMVJ4bTF2VXBRRmp0d2VSSm9Hc0Fvc2dIc0NaR29VOVR5bENBM1E4V0x6WXNiLTUwRkljbW9XMDhoQU9qbGlxY0ZSNnBwQUhvUllPYUoyRTdzNVFHZkwwLWpYSUF5eDlvTENndFQ2S3B3?oc=5) [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [F15]
-- 기회의 크기와 지속성은 긍정적이다. 진단 검사에서 쌓은 데이터를 제약사에 파는 구조는 시장 천장이 보이지 않고, 가이던스 상향과 Recursion 제휴 확대가 고객 접점을 보여 준다. 그러나 이것은 회사가 내세우는 서사(claimed)이지 계약 잔고나 갱신율로 확인된 지속성이 아니다. [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [S20](https://news.google.com/rss/articles/CBMickFVX3lxTFB6WnpqMEdtOUNzLW5nTU9JdElFNml1WFZNalBJYzdMa3czeDZUaFNDNVA2S1NDc3o5eVBiRlVxM1dCbFZ6YnJuMThtZGNMWEdBVWhOQ01IU0NPUTduRXE5WU9FS2FtU0RmWUFJQXk3MHVSdw?oc=5) [S3](https://www.sec.gov/Archives/edgar/data/1717115/000119312526309073/d128960d8k.htm)
+- 성장의 크기와 속도는 확인된다. 2Q26 매출이 $382.5M(+22%)이고 종양학 검사 물량이 +31%이며, 연간 가이던스를 상향했다. 다만 가이던스에는 인수 효과가 빠져 있다. [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [S44](https://quartr.com/events/tempus-ai-inc-tem-q2-2026_F3j4vqTx) [F161]
+- 단위경제는 증명되지 않았다. 총이익률, CAC, 순매출유지율, 진단 ASP가 수집되지 않았다. 영업이익은 -7,591만 USD로 여전히 크게 적자다. 조정 EBITDA $8.0M은 SBC 및 관련 급여세 $55.6M을 뺀 숫자다. 물량 성장이 마진으로 이어졌다는 증거는 아직 없다. [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [F95] [F149]
+- 이익의 질이 낮다. 2Q26 GAAP 순이익 $5.6M은 미실현 시장성증권 평가이익 $98.5M을 포함한다. 이 평가이익을 빼면 적자이며, 운영 지표의 입증이 아니라 가설을 유지할 이유일 뿐이다. [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [F80]
+- 생존 경로가 불명이다. 현금은 6.0억 USD이고 코드의 현금 소진 연수는 2.3년이다. Personalis 인수($1.5B)의 조달 방식과 희석 영향은 미확인이다. 이미 희석 신호가 경고 수준이다. [F15] [C:runway_years] [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5) [C:dilution]
+- 지속성은 계획 수준이다. 경영진이 제시한 2028년 xT CDx·xF 증분 매출 약 $400M은 산식과 가정을 확인하지 못했다. 데이터 사업의 계약 지속성도 입증되지 않았다. 기저율 표도 없어 5년 성장의 지속성을 비교할 수 없다. [S45](https://ground.news/article/tempus-targets-1595b-1605b-2026-revenue-as-it-outlines-2028-400m-uplift-tied-to-xt-cdx-and-xf-nasdaq-tem_edbb77) [S34](https://news.google.com/rss/articles/CBMijgFBVV95cUxNU3oxaWJSVXNZYkNva3lMTFl5ZFBBaXBxZjdzcnVaVEdjNU50cXFxSzBPWFhXcDZZOG1YS09ucTJkeVluMlhqWVFoQ3hBY2JWU0pxNXVGay1VMFRWQzdhLXpCX2hpRGdqSkVVajBDWTgzMk8yN1VHbktyS3pQc3c3Ym5FWDM0Xy1MbF9TbUln?oc=5) [F23]
 
 **사전 부검**
-- Personalis 인수 대금을 주식이나 전환사채로 조달하면 이미 큰 희석이 더 커지고, 현금으로 내면 영업적자와 겹쳐 현금 경로가 꺾인다. 지금 생존 판정이 '예'여도 이 판단이 틀렸다면 이유는 조달 방식이다. [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5) [S21](https://news.google.com/rss/articles/CBMid0FVX3lxTE5FN2N1bEFsMVJ4bTF2VXBRRmp0d2VSSm9Hc0Fvc2dIc0NaR29VOVR5bENBM1E4V0x6WXNiLTUwRkljbW9XMDhoQU9qbGlxY0ZSNnBwQUhvUllPYUoyRTdzNVFHZkwwLWpYSUF5eDlvTENndFQ2S3B3?oc=5) [C:dilution] [F15]
-- 매출채권이 FY2024 이후 매출보다 빠르게 늘고 DSO가 길어졌다. 외형 성장이 현금 회수로 이어지지 않으면 단위경제는 장부보다 나쁘다. 이 경우 지금의 abstain은 늦은 판단이 아니라 옳은 판단이 된다. [C:receivables_gap] [C:dso@FY2025] [F103]
-- 반대로 이 판단이 틀렸다면, 증거 부족을 이유로 정의되지 않은 큰 시장의 초기 성장 구간을 놓친 경우다. 데이터 사업이 대형 제약 계약으로 확장되면 단위경제는 뒤늦게 입증될 수 있다. [S20](https://news.google.com/rss/articles/CBMickFVX3lxTFB6WnpqMEdtOUNzLW5nTU9JdElFNml1WFZNalBJYzdMa3czeDZUaFNDNVA2S1NDc3o5eVBiRlVxM1dCbFZ6YnJuMThtZGNMWEdBVWhOQ01IU0NPUTduRXE5WU9FS2FtU0RmWUFJQXk3MHVSdw?oc=5) [S34](https://news.google.com/rss/articles/CBMijgFBVV95cUxNU3oxaWJSVXNZYkNva3lMTFl5ZFBBaXBxZjdzcnVaVEdjNU50cXFxSzBPWFhXcDZZOG1YS09ucTJkeVluMlhqWVFoQ3hBY2JWU0pxNXVGay1VMFRWQzdhLXpCX2hpRGdqSkVVajBDWTgzMk8yN1VHbktyS3pQc3c3Ym5FWDM0Xy1MbF9TbUln?oc=5) [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm)
+- Personalis 인수를 주식이나 전환사채로 조달하면 주당 가치가 크게 희석된다. 분기 SBC도 계속 커지고 있어 희석이 이중으로 쌓일 수 있다. [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5) [C:dilution] [F130]
+- 매출채권이 매출보다 빨리 늘고 DSO가 길어지고 있다. 이는 상환 구조 때문일 수도 있고 매출의 질 저하일 수도 있다. 구분할 KPI가 없어 현금 회수가 막히면 소진 속도가 빨라진다. [C:dso@FY2025] [F103]
+- 데이터·애플리케이션 사업이 진짜 반복 매출이 아니면 2028년 서사의 한 축이 무너진다. 이연수익은 정체돼 있고 계약 잔고 자료가 없다. [F23] [S34](https://news.google.com/rss/articles/CBMijgFBVV95cUxNU3oxaWJSVXNZYkNva3lMTFl5ZFBBaXBxZjdzcnVaVEdjNU50cXFxSzBPWFhXcDZZOG1YS09ucTJkeVluMlhqWVFoQ3hBY2JWU0pxNXVGay1VMFRWQzdhLXpCX2hpRGdqSkVVajBDWTgzMk8yN1VHbktyS3pQc3c3Ym5FWDM0Xy1MbF9TbUln?oc=5) [S45](https://ground.news/article/tempus-targets-1595b-1605b-2026-revenue-as-it-outlines-2028-400m-uplift-tied-to-xt-cdx-and-xf-nasdaq-tem_edbb77)
 
 **반론**
-- → 앤더슨: 코드의 10년 상방 배수가 희석 주식 수의 단위 오류로 부풀려졌다는 지적에 동의한다. 다만 우리의 기권 이유는 다르다. 너는 5배가 나올 경로가 크기에서 막힌다고 보지만, 나는 크기보다 증거가 먼저 비어 있다고 본다. 주가와 발행주식으로 잰 시가총액이 크다는 점은 같다. 문제는 그 가치를 받칠 단위경제와 데이터 계약 지표가 하나도 수집되지 않았다는 것이다. 상방 계산을 더 정교하게 하기 전에 이 지표부터 모아야 한다. [F145] [F146] [F32] [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm)
-- → 애크먼: 예측 가능성이 없다는 이유로 정의되지 않은 시장을 버리지 않는다. 또 자본시장 의존을 '참'으로 단정하는 것도 근거가 약하다. 현금은 6.0억 USD이고, 기본 시나리오의 현금 경로는 모델 기간 내내 0 아래로 내려가지 않는다. 의존이 구조적이라는 네 주장이 맞으려면 인수 대금 조달 방식이 확인되어야 하는데, 그건 아직 아무도 모른다. 따라서 확정이 아니라 미해결로 둔다. 다만 이 불확실성만으로도 시작 비중을 정당화하기 어렵다는 결론은 같다. [C:cash_survives] [F15] [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5) [S21](https://news.google.com/rss/articles/CBMid0FVX3lxTE5FN2N1bEFsMVJ4bTF2VXBRRmp0d2VSSm9Hc0Fvc2dIc0NaR29VOVR5bENBM1E4V0x6WXNiLTUwRkljbW9XMDhoQU9qbGlxY0ZSNnBwQUhvUllPYUoyRTdzNVFHZkwwLWpYSUF5eDlvTENndFQ2S3B3?oc=5) [F84]
-- → 레드팀: 사전 부검 중 매출채권과 이연매출 신호가 가장 쓸모 있다. DSO는 FY2023 64.8일에서 FY2025 89.3일로 길어졌고 매출채권은 FY2026Q2에 3.6억 USD까지 늘었다. 이연매출은 FY2026Q1 7,287만에서 FY2026Q2 8,725만 USD로 늘었으나, 7,000만 신호선과의 거리는 크지 않다. 이 둘을 must_be_true에 올려 분기마다 코드가 대조하게 한다. 반면 영업권 신호는 인수 종결 뒤에야 의미가 있어 조달 방식 공개 시점의 수동 확인으로 둔다. [C:dso@FY2023] [C:dso@FY2025] [F103] [F22] [F23] [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5)
+- → 앤더슨: 앤더슨은 bull에서도 5년 뒤 가치가 현재의 2배 안팎이라 5배 비대칭이 입증되지 않았다고 했다. 이 계산은 코드 값이 아니라 직접 추정이어서 시가총액 117억 달러에 기댄다. 그 방향에는 동의한다. 다만 보류의 이유가 가격만은 아니다. 내가 묻는 것은 성장이 이미 실적인지다. 매출 +22%는 실적이지만 영업손실이 줄지 않았고 인수 효과가 섞인 FY2025 성장은 유기 성장으로 읽을 수 없다. 5배가 성립하려면 bull 이후 5년의 성장과 마진이 참이어야 하는데, 그 선행 지표인 3분기 영업손실과 MRD 물량이 아직 나오지 않았다. [F145] [F146] [C:revenue_growth@FY2025] [F95]
+- → 애크먼: 애크먼의 가장 강한 논거는 현금 소진 2.3년과 현금보다 큰 인수가 겹쳐 자본시장 의존이 구조적이라는 것이다. 이 점은 같은 생각이다. 다만 모델링이 안 된다는 이유로 정의되지 않은 시장을 버리지는 않는다. 종양학 물량 +31%와 MRD 9,000건은 시장이 커지고 있다는 실적이다. 조달이 보유 현금으로만 이뤄진다고 공시되면 네 반대 논거도 약해진다고 스스로 적었다. 그 조건이 확인되기 전에는 반대로 확정하기보다 기권으로 증거를 기다린다. [C:runway_years] [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5) [F15] [F161] [F162]
+- → 레드팀: 레드팀의 약한 가정 지적을 받아들인다. 기본 시나리오의 연 3% 희석은 FY2025 45.4% 증가 이력과 맞지 않는다. 사전 부검의 선행 신호 중 분기 SBC와 분기 영업손실은 이미 must_be_true에 넣었다. 매출채권 증가는 병원·보험 상환 구조 때문일 수도 있어 단정하지 않는다. 구분할 KPI가 없어서 신호로만 두고, 매출채권 4억 달러 초과를 신호로 추가한다. [C:share_change@FY2025] [C:dilution] [F130] [F103] [C:dso@FY2025]
 
 **참이어야 하는 것**
-- [on_track] FY2026 매출이 가이던스 하단 이상 달성된다
-- [on_track] FY2026 조정 EBITDA가 유지된 가이던스 수준에 도달한다
-- [at_risk] SBC가 늘어도 3분기 영업손실이 2분기보다 줄어든다
-- [at_risk] 매출채권 회수가 악화되지 않는다 (3분기 매출채권이 4.0억 USD 이하)
-- [on_track] 이연매출이 7,000만 USD 아래로 내려가지 않는다 (데이터 계약 유입 유지)
+- [on_track] FY2026 매출이 가이던스 하단 이상
+- [at_risk] 3분기 영업손실이 -8,000만 USD보다 작아야 한다
+- [at_risk] MRD 검사 물량이 3분기에 1만 건 이상
+- [at_risk] 분기 SBC가 5,500만 USD를 넘지 않고 매출 성장에 희석돼야 한다
+- [at_risk] 매출채권이 4억 USD를 넘지 않아 수금 지연이 매출 성장보다 빠르지 않아야 한다
 
 **인정한 점**
-- 애크먼: 인수 조달 방식이 불명인 한 survival_path를 참으로 쓸 수 없다. 기본 시나리오 현금 경로에는 인수가 들어 있지 않기 때문이다. survival_path는 null로 유지하고 시작 비중도 0.01 이하로 묶는다.
-- 레드팀: 매출채권 회수 지연은 단위경제가 장부보다 나쁠 수 있다는 선행 신호다. 그래서 이를 must_be_true에 추가하고 at_risk로 표시한다.
-- 앤더슨: 상방의 크기가 아니라 증거의 유무가 쟁점이라는 점에 합의한다. 입장은 바꾸지 않는다. 총이익률, 검사 물량, 데이터 계약 잔고가 확인되면 다시 판단한다.
+- 레드팀 지적대로 모델의 연 3% 희석 가정은 이력보다 낮아 시나리오 값을 보수적으로 읽어야 한다. 그러나 시나리오 값은 단위 오류로 이미 쓰지 않으므로 입장은 바뀌지 않는다.
+- 애크먼 말대로 인수 조달 방식이 확인되기 전에는 생존 경로를 '가능'으로 둘 수 없다. 이것이 survival_path를 null로 두는 이유이며 시작 비중 0을 유지한다.
 
 
 ## 애크먼 — 반대 (5/5)
 
-> Tempus는 한 문단으로 설명할 수는 있다. 진단 검사와 데이터 라이선스다. 하지만 10년 뒤 FCF를 합리적 범위로 추정할 수 없고, 지금은 FCF가 음수라서 외부 자금에 기대는 성장 기업이다. 2분기 GAAP 순이익 흑자는 영업이 아니라 미실현 평가이익에서 나왔다. 영업적자는 계속되고, SBC와 희석은 분기마다 커지며, 보유 현금보다 큰 Personalis 인수의 조달 방식도 알려지지 않았다. 코드가 계산한 시나리오 가치와 안전마진은 희석 주식 수의 단위 오류로 주가의 수천 배가 나와 판단 근거로 쓸 수 없다. 이 값을 믿으면 안 된다. 믿을 수 있는 숫자만으로 보면 단순성, FCF, 자본시장 의존도라는 내 레드라인 세 개를 통과하지 못한다. 가격이 아무리 싸 보여도(코드 값은 무의미하다) 밸리언트의 교훈대로 레버리지와 자본시장 의존이 있는 기업은 사지 않는다.
+> Tempus는 한 문단으로 설명되지 않고 10년 뒤 FCF 범위도 좁힐 수 없는 회사다. 진단과 데이터·애플리케이션이라는 두 사업이 섞여 있고, 영업손실과 음수 FCF가 이어지며, 현금이 적어 자본시장에 기대어 성장한다. 성장은 가속 중이지만 그것은 해자의 증거가 아니라 매출 숫자일 뿐이다. 2분기 GAAP 흑자는 미실현 평가이익에서 나왔다. 코드의 안전마진 계산은 희석 주식 수 단위 오류로 쓸 수 없지만, 그것과 무관하게 단순성·FCF·자본시장 의존 세 레드라인을 이미 넘지 못한다. 좋은 성장 스토리가 아니라 내가 사지 않는 유형의 사업이다. 담지 않는다.
+
+*이전 판단 대비: 직전 판단과 같은 반대 입장을 유지한다. 새 근거는 없다.*
 
 **논거**
-- 예측 가능성이 없다. 분기 영업손실이 -7,591만 USD로 여전히 크고 FY2025 FCF도 음수다. 흑자 전환 시점과 10년 뒤 FCF 범위를 합리적으로 좁힐 수 없다. 모델러의 기본 시나리오가 FCF 마진을 음수에서 15%까지 끌어올리는 것은 가정일 뿐 아직 관측된 사실이 아니다. [F95] [C:fcf@FY2025] [C:fcf_margin@FY2025]
-- 자본시장 의존이 구조적이다. FY2025 영업현금흐름이 -2.2억 USD였는데 현금은 외부 조달로 늘었다. 여기에 $1.5B Personalis 인수가 현금 6.0억 USD보다 크고 조달 방식이 확인되지 않았다. 주식이나 전환사채로 조달하면 이미 높은 희석이 더 커진다. 자금줄이 끊기면 위험해지는 구조다. [F84] [F15] [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5) [S21](https://news.google.com/rss/articles/CBMid0FVX3lxTE5FN2N1bEFsMVJ4bTF2VXBRRmp0d2VSSm9Hc0Fvc2dIc0NaR29VOVR5bENBM1E4V0x6WXNiLTUwRkljbW9XMDhoQU9qbGlxY0ZSNnBwQUhvUllPYUoyRTdzNVFHZkwwLWpYSUF5eDlvTENndFQ2S3B3?oc=5) [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm)
-- 이익의 질이 낮다. 2분기 GAAP 순이익 564만 USD는 미실현 시장성증권 평가이익이 들어간 결과이고 같은 분기 영업이익은 -7,591만 USD다. 조정 EBITDA 800만 USD는 SBC 및 관련 급여세를 제외한 값인데, 분기 SBC는 5,412만 USD로 조정 EBITDA보다 훨씬 크다. SBC를 비용으로 보면 주주에게 돌아오는 현금은 아직 없다. [F80] [F95] [F149] [F130] [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [C:fcf_after_sbc@FY2025]
-- 회수 품질이 나쁘다. 매출채권은 FY2024 1.5억에서 FY2026Q2 3.6억 USD로 늘었고 DSO는 FY2023 64.8일에서 FY2025 89.3일로 길어졌다. 해자가 강하고 가격결정력이 있는 사업이라면 보통 이렇지 않다. 사업 모듈도 해자 증거를 '회사 주장' 수준으로만 분류했다. [F97] [F103] [C:dso@FY2023] [C:dso@FY2025] [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm)
-- 코드의 가치 계산은 이번에는 쓸 수 없다. 희석 주식 수 F32가 천 단위로 저장되어 시나리오 주당 가치가 현재 주가의 수천 배로 나오고 시가총액과 EV도 틀렸다. 안전마진 99.8%는 무의미한 숫자다. 이것으로 찬성하는 것은 분석이 아니다. 추정: 주가 F145에 발행주식 F146을 곱하면 시가총액은 약 117억 달러다. 이 크기를 정당화할 FCF는 아직 없다. [F32] [F146] [F145] [C:market_cap] [C:ev]
+- 단순성 실패. 매출이 진단과 데이터·애플리케이션 두 축이고, 성장에는 인수 효과가 섞여 있어 유기 성장률조차 분리되지 않는다. FCF 마진이 -46.8%, -30.5%, -18.8%로 개선 중이라는 사실만으로는 10년 뒤 FCF 범위를 합리적으로 추정할 수 없다. 추정 범위가 음수에서 큰 양수까지 열려 있다. [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [C:fcf_margin@FY2023] [C:fcf_margin@FY2024] [C:fcf_margin@FY2025] [C:revenue_growth@FY2025]
+- 자본시장 의존. 코드의 현금 소진 연수는 2.3년이고 영업현금흐름은 FY2026Q1과 Q2에 모두 음수다. 여기에 현금보다 큰 Personalis 인수가 예정돼 있고 조달 방식은 공개되지 않았다. 자금줄이 끊기거나 비싸지면 계획이 흔들리는 회사다. 밸리언트에서 배운 대로 아무리 싸 보여도 사지 않는 구조다. [C:runway_years] [F86] [F158] [F15] [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5)
+- 수익의 질. 2분기 영업이익은 -7,591만 달러로 여전히 큰 적자이고, GAAP 순이익 흑자는 미실현 시장성증권 평가이익 $98.5M에서 나왔다. 조정 EBITDA 흑자는 SBC 및 관련 급여세 $55.6M을 뺀 숫자다. 영업으로 현금을 버는 회사가 아니라는 점을 숫자가 말한다. [F95] [F80] [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [F149]
+- 가격. 코드의 안전마진은 희석 주식 수 단위가 기간별로 달라 시가총액과 EV가 음수로 나오는 오류 위에 있어 신뢰할 수 없다. 추정: 시가총액은 주가 64.72달러에 발행주식 180,434,756주를 곱한 약 117억 달러다. 영업손실과 음수 FCF 위에 이 가격이 올라 있으므로 안전마진 20%를 보수적 가정으로 입증할 근거가 없다. [F145] [S39](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326090/tem-20260630.htm) [F95] [C:fcf_margin@FY2025]
+- 희석이 구조적이다. 희석 주식 수 증가율이 코드 신호상 연 40.4%이고, 분기 SBC는 5,412만 달러로 커지고 있으며 자사주 매입 같은 상쇄 장치는 보이지 않는다. 인수가 주식이나 전환사채로 조달되면 주당 가치가 더 깎인다. 주주 몫은 SBC를 뺀 FCF로 봐야 하고, 그 값은 더 큰 적자다. [C:dilution] [F130] [C:fcf_after_sbc@FY2025]
 
 **사전 부검**
-- 사전 부검: 내가 틀렸다면, 진단 물량과 데이터 계약이 모델러의 강세 시나리오처럼 가속하고 고정비 레버리지로 FCF가 빠르게 흑자 전환했을 것이다. 가이던스 상향이 반복되는 실행력을 과소평가한 것이 된다. 그래도 지금 시점에는 이를 확인할 KPI(순매출유지율, TCV)가 수집되지 않았다. [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [S20](https://news.google.com/rss/articles/CBMickFVX3lxTFB6WnpqMEdtOUNzLW5nTU9JdElFNml1WFZNalBJYzdMa3czeDZUaFNDNVA2S1NDc3o5eVBiRlVxM1dCbFZ6YnJuMThtZGNMWEdBVWhOQ01IU0NPUTduRXE5WU9FS2FtU0RmWUFJQXk3MHVSdw?oc=5) [F147] [F148]
-- 사전 부검: 코드 값의 단위 오류를 넘어, 시장이 보는 가치가 실제로는 데이터 자산의 희소성에 있었다면 현금흐름 중심 기준이 이 기업에 맞지 않았을 수 있다. 다만 입증된 해자 증거가 없고 데이터 부문이 시험대에 있다는 보도도 있다. [S34](https://news.google.com/rss/articles/CBMijgFBVV95cUxNU3oxaWJSVXNZYkNva3lMTFl5ZFBBaXBxZjdzcnVaVEdjNU50cXFxSzBPWFhXcDZZOG1YS09ucTJkeVluMlhqWVFoQ3hBY2JWU0pxNXVGay1VMFRWQzdhLXpCX2hpRGdqSkVVajBDWTgzMk8yN1VHbktyS3pQc3c3Ym5FWDM0Xy1MbF9TbUln?oc=5) [S3](https://www.sec.gov/Archives/edgar/data/1717115/000119312526309073/d128960d8k.htm)
-- 사전 부검: 현금 6.0억 USD와 최근 현금흐름 개선 추세 때문에 자본시장 의존이 과장됐을 수 있다. Personalis 인수를 현금과 기존 자원으로 해결해 희석이 크지 않았다면 이 레드라인 판단은 지나치게 보수적이었다. 조달 내역이 공개되지 않은 이상 확인할 수 없다. [F15] [C:fcf_margin@FY2022] [C:fcf_margin@FY2025] [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5)
+- 사전 부검 1: 내가 틀렸다면, 종양학 물량 +31%와 MRD 확대가 규모의 효과로 영업이익까지 내려와 흑자 전환이 예상보다 빨랐기 때문일 것이다. 가이던스가 상향됐고 3분기 영업손실이 줄면 예측 가능성 논거가 약해진다. [S44](https://quartr.com/events/tempus-ai-inc-tem-q2-2026_F3j4vqTx) [F161] [F162] [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm)
+- 사전 부검 2: Personalis를 보유 현금만으로 조달한다고 공시하면 자본시장 의존과 희석 우려가 크게 줄어든다. 그 경우 이 구조적 반론은 약해진다. [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5) [S44](https://quartr.com/events/tempus-ai-inc-tem-q2-2026_F3j4vqTx) [F15]
+- 사전 부검 3: 데이터 사업의 제약사 계약이 반복 매출로 입증되면(Recursion 확대 보도 등) 해자가 실제로 존재했을 수 있고, 지금 판단은 증거 부족을 부정으로 읽은 것이 된다. [S20](https://news.google.com/rss/articles/CBMickFVX3lxTFB6WnpqMEdtOUNzLW5nTU9JdElFNml1WFZNalBJYzdMa3czeDZUaFNDNVA2S1NDc3o5eVBiRlVxM1dCbFZ6YnJuMThtZGNMWEdBVWhOQ01IU0NPUTduRXE5WU9FS2FtU0RmWUFJQXk3MHVSdw?oc=5) [S34](https://news.google.com/rss/articles/CBMijgFBVV95cUxNU3oxaWJSVXNZYkNva3lMTFl5ZFBBaXBxZjdzcnVaVEdjNU50cXFxSzBPWFhXcDZZOG1YS09ucTJkeVluMlhqWVFoQ3hBY2JWU0pxNXVGay1VMFRWQzdhLXpCX2hpRGdqSkVVajBDWTgzMk8yN1VHbktyS3pQc3c3Ym5FWDM0Xy1MbF9TbUln?oc=5) [F23]
 
 **반론**
-- → 앤더슨: 앤더슨의 가장 강한 논거는 성장이 실재하고 데이터 사업의 상방이 크다는 것이다. 하지만 성장은 가격의 정당화가 아니다. 앤더슨 스스로 강세 시나리오로도 시총이 2.4배 안팎에 그친다고 계산했다. 5배 경로가 보이지 않는 종목에서 기다림은 합리적이다. 나는 한 걸음 더 나간다. 기다릴 이유가 아니라 담지 않을 이유가 있다. 영업손실이 계속되고 FCF가 음수인 기업의 10년 뒤 FCF는 범위로 좁혀지지 않는다. [F95] [C:fcf@FY2025] [C:revenue@bull] [F145] [F146]
-- → 슬레이터: 슬레이터의 가장 강한 논거는 기본 시나리오의 현금 경로가 모델 기간 내내 0 위에 있어 생존에 문제가 없다는 것이다. 그러나 그 경로에는 Personalis 인수가 들어 있지 않다. $1.5B는 현금 6.0억 USD의 두 배가 넘는다. 슬레이터 자신도 must_be_true에서 인수 이후 현금을 at_risk로 표시했다. 생존 경로가 조달 방식에 달려 있다면 그것이 바로 자본시장 의존이다. 필요조건이 미확인인 상태에서 내 레드라인은 통과할 수 없다. [C:cash_survives] [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5) [S21](https://news.google.com/rss/articles/CBMid0FVX3lxTE5FN2N1bEFsMVJ4bTF2VXBRRmp0d2VSSm9Hc0Fvc2dIc0NaR29VOVR5bENBM1E4V0x6WXNiLTUwRkljbW9XMDhoQU9qbGlxY0ZSNnBwQUhvUllPYUoyRTdzNVFHZkwwLWpYSUF5eDlvTENndFQ2S3B3?oc=5) [F15]
-- → 레드팀: 레드팀의 사전 부검이 가리키는 FCF 범위는 이미 넓다. 희석, 인수 영업권 손상, 평가이익이 섞인 이익의 질, 채권 회수 지연이 모두 겹치면 10년 뒤 FCF는 음수에서 두 자릿수 마진까지 퍼진다. 범위가 이렇게 넓으면 보수적 가정의 내재가치를 산정할 수 없다. 안전마진은 계산 불가로 처리하고, 20% 기준을 채울 근거가 없는 한 찬성하지 않는다. 레드팀이 지적한 코드 시장 지표 단위 오류도 인정한다. 코드의 안전마진 99.8%는 쓰지 않는다. [C:dso@FY2025] [C:dilution] [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [F32] [F146] [C:market_cap]
+- → 앤더슨: 앤더슨의 가장 강한 논거는 성장 가속(+22%, 가이던스 약 +25%)과 FCF 마진 개선 추세다. 그러나 매출 성장은 내가 묻는 해자·현금 창출의 증거가 아니다. FCF 마진은 개선돼도 FY2025에 여전히 음수이고, SBC를 차감하면 적자가 더 크다. 앤더슨 스스로 bull 시나리오가 5년 뒤 약 2배에 그친다고 계산했다. 10년 5배는 bull 이후에도 성장과 마진이 이어져야 닿는 가정이다. 기저율 표가 없어 그 지속성을 검증할 수 없다. 성장 서사가 맞아도 희석이 연 40.4%인 회사에서 주당 가치는 따라오지 않는다. [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [C:fcf_margin@FY2025] [C:fcf_after_sbc@FY2025] [C:dilution]
+- → 슬레이터: 슬레이터의 가장 강한 논거는 가설이 깨진 것은 아니므로 증거를 기다린다는 것이다. 그러나 그의 생존 경로·단위경제는 필요조건일 뿐 가격의 정당화가 아니다. 단위경제는 증명되지 않았고 생존 경로는 불명이며, 둘 다 현재 열려 있다. 가격은 추정으로 시가총액 약 117억 달러인데 영업손실과 음수 FCF 위에 올라 있다. 증거가 확인된 뒤에 사도 늦지 않다. 증거가 없는 상태에서의 기권은 나에게 담지 않는다는 결론과 같다. 좋은 회사도 비싸게 사면 나쁜 투자다. [F95] [C:runway_years] [F145] [S39](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326090/tem-20260630.htm)
+- → 레드팀: 레드팀의 사전 부검은 Personalis 조달로 인한 추가 희석, 영업손실 정체, 채권 회수 지연이 겹치는 경로를 보여 준다. 이 경로들은 FCF 범위의 하단을 음수로 더 내린다. 기본 시나리오 FCF 마진 15%와 희석 연 3%는 레드팀이 지적한 대로 이력과 맞지 않는다. 10년 FCF 범위가 이렇게 넓으면 안전마진 20%로는 부족하고, 범위를 좁힐 수 있을 때까지 요구 마진은 훨씬 커야 한다. 현재는 그 마진을 계산할 수도 없다. [C:fcf_margin@FY2025] [C:dilution] [C:runway_years] [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5)
 
 **인정한 점**
-- 앤더슨과 슬레이터가 지적한 대로 매출 성장과 FCF 마진 개선 추세는 실재한다. 이 추세가 이어져 3분기에 영업이익이나 영업현금흐름이 양수로 돌아서면 반대 논거는 약해진다. 지금은 그 증거가 없다.
-- 코드의 시나리오 가치와 안전마진은 희석 주식 수 단위 오류로 쓸 수 없다. 이 결함이 고쳐지기 전에는 가격 판단을 코드에 맡길 수 없고, 단순성과 자본시장 의존 두 레드라인만으로 반대한다. 입장은 유지하되 확신의 근거에서 가격 요소는 뺀다.
-- 현금 6.0억 USD와 FCF 마진 개선은 자본시장 의존 판단이 과장됐을 가능성을 남긴다. Personalis를 현금과 기존 자원으로 해결한다고 공시되면 이 판단을 다시 본다.
+- 앤더슨의 지적대로 코드의 안전마진·EV·역DCF는 희석 주식 수 단위 오류 위에 있어 쓸 수 없다. 내 반대는 그 계산값이 아니라 단순성·FCF·자본시장 의존 레드라인에 근거한다.
+- 슬레이터가 말한 대로 가설이 깨진 것은 아니다. 3분기 영업현금흐름이 양수로 돌아서고 Personalis를 보유 현금만으로 조달한다고 공시되면 자본시장 의존 논거는 약해진다. 그때까지는 증거 부족이 반대 사유다.
 
 
 ## 분석 모듈 (L4)
 
 ### 사업·산업 — unclear
 
-Tempus는 유전체 검사 진단(2Q26 매출 $289.3M, 약 +20%)과 임상 데이터·애플리케이션 판매(2Q26 $93.2M)로 돈을 번다. 두 부문을 합친 2Q26 매출은 $382.5M(+22%)이다. 진단 검사에서 쌓은 환자 데이터를 제약사에 라이선스하는 구조가 핵심 서사다. 매출은 빠르게 늘었다(FY2025 성장률 83.4%, 인수 효과 포함 추정). 반면 영업이익은 2Q26에도 적자(-7,591만 USD)다. 2Q26 GAAP 순이익 $5.6M은 시장성증권 평가이익 $98.5M 덕분이라 영업 흑자 전환이 아니다. 총이익률, CAC, 순매출유지율, 검사 물량은 수집되지 않아 단위경제는 증거로 입증되지 않았다.
+Tempus는 두 축으로 돈을 번다. 첫째는 유전체·분자 진단(종양학 검사와 MRD 등)으로, 2Q26 매출 $289.3M(+20%)이며 병원과 의사에게 검사를 판다. 둘째는 데이터·애플리케이션으로, 2Q26 매출 $93.2M이며 임상·분자 데이터를 제약사에 라이선스하고 소프트웨어를 판다 (S40). 2Q26 매출은 $382.5M(+22%)이고 2026 가이던스는 $1.595~1.605B(약 +25%)로 상향됐다 (S40). 종양학 검사 물량은 +31%, MRD 검사는 9,000건이다 (S44). 다만 수익성은 아직 적자다. 2Q26 영업이익은 -7,591만 USD(F95)이고, 순이익 흑자 $5.6M은 시장성증권 평가이익 $98.5M 덕이다 (S40). 단위경제의 핵심 지표(총이익률, CAC, 순매출유지율, ASP)는 수집되지 않아 단위경제는 증명되지 않았다. 해자(데이터 규모·전환비용)는 회사와 보도의 주장 수준이다.
 
-- [unit_economics] 매출 성장은 가속했으나 이익 질은 낮다. FY2025 매출 12.7억 USD, 성장률은 FY2024 30.4%에서 FY2025 83.4%로 올랐다. 영업이익률은 FY2025 -19.9%로 개선됐으나 2Q26 영업손실은 -7,591만 USD로 여전히 크다. [C:revenue_growth@FY2024] [C:revenue_growth@FY2025] [C:operating_margin@FY2025] [F95]
-- [unit_economics] 조정 EBITDA는 2Q26 $8.0M이고 FY2026 가이던스는 약 $65M이다. 그러나 2Q26 SBC가 5,412만 USD로 조정 EBITDA보다 훨씬 크다. 조정 지표가 SBC를 제외하고 있어 수익성 개선 폭을 과대평가할 수 있다. [F149] [F148] [F130] [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm)
-- [unit_economics] 2Q26 GAAP 순이익 564만 USD는 미실현 시장성증권 평가이익 $98.5M을 포함한다. 영업이익은 -7,591만 USD여서 사업 자체의 흑자 전환이 아니다. [F80] [F95] [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm)
-- [customers] 매출채권이 FY2024 1.5억에서 FY2025 3.1억, FY2026Q2 3.6억 USD로 늘었다. DSO는 FY2025 89.3일로 FY2023(64.8일)보다 길다. 외형 성장 속도에 비해 현금 회수가 느리다. 청구 대상(보험사·병원·제약사) 구성은 수집되지 않았다. [F97] [F101] [F103] [C:dso@FY2023] [C:dso@FY2025]
-- [runway] 현금 흐름은 개선 추세다. FCF 마진은 FY2022 -58.2%에서 FY2025 -18.8%로 좋아졌고 현금은 FY2026Q2 6.0억 USD다. FY2025 FCF는 -2.4억 USD로 여전히 음수이며, 2026 1분기 영업현금흐름은 -7,328만 USD였다. 수익성 도달 전까지 외부 자금 의존도를 단정하기는 어렵다. [C:fcf_margin@FY2022] [C:fcf_margin@FY2025] [C:fcf@FY2025] [F15] [F86]
-- [runway] 재투자 활주로는 R&D 확대와 인수로 표현된다. 분기 R&D는 FY2025Q1 3,587만에서 FY2026Q2 5,264만 USD로 증가했다. $1.5B 규모 Personalis 인수는 4Q26~1Q27 종결 예정이고 2026 가이던스(매출 $1.595~1.605B)에는 반영되지 않았다. 대금 조달 방식과 희석 영향은 확인되지 않았다. [F117] [F121] [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5) [S21](https://news.google.com/rss/articles/CBMid0FVX3lxTE5FN2N1bEFsMVJ4bTF2VXBRRmp0d2VSSm9Hc0Fvc2dIc0NaR29VOVR5bENBM1E4V0x6WXNiLTUwRkljbW9XMDhoQU9qbGlxY0ZSNnBwQUhvUllPYUoyRTdzNVFHZkwwLWpYSUF5eDlvTENndFQ2S3B3?oc=5) [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm)
-- [industry] 산업 구조 증거는 거의 없다. 경쟁사 대비 마진, 점유율, 진단 ASP, 검사 물량, 상환(보험) 구조가 수집되지 않아 경쟁 강도와 가격 결정력을 판단할 수 없다. 인수합병(Personalis 등)은 사업 범위를 넓히는 신호이나 경쟁 우위의 증거는 아니다. [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5) [S21](https://news.google.com/rss/articles/CBMid0FVX3lxTE5FN2N1bEFsMVJ4bTF2VXBRRmp0d2VSSm9Hc0Fvc2dIc0NaR29VOVR5bENBM1E4V0x6WXNiLTUwRkljbW9XMDhoQU9qbGlxY0ZSNnBwQUhvUllPYUoyRTdzNVFHZkwwLWpYSUF5eDlvTENndFQ2S3B3?oc=5) [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm)
-- [unit_economics] 희석이 단위경제 개선을 갉아먹고 있다. 희석 주식 수는 연 40.4% 증가했고 FY2025 주식 수 변화는 45.4%다. SBC는 FY2026Q1 5,271만, Q2 5,412만 USD로 분기마다 커졌다. 주주 1주당 경제성은 매출 성장보다 느리게 개선된다. [C:dilution] [C:share_change@FY2025] [F129] [F130]
-- [claimed] 진단 검사로 축적한 임상·분자 데이터가 데이터 사업의 원천이라는 것이 회사 서사다. 점유율, 계약 갱신·이탈률, 가격 인상 후 고객 잔류 같은 흔적은 수집되지 않았다. 데이터·애플리케이션 부문이 $93.2M으로 전체 매출의 일부라는 사실만 확인된다. 이 부문이 더 큰 시험대에 있다는 보도도 있다. [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [S34](https://news.google.com/rss/articles/CBMijgFBVV95cUxNU3oxaWJSVXNZYkNva3lMTFl5ZFBBaXBxZjdzcnVaVEdjNU50cXFxSzBPWFhXcDZZOG1YS09ucTJkeVluMlhqWVFoQ3hBY2JWU0pxNXVGay1VMFRWQzdhLXpCX2hpRGdqSkVVajBDWTgzMk8yN1VHbktyS3pQc3c3Ym5FWDM0Xy1MbF9TbUln?oc=5)
-- [claimed] 제약사와의 중요 계약 8-K와 Recursion 제휴 확대 보도는 고객 접점이 있다는 정황이다. 다만 계약 규모, 기간, 잔고(TCV)가 없어 전환비용을 입증하지 못한다. [S3](https://www.sec.gov/Archives/edgar/data/1717115/000119312526309073/d128960d8k.htm) [S20](https://news.google.com/rss/articles/CBMickFVX3lxTFB6WnpqMEdtOUNzLW5nTU9JdElFNml1WFZNalBJYzdMa3czeDZUaFNDNVA2S1NDc3o5eVBiRlVxM1dCbFZ6YnJuMThtZGNMWEdBVWhOQ01IU0NPUTduRXE5WU9FS2FtU0RmWUFJQXk3MHVSdw?oc=5)
+- [unit_economics] 성장은 가속 중이다. 2Q26 매출은 $382.5M(+22%)이고 진단 $289.3M(+20%), 데이터·애플리케이션 $93.2M이다. 2026 가이던스는 약 +25%로 상향됐다. 가이던스에는 Personalis 인수 효과가 빠져 있다. [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm)
+- [unit_economics] 손익 개선은 아직 영업 단계에서 확인되지 않는다. 2Q26 영업이익은 -7,591만 USD이고 조정 EBITDA는 $8.0M이다. 2026 조정 EBITDA 가이던스 약 $65M은 유지됐다. 순이익 흑자 $5.6M은 시장성증권 평가이익 $98.5M을 포함하며, SBC와 관련 급여세 $55.6M도 포함돼 있다. [F95] [F149] [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm)
+- [unit_economics] FCF 적자는 줄고 있으나 여전히 음수다. FCF 마진은 FY2023 -46.8%, FY2024 -30.5%, FY2025 -18.8%로 개선됐다. 그러나 FY2026 1Q·2Q의 영업현금흐름은 각각 -7,328만, -752만 USD다. 현금 소진 연수는 2.3년이다. SBC도 FY2025 매출의 9.8%로 크다. [C:fcf_margin@FY2023] [C:fcf_margin@FY2024] [C:fcf_margin@FY2025] [F86] [F158] [C:sbc_to_revenue@FY2025] [C:runway_years]
+- [customers] 매출채권이 매출보다 빠르게 늘고 수금이 느려지고 있다. DSO는 FY2023 64.8일, FY2024 81.5일, FY2025 89.3일이다. 매출채권은 FY2025 3.1억에서 FY2026Q2 3.6억 USD로 늘었다. 보험·병원 상환 구조상 수금 지연일 수 있으나, 진단 ASP·상환율 KPI가 없어 구분할 수 없다. [C:dso@FY2023] [C:dso@FY2024] [C:dso@FY2025] [F101] [F103]
+- [industry] 2025년 성장에는 인수 효과가 섞여 있다. FY2025 매출 성장률은 83.4%였고(FY2024 30.4%), 영업권은 FY2024 7,334만에서 FY2025Q1 3.3억, FY2025Q3 4.7억 USD로 늘었다. 따라서 FY2025 성장률을 유기 성장으로 읽을 수 없다. 추정: 영업권 증가 시기와 매출 급증이 겹치므로 상당 부분이 인수 기여로 보인다. 유기 성장률은 수집되지 않았다. [C:revenue_growth@FY2025] [C:revenue_growth@FY2024] [F48] [F49] [F51]
+- [industry] Personalis 인수($1.5B, S19·S21, 요약 출처 S44는 $1.5~1.7B)가 예정돼 있다. 종결은 4Q26~1Q27이다. 조달 방식과 희석은 미확인이다. 현금 6.0억 USD(F15) 대비 규모가 크다. 이미 연 희석 주식 수 증가율이 40.4%로 경고 신호가 있어(C:dilution), 사업 확장이 추가 희석을 수반할 수 있다. [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5) [S21](https://news.google.com/rss/articles/CBMid0FVX3lxTE5FN2N1bEFsMVJ4bTF2VXBRRmp0d2VSSm9Hc0Fvc2dIc0NaR29VOVR5bENBM1E4V0x6WXNiLTUwRkljbW9XMDhoQU9qbGlxY0ZSNnBwQUhvUllPYUoyRTdzNVFHZkwwLWpYSUF5eDlvTENndFQ2S3B3?oc=5) [S44](https://quartr.com/events/tempus-ai-inc-tem-q2-2026_F3j4vqTx) [F15] [C:dilution]
+- [runway] 재투자 활주로는 넓으나 자금원에 의존한다. 연구개발비는 2Q26 5,264만 USD로 FY2025Q2의 4,162만에서 늘었다. 종양학·MRD·데이터 확장의 TAM 근거는 수집되지 않았다. 현금은 FY2026Q2 6.0억 USD이고 FY2025 영업현금 소진은 -2.2억 USD였다. 흑자 전환 전에는 외부 자본 접근성이 활주로를 결정한다. [F121] [F118] [F15] [F84]
+- [customers] 데이터 사업의 고객·계약 지속성은 증명되지 않았다. 이연수익은 FY2026Q1 7,287만에서 FY2026Q2 8,725만 USD로 늘었으나, FY2025Q2의 1.0억 USD보다 낮다. TCV, 순매출유지율, 고객 집중도가 없다. 애널리스트 해석(S34)은 데이터 사업이 더 큰 시험대에 있다는 것이다. [F22] [F23] [F19] [S34](https://news.google.com/rss/articles/CBMijgFBVV95cUxNU3oxaWJSVXNZYkNva3lMTFl5ZFBBaXBxZjdzcnVaVEdjNU50cXFxSzBPWFhXcDZZOG1YS09ucTJkeVluMlhqWVFoQ3hBY2JWU0pxNXVGay1VMFRWQzdhLXpCX2hpRGdqSkVVajBDWTgzMk8yN1VHbktyS3pQc3c3Ym5FWDM0Xy1MbF9TbUln?oc=5)
+- [claimed] 검사 물량 +31% 성장이 규모의 경제와 데이터 축적을 만든다는 논리다. 그러나 물량 증가는 확인된 반면 규모가 마진으로 이어진 흔적은 아직 없다. 영업이익이 FY2025 -19.9% 마진(C:operating_margin@FY2025)이고 2Q26 영업손실도 -7,591만 USD(F95)다. 요약 출처(S44)만 인용한다. [S44](https://quartr.com/events/tempus-ai-inc-tem-q2-2026_F3j4vqTx) [F95] [C:operating_margin@FY2025]
+- [claimed] 제약사 대상 데이터·애플리케이션 계약과 Recursion 계약 확대 보도가 반복 계약의 존재를 시사한다. 그러나 계약 잔고(TCV), 순매출유지율, 갱신율이 없어 전환비용을 입증하지 못한다. 보도 수준이다. [S20](https://news.google.com/rss/articles/CBMickFVX3lxTFB6WnpqMEdtOUNzLW5nTU9JdElFNml1WFZNalBJYzdMa3czeDZUaFNDNVA2S1NDc3o5eVBiRlVxM1dCbFZ6YnJuMThtZGNMWEdBVWhOQ01IU0NPUTduRXE5WU9FS2FtU0RmWUFJQXk3MHVSdw?oc=5) [S34](https://news.google.com/rss/articles/CBMijgFBVV95cUxNU3oxaWJSVXNZYkNva3lMTFl5ZFBBaXBxZjdzcnVaVEdjNU50cXFxSzBPWFhXcDZZOG1YS09ucTJkeVluMlhqWVFoQ3hBY2JWU0pxNXVGay1VMFRWQzdhLXpCX2hpRGdqSkVVajBDWTgzMk8yN1VHbktyS3pQc3c3Ym5FWDM0Xy1MbF9TbUln?oc=5)
+- [claimed] 회사는 xT CDx·xF 같은 진단 제품을 2028년 증분 매출 약 $400M의 동력으로 제시했다. 산식과 가정은 확인하지 못했다. 콜 요약 기사 제목 수준의 정보다. [S45](https://ground.news/article/tempus-targets-1595b-1605b-2026-revenue-as-it-outlines-2028-400m-uplift-tied-to-xt-cdx-and-xf-nasdaq-tem_edbb77)
 
 ### 경영진·자본배분 — mixed
 
-경영진 정렬을 판단할 직접 근거(보상 구조, 내부자 매매, 가이던스 이력)가 수집되지 않았다. DEF 14A(S9)는 목록에만 있고 내용을 읽지 못했다. 확인되는 것은 세 가지다. 첫째, 희석이 크다. 희석 주식 수는 FY2024에 89.3%, FY2025에 45.4% 늘었다. 둘째, 분기 SBC가 2Q25 2,246만 USD에서 2Q26 5,412만 USD로 늘었다. 셋째, 회사가 강조하는 조정 EBITDA $8.0M은 SBC 및 관련 급여세 $55.6M을 제외한 값이다. 이 값은 2Q26 GAAP 순이익이 영업적자 상태에서 시장성증권 평가이익 $98.5M으로 흑자가 된 점과 함께 봐야 한다. 자본배분은 영업적자 속에서 인수로 영업권을 쌓아 왔고, $1.5B Personalis 인수까지 발표했다. 대금 조달 방식은 확인되지 않아 희석 영향을 판단할 수 없다. 가이던스 상향은 있었으나 과거 적중률은 계산할 수 없다. 종합하면 정렬 여부를 입증하지 못한 채 '혼재'로 분류한다.
+경영진 정렬은 근거 부족으로 '혼재'로 판단한다. 보상 구조(DEF 14A), 내부자 매매, 과거 가이던스 적중률은 수집되지 않아 확인할 수 없다. 확인되는 사실은 세 가지다. 첫째, 희석이 크다. 희석 주식 수가 FY2025에 45.4% 늘었고, SBC는 FY2026 1분기와 2분기에 분기 5천만 달러대로 오히려 커졌다. 둘째, 인수로 영업권이 FY2024 7,334만 달러에서 FY2025 4.7억 달러로 늘었고, 약 $1.5B 규모의 Personalis 인수를 새로 발표했는데 조달 방식은 확인되지 않았다. 셋째, 2026 가이던스는 2분기에 상향됐다. 다만 2분기 GAAP 순이익 흑자는 영업 성과가 아니라 시장성증권 평가이익 덕분이다. 영업이익은 여전히 적자다.
 
-- [compensation] 근거 없음. DEF 14A(2026-04-07)가 근거 목록에 있으나 보상 연동 지표(장기 지표인지 단기 EPS·조정 EBITDA인지)와 베스팅 기간은 수집되지 않았다. 회사가 조정 EBITDA 가이던스를 약 $65M으로 제시하는 점은 있으나, 보상이 이 지표에 연동되는지는 확인할 수 없다. [S9](https://www.sec.gov/Archives/edgar/data/1717115/000119312526145528/d23945ddef14a.htm) [F148]
-- [insider] 근거 없음. 창업자·경영진 지분과 최근 내부자 매수·매도는 수집되지 않았다. 리서처도 창업자 관련 법인과의 특수관계자 거래를 확인하지 못했다고 보고했다. 이 영역은 평가를 보류한다. [S9](https://www.sec.gov/Archives/edgar/data/1717115/000119312526145528/d23945ddef14a.htm)
-- [guidance] 2026년 매출 가이던스를 $1.595~1.605B로 상향했고 조정 EBITDA 약 $65M은 유지했다. 가이던스에는 Personalis 인수 효과가 빠져 있다. 다만 과거 분기·연간 가이던스를 수집하지 못해 적중률(C:guidance_hit_rate)은 계산할 수 없다. 상향 가이던스의 신뢰도는 검증되지 않았다. [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [F147] [F148]
-- [dilution] 희석 주식 수 증가율은 FY2024 89.3%, FY2025 45.4%다. 코드 신호는 연 40.4% 증가로 기준 3%를 크게 넘는다. SBC는 FY2025 매출의 9.8%였다. FY2024 77.0%는 이례적으로 컸다. 분기 SBC는 FY2025Q1 2,297만 USD에서 FY2026Q2 5,412만 USD로 늘어 FY2026에도 희석 압력이 줄지 않았다. [C:share_change@FY2025] [C:share_change@FY2024] [C:dilution] [C:sbc_to_revenue@FY2025] [C:sbc_to_revenue@FY2024] [F126] [F130]
-- [dilution] 조정 EBITDA $8.0M은 2Q26 GAAP 영업손실 -7,591만 USD와 크게 다르다. 회사 자료는 SBC 및 관련 급여세 $55.6M을 GAAP 순이익에 포함된 비용으로 밝히고 있다. 이 비용을 제외한 지표가 경영진 성과 지표로 쓰이는지는 확인되지 않았다. 2Q26 GAAP 순이익 564만 USD는 미실현 시장성증권 평가이익 $98.5M이 들어간 결과다. 영업이익이 아니다. [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [F149] [F95] [F80]
-- [capital_allocation] 영업권이 FY2024 7,334만 USD에서 FY2025Q3 4.7억 USD로 늘었다. 인수로 성장을 사 온 이력이다. 같은 기간 FCF는 매년 적자였고 FY2025 FCF 마진은 -18.8%다. 인수 대가의 수익률(ROIC)은 근거가 없어 평가할 수 없다. [F48] [F51] [F52] [C:fcf_margin@FY2025]
-- [capital_allocation] 2026-07-20 공시된 Personalis 인수는 $1.5B로, 현금 6.0억 USD(FY2026Q2)보다 크다. 대금 조달이 현금·주식·전환사채 중 무엇인지 확인되지 않았다. 주식이나 전환사채라면 이미 높은 희석이 더 커질 수 있다. 종결은 4Q26~1Q27 예정이다. [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5) [S21](https://news.google.com/rss/articles/CBMid0FVX3lxTE5FN2N1bEFsMVJ4bTF2VXBRRmp0d2VSSm9Hc0Fvc2dIc0NaR29VOVR5bENBM1E4V0x6WXNiLTUwRkljbW9XMDhoQU9qbGlxY0ZSNnBwQUhvUllPYUoyRTdzNVFHZkwwLWpYSUF5eDlvTENndFQ2S3B3?oc=5) [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [F15]
-- [capital_allocation] FY2025Q3에 현금이 6.6억 USD로 늘었고 FY2026Q2에는 6.0억 USD다. FY2025 영업현금흐름은 -2.2억 USD였으므로 현금 증가는 영업이 아닌 외부 조달에 의존한 결과로 보인다. 다만 조달 내역(증자·전환사채 등)은 이 근거 묶음에 없다. 배당은 FY2022~2024에 562만 USD였고 FY2025에 0이 되었다. 자사주 매입 근거는 없다. [F12] [F15] [F84] [F33] [F36]
+- [compensation] 근거 없음. 보상 위원회 구조, 연동 지표, 베스팅 기간을 담은 DEF 14A(S9, 2026-04-07)는 목록에만 있고 내용이 수집되지 않았다. 장기 지표(FCF·ROIC)인지 단기 지표(조정 EBITDA)인지 판단할 수 없다. 2026 가이던스가 조정 EBITDA 기준(F148)이라는 점은 경영진이 이 지표를 핵심으로 본다는 정황일 뿐 보상 연동의 증거는 아니다. [S9](https://www.sec.gov/Archives/edgar/data/1717115/000119312526145528/d23945ddef14a.htm) [F148]
+- [insider] 근거 없음. 창업자(CEO Eric Lefkofsky) 지분율과 최근 내부자 매수·매도(Form 4)는 수집되지 않았다. 발행주식이 Class A와 Class B로 나뉜 이중 클래스 구조인 것만 확인된다(Class B 5,043,789주). Class B의 의결권 배수는 확인하지 못했다. [S39](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326090/tem-20260630.htm) [S44](https://quartr.com/events/tempus-ai-inc-tem-q2-2026_F3j4vqTx)
+- [guidance] 과거 가이던스 적중률은 산출할 수 없다. 과거 분기와 연간 가이던스가 수집되지 않아 C:guidance_hit_rate가 비어 있다. 확인되는 것은 현재 가이던스뿐이다. 2분기 실적에서 2026 매출 가이던스를 1.595~1.605B 달러(약 +25%)로 상향했고, 조정 EBITDA 약 6,500만 달러는 유지했다. 이 가이던스는 Personalis 인수 효과를 제외했다. 상향 방향은 신뢰에 우호적이지만 과거 이력 없이 신뢰도를 확정할 수 없다. [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [F147] [F148]
+- [dilution] 희석이 구조적으로 크다. 희석 주식 수는 FY2024 89.3%, FY2025 45.4% 증가했고(C:share_change@FY2025), 코드 신호는 연 40.4% 증가를 경고한다(C:dilution). SBC/매출은 FY2024 77.0%에서 FY2025 9.8%로 내려왔다(C:sbc_to_revenue@FY2025). 그러나 분기 SBC 금액은 FY2025Q3 3,398만, FY2025Q4 4,534만, FY2026Q1 5,271만, FY2026Q2 5,412만 달러로 계속 커진다. FY2024의 5.3억 달러는 상장 전후 일회성 보상이 섞였을 가능성이 있으나 구성은 확인하지 못했다. 자사주 매입 근거는 없어 희석을 상쇄하는 장치는 보이지 않는다. [C:share_change@FY2025] [C:dilution] [C:sbc_to_revenue@FY2025] [F128] [F144] [F129] [F130]
+- [dilution] SBC를 현금비용으로 보면 FCF 적자가 크게 늘어난다. SBC 차감 FCF는 FY2025 -3.6억 달러로, SBC를 빼지 않은 FCF -2.4억 달러보다 나쁘다. 2분기 조정 EBITDA 800만 달러 흑자는 SBC를 제외한 수치다. 같은 분기 SBC 및 관련 급여세가 5,560만 달러였고, 영업이익은 -7,591만 달러였다. 경영진이 주주에게 제시하는 흑자 지표와 주주가 부담하는 희석 비용 사이에 차이가 크다. [C:fcf_after_sbc@FY2025] [C:fcf@FY2025] [F149] [F95] [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm)
+- [capital_allocation] 인수 이력이 반복된다. 영업권이 FY2024 7,334만 달러에서 FY2025Q1 3.3억, FY2025Q3 4.7억 달러로 늘었다. 연 단위로 인수 두 건 이상이 있었다는 정황이지만 대상과 가격, 사후 수익률은 수집되지 않아 인수의 질은 평가할 수 없다. 영업권이 자산의 약 20%(4.7억/22.7억 달러)로 커진 것은 사실이다. [F48] [F49] [F51] [F52] [F136]
+- [capital_allocation] Personalis 인수(약 $1.5B)가 2026년 7월 발표됐고 종결은 4Q26~1Q27 예정이다. 이 규모는 FY2026Q2 현금 6.0억 달러의 두 배를 넘는다. 대금 조달 방식(현금·주식·전환사채)과 희석 영향은 확인되지 않았다. 보도에 따라 금액도 $1.5B(S19, S21)와 $1.5~1.7B(S44)로 엇갈려, 확정 금액에 대한 근거가 약하다. 주가는 발표 후 부침이 컸다(2026-10-05 83.55달러에서 2026-10-16 64.72달러). [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5) [S21](https://news.google.com/rss/articles/CBMid0FVX3lxTE5FN2N1bEFsMVJ4bTF2VXBRRmp0d2VSSm9Hc0Fvc2dIc0NaR29VOVR5bENBM1E4V0x6WXNiLTUwRkljbW9XMDhoQU9qbGlxY0ZSNnBwQUhvUllPYUoyRTdzNVFHZkwwLWpYSUF5eDlvTENndFQ2S3B3?oc=5) [S44](https://quartr.com/events/tempus-ai-inc-tem-q2-2026_F3j4vqTx) [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [F15] [S38](https://stockanalysis.com/stocks/tem/history/)
+- [capital_allocation] 재무 여력은 얇다. 현금은 FY2026Q2 6.0억 달러로 전분기 5.2억에서 늘었지만, 코드의 현금 소진 연수는 2.3년이다(C:runway_years). 영업현금흐름은 FY2026Q1 -7,328만, FY2026Q2 -752만 달러였다. 2분기 GAAP 순이익 564만 달러는 미실현 시장성증권 평가이익 9,850만 달러에 의존한다. 평가이익을 빼면 적자다. 현금을 영업에 쓰는 대신 증권을 보유하고 있다는 뜻인지, 보유 규모와 구성은 확인하지 못했다. [F14] [F15] [C:runway_years] [F86] [F158] [F80] [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm)
 
 ### 회계 품질 — watch
 
-코드가 계산한 red 신호는 없다. 순이익 흑자인데 영업현금흐름이 음수인 해도 없고, 재무제표 정정(8-K 4.02)과 감사인 변경 단서도 근거에 없다. 그래서 red_flag의 증거는 없지만 clean도 아니라서 watch로 판정한다. 조정해서 봐야 할 숫자는 네 가지다. (1) 2026년 2분기 GAAP 순이익 흑자(F80)는 영업이익이 아니라 미실현 시장성증권 평가이익 $98.5M(S40)에서 나왔다. 영업손실은 F95로 여전히 크므로 이 흑자는 반복 가능한 이익이 아니다. (2) SBC가 분기마다 늘고 있다(F126→F130). 조정 EBITDA(F149)와 영업이익(F95) 사이의 격차도 크므로 SBC를 비용으로 보는 SBC 차감 FCF(C:fcf_after_sbc@FY2025)를 기준으로 봐야 한다. (3) 매출채권이 매출보다 빠르게 늘고 DSO가 길어졌다(C:dso@FY2025). (4) 희석이 계속되는 가운데 Personalis 인수($1.5B)의 조달 방식과 희석 규모를 아직 알 수 없다. 코드 시장 지표(시가총액·EV)는 희석 주식 수가 천 단위로 저장된 탓에 단위가 틀렸다(F32는 약 18만, 실제 발행주식은 F146의 1.8억 주). 이 값들은 무의미하므로 쓰지 말고 F145×F146으로 직접 계산해야 한다. 감사의견, 특수관계자 거래, Non-GAAP 조정 내역, 부채 총액은 수집되지 않아 판정에서 확인하지 못한 영역으로 남는다.
+숫자 자체를 못 믿을 수준은 아니어서 red_flag는 아니고, 조정해서 봐야 할 숫자가 많은 watch다. 2026년 2분기 GAAP 순이익 $5.6M은 미실현 시장성증권 평가이익 $98.5M 덕분이다. 영업손익은 여전히 큰 적자이고 영업현금흐름도 음수라서, 이 흑자를 이익의 질이 개선됐다는 근거로 쓰면 안 된다. 조정 EBITDA $8.0M도 SBC 및 관련 급여세 $55.6M을 빼고 얻은 숫자다. 이익은 영업손실, SBC 차감 FCF, 영업현금흐름으로 봐야 한다. 매출채권이 매출보다 빨리 늘고 DSO가 길어지는 점(64.8일에서 89.3일)과 연 40.4%의 주식 수 증가는 의미 있는 신호이고, 아래에 해명했다. 감사의견, 특수관계자 거래, Non-GAAP 조정 내역은 아직 수집하지 못해 이 판정의 한계로 남는다. 코드 계산에도 오류가 있다. 희석 주식 수의 단위가 기간마다 달라서(FY2022~FY2023은 천 주 단위로 보이고 이후는 다른 단위) 시가총액·EV·FCF 수익률이 비정상적으로 나온다. 이 값들은 쓰지 말고, 시가총액은 주가(F145)와 발행주식 수(F146)로 따로 구해야 한다.
 
-- [concern] receivables_gap: FY2024 매출채권 증가율이 매출 증가율을 넘는 격차가 문턱(15%p)을 크게 웃돈다(C:receivables_gap). 매출채권은 F96 9,446만에서 F97 1.5억으로 늘었고 매출은 F105에서 F106으로 늘었다. DSO는 64.8일, 81.5일, 89.3일로 길어졌다(C:dso@FY2025). FY2025에도 매출채권(F101)이 F97의 두 배 수준으로 늘어 매출 증가(C:revenue_growth@FY2025)와 비슷하거나 앞선다. FY2025 증가에는 FY2025Q1 인수(영업권 F48→F49 급증)로 들어온 채권이 섞여 있을 수 있다. 다만 FY2024 격차는 인수 이전 기간이라 설명되지 않는다. 이연매출이 같이 늘어(F17→F21) 가공 매출의 직접 증거는 아니다. 그래도 제약사 데이터 계약처럼 청구는 크고 회수는 느린 구조인지, 대손충당금이 충분한지는 근거에 없어 확인하지 못했다. 최근 FY2026Q2 채권(F103)도 직전 분기(F102)보다 늘고 있어 추세는 이어지고 있다. [C:receivables_gap] [C:dso@FY2025] [F96] [F97] [F101] [F102] [F103] [F105] [F106] [F17] [F21] [F48] [F49]
-- [concern] dilution: 희석 주식 수 연 40.4% 증가(C:dilution)는 상당 부분 기계적이다. FY2022·FY2023의 6만 단위 값(F24, F25)은 상장 전 보통주 기준으로 보이고, FY2024 값(F26)부터 상장과 우선주 전환 이후 기준이라 기간이 연속적이지 않다. 단위도 천 단위로 저장되어 있다. 그래서 40.4%를 있는 그대로 해석하면 안 된다. 그래도 희석이 실제로 끝나지는 않았다. 희석 주식 수는 F27(FY2025)에서 F32(FY2026Q2)로 계속 늘고, 분기 SBC는 F126에서 F130으로 두 배 넘게 늘었다. 영업현금흐름이 계속 음수(F84, F86)여서 현금 조달 의존도도 높다. 현재 발행주식은 Class A와 Class B를 합쳐 F146이다. Personalis 인수($1.5B)를 주식·전환사채·현금 중 무엇으로 조달하는지 근거가 없어 앞으로의 희석 규모를 알 수 없다. [C:dilution] [F24] [F25] [F26] [F27] [F32] [F126] [F130] [F84] [F86] [F146] [S39](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326090/tem-20260630.htm)
-- [watch] 2026년 2분기 GAAP 순이익 흑자는 미실현 시장성증권 평가이익 $98.5M이 들어간 결과다(S40). 같은 분기 영업손실은 F95로 순이익 F80과 부호가 반대다. 이 흑자를 이익 체력의 개선으로 읽으면 안 된다. 평가이익의 세부 구성은 수집되지 않았다. [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [F80] [F95]
-- [watch] 2026년 2분기 조정 EBITDA는 F149(약 +8.0M)인데 GAAP 영업이익은 F95로 큰 적자다. 이 격차의 대부분은 SBC와 관련 급여세($55.6M, S40)와 감가상각 등 조정 항목으로 보인다. 조정 내역 전체는 수집되지 않았다. 연간 가이던스 조정 EBITDA(F148)도 같은 기준이다. SBC를 비용으로 보는 SBC 차감 지표로 평가해야 한다(C:fcf_after_sbc@FY2025). [F149] [F95] [F148] [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [C:fcf_after_sbc@FY2025]
-- [watch] SBC는 FY2024에 F124로 매출 대비 비정상적으로 컸다(C:sbc_to_revenue@FY2024). 상장 시점에 몰린 일회성 보상으로 보이나 구성은 확인하지 못했다. FY2025는 C:sbc_to_revenue@FY2025로 문턱 근처까지 내려왔다. 그런데 분기 SBC는 F126, F127, F128, F144, F129, F130 순으로 다시 늘고 있어 정상 상태의 비용으로 봐야 한다. 영업현금흐름이 음수라 SBC/영업현금흐름 신호는 의미가 없다. [F124] [C:sbc_to_revenue@FY2024] [C:sbc_to_revenue@FY2025] [F126] [F127] [F128] [F144] [F129] [F130]
-- [info] 발생액 비율은 FY2025에 음수 소폭(C:accruals_ratio@FY2025)이다. 영업권은 총자산 대비 문턱(40%)보다 한참 낮다(F54, F138). 순이익 흑자·영업현금흐름 음수 조합(ocf_negative)과 이연매출 급감 신호는 없다. 다만 FY2026Q2 영업현금흐름은 수집되지 않았다. 이 때문에 평가이익으로 흑자가 된 이번 분기의 현금 대조는 하지 못했다. 영업권은 인수가 이어지는 한 커진다. Personalis 인수가 종결되면 재점검이 필요하다. [C:accruals_ratio@FY2025] [F54] [F138] [F23] [F21]
-- [info] 재고는 F65(FY2024)에서 F71(FY2026Q2)로 늘었지만 매출 증가 속도와 비교한 격차는 코드 신호(inventory_gap)에 걸리지 않았다. 특이 사항은 없다. [F65] [F71]
-- [info] FY2025Q1에 법인세 이익(F59)이 있어 순손실이 줄었다. 인수에 따른 세무 효과로 보이나 구성은 확인하지 못했다. 이 1회성 요인은 FY2025 순이익(F75) 해석에서 빼고 봐야 한다. [F59] [F75]
-- [watch] 감사의견(계속기업 의문·핵심감사사항)과 감사인 변경 여부는 수집되지 않았다. 근거 목록에 재무제표 정정(8-K 4.02) 공시는 보이지 않지만, 이것만으로 감사 문제가 없다고 결론낼 수 없다. 10-K(S10)에서 감사의견을 직접 확인해야 한다. [S10](https://www.sec.gov/Archives/edgar/data/1717115/000119312526066961/tem-20251231.htm)
-- [watch] 창업자 관련 법인과의 특수관계자 거래는 수집되지 않았다. 리서처도 확인하지 못했다고 보고했다. 대표 위임장(S9)과 10-K(S10) 주석에서 확인해야 한다. 이 항목은 판정에 반영하지 못했다. [S9](https://www.sec.gov/Archives/edgar/data/1717115/000119312526145528/d23945ddef14a.htm) [S10](https://www.sec.gov/Archives/edgar/data/1717115/000119312526066961/tem-20251231.htm)
-- [watch] 코드 시장 지표(시가총액, EV, EV/매출)는 희석 주식 수가 천 단위로 저장된 탓에 단위가 틀렸다(C:market_cap, C:ev, C:ev_revenue). F32는 약 18만이고 실제 발행주식은 F146이다. 또 부채 총액(debt_total)이 수집되지 않아 순현금(C:net_cash)은 현금(F15)만 반영한 값일 뿐이다. 현금이 FY2025Q3에 급증한 것(F11→F12)은 영업이 아니라 외부 조달로 보이는데 그 구성은 확인하지 못했다. 가치평가 단계에서는 이 값들을 쓰지 말고 F145×F146으로 직접 계산해야 한다. [C:market_cap] [C:ev] [C:ev_revenue] [F32] [F146] [F145] [F15] [F11] [F12]
+- [concern] receivables_gap: FY2024 매출채권 증가율이 매출 증가율보다 33.5%p 높아 문턱 15%p를 넘었다. 이후에도 DSO가 길어지는 방향이다(FY2023 64.8일, FY2024 81.5일, FY2025 89.3일). 매출채권은 FY2026Q2에 분기 기준으로 한 번 더 늘었다. 이 중 상당 부분은 병원·제약사 청구 구조와 인수한 사업의 채권이 합쳐진 결과일 수 있다. 하지만 인수 효과와 유기적 증가를 나눌 자료가 없어 benign으로 단정하지 못한다. 대손충당금과 청구 시차를 확인하기 전까지는 concern으로 둔다. 매출 성장률을 그대로 믿지 말고 현금 회수(OCF)와 함께 봐야 한다. [C:receivables_gap] [C:dso@FY2024] [C:dso@FY2025] [F101] [F103] [F97]
+- [concern] dilution: 희석 주식 수가 연 40.4% 늘어 문턱 3%를 크게 넘었다. 대부분은 2024년 IPO 때 우선주가 보통주로 전환된 것(FY2023 63,306에서 FY2024 12만으로)과 2025년 인수에서 비롯된 것으로 보인다. 그래서 같은 속도가 지속된다는 뜻은 아니다. 다만 SBC가 분기마다 커지고 있고(FY2026Q1 5,271만, FY2026Q2 5,412만), Personalis 인수($1.5B)의 대금 조달 방식(현금·주식·전환사채)을 아직 모른다. 인수를 주식으로 치르면 추가 희석이 크다. 주당 지표는 희석 후 기준으로 봐야 한다. 이 계산의 주식 수 단위가 기간별로 달라 연 40.4%의 정확한 크기는 믿기 어렵지만, 방향은 분명하다. [C:dilution] [F25] [F26] [F32] [F129] [F130] [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5)
+- [watch] 2026년 2분기 GAAP 순이익 $5.6M은 미실현 시장성증권 평가이익 $98.5M을 포함한다. 같은 분기 영업손실은 크고 영업현금흐름은 음수다. 순이익이 흑자라고 해도 영업 수익성이 개선된 것이 아니다. 평가이익은 반복되지 않고, 주가가 내리면 반대로 손실이 될 수 있다. 이익 추정에서는 이 항목을 빼야 한다. 구성 상세는 아직 수집하지 못했다. [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [F80] [F95] [F158]
+- [watch] 조정 EBITDA $8.0M은 같은 분기 GAAP 영업손실과 차이가 매우 크다. 조정 항목에는 SBC 및 관련 급여세 $55.6M이 들어 있고, SBC는 매 분기 현금 대신 지급되는 실제 보상 비용이다. SBC를 비용으로 보는 FCF가 더 정직한 지표다. 가이던스인 조정 EBITDA 약 $65M도 같은 방식으로 정의된 숫자라는 점을 감안해야 한다. 조정 내역 전체는 미확인이다. [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [F149] [F95] [F130] [F148]
+- [watch] 영업현금흐름이 계속 음수이고 분기별 변동이 크다(FY2025Q2 양수, 이후 음수 반복). 연간 FCF 마진은 개선 중이지만 SBC 차감 FCF는 여전히 큰 적자다. 현금 소진 연수는 코드 계산으로 약 2.3년인데, 이 값에는 최근 현금 증가 원인(자금 조달 여부)이 반영되지 않았다. 현금 6.0억은 영업으로 번 돈이 아니라 조달·자산 매각의 결과일 가능성이 있다. [C:fcf_after_sbc@FY2025] [C:fcf_margin@FY2025] [F156] [F157] [F158] [F15]
+- [info] 영업권은 총자산의 약 20% 수준으로 문턱 40%보다 낮다. 다만 FY2025에 인수로 영업권이 크게 늘었고(FY2024 7,334만에서 FY2025 4.7억), Personalis 인수가 종결되면 더 늘 수 있다. 인수 영업권의 손상 위험은 이후 감시 항목이다. 자본화 소프트웨어 비중은 사실에 없어 확인하지 못했다. [F48] [F52] [F138] [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5)
+- [info] FY2025Q1에 큰 규모의 법인세 수익이 있었다(-4,618만). 대규모 인수에 따른 이연법인세 효과로 보이며 일회성으로 추정한다. 이 항목이 FY2025 순손실을 줄였으므로 연간 순이익은 이를 빼고 비교해야 한다. 정확한 원인은 공시 본문에서 확인하지 못했다. [F59] [F58]
+- [info] 이연매출은 FY2025Q2에 늘었다가 FY2025Q3에 줄고 FY2026Q1에 줄었다가 FY2026Q2에 다시 늘었다. 매출이 빠르게 늘어나는 동안 이연매출은 큰 추세 없이 오르내려서 선수금으로 매출을 당겨 인식하는 신호는 아니다. 데이터·애플리케이션 계약의 인식 정책은 원문 확인이 필요하다. [F19] [F20] [F22] [F23] [C:deferred_revenue_growth]
+- [watch] 감사의견, 핵심감사사항, 계속기업 의문 여부, 감사인 변경은 수집하지 못했다. 재무제표 정정(8-K 4.02) 신호도 코드에서 나오지 않았다. 확인되지 않은 것이지 문제가 없다고 확인된 것이 아니다. 10-K 원문(S10) 확인이 필요하다. [S10](https://www.sec.gov/Archives/edgar/data/1717115/000119312526066961/tem-20251231.htm)
+- [watch] 창업자와 관련된 법인과의 거래는 아직 조사하지 않았다. 대주주가 이사회와 경영진을 겸하는 회사이므로 DEF 14A(S9)의 특수관계자 거래 항목을 확인해야 한다. 결과가 나올 때까지는 중립이 아니라 미확인으로 취급한다. [S9](https://www.sec.gov/Archives/edgar/data/1717115/000119312526145528/d23945ddef14a.htm)
+- [watch] 코드 계산값의 단위 오류. 희석 주식 수가 기간마다 다른 단위로 들어와 시가총액, EV, EV/매출, FCF 수익률이 비정상이다(예: 음의 EV). 이 값들을 후속 단계에서 인용하지 말아야 한다. 주가와 발행주식 수에 근거한 시가총액을 따로 계산해야 하고, 역DCF 결과도 믿을 수 없다. [F32] [F145] [F146] [C:ev]
 
 ## 레드팀 — 사전 부검 (5년 뒤 −60%라면)
 
-- (20%) Personalis 인수($1.5B)가 현금 6.0억 USD보다 크다. 이를 주식이나 전환사채로 조달하면 이미 연 40%대로 늘던 희석이 한 번 더 커진다. 인수 이후 통합이 지연되고 영업권이 손상되면, 매출은 늘어도 주당 가치는 줄어든다. 성장주 배수를 받던 주가에 희석과 손상 두 가지가 겹치면서 5년 뒤 −60%가 된다. [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5) [S21](https://news.google.com/rss/articles/CBMid0FVX3lxTE5FN2N1bEFsMVJ4bTF2VXBRRmp0d2VSSm9Hc0Fvc2dIc0NaR29VOVR5bENBM1E4V0x6WXNiLTUwRkljbW9XMDhoQU9qbGlxY0ZSNnBwQUhvUllPYUoyRTdzNVFHZkwwLWpYSUF5eDlvTENndFQ2S3B3?oc=5) [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [F15] [C:dilution] [C:share_change@FY2025]
-- (25%) 2분기 흑자는 미실현 평가이익 $98.5M에서 나왔고, 영업손실은 −7,591만 USD로 이어지고 있다. 분기 SBC는 계속 늘어 영업적자가 줄지 않는다. 조정 EBITDA 가이던스는 SBC와 급여세 $55.6M을 빼고 맞춘 숫자다. GAAP 기준 흑자 전환이 늦어지면 시장은 조정 지표를 믿지 않게 된다. 그러면 외부 자금에 다시 의존하게 되고 배수가 낮아진다. [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [F80] [F95] [F130] [F149] [C:fcf_after_sbc@FY2025]
-- (20%) 매출채권이 매출보다 빠르게 늘고 DSO가 64.8일에서 89.3일로 길어졌다. 청구는 크지만 회수가 느린 구조다. 보험사 상환 거절이나 제약사 결제 지연이 시작되면 대손충당금과 운전자본이 한꺼번에 늘어난다. 매출은 유지되는 것처럼 보이다가 현금이 먼저 줄고, 가이던스 하향이 겹치면서 주가가 크게 내려간다. [C:dso@FY2023] [C:dso@FY2025] [C:receivables_gap] [F101] [F103]
-- (20%) 데이터·애플리케이션 부문은 제약사 계약에 기대지만 계약 규모·기간·잔고(TCV)는 확인되지 않았다. 해자가 회사 서사로만 존재하고(claimed) 입증된 적이 없다. 대형 제약사가 계약 갱신을 미루거나 가격을 깎고, 진단 부문에서는 경쟁이 가격 압박으로 이어지면 두 부문의 성장이 함께 꺾인다. 20%대 성장을 전제한 배수가 한꺼번에 내려간다. [S34](https://news.google.com/rss/articles/CBMijgFBVV95cUxNU3oxaWJSVXNZYkNva3lMTFl5ZFBBaXBxZjdzcnVaVEdjNU50cXFxSzBPWFhXcDZZOG1YS09ucTJkeVluMlhqWVFoQ3hBY2JWU0pxNXVGay1VMFRWQzdhLXpCX2hpRGdqSkVVajBDWTgzMk8yN1VHbktyS3pQc3c3Ym5FWDM0Xy1MbF9TbUln?oc=5) [S20](https://news.google.com/rss/articles/CBMickFVX3lxTFB6WnpqMEdtOUNzLW5nTU9JdElFNml1WFZNalBJYzdMa3czeDZUaFNDNVA2S1NDc3o5eVBiRlVxM1dCbFZ6YnJuMThtZGNMWEdBVWhOQ01IU0NPUTduRXE5WU9FS2FtU0RmWUFJQXk3MHVSdw?oc=5) [S3](https://www.sec.gov/Archives/edgar/data/1717115/000119312526309073/d128960d8k.htm) [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [F23]
-- 약한 가정 `base.fcf_margin`: 기본 시나리오는 FCF 마진을 FY2025의 −18.8%에서 5년 뒤 15%로 올려놓았다. 이 구간에는 SBC가 FCF에 잡히지 않는다. SBC 차감 FCF는 FY2025에도 크게 음수다. 영업손실이 2분기에도 계속되므로 근거가 흑자 전환을 뒷받침하지 못한다. 기저율 표도 없어서 이 가정을 외부 사례로 검증하지 못했다. [C:fcf_margin@FY2025] [C:fcf_after_sbc@FY2025] [F95] [C:base_rate@base]
-- 약한 가정 `base.share_change`: 기본 시나리오 희석은 연 3%다. 실제 주식 수 증가는 FY2025에 45.4%였고 분기 SBC도 계속 늘었다. 상장·우선주 전환 효과로 일부는 기계적이지만, Personalis 조달 방식이 확인되지 않은 채 희석을 3%로 둔 것은 낙관적이다. [C:share_change@FY2025] [C:dilution] [F130] [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5)
-- 약한 가정 `base.exit_multiple`: 출구 P/FCF 30배는 5년 뒤에도 성장이 이어진다는 전제다. 이 배수는 자기 가정이 맞아야만 의미가 있고, 약세·기본 차이가 시나리오 가치의 대부분을 만든다. 또 코드가 계산한 주당 가치와 시가총액은 희석 주식 수 단위 오류(천 단위 저장)로 틀렸다. 이 숫자들을 판단 근거로 삼으면 안 된다. [C:market_cap] [C:ev] [F32] [F146]
+- (20%) Personalis 인수($1.5B, S19·S21)를 주식이나 전환사채로 조달했고, 이미 크던 희석이 한 번 더 커졌다. 현금은 6.0억 USD(F15)이고 현금 소진 연수는 2.3년(C:runway_years)이다. 인수 대금이 현금보다 커서 외부 자본에 기댈 수밖에 없었다. 시장은 주가가 높을 때 자금을 조달하는 구조를 알고 있었고, 주가는 10-05의 83.55달러에서 10-16의 64.72달러로 하루 약 -9% 내리며(S38) 이미 흔들렸다. 인수 후 통합 비용과 SBC 증가로 영업손실이 줄지 않았다. 희석 주식 수는 연 40.4% 늘던 속도(C:dilution)에서 둔화하지 않았다. 주당 가치가 깎이는 동안 영업권(F52)만 쌓였고, 이후 손상차손이 겹쳤다. [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5) [S21](https://news.google.com/rss/articles/CBMid0FVX3lxTE5FN2N1bEFsMVJ4bTF2VXBRRmp0d2VSSm9Hc0Fvc2dIc0NaR29VOVR5bENBM1E4V0x6WXNiLTUwRkljbW9XMDhoQU9qbGlxY0ZSNnBwQUhvUllPYUoyRTdzNVFHZkwwLWpYSUF5eDlvTENndFQ2S3B3?oc=5) [S38](https://stockanalysis.com/stocks/tem/history/) [F15] [F52] [C:runway_years] [C:dilution]
+- (20%) 2Q26 GAAP 흑자($5.6M)가 미실현 시장성증권 평가이익 $98.5M 덕이었다는 점(S40)이 드러났고, 시장이 이익의 질을 재평가했다. 영업손실은 1Q26 -8,471만(F94), 2Q26 -7,591만 USD(F95)로 SBC가 커지는 동안 줄지 않았다. 조정 EBITDA 흑자($8.0M, F149)는 SBC 및 관련 급여세 $55.6M을 뺀 숫자였다. 경영진이 강조하는 지표와 주주가 부담하는 비용이 달라서, 투자자는 SBC 차감 FCF(C:fcf_after_sbc@FY2025)를 기준으로 가치를 다시 매겼다. FCF 마진이 15%에 닿기 전에 현금이 줄었고, 흑자 서사에 붙은 높은 배수가 무너졌다. [S40](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) [F94] [F95] [F149] [C:fcf_after_sbc@FY2025]
+- (15%) 수금 속도가 늦어지면서 매출 성장의 질이 의심받았다. DSO는 FY2023 64.8일에서 FY2025 89.3일로 길어졌고(C:dso@FY2025), 매출채권은 FY2025 3.1억에서 FY2026Q2 3.6억 USD로 늘었다(F101, F103). 보험과 병원의 지급 거절이나 상환율 인하가 나오면 진단 매출 인식과 현금 회수 사이의 간격이 벌어진다. 인수한 사업의 채권이 섞여 있어 외부에서 구분하기 어렵고, 충당금 증가와 매출 하향이 한꺼번에 나왔다. 영업현금흐름이 분기마다 음수(F86, F158)인 회사가 현금 회수까지 막히면 외부 자본에 더 의존하게 된다. [C:dso@FY2025] [F101] [F103] [F86] [F158] [C:receivables_gap]
+- (15%) 데이터·애플리케이션 사업이 반복 매출이 아니라 제약사 계약 시점에 좌우되는 일회성 매출임이 드러났다. 계약 잔고(TCV), 순매출유지율, 고객 집중도는 한 번도 공개되지 않았다. 이연수익은 FY2025Q2의 1.0억 USD(F19)에서 FY2026Q2의 8,725만 USD(F23)로 오히려 낮아졌고, 애널리스트도 데이터 사업이 더 큰 시험대에 있다고 보았다(S34). Recursion 같은 대형 계약(S20)이 갱신되지 않거나 규모가 줄자, 고마진 데이터 매출이 FCF 마진 개선을 이끈다는 논리가 깨졌다. 2028년 xT CDx·xF 증분 매출 목표(S45)도 산식이 확인된 적 없어 시장이 신뢰를 거뒀다. [F19] [F23] [S34](https://news.google.com/rss/articles/CBMijgFBVV95cUxNU3oxaWJSVXNZYkNva3lMTFl5ZFBBaXBxZjdzcnVaVEdjNU50cXFxSzBPWFhXcDZZOG1YS09ucTJkeVluMlhqWVFoQ3hBY2JWU0pxNXVGay1VMFRWQzdhLXpCX2hpRGdqSkVVajBDWTgzMk8yN1VHbktyS3pQc3c3Ym5FWDM0Xy1MbF9TbUln?oc=5) [S20](https://news.google.com/rss/articles/CBMickFVX3lxTFB6WnpqMEdtOUNzLW5nTU9JdElFNml1WFZNalBJYzdMa3czeDZUaFNDNVA2S1NDc3o5eVBiRlVxM1dCbFZ6YnJuMThtZGNMWEdBVWhOQ01IU0NPUTduRXE5WU9FS2FtU0RmWUFJQXk3MHVSdw?oc=5) [S45](https://ground.news/article/tempus-targets-1595b-1605b-2026-revenue-as-it-outlines-2028-400m-uplift-tied-to-xt-cdx-and-xf-nasdaq-tem_edbb77)
+- 약한 가정 `base.fcf_margin`: 기본 시나리오 FCF 마진 15%는 FY2025의 -18.8%(C:fcf_margin@FY2025)에서 5년 만에 30%p 이상 오르는 가정이다. 개선 추세는 있지만 SBC가 분기마다 커지고(F128, F130) 영업현금흐름은 FY2026 1분기와 2분기 모두 음수(F86, F158)다. SBC/매출은 FY2025에 9.8%(C:sbc_to_revenue@FY2025)로, 마진 개선분을 SBC가 상쇄할 여지가 있다. 이 가정을 받쳐 줄 총이익률·ASP·유지율 KPI는 수집되지 않았다. [C:fcf_margin@FY2025] [C:sbc_to_revenue@FY2025] [F86] [F158] [F130]
+- 약한 가정 `base.share_change`: 연 3% 희석은 실제 이력과 맞지 않는다. 희석 주식 수는 FY2025에 45.4% 늘었고(C:share_change@FY2025) 코드 신호는 연 40.4%를 가리킨다(C:dilution). IPO 전환과 인수 효과를 빼도 SBC가 분기 5천만 달러대로 이어지고, Personalis 인수 대금의 조달 방식이 미확인이다(S19). 현금 소진 연수가 2.3년(C:runway_years)이라 모델의 낮은 희석 가정은 외부 자본 조달 없이 5년을 버틴다는 뜻이 된다. [C:share_change@FY2025] [C:dilution] [C:runway_years] [S19](https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3haUHlpaUJmREsyekN3NC0zcEw5WU1BSWhocFFyLUNZUEtCcUFIbEQ1b0NkMnJOT0lUZ01sR0ZMREkxaFJGTUhlbWwxUlhQYVdXX09VNGs3ei0zNk5yMTg0QUNpT2pKYWZmQXVuZ2NFZms3bUhSVzdVZmsyRE1PUjhsUFNBWmxqU0E5V1QtMk15UQ?oc=5)
+- 약한 가정 `base.exit_multiple`: 출구 P/FCF 25배는 흑자 전환이 입증된 뒤에도 시장이 높은 배수를 유지한다는 가정이다. 성장이 둔화하는 5년째(기본 시나리오 13%)에 이 배수를 주는 근거가 없다. 기저율 표도 없다(C:base_rate@base). 또 시나리오 값과 역DCF는 희석 주식 수 단위 오류로 계산되어 있어(forensic 지적, 음의 EV인 C:ev) 모델의 가치 수치 자체를 신뢰할 수 없다. [C:base_rate@base] [C:ev] [F32] [F146]
 
 ## 검증 (L6)
 
-주장 73개 — supported 63 · unsupported 9 · contradicted 0 · leap 1 · 미검증 0
+주장 74개 — supported 52 · unsupported 16 · contradicted 4 · leap 2 · 미검증 0
 
-- [unsupported] 애크먼: 슬레이터의 가장 강한 논거는 기본 시나리오의 현금 경로가 모델 기간 내내 0 위에 있어 생존에 문제가 없다는 것이다. 그러나 그 경로에는 Personalis 인수 — 없는 근거 인용: C:cash_survives
-- [unsupported] 레드팀: 기본 시나리오는 FCF 마진을 FY2025의 −18.8%에서 5년 뒤 15%로 올려놓았다. 이 구간에는 SBC가 FCF에 잡히지 않는다. SBC 차감 FCF는 F — 없는 근거 인용: C:base_rate@base
-- [unsupported] 애크먼: 코드의 가치 계산은 이번에는 쓸 수 없다. 희석 주식 수 F32가 천 단위로 저장되어 시나리오 주당 가치가 현재 주가의 수천 배로 나오고 시가총액과 EV도 틀렸다 — 출처 없는 숫자 1.17e+10 — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
-- [unsupported] 앤더슨: 강세 시나리오는 연 22.9% 성장, FCF 마진 22%, 출구 P/FCF 35배다. 질문 10의 5배 경로를 보려면 이 가정으로 부족하다. 추정: 5년 뒤 강세 — 출처 없는 숫자 2.75e+10, 1.17e+10, 2.4 — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
-- [unsupported] 경영진·자본배분: 희석 주식 수 증가율은 FY2024 89.3%, FY2025 45.4%다. 코드 신호는 연 40.4% 증가로 기준 3%를 크게 넘는다. SBC는 FY2025 매출 — 출처 없는 숫자 3% — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
-- [unsupported] 애크먼: 앤더슨의 가장 강한 논거는 성장이 실재하고 데이터 사업의 상방이 크다는 것이다. 하지만 성장은 가격의 정당화가 아니다. 앤더슨 스스로 강세 시나리오로도 시총이 2 — 출처 없는 숫자 2.4 — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
-- [leap] 애크먼: 자본시장 의존이 구조적이다. FY2025 영업현금흐름이 -2.2억 USD였는데 현금은 외부 조달로 늘었다. 여기에 $1.5B Personalis 인수가 현금 6. — OCF -2.18억과 인수 규모는 맞지만, 현금이 외부 조달로 늘었다고 단정하고 자본시장 의존이 구조적이라고 한 것은 인용 자료에서 따라 나오지 않는다.
-- [unsupported] 슬레이터: 예측 가능성이 없다는 이유로 정의되지 않은 시장을 버리지 않는다. 또 자본시장 의존을 '참'으로 단정하는 것도 근거가 약하다. 현금은 6.0억 USD이고, 기본  — 없는 근거 인용: C:cash_survives
-- [unsupported] 슬레이터: 생존은 현재 기준으로 문제없다. 기본 시나리오의 현금 경로는 모델 기간 내내 0 위에 있고, 분기 말 현금은 FY2026Q2에 6.0억 USD다. 다만 이 계산에 — 없는 근거 인용: C:cash_survives
-- [unsupported] 앤더슨: 레드팀의 사전 부검 가운데 성장 가설 자체를 깨는 것은 데이터·애플리케이션 부문의 계약 갱신 부진과 진단 가격 압박이다. 이연매출이 7,000만 USD 아래로 내 — 출처 없는 숫자 7e+07 — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- [unsupported] 회계 품질: 이연매출은 FY2025Q2에 늘었다가 FY2025Q3에 줄고 FY2026Q1에 줄었다가 FY2026Q2에 다시 늘었다. 매출이 빠르게 늘어나는 동안 이연매출은 큰 — 없는 근거 인용: C:deferred_revenue_growth
+- [contradicted] 레드팀: Personalis 인수($1.5B, S19·S21)를 주식이나 전환사채로 조달했고, 이미 크던 희석이 한 번 더 커졌다. 현금은 6.0억 USD(F15)이고 현 — S38에서 83.55달러(10-05)→64.72달러(10-16)는 11일간 약 -22%이고, 하루 -9%는 71.13→64.72(10-15→10-16)뿐이라 주장이 기간을 섞어 잘못 옮겼다.
+- [unsupported] 슬레이터: 매출채권이 매출보다 빨리 늘고 DSO가 길어지고 있다. 이는 상환 구조 때문일 수도 있고 매출의 질 저하일 수도 있다. 구분할 KPI가 없어 현금 회수가 막히면  — 인용은 FY2025 DSO 한 점과 매출채권 한 점뿐이라 '매출보다 빨리 늘고 DSO가 길어지고 있다'는 추세를 보일 수 없다.
+- [unsupported] 슬레이터: 앤더슨은 bull에서도 5년 뒤 가치가 현재의 2배 안팎이라 5배 비대칭이 입증되지 않았다고 했다. 이 계산은 코드 값이 아니라 직접 추정이어서 시가총액 117억 — 출처 없는 숫자 1.17e+10 — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- [contradicted] 레드팀: 2Q26 GAAP 흑자($5.6M)가 미실현 시장성증권 평가이익 $98.5M 덕이었다는 점(S40)이 드러났고, 시장이 이익의 질을 재평가했다. 영업손실은 1Q2 — F94(-8,471만)에서 F95(-7,591만)로 영업손실이 줄었으므로 '줄지 않았다'는 인용값과 반대다.
+- [unsupported] 경영진·자본배분: 희석이 구조적으로 크다. 희석 주식 수는 FY2024 89.3%, FY2025 45.4% 증가했고(C:share_change@FY2025), 코드 신호는 연 40 — FY2024 희석 89.3%와 FY2024 SBC/매출 77.0%·SBC 5.3억은 인용에 없다. 분기 SBC와 FY2025 값(45.4%, 9.8%, 40.4%)은 맞다.
+- [unsupported] 앤더슨: 창업자 CEO가 이끄는 이중 클래스 구조라 시간 지평이 길다. 진단 위에 데이터·애플리케이션을 얹는 구조에서 데이터가 축적될수록 수확체증이 날 수 있다. 다만 이 — S39는 Class A/B 이중 구조만 보이고 S44는 Lefkofsky를 CEO로만 적어 '창업자'임은 인용에 없다.
+- [unsupported] 회계 품질: 희석 주식 수가 연 40.4% 늘어 문턱 3%를 크게 넘었다. 대부분은 2024년 IPO 때 우선주가 보통주로 전환된 것(FY2023 63,306에서 FY2024 — 희석 증가가 IPO 우선주 전환과 2025년 인수에서 비롯됐다는 원인은 인용 어디에도 없고 주식 수 증가 값만 있다.
+- [contradicted] 모델러: 매출 성장은 가이던스대로 간다고 본다. 우리가 다르게 보는 것은 수익의 질이다. 2Q26 GAAP 순이익 흑자는 미실현 시장성증권 평가이익에서 나왔고, 영업이익은 — F94(-8,471만)에서 F95(-7,591만)로 분기 영업손실이 줄었는데 '분기 기준으로 줄지 않았다'고 썼다.
+- [unsupported] 레드팀: 수금 속도가 늦어지면서 매출 성장의 질이 의심받았다. DSO는 FY2023 64.8일에서 FY2025 89.3일로 길어졌고(C:dso@FY2025), 매출채권은  — DSO FY2023 64.8일은 인용에 없다. 이외 FY2025 DSO, 매출채권 3.1억→3.6억, 음수 OCF는 맞다.
+- [unsupported] 모델러: 이 시나리오는 2026년 가이던스는 거의 맞추지만 그 뒤 성장이 급격히 꺾이는 경우다. 2Q26 매출은 +22%였고 종양학 검사 물량은 +31%였다. 그러나 매출 — +22%와 +31%는 인용 자료에 없고, 영업손실이 줄지 않는다는 말도 F95 한 점으로는 보일 수 없다.
+- [unsupported] 애크먼: 가격. 코드의 안전마진은 희석 주식 수 단위가 기간별로 달라 시가총액과 EV가 음수로 나오는 오류 위에 있어 신뢰할 수 없다. 추정: 시가총액은 주가 64.72달 — 출처 없는 숫자 1.17e+10 — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- [unsupported] 레드팀: 출구 P/FCF 25배는 흑자 전환이 입증된 뒤에도 시장이 높은 배수를 유지한다는 가정이다. 성장이 둔화하는 5년째(기본 시나리오 13%)에 이 배수를 주는 근거 — 없는 근거 인용: C:base_rate@base
+- [contradicted] 앤더슨: 2분기 GAAP 순이익 흑자는 미실현 시장성증권 평가이익에서 나왔고 영업손실은 줄지 않았다. 성장이 규모의 경제로 이어지지 않으면 FCF 마진 15~22% 가정이 — 인용한 F94(-8,471만)와 F95(-7,591만)는 영업손실이 줄었음을 보여 '줄지 않았다'와 어긋난다.
+- [unsupported] 애크먼: 슬레이터의 가장 강한 논거는 가설이 깨진 것은 아니므로 증거를 기다린다는 것이다. 그러나 그의 생존 경로·단위경제는 필요조건일 뿐 가격의 정당화가 아니다. 단위경 — 출처 없는 숫자 1.17e+10 — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- [leap] 슬레이터: 애크먼의 가장 강한 논거는 현금 소진 2.3년과 현금보다 큰 인수가 겹쳐 자본시장 의존이 구조적이라는 것이다. 이 점은 같은 생각이다. 다만 모델링이 안 된다는  — 소진 2.3년, 인수액>현금, 물량 +31%·MRD 9,000건은 맞지만 회사 검사 물량으로 '시장이 커지고 있다'고 단정하는 것은 비약이다.
+- [unsupported] 회계 품질: FY2024 매출채권 증가율이 매출 증가율보다 33.5%p 높아 문턱 15%p를 넘었다. 이후에도 DSO가 길어지는 방향이다(FY2023 64.8일, FY2024 — FY2023 DSO 64.8일과 문턱 15%p는 인용에 없다. 이외 매출채권 격차 33.5%p, DSO 81.5·89.3일, 매출채권 증가는 맞다.
+- [unsupported] 회계 품질: 창업자와 관련된 법인과의 거래는 아직 조사하지 않았다. 대주주가 이사회와 경영진을 겸하는 회사이므로 DEF 14A(S9)의 특수관계자 거래 항목을 확인해야 한다. — S9는 내용이 없는 목록 항목이라 '대주주가 이사회와 경영진을 겸한다'는 사실을 받쳐 주지 못한다.
+- [unsupported] 슬레이터: 데이터·애플리케이션 사업이 진짜 반복 매출이 아니면 2028년 서사의 한 축이 무너진다. 이연수익은 정체돼 있고 계약 잔고 자료가 없다. — 이연수익 F23 한 점만으로는 '정체'를 보일 수 없고, 직전 분기보다 오히려 늘었으며 1년 전보다 낮은 점은 인용에 없다.
+- [leap] 애크먼: 단순성 실패. 매출이 진단과 데이터·애플리케이션 두 축이고, 성장에는 인수 효과가 섞여 있어 유기 성장률조차 분리되지 않는다. FCF 마진이 -46.8%, -30 — FCF 마진 개선과 두 축 매출은 맞지만, 인수 효과가 섞였다는 근거로 성장률 83.4%만 인용해 유기 성장 분리 불가를 이끌어 내는 것은 비약이다.
+- [unsupported] 사업·산업: 손익 개선은 아직 영업 단계에서 확인되지 않는다. 2Q26 영업이익은 -7,591만 USD이고 조정 EBITDA는 $8.0M이다. 2026 조정 EBITDA 가이 — 출처 없는 숫자 2.026e+15 — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- [unsupported] 레드팀: 연 3% 희석은 실제 이력과 맞지 않는다. 희석 주식 수는 FY2025에 45.4% 늘었고(C:share_change@FY2025) 코드 신호는 연 40.4%를  — 희석 45.4%·40.4%, 소진 2.3년, 조달 미확인은 맞지만 'SBC 분기 5천만 달러대'는 인용에 SBC 값이 없어 받쳐지지 않는다.
 
 ## 계산 근거 (L3)
 
@@ -273,35 +303,48 @@ Tempus는 유전체 검사 진단(2Q26 매출 $289.3M, 약 +20%)과 임상 데�
 | 시가총액 (market_cap) | 1,180만 USD |
 | 순현금 (net_cash) | 6.0억 USD |
 | EV (ev) | -5.9억 USD |
-| FCF 수익률 (fcf_yield) | — |
+| FCF 수익률 (fcf_yield) | -2229.8% |
 | P/FCF (p_fcf) | — |
 | EV/매출 (ev_revenue) | -0.41x |
 | PER (pe) | — |
 | 순부채/EBITDA (net_debt_to_ebitda) | — |
-| 현금 소진 연수 (runway_years) | — |
+| 현금 소진 연수 (runway_years) | 2.3 |
 
 ### 회계 품질 신호 (코드 계산 — forensic이 하나씩 해명해야 한다)
 
 - [watch] receivables_gap (C:receivables_gap): FY2024 매출채권 증가율 - 매출 증가율 33.5% > 15%
 - [watch] dilution (C:dilution): 희석 주식 수 연 40.4% 증가 > 3%
 
+### 역DCF — 현재 가격이 가정하는 것
+
+EV -5.9억 USD를 정당화하려면 매출이 10년간 연 몇 % 커져야 하는가 — FCF 마진이 지금 값에서 목표 마진으로 직선 수렴, 할인율 10%, 이후 영구성장 3%.
+기본 시나리오 목표 마진 15% 기준: 연 계산 불가 (C:implied_cagr)
+
+| 목표 FCF 마진 | 내재 매출 성장(연) | 인용 키 |
+|---|---|---|
+| 10% | — | C:implied_cagr@m10 |
+| 15% | — | C:implied_cagr@m15 |
+| 20% | — | C:implied_cagr@m20 |
+| 25% | — | C:implied_cagr@m25 |
+| 30% | — | C:implied_cagr@m30 |
+
 ### 시나리오 가치 — 5년, 할인율 10% (C:지표@시나리오 — p·revenue_cagr·fcf_margin·exit_multiple·value·iv·irr·revenue·fcf)
 
 | 시나리오 | 확률 | 5년 매출 | 매출 연성장 | FCF 마진 | 출구 P/FCF | 주당 가치 | 현재가치(IV) | 연 수익률 |
 |---|---|---|---|---|---|---|---|---|
-| 약세 | 30% | 19.9억 USD | 9.4% | 5% | 18x | 8,762.59 | 5,440.88 | +166.9% |
-| 기본 | 50% | 29.2억 USD | 18.1% | 15% | 30x | 66,903.40 | 41,541.74 | +300.8% |
-| 강세 | 20% | 35.7억 USD | 22.9% | 22% | 35x | 145,049.30 | 90,064.20 | +367.8% |
+| 약세 | 30% | 21.8억 USD | 11.4% | 3% | 15x | 4,741.27 | 2,943.96 | +136.0% |
+| 기본 | 50% | 29.2억 USD | 18.1% | 15% | 25x | 56,533.21 | 35,102.68 | +287.5% |
+| 강세 | 20% | 34.9억 USD | 22.4% | 22% | 30x | 122,719.35 | 76,199.06 | +352.5% |
 
-확률 가중: 주당 가치 65,090.33 · IV 40,415.98 · 기대 연 수익률 +298.6% (C:expected_irr) · 손실 확률 0% (C:p_loss) · 현재 주가 64.72
+확률 가중: 주당 가치 54,232.86 · IV 33,674.34 · 기대 연 수익률 +284.3% (C:expected_irr) · 손실 확률 0% (C:p_loss) · 현재 주가 64.72
 
 민감도 — 기본 시나리오 연 수익률 (행: 매출 성장 ±, 열: 출구 멀티플 배수)
 
 | 성장 \ 멀티플 | ×0.75 | ×1 | ×1.25 |
 |---|---|---|---|
-| -5%p | +262.0% | +281.4% | +297.6% |
-| +0%p | +280.1% | +300.8% | +317.9% |
-| +5%p | +298.4% | +320.2% | +338.3% |
+| -5%p | +250.4% | +268.9% | +284.3% |
+| +0%p | +267.8% | +287.5% | +303.8% |
+| +5%p | +285.4% | +306.2% | +323.5% |
 
 기본 시나리오 연도별 (드라이버 모델)
 
@@ -322,13 +365,13 @@ Tempus는 유전체 검사 진단(2Q26 매출 $289.3M, 약 +20%)과 임상 데�
 ### 기저율 — 같은 성장을 해낸 기업 비율 (C:base_rate@implied·base·bull)
 
 - base 시나리오 매출 성장: 연 18.1% × 5년 → 기저율 표 없음
-- bull 시나리오 매출 성장: 연 22.9% × 5년 → 기저율 표 없음
+- bull 시나리오 매출 성장: 연 22.4% × 5년 → 기저율 표 없음
 
 ### 페르소나 지표 (코드 계산 · case 기본값 기준, C:지표@페르소나)
 
-- 앤더슨 case={"from": "bull", "years": 10, "share_change": 0.04}: upside_10y=4077.05x, revenue_5y=2.81x
-- 슬레이터 case={"from": "base"}: cash_survives=예, cash_min=3.1억 USD
-- 애크먼 case={"from": "bear"}: price=64.7, leveraged=아니오, intrinsic_value=5,440.9, mos=98.8%
+- 앤더슨 case={"from": "bull"}: upside_10y=4227.59x, revenue_5y=2.74x
+- 슬레이터 case={"from": "base"}: cash_survives=예, cash_min=3.1억 USD, runway_years=2.3
+- 애크먼 case={"from": "bear"}: price=64.7, fcf_positive=아니오, leveraged=예, intrinsic_value=2,944.0, mos=97.8%
 
 ### 계산 경고
 
@@ -380,3 +423,7 @@ Tempus는 유전체 검사 진단(2Q26 매출 $289.3M, 약 +20%)과 임상 데�
 | S39 | filing | 2026-07-30 | [Tempus AI 10-Q (2026-06-30 분기) 표지](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326090/tem-20260630.htm) | 2026-07-24 기준 발행주식: Class A 175,390,967주 + Class B 5,043,789주 = 180,434,756주 |
 | S40 | filing | 2026-07-30 | [Tempus Reports Second Quarter 2026 Results (8-K Ex.99.1)](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm) | 2Q26 매출 $382.5M(+22%), 진단 $289.3M(+20%), 데이터·애플리케이션 $93.2M. GAAP 순이익 $5.6M(미실현 시장성증권 평가이익 $98.5M, SBC 및 관련 급여세 $55.6M 포함). 조정 EBITDA $8.0M. 2026 매출 가이던스를 $1.595~1.605B(약 +25%)로 상향, 조정 EBITDA 약 $65M 유지. 가이던스는 Personalis 인수 효과 제외(4Q26~1Q27 종결 예정) |
 | S41 | news | 2026-07-31 | [TEM Q2 Loss Narrower Than Expected, Revenues Beat, Stock Up - Nasdaq(Zacks)](https://www.nasdaq.com/articles/tem-q2-loss-narrower-expected-revenues-beat-stock) | 보도: Zacks 컨센서스 FY2026 매출 약 $1.59B(가이던스 상향 전 추정치일 가능성). Zacks는 상향 가이던스를 $1.60~1.61B로 적어 회사 보도자료($1.595~1.605B)와 다르다. 회사 자료를 우선한다 |
+| S42 | data | 2026-10-16 | [Yahoo Finance TEM historical prices](https://finance.yahoo.com/quote/TEM/history/) | 2026-10-16 종가 64.72 USD |
+| S43 | news | 2026-08-11 | [Tempus Q2 Earnings Call Highlights Data Growth and Pricing Upside - Yahoo Finance](https://news.google.com/rss/articles/CBMimwFBVV95cUxNOTdPS1NrZTJwOEtWU1V1RkNnVzA4WDRfSXVQbjA2Wkx2YlFoREFWM2tNcW5YamVJZ2E3T3hXZTlSbERCUTdwb0h1dW1xZkZFTWdWS1I2TDNBazdFSkZwQzl4a0lRUEwwcWtzT3Y3M1Z2RS04N0pWQ3dycXFYazhoVGgzR096el9Ud0xXQVEzS2RsN1J5UWctMjhyRQ?oc=5) | Yahoo Finance |
+| S44 | call | 2026-07-30 | [Tempus AI (TEM) Q2 2026 earnings summary - Quartr](https://quartr.com/events/tempus-ai-inc-tem-q2-2026_F3j4vqTx) | 2026-07-30 오후 4:30 ET 2분기 실적 콜의 요약 출처(원문 아님). 참석: Eric Lefkofsky(CEO), James Rogers(CFO), Elizabeth Krutoholow(IR). 요약 내용: 매출 $382.5M(+22%), 종양학 검사 물량 +31%, MRD 검사 9,000건, 순이익 $5.6M(전년 동기 순손실 $42.8M), 2026 매출 가이던스 $1.595~1.605B(약 +25%) 상향. Personalis 인수는 요약상 $1.5~1.7B, 2026년 말~2027년 초 종결 예정이다. 이 금액은 S19·S21의 $1.5B와 다르므로 $1.5B를 우선한다. 콜 원문과 Q&A는 접근할 수 없었다. |
+| S45 | call | 2026-07-30 | [Tempus Targets $1.595B-$1.605B 2026 Revenue as It Outlines 2028 $400M Uplift Tied to xT CDx and xF - Ground News](https://ground.news/article/tempus-targets-1595b-1605b-2026-revenue-as-it-outlines-2028-400m-uplift-tied-to-xt-cdx-and-xf-nasdaq-tem_edbb77) | 보도(콜 요약 기사, 원문 아님): 2026 매출 가이던스 $1.595~1.605B. 제목에 따르면 경영진이 2028년까지 xT CDx·xF 관련 약 $400M 증분 매출을 제시했다. 세부 가정과 산식은 확인하지 못했다. |

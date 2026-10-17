@@ -280,6 +280,24 @@
       "note": "2026-10-16 종가 146.03 USD",
       "id": "S31",
       "retrieved": "2026-10-17T17:47:17Z"
+    },
+    {
+      "id": "S32",
+      "type": "news",
+      "title": "SpaceX S-1 analysis (Tom Tunguz)",
+      "url": "https://tomtunguz.com/spacex-s1-analysis",
+      "date": "2026-05-21",
+      "note": "2차 자료(블로그 분석). S-1 인용 수치로, 재무제표 원문이 아니다. FY2025 연결 매출 187억 달러, 조정 EBITDA 66억 달러, 총 설비투자 207억 달러. 부문별로는 Starlink 매출 114억 달러·영업이익 44억 달러·설비투자 42억 달러, Space 매출 41억 달러·영업손실 6.57억 달러·설비투자 38억 달러, AI 매출 32억 달러·영업손실 약 64억 달러·설비투자 127억 달러. Starlink 가입자는 2023년 230만, 2024년 440만. 연결 순이익·영업현금흐름·현금은 이 글에 없다.",
+      "retrieved": "2026-10-17T17:53:53Z"
+    },
+    {
+      "id": "S33",
+      "type": "filing",
+      "title": "Space Exploration Technologies Corp. 424B4 prospectus",
+      "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm",
+      "date": "2026-06-12",
+      "note": "연결(백만 달러): 매출 2025 18,674 · 2024 14,015 · 2023 10,387 / 영업활동 현금 6,785 · 5,776 · 4,520 / 유형자산 취득 (20,737) · (11,163) · (4,415)",
+      "retrieved": "2026-10-17T18:19:06Z"
     }
   ],
   "facts": [
@@ -490,24 +508,162 @@
       "basis": "market",
       "source": "S31",
       "origin": "research"
+    },
+    {
+      "id": "F20",
+      "metric": "revenue",
+      "value": 18700000000,
+      "unit": "USD",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "source": "S32",
+      "origin": "research"
+    },
+    {
+      "id": "F21",
+      "metric": "adjusted_ebitda",
+      "value": 6600000000,
+      "unit": "USD",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "source": "S32",
+      "origin": "research"
+    },
+    {
+      "id": "F22",
+      "metric": "capex",
+      "value": 20700000000,
+      "unit": "USD",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "source": "S32",
+      "origin": "research"
+    },
+    {
+      "id": "F23",
+      "metric": "starlink_subscribers",
+      "value": 4400000,
+      "unit": "count",
+      "period": "FY2024",
+      "end": "2024-12-31",
+      "basis": "reported",
+      "source": "S32",
+      "origin": "research"
+    },
+    {
+      "id": "F24",
+      "metric": "revenue",
+      "value": 18674000000,
+      "unit": "USD",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F25",
+      "metric": "revenue",
+      "value": 14015000000,
+      "unit": "USD",
+      "period": "FY2024",
+      "end": "2024-12-31",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F26",
+      "metric": "revenue",
+      "value": 10387000000,
+      "unit": "USD",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F27",
+      "metric": "ocf",
+      "value": 6785000000,
+      "unit": "USD",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F28",
+      "metric": "ocf",
+      "value": 5776000000,
+      "unit": "USD",
+      "period": "FY2024",
+      "end": "2024-12-31",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F29",
+      "metric": "ocf",
+      "value": 4520000000,
+      "unit": "USD",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F30",
+      "metric": "capex",
+      "value": 20737000000,
+      "unit": "USD",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F31",
+      "metric": "capex",
+      "value": 11163000000,
+      "unit": "USD",
+      "period": "FY2024",
+      "end": "2024-12-31",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F32",
+      "metric": "capex",
+      "value": 4415000000,
+      "unit": "USD",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
     }
   ],
   "as_of": "2026-10-18",
   "collected": "2026-10-17T17:52:40Z",
   "gaps": [
-    "연간 매출(FY2024·FY2025) — 수집된 사실은 FY2026Q2 분기 값뿐이다. 주어진 근거(S1~S30)에는 연간 수치가 없어 S-1(S10)의 연간 재무제표나 10-K·XBRL에서 찾아야 한다. 이 응답에서는 채우지 못했다.",
-    "현재 주가(price, basis market, 기준일 2026-10-18 이전 날짜) — 주어진 근거에 시세 데이터가 없다. 웹 검색으로 확인하지 않았고, 확인되지 않은 값은 넣지 않았다.",
-    "발행주식 수(shares_outstanding) — 희석 주식 수(F5)는 있으나 시장 기준 주식 수는 없다. 10-Q 표지나 IPO 종료 8-K(S4)에서 확인해야 한다.",
-    "컨센서스 매출(다음 2개 연도) — 근거 없음",
-    "과거 가이던스(최근 2~4개 기간, basis guidance) — 실적 발표 8-K(S3)의 가이던스 문구는 아직 사실로 옮기지 못했다.",
-    "어닝콜 원문·요약(최근 분기), 투자자의 날·컨퍼런스 자료 — 근거 없음",
-    "운영 KPI(발사 횟수, 스타링크 가입자·ARPU, 수주잔고 등) — 근거 없음",
-    "영업현금흐름(ocf)·설비투자(capex)·감가상각(d_and_a) — XBRL에서 수집되지 않았다.",
-    "회계 품질 단서(감사의견·감사인 변경·특수관계자 거래·Non-GAAP 조정) — S-1과 10-Q 본문 확인이 필요하다.",
-    "경영진 보상(DEF 14A)·내부자 매매·지배구조(창업자 지분, 의결권 구조) — 근거 없음",
-    "S11~S24 중 발사 일정 공지(SpaceX 공식 미션 페이지)는 재무 사실이 없는 운영 소식이다. 무관하다고 단정하지 못해 drop하지 않았다.",
-    "S25(FT, 우주 사업에서 이탈), S26(Cursor 인수 관련 OpenAI 글), S1(8-K 인수·매각)은 사업 구조 변화와 관련된 단서일 수 있다. 본문을 읽지 못해 사실로 옮기지 못했다.",
-    "S30(NASA 9.46억 달러 승무원 수송 3건 계약 보도)은 수주 사실로 쓸 수 있으나 NASA 1차 자료 확인이 필요하다."
+    "FY2024 연간 매출 — 2차 출처끼리 다르다(약 131억 달러 vs 약 155억 달러). 어느 쪽도 사실로 넣지 않았다. S-1(S10)의 연결 손익계산서 원문이 필요하다. 연간 매출 2개 기간이 채워지지 않아 게이트 0은 아직 통과하지 못한다.",
+    "FY2025 연결 순이익·영업이익·영업현금흐름·현금·차입금 — 2차 출처의 순손실(약 49억 달러)과 영업이익 수치는 원문과 대조하지 못해 넣지 않았다. S-1 또는 10-K에서 가져와야 한다.",
+    "FY2025 설비투자 207억 달러는 2차 출처 수치이고, 영업현금흐름이 없어 FCF를 계산할 수 없다. 외부 사이트의 FCF 수치(-139.5억·-124.7억 달러)는 서로 어긋나 사용하지 않았다.",
+    "최근 4개 분기 단독 값(revenue·ocf·capex) — FY2026Q2 매출 외에는 없다. 10-Q(S2)와 S-1(S10)의 분기 표에서 차감해 만들어야 한다.",
+    "발행주식 수(shares_outstanding)는 10-Q 표지나 IPO 종료 8-K(S4)에서, 컨센서스 매출(다음 2개 연도)은 근거에서 찾지 못했다. 컨센서스가 없으면 variant perception을 검증할 수 없다.",
+    "과거 가이던스는 실적 발표 8-K(S3) 본문을 읽어 사실로 옮겨야 한다. 어닝콜 원문·요약과 투자자 행사 자료도 찾지 못했다.",
+    "회계 품질 단서(감사인·특수관계자 거래·Non-GAAP 조정 내역, xAI 합병 관련 회계)와 지배구조(창업자 의결권·지분)·경영진 보상은 DEF 14A와 S-1 본문 확인이 필요하다.",
+    "S25(FT, 우주 사업에서 이탈), S26(Cursor 인수 관련 OpenAI 글), S1(8-K 인수·매각)은 사업 구조 변화 단서로 보이나 본문을 읽지 못해 사실로 옮기지 못했다."
   ],
   "researched": "2026-10-18"
 }

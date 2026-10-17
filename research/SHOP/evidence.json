@@ -433,6 +433,33 @@
       "note": "WSJ",
       "date": "2026-08-05",
       "retrieved": "2026-10-17T17:52:03Z"
+    },
+    {
+      "id": "S49",
+      "type": "call",
+      "title": "Q2 2026 Shopify Inc Earnings Call (AllMind 전사 일부)",
+      "url": "https://allmind.ai/earnings/event/2939704",
+      "date": "2026-08-05",
+      "note": "2026년 2분기 실적 콜(2026-08-05). 진행 Shane Kleinstein, 발언자 Harley Finkelstein(사장)·Jeff Hoffmeister(CFO). 전사 일부만 확인됨. 접근 가능한 요약 출처이고 공식 전문은 아님.",
+      "retrieved": "2026-10-17T17:54:32Z"
+    },
+    {
+      "id": "S50",
+      "type": "call",
+      "title": "Shopify's Q2 earnings call: our top 5 analyst questions (Barchart)",
+      "url": "https://www.barchart.com/story/news/3796799/shopifys-q2-earnings-call-our-top-5-analyst-questions",
+      "date": "2026-08-05",
+      "note": "2분기 콜 핵심 Q&A 요약(2차 출처). Finkelstein은 에이전트 거래(agentic transactions)의 경제성이 온라인 스토어 거래와 같다고 답했다고 전함. 요약 출처이므로 원문 확인 필요.",
+      "retrieved": "2026-10-17T17:54:32Z"
+    },
+    {
+      "id": "S51",
+      "type": "call",
+      "title": "Shopify (SHOP) Q2 2026 earnings summary (Quartr)",
+      "url": "https://quartr.com/events/shopify-inc-shop-q2-2026_3eya9uq8",
+      "date": "2026-08-05",
+      "note": "2분기 콜 전사·슬라이드·문서 모음 페이지. 매출 약 $3.58B(+34%), GMV 약 $116B(+32%) 요약. 접근 가능한 요약 출처.",
+      "retrieved": "2026-10-17T17:54:32Z"
     }
   ],
   "facts": [
@@ -2907,16 +2934,10 @@
   "as_of": "2026-10-18",
   "collected": "2026-10-17T17:52:03Z",
   "gaps": [
-    "FY2027 매출 컨센서스 — 신뢰할 만한 값을 찾지 못함 (variant perception 검증 불가). TIKR는 향후 2년 연 약 24% 성장 전망이라고 하나 컨센서스 수치는 아님",
-    "FY2026 매출 컨센서스 $14.69B는 집계 사이트 값이고 2분기 실적 전 추정이 섞여 있을 수 있음 — FactSet·LSEG·Visible Alpha로 재확인 필요",
-    "과거 가이던스(2025~2026년 분기별 전망)의 원문 수치 미수집 — 경영진 적중률 계산 불가. 8-K 실적 발표(S2·S8·S10·S13)에서 추출 필요",
-    "FY2025 Q4·FY2026 Q1~Q2 어닝콜 원문과 Q&A, 투자자의 날·컨퍼런스 자료 미수집 (S5는 6월 2일 IR 8-K로 내용 미확인)",
-    "DEF 14A 보상 지표, 내부자 매매, 자사주 매입 승인 규모(FY2026Q2 $1.42B 집행의 총 한도)는 미확인. 6월 16일 8-K(S4)와 자사주 관련 8-K(a26june_shopifyrepurchase) 확인 필요",
-    "순매출유지율·이탈률·가맹점 수·결제 GPV 등 운영 KPI 미공개 또는 미수집. 결제 침투율 68%만 확인",
-    "감사의견·감사인 변경·정정·특수관계자 거래·Non-GAAP 조정 내역 미수집 (10-K S9 주석 확인 필요)",
-    "FY2022 사실 충돌은 40-F(구 US GAAP 환산 전후)와 10-K의 소급 재작성 차이로 보이며 1차 자료 우선 규칙으로 정리해야 함. 연도별 수치가 서로 다른 기준에서 온 듯하니 이번 보강에서는 건드리지 않음",
-    "Q3 2026 가이던스의 '저 30%대'를 0.30~0.33으로 환산한 것은 해석이며 회사가 정확한 범위를 제시하지 않음. 매출 달러 가이던스($3.73~3.78B)는 Benzinga 단독 보도라 사실에서 제외",
-    "주가는 2026-10-16 종가로 기준일(10-18)보다 이전 마지막 거래일 값. 경쟁사·고객사 교차 확인, 대체 데이터(채용·트래픽·특허)는 수집하지 않음"
+    "어닝콜 원문 전체와 Q&A 전문은 접근하지 못했다. 위 call 근거는 일부 전사와 AI·2차 요약뿐이므로 콜에서 나온 정성 발언은 요약 수준으로만 쓸 것",
+    "콜에서 나온 추가 KPI(가맹점 수, GPV, 순매출유지율 등)의 수치는 출처에서 확인되지 않아 사실로 넣지 않았다",
+    "일부 요약 사이트에 오류가 있다(Beancount의 매출 $2.8B, Stock Taper 표의 매출 성장 +13.0%). 두 값은 S41의 공식 수치(매출 $3.58B, +34%)와 충돌하므로 쓰지 않았다",
+    "FY2027 매출 컨센서스와 과거 분기별 가이던스 원문은 이번에도 찾지 못했다"
   ],
   "researched": "2026-10-18"
 }

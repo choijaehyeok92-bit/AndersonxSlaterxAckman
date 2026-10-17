@@ -1,0 +1,366 @@
+{
+  "agent": "verifier",
+  "basis": "dc2934242cf5",
+  "checks": [
+    {
+      "id": "V1",
+      "verdict": "supported",
+      "reason": "S44는 원문 미확인, NRR·고객 집중도 미확인을 명시하고 F68은 영업권 급증을 보인다."
+    },
+    {
+      "id": "V2",
+      "verdict": "unsupported",
+      "reason": "FY2026 68.0%와 Q1 68%, Q2 67~69%는 맞지만 FY2022~FY2025 총이익률 수치는 인용 자료에 없다."
+    },
+    {
+      "id": "V3",
+      "verdict": "unsupported",
+      "reason": "Q1 OCF/순이익 0.7배와 FY2026Q4, 재고, 매출채권은 맞지만 FY2026Q3 OCF·순이익(1.7억 대 1.6억)은 인용에 없다."
+    },
+    {
+      "id": "V4",
+      "verdict": "unsupported",
+      "reason": "총이익률 64.8%→68.0%와 FY2026 매출은 맞지만 FY2025 매출 4.4억은 인용 자료에 없다."
+    },
+    {
+      "id": "V5",
+      "verdict": "supported",
+      "reason": "인용된 공시 항목에 4.01·4.02로 분류된 것이 없고, 주장도 '목록에서 발견되지 않음'으로 한정한다."
+    },
+    {
+      "id": "V6",
+      "verdict": "unsupported",
+      "reason": "기대수익률 9.2%와 강세 27.4%는 맞지만 -0.1%, 연 37.1%, 263.03, 169.70은 인용에 없고, '약세 손실이 막혀 있다'는 p_loss 0.3과 어긋난다."
+    },
+    {
+      "id": "V7",
+      "verdict": "supported",
+      "reason": "영업권 9,280만→9.86억(약 10배), 총자산 30.1억, 현금 11.6억→4.7억이 모두 인용 사실과 일치한다."
+    },
+    {
+      "id": "V8",
+      "verdict": "supported",
+      "reason": "안전마진 -0.1%와 기대 연 수익률 9.2%가 코드 계산값과 일치한다."
+    },
+    {
+      "id": "V9",
+      "verdict": "unsupported",
+      "reason": "capex 5,730만과 FCF 전환율은 맞지만 매출 13.4억과 자본화 소프트웨어 신호가 걸리지 않았다는 내용은 인용에 없다."
+    },
+    {
+      "id": "V10",
+      "verdict": "supported",
+      "reason": "24.6%, 47.2%는 일치하고 광 연결은 제품 발표와 표준 그룹 결성 수준이며 점유율·수주 기록이 인용에 없다."
+    },
+    {
+      "id": "V11",
+      "verdict": "supported",
+      "reason": "Non-GAAP 2.363억, GAAP 1.294억, SBC 8,798만, EPS 1.20, 비GAAP 총마진 68%가 모두 자료와 일치한다."
+    },
+    {
+      "id": "V12",
+      "verdict": "supported",
+      "reason": "S44는 원문 미접근과 NRR·고객 집중도 미확인을 명시하고 S36은 호평 위주 2차 보도다."
+    },
+    {
+      "id": "V13",
+      "verdict": "leap",
+      "reason": "채권 gap, DSO, 매출 성장은 맞지만 채권은 +23.7% 늘어 분기 매출 증가(약 +9.6%)를 넘었으므로 '매출 증가 범위 안'은 따라 나오지 않는다."
+    },
+    {
+      "id": "V14",
+      "verdict": "unsupported",
+      "reason": "capex, R&D, FY2026 ROIC 71.3%, 재고·채권은 맞지만 'FCF 41%'와 FY2025 ROIC 14.1%는 인용에 없다."
+    },
+    {
+      "id": "V15",
+      "verdict": "supported",
+      "reason": "S45가 CEO 보상이 매출 25억 목표에 연동됐다고 2차로 전하며 주장은 DEF 14A 미확인과 베스팅 근거 없음을 명시한다."
+    },
+    {
+      "id": "V16",
+      "verdict": "supported",
+      "reason": "내부자 지분 근거 없음과 경영진 변동 8-K 두 건(S6, S13)의 존재가 인용과 일치한다."
+    },
+    {
+      "id": "V17",
+      "verdict": "supported",
+      "reason": "순부채/EBITDA가 음수이고 FCF 마진이 30.5% 흑자라는 점이 코드 계산값과 일치한다."
+    },
+    {
+      "id": "V18",
+      "verdict": "unsupported",
+      "reason": "희석 8.7%, FY2026 3.9%, 자본 수치는 맞지만 FY2025 16.8%와 현금 5.7억→12.2억은 인용에 없다."
+    },
+    {
+      "id": "V19",
+      "verdict": "supported",
+      "reason": "S44가 고객 집중도·NRR·Q&A 미확인을 명시하고 나머지는 추정이라고 표시했다."
+    },
+    {
+      "id": "V20",
+      "verdict": "supported",
+      "reason": "FY2026 매출 +205.7%와 Q1 FY27 +114.7%가 인용과 일치한다."
+    },
+    {
+      "id": "V21",
+      "verdict": "supported",
+      "reason": "총마진 68.0%, Q2 가이던스 67~69%, 마진 우려로 인한 주가 하락(S41)이 모두 자료와 일치한다."
+    },
+    {
+      "id": "V22",
+      "verdict": "supported",
+      "reason": "영업이익 1.558억→1.207억, SBC 8,798만, 희석 8.7%가 인용과 일치한다."
+    },
+    {
+      "id": "V23",
+      "verdict": "supported",
+      "reason": "재고 3.1억, DIO 214.5일, P/FCF 75.21x가 인용과 일치하고 나머지는 가상 시나리오다."
+    },
+    {
+      "id": "V24",
+      "verdict": "supported",
+      "reason": "영업권 9,280만→9.9억, 현금 11.6억→4.7억, 총자산 30.1억의 약 1/3이 인용과 일치한다."
+    },
+    {
+      "id": "V25",
+      "verdict": "unsupported",
+      "reason": "FCF 마진 30.5%와 작은 capex는 맞지만 팹리스 구조와 기본 시나리오 현금 경로가 0 아래로 가지 않는다는 내용은 인용에 없다(net_cash는 시점 값)."
+    },
+    {
+      "id": "V26",
+      "verdict": "supported",
+      "reason": "ROIC 71.3%, 작은 capex, 순현금 14.4억이 인용과 일치한다."
+    },
+    {
+      "id": "V27",
+      "verdict": "supported",
+      "reason": "FCF 마진 30.5%, SBC 차감 FCF 약 2.2억(FCF의 절반 수준), 약세 마진 15%가 코드 계산값과 일치한다."
+    },
+    {
+      "id": "V28",
+      "verdict": "supported",
+      "reason": "재고 3.1억, 채권 2.9억, DIO 높음이 인용과 일치하고 나머지는 가상 시나리오다."
+    },
+    {
+      "id": "V29",
+      "verdict": "supported",
+      "reason": "재고(+24.8%)와 채권(+23.7%)이 분기 매출(+9.6%)보다 빨리 늘었고 SBC, Q2 가이던스도 일치한다."
+    },
+    {
+      "id": "V30",
+      "verdict": "supported",
+      "reason": "Q2 가이던스 5.3억, FCF 마진 30.5%, 내재 성장 약 26%·29%가 코드 계산값과 일치한다."
+    },
+    {
+      "id": "V31",
+      "verdict": "supported",
+      "reason": "재고·채권 수치와 총마진 가이던스 범위가 인용과 일치하고 나머지는 가상 시나리오다."
+    },
+    {
+      "id": "V32",
+      "verdict": "unsupported",
+      "reason": "재고 증가와 DIO 수치는 맞지만 마진 우려로 주가가 하락했다는 S41 내용은 인용 목록에 포함되지 않았다."
+    },
+    {
+      "id": "V33",
+      "verdict": "supported",
+      "reason": "재고 3.1억, DIO, 손실 확률 30%, 재고 gap이 인용과 일치하고 3.8억·67% 신호는 가정이다."
+    },
+    {
+      "id": "V34",
+      "verdict": "unsupported",
+      "reason": "24.6%, 47.2%, -0.1%는 맞지만 강세 확률 20%는 인용에 없다."
+    },
+    {
+      "id": "V35",
+      "verdict": "supported",
+      "reason": "영업권·현금 변화가 일치하고 인수 내용 미확인은 S2 본문이 비어 있는 것과 맞는다."
+    },
+    {
+      "id": "V36",
+      "verdict": "supported",
+      "reason": "24.6%, 47.2%, 강세 IRR 27.4%가 코드 계산값과 일치한다."
+    },
+    {
+      "id": "V37",
+      "verdict": "supported",
+      "reason": "영업권 9.9억, 매출 연동 보상(S45), 고객 집중도 미확인(S44)이 인용과 일치한다."
+    },
+    {
+      "id": "V38",
+      "verdict": "supported",
+      "reason": "기대 IRR 9.2%, 손실 확률 30%, 고객 집중도·NRR 미확인이 인용과 일치한다."
+    },
+    {
+      "id": "V39",
+      "verdict": "supported",
+      "reason": "이연매출의 마지막 사실이 FY2025Q3(F43)이고 나머지는 미확인 진술이다."
+    },
+    {
+      "id": "V40",
+      "verdict": "supported",
+      "reason": "안전마진 -0.1%, 손실 확률 30%, 매출 +205.7%, FCF 마진 30.5%가 인용과 일치한다."
+    },
+    {
+      "id": "V41",
+      "verdict": "supported",
+      "reason": "매출 4.37→4.79억, 영업이익 1.558→1.207억, SBC 4,970만→8,798만, 마진 우려로 인한 주가 하락이 인용과 일치한다."
+    },
+    {
+      "id": "V42",
+      "verdict": "unsupported",
+      "reason": "출구 30x와 현재 75.21x는 맞지만 멀티플 변화 -19.4%, ×0.75일 때 4.6%, 연 37.1%는 인용에 없다."
+    },
+    {
+      "id": "V43",
+      "verdict": "supported",
+      "reason": "ZeroFlap 1.6T 확장 보도와 총이익률 68.0%가 인용과 일치하고 점유율 우위 기록이 없다는 진술도 어긋나지 않는다."
+    },
+    {
+      "id": "V44",
+      "verdict": "supported",
+      "reason": "S44가 원문·고객 비중·NRR 미확인을 명시하며 해자 증거가 발표 수준이라는 판단과 맞는다."
+    },
+    {
+      "id": "V45",
+      "verdict": "supported",
+      "reason": "재고 3.1억, OCF 9,023만 < 순이익 1.294억, Q2 총마진 가이던스 범위가 인용과 일치한다."
+    },
+    {
+      "id": "V46",
+      "verdict": "supported",
+      "reason": "영업권 9,280만→9.86억이 인용과 일치하고 나머지는 가상 시나리오다."
+    },
+    {
+      "id": "V47",
+      "verdict": "supported",
+      "reason": "Q1 FY27 매출 4.79억, 전년비 +114.7%가 S46과 일치한다."
+    },
+    {
+      "id": "V48",
+      "verdict": "supported",
+      "reason": "FY2026 매출 +205.7%, Q1 매출 4.79억, 순현금 14.4억이 인용과 일치한다."
+    },
+    {
+      "id": "V49",
+      "verdict": "supported",
+      "reason": "ROIC 71.3%, capex 5,730만, SBC/OCF 39.3%, SBC 차감 FCF 2.2억이 인용과 일치한다."
+    },
+    {
+      "id": "V50",
+      "verdict": "supported",
+      "reason": "FY2022·FY2023 자사주 매입 0과 SBC 차감 FCF 2.2억, SBC/OCF 39.3%가 인용과 일치한다."
+    },
+    {
+      "id": "V51",
+      "verdict": "supported",
+      "reason": "매출 +205.7%와 총이익률 68.0%가 일치하고 단위경제 유지는 합리적 해석이다."
+    },
+    {
+      "id": "V52",
+      "verdict": "supported",
+      "reason": "광 연결 제품·표준 그룹·CPO 보도가 인용에 있고 점유율·수주로 입증되지 않았다는 진술은 어긋나지 않는다."
+    },
+    {
+      "id": "V53",
+      "verdict": "unsupported",
+      "reason": "FY2026 13.7%, FY2025 17.7%, SBC 1.8배, SBC/OCF는 맞지만 FY2024 20.2%는 인용에 없다."
+    },
+    {
+      "id": "V54",
+      "verdict": "supported",
+      "reason": "약세 42.17과 강세 569.26 가치가 크게 갈리고 손실 확률은 30%다."
+    },
+    {
+      "id": "V55",
+      "verdict": "supported",
+      "reason": "기본 경로 연 37.1%, FY2028 컨센서스 대비 -10%, 고객 집중도·NRR 미확인이 인용과 일치한다."
+    },
+    {
+      "id": "V56",
+      "verdict": "supported",
+      "reason": "재고 2.5→3.1억, 채권 2.3→2.9억, DIO 214.5일이 인용과 일치한다."
+    },
+    {
+      "id": "V57",
+      "verdict": "supported",
+      "reason": "희석 16.8%·3.9%·8.7%, SBC/매출 13.7%, SBC 3,546만→8,798만, 비GAAP 2.4억 대 GAAP 1.3억이 일치한다."
+    },
+    {
+      "id": "V58",
+      "verdict": "unsupported",
+      "reason": "컨센서스, SBC, 영업이익, OCF<순이익은 맞지만 재고·채권이 매출보다 빨리 늘었다는 근거(재고 사실)와 기본 시나리오 FY28 매출·가치가 인용에 없다."
+    },
+    {
+      "id": "V59",
+      "verdict": "supported",
+      "reason": "OCF 9,023만 < 순이익 1.294억, 채권 증가, 컨센서스 24.5억, 고객 집중도 미확인이 인용과 일치한다."
+    },
+    {
+      "id": "V60",
+      "verdict": "supported",
+      "reason": "비GAAP 총마진 68%, FCF 마진 30.5%, 광 연결·CPO 제품 보도가 인용과 일치하고 나머지는 시나리오 가정이다."
+    },
+    {
+      "id": "V61",
+      "verdict": "supported",
+      "reason": "ZeroFlap 1.6T, CPO, 표준 그룹 보도가 인용에 있고 점유율·수주 기록은 없다."
+    },
+    {
+      "id": "V62",
+      "verdict": "supported",
+      "reason": "영업권, 현금, SBC, 희석 8.7%, 매출 연동 보상(S45)이 인용과 일치하고 나머지는 가상 시나리오다."
+    },
+    {
+      "id": "V63",
+      "verdict": "supported",
+      "reason": "광 연결 확장 보도와 강세 가치 569.26이 인용에 있고 나머지는 가상 시나리오다."
+    },
+    {
+      "id": "V64",
+      "verdict": "supported",
+      "reason": "영업권 급증이 인용과 일치하고 인수 내용 미확인은 S2 본문 부재와 맞는다."
+    },
+    {
+      "id": "V65",
+      "verdict": "supported",
+      "reason": "영업이익 1.558억→1.207억과 SBC 8,798만이 인용과 일치한다."
+    },
+    {
+      "id": "V66",
+      "verdict": "supported",
+      "reason": "Q2 가이던스, 컨센서스 4.718억 대비 4.79억, 80%/85% 불일치(S41, S44)가 인용과 일치한다."
+    },
+    {
+      "id": "V67",
+      "verdict": "unsupported",
+      "reason": "내재 성장 23.8%·37.8%와 컨센서스는 맞지만 현재 EV 322.2억은 인용에 없다."
+    },
+    {
+      "id": "V68",
+      "verdict": "unsupported",
+      "reason": "75.21x, 출구 30x, 안전마진 -0.1%는 맞지만 ×0.75일 때 4.6%와 멀티플 변화가 최대 감점이라는 내용은 인용에 없다."
+    },
+    {
+      "id": "V69",
+      "verdict": "supported",
+      "reason": "영업권 9.86억, SBC 8,798만, SBC 차감 FCF 2.2억, 희석 8.7%가 인용과 일치한다."
+    },
+    {
+      "id": "V70",
+      "verdict": "supported",
+      "reason": "기본 IRR 10.0%, 기대 IRR 9.2%, 손실 확률 30%가 코드 계산값과 일치한다."
+    },
+    {
+      "id": "V71",
+      "verdict": "supported",
+      "reason": "재고 3.1억, DIO 214.5일, 손실 확률 30%가 인용과 일치하고 나머지는 가상 시나리오다."
+    },
+    {
+      "id": "V72",
+      "verdict": "supported",
+      "reason": "총이익률 FY2024 61.9%→FY2026 68.0%가 코드 계산값과 일치한다."
+    }
+  ]
+}

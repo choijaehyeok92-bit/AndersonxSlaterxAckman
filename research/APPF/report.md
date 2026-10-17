@@ -6,21 +6,22 @@
 
 ## 1. Variant perception
 
-- 시장이 반영한 것: 주가 $212.13, PER 47.75배에 애널리스트 평균 목표가 $238.54~$249.75이다. 이는 FY2026 비GAAP 영업이익률 26.5~28.0%와 높은 한 자릿수 후반~10%대 후반 성장이 오래 이어진다는 가정이다. 컨센서스 FY2026 EPS는 5.18이다.
-- 우리가 다르게 보는 점: 성장 둔화(FY2022 31.3%에서 FY2025 19.7%)가 계속된다고 본다. 시장이 보는 비GAAP 마진과 EPS는 SBC를 뺀 값이라 FCF의 질을 과대평가할 수 있다. 우리는 SBC 차감 FCF를 기준으로 하고, 결제 수수료 소송이 부가가치 매출의 단위 수익을 깎을 위험(약세 시나리오 25%)을 가격보다 크게 본다. 기본 시나리오는 시장 컨센서스와 크게 다르지 않아 알파가 크지 않다는 점도 인정한다.
-- 왜 우리가 맞는가: 비GAAP과 GAAP 영업이익의 차이가 큰 것이 확인된다(비GAAP 7,600만 USD 대비 GAAP 5,298만 USD). SBC는 매년 늘어 FY2025 7,079만 USD다. 연 성장률은 4년 연속 낮아졌다. 결제 관련 소송은 청구 규모를 확인하지 못했으므로 불확실성은 가격에 충분히 반영되지 않았을 수 있다. 다만 단위경제 KPI(NRR·이탈률·유닛 수)를 확보하지 못해 이 판단의 확신은 낮다. [F183] [C:pe] [F195] [F196] [F197] [F187] [F189] [F108] [F153] [C:revenue_growth@FY2022] [C:revenue_growth@FY2025] [S26](https://news.google.com/rss/articles/CBMivAFBVV95cUxPeU9FcFl2NVM5SVlqWGQ4TGtqWVhESHlwZFNlbUg4LVVqOG1JRHZaNEh1UVh5NDhwTUFsbjdrZ0RGWF9GYkdWMWlXaUxIQnAwdmdkZjZGZ3BsWmZ2VmVEVzVudDBGcVp4aVpmVmlWYXBua19hNE9hdGNvMmk0WDVZSElQTGg0VWxzSXlWMGtIYjdmaldKQl91aFNjZkw2dlB0azc3WFRWZnN0YkFVT2JUT0dxa1lNUU5mRjU3Rw?oc=5)
-- 촉매: 2026-10-22 3분기 실적 발표(매출 컨센서스 $294.36M, 비GAAP 마진, 결제·부가가치 매출 구성 공개 여부)와 소송 진행.
-- 시점: 2026-10-22 및 이후 2~4개 분기
+- 시장 내재: 매출 10년 연 11.2% (FCF 마진 26% 수렴 가정) · 기본 시나리오: 5년 연 13.4%
+- 시장이 반영한 것: 현재 EV 기준 역DCF는 FCF 마진 25%에서 10년 매출 성장 연 11.6%, 30%에서 9.6%를 요구한다(C:implied_cagr@m25, C:implied_cagr@m30). 컨센서스는 올해 EPS 5.18, 평균 목표주가 238.54~249.75 USD로 주가 대비 12~18% 위다. 시장은 20% 안팎의 성장 둔화가 완만하고 마진은 유지된다고 가격에 반영한 상태다.
+- 우리가 다르게 보는 점: 우리의 기본 시나리오는 시장과 크게 다르지 않다. 10년 환산 성장률이 시장 내재치(11.6%) 근처이고, 기대수익률도 요구수익률 부근에 있다. 다른 점은 하방이 더 깊다는 것뿐이다. 성장이 한 자릿수로 꺾이면 배수가 함께 내려가는 비대칭을 약세 시나리오(p 0.25)에 반영했다. 따라서 variant perception은 약하다. 확신할 만한 시장과의 차이는 찾지 못했다.
+- 왜 우리가 맞는가: FY2026 매출 컨센서스와 FY2027 이후 연간 추정치를 확보하지 못해 성장 경로의 차이를 검증할 수 없다. 매출 구성(핵심·부가가치·결제)과 NRR도 없다. 근거 없이 시장과 다르다고 주장하지 않는다. [C:implied_cagr@m25] [C:implied_cagr@m30] [F195] [F196] [F197] [F190]
+- 촉매: 2026-10-22 3분기 실적 발표(매출 컨센서스 294.36M USD)와 FY2027 가이던스 발표. 결제 수수료 소송 진행 상황.
+- 시점: 2026-10-22 ~ 2027-02
 
 ## 2. 시나리오 분포와 기대수익률
 
-확률 가중 IV **230.46** vs 주가 212.13 · 기대 연 수익률 **+11.8%** · 손실 확률 25%
+확률 가중 IV **230.63** vs 주가 212.13 · 기대 연 수익률 **+11.9%** · 손실 확률 25%
 
 | 시나리오 | 확률 | 주당 가치 | IV | 연 수익률 | 근거 |
 |---|---|---|---|---|---|
-| 약세 | 25% | 152.21 | 94.51 | -6.4% | 결제 수수료 구조에 대한 규제·집단소송 압력으로 부가가치 매출의 단위당 수익이 낮아진다. 경쟁사(Yardi·RealPage·Entrata)의 AI 기능이 따라와 가격 결정력이 약해지면 성장은 한 자릿수로 내려간다.  |
-| 기본 | 55% | 385.21 | 239.19 | +12.7% | FY2026 성장은 상향된 회사 가이던스(매출 1.117~1.127B USD)와 2분기 +19.3% 실적에 맞춘다. 이후 매출 성장은 FY2025 19.7%의 둔화 추세를 이어 매년 2%p 안팎씩 낮아져 FY2030 |
-| 강세 | 20% | 606.22 | 376.42 | +23.4% | Realm-X 같은 AI 제품과 결제·파트너 부가 매출이 유닛당 수익을 키워 성장이 18~19%에서 오래 유지된다. 고정비 레버리지로 FCF 마진이 31%까지 오른다. 대형 고객(PURE HomeRiver)의 약정  |
+| 약세 | 25% | 140.01 | 86.93 | -8.0% | 성장이 FY2025의 19.7%에서 한 자릿수로 빠르게 꺾이고, 결제 수수료 은닉 소송(S26)과 경쟁으로 부가가치 매출 가격 결정력이 약해진다. 그 결과 AI 투자와 SBC 부담이 커져 FCF 마진이 현재 25.1 |
+| 기본 | 50% | 381.50 | 236.88 | +12.5% | FY2026은 회사 가이던스 중간값(1.122B USD)에 맞는 약 18% 성장이고, 이후 매년 2~3%p씩 둔화한다. 2분기 비GAAP 영업이익률이 27.1%이고 가이던스 26.5~28.0%이므로 FCF 마진은 지 |
+| 강세 | 25% | 582.72 | 361.82 | +22.4% | Realm-X 등 AI 기능과 결제·부가가치 서비스의 침투가 성장률을 18~19%대로 유지한다. 파트너 확장(S28)과 대형 고객의 사용 확대(S27)가 그 근거다. 고정비 레버리지가 이어지고 R&D 증가율이 매출  |
 
 ## 3. 반증 조건 (thesis break)
 
@@ -30,210 +31,211 @@
 - [자료 없음] 슬레이터: FY2026 연간 매출이 가이던스 하단 미만 — `revenue < 1.117e+09` (FY2026)
 - [자료 없음] 슬레이터: 자사주 매입에도 희석 주식 수 증가 — 희석 상쇄 가설 훼손 — `diluted_shares > 3.6e+07` (FY2026Q3)
 - [수동 확인] 슬레이터: 3분기 이후에도 순매출유지율·이탈률 등 단위경제 KPI를 공개하지 않거나 악화 — 수동 확인
-- [미충족] 애크먼: 주가가 내재가치 대비 안전마진 20% 이상을 주는 수준으로 하락 — `price < 190`
+- [미충족] 애크먼: 주가가 내재가치 대비 충분한 안전마진을 주는 수준으로 하락 — `price < 190`
 - [자료 없음] 애크먼: FY2026 매출이 가이던스 상단을 크게 웃돌아 기본 시나리오 성장 가정이 보수적이었음이 드러남 — `revenue >= 1.15e+09` (FY2026)
 - [수동 확인] 애크먼: NRR·이탈률 등 단위경제 KPI가 공개되어 해자가 입증됨 — 수동 확인
-- [충족 — 훼손] 레드팀: 3분기 매출이 컨센서스에 미달 — 부가가치·결제 매출 둔화가 시작된 신호 — `revenue < 2.9436e+08`
-- [미충족] 레드팀: GAAP 영업이익이 직전 두 분기 아래로 후퇴 — 고정비 레버리지 역전, 성장 둔화가 마진으로 번지는 신호 — `operating_income < 5e+07`
-- [미충족] 레드팀: R&D가 분기 5,100만 USD 수준을 넘어 가속 — 마진 확장 없이 기능 경쟁에 돈을 쓰는 신호 — `rnd > 5.5e+07`
-- [미충족] 레드팀: 희석 주식 수가 가이던스 수준 위로 반등 — 매입이 SBC 희석을 더는 상쇄하지 못하는 신호 — `diluted_shares > 3.6e+07`
+- [충족 — 훼손] 레드팀: FY2026Q3 매출이 컨센서스 2.94억 USD 미달 — 성장 둔화가 가이던스보다 빠름 — `revenue < 2.9436e+08`
+- [충족 — 훼손] 레드팀: GAAP 영업이익이 FY2026Q2(5,298만 USD)보다 감소 — 레버리지 소멸 또는 소송·환불 비용 반영 — `operating_income < 5.298e+07`
+- [미충족] 레드팀: FY2026Q3 희석 주식 수가 3,550만 초과 — 매입이 SBC 희석을 못 상쇄 — `diluted_shares > 3.55e+07`
+- [미충족] 레드팀: 매출채권이 FY2026Q2의 5,044만 USD에서 5,500만 USD 초과 — 매출보다 빠른 채권 증가가 계속됨 — `receivables > 5.5e+07`
 
 ## 4. 모니터링 KPI (예측 — 교정의 재료)
 
 | ID | 지표 | 기간 | 기대 | 확률 | 이유 |
 |---|---|---|---|---|---|
-| K1 | revenue | FY2026Q3 | >= 2.9436e+08 | 70% | 컨센서스 매출을 넘는지로 성장 18~19% 유지 가설(기본·강세)을 시험한다. 못 미치면 둔화 가설이 맞다. |
-| K2 | operating_income | FY2026Q3 | >= 5.5e+07 | 60% | GAAP 영업이익이 2분기(5,298만 USD)보다 늘어 고정비 레버리지가 계속되는지 본다. 비GAAP과의 괴리 가설도 함께 시험한다. |
-| K3 | eps_diluted | FY2026Q3 | >= 1.79 | 55% | 컨센서스 EPS 충족 여부. 시장이 높은 PER을 정당화하는 이익 성장의 기대를 확인한다. |
-| K4 | diluted_shares | FY2026Q3 | <= 3.55e+07 | 60% | 자사주 매입이 SBC 희석을 계속 상쇄하는지 시험한다(기본 시나리오의 주식 수 변화 0 가정). |
-| K5 | revenue | FY2026 | >= 1.117e+09 | 85% | 연간 가이던스 하단을 지키는지 시험한다. 경영진 가이던스의 신뢰도와 기본 시나리오 FY2026 성장률을 확인한다. |
+| K1 | revenue | FY2026Q3 | >= 2.9436e+08 | 70% | 컨센서스 매출을 넘는지로 기본·강세 시나리오의 18~19% 성장 유지를 시험한다. 못 미치면 약세의 둔화 경로가 힘을 얻는다. |
+| K2 | operating_income | FY2026Q3 | >= 5.5e+07 | 60% | GAAP 영업이익이 2분기(5,298만 USD)보다 늘어 고정비 레버리지가 이어지는지 본다. FCF 마진 26% 가정의 기반이다. |
+| K3 | diluted_shares | FY2026Q3 | <= 3.55e+07 | 60% | 자사주 매입이 SBC 희석을 계속 상쇄하는지 시험한다. 기본 시나리오의 주식 수 감소 가정과 직결된다. |
+| K4 | revenue | FY2026 | >= 1.117e+09 | 85% | 연간 가이던스 하단을 지키는지로 기본 시나리오의 첫해 성장 18%와 경영진 가이던스 신뢰도를 확인한다. |
+| K5 | eps_diluted | FY2026Q3 | >= 1.79 | 55% | 컨센서스 EPS 충족 여부로 높은 PER(47.75배)을 정당화하는 이익 성장을 확인한다. |
 
 ## 5. 확신도와 비중
 
-- 확신 가중 점수 -0.40 · 비중 참고값 0.0% (반대 우세 — 신규 비중 없음) · 슬레이터 시작 비중 0.0%
+- 확신 가중 점수 -0.40 · 비중 참고값 0.0% (반대 우세 — 신규 비중 없음) · 슬레이터 시작 비중 1.0%
 - **최종 확신도와 비중은 사람이 정한다** — `python3 council.py decide <TICKER> --size 0.02 --note "이유"`
 
 ## 표결
 
 | 에이전트 | 1라운드 → 최종 | 확신 | 레드라인 | 논거 검증 | 지표 (코드 계산 포함) |
 |---|---|---|---|---|---|
-| 앤더슨 | 반대 → 반대 | 3/5 | ✓ | 0/5 실패 | founder_led=아니오, upside_10y=6.15x, revenue_5y=2.17x |
-| 슬레이터 | 보류 → 보류 | 2/5 | ✓ | 2/5 실패 | unit_economics=unclear, survival_path=예, starter_weight=0.0%, cash_survives=예, cash_min=2.2억 USD |
-| 애크먼 | 반대 → 반대 | 3/5 | ✗ 잉여현금흐름을 만들지 못함 (코드 계산); 안전마진 20% 미만 또는 계산 불가 | 0/5 실패 | simple_predictable=예, capital_markets_dependent=아니오, catalyst=자사주 매입 지속(FY2025 시작)과 2026-10-22 3분기 실적 발표. 가치와 가격의 격차를 좁힐 구조적 행동(분사·경영진 교체 등)은 없음, intrinsic_value=239.2, mos=11.3% |
+| 앤더슨 | 반대 → 반대 | 3/5 | ✓ | 0/5 실패 | founder_led=아니오, upside_10y=5.91x, revenue_5y=2.15x |
+| 슬레이터 | 보류 → 보류 | 2/5 | ✓ | 0/5 실패 | unit_economics=unclear, survival_path=예, starter_weight=1.0%, cash_survives=예, cash_min=2.2억 USD |
+| 애크먼 | 반대 → 반대 | 3/5 | ✗ 안전마진 20% 미만 또는 계산 불가 | 0/5 실패 | simple_predictable=예, capital_markets_dependent=아니오, catalyst=구체적 촉매는 자사주 매입 재개와 2026-10-22 3분기 실적 발표 정도다. 내가 격차를 좁힐 행동은 없다., intrinsic_value=236.9, fcf_positive=예, net_debt_to_ebitda=-1.07x, mos=10.4% |
 
-- ⚠ 앤더슨: rebuttals[2]: 인용하지 않은 근거의 숫자 28%(C:fcf_margin@base·C:revenue_growth@FY2024·C:roic@FY2024) — cites에 추가
-- ⚠ 앤더슨: risks[0]: 인용하지 않은 근거의 숫자 19%(S45·S46) — cites에 추가
-- ⚠ 슬레이터: arguments[4] unsupported: 없는 근거 인용: C:p_loss@bear
-- ⚠ 슬레이터: arguments[0] unsupported: 없는 근거 인용: C:net_cash@FY2026Q2
-- ⚠ 애크먼: rebuttals[1] unsupported: 없는 근거 인용: C:net_cash@FY2026Q2
-- ⚠ 애크먼: rebuttals[0] unsupported: 없는 근거 인용: C:base_rate@base
-- ⚠ 애크먼: risks[0]: 인용하지 않은 근거의 숫자 19%(S45·S46) — cites에 추가
+- ⚠ 앤더슨: arguments[2]: 인용하지 않은 근거의 숫자 10%(C:discount_rate·C:implied_cagr@m30·C:mos@ackman) — cites에 추가
+- ⚠ 슬레이터: risks[1] unsupported: 멀티플 변화 -4.8%라는 수치는 인용된 성장률·P/FCF에 없다.
+- ⚠ 슬레이터: risks[1]: 인용하지 않은 근거의 숫자 4.8%(C:sbc_to_revenue@FY2021) — cites에 추가
+- ⚠ 애크먼: rebuttals[0]: 인용하지 않은 근거의 숫자 28(C:exit_multiple@bull·C:p_fcf·S47) — cites에 추가
 - ⚠ call 유형 근거 없음 — 리서치 보강 필요
+- ⚠ 사실 충돌 capex FY2026Q2: F205=0, F212=-3000 — 1차 자료 우선으로 하나만 쓴다
 - ⚠ 컨센서스 근거 없음 — 시장 기대와의 차이를 검증할 수 없다 (리서처: basis=consensus 사실)
 - ⚠ 기저율 표 없음 — `python3 council.py baserate`로 data/base_rates.json을 만든다
-- ⚠ 회계 품질 findings[1] 검증 실패(unsupported): 출처 없는 숫자 43% — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
-- ⚠ 경영진·자본배분 findings[5] 검증 실패(unsupported): FY2025 1.457억, FY2026Q1 1.25억, SBC 대비 약 2배, 주가와 PER은 맞다. 그러나 FY2021~FY2024 매입이 0이었다는 내용은 인용 자료에 없다.
-- ⚠ 레드팀 weakest[0] 검증 실패(unsupported): 없는 근거 인용: C:base_rate@base
-- ⚠ 회계 품질 findings[0] 검증 실패(unsupported): 매출채권 3,254만에서 5,044만으로 +55%이고 매출은 약 +19%라는 점은 맞다. 그러나 '최소 6개 분기 이어진 추세'는 인용한 두 시점만으로는 알 수 없다.
-- ⚠ 경영진·자본배분 findings[4]: 인용하지 않은 근거의 숫자 3.642e+07(C:diluted_shares@FY2023·C:diluted_shares@FY2025·C:diluted_shares@FY2025Q3), 3.678e+07(C:diluted_shares@FY2024·C:diluted_shares@FY2025Q1·C:pretax_income@FY2025Q1) — cites에 추가
-- ⚠ 경영진·자본배분 findings[6] 검증 실패(unsupported): FY2025 순현금 1.07억, FY2026Q2 현금 2.17억, ROIC 28.4%와 30.7%, FCF 마진은 맞다. 그러나 FY2024 순현금 4,250만과 FY2023 ROIC 0.2%는 인용 자료에 없다.
-- ⚠ 모델러 variant 검증 실패(unsupported): 비GAAP 7,600만 대 GAAP 5,298만, SBC 7,079만, PER은 맞다. 그러나 '성장률 4년 연속 낮아짐'과 'SBC 매년 증가'는 인용된 FY2022·FY2025 두 점만으로는 알 수 없다.
+- ⚠ 경영진·자본배분 findings[3]: 인용하지 않은 근거의 숫자 9(S47) — cites에 추가
+- ⚠ 레드팀 weakest[1]: 인용하지 않은 근거의 숫자 2.047e+07(C:sbc@FY2026Q2·F158) — cites에 추가
+- ⚠ 레드팀 weakest[2] 검증 실패(unsupported): 없는 근거 인용: C:base_rate@base
+- ⚠ 사업·산업 moat[1]: 인용하지 않은 근거의 숫자 3.6e+08(C:revenue@FY2021·F129) — cites에 추가
+- ⚠ 레드팀 weakest[0] 검증 실패(unsupported): 출처 없는 숫자 7.3% — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- ⚠ 회계 품질 flags[0]: 인용하지 않은 근거의 숫자 20%(C:revenue_growth@FY2025) — cites에 추가
+- ⚠ 사업·산업 findings[3]: 인용하지 않은 근거의 숫자 7.079e+07(C:cash@FY2022·C:cash_total@FY2022·C:net_cash@FY2022) — cites에 추가
+- ⚠ 사업·산업 findings[8]: 인용하지 않은 근거의 숫자 7.3e+09(C:ev), 25%(C:fcf_margin@FY2025·C:p@bear·C:p@bull) — cites에 추가
+- ⚠ 회계 품질 findings[0] 검증 실패(unsupported): FY2025 OCF 2.42억 대 순이익 1.41억과 발생액 비율은 맞지만, '흑자인데 OCF가 음수인 해는 없다'는 전 기간 주장을 인용 자료가 받치지 못한다.
 
 ## 앤더슨 — 반대 (3/5)
 
-> AppFolio는 좋은 사업이지만 내가 찾는 멱법칙 아웃라이어가 아니다. 이익률은 FY2022 -15.3%에서 FY2025 16.1%로 올랐고, FCF 마진은 25.1%, ROIC는 30.7%다. 그러나 매출 성장은 FY2022 31.3%에서 FY2025 19.7%로 4년 연속 낮아졌다. 내 강세 시나리오(10년 상방 6.15배)도 매출이 5년에 2.17배가 되는 정도의 완만한 경로이고, 현재 가격은 이미 이 사업의 질을 반영한다. 성장 가설을 5배 이상으로 열어 줄 근거(점유율 추이, NRR, 유닛당 수익 확대, 창업자의 장기 재투자)가 확보되지 않았다. 코드가 계산한 상방은 5배 문턱을 넘지만, 그것은 성장 둔화가 멈추고 높은 배수가 유지되는 강세 경로가 10년 이어진다는 전제 위에서만 성립한다. 그 경로의 확률은 낮고 기대 연 수익률도 평범하다. 아직 대담하게 걸 이유가 부족하다.
+> AppFolio는 이익을 잘 내는 훌륭한 소프트웨어 회사지만, 내가 찾는 아웃라이어의 모양이 아니다. 매출 성장률은 30%대에서 19.7%로 꺾였고, 시장 가격은 이미 성장 둔화가 완만하고 높은 마진이 유지된다는 가정을 반영하고 있다. 강세 시나리오로 10년을 늘려 보면 코드 계산상 5배 문턱은 넘지만, 그것은 FCF 마진 30%와 출구 P/FCF 28배가 모두 맞아야 나오는 값이다. 성장이 한 자릿수로 내려가는 시점에서 멀티플까지 유지된다는 가정에 의존한다. 5년 매출이 두 배를 겨우 넘는 정도로는 멱법칙 종목이라 부르기 어렵다. 창업자형 경영진의 증거도 없고, 임원 변동 8-K가 반복된다. TAM, 유닛 수, 순매출유지율이 없어서 10년 뒤 크기를 그릴 근거도 없다. 대담하지 못한 것이 가장 큰 리스크라는 철학은 변함없지만, 대담함은 증거 없는 낙관을 뜻하지 않는다. 직전 판단과 같은 결론이며 새로 뒤집을 근거는 없다.
+
+*이전 판단 대비: 직전 판단과 같은 반대 입장이다. 모델러가 기본 시나리오를 가이던스 중간값(F186)에 맞춰 낮추고 약세를 재정의했지만, 성장 감속과 높은 가격이라는 결론을 바꾸지 못했다.*
 
 **논거**
-- 성장 가속이 아니라 감속이다. 멱법칙 기업은 규모가 커질수록 성장이 유지되거나 가속하는데, 이 회사는 매출 성장률이 FY2022 31.3%에서 FY2025 19.7%로 계속 내려왔다. 수확체증의 증거가 아직 없다. [C:revenue_growth@FY2022] [C:revenue_growth@FY2025]
-- 강세 시나리오의 매출 연성장이 16.8%에 그친다. 1번 질문(5년 내 매출 2배)은 간신히 통과하지만, 10번 질문(5배가 될 길)은 이 성장률만으로는 보이지 않는다. 상방은 마진 확대와 높은 출구 배수라는 두 가정에 많이 기댄다. [C:revenue_cagr@bull] [C:fcf_margin@bull] [C:exit_multiple@bull]
-- 9번 질문: 시장이 이 기회를 과소평가한다는 근거가 약하다. PER이 47.75배이고, 확률 가중 기대 연 수익률은 +11.8%로 평범하다. 기본 시나리오 수익률 분해에서 멀티플 변화는 마이너스다. 시장은 이미 높은 질을 비싸게 쳐주고 있다. [C:pe] [C:expected_irr] [C:irr@base]
-- 사업의 질은 인정한다. FCF 마진이 FY2025에 25.1%이고 ROIC가 30.7%이며, 부채 없이 순현금이 쌓인다. 7번 질문(수익이 FCF로 바뀌는가)과 8번 질문(자본배분)은 통과한다. 다만 이것은 견고한 복리 기업의 특징이지 아웃라이어의 증거는 아니다. [C:fcf_margin@FY2025] [C:roic@FY2025] [C:net_cash@FY2025]
-- 창업자의 시간 지평과 재투자 의지를 확인할 근거가 없다. 경영진 변동 8-K가 2025-10부터 2026-07까지 5건 있고, 내부자 매도와 CEO 세금 원천징수 보도가 있으나 수치가 없다. 3번·4번 질문(경쟁우위의 지속과 문화)에 답할 자료도 해자 대부분이 '주장' 수준이다. [S15](https://www.sec.gov/Archives/edgar/data/1433195/000143319525000140/appf-20251030.htm) [S12](https://www.sec.gov/Archives/edgar/data/1433195/000143319525000147/appf-20251127.htm) [S11](https://www.sec.gov/Archives/edgar/data/1433195/000143319526000003/appf-20260112.htm) [S8](https://www.sec.gov/Archives/edgar/data/1433195/000143319526000016/appf-20260409.htm) [S3](https://www.sec.gov/Archives/edgar/data/1433195/000143319526000040/appf-20260626.htm) [S34](https://news.google.com/rss/articles/CBMitwFBVV95cUxOT1FqVEtHcHpPd3FOY2RDMHp6T3U3Vll1OGQzOHJkVEtsTUVodzJnR1RvOFB5RDRZUDl6TmtBNFdfQjFKQnpQV3JSNmpYY09JSG0xOXEyckNwLVVLS2FuTWFVRXpJNWdYYjJGWTJWbVM4UU10TzUwVEVqTVp5NkgzclpJZG1TRWQ4MjE2eDFjQzYxQVVvTGZrTDFvR1BmZGI5QkVOMHJMWXpmX1U3ZnVOazlKejhLYnc?oc=5) [S37](https://news.google.com/rss/articles/CBMitAFBVV95cUxQczVHbW5tanZObHkyNzBabHNlMXZkLVdmd0Z0OTU5MkdWTm5MTHBVWlF1NmZfNnV4RWtCTEd0cFVxZkpRazl4Ml8zcjlYT0Z5aFdBMk05VEVoWU5kbEluVjFmbzlkRERkbzhQQTl0bVhaWFdkSHFVS1JCTmpQdWtvTXRoX2tqWEtDYkxwQkhFeEFRVjZlLV9GLVU5akR1RDdfMDFxVTc5eDBONUZJT0dXSEFPWEs?oc=5)
+- 매출 성장률은 FY2023 31.5%에서 FY2025 19.7%로 낮아졌다. 5년 안에 매출이 두 배가 되는지(1번 질문)는 강세 시나리오에서만 겨우 넘는다. 가속하는 곡선이 아니라 감속하는 곡선이다. 멱법칙 수익을 만드는 기업은 성장률이 내려가는 중에 사지 않는다. [C:revenue_growth@FY2023] [C:revenue_growth@FY2025] [C:revenue_growth@FY2024]
+- 시장은 이미 상당한 성장을 가격에 반영했다. EV/매출은 7.02배, P/FCF는 27.86배다. 역DCF는 FCF 마진 25%에서 10년간 연 11.6%의 매출 성장을 요구한다. 시장이 이 기회를 과소평가한다는(9번 질문) 근거를 찾지 못했다. 시장과 우리 기본 시나리오의 차이가 없다는 것이 모델러의 결론이기도 하다. [C:ev_revenue] [C:p_fcf] [C:implied_cagr@m25] [F186]
+- 5배 시나리오(10번 질문)는 있지만 길이 좁다. 강세 시나리오의 가정은 매출 연 16.6% 성장, FCF 마진 30%, 출구 P/FCF 28배다. 모두 현재 수준의 높은 배수와 마진이 10년 뒤에도 유지된다는 뜻이다. 확률 가중 기대 연 수익률은 약 +11.9%로 요구수익률 10%를 소폭 웃돌 뿐이다. 비대칭이라 부를 만한 우위가 아니다. [C:expected_irr] [C:p_loss] [C:revenue_cagr@bull] [C:exit_multiple@bull]
+- 수익성과 재무 건전성은 확실한 강점이다. FCF 마진은 25.1%이고 ROIC는 30.7%이며 무차입에 순현금을 갖고 있다. 이것이 하방을 막아 주지만, 이 품질은 이미 가격에 있다. 질문 6번(마진 상승 여지)은 비GAAP 영업이익률 가이던스 상향으로 일부 확인되지만 이미 높은 마진에서의 추가 여지는 크지 않다. [C:fcf_margin@FY2025] [C:roic@FY2025] [F187] [C:net_cash@FY2025]
+- 창업자의 시간 지평과 재투자 의지(3번·4번 질문의 핵심)를 확인할 근거가 없다. 경영진 변동 8-K가 2025-10부터 2026-07까지 다섯 차례 반복됐고, 보상 구조와 지분율은 읽지 못했다. 자본배분은 자사주 매입에 치우쳐 있다. 높은 배수에서의 매입은 성장 재투자보다 방어적인 선택일 수 있다. [S15](https://www.sec.gov/Archives/edgar/data/1433195/000143319525000140/appf-20251030.htm) [S12](https://www.sec.gov/Archives/edgar/data/1433195/000143319525000147/appf-20251127.htm) [S11](https://www.sec.gov/Archives/edgar/data/1433195/000143319526000003/appf-20260112.htm) [S8](https://www.sec.gov/Archives/edgar/data/1433195/000143319526000016/appf-20260409.htm) [S3](https://www.sec.gov/Archives/edgar/data/1433195/000143319526000040/appf-20260626.htm) [S5](https://www.sec.gov/Archives/edgar/data/1433195/000143319526000031/appf-20260428.htm) [F5]
 
 **사전 부검**
-- 사전 부검 1: 내가 틀렸다면 AI 제품(Realm-X)과 결제·파트너 부가 매출이 유닛당 수익을 키워 성장이 18~19%에서 오래 유지된 경우다. 그 경우 강세 시나리오가 현실이 되고, 나는 좋은 복리 기업을 너무 일찍 외면한 셈이 된다. 이것이 성장 가설의 상방이며 소음이 아니다. [S36](https://news.google.com/rss/articles/CBMi9AFBVV95cUxQNW0tcnRCYnZ0OHFoakxOZW5wTERTWkdxX1Z3QjNSYUdOVjBRTjF0MnV6SVNpd2dsVXNSbGJlcldVU3Nvamh0MUZIMC1DZzAzVlJuNVljT1pwdWdsTDFYeWhRV19tWjZGZVdNMVVRM19HSlBkNjM5V1RvcjF2bTZYUmxMeFg5N213TjFwZXd6OUNhVlN6WFJKWDRjS3lBbGpXdEFUa19naDRxZmx5dUJWMjRETzkyZnhQaTQzV1ItU2NEUnQ4WlA5Qk5OWUo1QnEzNWQ1dXAtM0JaaWdsLUtrT0gtaWtJamt1OENDTC1PVUhxbzhn?oc=5) [S29](https://news.google.com/rss/articles/CBMi1wFBVV95cUxPdVhURTdiOXJzZldIR2pQWGs5LW1zTXRqdHdJTVhLQmxYdTRhTlZFRFYwU3hKMDRiLTROZHVtWjZkSUZuMmFLakdZMHA0ZGxPSFRMUGFxb2l2MGFxUVBMbEpHSmxZWGZ5RXlKMG5NcmJTODhIOHJhYzFaX3l5WEZHNDVlbGs3UjJGZWwycVpReTRVWll4dF9Fa2FkTjZyM0NzNlZUSGZPUjAwR05BX3ZqYXd5ZVNadV9FQmtEcmZsYnlMcENhN3l2NncxTm82dHE2cDByLTRUVQ?oc=5) [S28](https://news.google.com/rss/articles/CBMi4AFBVV95cUxPYnRpZEw1eFpZMUZZcHNNMFRxbEp1T25yZWxCcnk5UWoyWE42NVpNTnFNMTBpT2lOZjNTQmxpQU1Hb1ZKSjM0aUJMcC15VEdKdEdoamNjZldFV0lDcWQ3TU8xTGRSWGIwbWNOb3lNSVFEVEZ6X1E2Z1M5UXBndUFqdGZoazBxT29DeDJkNEI3WllIb1lFOWNHeVpTTlV4dVROVUFyVjljQllucUlrcUFzb0lFMF90NWFfS1NTd3hwdzdrRjlvN3R5d0E0WXd3NG9lTzl2STlPR2RrbmtBZTVBcw?oc=5)
-- 사전 부검 2: 3분기 실적에서 매출이 컨센서스를 크게 웃돌며 성장이 재가속하면 감속 가설이 무너진다. 2분기에 매출이 컨센서스를 넘었고 연간 가이던스가 상향됐다는 점이 이미 그 징후일 수 있다. [F190] [F191] [F186]
-- 사전 부검 3: 자사주 매입이 희석을 상쇄하고 주당 가치를 키우면, 같은 성장률에서도 주당 상방이 내 계산보다 커진다. 다만 매입 단가는 확인하지 못했다. [F5] [F7] [F51]
+- 사전 부검 1: 내가 틀렸다면, Realm-X 등 AI 기능과 결제·부가가치 서비스가 유닛당 수익을 크게 키워 성장이 다시 가속했을 것이다. 파트너 확장과 대형 고객의 사용 확대는 그 초기 신호일 수 있다. 다만 유닛 수와 순매출유지율이 없어 확인하지 못한다. [S36](https://news.google.com/rss/articles/CBMi9AFBVV95cUxQNW0tcnRCYnZ0OHFoakxOZW5wTERTWkdxX1Z3QjNSYUdOVjBRTjF0MnV6SVNpd2dsVXNSbGJlcldVU3Nvamh0MUZIMC1DZzAzVlJuNVljT1pwdWdsTDFYeWhRV19tWjZGZVdNMVVRM19HSlBkNjM5V1RvcjF2bTZYUmxMeFg5N213TjFwZXd6OUNhVlN6WFJKWDRjS3lBbGpXdEFUa19naDRxZmx5dUJWMjRETzkyZnhQaTQzV1ItU2NEUnQ4WlA5Qk5OWUo1QnEzNWQ1dXAtM0JaaWdsLUtrT0gtaWtJamt1OENDTC1PVUhxbzhn?oc=5) [S28](https://news.google.com/rss/articles/CBMi4AFBVV95cUxPYnRpZEw1eFpZMUZZcHNNMFRxbEp1T25yZWxCcnk5UWoyWE42NVpNTnFNMTBpT2lOZjNTQmxpQU1Hb1ZKSjM0aUJMcC15VEdKdEdoamNjZldFV0lDcWQ3TU8xTGRSWGIwbWNOb3lNSVFEVEZ6X1E2Z1M5UXBndUFqdGZoazBxT29DeDJkNEI3WllIb1lFOWNHeVpTTlV4dVROVUFyVjljQllucUlrcUFzb0lFMF90NWFfS1NTd3hwdzdrRjlvN3R5d0E0WXd3NG9lTzl2STlPR2RrbmtBZTVBcw?oc=5) [S27](https://news.google.com/rss/articles/CBMi8AFBVV95cUxOZHJQX1RsQzBmc29Ma2NJRmY4NHFRQ1N0T1FvTlFpNEpHRXd1RERibi1ZcEU0dS1laW5WdkstUklSYTd3SlFrQWx3dWM5QURDWllHOGVYdlFMcmJwTElRV3JZeW5wVmRCalZxbkRkdFNJY1dpckM0OXhfSlUydHNoV3pqOTM2b1FwcmgxaktHUmlINmdnUVFEdE1ZaEhnOGRrYW9jbTFtUlNCQlZFSkhaTExqUS1XVG1uakxNMWdnSGc5OXhHbUt2LWRkZmVTN29ZX2V0Rk5YSmtCZjdjdWdtclBVaG1yXzFiNjNYcFlEa3U?oc=5)
+- 사전 부검 2: 소프트웨어 영업 레버리지가 내 예상보다 길게 이어져 FCF 마진이 30%를 넘고, 시장이 그 품질에 지금보다 높은 배수를 계속 줄 수 있다. 이 경우 5배 경로가 열린다. 2분기 비GAAP 영업이익률이 전년보다 올랐다는 점이 그 방향을 시사한다. [S46](https://ir.appfolioinc.com/news-releases/news-release-details/appfolio-inc-announces-second-quarter-2026-financial-results) [F189] [F187]
+- 사전 부검 3: 성장이 둔화되는 시기에 사지 않는 것은 가장 가치 있는 구간을 놓치는 전형적인 실수일 수 있다. 다만 그 구간은 보통 더 이른 시기에 지나갔고 지금은 성숙 단계에 가깝다. 이 가설은 성장 재가속이 확인되면 바로 깨진다. [C:revenue_growth@FY2025] [S45](https://www.defenseworld.net/2026/10/15/appfolio-appf-projected-to-release-quarterly-earnings-on-thursday.html)
 
 **반론**
-- → 애크먼: 애크먼의 가장 강한 논거는 안전마진이 20% 하한에 못 미친다는 것이다. 이 점은 맞고 내 반대 결론과 같은 방향이다. 다만 그는 기본 시나리오(5년, 연 14.3%)만으로 가치를 재서 내 철학의 핵심인 10년 뒤 크기를 보지 못한다. 내 기준은 안전마진이 아니라 5배 경로의 존재다. 내가 반대하는 이유는 가격이 아니라 성장 감속이 멈추고 수확체증으로 바뀐다는 증거가 아직 없다는 것이다. 자사주 매입으로 주식 수가 줄고 있다는 점은 그의 기본 가정(주식 수 변화 0)이 보수적일 수 있음을 뜻한다. [C:mos@ackman] [C:revenue_cagr@base] [C:upside_10y@anderson] [F51] [C:share_change@FY2025]
-- → 슬레이터: 슬레이터의 가장 강한 논거는 단위경제 KPI가 하나도 없어 입증된 것이 없다는 점이다. 이는 내 3번·5번 질문(경쟁우위 유지, 고객이 왜 좋아하는가)에 답할 근거가 없다는 말과 같아서 동의한다. 그러나 그는 증거가 쌓일 때까지 보류하며 3분기 실적을 기다린다. 나는 증거를 기다리다 가장 가치 있는 구간을 놓치는 것을 경계한다. 다만 이 회사는 이미 상장 후 성숙기에 들어서 가장 가치 있는 구간이 지났을 가능성이 높고, 그래서 기다림의 비용이 작다고 본다. [C:revenue_growth@FY2022] [C:revenue_growth@FY2025] [S32](https://news.google.com/rss/articles/CBMikwFBVV95cUxPa2NlLXUxRDYzeE5xZ3hVSlFuaVlZZm9xS0VoaXRneWtDOGZzQWp6eXl5bG5ld2MxcnZwb181bEFuR1FjbXdRNDVMZzNyd2dnQjRScFdGbm93TTNUSXJucW1ycXFQUllzeXA2ZGcwTTVLS3J4d1c5M1BhV2FWWG1vMmRlTzlOMlRFVXVHeUUwNGo2Zk0?oc=5) [S33](https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMWlpM2RVRVJaR3FUVnZrYU5LM21Ib24tSnlGcjY0UmRVNUc1cENOb2VKNXI1LVdtcHpaN3p1UDRxWGw3elJGb2VoUDN3XzJDQlljN2xqWkdHRWtwX29rLVd2LTZGbTExaURCRVFrekVLeWVndFVUZS0tYjBGYmM0Zm1jT1Q2ZnpfNnJ2YXdfLU85Z0cwN25GM3NCSVc3S3JGOVpMWjk0SjRrVlZLZXdKcGRfT1JYRmR5RGRSdjZHZEp5N3FCeTF4VjZraDlvT2pyT3c?oc=5)
-- → 레드팀: 레드팀의 두 번째 사전 부검(성장 둔화가 멈추지 않고 배수가 먼저 무너진다)은 성장 가설 자체를 겨누므로 소음이 아니라 내 반대 논거와 일치한다. 반면 첫 번째(결제 수수료 소송)는 경로의 소음일 수 있다. 청구 규모와 결제 매출 비중이 없어 가설을 깨는지 판단할 수 없다. 세 번째 경쟁사 AI 추격은 해자 근거가 보도 수준이라는 점에서 타당하지만 점유율 자료가 없어 확률 0.15는 검증되지 않았다. 레드팀의 약한 가정 지적(기본 FCF 마진 28%가 SBC를 뺀 값)은 상방 가정의 낙관 편향을 확인해 준다. [C:revenue_growth@FY2025] [C:pe] [S26](https://news.google.com/rss/articles/CBMivAFBVV95cUxPeU9FcFl2NVM5SVlqWGQ4TGtqWVhESHlwZFNlbUg4LVVqOG1JRHZaNEh1UVh5NDhwTUFsbjdrZ0RGWF9GYkdWMWlXaUxIQnAwdmdkZjZGZ3BsWmZ2VmVEVzVudDBGcVp4aVpmVmlWYXBua19hNE9hdGNvMmk0WDVZSElQTGg0VWxzSXlWMGtIYjdmaldKQl91aFNjZkw2dlB0azc3WFRWZnN0YkFVT2JUT0dxa1lNUU5mRjU3Rw?oc=5) [S29](https://news.google.com/rss/articles/CBMi1wFBVV95cUxPdVhURTdiOXJzZldIR2pQWGs5LW1zTXRqdHdJTVhLQmxYdTRhTlZFRFYwU3hKMDRiLTROZHVtWjZkSUZuMmFLakdZMHA0ZGxPSFRMUGFxb2l2MGFxUVBMbEpHSmxZWGZ5RXlKMG5NcmJTODhIOHJhYzFaX3l5WEZHNDVlbGs3UjJGZWwycVpReTRVWll4dF9Fa2FkTjZyM0NzNlZUSGZPUjAwR05BX3ZqYXd5ZVNadV9FQmtEcmZsYnlMcENhN3l2NncxTm82dHE2cDByLTRUVQ?oc=5) [C:fcf_after_sbc@FY2025]
+- → 애크먼: 애크먼의 가장 강한 논거는 안전마진 부족이다. 기본 시나리오 현재가치 236.88달러가 주가 212.13달러와 격차가 작다는 점은 사실이다. 그러나 나는 현재가치로 이 종목을 거절하지 않는다. DCF는 5년 기본 경로를 정밀하게 재지만, 내가 묻는 것은 10년 뒤 크기다. 강세 시나리오를 10년으로 늘리면 5배 문턱은 넘는다. 내가 반대하는 이유는 가격이 아니라, 그 5배가 마진 30%와 출구 배수 28배가 모두 유지되어야 나오는 좁은 길이고 성장이 감속하는 중이라는 점이다. [C:iv@base] [F183] [C:revenue_cagr@bull] [C:exit_multiple@bull]
+- → 슬레이터: 슬레이터의 가장 강한 논거는 단위경제 KPI의 공백이다. 맞다. 그러나 증거를 기다리며 1% 이하로 작게 시작하는 접근은 멱법칙 종목에서 비대칭을 포기하는 길이다. 아웃라이어라면 KPI가 공개될 즈음엔 이미 가장 가치 있는 구간이 지나 있다. 다만 지금은 반대의 이유도 같다. 성장이 감속하는 성숙 구간이라 놓치는 구간이 크지 않다. 작게 사도 얻는 것이 없다. 결론은 같지만 이유는 다르다. [S32](https://news.google.com/rss/articles/CBMikwFBVV95cUxPa2NlLXUxRDYzeE5xZ3hVSlFuaVlZZm9xS0VoaXRneWtDOGZzQWp6eXl5bG5ld2MxcnZwb181bEFuR1FjbXdRNDVMZzNyd2dnQjRScFdGbm93TTNUSXJucW1ycXFQUllzeXA2ZGcwTTVLS3J4d1c5M1BhV2FWWG1vMmRlTzlOMlRFVXVHeUUwNGo2Zk0?oc=5) [C:revenue_growth@FY2025] [C:expected_irr]
+- → 레드팀: 레드팀의 가장 강한 부검은 기본 시나리오의 출구 배수 24배가 후하다는 지적이다. 성장 가설을 깨는 것인지 경로의 소음인지 가르면, 이것은 소음이 아니라 가설 자체를 건드린다. 성장이 한 자릿수로 꺾이면 배수가 함께 내려가 5배 경로가 닫힌다. 이 점은 내 반대를 강화한다. 반면 경영진 변동이나 매출채권 증가는 아직 내용을 확인하지 못했으므로 성장 가설을 깨는 증거로는 보지 않고 경로의 소음으로 둔다. [C:p_fcf] [C:expected_irr] [C:revenue_growth@FY2025] [C:receivables_gap]
 
 **인정한 점**
-- 애크먼이 짚은 대로 비GAAP 마진이 SBC를 빼고 있어 강세 시나리오의 FCF 마진 31%는 SBC 차감 기준으로 낙관적일 수 있다. 상방 6.15배의 일부는 이 가정에 기댄다.
-- 슬레이터의 지적대로 NRR·이탈률·유닛 수가 없어 해자 증거가 대부분 주장 수준이다. 이 불확실성 때문에 대담하게 걸 근거가 부족하다는 내 결론이 강해진다.
-- 코드가 계산한 상방(10년 6.15배)은 5배 문턱을 넘지만 그 경로의 확률은 강세 20%에 불과하고, 확률 가중 기대 연 수익률 11.8%는 평범하다. 문턱 통과가 찬성의 충분조건은 아니다.
+- 애크먼의 지적대로 안전마진이 작다는 점을 인정한다. 코드 계산상 기대 연 수익률 +11.9%는 요구수익률 10%를 근소하게 넘을 뿐이라 비대칭 우위라 부르기 어렵다.
+- 슬레이터의 지적대로 품질과 생존은 확실하다. 무차입 순현금과 FCF 마진 25.1%는 하방을 막아 준다. 그래서 확신은 3으로 유지하고 더 높이지 않는다.
+- 레드팀의 지적대로 민감도 표에서 출구 배수가 ×0.75이면 기본 수익률이 7.3%로 요구수익률을 밑돈다. 5배 경로의 폭이 좁다는 내 판단을 뒷받침한다.
 
 
 ## 슬레이터 — 보류 (2/5)
 
-> 이 회사는 현금을 스스로 만들어 생존 문제가 없고, 규모에서 나오는 레버리지도 실제로 확인된다. 그래서 가설이 깨질 위험은 작다. 그러나 내가 키울 종목의 조건인 '시장이 아직 정의되지 않았고 증거가 쌓이면 비중을 늘릴 수 있는 구조'에는 아직 못 미친다. 단위경제를 판단할 KPI(순매출유지율·이탈률·관리 유닛 수·결제 매출 구성)가 하나도 확보되지 않아 입증된 것이 없다. 매출 성장은 4년 연속 둔화했고, 코드가 계산한 확률 가중 기대수익률은 요구수익률을 간신히 넘는다. 지금은 사지도 반대하지도 않고 3분기 실적(2026-10-22)에서 KPI가 공개되는지 확인한다. KPI가 나오고 must_be_true가 on_track으로 남으면 1% 내외로 시작할 수 있다.
+> AppFolio는 생존 문제가 없는 회사다. 무차입에 순현금이 있고 FCF 마진도 높아서, 외부 자본에 기대지 않고 계획을 실행할 수 있다. 그러나 내가 키우려면 회사가 증명한 단위경제 증거가 있어야 한다. 순매출유지율, 이탈률, CAC, 유닛당 매출은 하나도 확보되지 않았다. 시장도 정의되지 않은 시장이 아니다. 성장률은 31.3%에서 19.7%로 둔화하는 중이고, 기본 시나리오의 5년 매출 성장률은 13.4%다. 기대 연 수익률 +11.9%는 요구수익률 10%를 근소하게 넘을 뿐이고 손실 확률은 25%다. 가설이 깨졌다고 볼 근거도 없고 입증됐다고 볼 근거도 없다. 그래서 찬성하지 않고 보류하며, 시작 비중은 1% 이하로 제안한다. 다음 분기에 KPI가 공개되고 3분기 매출이 컨센서스를 넘으면 다시 판단한다.
+
+*이전 판단 대비: 직전 판단(abstain, 확신 2)과 같은 결론이다. 입장은 바뀌지 않았고 새로운 근거도 없다. 단위경제 KPI 공백(S32)이 여전하고, 모델러가 약세·기본 시나리오를 재정의했지만 기대 연 수익률 +11.9%가 요구수익률을 근소하게 넘는 수준이라 찬성할 만큼 달라지지 않았다.*
 
 **논거**
-- 생존은 문제가 아니다. FCF 마진이 25.1%이고 순현금이 2.2억 USD여서 외부 자본 없이 계획을 실행할 수 있다. 2022년에 내가 잃은 유형(외부 조달 의존)과 정반대다. [C:fcf_margin@FY2025] [C:net_cash@FY2026Q2] [F31]
-- 규모 효과는 실적으로 확인된다. 영업이익률이 FY2022 -15.3%에서 FY2025 16.1%로 올랐고 ROIC는 30.7%다. 다만 이것은 마진 레버리지의 증거이지 시장 크기나 단위경제의 증거는 아니다. [C:operating_margin@FY2022] [C:operating_margin@FY2025] [C:roic@FY2025]
-- 지속성이 약해지고 있다. 매출 성장률이 FY2022 31.3%에서 FY2025 19.7%로 낮아졌고, 모델러의 기본 시나리오는 연 14.3%로 더 낮춘다. 기회가 아직 정의되지 않은 기업이라기보다 천장이 서서히 보이는 성장에 가깝다. [C:revenue_growth@FY2022] [C:revenue_growth@FY2025] [C:revenue_cagr@base]
-- 단위경제를 판단할 근거가 없다. CAC·회수기간·순매출유지율·이탈률·유닛 수는 어닝콜과 보도자료 원문 접근 불가로 수집되지 않았다. 해자도 대부분 주장 수준이어서 '증거가 쌓이면 키운다'는 출발점을 아직 만들지 못했다. [S32](https://news.google.com/rss/articles/CBMikwFBVV95cUxPa2NlLXUxRDYzeE5xZ3hVSlFuaVlZZm9xS0VoaXRneWtDOGZzQWp6eXl5bG5ld2MxcnZwb181bEFuR1FjbXdRNDVMZzNyd2dnQjRScFdGbm93TTNUSXJucW1ycXFQUllzeXA2ZGcwTTVLS3J4d1c5M1BhV2FWWG1vMmRlTzlOMlRFVXVHeUUwNGo2Zk0?oc=5) [S33](https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMWlpM2RVRVJaR3FUVnZrYU5LM21Ib24tSnlGcjY0UmRVNUc1cENOb2VKNXI1LVdtcHpaN3p1UDRxWGw3elJGb2VoUDN3XzJDQlljN2xqWkdHRWtwX29rLVd2LTZGbTExaURCRVFrekVLeWVndFVUZS0tYjBGYmM0Zm1jT1Q2ZnpfNnJ2YXdfLU85Z0cwN25GM3NCSVc3S3JGOVpMWjk0SjRrVlZLZXdKcGRfT1JYRmR5RGRSdjZHZEp5N3FCeTF4VjZraDlvT2pyT3c?oc=5) [S27](https://news.google.com/rss/articles/CBMi8AFBVV95cUxOZHJQX1RsQzBmc29Ma2NJRmY4NHFRQ1N0T1FvTlFpNEpHRXd1RERibi1ZcEU0dS1laW5WdkstUklSYTd3SlFrQWx3dWM5QURDWllHOGVYdlFMcmJwTElRV3JZeW5wVmRCalZxbkRkdFNJY1dpckM0OXhfSlUydHNoV3pqOTM2b1FwcmgxaktHUmlINmdnUVFEdE1ZaEhnOGRrYW9jbTFtUlNCQlZFSkhaTExqUS1XVG1uakxNMWdnSGc5OXhHbUt2LWRkZmVTN29ZX2V0Rk5YSmtCZjdjdWdtclBVaG1yXzFiNjNYcFlEa3U?oc=5) [S28](https://news.google.com/rss/articles/CBMi4AFBVV95cUxPYnRpZEw1eFpZMUZZcHNNMFRxbEp1T25yZWxCcnk5UWoyWE42NVpNTnFNMTBpT2lOZjNTQmxpQU1Hb1ZKSjM0aUJMcC15VEdKdEdoamNjZldFV0lDcWQ3TU8xTGRSWGIwbWNOb3lNSVFEVEZ6X1E2Z1M5UXBndUFqdGZoazBxT29DeDJkNEI3WllIb1lFOWNHeVpTTlV4dVROVUFyVjljQllucUlrcUFzb0lFMF90NWFfS1NTd3hwdzdrRjlvN3R5d0E0WXd3NG9lTzl2STlPR2RrbmtBZTVBcw?oc=5)
-- 기대수익률이 얇다. 확률 가중 기대 연 수익률이 11.8%이고 손실 확률이 25%다. 기본 시나리오 분해에서 멀티플 축소가 -6.6%를 깎는다. 증거가 부족한 종목에서 요구수익률 10%를 간신히 넘는 수준은 비중을 정당화하지 못한다. [C:expected_irr] [C:p_loss] [C:p_loss@bear]
+- 생존은 문제가 없다. FY2026Q2 현금이 2.2억 USD이고 FY2025 FCF 마진이 25.1%다. 외부 자본에 의존하지 않고 계획을 실행할 수 있다. [F31] [C:fcf_margin@FY2025]
+- 지속성은 증명되지 않았다. 매출 성장률이 FY2022 31.3%에서 FY2025 19.7%로 둔화했고, 기본 시나리오는 5년 매출 연성장 13.4%를 가정한다. 정의되지 않은 시장이 아니라 성장이 줄어드는 성숙 구간으로 읽힌다. [C:revenue_growth@FY2022] [C:revenue_growth@FY2025] [C:revenue_cagr@base]
+- 단위경제는 숫자로 입증되지 않았다. 총이익률은 FY2021 한 점뿐이고, 순매출유지율과 이탈률, CAC는 어닝콜 요약에서도 확인되지 않았다. 개선인지 악화인지 판단할 수 없어 unclear로 둔다. [C:gross_margin@FY2021] [S32](https://news.google.com/rss/articles/CBMikwFBVV95cUxPa2NlLXUxRDYzeE5xZ3hVSlFuaVlZZm9xS0VoaXRneWtDOGZzQWp6eXl5bG5ld2MxcnZwb181bEFuR1FjbXdRNDVMZzNyd2dnQjRScFdGbm93TTNUSXJucW1ycXFQUllzeXA2ZGcwTTVLS3J4d1c5M1BhV2FWWG1vMmRlTzlOMlRFVXVHeUUwNGo2Zk0?oc=5)
+- 영업 레버리지는 실적으로 나타났다. 영업이익률이 FY2022 -15.3%에서 FY2025 16.1%로 올랐다. 다만 이 개선이 가격 인상 때문인지 비용 통제 때문인지는 구분되지 않는다. [C:operating_margin@FY2022] [C:operating_margin@FY2025]
+- 가격이 증거 수준을 앞선다. P/FCF는 27.86x이고 기대 연 수익률은 +11.9%, 손실 확률은 25%다. 작게 시작해 증거로 키우는 입장에서 지금 비중을 키울 근거는 없다. [C:p_fcf] [C:expected_irr] [C:p_loss]
 
 **사전 부검**
-- 결제 수수료가 숨겨져 있다는 소비자 집단소송이 부가가치 매출의 단위 수익을 깎을 수 있다. 결제 매출 비중과 청구 규모를 모르는 채로는 이 위험의 크기를 잴 수 없다. [S26](https://news.google.com/rss/articles/CBMivAFBVV95cUxPeU9FcFl2NVM5SVlqWGQ4TGtqWVhESHlwZFNlbUg4LVVqOG1JRHZaNEh1UVh5NDhwTUFsbjdrZ0RGWF9GYkdWMWlXaUxIQnAwdmdkZjZGZ3BsWmZ2VmVEVzVudDBGcVp4aVpmVmlWYXBua19hNE9hdGNvMmk0WDVZSElQTGg0VWxzSXlWMGtIYjdmaldKQl91aFNjZkw2dlB0azc3WFRWZnN0YkFVT2JUT0dxa1lNUU5mRjU3Rw?oc=5)
-- 단위경제가 실제로는 악화하는데 우리가 보지 못하는 경우. 매출채권 증가율이 매출 증가율을 계속 웃돌고 있어, 대형 고객 청구 시점이나 결제 구조 변화가 숨은 약점일 수 있다. [C:receivables_gap] [C:dso@FY2025]
-- 경영진 변동 8-K가 최근 1년 사이 여러 건 이어졌다. 직위와 사유를 확인하지 못했고, 운영 연속성이 흔들리고 있다면 가설을 시험할 시간 자체가 줄어든다. [S15](https://www.sec.gov/Archives/edgar/data/1433195/000143319525000140/appf-20251030.htm) [S12](https://www.sec.gov/Archives/edgar/data/1433195/000143319525000147/appf-20251127.htm) [S11](https://www.sec.gov/Archives/edgar/data/1433195/000143319526000003/appf-20260112.htm) [S8](https://www.sec.gov/Archives/edgar/data/1433195/000143319526000016/appf-20260409.htm) [S3](https://www.sec.gov/Archives/edgar/data/1433195/000143319526000040/appf-20260626.htm)
+- 사전 부검: 임대료 결제 수수료가 숨겨져 있다는 소비자 집단소송이 결제·부가가치 매출의 가격 결정력을 훼손했다면, 성장 둔화가 약세 시나리오로 빠르게 이어졌을 것이다. [S26](https://news.google.com/rss/articles/CBMivAFBVV95cUxPeU9FcFl2NVM5SVlqWGQ4TGtqWVhESHlwZFNlbUg4LVVqOG1JRHZaNEh1UVh5NDhwTUFsbjdrZ0RGWF9GYkdWMWlXaUxIQnAwdmdkZjZGZ3BsWmZ2VmVEVzVudDBGcVp4aVpmVmlWYXBua19hNE9hdGNvMmk0WDVZSElQTGg0VWxzSXlWMGtIYjdmaldKQl91aFNjZkw2dlB0azc3WFRWZnN0YkFVT2JUT0dxa1lNUU5mRjU3Rw?oc=5) [C:revenue_cagr@bear]
+- 사전 부검: 성장이 한 자릿수로 꺾이면서 멀티플이 함께 내려가면, 기본 시나리오 수익률 분해의 멀티플 변화 -4.8%가 더 커진다. 가설이 틀린 것이 아니라 증거 없이 가격만 치른 경우다. [C:revenue_growth@FY2025] [C:p_fcf]
+- 사전 부검: 경영진 변동 8-K가 반복됐다. 내용이 정상 승계가 아니라 핵심 인력 이탈이었다면 실행력 가정이 무너졌을 것이다. [S3](https://www.sec.gov/Archives/edgar/data/1433195/000143319526000040/appf-20260626.htm) [S8](https://www.sec.gov/Archives/edgar/data/1433195/000143319526000016/appf-20260409.htm) [S11](https://www.sec.gov/Archives/edgar/data/1433195/000143319526000003/appf-20260112.htm)
 
 **반론**
-- → 앤더슨: 앤더슨의 가장 강한 논거는 성장이 감속 중이라 멱법칙 기업이 아니라는 것이다. 감속 자체는 인정한다. 그러나 최근 구간만 보면 FY2025 연 성장률 19.7%와 2026년 2분기 전년 대비 +19.3%가 거의 같다. 감속이 계속 이어진다는 증거는 아니고, 가이던스 상향도 있었다. 그래서 천장이 보인다고 단정해 반대로 가지 않고, 3분기 실적으로 가린다. 다만 이 회사의 시장 크기를 정의해 줄 유닛 수와 유닛당 수익이 없다는 점은 나도 같은 의견이다. [C:revenue_growth@FY2025] [S45](https://www.defenseworld.net/2026/10/15/appfolio-appf-projected-to-release-quarterly-earnings-on-thursday.html) [F186]
-- → 애크먼: 애크먼의 가장 강한 논거는 코드가 계산한 안전마진이 20% 하한에 못 미친다는 것이다. 기본 시나리오 기준 안전마진은 11.3%로 확인된다. 나는 안전마진이 아니라 증거 수준으로 비중을 정하므로 반대 표를 던지지 않고 보류한다. 그러나 이 숫자는 단위경제 증거가 없는 상태에서 계산한 것이다. 반대로 NRR·이탈률이 공개되면 시나리오 가정이 바뀌고, 안전마진은 그 가정 위에서 다시 계산해야 한다. 그때는 가격이 아니라 증거가 기준이다. [C:mos@ackman] [C:intrinsic_value@ackman] [S33](https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMWlpM2RVRVJaR3FUVnZrYU5LM21Ib24tSnlGcjY0UmRVNUc1cENOb2VKNXI1LVdtcHpaN3p1UDRxWGw3elJGb2VoUDN3XzJDQlljN2xqWkdHRWtwX29rLVd2LTZGbTExaURCRVFrekVLeWVndFVUZS0tYjBGYmM0Zm1jT1Q2ZnpfNnJ2YXdfLU85Z0cwN25GM3NCSVc3S3JGOVpMWjk0SjRrVlZLZXdKcGRfT1JYRmR5RGRSdjZHZEp5N3FCeTF4VjZraDlvT2pyT3c?oc=5)
-- → 레드팀: 레드팀의 첫 사전 부검(결제 수수료 소송이 부가가치 매출의 단위 수익을 깎는다)이 가장 강하다. 결제 매출 구성이 한 번도 공개되지 않아 영향을 잴 수 없다는 지적에 동의한다. 다만 소송 청구 규모가 확인되지 않아 이를 must_be_true의 기계 판정 조건으로 만들 수는 없다. 대신 선행 신호인 3분기 매출의 컨센서스 달성 여부를 이미 must_be_true에 넣어 두었다. 희석 주식 수 신호도 내 반증 조건과 겹치므로 그대로 유지한다. 부가가치·결제 매출 구성이 공개되지 않으면 단위경제 항목을 at_risk로 둔다. [S26](https://news.google.com/rss/articles/CBMivAFBVV95cUxPeU9FcFl2NVM5SVlqWGQ4TGtqWVhESHlwZFNlbUg4LVVqOG1JRHZaNEh1UVh5NDhwTUFsbjdrZ0RGWF9GYkdWMWlXaUxIQnAwdmdkZjZGZ3BsWmZ2VmVEVzVudDBGcVp4aVpmVmlWYXBua19hNE9hdGNvMmk0WDVZSElQTGg0VWxzSXlWMGtIYjdmaldKQl91aFNjZkw2dlB0azc3WFRWZnN0YkFVT2JUT0dxa1lNUU5mRjU3Rw?oc=5) [F190] [F51]
+- → 앤더슨: 앤더슨의 가장 강한 논거는 강세 시나리오에서 5배 문턱을 넘는다는 점과, 감속 곡선은 멱법칙 종목이 아니라는 점이다. 5배가 성립하려면 매출 성장 유지와 FCF 마진 상승, 높은 출구 배수가 동시에 참이어야 한다. 이 셋은 지금 모두 계획이나 가이던스 단계이지 입증된 실적이 아니다. 나는 이걸 감속이라는 이유로 버리지 않고 증거가 쌓일 때까지 비중을 키우지 않는다. 앤더슨과 달리 반대까지 가지 않는 이유는 가설이 깨졌다는 근거도 없기 때문이다. [C:revenue_cagr@bull] [C:fcf_margin@bull] [C:exit_multiple@bull] [C:revenue_growth@FY2025]
+- → 애크먼: 애크먼의 가장 강한 논거는 기본 시나리오 내재가치와 주가의 격차가 작아 안전마진이 부족하다는 점이다. 이 계산에는 동의한다. 다만 나는 가격 대신 증거로 크기를 조절한다. 단위경제 KPI가 비어 있다는 것은 해자가 없다는 증거가 아니라 아직 입증되지 않았다는 뜻이다. 무차입 순현금 구조가 생존을 보장하므로 반대보다 보류가 맞고, 가격이 내려오는 것보다 KPI 공개가 내 재판단의 조건이다. [C:iv@base] [F183] [F31] [C:net_debt_to_ebitda]
+- → 레드팀: 레드팀의 가장 강한 논거는 희석 상쇄 실패와 매출채권 증가가 성장 서사 붕괴의 선행 신호가 된다는 점이다. 맞는 지적이다. 매입이 2분기에 0이었으므로 희석 상쇄는 가정이 아니라 점검 대상이다. 그래서 희석 주식 수 기준을 레드팀 신호에 맞춰 조이고, 매출채권 증가를 참이어야 하는 조건에 추가한다. 반면 배수 하락 시나리오는 기본 시나리오 안에서 이미 수익률을 깎고 있어, 이를 이유로 반대로 옮겨 가지는 않는다. [F209] [F51] [F128] [C:receivables_gap] [C:p_fcf]
 
 **참이어야 하는 것**
 - [on_track] FY2026 연간 매출이 가이던스 하단 이상
-- [on_track] 3분기 매출이 컨센서스 이상 — 18~19%대 성장 유지
-- [on_track] 3분기 GAAP 영업이익이 2분기보다 증가 — 고정비 레버리지 지속
-- [on_track] 자사주 매입이 SBC 희석을 계속 상쇄 — 희석 주식 수 유지
-- [at_risk] 순매출유지율과 이탈률이 공개되고 악화하지 않음
+- [on_track] 3분기 희석 주식 수가 직전 수준 이하로 유지되어 자사주 매입이 SBC 희석을 상쇄
+- [at_risk] 3분기 GAAP 영업이익이 직전 분기 이상으로 이어져 영업 레버리지 유지
+- [at_risk] 3분기 매출채권이 매출보다 빠르게 늘지 않고 상한 안에 머문다
+- [at_risk] 순매출유지율·이탈률 등 단위경제 KPI가 공개되고 악화하지 않음
 
 **인정한 점**
-- 앤더슨: 멱법칙의 증거(성장 유지·가속, 유닛당 수익 확대)가 아직 없다는 점을 인정한다. 그래서 내 입장은 찬성으로 가지 않고, 보류의 확신도 낮게 둔다.
-- 애크먼: 해자 증거가 대부분 주장 수준이라는 점을 인정한다. 단위경제 KPI가 공개되지 않으면 시작 비중은 0으로 유지한다.
-- 레드팀: 결제 수수료 소송은 규모를 모르는 채로 키울 수 없는 위험이다. 생존 문제가 없다는 이유만으로 이 위험을 가볍게 보지 않는다.
+- 앤더슨: 성장 감속과 높은 가격은 인정한다. 이 때문에 시작 비중을 1% 이하로 묶고 확신을 올리지 않는다.
+- 애크먼: 안전마진이 부족하다는 계산을 인정한다. 이 때문에 지금 찬성으로 옮기지 않는다.
+- 레드팀: 희석 주식 수 기준을 3,600만에서 3,550만으로 조이고, 매출채권 증가 조건을 참이어야 하는 지표에 넣는다. 매입이 멈춘 분기가 있어 느슨한 기준은 의미가 없다.
 
 
 ## 애크먼 — 반대 (3/5)
 
-> 사업의 질은 내가 좋아하는 쪽이다. 부동산 관리 소프트웨어는 한 문단으로 설명되고, 부채 없이 순현금이 쌓이며, FCF 마진이 25%대다. 문제는 가격이다. 보수적 가정(기본 시나리오)으로 코드가 계산한 안전마진은 20% 하한에 못 미치고, 확률 가중 기대 연 수익률도 요구수익률 언저리다. 해자는 대부분 주장 수준이고(NRR·이탈률·유닛 수 미확보), 결제 수수료 소송이라는 미확인 변수가 있다. 좋은 회사도 비싸게 사면 나쁜 투자다. 지금은 담지 않고, 주가가 내재가치 아래로 충분히 내려오거나 단위경제 증거가 확보되면 다시 본다.
+> 사업은 좋다. 무차입에 순현금이 있고 FCF 마진이 25%대인 소프트웨어 플랫폼이다. 문제는 가격이다. 기본 시나리오의 현재가치 236.88달러는 주가 212.13달러보다 조금 높을 뿐이라 안전마진이 내 기준에 못 미친다. P/FCF가 27.86배, FCF 수익률이 3.6%인데, 그 값을 정당화하는 성장과 마진은 이미 시장 가격에 들어 있다. 해자는 회사 발표와 보도로만 확인되고, 순매출유지율·이탈률·경쟁사 비교가 없어 10년 FCF 범위를 좁게 추정하기 어렵다. 좋은 회사를 적정가에 사는 것은 내 일이 아니다. 주가가 더 내려오거나 단위경제 KPI가 해자를 입증하면 다시 본다.
 
 **논거**
-- 사업은 단순하고 예측 가능하다. 구독 소프트웨어에 결제·AI 부가 서비스를 얹는 모델이며, 매출은 FY2021부터 FY2025까지 매년 늘었고 성장률은 31.3%에서 19.7%로 완만하게 내려왔다. 10년 FCF 범위를 합리적으로 잡을 수 있어 단순성 기준은 통과한다. [C:revenue_growth@FY2022] [C:revenue_growth@FY2025] [C:fcf_margin@FY2025]
-- 재무는 내 기준에 맞는다. 순현금이 쌓이고 순부채/EBITDA가 음수라 자본시장 의존이 없다. 밸리언트식 위험은 없다. 이 점이 레버리지 때문에 거절하는 경우와 다르다. [C:net_debt_to_ebitda@FY2025] [F31] [C:net_cash@FY2025]
-- 가격이 문제다. 주가는 PER이 높은 구간이고, 기본 시나리오 현재가치(IV)가 주가를 충분히 웃돌지 못해 코드가 계산한 안전마진이 20% 하한 아래다. 기본 시나리오 수익률 분해를 보면 매출 성장이 수익을 거의 다 만들고 출구 멀티플 하락이 이를 깎는다. 즉 높은 배수를 오래 유지해야 맞는 투자다. [F183] [C:pe] [C:mos@ackman] [C:intrinsic_value@ackman] [C:expected_irr]
-- 해자는 아직 입증되지 않았다. 규모에 따른 마진 개선(영업이익률 FY2022 -15.3%에서 FY2025 16.1%)은 확인되지만, 전환비용과 가격결정력은 보도 수준이다. 가격을 올려도 고객이 남는지 보여 주는 이탈률·NRR이 없다. 해자 증거가 'claimed'인 기업에 높은 배수를 지불하는 것은 내 절차에 맞지 않는다. [C:operating_margin@FY2022] [C:operating_margin@FY2025] [S27](https://news.google.com/rss/articles/CBMi8AFBVV95cUxOZHJQX1RsQzBmc29Ma2NJRmY4NHFRQ1N0T1FvTlFpNEpHRXd1RERibi1ZcEU0dS1laW5WdkstUklSYTd3SlFrQWx3dWM5QURDWllHOGVYdlFMcmJwTElRV3JZeW5wVmRCalZxbkRkdFNJY1dpckM0OXhfSlUydHNoV3pqOTM2b1FwcmgxaktHUmlINmdnUVFEdE1ZaEhnOGRrYW9jbTFtUlNCQlZFSkhaTExqUS1XVG1uakxNMWdnSGc5OXhHbUt2LWRkZmVTN29ZX2V0Rk5YSmtCZjdjdWdtclBVaG1yXzFiNjNYcFlEa3U?oc=5) [S28](https://news.google.com/rss/articles/CBMi4AFBVV95cUxPYnRpZEw1eFpZMUZZcHNNMFRxbEp1T25yZWxCcnk5UWoyWE42NVpNTnFNMTBpT2lOZjNTQmxpQU1Hb1ZKSjM0aUJMcC15VEdKdEdoamNjZldFV0lDcWQ3TU8xTGRSWGIwbWNOb3lNSVFEVEZ6X1E2Z1M5UXBndUFqdGZoazBxT29DeDJkNEI3WllIb1lFOWNHeVpTTlV4dVROVUFyVjljQllucUlrcUFzb0lFMF90NWFfS1NTd3hwdzdrRjlvN3R5d0E0WXd3NG9lTzl2STlPR2RrbmtBZTVBcw?oc=5)
-- 이익의 질은 SBC를 빼고 봐야 한다. SBC 차감 FCF는 보고 FCF보다 눈에 띄게 낮고, 비GAAP 영업이익(7,600만 USD)은 GAAP 영업이익(5,298만 USD)보다 크다. 회사가 제시하는 마진 가이던스를 그대로 믿고 가치를 매기면 안전마진이 더 얇아진다. 자사주 매입이 희석을 상쇄하지만 평균 매입 단가를 모르는 상태다. [C:fcf_after_sbc@FY2025] [F189] [F108] [F187] [F5] [F7]
+- 가격이 문제다. 기본 시나리오 현재가치는 236.88달러로 주가 212.13달러와 격차가 작다. 기대 연 수익률은 요구수익률 부근이라 안전마진이 부족하다. [C:iv@base] [F183] [C:expected_irr]
+- 재무 질은 우수하다. 부채가 없고 순부채/EBITDA가 음수이며 FCF 마진이 25.1%, ROIC가 30.7%다. 자본시장 의존 레드라인은 문제없다. 그러나 이것은 필요조건이다. [C:net_debt_to_ebitda] [C:fcf_margin@FY2025] [C:roic@FY2025]
+- 현재 배수는 성장 둔화 여지를 거의 주지 않는다. P/FCF 27.86배, FCF 수익률 3.6%다. 매출 성장률은 31.5%에서 19.7%로 낮아지고 있고, 기본 시나리오는 출구 배수를 24배로 낮춰 멀티플 축소가 수익을 깎는다. [C:p_fcf] [C:fcf_yield] [C:revenue_growth@FY2023] [C:revenue_growth@FY2025]
+- 해자는 아직 입증되지 않았다. 전환비용은 추정이고, 순매출유지율·이탈률·가격 인상 후 잔존 자료가 없다. 경쟁사 비교도 없어 지배적 지위라고 부를 수 없다. [S27](https://news.google.com/rss/articles/CBMi8AFBVV95cUxOZHJQX1RsQzBmc29Ma2NJRmY4NHFRQ1N0T1FvTlFpNEpHRXd1RERibi1ZcEU0dS1laW5WdkstUklSYTd3SlFrQWx3dWM5QURDWllHOGVYdlFMcmJwTElRV3JZeW5wVmRCalZxbkRkdFNJY1dpckM0OXhfSlUydHNoV3pqOTM2b1FwcmgxaktHUmlINmdnUVFEdE1ZaEhnOGRrYW9jbTFtUlNCQlZFSkhaTExqUS1XVG1uakxNMWdnSGc5OXhHbUt2LWRkZmVTN29ZX2V0Rk5YSmtCZjdjdWdtclBVaG1yXzFiNjNYcFlEa3U?oc=5) [S28](https://news.google.com/rss/articles/CBMi4AFBVV95cUxPYnRpZEw1eFpZMUZZcHNNMFRxbEp1T25yZWxCcnk5UWoyWE42NVpNTnFNMTBpT2lOZjNTQmxpQU1Hb1ZKSjM0aUJMcC15VEdKdEdoamNjZldFV0lDcWQ3TU8xTGRSWGIwbWNOb3lNSVFEVEZ6X1E2Z1M5UXBndUFqdGZoazBxT29DeDJkNEI3WllIb1lFOWNHeVpTTlV4dVROVUFyVjljQllucUlrcUFzb0lFMF90NWFfS1NTd3hwdzdrRjlvN3R5d0E0WXd3NG9lTzl2STlPR2RrbmtBZTVBcw?oc=5) [S32](https://news.google.com/rss/articles/CBMikwFBVV95cUxPa2NlLXUxRDYzeE5xZ3hVSlFuaVlZZm9xS0VoaXRneWtDOGZzQWp6eXl5bG5ld2MxcnZwb181bEFuR1FjbXdRNDVMZzNyd2dnQjRScFdGbm93TTNUSXJucW1ycXFQUllzeXA2ZGcwTTVLS3J4d1c5M1BhV2FWWG1vMmRlTzlOMlRFVXVHeUUwNGo2Zk0?oc=5)
+- 역DCF는 기본 마진 목표에서 10년 매출 성장 연 11.2%를 요구한다. 이는 불가능하지 않지만 약세 시나리오에서는 손실 확률이 25%로 남는다. 성장이 한 자릿수로 꺾일 때 배수도 함께 내려가는 비대칭이 크다. [C:implied_cagr@m26] [C:p_loss] [C:iv@bear]
 
 **사전 부검**
-- 사전 부검 1: 내가 틀렸다면, AI 기능과 결제·파트너 부가 매출이 유닛당 수익을 키워 성장이 18~19%에서 오래 유지되고 시장이 높은 배수를 계속 주는 경우다. 강세 시나리오가 실현되면 지금 담지 않은 것이 기회비용이 된다. [S36](https://news.google.com/rss/articles/CBMi9AFBVV95cUxQNW0tcnRCYnZ0OHFoakxOZW5wTERTWkdxX1Z3QjNSYUdOVjBRTjF0MnV6SVNpd2dsVXNSbGJlcldVU3Nvamh0MUZIMC1DZzAzVlJuNVljT1pwdWdsTDFYeWhRV19tWjZGZVdNMVVRM19HSlBkNjM5V1RvcjF2bTZYUmxMeFg5N213TjFwZXd6OUNhVlN6WFJKWDRjS3lBbGpXdEFUa19naDRxZmx5dUJWMjRETzkyZnhQaTQzV1ItU2NEUnQ4WlA5Qk5OWUo1QnEzNWQ1dXAtM0JaaWdsLUtrT0gtaWtJamt1OENDTC1PVUhxbzhn?oc=5) [S28](https://news.google.com/rss/articles/CBMi4AFBVV95cUxPYnRpZEw1eFpZMUZZcHNNMFRxbEp1T25yZWxCcnk5UWoyWE42NVpNTnFNMTBpT2lOZjNTQmxpQU1Hb1ZKSjM0aUJMcC15VEdKdEdoamNjZldFV0lDcWQ3TU8xTGRSWGIwbWNOb3lNSVFEVEZ6X1E2Z1M5UXBndUFqdGZoazBxT29DeDJkNEI3WllIb1lFOWNHeVpTTlV4dVROVUFyVjljQllucUlrcUFzb0lFMF90NWFfS1NTd3hwdzdrRjlvN3R5d0E0WXd3NG9lTzl2STlPR2RrbmtBZTVBcw?oc=5) [S29](https://news.google.com/rss/articles/CBMi1wFBVV95cUxPdVhURTdiOXJzZldIR2pQWGs5LW1zTXRqdHdJTVhLQmxYdTRhTlZFRFYwU3hKMDRiLTROZHVtWjZkSUZuMmFLakdZMHA0ZGxPSFRMUGFxb2l2MGFxUVBMbEpHSmxZWGZ5RXlKMG5NcmJTODhIOHJhYzFaX3l5WEZHNDVlbGs3UjJGZWwycVpReTRVWll4dF9Fa2FkTjZyM0NzNlZUSGZPUjAwR05BX3ZqYXd5ZVNadV9FQmtEcmZsYnlMcENhN3l2NncxTm82dHE2cDByLTRUVQ?oc=5)
-- 사전 부검 2: 자사주 매입이 계속 순현금과 주당 가치를 키워 기본 시나리오의 주식 수 변화 0 가정이 보수적이었던 것으로 드러날 수 있다. 이 경우 내재가치가 올라가 안전마진이 저절로 20%를 넘을 수 있다. [F5] [F7] [F51] [C:share_change@FY2025]
-- 사전 부검 3: 반대로 결제 수수료 소송이 부가가치 매출의 단위 수익을 깎는다면 FCF 범위가 넓어지고 필요한 안전마진이 더 커진다. 청구 규모를 확인하지 못했다는 점이 내가 '아예 담지 않는' 쪽을 택하는 이유 중 하나다. [S26](https://news.google.com/rss/articles/CBMivAFBVV95cUxPeU9FcFl2NVM5SVlqWGQ4TGtqWVhESHlwZFNlbUg4LVVqOG1JRHZaNEh1UVh5NDhwTUFsbjdrZ0RGWF9GYkdWMWlXaUxIQnAwdmdkZjZGZ3BsWmZ2VmVEVzVudDBGcVp4aVpmVmlWYXBua19hNE9hdGNvMmk0WDVZSElQTGg0VWxzSXlWMGtIYjdmaldKQl91aFNjZkw2dlB0azc3WFRWZnN0YkFVT2JUT0dxa1lNUU5mRjU3Rw?oc=5)
+- 사전 부검: 이 반대 판단이 틀렸다면, 성장이 20% 안팎으로 유지되고 마진이 30%까지 올라 강세 시나리오가 현실이 되는 경우다. 이때 놓치는 수익은 크다. 그래서 가격이 내려오면 다시 평가한다. [C:iv@bull] [C:fcf_margin@FY2025]
+- 사전 부검: 결제 수수료 집단소송이나 규제가 부가가치 매출의 가격결정력을 꺾으면, 약세 시나리오의 FCF 범위가 더 넓어진다. 소송 규모와 결제 매출 비중을 확인하지 못했다. 이 불확실성만으로도 더 큰 안전마진이 필요하다. [S26](https://news.google.com/rss/articles/CBMivAFBVV95cUxPeU9FcFl2NVM5SVlqWGQ4TGtqWVhESHlwZFNlbUg4LVVqOG1JRHZaNEh1UVh5NDhwTUFsbjdrZ0RGWF9GYkdWMWlXaUxIQnAwdmdkZjZGZ3BsWmZ2VmVEVzVudDBGcVp4aVpmVmlWYXBua19hNE9hdGNvMmk0WDVZSElQTGg0VWxzSXlWMGtIYjdmaldKQl91aFNjZkw2dlB0azc3WFRWZnN0YkFVT2JUT0dxa1lNUU5mRjU3Rw?oc=5) [C:iv@bear]
+- 사전 부검: SBC가 매출의 7.4%이고 자사주 매입이 이를 상쇄하는 데 현금이 계속 든다. 지금 가격으로 매입하면 수익률이 낮다. 주주 몫의 FCF는 보고된 FCF보다 작다. [C:sbc_to_revenue@FY2025] [C:fcf_after_sbc@FY2025] [F7]
 
 **반론**
-- → 앤더슨: 앤더슨의 가장 강한 논거는 성장 감속이다. 이 논거는 내 결론과 같은 방향이지만, 5배 상방이 강세 경로에 기댄다는 지적에는 역DCF 관점이 더 필요하다. 코드가 계산한 앤더슨의 10년 상방은 문턱을 넘지만, 그 경로는 성장이 오래 유지되고 높은 배수가 이어져야 한다. 기본 시나리오 수익률 분해에서 멀티플 변화는 마이너스이고, 기저율 표도 없어 생존자 편향을 걸러내지 못했다. 나는 '5배 상방'이 아니라 '가격 대비 안전마진'으로 판단하며 그 값이 하한에 못 미친다. [C:upside_10y@anderson] [C:irr@base] [C:base_rate@base]
-- → 슬레이터: 슬레이터의 가장 강한 논거는 생존 문제가 없고 규모 효과가 실적으로 확인된다는 점이다. 인정한다. 그러나 생존 경로와 마진 레버리지는 필요조건이지 가격의 정당화가 아니다. 확률 가중 기대 연 수익률이 요구수익률을 간신히 넘는 수준이면 KPI가 공개되기 전에 비중을 줄 이유가 없다. 기다린다는 슬레이터의 결론에는 동의하지만, 나는 기다리는 기준을 KPI가 아니라 가격(안전마진 20%)으로 둔다. [C:fcf_margin@FY2025] [C:net_cash@FY2026Q2] [C:expected_irr] [C:mos@ackman]
-- → 레드팀: 레드팀의 가장 강한 약점 지적은 기본 시나리오 FCF 마진 28%가 SBC가 빠진 비GAAP 마진에 맞춰져 있다는 점이다. 이는 FCF 범위를 아래로 넓히고, 그만큼 안전마진이 더 필요하다는 뜻이다. 현재 코드가 계산한 안전마진은 11.3%로 하한에도 못 미치는데, 마진 가정을 SBC 차감으로 낮추면 내재가치가 더 줄어 격차가 벌어진다. 결제 수수료 소송 부검도 청구 규모를 모르므로 같은 방향으로 필요한 안전마진을 키운다. [C:fcf_margin@FY2025] [C:fcf_after_sbc@FY2025] [F187] [F189] [S26](https://news.google.com/rss/articles/CBMivAFBVV95cUxPeU9FcFl2NVM5SVlqWGQ4TGtqWVhESHlwZFNlbUg4LVVqOG1JRHZaNEh1UVh5NDhwTUFsbjdrZ0RGWF9GYkdWMWlXaUxIQnAwdmdkZjZGZ3BsWmZ2VmVEVzVudDBGcVp4aVpmVmlWYXBua19hNE9hdGNvMmk0WDVZSElQTGg0VWxzSXlWMGtIYjdmaldKQl91aFNjZkw2dlB0azc3WFRWZnN0YkFVT2JUT0dxa1lNUU5mRjU3Rw?oc=5) [C:mos@ackman]
+- → 앤더슨: 앤더슨의 가장 강한 논거는 5배 경로가 좁다는 것이다. 맞다. 강세 시나리오의 연 수익률 22.4%는 FCF 마진 30%와 출구 P/FCF 28배가 둘 다 맞아야 나온다. 그러나 사업의 질까지 깎아내리면 안 된다. ROIC가 30.7%이고 순현금이 있으며 FCF 마진은 25.1%다. 이 회사가 틀리는 방식은 파산이 아니라 배수 축소다. 그래서 내 반대 이유는 성장 곡선의 모양이 아니라 가격이다. 기본 시나리오 현재가치 236.88달러와 주가 212.13달러의 격차가 작다. 가격이 내려오면 내 판단은 바뀔 수 있는데, 앤더슨의 논리는 그때도 반대로 남는다. 이 점이 우리의 차이다. [C:irr@bull] [C:roic@FY2025] [C:fcf_margin@FY2025] [C:iv@base] [F183]
+- → 슬레이터: 슬레이터의 가장 강한 논거는 생존에 문제가 없다는 것이다. 현금이 2.2억 달러이고 외부 자본에 기대지 않는다. 나도 동의한다. 하지만 생존 경로와 단위경제는 필요조건이지 가격의 정당화가 아니다. 보류하고 1% 이하로 시작하자는 제안은 증거가 쌓이면 키운다는 뜻인데, 그때 P/FCF는 이미 27.86배다. 확률 가중 기대 연 수익률이 11.9%이고 손실 확률이 25%라면, 증거가 도착해도 가격이 같이 오른 뒤라 우위가 없다. 증거는 가격에 먼저 반영된다. 나는 담지 않는 쪽을 고른다. [F31] [C:p_fcf] [C:expected_irr] [C:p_loss]
+- → 레드팀: 레드팀의 약한 고리 지적에 동의한다. 기본 시나리오의 출구 배수 24배와 FCF 마진 26%는 후하다. 비GAAP 가이던스 27.25%는 SBC를 빼기 전 수치이고 GAAP 영업이익률은 16.1%다. 사전 부검은 FCF 범위를 크게 넓힌다. 약세 시나리오는 FCF 마진 15%이고 현재가치는 86.93달러로 기본 236.88달러의 절반에도 못 미친다. 이 범위에서는 기본 시나리오의 안전마진 하나만으로 부족하다. 범위가 넓을수록 더 큰 안전마진을 요구해야 한다. 그래서 이 레드팀의 결론은 나의 반대를 강화하고, 확신을 낮출 이유는 되지 않는다. [F187] [C:operating_margin@FY2025] [C:iv@bear] [C:iv@base] [C:fcf_margin@FY2025]
 
 **인정한 점**
-- 앤더슨과 슬레이터가 지적한 단위경제 KPI 부재를 인정한다. 해자 증거가 주장 수준이라는 점은 내 반대 근거를 강화하지만, 반대로 KPI가 공개되면 해자가 입증될 수 있어 재검토 조건으로 남긴다.
-- 레드팀의 지적대로 기본 시나리오의 FCF 마진이 SBC를 충분히 반영하지 않았을 수 있다. 이는 입장을 바꾸지는 않으나 필요한 안전마진을 키운다.
-- 사업의 질 자체는 약점이 아니라는 점은 세 사람이 같이 인정한다. 이견은 가격에 있다.
+- 앤더슨의 지적이 옳다: 매출 성장률이 31.5%에서 19.7%로 낮아지는 추세이고 시장 내재 성장 11.6%는 불가능한 수준이 아니다. 시장이 이 사업을 크게 잘못 평가하지 않는다는 점을 인정하며, 그 결과 내가 찾는 가격 격차가 없다는 반대 이유가 오히려 강해진다.
+- 슬레이터의 말대로 단위경제 KPI는 공개되지 않았고 가설이 깨졌다는 증거도 없다. 해자를 부정하는 것이 아니라 입증되지 않았다는 뜻이다. 반대 이유는 사업이 아니라 가격에 한정한다.
+- 레드팀이 지적한 대로 기본 시나리오의 출구 배수와 마진이 낙관적이라 내가 쓴 내재가치 236.88달러도 상단에 가깝다. 이는 반대 입장을 바꾸지 않고, 요구하는 안전마진을 키운다.
 
 
 ## 분석 모듈 (L4)
 
 ### 사업·산업 — unclear
 
-AppFolio는 미국 부동산 관리 회사를 위한 클라우드 소프트웨어 플랫폼이다. 핵심 구독 소프트웨어에 결제와 AI(Realm-X) 같은 부가가치 서비스를 얹어 돈을 번다. 공시상 확인되는 것은 규모 효과다. 매출은 FY2021 3.6억 USD에서 FY2025 9.5억 USD로 늘었고, 영업이익률은 FY2022 -15.3%에서 FY2025 16.1%로 올랐다. 2026년 2분기 매출은 약 $281M으로 전년 대비 +19.3%를 유지했다. 반면 고객 1명 단위의 경제성(CAC·회수기간·순매출유지율·이탈률)은 확보한 근거에 없어 단위경제는 입증되지 않았다. 경쟁사 비교와 운영 KPI(관리 유닛 수, 핵심·결제 매출 구성)가 비어 있어 해자는 대부분 주장 수준이다. 결제 수수료에 대한 소비자 집단소송은 부가 매출의 지속 가능성에 대한 불확실성이다.
+AppFolio은 부동산 관리 회사를 고객으로 하는 클라우드 SaaS 플랫폼이다. 구독·소프트웨어 이용료, 결제 등 부가가치 서비스, AI 기능(Realm-X 등)으로 돈을 버는 것으로 보인다. 다만 매출 구성(핵심·부가가치·결제)과 유닛 수 데이터는 확보하지 못했다. 매출은 FY2025 9.5억 달러로 성장률이 31.3% → 31.5% → 28.0% → 19.7%로 둔화 중이지만, 2026년 2분기는 전년비 약 19%로 유지됐다. 수익성은 급격히 개선됐다. 영업이익률은 -15.3%(FY2022)에서 16.1%(FY2025)가 됐고, FCF 마진은 25.1%, ROIC는 30.7%다. 다만 총이익률(FY2021 59.9% 한 점), 순매출유지율, 이탈률, CAC가 없어 단위경제는 숫자로 입증되지 않았다. 해자(전환비용 등)도 회사 발표와 보도에 의존한다.
 
-- [unit_economics] 성장은 둔화하면서도 두 자릿수 후반을 유지하고 있다. 매출 성장률은 FY2022 31.3%, FY2023 31.5%, FY2024 28.0%, FY2025 19.7%로 낮아졌다. 2026년 2분기는 전년 대비 +19.3%다. 가이던스는 FY2026 매출 1.117~1.127B USD다. 성장 둔화가 확장 여력 감소 때문인지 단순한 기저 효과 때문인지는 가를 근거가 없다. [C:revenue_growth@FY2022] [C:revenue_growth@FY2023] [C:revenue_growth@FY2024] [C:revenue_growth@FY2025] [F186] [S45](https://www.defenseworld.net/2026/10/15/appfolio-appf-projected-to-release-quarterly-earnings-on-thursday.html)
-- [unit_economics] CAC, 회수기간, 순매출유지율, 이탈률, 관리 유닛 수 같은 단위경제 KPI는 확보하지 못했다. 2분기 보도자료와 어닝콜 원문에 접근하지 못했기 때문이다. 총이익률도 FY2021 59.9% 한 점뿐이어서 개선과 악화를 판단할 수 없다. 그래서 `unclear`로 분류한다. [C:gross_margin@FY2021] [S33](https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMWlpM2RVRVJaR3FUVnZrYU5LM21Ib24tSnlGcjY0UmRVNUc1cENOb2VKNXI1LVdtcHpaN3p1UDRxWGw3elJGb2VoUDN3XzJDQlljN2xqWkdHRWtwX29rLVd2LTZGbTExaURCRVFrekVLeWVndFVUZS0tYjBGYmM0Zm1jT1Q2ZnpfNnJ2YXdfLU85Z0cwN25GM3NCSVc3S3JGOVpMWjk0SjRrVlZLZXdKcGRfT1JYRmR5RGRSdjZHZEp5N3FCeTF4VjZraDlvT2pyT3c?oc=5) [S32](https://news.google.com/rss/articles/CBMikwFBVV95cUxPa2NlLXUxRDYzeE5xZ3hVSlFuaVlZZm9xS0VoaXRneWtDOGZzQWp6eXl5bG5ld2MxcnZwb181bEFuR1FjbXdRNDVMZzNyd2dnQjRScFdGbm93TTNUSXJucW1ycXFQUllzeXA2ZGcwTTVLS3J4d1c5M1BhV2FWWG1vMmRlTzlOMlRFVXVHeUUwNGo2Zk0?oc=5)
-- [industry] 경쟁사(Yardi·RealPage·Buildium·Entrata)와의 점유율, 가격, 마진 교차 확인 자료가 없다. 산업 구조(공급자·고객 협상력, 대체재, 신규 진입)는 이번 증거로는 판단할 수 없다. 해자를 입증하려면 점유율 추이와 가격 인상 후 이탈 기록이 필요하다. [S1](https://www.sec.gov/Archives/edgar/data/1433195/000143319526000058/appf-20260630.htm) [S9](https://www.sec.gov/Archives/edgar/data/1433195/000143319526000011/appf-20251231.htm)
-- [customers] 고객 집중이나 대형 고객 이탈을 보여주는 근거는 없다. 대형 관리 회사인 PURE HomeRiver가 약정을 확대했다는 보도는 있으나 회사 측 보도자료라 계약 규모와 기간을 알 수 없다. Apartment List는 건당 과금(pay-per-lease) 모델로 AppFolio 스택에 파트너십을 확대했다. 이는 제3자 서비스가 플랫폼 부가 수익으로 이어지는 경로의 신호이지만 매출 기여도는 확인되지 않는다. [S27](https://news.google.com/rss/articles/CBMi8AFBVV95cUxOZHJQX1RsQzBmc29Ma2NJRmY4NHFRQ1N0T1FvTlFpNEpHRXd1RERibi1ZcEU0dS1laW5WdkstUklSYTd3SlFrQWx3dWM5QURDWllHOGVYdlFMcmJwTElRV3JZeW5wVmRCalZxbkRkdFNJY1dpckM0OXhfSlUydHNoV3pqOTM2b1FwcmgxaktHUmlINmdnUVFEdE1ZaEhnOGRrYW9jbTFtUlNCQlZFSkhaTExqUS1XVG1uakxNMWdnSGc5OXhHbUt2LWRkZmVTN29ZX2V0Rk5YSmtCZjdjdWdtclBVaG1yXzFiNjNYcFlEa3U?oc=5) [S28](https://news.google.com/rss/articles/CBMi4AFBVV95cUxPYnRpZEw1eFpZMUZZcHNNMFRxbEp1T25yZWxCcnk5UWoyWE42NVpNTnFNMTBpT2lOZjNTQmxpQU1Hb1ZKSjM0aUJMcC15VEdKdEdoamNjZldFV0lDcWQ3TU8xTGRSWGIwbWNOb3lNSVFEVEZ6X1E2Z1M5UXBndUFqdGZoazBxT29DeDJkNEI3WllIb1lFOWNHeVpTTlV4dVROVUFyVjljQllucUlrcUFzb0lFMF90NWFfS1NTd3hwdzdrRjlvN3R5d0E0WXd3NG9lTzl2STlPR2RrbmtBZTVBcw?oc=5)
-- [customers] 결제 수수료가 숨겨져 있다는 소비자 집단소송 보도가 있다. 결제 매출 비중과 청구 규모는 미확인이다. 부가가치 매출, 특히 결제 부문이 마진과 성장에 얼마나 기여하는지는 구성 자료가 없어 확인하지 못했다. 소송이나 규제로 수수료 구조가 바뀌면 단위당 수익이 낮아질 수 있다. [S26](https://news.google.com/rss/articles/CBMivAFBVV95cUxPeU9FcFl2NVM5SVlqWGQ4TGtqWVhESHlwZFNlbUg4LVVqOG1JRHZaNEh1UVh5NDhwTUFsbjdrZ0RGWF9GYkdWMWlXaUxIQnAwdmdkZjZGZ3BsWmZ2VmVEVzVudDBGcVp4aVpmVmlWYXBua19hNE9hdGNvMmk0WDVZSElQTGg0VWxzSXlWMGtIYjdmaldKQl91aFNjZkw2dlB0azc3WFRWZnN0YkFVT2JUT0dxa1lNUU5mRjU3Rw?oc=5)
-- [runway] 재투자는 R&D 중심이다. R&D는 FY2023 1.5억, FY2024 1.6억, FY2025 1.9억 USD로 늘었고, 설비투자는 FY2025 316만 USD, 자본화 소프트웨어는 344만 USD로 작다. 자본화 비율이 낮아 개발비 대부분이 비용으로 처리된다. ROIC는 FY2025 30.7%다. 추정: 재투자 활주로는 제품·AI 확장 쪽에 있으나 시장 규모(TAM)와 침투율 자료는 없다. [C:rnd@FY2023] [C:rnd@FY2024] [C:rnd@FY2025] [C:capex@FY2025] [C:capitalized_software@FY2025] [C:roic@FY2025]
-- [unit_economics] 현금 창출력은 높다. FCF는 FY2025 2.4억 USD(마진 25.1%)이고 순현금은 2026년 2분기 2.2억 USD다. FY2025 자사주 매입은 1.5억 USD, FY2026 1분기는 1.3억 USD다. 다만 SBC는 FY2025 7,079만 USD(매출의 7.4%)이고 SBC 차감 FCF는 1.7억 USD다. 경제성은 SBC를 반영해 읽어야 한다. [C:fcf@FY2025] [C:fcf_margin@FY2025] [F31] [F5] [F7] [C:sbc@FY2025] [C:sbc_to_revenue@FY2025] [C:fcf_after_sbc@FY2025]
-- [unit_economics] 매출채권이 매출보다 빠르게 늘었다. 매출채권 증가율과 매출 증가율의 차이는 FY2025 31.7%포인트이고, DSO는 FY2024 11.2일에서 FY2025 14.2일로 늘었다. 결제나 청구 구조 변화 같은 사업 구조적 이유일 수 있으나 근거가 없다. 단위경제의 질을 판단할 때 회계 품질 분석가의 해명을 확인해야 한다. [C:receivables_gap] [C:dso@FY2024] [C:dso@FY2025] [F128]
-- [proven] 매출 성장과 함께 영업이익률이 크게 올랐다. 영업이익률은 FY2022 -15.3%에서 FY2025 16.1%가 됐고, FCF 마진은 FY2025 25.1%다. 2026년 2분기 비GAAP 영업이익률은 27.1%로 전년의 26.2%보다 높다. 고정비 레버리지가 보이는 흔적이다. 다만 FY2024 17.1% 대비 FY2025 16.1%로 연간 영업이익률은 소폭 하락했고, 경쟁사 대비 마진 비교는 없다. [C:operating_margin@FY2022] [C:operating_margin@FY2025] [C:operating_margin@FY2024] [C:fcf_margin@FY2025] [F189] [S46](https://ir.appfolioinc.com/news-releases/news-release-details/appfolio-inc-announces-second-quarter-2026-financial-results)
-- [claimed] 부동산 관리 업무(회계·임대·정산·유지보수)가 한 플랫폼에 묶여 전환비용이 높을 것으로 추정된다. 근거는 고객사 PURE HomeRiver의 확대 약정 보도와 Apartment List의 파트너십 확대 보도뿐이다. 이탈률, 가격 인상 후 잔존, NRR 같은 숫자는 확보하지 못했다. [S27](https://news.google.com/rss/articles/CBMi8AFBVV95cUxOZHJQX1RsQzBmc29Ma2NJRmY4NHFRQ1N0T1FvTlFpNEpHRXd1RERibi1ZcEU0dS1laW5WdkstUklSYTd3SlFrQWx3dWM5QURDWllHOGVYdlFMcmJwTElRV3JZeW5wVmRCalZxbkRkdFNJY1dpckM0OXhfSlUydHNoV3pqOTM2b1FwcmgxaktHUmlINmdnUVFEdE1ZaEhnOGRrYW9jbTFtUlNCQlZFSkhaTExqUS1XVG1uakxNMWdnSGc5OXhHbUt2LWRkZmVTN29ZX2V0Rk5YSmtCZjdjdWdtclBVaG1yXzFiNjNYcFlEa3U?oc=5) [S28](https://news.google.com/rss/articles/CBMi4AFBVV95cUxPYnRpZEw1eFpZMUZZcHNNMFRxbEp1T25yZWxCcnk5UWoyWE42NVpNTnFNMTBpT2lOZjNTQmxpQU1Hb1ZKSjM0aUJMcC15VEdKdEdoamNjZldFV0lDcWQ3TU8xTGRSWGIwbWNOb3lNSVFEVEZ6X1E2Z1M5UXBndUFqdGZoazBxT29DeDJkNEI3WllIb1lFOWNHeVpTTlV4dVROVUFyVjljQllucUlrcUFzb0lFMF90NWFfS1NTd3hwdzdrRjlvN3R5d0E0WXd3NG9lTzl2STlPR2RrbmtBZTVBcw?oc=5)
-- [claimed] AI 기능(Realm-X)이 플랫폼 데이터를 활용한다는 점이 차별화로 제시된다. 유지보수 요청의 일부를 AI가 처리한다는 보도가 있으나 정량 근거는 보도뿐이고, 경쟁사 대비 우위는 확인되지 않았다. [S29](https://news.google.com/rss/articles/CBMi1wFBVV95cUxPdVhURTdiOXJzZldIR2pQWGs5LW1zTXRqdHdJTVhLQmxYdTRhTlZFRFYwU3hKMDRiLTROZHVtWjZkSUZuMmFLakdZMHA0ZGxPSFRMUGFxb2l2MGFxUVBMbEpHSmxZWGZ5RXlKMG5NcmJTODhIOHJhYzFaX3l5WEZHNDVlbGs3UjJGZWwycVpReTRVWll4dF9Fa2FkTjZyM0NzNlZUSGZPUjAwR05BX3ZqYXd5ZVNadV9FQmtEcmZsYnlMcENhN3l2NncxTm82dHE2cDByLTRUVQ?oc=5) [S36](https://news.google.com/rss/articles/CBMi9AFBVV95cUxQNW0tcnRCYnZ0OHFoakxOZW5wTERTWkdxX1Z3QjNSYUdOVjBRTjF0MnV6SVNpd2dsVXNSbGJlcldVU3Nvamh0MUZIMC1DZzAzVlJuNVljT1pwdWdsTDFYeWhRV19tWjZGZVdNMVVRM19HSlBkNjM5V1RvcjF2bTZYUmxMeFg5N213TjFwZXd6OUNhVlN6WFJKWDRjS3lBbGpXdEFUa19naDRxZmx5dUJWMjRETzkyZnhQaTQzV1ItU2NEUnQ4WlA5Qk5OWUo1QnEzNWQ1dXAtM0JaaWdsLUtrT0gtaWtJamt1OENDTC1PVUhxbzhn?oc=5)
+- [unit_economics] 성장은 둔화하고 있지만 수익성은 크게 올랐다. 매출 성장률이 31.5%(FY2023)에서 19.7%(FY2025)로 낮아지는 동안 FCF 마진은 8.3%에서 25.1%로 올랐고 ROIC는 30.7%다. 이익 개선이 가격·믹스 때문인지 비용 통제 때문인지는 총이익률 시계열이 없어 구분할 수 없다. [C:revenue_growth@FY2023] [C:revenue_growth@FY2025] [C:fcf_margin@FY2023] [C:fcf_margin@FY2025] [C:roic@FY2025]
+- [unit_economics] 고객 단위 경제(CAC 회수기간, 순매출유지율, 이탈률, 유닛당 매출)는 하나도 확보하지 못했다. 총이익률도 FY2021 59.9% 한 점뿐이라 추이를 판단할 수 없다. 그래서 개선도 악화도 단정하지 않고 'unclear'로 둔다. [C:gross_margin@FY2021] [S32](https://news.google.com/rss/articles/CBMikwFBVV95cUxPa2NlLXUxRDYzeE5xZ3hVSlFuaVlZZm9xS0VoaXRneWtDOGZzQWp6eXl5bG5ld2MxcnZwb181bEFuR1FjbXdRNDVMZzNyd2dnQjRScFdGbm93TTNUSXJucW1ycXFQUllzeXA2ZGcwTTVLS3J4d1c5M1BhV2FWWG1vMmRlTzlOMlRFVXVHeUUwNGo2Zk0?oc=5)
+- [unit_economics] 2026년 2분기 매출은 약 2.81억 달러로 전년 2.36억 달러 대비 약 19% 늘었고, 비GAAP 영업이익률은 27.1%로 전년 26.2%보다 높았다. 연간 가이던스는 매출 11.17~11.27억 달러, 비GAAP 영업이익률 26.5~28.0%로 상향됐다. 성장 둔화 속에서도 마진이 오르는 방향이다. 이 수치는 2차 검색 요약에서 가져온 것이다. [S46](https://ir.appfolioinc.com/news-releases/news-release-details/appfolio-inc-announces-second-quarter-2026-financial-results) [F189] [F186] [F187]
+- [unit_economics] 투자 규모는 이익에 비해 작다. FY2025 SBC는 7,079만 달러로 매출의 7.4%이고 영업현금흐름의 29.2%다. SBC를 차감한 FCF도 1.7억 달러로 양수다. R&D는 FY2025 1.9억 달러다. 주식 수는 FY2025에 1.2% 줄었고 FY2025 자사주 매입은 1.5억 달러였다. [C:sbc_to_revenue@FY2025] [C:sbc_to_ocf@FY2025] [C:fcf_after_sbc@FY2025] [F143] [C:share_change@FY2025] [F5]
+- [customers] 매출채권이 매출보다 빠르게 늘었다. FY2025 매출채권 증가율에서 매출 증가율을 뺀 값이 31.7%이고, DSO는 11.2일(FY2024)에서 14.2일(FY2025)로 늘었다. FY2026 2분기 매출채권은 5,044만 달러다. 결제·부가서비스 비중 증가나 고객 믹스 변화가 원인일 수 있다. 원인은 확인하지 못했고 회계 품질 분석가가 다뤄야 한다. 사업 쪽에서는 매출 구성 변화 여부가 열려 있는 질문이다. [C:receivables_gap] [C:dso@FY2024] [C:dso@FY2025] [F128]
+- [customers] 고객 관련 위험 신호로 임대료 결제 수수료가 숨겨져 있다는 소비자 집단소송 보도(2026-07)가 있다. 청구 규모와 결제 매출 비중은 확인하지 못했다. 결제 같은 부가가치 수익이 성장 동력이라면 규제·소송이 단위경제에 영향을 줄 수 있어 확인이 필요하다. [S26](https://news.google.com/rss/articles/CBMivAFBVV95cUxPeU9FcFl2NVM5SVlqWGQ4TGtqWVhESHlwZFNlbUg4LVVqOG1JRHZaNEh1UVh5NDhwTUFsbjdrZ0RGWF9GYkdWMWlXaUxIQnAwdmdkZjZGZ3BsWmZ2VmVEVzVudDBGcVp4aVpmVmlWYXBua19hNE9hdGNvMmk0WDVZSElQTGg0VWxzSXlWMGtIYjdmaldKQl91aFNjZkw2dlB0azc3WFRWZnN0YkFVT2JUT0dxa1lNUU5mRjU3Rw?oc=5)
+- [industry] 경쟁 구조는 증거가 부족하다. 경쟁사(Yardi·RealPage·Buildium·Entrata) 점유율과 마진을 수집하지 못했다. 산업 구조 판단은 AWS 선호 클라우드 제휴, Realm-X 신제품, 파트너 생태계 확장 같은 회사 측 행보에 한정되며, 이는 경쟁 우위의 증거가 아니라 전략 방향의 증거다. [S36](https://news.google.com/rss/articles/CBMi9AFBVV95cUxQNW0tcnRCYnZ0OHFoakxOZW5wTERTWkdxX1Z3QjNSYUdOVjBRTjF0MnV6SVNpd2dsVXNSbGJlcldVU3Nvamh0MUZIMC1DZzAzVlJuNVljT1pwdWdsTDFYeWhRV19tWjZGZVdNMVVRM19HSlBkNjM5V1RvcjF2bTZYUmxMeFg5N213TjFwZXd6OUNhVlN6WFJKWDRjS3lBbGpXdEFUa19naDRxZmx5dUJWMjRETzkyZnhQaTQzV1ItU2NEUnQ4WlA5Qk5OWUo1QnEzNWQ1dXAtM0JaaWdsLUtrT0gtaWtJamt1OENDTC1PVUhxbzhn?oc=5) [S39](https://news.google.com/rss/articles/CBMi0AFBVV95cUxQd0JMRDgxOHdGUm91TERueHR4SkRvQU1PdkZ0VVFYcG5yTk1idHhmaWlpQ2wwYU9ZbmJYSFk4VDBndGlKQ0pOVVJYcVdlbDZSYU1vTzhxZWdNTk1DamxrUmFaNG5NY3ZOcjlIWkZ3ZXpsZV9MczVqQmRCdE1zYWZmMFJGVkp5WGxZLWw2ZmxpRmExckQzQkFRREFGOFowaGpCWlJVSFAzazM3aVowNDlNR2c3RzUxUzA1aEItQ19Rbk96bFZLSmFlLTZzWnlqR2hv?oc=5) [S28](https://news.google.com/rss/articles/CBMi4AFBVV95cUxPYnRpZEw1eFpZMUZZcHNNMFRxbEp1T25yZWxCcnk5UWoyWE42NVpNTnFNMTBpT2lOZjNTQmxpQU1Hb1ZKSjM0aUJMcC15VEdKdEdoamNjZldFV0lDcWQ3TU8xTGRSWGIwbWNOb3lNSVFEVEZ6X1E2Z1M5UXBndUFqdGZoazBxT29DeDJkNEI3WllIb1lFOWNHeVpTTlV4dVROVUFyVjljQllucUlrcUFzb0lFMF90NWFfS1NTd3hwdzdrRjlvN3R5d0E0WXd3NG9lTzl2STlPR2RrbmtBZTVBcw?oc=5)
+- [runway] 재투자 활주로는 제한적으로만 확인된다. FY2025 capex는 316만 달러로 매우 작고 자본화 소프트웨어도 344만 달러라 자본 집약도가 낮다. 순현금은 2.2억 달러이고 부채는 없다. 그래서 이익의 상당 부분이 자사주 매입이나 R&D·AI 투자로 갈 수 있다. 신규 TAM과 유닛 성장 여지는 데이터가 없어 판단할 수 없다. [F12] [F19] [F31] [C:net_cash@FY2025]
+- [runway] 시장은 상당한 성장을 이미 반영하고 있다. 현재 EV 73.0억 달러, EV/매출 7.02x, P/FCF 27.86x다. 목표 FCF 마진 25%에서 10년 매출 성장 연 11.6%, 20%에서 14.1%가 필요하다. 최근 성장률 19.7%와 비교하면 가능해 보이지만, 성장이 계속 둔화하면 여유가 줄어든다. [C:ev_revenue] [C:p_fcf] [C:implied_cagr@m25] [C:implied_cagr@m20] [C:revenue_growth@FY2025]
+- [claimed] 관리 회사 운영(회계·임대·결제·유지보수)이 플랫폼에 묶이는 구조라 전환비용이 있을 것으로 추정된다. 대형 고객(PURE HomeRiver)이 사용을 확대하고 Apartment List 파트너십이 확장됐다는 보도는 있다. 그러나 이탈률, 순매출유지율, 가격 인상 후 잔존 기록은 확보하지 못해 흔적으로는 입증되지 않았다. [S27](https://news.google.com/rss/articles/CBMi8AFBVV95cUxOZHJQX1RsQzBmc29Ma2NJRmY4NHFRQ1N0T1FvTlFpNEpHRXd1RERibi1ZcEU0dS1laW5WdkstUklSYTd3SlFrQWx3dWM5QURDWllHOGVYdlFMcmJwTElRV3JZeW5wVmRCalZxbkRkdFNJY1dpckM0OXhfSlUydHNoV3pqOTM2b1FwcmgxaktHUmlINmdnUVFEdE1ZaEhnOGRrYW9jbTFtUlNCQlZFSkhaTExqUS1XVG1uakxNMWdnSGc5OXhHbUt2LWRkZmVTN29ZX2V0Rk5YSmtCZjdjdWdtclBVaG1yXzFiNjNYcFlEa3U?oc=5) [S28](https://news.google.com/rss/articles/CBMi4AFBVV95cUxPYnRpZEw1eFpZMUZZcHNNMFRxbEp1T25yZWxCcnk5UWoyWE42NVpNTnFNMTBpT2lOZjNTQmxpQU1Hb1ZKSjM0aUJMcC15VEdKdEdoamNjZldFV0lDcWQ3TU8xTGRSWGIwbWNOb3lNSVFEVEZ6X1E2Z1M5UXBndUFqdGZoazBxT29DeDJkNEI3WllIb1lFOWNHeVpTTlV4dVROVUFyVjljQllucUlrcUFzb0lFMF90NWFfS1NTd3hwdzdrRjlvN3R5d0E0WXd3NG9lTzl2STlPR2RrbmtBZTVBcw?oc=5) [S32](https://news.google.com/rss/articles/CBMikwFBVV95cUxPa2NlLXUxRDYzeE5xZ3hVSlFuaVlZZm9xS0VoaXRneWtDOGZzQWp6eXl5bG5ld2MxcnZwb181bEFuR1FjbXdRNDVMZzNyd2dnQjRScFdGbm93TTNUSXJucW1ycXFQUllzeXA2ZGcwTTVLS3J4d1c5M1BhV2FWWG1vMmRlTzlOMlRFVXVHeUUwNGo2Zk0?oc=5)
+- [claimed] 매출 규모가 FY2021 3.6억에서 FY2025 9.5억 달러로 커지면서 영업이익률이 -3.3%에서 16.1%로 개선됐다. 이는 운영 레버리지의 흔적이다. 다만 경쟁사(Yardi·RealPage·Buildium·Entrata) 대비 마진·점유율 비교 자료가 없어 규모의 해자로 입증되지는 않는다. [C:revenue@FY2025] [C:operating_margin@FY2021] [C:operating_margin@FY2025]
 
 ### 경영진·자본배분 — mixed
 
-자본배분은 주주 친화적으로 보인다. 부채 없이 현금이 쌓였고(FY2026Q2 현금 2.2억 USD), FY2025부터 자사주 매입을 시작해 희석 주식 수를 줄였다. 그러나 보상 구조(DEF 14A), 내부자 매매 규모, 과거 가이던스 적중률은 수치를 확보하지 못해 정렬 여부를 확정할 수 없다. 경영진 변동 8-K가 2025-10부터 2026-07까지 5건 있고, CEO 세금 원천징수와 내부자 매도 보도가 있다. 다만 두 건 모두 제목만 확인했고 수치는 없다. 판정은 mixed이며, 근거 부족이 큰 이유다.
+경영진 정렬은 '혼재'로 본다. 긍정적인 쪽은 자본배분이다. 무차입에 순현금이 있고, 최근 5개 분기 중 3개 분기에 자사주를 매입해 희석주식수가 줄고 있다. 그러나 보상 구조(DEF 14A 본문)와 내부자 매매·가이던스 적중률은 수치로 확인하지 못했다. 보상 설계와 가이던스 적중률은 근거가 없다. 내부자 매도, CEO의 주식 세금 원천징수, 숨은 수수료 소비자 집단소송, 반복되는 경영진 변동 8-K는 제목만 확인했고 내용은 검증하지 못했다. 이 영역들은 단정하지 않고 열린 질문으로 남긴다.
 
-- [compensation] 근거 없음. DEF 14A(2026-04-28)가 근거 목록에 있으나 보상 연동 지표(장기 FCF·ROIC 대 단기 EPS·조정 EBITDA)와 베스팅 기간은 수집되지 않았다. 확인할 수 있는 것은 SBC 규모뿐이다. FY2025 SBC는 7,079만 USD로 매출의 7.4%이고, FY2026Q2 분기 SBC는 2,047만 USD다. [S5](https://www.sec.gov/Archives/edgar/data/1433195/000143319526000031/appf-20260428.htm) [C:sbc_to_revenue@FY2025] [F153] [F158]
-- [insider] 근거 없음(수치). CEO 세금 원천징수 보도(S37)와 내부자 지속 매도 보도(S34)가 있으나 제목만 확인했고 매매 규모·주체·가격은 확보하지 못했다. 원천징수는 베스팅 시 세금 납부용이라 시장 매도와 구분해야 한다. 창업자·경영진 지분율도 수집되지 않았다. [S34](https://news.google.com/rss/articles/CBMitwFBVV95cUxOT1FqVEtHcHpPd3FOY2RDMHp6T3U3Vll1OGQzOHJkVEtsTUVodzJnR1RvOFB5RDRZUDl6TmtBNFdfQjFKQnpQV3JSNmpYY09JSG0xOXEyckNwLVVLS2FuTWFVRXpJNWdYYjJGWTJWbVM4UU10TzUwVEVqTVp5NkgzclpJZG1TRWQ4MjE2eDFjQzYxQVVvTGZrTDFvR1BmZGI5QkVOMHJMWXpmX1U3ZnVOazlKejhLYnc?oc=5) [S37](https://news.google.com/rss/articles/CBMitAFBVV95cUxQczVHbW5tanZObHkyNzBabHNlMXZkLVdmd0Z0OTU5MkdWTm5MTHBVWlF1NmZfNnV4RWtCTEd0cFVxZkpRazl4Ml8zcjlYT0Z5aFdBMk05VEVoWU5kbEluVjFmbzlkRERkbzhQQTl0bVhaWFdkSHFVS1JCTmpQdWtvTXRoX2tqWEtDYkxwQkhFeEFRVjZlLV9GLVU5akR1RDdfMDFxVTc5eDBONUZJT0dXSEFPWEs?oc=5)
-- [insider] 경영진 변동 8-K가 2025-10-30, 2025-12-03, 2026-01-15, 2026-04-10, 2026-07-01에 5건 있다. 변동 대상 직위와 사유는 본문을 확인하지 못했다. 빈도가 높아 경영진 안정성은 확인이 필요한 항목이다. [S15](https://www.sec.gov/Archives/edgar/data/1433195/000143319525000140/appf-20251030.htm) [S12](https://www.sec.gov/Archives/edgar/data/1433195/000143319525000147/appf-20251127.htm) [S11](https://www.sec.gov/Archives/edgar/data/1433195/000143319526000003/appf-20260112.htm) [S8](https://www.sec.gov/Archives/edgar/data/1433195/000143319526000016/appf-20260409.htm) [S3](https://www.sec.gov/Archives/edgar/data/1433195/000143319526000040/appf-20260626.htm)
-- [guidance] 과거 가이던스 이력이 없어 적중률(C:guidance_hit_rate)은 계산할 수 없다. 확인되는 것은 두 가지다. 2분기 EPS는 1.71로 컨센서스 1.69를 소폭 웃돌았고, 2분기 매출 2.7735억 USD 컨센서스를 넘겼다. 이 컨센서스는 경영진 가이던스가 아니므로 신뢰도의 직접 증거는 아니다. 2026 연간 가이던스는 상향되어 매출 1.117~1.127B USD, 비GAAP 영업이익률 26.5~28.0%다. 상향의 이행 여부는 이후 실적으로 확인해야 하며, 원문 접근 불가로 검색 요약(S46)에 의존한다. [S45](https://www.defenseworld.net/2026/10/15/appfolio-appf-projected-to-release-quarterly-earnings-on-thursday.html) [S46](https://ir.appfolioinc.com/news-releases/news-release-details/appfolio-inc-announces-second-quarter-2026-financial-results) [F186] [F187] [F193] [F194]
-- [dilution] 희석 주식 수는 FY2023 3,642만에서 FY2024 3,678만으로 늘었다가 FY2025 3,633만으로 줄었고, FY2026Q2에는 3,546만이다(FY2025Q2 3,620만 대비 감소). 연간 변화율은 FY2023 4.0%, FY2024 1.0%, FY2025 -1.2%다. 최근 두 해에 희석이 멈추고 순감소로 돌아섰다. [C:share_change@FY2023] [C:share_change@FY2024] [C:share_change@FY2025] [F51] [F48]
-- [dilution] 자사주 매입은 FY2021~FY2024 내내 0이었다가 FY2025 1.5억 USD로 시작됐고, FY2026Q1 한 분기에 1.3억 USD가 집행됐다. FY2025 SBC 7,079만 USD의 약 2배이므로 SBC 희석을 상쇄하고도 순감소를 만든다는 해석이 가능하다. 매입 단가는 확인하지 못했다. 주가 $212.13, PER 47.75x의 고평가 구간에서 집행된 것이라면 가치 창출 여부가 달라진다. 이를 확인하려면 10-Q의 매입 평균단가가 필요하다. [F5] [F7] [F153] [F183] [C:pe]
-- [capital_allocation] 재무 건전성과 수익성이 높다. 부채 없이 현금만 있고 순현금은 FY2024 4,250만 USD에서 FY2025 1.1억 USD, FY2026Q2 2.2억 USD로 늘었다. ROIC는 FY2023 0.2%에서 FY2024 28.4%, FY2025 30.7%로 올랐다. FCF 마진은 FY2025 25.1%다. 현금이 쌓이는 속도에 비해 환원(FY2025 이후 자사주 매입)은 이제 시작 단계다. [C:net_cash@FY2025] [F31] [C:roic@FY2024] [C:roic@FY2025] [C:fcf_margin@FY2025]
-- [capital_allocation] 재투자는 R&D 중심이다. R&D는 FY2021 6,598만 USD에서 FY2025 1.9억 USD로 늘었고, capex는 FY2025 316만 USD로 미미하다. 자본화 소프트웨어는 FY2021 2,462만 USD에서 FY2025 344만 USD로 줄어 개발비를 비용 처리하는 방향으로 보인다. 이 점은 이익 품질에 긍정적이다. M&A 이력은 영업권이 FY2023 5,606만 USD에서 FY2024 9,641만 USD로 증가한 것만 확인된다. 인수 대상·대가·성과는 근거에 없고, 이후 영업권은 변하지 않았다. [F139] [F143] [F12] [F15] [F19] [F64] [F65] [F71]
+- [compensation] 보상 연동 지표(매출·FCF·ROIC 같은 장기 지표인지, 단기 EPS·조정 EBITDA인지)와 베스팅 기간은 근거 없음. 2026-04-28자 DEF 14A는 목록에만 있고 본문은 읽지 못했다. 회사는 비GAAP 영업이익률을 가이던스 지표로 쓴다. 보상 지표가 조정 이익에 연동되는지는 확인하지 못했다. [S5](https://www.sec.gov/Archives/edgar/data/1433195/000143319526000031/appf-20260428.htm) [F187]
+- [insider] 내부자 매도(S34)와 CEO의 세금 원천징수(S37)를 다룬 보도가 있다. 제목만 확인했고 매도 규모·비율·계획매매(10b5-1) 여부는 확보하지 못했다. 세금 원천징수는 베스팅분의 자동 처리일 수 있어 임의 매도와 구분해야 한다. 창업자·경영진 지분율은 근거 없음. [S34](https://news.google.com/rss/articles/CBMitwFBVV95cUxOT1FqVEtHcHpPd3FOY2RDMHp6T3U3Vll1OGQzOHJkVEtsTUVodzJnR1RvOFB5RDRZUDl6TmtBNFdfQjFKQnpQV3JSNmpYY09JSG0xOXEyckNwLVVLS2FuTWFVRXpJNWdYYjJGWTJWbVM4UU10TzUwVEVqTVp5NkgzclpJZG1TRWQ4MjE2eDFjQzYxQVVvTGZrTDFvR1BmZGI5QkVOMHJMWXpmX1U3ZnVOazlKejhLYnc?oc=5) [S37](https://news.google.com/rss/articles/CBMitAFBVV95cUxQczVHbW5tanZObHkyNzBabHNlMXZkLVdmd0Z0OTU5MkdWTm5MTHBVWlF1NmZfNnV4RWtCTEd0cFVxZkpRazl4Ml8zcjlYT0Z5aFdBMk05VEVoWU5kbEluVjFmbzlkRERkbzhQQTl0bVhaWFdkSHFVS1JCTmpQdWtvTXRoX2tqWEtDYkxwQkhFeEFRVjZlLV9GLVU5akR1RDdfMDFxVTc5eDBONUZJT0dXSEFPWEs?oc=5)
+- [insider] 경영진 변동 8-K가 2025-10, 2025-12, 2026-01, 2026-04, 2026-07에 반복해서 나왔다. 누가 왜 바뀌었는지는 확인하지 못했다. 정상적인 승계인지 이탈인지 구분할 근거가 없다. 다음 단계에서 8-K 본문 확인이 필요하다. [S15](https://www.sec.gov/Archives/edgar/data/1433195/000143319525000140/appf-20251030.htm) [S12](https://www.sec.gov/Archives/edgar/data/1433195/000143319525000147/appf-20251127.htm) [S11](https://www.sec.gov/Archives/edgar/data/1433195/000143319526000003/appf-20260112.htm) [S8](https://www.sec.gov/Archives/edgar/data/1433195/000143319526000016/appf-20260409.htm) [S3](https://www.sec.gov/Archives/edgar/data/1433195/000143319526000040/appf-20260626.htm)
+- [guidance] 과거 가이던스 이력을 확보하지 못해 적중률(C:guidance_hit_rate)은 계산 불가다. 신뢰도 판단 근거가 없다. 관찰되는 것은 2026-07 2분기에 연간 가이던스를 상향했다는 점이다. 매출 가이던스는 1.117e+09~1.127e+09 USD이고, 2분기 실적은 컨센서스를 웃돌았다(매출 2.7735e+08 USD 대비 실적 2.8112e+08 USD). 가이던스가 보수적인지는 아직 입증되지 않았다. [F186] [F191] [S45](https://www.defenseworld.net/2026/10/15/appfolio-appf-projected-to-release-quarterly-earnings-on-thursday.html) [S46](https://ir.appfolioinc.com/news-releases/news-release-details/appfolio-inc-announces-second-quarter-2026-financial-results)
+- [dilution] SBC는 FY2025 7,079만 USD로 매출의 7.4%이고, SBC 차감 FCF는 1.7억 USD로 양수다. 부담은 FY2022 9.2%에서 줄었다. 희석주식수는 FY2025Q1 3,665만에서 FY2026Q2 3,546만으로 줄어, 매입이 SBC 희석을 상쇄하는 것으로 보인다. FY2025 연간 주식 수 변화는 -1.2%다. 다만 SBC 절대액은 FY2023 5,236만에서 FY2025 7,079만으로 늘었고, 분기 SBC도 FY2026Q2 2,047만으로 올라 있다. [C:sbc_to_revenue@FY2025] [C:fcf_after_sbc@FY2025] [C:sbc_to_revenue@FY2022] [C:share_change@FY2025] [F47] [F51] [F151] [F153] [F158]
+- [capital_allocation] 자사주 매입은 FY2021~FY2024에는 없다가 FY2025에 1.5억 USD, FY2026Q1에 1.3억 USD로 늘었고 FY2026Q2에는 0이다. 매입이 FY2025Q1·Q2·FY2026Q1에 집중됐다. 평균 매입가가 없어 고점 매입 여부는 판단할 수 없다. 현재 주가 212.13 USD에서 PER은 47.75배, FCF 수익률은 3.6%다. 지금 같은 밸류에이션에서 매입을 늘리면 수익률이 낮을 수 있다. FY2026Q2의 중단이 가격 규율인지 현금 보유 선호인지는 확인하지 못했다. [F5] [F7] [F209] [F183] [C:pe] [C:fcf_yield]
+- [capital_allocation] 재투자와 M&A: 설비투자는 FY2025 316만 USD로 작고, 연구개발비는 FY2025 1.9억 USD로 늘었다. 영업이익률은 FY2023 0.2%에서 FY2024 17.1%로 개선됐다. 영업 레버리지가 나타났고 ROIC는 FY2025 30.7%다. FY2024에 영업권이 5,606만에서 9,641만 USD로 늘어 인수가 있었던 것으로 보이지만, 인수 대상·가격·사후 성과는 근거 없음. [F12] [F143] [C:operating_margin@FY2023] [C:operating_margin@FY2024] [C:roic@FY2025] [F64] [F65]
+- [capital_allocation] 재무 건전성: 부채 없이 순현금 2.2억 USD(FY2026Q2)를 보유하고 순부채/EBITDA가 음수라, 자본시장 의존이 낮고 배당 없이도 매입 여력이 있다. 한편 FY2025 매출채권 증가율이 매출 증가율을 크게 웃돌아 코드가 receivables_gap을 watch로 표시했다. 이는 회계 품질 쪽 해명 사항이며, 경영진의 수익 인식·정산 관행과 연결되는지는 이 모듈에서 판단하지 않는다. 소비자 집단소송(숨은 수수료, S26)은 제목만 확인해 청구 규모와 수익 의존도는 근거 없음. [F31] [C:net_debt_to_ebitda] [C:receivables_gap] [S26](https://news.google.com/rss/articles/CBMivAFBVV95cUxPeU9FcFl2NVM5SVlqWGQ4TGtqWVhESHlwZFNlbUg4LVVqOG1JRHZaNEh1UVh5NDhwTUFsbjdrZ0RGWF9GYkdWMWlXaUxIQnAwdmdkZjZGZ3BsWmZ2VmVEVzVudDBGcVp4aVpmVmlWYXBua19hNE9hdGNvMmk0WDVZSElQTGg0VWxzSXlWMGtIYjdmaldKQl91aFNjZkw2dlB0azc3WFRWZnN0YkFVT2JUT0dxa1lNUU5mRjU3Rw?oc=5)
 
 ### 회계 품질 — watch
 
-숫자는 대체로 믿을 만하다. 영업현금흐름이 순이익을 웃돌고, 발생액 비율은 음수이며, 영업권·자본화 소프트웨어·희석 부담이 작다. 코드 신호는 매출채권 증가율이 매출 증가율을 크게 웃돈 것 하나뿐이다. 매출채권 자체가 매출 대비 작고 DSO도 낮아 이상으로 보기 어렵지만, 6개 분기 연속 이어지고 있어 추적해야 한다. 조정해서 볼 숫자는 세 가지다. 첫째, SBC가 매년 7%대 비중으로 반복되므로 FCF는 SBC 차감 기준으로 본다. 둘째, 2분기 Non-GAAP 영업이익률(27.1%)이 GAAP(18.8%)보다 훨씬 높아 Non-GAAP 가이던스는 할인해서 본다. 셋째, FY2024 순이익은 큰 세금 환급(음수 법인세)이 부풀린 값이라 이익 추세의 기준으로 삼지 않는다. 10-K 본문 확인이 안 된 감사의견, 정정, 감사인 변경은 미확인으로 남긴다. 따라서 clean이 아닌 watch로 판정한다.
+회계를 믿지 못할 근거는 없고, 현금흐름이 이익을 뒷받침한다. FY2025 FCF/순이익은 1.70배(C:fcf_conversion@FY2025)이고 발생액 비율은 -15.4%(C:accruals_ratio@FY2025)로 음수다. 코드가 올린 신호는 receivables_gap 하나인데, 절대 규모가 작고 DSO가 아직 낮아 경고 수준은 아니다. 다만 조정해서 봐야 할 숫자가 둘 있다. 첫째는 SBC다. SBC는 매출의 7.4%(C:sbc_to_revenue@FY2025)라서 Non-GAAP 영업이익이나 FCF를 볼 때 차감한 값(C:fcf_after_sbc@FY2025)을 기준으로 삼아야 한다. 둘째는 FY2024 순이익이다. FY2024 순이익 2.0억 USD에는 -5,375만 USD의 법인세(F75)가 들어 있다. 세금 비용이 아니라 이익으로 잡힌 일회성 항목으로 보이고, 세부 내용은 확인하지 못했다. 그래서 FY2025의 순이익 감소와 FY2024 PER 비교는 영업이익(C:operating_margin@FY2025)과 FCF 기준으로 해야 한다. 감사의견, 정정 여부, 감사인 변경, Non-GAAP 조정 내역은 10-K 본문을 확인하지 못해 미검증이다. 코드의 red 신호(ocf_negative, restatement)는 없다. 소비자 집단소송(숨은 수수료)은 미해결 우발 부채 위험이라 감시 대상이다.
 
-- [benign] receivables_gap: FY2025 매출채권 증가율이 매출 증가율을 31.7%p 웃돌아 문턱(15%p)을 넘었다. 다만 근거는 이렇다. (1) 매출채권 절대 규모가 작아 DSO가 11.2일에서 14.2일로 늘었을 뿐 여전히 낮다. 임대료 결제·부가서비스가 카드나 ACH로 빠르게 회수되는 구조와 맞는다. (2) 같은 기간 영업현금흐름(2.4억)이 순이익(1.4억)을 크게 웃돌아, 매출이 현금으로 회수되지 않는 모습이 아니다. (3) 발생액 비율이 음수(-15.4%)다. (4) 이연매출 이상 변동도 없다. 다만 매출채권이 FY2026Q2까지 매출보다 빠르게 늘고 있어 추세 지속 여부는 감시한다. 원인(결제·부가가치 매출의 비중 상승으로 인한 정산 시차, 대형 고객 청구 시점 등)은 10-Q 주석에서 확인되지 않았다. [C:receivables_gap@FY2025] [C:dso@FY2025] [C:accruals_ratio@FY2025] [F122] [F126] [F128] [F124] [F96] [F86]
-- [watch] 매출채권은 FY2025Q2 대비 FY2026Q2에 매출 증가율(약 19%)보다 훨씬 빠르게 늘었다. 격차가 한 해의 우연이 아니라 최소 6개 분기 이어진 추세다. 다음 분기 DSO와 대손충당금 변화를 확인해야 한다. [F124] [F128] [F135] [F138]
-- [watch] FY2026Q2 Non-GAAP 영업이익이 GAAP 영업이익보다 약 43% 크다(코드 문턱 30% 초과). 조정 항목의 대부분은 SBC로 보이며 SBC는 매 분기 반복되는 실비용이다. 회사의 Non-GAAP 마진 가이던스(26.5~28.0%)는 GAAP 기준으로 할인해서 봐야 한다. 조정 내역 세부는 보도자료 원문 접근 불가로 확인하지 못했다. [F189] [F108] [F187] [S46](https://ir.appfolioinc.com/news-releases/news-release-details/appfolio-inc-announces-second-quarter-2026-financial-results)
-- [watch] SBC는 매출의 7%대, 영업현금흐름의 약 29%로 문턱(10%·50%) 아래지만 금액이 매년 늘어 SBC 차감 FCF는 보고 FCF보다 눈에 띄게 낮다. 자사주 매입이 희석을 상쇄해 FY2025 희석 주식 수는 줄었다(dilution 신호 없음). 이익의 질을 볼 때는 SBC 차감 FCF를 기준으로 한다. [C:sbc_to_revenue@FY2025] [C:sbc_to_ocf@FY2025] [C:fcf_after_sbc@FY2025] [C:share_change@FY2025] [F153] [F5]
-- [watch] FY2024 순이익은 세전이익보다 훨씬 크다. 음수 법인세(세금 환급, 주로 이연법인세자산 평가충당금 환입으로 추정)가 일회성으로 이익을 부풀렸다. FY2025부터 세율이 정상화되어 순이익이 줄어 보인다. 이익 증가율과 PER은 이 일회성 효과를 빼고 해석해야 한다. 환입의 정확한 성격은 10-K 주석 미확인이다. [F75] [F112] [F85] [F76] [F113] [F86]
-- [info] 자본화 소프트웨어는 FY2021 이후 크게 줄었고 매출 대비 비중도 미미하다. 비용을 자본화해 이익을 부풀리는 징후가 없다. 영업권은 FY2024 인수 이후 변동이 없고 총자산 대비 비중이 낮다(문턱 40% 미만). [F15] [F19] [F21] [F69] [F166]
-- [info] 이연매출 문턱 신호는 없다. 다만 FY2023 이후 이연매출 사실이 수집되지 않았고, 총액·순액 인식 정책(결제 수수료 등)은 근거가 없어 평가하지 못했다. 숨은 수수료 소비자 집단소송(S26)은 결제 관련 매출 인식·충당금에 영향을 줄 수 있으나 청구 규모는 확인되지 않았다. [S26](https://news.google.com/rss/articles/CBMivAFBVV95cUxPeU9FcFl2NVM5SVlqWGQ4TGtqWVhESHlwZFNlbUg4LVVqOG1JRHZaNEh1UVh5NDhwTUFsbjdrZ0RGWF9GYkdWMWlXaUxIQnAwdmdkZjZGZ3BsWmZ2VmVEVzVudDBGcVp4aVpmVmlWYXBua19hNE9hdGNvMmk0WDVZSElQTGg0VWxzSXlWMGtIYjdmaldKQl91aFNjZkw2dlB0azc3WFRWZnN0YkFVT2JUT0dxa1lNUU5mRjU3Rw?oc=5) [F41]
-- [info] 코드가 잡은 재무제표 정정(8-K 4.02)과 감사인 변경(4.01) 신호는 없다. 다만 감사의견(계속기업 의문·핵심감사사항)과 특수관계자 거래는 10-K 본문 확인이 안 됐다. 이 부분은 미확인이므로 '문제 없음'으로 간주하지 않는다. [S9](https://www.sec.gov/Archives/edgar/data/1433195/000143319526000011/appf-20251231.htm)
+- [benign] receivables_gap: FY2025 매출채권 증가율이 매출 증가율보다 31.7%p 높아 문턱(15%p)을 넘었다(C:receivables_gap). 다만 매출채권 절대액이 작아서 DSO가 11.2일(FY2024)에서 14.2일(FY2025)로 늘어도 매출의 몇 %에 그친다(C:dso@FY2025). FY2026Q2 매출채권 5,044만 USD는 분기 매출 약 2.8억 USD의 20% 미만이다(F128, F138). 같은 기간 영업현금흐름은 개선됐다(F201). 즉 매출 인식을 앞당겨 현금 없이 이익을 키우는 패턴은 보이지 않는다. 결제·부가서비스 비중 확대에 따른 채권 구성 변화일 가능성이 있지만, 이 추정은 확인하지 못했다. 매출채권 증가율이 매출 증가율을 계속 웃돌면 다시 점검한다. [C:receivables_gap] [C:dso@FY2025] [F126] [F128] [F138] [F201]
+- [info] 이익의 현금 전환은 양호하다. FY2025 영업현금흐름 2.4억 USD가 순이익 1.4억 USD를 웃돌고(F96, F86), 발생액 비율은 음수다(C:accruals_ratio@FY2025). 순이익이 흑자인데 영업현금흐름이 음수인 해는 없다. [F96] [F86] [C:accruals_ratio@FY2025] [C:fcf_conversion@FY2025]
+- [watch] FY2026Q2 Non-GAAP 영업이익은 약 7,600만 USD이고 GAAP 영업이익은 약 5,300만 USD다(F189, F108, S46). Non-GAAP가 GAAP보다 40% 넘게 크다. 차이의 대부분은 SBC 2,047만 USD(F158)로 설명되지만, 나머지 조정 항목은 원문을 보지 못해 확인하지 못했다. SBC는 반복되는 실제 비용이므로 Non-GAAP 영업이익률이 아니라 GAAP 영업이익률이나 SBC 차감 FCF로 평가해야 한다. [F189] [F108] [F158] [S46](https://ir.appfolioinc.com/news-releases/news-release-details/appfolio-inc-announces-second-quarter-2026-financial-results)
+- [watch] SBC가 매출의 7.4%(C:sbc_to_revenue@FY2025)이고 영업현금흐름의 29.2%(C:sbc_to_ocf@FY2025)다. 문턱(10%·50%) 아래다. 희석은 자사주 매입으로 상쇄되어 희석 주식 수가 FY2025에 1.2% 줄었다(C:share_change@FY2025). 매입 규모는 FY2026Q1 1.3억 USD다(F7). 이는 SBC 상쇄에 현금이 계속 들어간다는 뜻이다. [C:sbc_to_revenue@FY2025] [C:sbc_to_ocf@FY2025] [C:share_change@FY2025] [F7]
+- [watch] FY2024 순이익 2.0억 USD(F85)에는 -5,375만 USD의 법인세(F75)가 포함되어 있다. 영업이익 1.4억 USD(F102)를 훨씬 넘는 순이익이다. 세금 비용이 아니라 세금 이익이 잡혔으므로 반복되지 않는 일회성 항목으로 본다. 원인은 10-K 본문을 읽지 못해 확인하지 못했다. FY2025 이후 세금은 정상적인 비용으로 돌아왔다(F76). [F85] [F75] [F102] [F76]
+- [info] 자본화 소프트웨어는 매출 대비 미미하고(FY2025 344만 USD, F19), 오히려 FY2021 2,462만 USD(F15)에서 크게 줄었다. 영업권도 총자산 대비 문턱(40%) 아래다. FY2024에 인수로 증가한 이후 변동이 없다(F65, F71). 비용을 자본화해 이익을 키운 흔적은 없다. [F19] [F15] [F65] [F71]
+- [watch] 감사의견(계속기업 의문·핵심감사사항), 감사인 변경, 재무제표 정정 여부는 확인하지 못했다. 코드는 8-K 4.02(정정)와 4.01(감사인 변경) 신호를 내지 않았다. 다만 이는 부재 증명이 아니므로 10-K 감사보고서를 직접 확인해야 한다. [S9](https://www.sec.gov/Archives/edgar/data/1433195/000143319526000011/appf-20251231.htm) [S4](https://www.sec.gov/Archives/edgar/data/1433195/000143319526000034/appf-20260612.htm) [S12](https://www.sec.gov/Archives/edgar/data/1433195/000143319525000147/appf-20251127.htm)
+- [watch] 소비자 집단소송(임대료 결제 수수료의 은닉 의혹)이 제기되어 있다. 청구 규모와 진행 상황은 제목만 확인했고 수치는 확보하지 못했다. 부가가치·결제 매출 비중이 높다면 이 소송은 매출의 질과 규제 위험에 직결되므로 감시 대상이다. 내부자 매도와 CEO 세금 원천징수 보도는 통상적인 보상 절차로 보이며 회계 신호는 아니다. [S26](https://news.google.com/rss/articles/CBMivAFBVV95cUxPeU9FcFl2NVM5SVlqWGQ4TGtqWVhESHlwZFNlbUg4LVVqOG1JRHZaNEh1UVh5NDhwTUFsbjdrZ0RGWF9GYkdWMWlXaUxIQnAwdmdkZjZGZ3BsWmZ2VmVEVzVudDBGcVp4aVpmVmlWYXBua19hNE9hdGNvMmk0WDVZSElQTGg0VWxzSXlWMGtIYjdmaldKQl91aFNjZkw2dlB0azc3WFRWZnN0YkFVT2JUT0dxa1lNUU5mRjU3Rw?oc=5) [S34](https://news.google.com/rss/articles/CBMitwFBVV95cUxOT1FqVEtHcHpPd3FOY2RDMHp6T3U3Vll1OGQzOHJkVEtsTUVodzJnR1RvOFB5RDRZUDl6TmtBNFdfQjFKQnpQV3JSNmpYY09JSG0xOXEyckNwLVVLS2FuTWFVRXpJNWdYYjJGWTJWbVM4UU10TzUwVEVqTVp5NkgzclpJZG1TRWQ4MjE2eDFjQzYxQVVvTGZrTDFvR1BmZGI5QkVOMHJMWXpmX1U3ZnVOazlKejhLYnc?oc=5) [S37](https://news.google.com/rss/articles/CBMitAFBVV95cUxQczVHbW5tanZObHkyNzBabHNlMXZkLVdmd0Z0OTU5MkdWTm5MTHBVWlF1NmZfNnV4RWtCTEd0cFVxZkpRazl4Ml8zcjlYT0Z5aFdBMk05VEVoWU5kbEluVjFmbzlkRERkbzhQQTl0bVhaWFdkSHFVS1JCTmpQdWtvTXRoX2tqWEtDYkxwQkhFeEFRVjZlLV9GLVU5akR1RDdfMDFxVTc5eDBONUZJT0dXSEFPWEs?oc=5)
 
 ## 레드팀 — 사전 부검 (5년 뒤 −60%라면)
 
-- (20%) 결제 수수료 구조가 무너졌다. 숨은 수수료 소비자 집단소송이 확산되고 규제가 따라붙어 수수료 공개와 인하가 강제됐다. 부가가치 매출은 고객 한 곳당 수익을 키우는 성장 동력이었으나 그 수익이 줄었다. 결제 매출 구성은 한 번도 공개되지 않았기 때문에 시장은 영향 규모를 가늠하지 못했다. 소송에서 불리한 소식이 나올 때마다 성장 가정이 낮아지고, 높은 배수가 함께 무너졌다. [S26](https://news.google.com/rss/articles/CBMivAFBVV95cUxPeU9FcFl2NVM5SVlqWGQ4TGtqWVhESHlwZFNlbUg4LVVqOG1JRHZaNEh1UVh5NDhwTUFsbjdrZ0RGWF9GYkdWMWlXaUxIQnAwdmdkZjZGZ3BsWmZ2VmVEVzVudDBGcVp4aVpmVmlWYXBua19hNE9hdGNvMmk0WDVZSElQTGg0VWxzSXlWMGtIYjdmaldKQl91aFNjZkw2dlB0azc3WFRWZnN0YkFVT2JUT0dxa1lNUU5mRjU3Rw?oc=5) [S45](https://www.defenseworld.net/2026/10/15/appfolio-appf-projected-to-release-quarterly-earnings-on-thursday.html) [C:pe]
-- (20%) 성장 둔화가 멈추지 않았고 배수가 먼저 무너졌다. 연 매출 성장률은 31.3%에서 19.7%로 낮아졌다. 이 속도로 이어지면 성장주 배수를 정당화하기 어렵다. 현재 PER이 47.75배이므로 성장이 한 자릿수로 내려오기만 해도 주가 하락 폭은 이익 성장분보다 크다. 이익이 늘어도 배수 축소가 이를 덮었다. [C:revenue_growth@FY2022] [C:revenue_growth@FY2025] [C:pe] [S45](https://www.defenseworld.net/2026/10/15/appfolio-appf-projected-to-release-quarterly-earnings-on-thursday.html)
-- (15%) 경쟁사의 AI 기능이 따라잡았다. Yardi·RealPage·Entrata가 비슷한 기능을 내놓자 AI가 차별화 요소에서 기본 기능으로 바뀌었다. 신규 고객 확보와 가격 결정력이 약해졌고, 방어하려고 R&D와 영업 비용을 더 쓰게 됐다. 해자는 회사 측 보도 위주로만 뒷받침되고 점유율·이탈률 자료가 없었기에 이 약화를 늦게 알아챘다. [S29](https://news.google.com/rss/articles/CBMi1wFBVV95cUxPdVhURTdiOXJzZldIR2pQWGs5LW1zTXRqdHdJTVhLQmxYdTRhTlZFRFYwU3hKMDRiLTROZHVtWjZkSUZuMmFLakdZMHA0ZGxPSFRMUGFxb2l2MGFxUVBMbEpHSmxZWGZ5RXlKMG5NcmJTODhIOHJhYzFaX3l5WEZHNDVlbGs3UjJGZWwycVpReTRVWll4dF9Fa2FkTjZyM0NzNlZUSGZPUjAwR05BX3ZqYXd5ZVNadV9FQmtEcmZsYnlMcENhN3l2NncxTm82dHE2cDByLTRUVQ?oc=5) [S36](https://news.google.com/rss/articles/CBMi9AFBVV95cUxQNW0tcnRCYnZ0OHFoakxOZW5wTERTWkdxX1Z3QjNSYUdOVjBRTjF0MnV6SVNpd2dsVXNSbGJlcldVU3Nvamh0MUZIMC1DZzAzVlJuNVljT1pwdWdsTDFYeWhRV19tWjZGZVdNMVVRM19HSlBkNjM5V1RvcjF2bTZYUmxMeFg5N213TjFwZXd6OUNhVlN6WFJKWDRjS3lBbGpXdEFUa19naDRxZmx5dUJWMjRETzkyZnhQaTQzV1ItU2NEUnQ4WlA5Qk5OWUo1QnEzNWQ1dXAtM0JaaWdsLUtrT0gtaWtJamt1OENDTC1PVUhxbzhn?oc=5) [S27](https://news.google.com/rss/articles/CBMi8AFBVV95cUxOZHJQX1RsQzBmc29Ma2NJRmY4NHFRQ1N0T1FvTlFpNEpHRXd1RERibi1ZcEU0dS1laW5WdkstUklSYTd3SlFrQWx3dWM5QURDWllHOGVYdlFMcmJwTElRV3JZeW5wVmRCalZxbkRkdFNJY1dpckM0OXhfSlUydHNoV3pqOTM2b1FwcmgxaktHUmlINmdnUVFEdE1ZaEhnOGRrYW9jbTFtUlNCQlZFSkhaTExqUS1XVG1uakxNMWdnSGc5OXhHbUt2LWRkZmVTN29ZX2V0Rk5YSmtCZjdjdWdtclBVaG1yXzFiNjNYcFlEa3U?oc=5)
-- (10%) 고평가 구간의 자사주 매입과 SBC로 자본배분이 실패했다. 이미 높은 PER에서 큰 금액을 매입에 썼고 현금 보유가 주가 방어에 쓰였다. 주가가 꺾이자 매입이 멈췄고, 반복되는 SBC가 다시 희석을 일으켰다. 비GAAP 마진과 GAAP 마진의 차이가 크다는 점은 시장이 SBC를 비용으로 보지 않았다는 뜻이다. 매출채권이 매출보다 빠르게 늘어난 점도 이익의 질 의문으로 번졌다. [F5] [F7] [F153] [F183] [C:pe] [C:receivables_gap]
-- 약한 가정 `base.exit_multiple`: 기본 시나리오의 출구 배수 22배는 현재 PER 47.75배보다 낮지만 약세의 14배와 비교하면 높다. 성장이 한 자릿수로 둔화될 때 22배가 유지될 근거는 없다. 기저율 표가 없어 성장 지속 가정도 검증되지 않았다. 민감도 표에서 멀티플이 낮아지면 기본 수익률이 크게 줄어든다. [C:pe] [C:base_rate@base] [C:expected_irr]
-- 약한 가정 `base.fcf_margin`: FCF 마진 28%는 비GAAP 영업이익률 가이던스에 맞춘 값인데, 비GAAP에는 SBC가 빠져 있다. SBC 차감 FCF는 보고 FCF보다 눈에 띄게 낮다. SBC 차감 기준으로는 가정이 낙관적이다. [C:fcf_margin@FY2025] [C:fcf_after_sbc@FY2025] [F187] [F189]
+- (15%) AI 에이전트와 경쟁사의 번들(Yardi·RealPage·Entrata)이 관리 소프트웨어의 가격 결정력을 무너뜨린다. 핵심 기능이 범용화되고 Realm-X 같은 AI 기능은 별도 요금을 못 받는다. 매출 성장이 FY2025의 19.7%에서 한 자릿수로 꺾이고, 성장주 배수가 P/FCF 27.9배에서 16배 아래로 내려간다. 성장 둔화와 배수 축소가 겹쳐 주가가 −60%가 된다. [C:revenue_growth@FY2025] [C:p_fcf] [S36](https://news.google.com/rss/articles/CBMi9AFBVV95cUxQNW0tcnRCYnZ0OHFoakxOZW5wTERTWkdxX1Z3QjNSYUdOVjBRTjF0MnV6SVNpd2dsVXNSbGJlcldVU3Nvamh0MUZIMC1DZzAzVlJuNVljT1pwdWdsTDFYeWhRV19tWjZGZVdNMVVRM19HSlBkNjM5V1RvcjF2bTZYUmxMeFg5N213TjFwZXd6OUNhVlN6WFJKWDRjS3lBbGpXdEFUa19naDRxZmx5dUJWMjRETzkyZnhQaTQzV1ItU2NEUnQ4WlA5Qk5OWUo1QnEzNWQ1dXAtM0JaaWdsLUtrT0gtaWtJamt1OENDTC1PVUhxbzhn?oc=5) [S28](https://news.google.com/rss/articles/CBMi4AFBVV95cUxPYnRpZEw1eFpZMUZZcHNNMFRxbEp1T25yZWxCcnk5UWoyWE42NVpNTnFNMTBpT2lOZjNTQmxpQU1Hb1ZKSjM0aUJMcC15VEdKdEdoamNjZldFV0lDcWQ3TU8xTGRSWGIwbWNOb3lNSVFEVEZ6X1E2Z1M5UXBndUFqdGZoazBxT29DeDJkNEI3WllIb1lFOWNHeVpTTlV4dVROVUFyVjljQllucUlrcUFzb0lFMF90NWFfS1NTd3hwdzdrRjlvN3R5d0E0WXd3NG9lTzl2STlPR2RrbmtBZTVBcw?oc=5)
+- (10%) 임대료 결제 수수료 은닉 집단소송(S26)이 결제·부가가치 매출 모델을 직접 건드린다. 규제와 합의로 수수료 공개·인하가 강제되면 이익을 키워 온 부가서비스 마진이 줄고, 소송 비용과 환불이 쌓인다. 매출이 늘어도 GAAP 영업이익률이 정체하거나 꺾이고, 이익 성장으로 정당화되던 PER 47.75배가 유지되지 못한다. 매출 구성을 공개하지 않아 투자자가 노출 규모를 모른다는 점이 충격을 키운다. [S26](https://news.google.com/rss/articles/CBMivAFBVV95cUxPeU9FcFl2NVM5SVlqWGQ4TGtqWVhESHlwZFNlbUg4LVVqOG1JRHZaNEh1UVh5NDhwTUFsbjdrZ0RGWF9GYkdWMWlXaUxIQnAwdmdkZjZGZ3BsWmZ2VmVEVzVudDBGcVp4aVpmVmlWYXBua19hNE9hdGNvMmk0WDVZSElQTGg0VWxzSXlWMGtIYjdmaldKQl91aFNjZkw2dlB0azc3WFRWZnN0YkFVT2JUT0dxa1lNUU5mRjU3Rw?oc=5) [C:pe] [F189] [F108]
+- (10%) 고성장 서사가 깨질 때 높은 SBC와 자사주 매입이 문제로 드러난다. 매입은 FY2025 1.5억, FY2026Q1 1.3억 USD로 몰렸고 FY2026Q2는 0이다. 주가가 고점일 때 현금을 썼고, 성장이 꺾이면 매입을 줄여 희석이 다시 늘어난다. 이익의 일부가 SBC(FY2025 7,079만 USD, 분기 2,047만으로 증가)와 희석 상쇄에 들어가 주주 몫 FCF는 보고 수치보다 작다. 시장이 SBC 차감 FCF로 평가를 바꾸면 배수가 더 내려간다. [F5] [F7] [F209] [F153] [F158] [C:fcf_after_sbc@FY2025]
+- (8%) 경영진 이탈과 내부 통제 문제다. 2025-10부터 2026-07까지 경영진 변동 8-K가 다섯 번 나왔고, 내부자 매도가 이어졌다. 제품·영업 리더십이 흔들리면 고객 확대와 AI 로드맵 실행이 늦어진다. 매출채권이 매출보다 빠르게 늘어난 것(C:receivables_gap, DSO 11.2 → 14.2일)이 결제·고객 믹스 악화나 수익 인식 문제의 초기 신호로 판명되고, 가이던스 하향과 함께 신뢰가 무너진다. [S15](https://www.sec.gov/Archives/edgar/data/1433195/000143319525000140/appf-20251030.htm) [S12](https://www.sec.gov/Archives/edgar/data/1433195/000143319525000147/appf-20251127.htm) [S11](https://www.sec.gov/Archives/edgar/data/1433195/000143319526000003/appf-20260112.htm) [S8](https://www.sec.gov/Archives/edgar/data/1433195/000143319526000016/appf-20260409.htm) [S3](https://www.sec.gov/Archives/edgar/data/1433195/000143319526000040/appf-20260626.htm) [S34](https://news.google.com/rss/articles/CBMitwFBVV95cUxOT1FqVEtHcHpPd3FOY2RDMHp6T3U3Vll1OGQzOHJkVEtsTUVodzJnR1RvOFB5RDRZUDl6TmtBNFdfQjFKQnpQV3JSNmpYY09JSG0xOXEyckNwLVVLS2FuTWFVRXpJNWdYYjJGWTJWbVM4UU10TzUwVEVqTVp5NkgzclpJZG1TRWQ4MjE2eDFjQzYxQVVvTGZrTDFvR1BmZGI5QkVOMHJMWXpmX1U3ZnVOazlKejhLYnc?oc=5) [C:receivables_gap] [C:dso@FY2025]
+- 약한 가정 `base.exit_multiple`: 기본 시나리오는 5년 뒤에도 성장률 약 10%인 기업에 출구 P/FCF 24배를 준다. 현재 27.9배에서 소폭 낮췄을 뿐이다. 수익률 분해에서 멀티플 변화만 연 −4.8%인데, 민감도 표상 배수가 ×0.75이면 기본 수익률은 12.5%에서 7.3%로 내려가 요구수익률 10%를 밑돈다. 성장이 한 자릿수로 둔화한 소프트웨어에 24배는 후하다. [C:p_fcf] [C:expected_irr]
+- 약한 가정 `base.fcf_margin`: FCF 마진 26%는 FY2025 25.1%에서 더 오르는 가정인데, 근거는 비GAAP 영업이익률 가이던스(26.5~28.0%)다. 비GAAP는 SBC를 뺀 수치이고 GAAP 영업이익률은 FY2025 16.1%에 그친다. SBC가 계속 늘고(분기 2,047만 USD) AI 투자로 R&D가 늘면 마진 확장은 어렵다. 역DCF상 시장이 이미 마진 유지를 가격에 넣고 있어 여유가 없다. [C:fcf_margin@FY2025] [C:operating_margin@FY2025] [C:sbc_to_revenue@FY2025] [F187]
+- 약한 가정 `base.growth.revenue`: FY2026 18% 성장 가정은 가이던스에 맞췄지만, 이후 2~3%p씩 둔화하는 경로는 근거가 없다. 매출 구성·NRR·유닛 데이터가 없고 기저율 표도 없어 둔화 속도를 검증할 수 없다. 성장이 이미 31.5%에서 19.7%로 꺾이는 추세라, 둔화가 기본 가정보다 빠를 가능성이 크다. [C:revenue_growth@FY2023] [C:revenue_growth@FY2025] [C:base_rate@base]
 
 ## 검증 (L6)
 
-주장 70개 — supported 60 · unsupported 10 · contradicted 0 · leap 0 · 미검증 0
+주장 71개 — supported 65 · unsupported 4 · contradicted 0 · leap 2 · 미검증 0
 
-- [unsupported] 애크먼: 슬레이터의 가장 강한 논거는 생존 문제가 없고 규모 효과가 실적으로 확인된다는 점이다. 인정한다. 그러나 생존 경로와 마진 레버리지는 필요조건이지 가격의 정당화가 — 없는 근거 인용: C:net_cash@FY2026Q2
-- [unsupported] 회계 품질: FY2026Q2 Non-GAAP 영업이익이 GAAP 영업이익보다 약 43% 크다(코드 문턱 30% 초과). 조정 항목의 대부분은 SBC로 보이며 SBC는 매 분기 — 출처 없는 숫자 43% — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
-- [unsupported] 경영진·자본배분: 자사주 매입은 FY2021~FY2024 내내 0이었다가 FY2025 1.5억 USD로 시작됐고, FY2026Q1 한 분기에 1.3억 USD가 집행됐다. FY202 — FY2025 1.457억, FY2026Q1 1.25억, SBC 대비 약 2배, 주가와 PER은 맞다. 그러나 FY2021~FY2024 매입이 0이었다는 내용은 인용 자료에 없다.
-- [unsupported] 레드팀: 기본 시나리오의 출구 배수 22배는 현재 PER 47.75배보다 낮지만 약세의 14배와 비교하면 높다. 성장이 한 자릿수로 둔화될 때 22배가 유지될 근거는 없다 — 없는 근거 인용: C:base_rate@base
-- [unsupported] 회계 품질: 매출채권은 FY2025Q2 대비 FY2026Q2에 매출 증가율(약 19%)보다 훨씬 빠르게 늘었다. 격차가 한 해의 우연이 아니라 최소 6개 분기 이어진 추세다. — 매출채권 3,254만에서 5,044만으로 +55%이고 매출은 약 +19%라는 점은 맞다. 그러나 '최소 6개 분기 이어진 추세'는 인용한 두 시점만으로는 알 수 없다.
-- [unsupported] 애크먼: 앤더슨의 가장 강한 논거는 성장 감속이다. 이 논거는 내 결론과 같은 방향이지만, 5배 상방이 강세 경로에 기댄다는 지적에는 역DCF 관점이 더 필요하다. 코드가 — 없는 근거 인용: C:base_rate@base
-- [unsupported] 슬레이터: 기대수익률이 얇다. 확률 가중 기대 연 수익률이 11.8%이고 손실 확률이 25%다. 기본 시나리오 분해에서 멀티플 축소가 -6.6%를 깎는다. 증거가 부족한 종 — 없는 근거 인용: C:p_loss@bear
-- [unsupported] 경영진·자본배분: 재무 건전성과 수익성이 높다. 부채 없이 현금만 있고 순현금은 FY2024 4,250만 USD에서 FY2025 1.1억 USD, FY2026Q2 2.2억 USD로 — FY2025 순현금 1.07억, FY2026Q2 현금 2.17억, ROIC 28.4%와 30.7%, FCF 마진은 맞다. 그러나 FY2024 순현금 4,250만과 FY2023 ROIC 0.2%는 인용 자료에 없다.
-- [unsupported] 슬레이터: 생존은 문제가 아니다. FCF 마진이 25.1%이고 순현금이 2.2억 USD여서 외부 자본 없이 계획을 실행할 수 있다. 2022년에 내가 잃은 유형(외부 조달  — 없는 근거 인용: C:net_cash@FY2026Q2
-- [unsupported] 모델러: 성장 둔화(FY2022 31.3%에서 FY2025 19.7%)가 계속된다고 본다. 시장이 보는 비GAAP 마진과 EPS는 SBC를 뺀 값이라 FCF의 질을 과대평 — 비GAAP 7,600만 대 GAAP 5,298만, SBC 7,079만, PER은 맞다. 그러나 '성장률 4년 연속 낮아짐'과 'SBC 매년 증가'는 인용된 FY2022·FY2025 두 점만으로는 알 수 없다.
+- [unsupported] 레드팀: FY2026 18% 성장 가정은 가이던스에 맞췄지만, 이후 2~3%p씩 둔화하는 경로는 근거가 없다. 매출 구성·NRR·유닛 데이터가 없고 기저율 표도 없어 둔화 — 없는 근거 인용: C:base_rate@base
+- [leap] 회계 품질: 소비자 집단소송(임대료 결제 수수료의 은닉 의혹)이 제기되어 있다. 청구 규모와 진행 상황은 제목만 확인했고 수치는 확보하지 못했다. 부가가치·결제 매출 비중이  — S26·S34·S37은 제목만 확인했는데 내부자 매도와 원천징수를 '통상적인 보상 절차'로 단정하는 것은 자료에서 따라 나오지 않는다.
+- [unsupported] 레드팀: 기본 시나리오는 5년 뒤에도 성장률 약 10%인 기업에 출구 P/FCF 24배를 준다. 현재 27.9배에서 소폭 낮췄을 뿐이다. 수익률 분해에서 멀티플 변화만 연 — 출처 없는 숫자 7.3% — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- [unsupported] 슬레이터: 사전 부검: 성장이 한 자릿수로 꺾이면서 멀티플이 함께 내려가면, 기본 시나리오 수익률 분해의 멀티플 변화 -4.8%가 더 커진다. 가설이 틀린 것이 아니라 증거 — 멀티플 변화 -4.8%라는 수치는 인용된 성장률·P/FCF에 없다.
+- [leap] 회계 품질: FY2025 매출채권 증가율이 매출 증가율보다 31.7%p 높아 문턱(15%p)을 넘었다(C:receivables_gap). 다만 매출채권 절대액이 작아서 DSO — 인용된 영업현금흐름은 FY2026Q2 한 값뿐이라 '개선됐다'를 받치지 못하고, 격차가 문턱의 두 배인데 이를 근거로 매출 선인식 패턴이 없다고 결론 내는 것은 비약이다.
+- [unsupported] 회계 품질: 이익의 현금 전환은 양호하다. FY2025 영업현금흐름 2.4억 USD가 순이익 1.4억 USD를 웃돌고(F96, F86), 발생액 비율은 음수다(C:accrua — FY2025 OCF 2.42억 대 순이익 1.41억과 발생액 비율은 맞지만, '흑자인데 OCF가 음수인 해는 없다'는 전 기간 주장을 인용 자료가 받치지 못한다.
 
 ## 계산 근거 (L3)
 
@@ -274,60 +276,76 @@ AppFolio는 미국 부동산 관리 회사를 위한 클라우드 소프트웨�
 | 시가총액 (market_cap) | 75.2억 USD |
 | 순현금 (net_cash) | 2.2억 USD |
 | EV (ev) | 73.0억 USD |
-| FCF 수익률 (fcf_yield) | — |
-| P/FCF (p_fcf) | — |
+| FCF 수익률 (fcf_yield) | 3.6% |
+| P/FCF (p_fcf) | 27.86x |
 | EV/매출 (ev_revenue) | 7.02x |
 | PER (pe) | 47.75x |
-| 순부채/EBITDA (net_debt_to_ebitda) | — |
+| 순부채/EBITDA (net_debt_to_ebitda) | -1.07x |
 | 현금 소진 연수 (runway_years) | — |
 
 ### 회계 품질 신호 (코드 계산 — forensic이 하나씩 해명해야 한다)
 
 - [watch] receivables_gap (C:receivables_gap): FY2025 매출채권 증가율 - 매출 증가율 31.7% > 15%
 
+### 역DCF — 현재 가격이 가정하는 것
+
+EV 73.0억 USD를 정당화하려면 매출이 10년간 연 몇 % 커져야 하는가 — FCF 마진이 지금 값에서 목표 마진으로 직선 수렴, 할인율 10%, 이후 영구성장 3%.
+기본 시나리오 목표 마진 26% 기준: 연 11.2% (C:implied_cagr)
+
+| 목표 FCF 마진 | 내재 매출 성장(연) | 인용 키 |
+|---|---|---|
+| 10% | 21.9% | C:implied_cagr@m10 |
+| 15% | 17.3% | C:implied_cagr@m15 |
+| 20% | 14.1% | C:implied_cagr@m20 |
+| 25% | 11.6% | C:implied_cagr@m25 |
+| 26% | 11.2% | C:implied_cagr@m26 |
+| 30% | 9.6% | C:implied_cagr@m30 |
+
 ### 시나리오 가치 — 5년, 할인율 10% (C:지표@시나리오 — p·revenue_cagr·fcf_margin·exit_multiple·value·iv·irr·revenue·fcf)
 
 | 시나리오 | 확률 | 5년 매출 | 매출 연성장 | FCF 마진 | 출구 P/FCF | 주당 가치 | 현재가치(IV) | 연 수익률 |
 |---|---|---|---|---|---|---|---|---|
-| 약세 | 25% | 14.8억 USD | 9.3% | 20% | 14x | 152.21 | 94.51 | -6.4% |
-| 기본 | 55% | 18.6억 USD | 14.3% | 28% | 22x | 385.21 | 239.19 | +12.7% |
-| 강세 | 20% | 20.7억 USD | 16.8% | 31% | 28x | 606.22 | 376.42 | +23.4% |
+| 약세 | 25% | 14.7억 USD | 9.2% | 15% | 16x | 140.01 | 86.93 | -8.0% |
+| 기본 | 50% | 17.8억 USD | 13.4% | 26% | 24x | 381.50 | 236.88 | +12.5% |
+| 강세 | 25% | 20.5억 USD | 16.6% | 30% | 28x | 582.72 | 361.82 | +22.4% |
 
-확률 가중: 주당 가치 371.16 · IV 230.46 · 기대 연 수익률 +11.8% (C:expected_irr) · 손실 확률 25% (C:p_loss) · 현재 주가 212.13
+확률 가중: 주당 가치 371.43 · IV 230.63 · 기대 연 수익률 +11.9% (C:expected_irr) · 손실 확률 25% (C:p_loss) · 현재 주가 212.13
 
-기본 시나리오 연 수익률 분해 (로그 기여, 합 = 총계): 매출 성장 +13.4% · 마진 변화 +2.2% · 멀티플 변화 -6.6% · 주식 수 변화 -0.0% · 현금 축적 +3.0% = +11.9%
+기본 시나리오 연 수익률 분해 (로그 기여, 합 = 총계): 매출 성장 +12.5% · 마진 변화 +0.7% · 멀티플 변화 -4.8% · 주식 수 변화 +0.5% · 현금 축적 +2.9% = +11.7%
 
 민감도 — 기본 시나리오 연 수익률 (행: 매출 성장 ±, 열: 출구 멀티플 배수)
 
 | 성장 \ 멀티플 | ×0.75 | ×1 | ×1.25 |
 |---|---|---|---|
-| -5%p | +2.6% | +7.4% | +11.5% |
-| +0%p | +7.5% | +12.7% | +17.0% |
-| +5%p | +12.5% | +18.0% | +22.6% |
+| -5%p | +2.4% | +7.2% | +11.3% |
+| +0%p | +7.3% | +12.5% | +16.8% |
+| +5%p | +12.2% | +17.7% | +22.4% |
 
 기본 시나리오 연도별 (드라이버 모델)
 
 | 기간 | 매출 | FCF 마진 | FCF | 희석 주식 수 | 순현금 |
 |---|---|---|---|---|---|
-| FY2026 | 11.3억 USD | 25.7% | 2.9억 USD | 3,546만 | 5.1억 USD |
-| FY2027 | 13.1억 USD | 26.3% | 3.4억 USD | 3,546만 | 8.5억 USD |
-| FY2028 | 14.9억 USD | 26.9% | 4.0억 USD | 3,546만 | 12.5억 USD |
-| FY2029 | 16.7억 USD | 27.4% | 4.6억 USD | 3,546만 | 17.1억 USD |
-| FY2030 | 18.6억 USD | 28.0% | 5.2억 USD | 3,546만 | 22.3억 USD |
+| FY2026 | 11.2억 USD | 25.3% | 2.8억 USD | 3,528만 | 5.0억 USD |
+| FY2027 | 12.9억 USD | 25.5% | 3.3억 USD | 3,511만 | 8.3억 USD |
+| FY2028 | 14.6억 USD | 25.7% | 3.7억 USD | 3,493만 | 12.0억 USD |
+| FY2029 | 16.2억 USD | 25.8% | 4.2억 USD | 3,476만 | 16.2억 USD |
+| FY2030 | 17.8억 USD | 26.0% | 4.6억 USD | 3,458만 | 20.8억 USD |
 
 ### 기저율 — 같은 성장을 해낸 기업 비율 (C:base_rate@implied·base·bull)
 
-- base 시나리오 매출 성장: 연 14.3% × 5년 → 기저율 표 없음
-- bull 시나리오 매출 성장: 연 16.8% × 5년 → 기저율 표 없음
+- 시장 내재 성장 (역DCF): 연 11.2% × 10년 → 기저율 표 없음
+- base 시나리오 매출 성장: 연 13.4% × 5년 → 기저율 표 없음
+- bull 시나리오 매출 성장: 연 16.6% × 5년 → 기저율 표 없음
 
 ### 페르소나 지표 (코드 계산 · case 기본값 기준, C:지표@페르소나)
 
-- 앤더슨 case={"from": "bull"}: upside_10y=6.15x, revenue_5y=2.17x
+- 앤더슨 case={"from": "bull"}: upside_10y=5.91x, revenue_5y=2.15x
 - 슬레이터 case={"from": "base"}: cash_survives=예, cash_min=2.2억 USD
-- 애크먼 case={"from": "base"}: price=212.1, leveraged=아니오, intrinsic_value=239.2, mos=11.3%
+- 애크먼 case={"from": "base"}: price=212.1, fcf_positive=예, net_debt_to_ebitda=-1.07x, leveraged=아니오, intrinsic_value=236.9, mos=10.4%
 
 ### 계산 경고
 
+- 사실 충돌 capex FY2026Q2: F205=0, F212=-3000 — 1차 자료 우선으로 하나만 쓴다
 - 컨센서스 근거 없음 — 시장 기대와의 차이를 검증할 수 없다 (리서처: basis=consensus 사실)
 - 기저율 표 없음 — `python3 council.py baserate`로 data/base_rates.json을 만든다
 
@@ -379,3 +397,8 @@ AppFolio는 미국 부동산 관리 회사를 위한 클라우드 소프트웨�
 | S45 | data | 2026-10-15 | [AppFolio (APPF) Projected to Release Quarterly Earnings on Thursday - Defense World](https://www.defenseworld.net/2026/10/15/appfolio-appf-projected-to-release-quarterly-earnings-on-thursday.html) | 2026-10-15 시가 $203.18, 시가총액 $7.20B. 2026년 3분기 실적 발표 예정 2026-10-22 장 마감 후. 3분기 컨센서스 EPS $1.79, 매출 $294.36M. 직전 2분기: EPS $1.71(컨센서스 $1.69), 매출 $281.12M(컨센서스 $277.35M, 전년비 +19.3%). 2차 요약 출처. |
 | S46 | news | 2026-07-23 | [AppFolio Q2 2026 실적 요약 (검색 결과: 회사 보도자료·Zacks·MarketBeat 종합)](https://ir.appfolioinc.com/news-releases/news-release-details/appfolio-inc-announces-second-quarter-2026-financial-results) | 2분기 매출 약 $281M(전년 $236M, +19%), GAAP 영업이익 $53M(18.8%), 비GAAP 영업이익 $76M(27.1%, 전년 26.2%). 2026 연간 가이던스 상향: 매출 $1.117~1.127B, 비GAAP 영업이익률 26.5~28.0%, 희석주식수 약 36M. 원문 접근 불가(403)로 검색 요약에 의존. |
 | S47 | news | 2026-10-17 | [AppFolio 애널리스트 목표주가 동향 (MarketBeat·StockAnalysis·Eulerpool 검색 요약)](https://stockanalysis.com/stocks/appf/forecast/) | S&P Global 기준 평균 목표 $238.54(9명, 범위 $217.29~$280), Eulerpool 평균 $222.33(중앙값 $225). DA Davidson $240(9/28), UBS 매수→중립 $220, Guggenheim 매수 $232. 보도 기반, 날짜 불균일. |
+| S48 | data | 2026-10-16 | [Yahoo Finance APPF historical prices](https://finance.yahoo.com/quote/APPF/history/) | 2026-10-16 종가 212.13 USD |
+| S49 | news | 2026-08-13 | [How AppFolio transformed its data streaming architecture with Amazon MSK Express brokers - Amazon Web Services (AWS)](https://news.google.com/rss/articles/CBMixgFBVV95cUxOMi05YzRCRVdWZjRldG1jUUVXTmlrU1RRLUZCLUNaVU5rNHhMWDNXaGlHeFQ4blJzOVltQ2o4Ulc1THpBTlpNQUVfQVR4Tk44bHdyR2Rrejg2WHpPazZyTFJEM0JUMlV0QV83dmNFbGV6TldabDdackRaRXpYYjVodnV3LTZqNDZTZUFxUGZxVWFFSmNOSkNENlZWUkVBa05DbEtMdUxsODZfVUV0R0FXamhWRTE5T21QMnJ6cTlrQ1R1dmN0LXc?oc=5) | Amazon Web Services (AWS) |
+| S50 | news | 2026-07-30 | [If You Invested $1000 in AppFolio a Decade Ago, This is How Much It'd Be Worth Now - Yahoo Finance](https://news.google.com/rss/articles/CBMinwFBVV95cUxOSlQ2LU1FbEpoQXBZcFFuUWhlclpWZG1WTDIxbmRZcnAyUG5zZVhuV1ExMVJKLUlQdU42Wlp5X2NWTDNib1EzaWhabWE0azhkdVBSTDJ1SEJUVTZ5Y19PNE5WVEJGc1dLeWxrbFdtV3MzMGJzVl9kU2Y3VWdjVzZCZGdTZVlpR1ZwdXZBdXFlV3ZrZ3EtWGdXMkNYWEJiY3M?oc=5) | Yahoo Finance |
+| S51 | news | 2026-08-04 | [AppFolio (APPF) Recently Broke Out Above the 200-Day Moving Average - Yahoo Finance](https://news.google.com/rss/articles/CBMioAFBVV95cUxQOVJVaGg2dGFBTXhmZ1VONC1PWTVkU1RqcjJ1NVgxLXRObTgyN2ZUSVdmUDBZMEc4akdtTUtiOWctTFZSNmFIaEtDM05iZV8xNHdqWXZNY1c2UUN1dUx3NC1BNUFDdF9PSjJNTkpLODQwSHd1N2gwalBNenM4eXNRSklNdGhqLUFPQ0V0VzJzSjc3d2hwMEk1M29uRmNFb3pF?oc=5) | Yahoo Finance |
+| S52 | news | 2026-07-29 | [AppFolio (APPF) Upgraded to Strong Buy: Here's What You Should Know - Yahoo Finance](https://news.google.com/rss/articles/CBMinwFBVV95cUxPa2dyZEVMYzJCeDBmemFsVmtJcG9DMVE4NkdmWkNURDlyYW1LT21aN01FRGYtSm5ZUHRfb2pqT00tdDVmZUZiQ2JhU3lBYm5Pa0p0OGhnb0lOWjhSZDVQZjdVd2ZuNFBjQW9GajhQS09ZX1ZNT2lrVEhZQndiQTM3UHNhOHQzNlpyaGJfeHg5V3Q1WEI1bzc4ejBpYkJJSjA?oc=5) | Yahoo Finance |

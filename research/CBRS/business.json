@@ -1,110 +1,108 @@
 {
   "agent": "business",
-  "basis": "e93cccc615af",
-  "summary": "Cerebras는 웨이퍼 스케일 AI 가속기 시스템(CS-4)을 판매하고, 자체 데이터센터에서 추론 클라우드 서비스를 운영한다. 지금은 하드웨어 판매 중심에서 클라우드 용량 중심으로 옮겨 가는 중이다. 매출은 FY2024 2.9억 달러에서 FY2025 5.1억 달러로 성장했고(C:revenue_growth@FY2025 75.7%), 계약 잔량(RPO)은 254.0억 달러, 계약된 데이터센터 용량은 600MW다. 단위경제는 입증되지 않았다. 고객당 CAC·이탈률·코호트 자료가 없고, GAAP 매출총이익률(14%)과 회사가 쓰는 core 기준(41%)의 차이도 설명되지 않았다. 상위 2개 고객(UAE 연계 법인)이 매출의 86%를 차지하고, 해자는 대부분 회사 발표에 근거한다.",
+  "basis": "fa842ddd09cc",
+  "summary": "Cerebras sells AI inference and training systems built on its own wafer-scale chip. Revenue comes from hardware sales (CS-4 systems, S8) and from a cloud service that rents the capacity back out. FY2025 revenue was $510M, up 75.7% from $290M (C:revenue_growth@FY2025), and the top two customers made up 86% of FY2025 revenue (F48). In Q2 2026, GAAP revenue was $180.1M and core revenue was $209.9M, up 103% (S29). Gross margin is split: core is 41% and GAAP is 14% (F50, F51), and the cause of the gap is not documented. The remaining performance obligations of $25.4B (F52) and the 600MW of contracted data center capacity (F53) show large future demand. They also show a shift toward a capital-heavy cloud model, with a $420M quarterly capex figure (F62). Unit economics cannot be assessed because CAC, churn and cohort data are missing. Customer concentration is the main weakness in the business.",
   "unit_economics": "unclear",
   "moat": [
     {
       "type": "ip",
       "evidence": "claimed",
-      "point": "웨이퍼 스케일 칩과 CS-4의 추론 속도 우위는 회사의 제품 발표와 Hot Chips 발표에 근거한다. 점유율, 재계약, 경쟁사 대비 마진 같은 독립 수치는 확인되지 않았다. GAAP 매출총이익률 14%는 가격 결정력이 입증되지 않았다는 쪽에 가깝다.",
+      "point": "The wafer-scale chip architecture and the CS-4 launch are positioned as the fastest AI inference (S8, S15). The sources are Cerebras's own announcements and press coverage. No third-party benchmarks, share data or price-retention records are in the evidence.",
       "cites": [
         "S8",
         "S15",
-        "F51"
+        "S32"
       ]
     },
     {
       "type": "scale",
       "evidence": "claimed",
-      "point": "600MW 용량과 RPO 254.0억 달러는 규모 우위의 후보다. 다만 RPO의 인식 시기, 고객 구성, 해지 조건은 확인되지 않았다. 규모가 원가 우위로 이어졌다는 흔적도 없다. 현금은 67.4억 달러지만 총이익은 오히려 줄었다.",
+      "point": "Contracted data center capacity of 600MW (F53) and a $25.4B backlog (S24) suggest scale, and management says core gross margin is moving toward the 60% range in 2027 (S29). That target is a company statement and has not been shown in results. Core gross margin of 41% in Q2 is above the Q3 guidance of 38~40% (F57), so the near-term trend is flat to slightly down.",
       "cites": [
         "F53",
-        "F52",
-        "F3",
+        "F57",
+        "S24",
         "S29"
       ]
     },
     {
-      "type": "none",
+      "type": "switching",
       "evidence": "claimed",
-      "point": "전환비용이나 네트워크 효과를 보여 주는 증거(이탈률, 순매출유지율, 가격 인상 후 잔존)가 수집되지 않았다. NVIDIA·AMD 대비 경쟁 위치도 교차 확인하지 못했다.",
+      "point": "The partnerships with AMD (disaggregated inference) and Gimlet Labs show ecosystem expansion (S18, S16). No record of retention, repurchase or price increases at the customer level was found, so switching costs are unproven.",
       "cites": [
-        "S10"
+        "S16",
+        "S18"
       ]
     }
   ],
   "findings": [
     {
-      "area": "unit_economics",
-      "point": "2분기 core 매출총이익률은 41%이고 GAAP 매출총이익률은 14%다. 두 기준의 차이 요인은 확인되지 않았다. 3분기 core 가이던스는 38~40%로 2분기보다 낮다. 경영진은 2027년에 60%대 이상을 목표로 한다고 하지만, 이는 회사 발언일 뿐 입증된 수치가 아니다.",
+      "area": "customers",
+      "point": "The top two customers accounted for 86% of FY2025 revenue (F48), and the S-1 reporting links them to G42 and MBZUAI. Revenue depends on very few counterparties. The concentration may have eased in 2026, but the evidence does not show this.",
       "cites": [
+        "F48",
+        "S6"
+      ]
+    },
+    {
+      "area": "unit_economics",
+      "point": "Core gross margin was 41% (F50) against GAAP gross margin of 14% (F51) in Q2 2026. FY2025 gross margin was 39% (F47). The gap between core and GAAP margin has not been explained. Core excludes items that GAAP includes, and the filing needs to be read to see which ones. Core margin of 41% is not clearly higher than the FY2025 level of 39%.",
+      "cites": [
+        "F47",
         "F50",
         "F51",
+        "S2"
+      ]
+    },
+    {
+      "area": "unit_economics",
+      "point": "Q3 guidance calls for core revenue of $214~216M and core gross margin of 38~40% (F56, F57). The consensus of $211.9M before guidance (F59) is slightly below that. Core margin is guided below the 41% reported in Q2, so there is no sign yet of margin expansion.",
+      "cites": [
+        "F56",
         "F57",
+        "F59",
         "S29"
       ]
     },
     {
-      "area": "unit_economics",
-      "point": "GAAP 매출총이익은 1분기 8,618만 달러에서 2분기 2,556만 달러로 줄었다. 같은 기간 GAAP 매출은 1.9억에서 1.8억 달러로 거의 정체였다. 2분기 GAAP 매출 1.8억 달러는 컨센서스 1.94억 달러를 밑돌았고, 하드웨어 부진이 원인으로 보도됐다.",
+      "area": "industry",
+      "point": "Q2 GAAP revenue of $180.1M missed the consensus of $194M (F58). Hardware was weak and cloud beat estimates (S30). The stock fell 14~16% after the report (S9, S20). This suggests the market is giving less weight to the hardware business and more to cloud, but the cloud and hardware split is not in the facts.",
       "cites": [
-        "F17",
-        "F18",
-        "F32",
-        "F33",
         "F58",
+        "S9",
+        "S20",
         "S30"
       ]
     },
     {
-      "area": "customers",
-      "point": "FY2025 매출의 86%가 UAE 연계 두 법인(G42·MBZUAI)에서 나왔다. 이 수치는 S-1에 대한 2차 보도에서 가져왔고 원문 대조는 되지 않았다. 신규 고객 사례로 Gimlet Labs 공급과 AMD와의 분리형 추론 협업이 있다. 이들은 규모와 조건이 공개되지 않아 집중도 완화를 입증하지 못한다.",
-      "cites": [
-        "F48",
-        "S6",
-        "S16",
-        "S18"
-      ]
-    },
-    {
       "area": "runway",
-      "point": "RPO는 254.0억 달러로, FY2025 매출 5.1억 달러와 비교하면 매출 대비 수십 배에 이른다. 이는 장기 계약이 크다는 신호다. 다만 인식 시기와 고객 구성이 없어 실제 매출로 바뀌는 속도를 판단할 수 없다. 이 백로그의 마진 구조도 보도에서 질문으로만 제기된다.",
+      "point": "RPO is $25.4B (F52), and deferred revenue is only $170M (F12, 1.7억). The backlog is recognized over a long period, and the timing, customer mix and termination terms are not known. OpenAI and AWS contract sizes are also not found. The backlog is therefore a signal of demand and cannot be used as a forecast of revenue.",
       "cites": [
+        "F12",
         "F52",
-        "F42",
         "S24"
       ]
     },
     {
-      "area": "industry",
-      "point": "회사는 2026년 core 매출 가이던스를 8.8~8.9억 달러로 상향했다(기존 8.55~8.65억 달러). 이는 컨센서스 약 8.634억 달러 위다. 보도는 실적 직후 주가가 하락했다고 전한다. 시장이 매출보다 마진과 GAAP 품질을 더 따지고 있다는 의미일 수 있다.",
-      "cites": [
-        "F54",
-        "F55",
-        "F60",
-        "S9",
-        "S20"
-      ]
-    },
-    {
-      "area": "unit_economics",
-      "point": "2분기 영업손실은 4.8억 달러이고 SBC는 3.8억 달러다. 영업이익률은 FY2025 -28.6%였다. 2분기 손실의 상당 부분이 IPO 연계 주식보상으로 보이지만 확인되지 않았다. 따라서 현금 기준 단위경제와 GAAP 기준을 구분해서 봐야 한다.",
-      "cites": [
-        "F27",
-        "F37",
-        "C:operating_margin@FY2025"
-      ]
-    },
-    {
       "area": "runway",
-      "point": "IPO 이후 현금은 17.2억 달러에서 67.4억 달러로 늘었고 자기자본은 -1.9억 달러에서 91.5억 달러로 바뀌었다. 재투자 활주로는 자금 면에서는 충분하다. 자본이 어느 정도의 수익률로 쓰일지는 단위경제가 입증되지 않아 판단할 수 없다. 1분기 capex는 1.3억 달러였다.",
+      "point": "Cash was $6.74B at the end of Q2 (F3, 67.4억) and equity was $9.15B (F16, 91.5억), both well above the Q1 levels of $1.72B (F2) and -$190M (F15). The increase follows the May IPO. Q2 capex was $420M (F62) and operating cash flow was -$59.82M (F64). Building out the cloud capacity is funded by IPO money for now.",
       "cites": [
         "F2",
         "F3",
         "F15",
         "F16",
-        "F1"
+        "F62",
+        "F64",
+        "S1"
+      ]
+    },
+    {
+      "area": "industry",
+      "point": "The competitors are NVIDIA and AMD, but no share data or competitor margin comparison was collected. Management says 2026 core revenue will be $880~890M, raised from $855~865M (S29). The market position cannot be judged from the evidence, which holds only company guidance and press coverage.",
+      "cites": [
+        "F54",
+        "F55",
+        "S29"
       ]
     }
   ]

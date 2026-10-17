@@ -1,0 +1,346 @@
+{
+  "agent": "verifier",
+  "basis": "6e2f1e899342",
+  "checks": [
+    {
+      "id": "V1",
+      "verdict": "supported",
+      "reason": "SBC 비중 0.6%·1.6%, 희석 주식 수 -1.2%, SBC 차감 FCF 108.8억과 FCF 110.8억 모두 인용한 계산값과 일치한다."
+    },
+    {
+      "id": "V2",
+      "verdict": "supported",
+      "reason": "가이던스 445억, 마진 33.9%, P/FCF 51배, 3분기 자사주 41억 등 사실 부분이 인용 자료와 맞고 나머지는 가정이다."
+    },
+    {
+      "id": "V3",
+      "verdict": "supported",
+      "reason": "수출 통제 관련 보도 제목이 사전 부검 메커니즘의 현재 근거로 충분하다."
+    },
+    {
+      "id": "V4",
+      "verdict": "supported",
+      "reason": "수출 통제 압력 보도가 인용 자료에 있고 나머지는 가상 시나리오다."
+    },
+    {
+      "id": "V5",
+      "verdict": "supported",
+      "reason": "재고 갭 20.5%p, DIO 214.8·288.7·270.7일, DSO 33.8·57.8일이 계산값과 일치한다."
+    },
+    {
+      "id": "V6",
+      "verdict": "supported",
+      "reason": "S35에 평가이익 약 509.7M 포함이라는 2차 요약이 있다."
+    },
+    {
+      "id": "V7",
+      "verdict": "supported",
+      "reason": "역DCF 마진 35%에서 연 19.2%라는 값이 계산값과 맞고 나머지는 의견이다."
+    },
+    {
+      "id": "V8",
+      "verdict": "contradicted",
+      "reason": "재고 114.3억 EUR은 매출 약 326.7억의 약 0.35배인데 3.5배라고 썼다. 고점 주가 약 1,700 USD도 인용 자료에 없다."
+    },
+    {
+      "id": "V9",
+      "verdict": "unsupported",
+      "reason": "ROIC는 FY2025 값(80.5%)만 인용돼 '주기 전체에서 높은 ROIC 유지'를 받치는 자료가 없다."
+    },
+    {
+      "id": "V10",
+      "verdict": "supported",
+      "reason": "이연매출 125.7억→160.1억, 재고 114.3억, DIO 270.7일이 자료와 일치한다."
+    },
+    {
+      "id": "V11",
+      "verdict": "unsupported",
+      "reason": "수익률 분해의 배수 변화 -10.3%p, 출구 배수 0.75배 시 +4.3%는 인용 자료에 없다."
+    },
+    {
+      "id": "V12",
+      "verdict": "supported",
+      "reason": "총이익 6,700M(57.5%)·5,035M(54.0%), 장비 113대·86대, 매출 약 25% 증가, 평가이익 약 509.7M 모두 자료와 맞는다."
+    },
+    {
+      "id": "V13",
+      "verdict": "supported",
+      "reason": "36% 가이던스, 역DCF 21%대, 성장률 30.2%→2.6%, 관심 표명 성격이 자료와 일치한다."
+    },
+    {
+      "id": "V14",
+      "verdict": "supported",
+      "reason": "근거 부재를 인정하는 진술이며 자료와 충돌하지 않는다."
+    },
+    {
+      "id": "V15",
+      "verdict": "supported",
+      "reason": "매출 11,662M·9,326M과 경영진 발언·관심 표명 구분이 자료와 일치한다."
+    },
+    {
+      "id": "V16",
+      "verdict": "supported",
+      "reason": "기대 연 수익률 8.3%가 계산값과 맞고 관심 표명 구분도 S35와 일치한다."
+    },
+    {
+      "id": "V17",
+      "verdict": "supported",
+      "reason": "FCF 수익률 1.9%, P/FCF 51.36, 기대수익률 8.3%, 손실확률 25%, 주가 환산 1,464 EUR가 맞는다. 기본 시나리오 현재가치 1,430.88은 인용되지 않았지만 다른 계산값(안전마진 -2.3%)과 일관된다."
+    },
+    {
+      "id": "V18",
+      "verdict": "supported",
+      "reason": "평가이익 509.7M과 기초 순이익 약 4.5B가 S35에 있고 본문 미확인이라는 단서도 정확하다."
+    },
+    {
+      "id": "V19",
+      "verdict": "supported",
+      "reason": "IBM 매출 증가와 지역별 매출 미확인이라는 진술이 자료와 맞고 나머지는 타인 주장 언급과 의견이다."
+    },
+    {
+      "id": "V20",
+      "verdict": "supported",
+      "reason": "3분기 총이익 6,700M/매출 11,662M은 57.5%로 맞다."
+    },
+    {
+      "id": "V21",
+      "verdict": "supported",
+      "reason": "감사의견 등을 확인하지 못했다는 부재 진술이며 자료와 충돌하지 않는다."
+    },
+    {
+      "id": "V22",
+      "verdict": "supported",
+      "reason": "3분기 자사주 매입 41억 EUR이 자료와 일치하고 나머지는 가상 시나리오다."
+    },
+    {
+      "id": "V23",
+      "verdict": "supported",
+      "reason": "P/FCF 51배, FCF 수익률 1.9%, 성장률 2.6%가 계산값과 맞고 나머지는 가상 시나리오다."
+    },
+    {
+      "id": "V24",
+      "verdict": "supported",
+      "reason": "수출 통제·EU 제재 보도 제목과 IBM 매출이 자료에 있고 중국 비중 미확인이라는 단서도 맞다."
+    },
+    {
+      "id": "V25",
+      "verdict": "supported",
+      "reason": "역DCF 19.2%와 앤더슨 10년 업사이드 4.46배(5배 미만)가 계산값과 일치한다."
+    },
+    {
+      "id": "V26",
+      "verdict": "supported",
+      "reason": "4분기 가이던스, 86대·113대, 관심 표명 구분이 자료와 맞고 나머지는 반증 조건 제안이다."
+    },
+    {
+      "id": "V27",
+      "verdict": "supported",
+      "reason": "성장률 30.2%·2.6%·15.6%와 FY2023 FCF 마진 11.9%가 계산값과 일치한다."
+    },
+    {
+      "id": "V28",
+      "verdict": "supported",
+      "reason": "수출 통제 보도가 현재 근거로 있고 나머지는 가상 시나리오와 의견이다."
+    },
+    {
+      "id": "V29",
+      "verdict": "supported",
+      "reason": "ROIC 80.5%, 영업이익률 34.6%, 총이익률 57.5% vs 54.0%, 86대→113대가 자료와 일치한다."
+    },
+    {
+      "id": "V30",
+      "verdict": "supported",
+      "reason": "ROIC와 관심 표명 구분이 자료와 맞고 나머지는 타인 주장 반론과 의견이다."
+    },
+    {
+      "id": "V31",
+      "verdict": "contradicted",
+      "reason": "재고는 매출의 약 3.5배가 아니라 약 0.35배다. 나머지 재고·이연매출·DIO 수치는 맞다."
+    },
+    {
+      "id": "V32",
+      "verdict": "supported",
+      "reason": "연도별 자사주 매입액, FY2023 FCF 32.9억, 3분기 41억, 중간배당 1.88이 자료와 일치한다."
+    },
+    {
+      "id": "V33",
+      "verdict": "supported",
+      "reason": "FY2023 OCF 54.4억 < 순이익 78.4억, 이후 OCF가 순이익 초과, FCF/순이익 1.15, 음의 발생액 비율이 자료와 맞는다."
+    },
+    {
+      "id": "V34",
+      "verdict": "supported",
+      "reason": "순현금 85.3억, 3분기 현금 127.3억, FCF 마진 33.9%가 자료와 일치한다."
+    },
+    {
+      "id": "V35",
+      "verdict": "supported",
+      "reason": "ROIC 80.5%, FCF 마진 33.9%, 순부채/EBITDA 음수(순현금)가 계산값과 맞다."
+    },
+    {
+      "id": "V36",
+      "verdict": "supported",
+      "reason": "역DCF 19.2%와 P/FCF 51.36배가 계산값과 일치한다."
+    },
+    {
+      "id": "V37",
+      "verdict": "supported",
+      "reason": "이연매출 160.1억, 매출채권 30.2억, DSO 33.8일, 매출 +15.6%가 자료와 맞고 미확인 사항도 정직하게 밝혔다."
+    },
+    {
+      "id": "V38",
+      "verdict": "supported",
+      "reason": "성장률 30.2·2.6·15.6%와 FCF 마진 11.9→33.9%가 계산값과 일치한다."
+    },
+    {
+      "id": "V39",
+      "verdict": "supported",
+      "reason": "FT 기사 제목이 인용문 보도임을 보여 주고 주장은 보도 기반이라고 한정했다."
+    },
+    {
+      "id": "V40",
+      "verdict": "supported",
+      "reason": "근거 없음을 밝히는 진술이다."
+    },
+    {
+      "id": "V41",
+      "verdict": "unsupported",
+      "reason": "강세 시나리오를 10년으로 늘린 값이 5배 미만이라는 계산은 인용 자료에 없다. 인용된 것은 21.2%, 40%, 35배뿐이다."
+    },
+    {
+      "id": "V42",
+      "verdict": "supported",
+      "reason": "성장률 30.2%→2.6%와 FCF 마진 11.9%가 계산값과 일치한다."
+    },
+    {
+      "id": "V43",
+      "verdict": "unsupported",
+      "reason": "FY2021~FY2025 영업이익률 30.7~36.3%, ROIC 64.5~88.5%, 총이익률 50.5~52.8% 범위는 FY2025 값만 인용돼 받치지 못한다."
+    },
+    {
+      "id": "V44",
+      "verdict": "supported",
+      "reason": "S35의 관심 표명, 확정 주문 아님, 수주 미확인 내용과 일치한다."
+    },
+    {
+      "id": "V45",
+      "verdict": "supported",
+      "reason": "관심 표명, 수주 미확인, 평가이익 제외 이익 확인 필요가 자료와 맞다."
+    },
+    {
+      "id": "V46",
+      "verdict": "supported",
+      "reason": "R&D 47.0억, capex 15.7억, OCF 126.6억, FCF 110.8억, 자사주·배당이 자료와 일치한다."
+    },
+    {
+      "id": "V47",
+      "verdict": "supported",
+      "reason": "성장 2.6%, FCF 마진 11.9%, DIO 270.7일이 자료와 맞고 가정 숫자는 추정으로 표시됐다."
+    },
+    {
+      "id": "V48",
+      "verdict": "supported",
+      "reason": "SBC 비율, 희석 -1.2%, 영업권 45.9억/총자산 505.7억 약 9%, SBC 차감 FCF가 맞다."
+    },
+    {
+      "id": "V49",
+      "verdict": "supported",
+      "reason": "해당 항목이 수집되지 않았다는 부재 진술이며 자료와 충돌하지 않는다."
+    },
+    {
+      "id": "V50",
+      "verdict": "supported",
+      "reason": "관심 표명이고 수주 미확인이라는 내용이 S35와 일치한다."
+    },
+    {
+      "id": "V51",
+      "verdict": "supported",
+      "reason": "IBM 2,762M→3,289M과 비중 약 28%(3,289/11,662)가 맞다."
+    },
+    {
+      "id": "V52",
+      "verdict": "supported",
+      "reason": "관심 표명, 가이던스 440~450억·142~152억, 역DCF 19~26%가 자료와 일치한다."
+    },
+    {
+      "id": "V53",
+      "verdict": "supported",
+      "reason": "FCF 마진 11.9%·32.2%·33.9%와 3분기 총이익이 자료와 맞다."
+    },
+    {
+      "id": "V54",
+      "verdict": "unsupported",
+      "reason": "역DCF 19.2%·21.1%는 맞지만 수익률 분해 -10.3%와 2030년 6%는 인용 자료에 없고 base_rate 인용은 존재하지 않는다."
+    },
+    {
+      "id": "V55",
+      "verdict": "supported",
+      "reason": "안전마진 -2.3%, 약세 가치 744, 손실확률 25%, FCF 수익률이 계산값과 맞고 744는 현재가의 약 절반이다."
+    },
+    {
+      "id": "V56",
+      "verdict": "supported",
+      "reason": "강세 IRR 19.8%와 관심 표명 구분이 자료와 일치한다."
+    },
+    {
+      "id": "V57",
+      "verdict": "supported",
+      "reason": "성장률 30.2%→2.6%와 관심 표명 성격이 자료와 맞고 나머지는 모델 비판이다."
+    },
+    {
+      "id": "V58",
+      "verdict": "supported",
+      "reason": "성장률 30.2%→2.6%가 계산값과 일치한다."
+    },
+    {
+      "id": "V59",
+      "verdict": "supported",
+      "reason": "순이익 4,960M, 평가이익 약 509.7M, 기초 약 4.5B가 자료와 맞는다."
+    },
+    {
+      "id": "V60",
+      "verdict": "supported",
+      "reason": "관심 표명, IBM 3,289M, 영업이익률 등 사실이 자료와 맞고 나머지는 가정이다."
+    },
+    {
+      "id": "V61",
+      "verdict": "supported",
+      "reason": "수출 통제·EU 제재·유럽 매출 없음 보도 제목이 자료에 있고 본문과 지역별 매출 미확인이라는 단서도 맞다."
+    },
+    {
+      "id": "V62",
+      "verdict": "supported",
+      "reason": "역DCF 21.1%와 기대수익률 8.3%가 맞다. 5년 매출 연 15.9%는 인용되지 않았지만 가정한 성장 경로에서 도출되는 값과 같다."
+    },
+    {
+      "id": "V63",
+      "verdict": "supported",
+      "reason": "손실확률 25%와 P/FCF 51배가 맞고 나머지는 가상 시나리오다."
+    },
+    {
+      "id": "V64",
+      "verdict": "supported",
+      "reason": "관심 표명, 수주 미확인, 가이던스 44~45B·14.2~15.2B가 자료와 일치한다."
+    },
+    {
+      "id": "V65",
+      "verdict": "supported",
+      "reason": "ROIC 80.5%, 영업이익률 34.6%, FT의 단일 공급자 발언이 자료와 맞는다."
+    },
+    {
+      "id": "V66",
+      "verdict": "supported",
+      "reason": "성장률, FCF 마진 11.9%→33.9%, 순현금이 계산값과 일치한다."
+    },
+    {
+      "id": "V67",
+      "verdict": "supported",
+      "reason": "4분기·연간 가이던스 수치가 자료와 맞고 과거 가이던스 부재라는 진술도 정확하다."
+    },
+    {
+      "id": "V68",
+      "verdict": "supported",
+      "reason": "capex 9.0억→15.7억, R&D 25.5억→47.0억, 영업권 45.6억~45.9억, 순현금 85.3억, ROIC 80.5%가 맞는다."
+    }
+  ]
+}

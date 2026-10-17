@@ -388,6 +388,24 @@
       "note": "Yahoo Finance",
       "date": "2026-08-11",
       "retrieved": "2026-10-17T17:50:45Z"
+    },
+    {
+      "id": "S44",
+      "type": "call",
+      "title": "Tempus AI (TEM) Q2 2026 earnings summary - Quartr",
+      "url": "https://quartr.com/events/tempus-ai-inc-tem-q2-2026_F3j4vqTx",
+      "date": "2026-07-30",
+      "note": "2026-07-30 오후 4:30 ET 2분기 실적 콜의 요약 출처(원문 아님). 참석: Eric Lefkofsky(CEO), James Rogers(CFO), Elizabeth Krutoholow(IR). 요약 내용: 매출 $382.5M(+22%), 종양학 검사 물량 +31%, MRD 검사 9,000건, 순이익 $5.6M(전년 동기 순손실 $42.8M), 2026 매출 가이던스 $1.595~1.605B(약 +25%) 상향. Personalis 인수는 요약상 $1.5~1.7B, 2026년 말~2027년 초 종결 예정이다. 이 금액은 S19·S21의 $1.5B와 다르므로 $1.5B를 우선한다. 콜 원문과 Q&A는 접근할 수 없었다.",
+      "retrieved": "2026-10-17T17:54:15Z"
+    },
+    {
+      "id": "S45",
+      "type": "call",
+      "title": "Tempus Targets $1.595B-$1.605B 2026 Revenue as It Outlines 2028 $400M Uplift Tied to xT CDx and xF - Ground News",
+      "url": "https://ground.news/article/tempus-targets-1595b-1605b-2026-revenue-as-it-outlines-2028-400m-uplift-tied-to-xt-cdx-and-xf-nasdaq-tem_edbb77",
+      "date": "2026-07-30",
+      "note": "보도(콜 요약 기사, 원문 아님): 2026 매출 가이던스 $1.595~1.605B. 제목에 따르면 경영진이 2028년까지 xT CDx·xF 관련 약 $400M 증분 매출을 제시했다. 세부 가정과 산식은 확인하지 못했다.",
+      "retrieved": "2026-10-17T17:54:15Z"
     }
   ],
   "facts": [
@@ -2179,19 +2197,43 @@
       "derived": true,
       "note": "Q4 = 연간 − Q1~Q3 (코드 계산)",
       "source": "S10"
+    },
+    {
+      "id": "F161",
+      "metric": "oncology_volume_growth",
+      "value": 0.31,
+      "unit": "ratio",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S44",
+      "origin": "research"
+    },
+    {
+      "id": "F162",
+      "metric": "mrd_tests",
+      "value": 9000,
+      "unit": "count",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S44",
+      "origin": "research"
     }
   ],
   "as_of": "2026-10-18",
   "collected": "2026-10-17T17:52:35Z",
   "gaps": [
     "FY2027·FY2028 매출 컨센서스 미확인 — variant perception 검증 불가. FY2026 컨센서스 $1.59B는 가이던스 상향 이전 값일 수 있음",
+    "어닝콜 원문과 Q&A 미확보 — S44·S45는 요약 출처이고 Earnings Whispers·Allmind 원문은 일부만 열리거나 로그인이 필요함. 회사 IR 사이트 원문을 확인해야 함",
+    "2028년 $400M 증분 매출 목표(xT CDx·xF)의 가정과 산식 미확인 (제목 수준의 보도만 있음)",
     "과거 분기 가이던스(FY2025 연간·분기) 미수집 — 경영진 가이던스 적중률 산출 불가",
-    "운영 KPI 미수집: 검사 물량, 데이터·애플리케이션 계약 잔고(TCV), 순매출유지율, 진단 ASP, 총이익률 상세",
+    "운영 KPI 미수집: 데이터·애플리케이션 계약 잔고(TCV), 순매출유지율, 진단 ASP, 총이익률 상세",
     "회계 품질 단서 미수집: 감사의견·감사인 변경, 특수관계자 거래(창업자 관련 법인), Non-GAAP 조정 내역, 2분기 순이익에 든 시장성증권 평가이익 $98.5M의 상세 구성",
-    "어닝콜 원문·Q&A와 투자자 컨퍼런스 자료 미수집 (S37 요약 기사만 있음)",
-    "Personalis 인수($1.5B) 대금 조달 방식(현금·주식·전환사채)과 희석 영향 미확인",
-    "주가는 집계 사이트 값이다. 10-15 $71.13에서 10-16 $64.72로 하루 -9% 하락했고 사유를 확인하지 못했다",
-    "희석 주식 수 최신값은 FY2026Q2 XBRL 사실(F32)을 쓰고, 발행주식 수는 Class A와 Class B 합계다. ADR이 아니라 환율·ADR 비율은 해당 없음"
+    "Personalis 인수 대금 조달 방식(현금·주식·전환사채)과 희석 영향 미확인. 인수 금액이 $1.5B(S19·S21)와 $1.5~1.7B(S44)로 엇갈림",
+    "투자자 컨퍼런스·투자자의 날 자료 미수집",
+    "주가는 집계 사이트 값이다. 10-15 $71.13에서 10-16 $64.72로 하루 약 -9% 하락했고 사유를 확인하지 못했다",
+    "희석 주식 수 최신값은 FY2026Q2 XBRL 사실(F32)을 쓰고, 발행주식 수는 Class A와 Class B 합계다. ADR이 아니므로 환율·ADR 비율은 해당 없음"
   ],
   "researched": "2026-10-18"
 }
