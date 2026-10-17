@@ -334,6 +334,42 @@
       "note": "Yahoo Finance",
       "date": "2026-08-03",
       "retrieved": "2026-10-17T17:31:03Z"
+    },
+    {
+      "id": "S38",
+      "type": "filing",
+      "title": "Astera Labs Reports Second Quarter 2026 Financial Results (8-K Exhibit 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001736297/000173629726000033/q226exhibit991.htm",
+      "date": "2026-08-04",
+      "note": "2분기 매출 3.924억 달러(전분기 대비 +27%, 전년 대비 +104%). Non-GAAP 총이익률 73.7%, Non-GAAP 영업이익 1.535억 달러(영업이익률 39.1%), Non-GAAP 희석 EPS 0.80달러. 3분기 가이던스: 매출 5.4억~5.6억 달러, Non-GAAP 총이익률 약 72%, Non-GAAP 영업비용 1.56억~1.60억 달러, Non-GAAP 희석 EPS 1.16~1.21달러(희석 주식 약 1.85억 주). 가이던스 수치는 2차 요약(247wallst·MarketBeat)과 일치하나 3분기 항목은 공시 원문 대조 전 요약 출처 기준.",
+      "retrieved": "2026-10-17T17:31:43Z"
+    },
+    {
+      "id": "S39",
+      "type": "data",
+      "title": "Astera Labs, Inc. (ALAB) Q2 2026 earnings summary - 247wallst",
+      "url": "https://247wallst.com/companies/alab/earnings/2026/Q2",
+      "date": "2026-08-04",
+      "note": "3분기 가이던스(매출 5.4억~5.6억 달러, Non-GAAP EPS 1.16~1.21달러, GAAP EPS 0.87~0.92달러, 희석 주식 약 1.85억 주) 요약. 2차 출처.",
+      "retrieved": "2026-10-17T17:31:43Z"
+    },
+    {
+      "id": "S40",
+      "type": "data",
+      "title": "ALAB 월별 주가 이력 - digrin",
+      "url": "https://www.digrin.com/stocks/detail/ALAB/price",
+      "date": "2026-10-16",
+      "note": "페이지의 10월 최신값 285.82달러(수정·실제 동일). 일별 종가·정확한 기준일은 페이지에 없어 날짜는 기준일 직전 거래일(2026-10-16)로 가정한 추정이다. 월말 종가: 7월 311.23, 8월 296.98, 9월 355.97달러. 참고로 equibles는 2026-08-21 종가 284.97달러, 52주 범위 100.27~483.02달러.",
+      "retrieved": "2026-10-17T17:31:43Z"
+    },
+    {
+      "id": "S41",
+      "type": "data",
+      "title": "Astera Labs announces earnings results 2026-08-04 - MarketBeat",
+      "url": "https://www.marketbeat.com/instant-alerts/astera-labs-nasdaqalab-announces-earnings-results-2026-08-04/",
+      "date": "2026-08-04",
+      "note": "2분기 매출 컨센서스 약 3.6085억 달러 대비 실제 3.924억 달러(+8.8%). EPS 컨센서스 0.69달러 대비 0.80달러. 3분기 Non-GAAP 총이익률 가이던스 약 72%. 2차 출처(집계 사이트).",
+      "retrieved": "2026-10-17T17:31:43Z"
     }
   ],
   "facts": [
@@ -2377,8 +2413,158 @@
       "derived": true,
       "note": "Q4 = 연간 − Q1~Q3 (코드 계산)",
       "source": "S7"
+    },
+    {
+      "id": "F183",
+      "metric": "price",
+      "value": 285.82,
+      "unit": "USD/share",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S40",
+      "origin": "research"
+    },
+    {
+      "id": "F184",
+      "metric": "revenue",
+      "value": 360850000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "consensus",
+      "source": "S41",
+      "origin": "research"
+    },
+    {
+      "id": "F185",
+      "metric": "revenue",
+      "value": 550000000,
+      "low": 540000000,
+      "high": 560000000,
+      "unit": "USD",
+      "period": "FY2026Q3",
+      "end": "2026-09-30",
+      "basis": "guidance",
+      "source": "S39",
+      "origin": "research"
+    },
+    {
+      "id": "F186",
+      "metric": "non_gaap_gross_margin",
+      "value": 0.737,
+      "unit": "ratio",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S38",
+      "origin": "research"
+    },
+    {
+      "id": "F187",
+      "metric": "non_gaap_gross_margin",
+      "value": 0.72,
+      "unit": "ratio",
+      "period": "FY2026Q3",
+      "end": "2026-09-30",
+      "basis": "guidance",
+      "source": "S41",
+      "origin": "research"
+    },
+    {
+      "id": "F188",
+      "metric": "non_gaap_operating_margin",
+      "value": 0.391,
+      "unit": "ratio",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S38",
+      "origin": "research"
+    },
+    {
+      "id": "F189",
+      "metric": "non_gaap_operating_income",
+      "value": 153500000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S38",
+      "origin": "research"
+    },
+    {
+      "id": "F190",
+      "metric": "non_gaap_opex",
+      "value": 158000000,
+      "low": 156000000,
+      "high": 160000000,
+      "unit": "USD",
+      "period": "FY2026Q3",
+      "end": "2026-09-30",
+      "basis": "guidance",
+      "source": "S39",
+      "origin": "research"
+    },
+    {
+      "id": "F191",
+      "metric": "non_gaap_eps",
+      "value": 0.8,
+      "unit": "USD/share",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S38",
+      "origin": "research"
+    },
+    {
+      "id": "F192",
+      "metric": "non_gaap_eps",
+      "value": 0.69,
+      "unit": "USD/share",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "consensus",
+      "source": "S41",
+      "origin": "research"
+    },
+    {
+      "id": "F193",
+      "metric": "non_gaap_eps",
+      "value": 1.185,
+      "low": 1.16,
+      "high": 1.21,
+      "unit": "USD/share",
+      "period": "FY2026Q3",
+      "end": "2026-09-30",
+      "basis": "guidance",
+      "source": "S39",
+      "origin": "research"
+    },
+    {
+      "id": "F194",
+      "metric": "diluted_shares",
+      "value": 185000000,
+      "unit": "shares",
+      "period": "FY2026Q3",
+      "end": "2026-09-30",
+      "basis": "guidance",
+      "source": "S39",
+      "origin": "research"
     }
   ],
   "as_of": "2026-10-18",
-  "collected": "2026-10-17T17:31:03Z"
+  "collected": "2026-10-17T17:31:03Z",
+  "gaps": [
+    "주가 기준일 불확실: 10월 최신 월별 값(285.82달러)을 직전 거래일 2026-10-16 종가로 가정했다. 일별 종가 미확인이므로 Yahoo Finance·Nasdaq에서 확인 필요.",
+    "FY2026·FY2027 연간 매출 컨센서스를 찾지 못함 (공개 출처는 분기 수치와 2029·2030 장기 추정만 제시). 컨센서스 대비 variant 검증 불가. 2분기 실적 이후 상향 조정된 수치는 FactSet·Bloomberg 등 유료 출처 필요.",
+    "3분기 가이던스는 247wallst·MarketBeat 2차 요약 기반이며 8-K 원문(S38)에서 3분기 수치를 직접 대조하지 못함.",
+    "과거 가이던스 이력(2025~2026년 분기별 매출 가이던스) 미수집 — 경영진 가이던스 적중률 계산 불가.",
+    "어닝콜 원문·Q&A, 컨퍼런스·투자자의 날 자료 미확보 (S32는 하이라이트 요약만 존재).",
+    "운영 KPI 미확보: 고객 집중도(상위 고객 비중), 제품별 매출 비중(Aries·Taurus·Leo·Scorpio), 설계 수주(design win) 수, 이연매출 외 수주잔고.",
+    "회계 품질 단서 미확인: 감사의견·감사인 변경·정정 공시·특수관계자 거래·Non-GAAP 조정 내역(SBC 외).",
+    "경영진 보상(DEF 14A S6), 내부자 매매, 락업·내부자 지분 매각 정보 미정리.",
+    "경쟁사(Broadcom·Marvell·Credo 등) 공시 교차 확인과 엔비디아 NVLink Fusion·UALink 등 생태계 근거 미수집.",
+    "ADR 아님 — adr_ratio·fx 불필요."
+  ],
+  "researched": "2026-10-18"
 }

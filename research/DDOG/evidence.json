@@ -343,6 +343,33 @@
       "note": "Yahoo Finance",
       "date": "2026-09-03",
       "retrieved": "2026-10-17T17:30:08Z"
+    },
+    {
+      "id": "S39",
+      "type": "call",
+      "title": "Full Transcript: Datadog Q2 2026 Earnings Call",
+      "url": "https://www.benzinga.com/node/62160028",
+      "date": "2026-08-06",
+      "note": "자동 전사본(오류 가능, 앞 10만 자만 확인). 최근 12개월 NRR는 'low 120s'(전 분기와 비슷), 총매출유지율 'mid to high 90s'. 고객 약 33,400곳(전년 약 31,400), ARR 10만 달러 이상 고객 약 4,720곳(전년 약 3,850)이고 이들이 ARR의 약 91%. AI 고객 약 750곳, 연 100만 달러 이상 31곳, 1,000만 달러 이상 8곳. 선도 AI 기업과의 '9자리 금액 갱신'에서 사용량이 Q3부터 줄어들며 가이던스에 반영, 규모는 공개하지 않음. 비AI 고객 매출 성장은 20%대 후반으로 가속. 매출총이익률 79.6%(전 분기 80.2%). FCF 2.79억 달러(마진 25%), RPO 34.7억 달러(+43%), 청구액 11.8억 달러(+38%). 설비투자와 자본화 소프트웨어는 매출의 4~5%. 2027 언급 없음.",
+      "retrieved": "2026-10-17T17:31:13Z"
+    },
+    {
+      "id": "S40",
+      "type": "data",
+      "title": "Datadog, Inc. (DDOG) Stock Price, News, Quote & History - Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DDOG/",
+      "date": "2026-10-16",
+      "note": "2026-10-16 종가 247.11달러(-7.19%), 직전 종가 266.25달러. 10월 9일 종가 293.26달러로 사상 최고 종가(보도). 52주 범위 약 98.01~300.68달러(Robinhood 스냅샷). 검색 결과 요약으로 확인했고 직접 조회하지는 못함.",
+      "retrieved": "2026-10-17T17:31:13Z"
+    },
+    {
+      "id": "S41",
+      "type": "news",
+      "title": "Datadog (NASDAQ:DDOG) Reaches New 12-Month High - MarketBeat",
+      "url": "https://www.marketbeat.com/instant-alerts/price-datadog-nasdaq-ddog-reaches-new-12-month-high-heres-what-happened-2026-10-09/",
+      "date": "2026-10-09",
+      "note": "보도. 10월 9일 52주 신고가. 10월 15일 Mizuho가 목표가를 300달러에서 330달러로 올리고 Outperform 유지(검색 요약 기준). 8월 6일 Q2 발표 후 주가는 16~18% 급락했다가(S26·S35) 10월 초 신고가까지 회복.",
+      "retrieved": "2026-10-17T17:31:13Z"
     }
   ],
   "facts": [
@@ -2739,8 +2766,225 @@
       "derived": true,
       "note": "Q4 = 연간 − Q1~Q3 (코드 계산)",
       "source": "S10"
+    },
+    {
+      "id": "F215",
+      "metric": "price",
+      "value": 247.11,
+      "unit": "USD/share",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S40",
+      "origin": "research"
+    },
+    {
+      "id": "F216",
+      "metric": "diluted_shares",
+      "value": 376000000,
+      "unit": "shares",
+      "period": "FY2026",
+      "end": "2026-12-31",
+      "basis": "guidance",
+      "source": "S2",
+      "origin": "research"
+    },
+    {
+      "id": "F217",
+      "metric": "diluted_shares",
+      "value": 378000000,
+      "unit": "shares",
+      "period": "FY2026Q3",
+      "end": "2026-09-30",
+      "basis": "guidance",
+      "source": "S2",
+      "origin": "research"
+    },
+    {
+      "id": "F218",
+      "metric": "revenue",
+      "value": 4460000000,
+      "low": 4450000000,
+      "high": 4470000000,
+      "unit": "USD",
+      "period": "FY2026",
+      "end": "2026-12-31",
+      "basis": "guidance",
+      "source": "S2",
+      "origin": "research"
+    },
+    {
+      "id": "F219",
+      "metric": "revenue",
+      "value": 1140000000,
+      "low": 1135000000,
+      "high": 1145000000,
+      "unit": "USD",
+      "period": "FY2026Q3",
+      "end": "2026-09-30",
+      "basis": "guidance",
+      "source": "S2",
+      "origin": "research"
+    },
+    {
+      "id": "F220",
+      "metric": "revenue",
+      "value": 1075000000,
+      "low": 1070000000,
+      "high": 1080000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "guidance",
+      "source": "S5",
+      "origin": "research"
+    },
+    {
+      "id": "F221",
+      "metric": "non_gaap_operating_income",
+      "value": 1020000000,
+      "low": 1010000000,
+      "high": 1030000000,
+      "unit": "USD",
+      "period": "FY2026",
+      "end": "2026-12-31",
+      "basis": "guidance",
+      "source": "S2",
+      "origin": "research"
+    },
+    {
+      "id": "F222",
+      "metric": "non_gaap_operating_income",
+      "value": 265000000,
+      "low": 260000000,
+      "high": 270000000,
+      "unit": "USD",
+      "period": "FY2026Q3",
+      "end": "2026-09-30",
+      "basis": "guidance",
+      "source": "S2",
+      "origin": "research"
+    },
+    {
+      "id": "F223",
+      "metric": "non_gaap_operating_income",
+      "value": 257000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S2",
+      "origin": "research"
+    },
+    {
+      "id": "F224",
+      "metric": "free_cash_flow",
+      "value": 279000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S39",
+      "origin": "research"
+    },
+    {
+      "id": "F225",
+      "metric": "rpo",
+      "value": 3470000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S39",
+      "origin": "research"
+    },
+    {
+      "id": "F226",
+      "metric": "billings",
+      "value": 1180000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S39",
+      "origin": "research"
+    },
+    {
+      "id": "F227",
+      "metric": "customers",
+      "value": 33400,
+      "unit": "count",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S39",
+      "origin": "research"
+    },
+    {
+      "id": "F228",
+      "metric": "customers_100k_arr",
+      "value": 4720,
+      "unit": "count",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S39",
+      "origin": "research"
+    },
+    {
+      "id": "F229",
+      "metric": "ai_native_customers",
+      "value": 750,
+      "unit": "count",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S39",
+      "origin": "research"
+    },
+    {
+      "id": "F230",
+      "metric": "nrr",
+      "value": 1.2,
+      "unit": "ratio",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S39",
+      "origin": "research"
+    },
+    {
+      "id": "F231",
+      "metric": "arr_share_customers_100k",
+      "value": 0.91,
+      "unit": "ratio",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S39",
+      "origin": "research"
+    },
+    {
+      "id": "F232",
+      "metric": "gross_margin_non_gaap",
+      "value": 0.796,
+      "unit": "ratio",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S39",
+      "origin": "research"
     }
   ],
   "as_of": "2026-10-18",
-  "collected": "2026-10-17T17:30:08Z"
+  "collected": "2026-10-17T17:30:08Z",
+  "gaps": [
+    "애널리스트 컨센서스 매출(FY2026·FY2027)을 접근 가능한 출처에서 찾지 못함 — variant perception 검증 불가. 목표가 평균은 8월 이전 기준 약 225~255달러, 10월 15일 Mizuho 330달러뿐이고 컨센서스 추정치는 아님",
+    "NRR는 '낮은 120%대'라는 구간 발언뿐이라 1.20으로 입력(정확값 아님, 하한 근사). 총매출유지율은 '90%대 중후반'이라 사실로 넣지 않음",
+    "최대 AI 고객의 매출 비중과 사용량 감소 규모는 회사가 공개하지 않음(WSJ 보도 S23만 있음). 상위 고객 집중도(top3_concentration) 미확인",
+    "시장 데이터: 발행주식 수(shares_outstanding)와 10월 16일 이후 종가는 미확인. 희석 주식 수는 회사 가이던스(376M)와 XBRL 분기 값을 사용. Q2 보도자료 원문(investors.datadoghq.com)은 403으로 열리지 않아 Q2 발표 이후 현금·전환사채 상세 미확인(10-Q S1 참조)",
+    "FY2026 가이던스 이력: Q1 발표 후 FY2026 매출 43.0억~43.4억 달러였다가 Q2에서 44.5억~44.7억 달러로 상향(검색 요약 기준, S5·S2). 같은 기간 값이 겹쳐 FY2026 이전 가이던스는 사실로 넣지 않았고, 2025년 분기 가이던스와 Q3·Q4 2025 가이던스는 찾지 못함",
+    "어닝콜 원문은 자동 전사본의 앞 10만 자까지만 확인(Q&A 일부 누락 가능). 2025Q3·2026Q1 어닝콜 원문, 투자자의 날·컨퍼런스 발표, 감사의견·감사인 변경·재무제표 정정 여부, Non-GAAP 조정 내역, DEF 14A 보상 지표 상세는 미수집(공시 목록 S6·S9에 있음)",
+    "경쟁사(Dynatrace, Splunk/Cisco, 클라우드 3사)와 주요 고객·공급사 공시 교차 확인, 대체 데이터(채용·트래픽·특허)는 수행하지 않음. Palo Alto 인수 협상 보도(S24)는 확인되지 않은 보도임"
+  ],
+  "researched": "2026-10-18"
 }
