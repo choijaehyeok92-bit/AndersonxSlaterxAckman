@@ -424,6 +424,15 @@
       "date": "2026-09-03",
       "note": "보도(2차 요약). 콜 트랜스크립트를 요약했다고 표기한 사이트이고 본문은 열지 못했다. 단독 근거로 쓰지 말고 S50·S40과 함께 교차 확인용으로만 쓴다.",
       "retrieved": "2026-10-17T17:54:45Z"
+    },
+    {
+      "id": "S52",
+      "type": "call",
+      "title": "Samsara Q2 FY2027 earnings call transcript (2026-09-03)",
+      "url": "https://www.tradingkey.com/news/transcripts/262150876-tradingkey",
+      "date": "2026-09-03",
+      "note": "CFO Dominic Phillips: 멀티프로덕트 도입이 핵심 고객 대상 목표 달러 기준 순매출유지율(NRR) 약 115% 달성에 기여 (준비 발언). Q&A에서 'target net retention rate of 115%' 유지 언급. '이상'이 아니라 '약 115%', 핵심 고객 기준",
+      "retrieved": "2026-10-17T19:18:28Z"
     }
   ],
   "facts": [
@@ -3019,6 +3028,18 @@
       "end": "2026-08-01",
       "basis": "reported",
       "source": "S50",
+      "origin": "research"
+    },
+    {
+      "id": "F231",
+      "metric": "nrr",
+      "value": 1.15,
+      "unit": "ratio",
+      "period": "FY2027Q2",
+      "end": "2026-08-01",
+      "basis": "reported",
+      "source": "S52",
+      "note": "핵심 고객(core customers) 기준 약 115% — CFO 발언, 2차 전사본",
       "origin": "research"
     }
   ],
