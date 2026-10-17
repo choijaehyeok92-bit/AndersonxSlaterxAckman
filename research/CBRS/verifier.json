@@ -1,0 +1,346 @@
+{
+  "agent": "verifier",
+  "basis": "4b1dc4d35cbc",
+  "checks": [
+    {
+      "id": "V1",
+      "verdict": "supported",
+      "reason": "F8 1.82억, F10 7.36억 등 인용 수치와 일치하고 미확인 사항도 그대로 밝혔다."
+    },
+    {
+      "id": "V2",
+      "verdict": "supported",
+      "reason": "희석주식수 6,281만→1.51억, SBC 959만→3.77억, 발행주식수 2.196억 대 1.51억 모두 인용과 일치한다."
+    },
+    {
+      "id": "V3",
+      "verdict": "supported",
+      "reason": "현금 17.2억→67.4억, capex 1.32억, 600MW가 인용과 일치하고 경로 단정은 유보했다."
+    },
+    {
+      "id": "V4",
+      "verdict": "supported",
+      "reason": "영업손실 4.77억, SBC 3.77억, FY2025 영업이익률 -28.6%가 일치한다."
+    },
+    {
+      "id": "V5",
+      "verdict": "supported",
+      "reason": "총이익 8,618만→2,556만, 매출 1.93억→1.80억, 컨센서스 1.94억 하회와 하드웨어 부진 보도가 일치한다."
+    },
+    {
+      "id": "V6",
+      "verdict": "supported",
+      "reason": "사전 부검의 현재 사실인 매출채권 약 2배, SBC, 주식 수 불일치, 86% 집중이 인용과 일치한다."
+    },
+    {
+      "id": "V7",
+      "verdict": "supported",
+      "reason": "현금 67.4억과 core 마진 41%→39% 가이던스가 인용과 일치한다."
+    },
+    {
+      "id": "V8",
+      "verdict": "supported",
+      "reason": "RPO 254억, core 41%, GAAP 14%가 인용과 일치한다."
+    },
+    {
+      "id": "V9",
+      "verdict": "supported",
+      "reason": "자기자본, 현금, 총자산, 희석주식수 수치가 모두 인용과 일치한다."
+    },
+    {
+      "id": "V10",
+      "verdict": "supported",
+      "reason": "SBC 3.77억과 959만, 순손실 4.5억, 영업손실 4.77억이 일치하고 SBC가 손실의 대부분이라는 말도 수치로 성립한다."
+    },
+    {
+      "id": "V11",
+      "verdict": "supported",
+      "reason": "시나리오 가정이며 근거 사실인 86% 집중, GAAP 마진 14%, RPO는 인용과 일치한다."
+    },
+    {
+      "id": "V12",
+      "verdict": "supported",
+      "reason": "S27에서 52주 고점 대비 약 54.6% 하락, S19에서 54% 하락이 확인된다."
+    },
+    {
+      "id": "V13",
+      "verdict": "supported",
+      "reason": "RPO 254억, 600MW, FY2025 매출 5.1억이 일치한다."
+    },
+    {
+      "id": "V14",
+      "verdict": "supported",
+      "reason": "가상 시나리오의 근거인 86% 집중과 RPO 254억은 인용과 일치한다."
+    },
+    {
+      "id": "V15",
+      "verdict": "supported",
+      "reason": "core 가이던스 8.6억→8.85억, 컨센서스 8.634억, 실적 후 주가 하락 보도가 일치한다."
+    },
+    {
+      "id": "V16",
+      "verdict": "supported",
+      "reason": "86% 집중과 신규 고객 규모 미공개가 인용과 맞는다."
+    },
+    {
+      "id": "V17",
+      "verdict": "supported",
+      "reason": "Gimlet·AMD 협업 보도와 86% 집중이 인용과 맞고 입증이 아니라 옵션 가치라는 단서도 붙였다."
+    },
+    {
+      "id": "V18",
+      "verdict": "supported",
+      "reason": "86% 집중과 RPO는 인용과 일치하고 나머지는 상대 논거에 대한 해석이다."
+    },
+    {
+      "id": "V19",
+      "verdict": "supported",
+      "reason": "86% 집중과 신규 고객 사례는 인용과 일치하고 원문 미대조도 밝혔다."
+    },
+    {
+      "id": "V20",
+      "verdict": "supported",
+      "reason": "86%, GAAP 마진 14%, core 3분기 39%, SBC 3.77억 모두 인용과 일치한다."
+    },
+    {
+      "id": "V21",
+      "verdict": "supported",
+      "reason": "집중도 0.86과 원문 미확인 상태를 그대로 옮겼다."
+    },
+    {
+      "id": "V22",
+      "verdict": "supported",
+      "reason": "RPO 254억, EV/매출 40.51, 86% 집중이 일치한다."
+    },
+    {
+      "id": "V23",
+      "verdict": "supported",
+      "reason": "가정을 받치는 가이던스, 3분기 마진 38~40%, GAAP 1.80억 대 core 2.10억, RPO, 600MW가 인용과 일치한다."
+    },
+    {
+      "id": "V24",
+      "verdict": "supported",
+      "reason": "GAAP 매출 1.93억→1.80억 정체와 컨센서스 하회, 독립 수치 부재가 인용과 맞는다."
+    },
+    {
+      "id": "V25",
+      "verdict": "supported",
+      "reason": "가이던스, 컨센서스, 3분기 core 마진 0.39, GAAP 매출 하회가 모두 인용과 일치한다."
+    },
+    {
+      "id": "V26",
+      "verdict": "supported",
+      "reason": "RPO 254억은 FY2025 매출 5.1억의 수십 배이고 나머지는 예측 의견이다."
+    },
+    {
+      "id": "V27",
+      "verdict": "supported",
+      "reason": "낙관 시나리오 가정이며 근거 사실인 RPO, 600MW, core 41%는 일치한다."
+    },
+    {
+      "id": "V28",
+      "verdict": "supported",
+      "reason": "core 매출 2.10억 대 GAAP 1.80억, 마진 41% 대 14%, 가이던스 기준이 인용과 맞는다."
+    },
+    {
+      "id": "V29",
+      "verdict": "supported",
+      "reason": "SBC 959만→3.77억, core 41%와 GAAP 14%가 일치하고 근거 부재도 정직하게 밝혔다."
+    },
+    {
+      "id": "V30",
+      "verdict": "supported",
+      "reason": "86% 집중과 원문 미확인이 일치하고 특수관계 여부는 확인되지 않았다고 썼다."
+    },
+    {
+      "id": "V31",
+      "verdict": "supported",
+      "reason": "1분기 순손실 -1,401만과 영업현금흐름 +1,234만이 일치한다."
+    },
+    {
+      "id": "V32",
+      "verdict": "supported",
+      "reason": "RPO와 마진 질문 보도가 인용과 맞는다."
+    },
+    {
+      "id": "V33",
+      "verdict": "supported",
+      "reason": "86%, core 41%, GAAP 14% 모두 인용과 일치한다."
+    },
+    {
+      "id": "V34",
+      "verdict": "supported",
+      "reason": "RPO 세부 미공개와 1분기 대비 2분기 매출 정체가 인용과 맞는다."
+    },
+    {
+      "id": "V35",
+      "verdict": "supported",
+      "reason": "매출채권 6,263만→1.23억과 매출 정체가 일치하고 두 점뿐이라 추세로 읽지 않는다는 단서도 있다."
+    },
+    {
+      "id": "V36",
+      "verdict": "supported",
+      "reason": "제품·Hot Chips 발표 근거와 GAAP 마진 14%가 인용과 맞는다."
+    },
+    {
+      "id": "V37",
+      "verdict": "supported",
+      "reason": "현금, 자기자본, capex 수치가 모두 인용과 일치한다."
+    },
+    {
+      "id": "V38",
+      "verdict": "supported",
+      "reason": "고점 대비 절반 넘는 하락과 3분기 core 마진 가이던스 38~40%가 인용과 맞는다."
+    },
+    {
+      "id": "V39",
+      "verdict": "supported",
+      "reason": "600MW, RPO, 현금 67.4억, debt_current 7.36억이 일치한다."
+    },
+    {
+      "id": "V40",
+      "verdict": "supported",
+      "reason": "EV/매출 40.51과 고점 대비 하락이 인용과 맞고 나머지는 모델 가정 비판이다."
+    },
+    {
+      "id": "V41",
+      "verdict": "supported",
+      "reason": "증거 부재를 말하는 주장이며 인용에서 그런 증거는 나타나지 않는다."
+    },
+    {
+      "id": "V42",
+      "verdict": "supported",
+      "reason": "600MW와 현금 17.2억→67.4억이 일치하고 나머지는 해석이다."
+    },
+    {
+      "id": "V43",
+      "verdict": "supported",
+      "reason": "매출, 매출채권, 재고, 이연매출 1분기·2분기 수치가 모두 인용과 일치한다."
+    },
+    {
+      "id": "V44",
+      "verdict": "supported",
+      "reason": "SBC 3.77억과 영업손실 4.77억이 맞고 미확인임을 밝혔다."
+    },
+    {
+      "id": "V45",
+      "verdict": "supported",
+      "reason": "SBC 3.77억이 영업손실 4.77억의 대부분이라는 점이 수치로 성립한다."
+    },
+    {
+      "id": "V46",
+      "verdict": "supported",
+      "reason": "3분기 가이던스 39%가 2분기 41%보다 낮고 GAAP 매출은 컨센서스를 밑돌았다."
+    },
+    {
+      "id": "V47",
+      "verdict": "unsupported",
+      "reason": "RPO, 600MW, 현금은 맞지만 '총이익은 오히려 줄었다'는 인용한 자료(gross_profit 등)에 없다."
+    },
+    {
+      "id": "V48",
+      "verdict": "supported",
+      "reason": "RPO 254억 대 매출 5.1억과 백로그 마진 질문 보도가 일치한다."
+    },
+    {
+      "id": "V49",
+      "verdict": "supported",
+      "reason": "총이익 8,618만→2,556만과 매출 컨센서스 하회, 하드웨어 부진이 일치한다."
+    },
+    {
+      "id": "V50",
+      "verdict": "supported",
+      "reason": "GAAP 14%, core 41%, 3분기 39%, 총이익 감소, 600MW와 2027년 60%대 목표가 인용과 맞는다."
+    },
+    {
+      "id": "V51",
+      "verdict": "supported",
+      "reason": "RPO 세부 미공개, 마진 질문 보도, 총이익 감소가 인용과 일치한다."
+    },
+    {
+      "id": "V52",
+      "verdict": "supported",
+      "reason": "RPO, 86%, 총이익 감소, SBC, 발행주식수 불일치가 인용과 맞는다."
+    },
+    {
+      "id": "V53",
+      "verdict": "supported",
+      "reason": "현금, 자기자본, 차입금, debt_current, capex, RPO, 600MW가 모두 일치한다."
+    },
+    {
+      "id": "V54",
+      "verdict": "unsupported",
+      "reason": "영업손실 -1.459억과 non-GAAP 순손실 -7,570만은 맞지만, 보도마다 GAAP 순이익이 다르다거나 3.6억 일회성 이익이라는 내용은 인용 자료에 없다."
+    },
+    {
+      "id": "V55",
+      "verdict": "supported",
+      "reason": "EV/매출 40.51, SBC, 주식 수 2.196억 대 1.51억 불일치가 인용과 맞는다."
+    },
+    {
+      "id": "V56",
+      "verdict": "supported",
+      "reason": "86% 집중이 일치하고 FCF 범위가 넓다는 말은 해석이다."
+    },
+    {
+      "id": "V57",
+      "verdict": "supported",
+      "reason": "근거가 없다는 진술이며 인용 자료에 해당 내용이 없다."
+    },
+    {
+      "id": "V58",
+      "verdict": "supported",
+      "reason": "마진, RPO, 컨센서스, 3분기 core 가이던스가 인용과 일치한다."
+    },
+    {
+      "id": "V59",
+      "verdict": "leap",
+      "reason": "14%와 41%는 맞지만 조정 내역이 미확인인데 이 차이만으로 가격결정력이 없다고 결론내는 것은 자료에서 따라 나오지 않는다."
+    },
+    {
+      "id": "V60",
+      "verdict": "supported",
+      "reason": "86% 집중과 RPO 세부 미확인이 인용과 맞는다."
+    },
+    {
+      "id": "V61",
+      "verdict": "supported",
+      "reason": "현금 증가와 core 41%, GAAP 14%가 인용과 일치한다."
+    },
+    {
+      "id": "V62",
+      "verdict": "supported",
+      "reason": "총이익 감소, 3분기 가이던스 39%, core 41%가 일치한다."
+    },
+    {
+      "id": "V63",
+      "verdict": "supported",
+      "reason": "core 41%, GAAP 14%, 3분기 38~40% 가이던스, 60%대 목표가 인용과 맞는다."
+    },
+    {
+      "id": "V64",
+      "verdict": "supported",
+      "reason": "EV/매출 40.51이 계산값으로 일치하고 나머지는 의견이다."
+    },
+    {
+      "id": "V65",
+      "verdict": "supported",
+      "reason": "GAAP 14%, 3분기 core 39%, 600MW, 2027 목표 인용이 맞는 모델 가정 비판이다."
+    },
+    {
+      "id": "V66",
+      "verdict": "supported",
+      "reason": "총이익 감소와 GAAP 14% 대 core 41% 간격이 인용과 일치한다."
+    },
+    {
+      "id": "V67",
+      "verdict": "supported",
+      "reason": "FY2025 성장 75.7%와 가이던스 8.6억→8.85억이 일치한다."
+    },
+    {
+      "id": "V68",
+      "verdict": "supported",
+      "reason": "core 41%, GAAP 14%, 3분기 38~40%, 2027년 60%대 목표가 인용과 일치한다."
+    }
+  ]
+}
