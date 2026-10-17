@@ -1,0 +1,32 @@
+{
+  "agent": "slater",
+  "stance_on_chair": "부분 동의",
+  "summary": "작은 비중이라는 전제는 내 원칙과 같지만, 앤더슨에 동의해 지금 찬성하는 데는 근거가 부족하다. 시작 비중은 증거가 쌓인 뒤에 정한다.",
+  "points": [
+    {
+      "claim": 1,
+      "assessment": "부분적",
+      "reply": "상방 열림은 인정한다. 강세 시나리오의 10년 가치는 주가의 13.87배, 5년 매출은 10.29배다(C:upside_10y@anderson, C:revenue_5y@anderson). 그러나 강세 확률은 20%이고 기대 연 수익률은 +0.3%, 손실 확률은 80%다(C:expected_irr, C:p_loss). 단위경제는 공시되지 않았고 총이익률은 15.7%에서 정체했다(C:gross_margin@FY2025). 상방이 크다는 것과 증거가 있다는 것은 다르다.",
+      "cites": [
+        "C:upside_10y@anderson",
+        "C:revenue_5y@anderson",
+        "C:expected_irr",
+        "C:p_loss",
+        "C:gross_margin@FY2025"
+      ]
+    },
+    {
+      "claim": 2,
+      "assessment": "근거 있음",
+      "reply": "비중이 작아야 한다는 데 동의한다. 내 제안은 0.5%로, 불투명한 종목은 1% 이하라는 원칙과 맞는다. 다만 작은 비중도 매수 결정이다. 크기를 줄여도 증거가 없다는 사실은 그대로이고, 5.6년 런웨이와 순현금 11.7억 USD(C:runway_years, C:net_cash@FY2025)는 기다릴 시간을 준다는 뜻이지 지금 사야 한다는 뜻이 아니다.",
+      "cites": [
+        "C:runway_years",
+        "C:net_cash@FY2025",
+        "F78",
+        "F79"
+      ]
+    }
+  ],
+  "would_change": "유지",
+  "what_would_change": "FY2026Q3 6-K에서 로보택시 매출이 1,600만 USD 이상이고(F77 대비 증가) 로보택시 부문 총이익 또는 대당 단위경제가 공시되어 총이익률이 15%대를 벗어나면 1% 내외 시작 비중으로 찬성으로 바꾼다."
+}
