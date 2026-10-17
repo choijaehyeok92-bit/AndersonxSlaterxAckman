@@ -1,25 +1,80 @@
 # Amazon (AMZN) 리서치 보고서 — 기준일 2026-10-18
 
-**판정 불가 — 모델** — 토론 전 단계에서 멈춤
+**찬성 우세** — 찬성 2 · 반대 1 · 보류 0 · 확신 가중 점수 +0.13 (−1~+1)
 
-- 게이트: 근거 충분성 ✓ → 회계 품질 ✓ → 모델 ✗ model.json 없음 또는 시나리오 계산 불가 — 계산 경고 참고
-
-> 게이트에서 멈췄다 — 뒤 단계(모델·토론)는 실행하지 않는다. 이유: model.json 없음 또는 시나리오 계산 불가 — 계산 경고 참고
+- 게이트: 근거 충분성 ✓ → 회계 품질 ✓ → 모델 ✓
 
 ## 1. Variant perception
 
-- 시장이 반영한 것: 주가 258.58 USD(2026-10-13)는 시가총액 약 2.82조 USD로, 시장은 매출이 컨센서스 FY2026 8,289억 수준에서 이어 늘고 capex 2,200억 이후 FCF가 회복된다는 가정을 이미 가격에 담았다. 역DCF의 시장 내재 성장(C:implied_cagr)과 우리 기본 시나리오의 대조는 calc 결과로 확인해야 한다. 3분기 컨센서스(매출 2,039억, 영업이익 254억)는 회사 가이던스 중간값(1,995억, 245억)보다 높다.
-- 우리가 다르게 보는 점: 성장은 컨센서스와 크게 다르지 않다. 차이는 FCF 경로다. 시장은 영업이익 증가에 주목하지만, 우리는 capex 2,200억이 감가상각으로 손익에 번지면서 FCF 마진이 회복되는 시점과 폭이 불확실하다고 본다. 기본 시나리오의 12% 마진 도달은 가정이지 확인된 사실이 아니다. 따라서 variant는 성장이 아니라 투자 회수 속도에 있고, 시나리오 분포가 한쪽으로 쏠리지 않고 양쪽으로 넓다는 점이다.
-- 왜 우리가 맞는가: 분기 감가상각이 FY2025Q1 142.6억에서 FY2026Q2 199.9억으로 늘어 투자 부담이 손익에 들어오기 시작했다. 반면 같은 기간 영업이익은 늘어 지금은 매출 성장이 상각을 앞선다. 컨센서스 capex(2,061억)보다 회사 가이던스(2,200억)가 높아 시장이 투자 규모를 아직 따라가는 중이다. 부문별 매출·AWS 수주잔고 사실이 없어 이 판단의 근거는 약하다. 이 한계를 확신도에 반영해야 한다. [F18] [F22] [F92] [F96] [F136] [F137] [F138] [F139] [F140] [F141] [F135] [F132] [S25](https://news.google.com/rss/articles/CBMifEFVX3lxTE5YU3ZKX2xoamdmZWNkOE52VGdqb3VtQTFUTXl1S0hwdWFZNGlNTE1SMGNjZlR1MXpVN2lINkVwd1VoWEdkTGFmcFItRTlxVFIyUkhwYlJCM3l5T29aYjhUM0tRSjdYNGVZY3c5eHBqVTNpVmR4aEdSTXJtd1HSAYIBQVVfeXFMTVhaMjBSNjI0eXFRb3NsNUxJNzNlalZvUjRUQkpmSFNkMGJtUVVGS19PN1JLdWpmMEdJaVVvR1B4S1dDN0NUM3dpcWRqdmxiZjdDakUzblV0TmU2QVI0UzRWNldDS3F0MC1DWGU2MUEydXV5c0lYYWI5bFA3WlJoSFhSZw?oc=5) [S45](https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/08/amazon-postq-aws-reaccelerates-as-ai-investment-pushes-capex-higher)
-- 촉매: 3분기 실적과 2027년 capex·마진 가이던스, 감가상각과 영업이익의 증가율 비교.
-- 시점: 2026년 4분기 ~ 2027년 상반기
+- 시장 내재: 매출 10년 연 13.3% (FCF 마진 14% 수렴 가정) · 기본 시나리오: 5년 연 12.5%
+- 시장이 반영한 것: 역DCF상 현재 EV는 FCF 마진 15%를 가정하면 10년 매출 연 12.5% 성장을 요구한다(C:implied_cagr@m15). 즉 시장은 이미 설비투자 이후 FCF 정상화를 상당 부분 가격에 넣었다. 컨센서스 FY2026 매출 약 8,289억 달러도 우리 기본 시나리오와 거의 같다.
+- 우리가 다르게 보는 점: 기본 시나리오의 매출 경로는 컨센서스와 사실상 같아 매출 쪽 variant는 없다. 차이는 두 가지다. 첫째, 설비투자 가이던스(2,200억 달러)가 실적 전 컨센서스(2,061억 달러)보다 높아 FCF 정상화 시점이 시장 기대보다 늦다. 둘째, 분기 가이던스를 보수적으로 잡고 넘기는 경향(1분기 매출·영업이익 모두 상회)이 있어 단기 이익은 컨센서스보다 높게 나온다.
+- 왜 우리가 맞는가: 단기는 가이던스 상회 패턴이 근거이고, 중기는 설비투자 증가가 FCF를 누른다는 점이 근거다. 두 힘이 엇갈려 기대수익률은 시장 요구수익률 근처에 머문다. 기가이던스 표본이 2개뿐이라 단기 쪽 근거는 약하다. 이 모델에는 뚜렷한 알파가 없다는 점을 그대로 적는다. [C:implied_cagr@m15] [F135] [F140] [F141] [F139] [C:guidance_hit_rate]
+- 촉매: 2026년 3분기 실적(영업이익이 가이던스 상단 265억 달러를 넘는지)과 2027년 설비투자 가이던스.
+- 시점: 2026년 10월 말 3분기 발표, 2027년 2월 연간 가이던스
+- 컨센서스 대비 revenue FY2026: -0.1% (8,280.5억 USD vs 8,289.0억 USD)
+
+## 2. 시나리오 분포와 기대수익률
+
+확률 가중 IV **255.49** vs 주가 258.58 · 기대 연 수익률 **+9.7%** · 손실 확률 30%
+
+| 시나리오 | 확률 | 주당 가치 | IV | 연 수익률 | 근거 |
+|---|---|---|---|---|---|
+| 약세 | 30% | 110.40 | 68.55 | -15.7% | AI 설비투자가 가이던스(2,200억 달러)대로 집행되지만 수요가 이를 따라오지 못한다. AWS 증설 대비 가동률이 낮아 감가상각만 늘고, 소매·광고 마진은 FTC 소송과 경쟁으로 제자리다. 그 결과 FCF 마진이  |
+| 기본 | 50% | 459.69 | 285.43 | +12.2% | FY2026 매출은 컨센서스 약 8,289억 달러(전년 대비 약 15.6%)에 맞춘다. 이후 성장은 AWS 재가속(2분기 영업이익률 추정 39% 안팎)과 광고 비중 확대로 서서히 둔화한다. 설비투자는 2026~202 |
+| 강세 | 20% | 742.56 | 461.07 | +23.5% | AI 인프라 수요가 증설을 초과해 AWS 성장이 20%대 중반을 유지하고, 자체 칩 Graviton 약정 증가(전 분기 대비 약 3배)가 마진을 받친다. 광고와 물류 자동화 효과로 소매 마진도 오르면서 설비투자 정점 |
+
+## 3. 반증 조건 (thesis break)
+
+- [자료 없음] 앤더슨: AWS 매출이 2분기 수준 아래로 후퇴 — 수요가 증설을 따라오지 못한다는 신호 — `aws_revenue < 4.2e+10` (FY2026Q3)
+- [자료 없음] 앤더슨: AWS 영업이익이 2분기보다 줄어듦 — 규모의 이익 가설 훼손 — `aws_operating_income < 1.6e+10` (FY2026Q3)
+- [수동 확인] 앤더슨: 연간 설비투자를 올리는데 AWS 성장률이 오히려 둔화하는 분기가 이어지면 수동 확인
+- [자료 없음] 슬레이터: AWS 영업이익이 2분기 수준 아래로 후퇴 — 증설이 이익으로 돌아온다는 가설 훼손 — `aws_operating_income < 1.66e+10` (FY2026Q3)
+- [자료 없음] 슬레이터: 분기 설비투자가 정점을 지나지 못하고 계속 증가 — `capex > 6.2e+10` (FY2026Q3)
+- [수동 확인] 슬레이터: 증설 자금을 위해 대규모 외부 조달이 필요해지는 경우 — 수동 확인
+- [미충족] 애크먼: 주가가 205달러 아래로 내려가 기본 시나리오 대비 안전마진 20%를 넘으면 재검토 — `price < 205`
+- [자료 없음] 애크먼: 3분기 설비투자가 620억 달러 이하로 정점 신호가 나오는지 확인 — `capex <= 6.2e+10` (FY2026Q3)
+- [수동 확인] 애크먼: 설비투자가 영업현금흐름 안에서 지출되어 총 설비투자 기준 FCF가 양수로 전환 — 수동 확인
+- [미충족] 레드팀: AWS 영업이익이 FY2026Q2의 166.2억 아래로 후퇴 — 증설 비용이 이익을 잠식하기 시작 — `aws_operating_income < 1.5e+10`
+- [미충족] 레드팀: AWS 매출이 FY2026Q2의 422.3억 아래로 역성장 — 재가속 가정 이탈, 점유율 손실 가능성 — `aws_revenue < 4.2e+10`
+- [미충족] 레드팀: 매출채권이 950억 초과 — 매출보다 빠른 증가가 이어져 수금·계약 조건 악화 가능성 — `receivables > 9.5e+10`
+- [미충족] 레드팀: 영업이익이 FY2026Q3 가이던스 하단(225억) 미만 — 가이던스 상회 패턴 붕괴 — `operating_income < 2.25e+10`
+
+## 4. 모니터링 KPI (예측 — 교정의 재료)
+
+| ID | 지표 | 기간 | 기대 | 확률 | 이유 |
+|---|---|---|---|---|---|
+| K1 | revenue | FY2026Q3 | >= 2.02e+11 | 65% | 가이던스 상단(2,020억 달러)을 넘는 상회 패턴이 이어지는지 시험한다. 컨센서스 약 2,039억 달러 근처다. |
+| K2 | operating_income | FY2026Q3 | >= 2.65e+10 | 55% | 가이던스 상단 이상이 나오면 감가상각 증가에도 마진이 늘어난다는 가설이 맞다. |
+| K3 | aws_revenue | FY2026Q3 | >= 4.5e+10 | 60% | AWS 재가속이 지속되는지가 기본 시나리오 성장 경로의 핵심 전제다. |
+| K4 | aws_operating_income | FY2026Q3 | >= 1.75e+10 | 55% | 증설 비용이 늘어도 AWS 영업이익이 유지되는지 시험한다. 이게 깨지면 FCF 정상화 가정이 무너진다. |
+| K5 | capex | FY2026Q3 | <= 6.2e+10 | 70% | 연간 가이던스 2,200억 달러 아래에서 분기 지출이 정점을 지났는지 본다. 상반기 합계는 984억 달러다. |
 
 ## 5. 확신도와 비중
 
-- 확신 가중 점수 +0.00 · 비중 참고값 0.0% (판정 전)
+- 확신 가중 점수 +0.13 · 비중 참고값 0.0% (확률 가중 기대 연 수익률 +9.7%가 요구수익률 10% 이하 — 찬성이어도 가격이 보상하지 않는다) · 슬레이터 시작 비중 1.0%
 - **최종 확신도와 비중은 사람이 정한다** — `python3 council.py decide <TICKER> --size 0.02 --note "이유"`
 
+## 표결
 
+| 에이전트 | 1라운드 → 최종 | 확신 | 레드라인 | 논거 검증 | 지표 (코드 계산 포함) |
+|---|---|---|---|---|---|
+| 앤더슨 | 찬성 → 찬성 | 3/5 | ✓ | 0/5 실패 | founder_led=아니오, upside_10y=5.56x, revenue_5y=2.06x |
+| 슬레이터 | 찬성 → 찬성 | 3/5 | ✓ | 0/5 실패 | unit_economics=unclear, survival_path=예, starter_weight=1.0%, cash_survives=예, cash_min=1,229.9억 USD, runway_years=10.6 |
+| 애크먼 | 반대 → 반대 | 4/5 | ✗ 단순·예측 가능한 사업이 아님; 잉여현금흐름을 만들지 못함 (코드 계산); 안전마진 20% 미만 또는 계산 불가 | 1/5 실패 | simple_predictable=아니오, capital_markets_dependent=아니오, catalyst=없음 — 2026년 3분기 실적과 2027년 설비투자 가이던스는 확인 사건이지 격차를 좁힐 행동이 아니다, intrinsic_value=285.4, mos=9.4%, fcf_positive=아니오 |
+
+- ⚠ 앤더슨: arguments[4] leap: 역DCF 13.3%와 17.5%는 맞지만 17.5%는 강세 성장률 15.6%보다 높아 '강세 case의 성장률 안쪽'이라는 서술이 두 값 모두에 성립하지 않는다.
+- ⚠ 앤더슨: arguments[2]: 인용하지 않은 근거의 숫자 28(C:exit_multiple@bull) — cites에 추가
+- ⚠ 앤더슨: rebuttals[4]: 인용하지 않은 근거의 숫자 14%(C:fcf_margin@base) — cites에 추가
+- ⚠ 앤더슨: arguments[4]: 인용하지 않은 근거의 숫자 14%(C:fcf_margin@base), 10%(C:discount_rate·C:expected_irr) — cites에 추가
+- ⚠ 앤더슨: rebuttals[0]: 인용하지 않은 근거의 숫자 14%(C:fcf_margin@base) — cites에 추가
+- ⚠ 앤더슨: risks[0]: 인용하지 않은 근거의 숫자 6%(C:fcf_margin@bear·C:implied_cagr@m25) — cites에 추가
+- ⚠ 슬레이터: rebuttals[2] unsupported: 없는 근거 인용: C:base_rate@base
+- ⚠ 애크먼: arguments[0] unsupported: 없는 근거 인용: C:intrinsic_value@base
+- ⚠ 애크먼: rebuttals[0]: 인용하지 않은 근거의 숫자 14%(C:fcf_margin@base) — cites에 추가
+- ⚠ 애크먼: rebuttals[2]: 인용하지 않은 근거의 숫자 14%(C:fcf_margin@base) — cites에 추가
+- ⚠ 애크먼: risks[0]: 인용하지 않은 근거의 숫자 14%(C:fcf_margin@base) — cites에 추가
+- ⚠ 애크먼: arguments[3]: 인용하지 않은 근거의 숫자 14%(C:fcf_margin@base) — cites에 추가
 - ⚠ call 유형 근거 없음 — 리서치 보강 필요
 - ⚠ 사실 충돌 cash FY2025: F2=5.7741e+10, F3=6.6922e+10, F4=8.681e+10 — 1차 자료 우선으로 하나만 쓴다
 - ⚠ 사실 충돌 cash FY2026: F5=1.01816e+11, F6=7.8213e+10 — 1차 자료 우선으로 하나만 쓴다
@@ -47,59 +102,177 @@
 - ⚠ 사실 충돌 short_term_investments FY2026: F124=4.1273e+10, F125=4.4775e+10 — 1차 자료 우선으로 하나만 쓴다
 - ⚠ 사실 충돌 total_assets FY2025: F127=6.8217e+11, F128=7.27921e+11, F129=8.18042e+11 — 1차 자료 우선으로 하나만 쓴다
 - ⚠ 사실 충돌 total_assets FY2026: F130=9.1663e+11, F131=1.09569e+12 — 1차 자료 우선으로 하나만 쓴다
-- ⚠ 시나리오 계산 불가 — 연간 매출·영업현금흐름·설비투자·주가·주식 수 필요
+- ⚠ 모델이 컨센서스와 사실상 같다 — variant perception이 없다면 알파도 없다
+- ⚠ 기저율 표 없음 — `python3 council.py baserate`로 data/base_rates.json을 만든다
+- ⚠ 레드팀 premortem[3] 검증 실패(unsupported): 출처 없는 숫자 6.8% — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- ⚠ 사업·산업 findings[3] 검증 실패(unsupported): 출처 없는 숫자 18.7% — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- ⚠ 회계 품질 findings[5] 검증 실패(unsupported): 없는 근거 인용: C:goodwill_to_assets
+- ⚠ 레드팀 weakest[1] 검증 실패(unsupported): 출처 없는 숫자 0.75, 19.5, 6.5% — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- ⚠ 사업·산업 findings[6] 검증 실패(unsupported): 출처 없는 숫자 19.6% — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- ⚠ 회계 품질 findings[3] 검증 실패(unsupported): 출처 없는 숫자 9.841e+10 — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- ⚠ 레드팀 weakest[0] 검증 실패(unsupported): 없는 근거 인용: C:base_rate@base
+- ⚠ 레드팀 premortem[1] 검증 실패(unsupported): 출처 없는 숫자 61%, 1.584e+11, 6.8% — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- ⚠ 사업·산업 moat[0] 검증 실패(unsupported): 출처 없는 숫자 35%, 39.4% — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- ⚠ 레드팀 premortem[0]: 인용하지 않은 근거의 숫자 15.7%(C:irr@bear) — cites에 추가
+
+## 앤더슨 — 찬성 (3/5)
+
+> 아마존은 AWS의 AI 인프라와 소매·광고·물류가 한 회사 안에서 함께 자라는, 드문 대형 복리 기업 후보다. 매출 성장이 둔화하지 않고 가속하고 있고(FY2025 12.4%, 2026년 2분기는 전년 동기 대비 약 19.6%), AWS는 규모가 커지면서 영업이익도 같이 늘고 있다. 회사는 2026년 설비투자를 2,200억 달러로 올려 수확체증 곡선에 정면으로 베팅한다. 단기 FCF가 음수인 것은 소음이고, 성장 가설을 깨는 것은 AWS 수요가 증설을 따라오지 못하는 경우뿐이다. 강세 시나리오로 10년을 늘려 보면 주당 가치가 현재 주가의 5배를 넘고 5년 매출이 2배를 넘어 두 문턱을 아슬아슬하게 통과한다. 다만 여유가 크지 않고 기대수익률은 보통 수준이다. 그래서 확신은 3으로 둔다. 시장이 이 기회를 과소평가한다고 말하기 어렵고 기저율 표도 없다는 점을 숨기지 않는다.
+
+**논거**
+- AWS는 규모가 커지면서 이익도 같이 커진다. 매출은 FY2025Q4 355.8억 달러에서 FY2026Q2 422.3억 달러로, 영업이익은 124.7억 달러에서 166.2억 달러로 늘었다. 증설 비용이 늘어도 수확체증이 꺾이지 않았다는 초기 증거다 (6번 질문: 이익률 여지). [F150] [F151] [F152] [F153]
+- 성장이 둔화가 아니라 가속이다. 매출 성장은 FY2024 11.0%에서 FY2025 12.4%로 올랐고, 2026년 2분기 매출은 2,006.1억 달러로 전년 동기 1,677.0억 달러보다 훨씬 크다. 이 크기의 기업이 가속하는 것이 멱법칙 기업의 특징이다 (1번 질문). [C:revenue_growth@FY2024] [C:revenue_growth@FY2025] [F105] [F108]
+- 강세 case(연 15.6%대 성장, FCF 마진 18%, 출구 P/FCF 28배)로 10년을 늘리면 희석을 반영한 주당 가치가 현재 주가의 5.56배, 5년 매출은 2.06배다. 5배가 될 수 있는 길이 보이지만 문턱을 간신히 넘는다는 점이 이 종목의 한계다 (10번 질문). [C:upside_10y@anderson] [C:revenue_5y@anderson] [C:revenue_cagr@bull] [C:fcf_margin@bull]
+- 재투자 의지가 크다. 2026년 설비투자 가이던스는 2,200억 달러로 실적 전 컨센서스 2,061억 달러보다 높고, 2분기 설비투자만 542.1억 달러다. 분기 실적을 위해 투자를 줄이는 대신 상방 곡선에 자본을 쏟는 쪽이며, 현금 소진 연수 10.6년이 이 베팅을 버틸 여유를 준다 (7·8번 질문). [F140] [F141] [F149] [C:runway_years]
+- 시장은 이미 상당 부분을 가격에 넣었다. 역DCF상 FCF 마진 14%를 가정하면 10년 매출 연 13.3% 성장이 필요하고, 마진을 10%로 낮추면 연 17.5%가 필요하다. 이는 우리 강세 case의 성장률 안쪽이므로, 마진이 오르는 길이 열리면 시장 기대를 넘길 수 있다. 다만 과소평가라고 주장하기에는 근거가 약하다 (9번 질문). [C:implied_cagr@m14] [C:implied_cagr@m10] [C:revenue_cagr@bull]
+
+**사전 부검**
+- 사전 부검: 수요가 2,200억 달러 증설을 따라오지 못하면 감가상각만 늘고 FCF 마진이 6%에서 멈춘다. 이 경우 약세 case의 연 수익률은 -15.7%다. FY2025 FCF가 이미 음수이고 FCF 마진 -1.5%인 점이 이 위험을 보여준다. [F140] [C:fcf_margin@FY2025] [C:irr@bear]
+- 사전 부검: 기대수익률이 연 9.7%로 요구수익률 근처이고 손실 확률이 30%다. 기대 편차가 크지 않아 대담함이 보상받지 못할 수 있다. 컨센서스와 같은 모델이라 variant perception도 없다. [C:expected_irr] [C:p_loss] [F135]
+- 사전 부검: FTC의 스폰서 광고 소송이 이익원인 광고를 건드려 소매 마진 개선 가설을 깰 수 있다. 금액 영향은 확인하지 못했다. 이는 경로의 소음일 가능성이 크지만 광고 가설을 약하게 만든다. [S32](https://news.google.com/rss/articles/CBMiigFBVV95cUxNN1RnMWxFWmtqTEJZNmtTNmVHdGZhUXhVbEVTenNKam8xZmtIVGNfQlYwRlY2anZ1ZXZWc1RDUW9DUFc2endnM1pOdU13c2I0RExUUGNrVFlvajZFWk8wNHZDQVdLR0JNc0wxeG1Lb05mektkVnVhejRsd1oxSG1jNGxBVWhoY2xkSHc?oc=5)
+
+**반론**
+- → 애크먼: 애크먼의 가장 강한 논거는 기본 시나리오 안전마진 9.4%가 기준 20%에 못 미친다는 것이다. 이 계산은 5년 뒤 출구 배수로 현재를 재는 도구다. 내 질문은 10년 뒤 이 회사의 크기다. 강세 case로 10년을 늘리면 희석을 반영한 주당 가치가 주가의 5.56배다. 시장 내재 성장도 FCF 마진 14%에서 연 13.3%이고, 마진이 더 오르면 필요한 성장률은 더 낮아진다(25%면 연 6.3%). 가격이 비싸다는 반론은 마진이 오르는 길이 얼마나 열려 있는지로 답해야 한다. [C:mos@ackman] [C:upside_10y@anderson] [C:implied_cagr@m14] [C:implied_cagr@m25]
+- → 애크먼: FCF가 음수라서 현금을 뿜지 못한다는 지적은 사실이지만 원인이 다르다. 2분기 설비투자 542.1억 달러가 영업현금흐름 453.9억 달러를 넘은 것은 수요가 있다고 보고 증설 속도를 올린 결과다. 같은 기간 AWS 영업이익은 124.7억에서 166.2억 달러로 늘었다. 음수 FCF가 사업의 약점이 아니라 재투자 의지의 표현인지는 AWS 영업이익이 판가름한다. 그래서 내 반증 조건은 주가가 아니라 AWS 매출과 영업이익이다. [F149] [F90] [F151] [F153]
+- → 슬레이터: 슬레이터는 작은 시작 비중으로 증거를 기다리자고 한다. 증거를 기다리다 가장 가치 있는 구간을 놓치는 것이 더 큰 실수일 수 있다. 이미 증거는 있다. AWS 매출은 355.8억에서 422.3억 달러로, 영업이익은 124.7억에서 166.2억 달러로 늘었고, 1분기 가이던스도 매출·영업이익 모두 상회했다. 다만 그 표본이 2개뿐이라는 점은 인정한다. 크게 사자는 주장이 아니라 사는 쪽에 서자는 주장이다. [F150] [F152] [F151] [F153] [C:guidance_hit_rate]
+- → 레드팀: 레드팀의 첫 사전 부검(수요가 증설을 따라오지 못해 좌초자산이 되는 경우)은 내 성장 가설을 직접 깨는 시나리오다. 소음이 아니다. 그래서 반증 조건을 그 신호에 맞췄다. AWS 매출이 422.3억 달러 아래로 내려가거나 영업이익이 166.2억 달러 아래로 내려가면 나는 생각을 바꾼다. 반면 매출채권 증가와 순이익의 질은 원인이 근거에 없어 경로의 소음일 수 있다. AWS 지표가 유지되는 한 이것만으로 성장 가설이 깨졌다고 보지 않는다. [F140] [F152] [F153] [F102] [F80] [F96]
+- → 레드팀: 레드팀이 약한 가정으로 짚은 기본 시나리오의 FCF 마진 14%는 옳은 지적이다. 다만 나는 기본 시나리오가 아니라 강세 case로 판단한다. 약세 확률 30%와 기대 연 수익률 +9.7%는 요구수익률 근처여서 대담함이 보상받는다는 증거가 약하다. 이 점이 확신을 3에 묶어 두는 이유다. [C:expected_irr] [C:p_loss] [C:fcf_margin@FY2025]
+
+**인정한 점**
+- 애크먼의 지적대로 기본 시나리오의 안전마진은 기준에 못 미치고 총 설비투자 기준 FCF도 음수다. 찬성은 가격이 싸서가 아니라 10년 뒤 크기에 거는 비대칭 때문이며, 그래서 확신은 3 이상으로 올리지 않는다.
+- 슬레이터의 지적대로 AWS 영업이익과 매출은 3분기에 확인해야 하는 '위험 있음' 가정이다. 큰 비중이 아니라 작은 시작 비중이 맞다.
+- 레드팀의 지적대로 컨센서스와 같은 모델이라 시장이 이 기회를 과소평가한다고 주장할 근거가 약하고 기저율 표도 없다. 5배 문턱을 간신히 넘는 종목이라는 점은 숨기지 않는다.
+
+
+## 슬레이터 — 찬성 (3/5)
+
+> 시장의 천장은 보이지 않고 증거도 쌓이고 있다. AWS는 매출과 영업이익이 함께 늘며 증설이 이익으로 돌아온다는 것을 숫자로 보여주고 있다. 다만 아직 증명되지 않은 것은 2,200억 달러 규모 설비투자의 회수다. 총 설비투자 기준 FCF가 음수이고, 기본 시나리오의 기대 연 수익률도 요구수익률 근처에 머문다. 그래서 큰 비중이 아니라 작은 시작 비중에 찬성한다. 현금 경로는 외부 자본 없이 버틴다. 단위경제의 직접 지표(CAC·이탈률)는 없어 'unclear'로 둔다. 다음 분기 AWS 영업이익과 설비투자가 가설을 확인하거나 깨뜨릴 것이고, 확인되면 비중을 키운다.
+
+**논거**
+- AWS가 증설의 성과를 숫자로 보여준다. 매출은 FY2025Q4 355.8억 달러에서 FY2026Q2 422.3억 달러로, 영업이익은 124.7억 달러에서 166.2억 달러로 늘었다. 매출보다 이익이 더 빨리 늘었으므로 규모의 이익이 입증 단계에 있다. [F150] [F151] [F152] [F153]
+- 기회의 지속성은 크다. 설비투자는 FY2026Q2에 542.1억 달러로 분기마다 늘고 연간 가이던스는 2,200억 달러다. 회사가 이만큼 투자한다는 것은 수요가 증설을 따라오고 있다는 경영진의 판단이다. 다만 이는 아직 계획이고 실적은 AWS 이익이 확인한다. [F149] [F140] [S25](https://news.google.com/rss/articles/CBMifEFVX3lxTE5YU3ZKX2xoamdmZWNkOE52VGdqb3VtQTFUTXl1S0hwdWFZNGlNTE1SMGNjZlR1MXpVN2lINkVwd1VoWEdkTGFmcFItRTlxVFIyUkhwYlJCM3l5T29aYjhUM0tRSjdYNGVZY3c5eHBqVTNpVmR4aEdSTXJtd1HSAYIBQVVfeXFMTVhaMjBSNjI0eXFRb3NsNUxJNzNlalZvUjRUQkpmSFNkMGJtUVVGS19PN1JLdWpmMEdJaVVvR1B4S1dDN0NUM3dpcWRqdmxiZjdDakUzblV0TmU2QVI0UzRWNldDS3F0MC1DWGU2MUEydXV5c0lYYWI5bFA3WlJoSFhSZw?oc=5)
+- 생존에는 문제가 없다. 코드 계산상 현금 소진 연수는 10.6년이고 기본 시나리오의 현금 경로는 0 아래로 내려가지 않는다. 외부 자본에 의존해 계획을 실행하는 구조가 아니다. [C:runway_years] [S48](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260630xex991.htm)
+- 가이던스를 보수적으로 잡고 넘기는 기록이 있다. 매출과 영업이익 모두 가이던스를 웃돌았고 코드가 계산한 적중률은 100%다. 표본이 작아 신뢰의 증거라기보다 방향성 단서다. [C:guidance_hit_rate] [F154] [F107] [F155] [F95]
+- 가격이 요구하는 것은 과하지 않다. 기본 시나리오의 기대 연 수익률은 +9.7%이고 손실 확률은 30%다. 큰 비중을 정당화하는 수준은 아니어서 작게 시작하고 증거로 키우는 규모가 맞다. [C:expected_irr] [C:p_loss]
+
+**사전 부검**
+- 사전 부검: 증설이 수요를 앞질러 감가상각만 쌓였다면 AWS 이익이 후퇴하고 FCF 정상화 가정이 무너진다. 총 설비투자 기준 FCF는 이미 음수다. [C:fcf@FY2025] [C:fcf_margin@FY2025] [F22]
+- 사전 부검: 매출채권이 880.9억 달러로 늘어, 매출 증가의 질이 대형 계약의 결제 조건 완화에 기댄 것일 수 있다. 원인은 근거에 없다. [F102] [F98]
+- 사전 부검: 광고 소송 등 규제로 고마진 이익원이 훼손되면 AWS를 뺀 부문의 낮은 마진이 전사 이익을 누른다. 금액 영향은 확인하지 못했다. [S32](https://news.google.com/rss/articles/CBMiigFBVV95cUxNN1RnMWxFWmtqTEJZNmtTNmVHdGZhUXhVbEVTenNKam8xZmtIVGNfQlYwRlY2anZ1ZXZWc1RDUW9DUFc2endnM1pOdU13c2I0RExUUGNrVFlvajZFWk8wNHZDQVdLR0JNc0wxeG1Lb05mektkVnVhejRsd1oxSG1jNGxBVWhoY2xkSHc?oc=5) [F96] [F153]
+
+**반론**
+- → 애크먼: 애크먼의 가장 강한 논거는 FCF가 음수라는 점이고, 이 점은 맞다. 다만 설비투자 542.1억 달러가 영업현금흐름 453.9억 달러를 넘는 것은 성장 투자가 선행하는 구간의 모양이다. 판단할 것은 이 투자가 AWS 이익으로 돌아오는지이다. AWS 영업이익은 124.7억 달러에서 166.2억 달러로 늘었으니 회수가 시작됐다는 증거가 있다. 그리고 생존 판정은 현금 경로가 0 아래로 내려가지 않는지로 한다. 현금 소진 연수가 10.6년이어서 외부 자본에 기대지 않고 버틴다. 애크먼은 오늘 예측할 수 없다는 이유로 거부하지만, 나는 그 불확실성을 비중으로 처리한다. 작게 시작하고 3분기 AWS 숫자로 키울지 정한다. [F149] [F90] [F151] [F153] [C:runway_years]
+- → 앤더슨: 앤더슨의 가장 강한 논거는 가속하는 성장과 5배 상방 경로이다. 그러나 강세 case의 10년 상방 5.56배는 문턱을 간신히 넘는 값이고, 그 경로는 FCF 마진이 음수에서 18%까지 올라온다는 가정에 기댄다. 이 가정은 아직 계획이지 실적이 아니다. 내가 찬성하는 근거는 5배가 아니라 증거가 쌓이는 속도이다. 기대 연 수익률이 요구수익률 근처이므로 확신은 앤더슨만큼 올리지 않고, 비중은 작게 둔다. 5배가 성립하려면 AWS 매출과 영업이익이 3분기에도 올라야 한다는 점은 우리 둘이 같은 지표를 본다. [C:upside_10y@anderson] [C:fcf_margin@bull] [C:expected_irr] [F152] [F153]
+- → 레드팀: 레드팀의 가장 강한 논거는 기본 시나리오의 FCF 마진이 -1.5%에서 5년 뒤 14%로 직선 상승한다는 가정이 근거 없이 가치 대부분을 만든다는 것이다. 이 지적은 인정한다. 그래서 내 must_be_true는 가치 가정이 아니라 AWS 영업이익, AWS 매출, 분기 설비투자라는 관측 가능한 선행 신호로 둔다. 그중 AWS 영업이익과 AWS 매출은 이미 at_risk로 표시했다. 사전 부검의 첫째 경로가 깨질 때 가장 먼저 나타나는 신호가 AWS 영업이익 후퇴이다. 내 반증 조건은 이를 직전 분기 166.2억 달러 수준에서 바로 잡는다. 레드팀의 신호 값보다 더 일찍 걸린다. 매출채권 증가는 원인이 근거에 없으므로 가설로 남기고, 증거가 나오기 전에는 비중을 키우지 않는다. [C:fcf_margin@FY2025] [F153] [F152] [F102] [F98] [C:base_rate@base]
+
+**참이어야 하는 것**
+- [at_risk] AWS 영업이익이 증설 비용을 흡수하며 2분기 수준 이상을 유지한다
+- [at_risk] AWS 매출 재가속이 이어진다
+- [on_track] 분기 설비투자가 정점을 지난다
+- [on_track] 전사 영업이익이 가이던스 상단 이상으로 나온다
+
+**인정한 점**
+- 애크먼의 지적대로 총 설비투자 기준 FCF는 음수이고 안전마진도 20% 기준에 못 미친다. 그래서 시작 비중을 1라운드의 2%에서 1%로 낮춘다. 확신 3은 유지한다.
+- 레드팀의 지적대로 기본 시나리오의 FCF 마진 개선 가정은 검증되지 않았다. 비중을 늘리는 조건을 3분기 AWS 실적 확인 이후로 미룬다.
+
+
+## 애크먼 — 반대 (4/5)
+
+> 아마존은 지배적인 플랫폼이고 AWS 마진도 좋지만, 지금 가격에서는 담지 않는다. 가장 큰 문제는 가격이다. 기본 시나리오로 계산한 내재가치 대비 안전마진이 20% 기준에 크게 못 미친다. 두 번째는 현금이다. 설비투자가 영업현금흐름을 넘어 총 설비투자 기준 FCF가 음수라서, 내가 요구하는 '현금을 뿜는 사업'이라는 조건을 지금은 채우지 못한다. 세 번째는 예측 가능성이다. 2026년 설비투자 가이던스가 2,200억 달러까지 올랐고 그 수익률은 아직 증명되지 않아, 10년 뒤 FCF를 좁은 범위로 추정하기 어렵다. 부채가 늘고 있어 자본시장 의존도 확인이 필요하다. 좋은 회사지만 가격이 보상해 주지 않는다.
+
+**논거**
+- 안전마진이 부족하다. 기본 시나리오의 주당 내재가치는 285.43이고 현재 주가는 258.58이라 안전마진이 약 9.4%로 20% 기준에 못 미친다. 확률 가중 현재가치도 255.49로 주가보다 낮다. [C:intrinsic_value@base] [C:price] [C:mos@ackman] [C:iv@base]
+- FCF가 음수다. FY2025 FCF는 -106.8억 달러이고 FCF 마진은 -1.5%다. TTM FCF 수익률도 -0.4%라서, 주주가 가져갈 수 있는 현금을 지금은 만들지 못한다. 투자가 성과를 내야만 정상화되는 구조다. [C:fcf@FY2025] [C:fcf_margin@FY2025] [C:fcf_yield]
+- 설비투자가 영업현금흐름을 앞선다. FY2026Q2 설비투자는 542.1억 달러, 영업현금흐름은 453.9억 달러다. 연간 설비투자 가이던스는 2,200억 달러로 실적 전 컨센서스 2,061억 달러보다 높아졌다. 10년 뒤 FCF 범위가 넓어져 단순·예측 가능이라는 조건을 채우기 어렵다. [F149] [F90] [F140] [F141]
+- 시장은 이미 정상화를 상당 부분 가격에 넣었다. 역DCF상 FCF 마진 14%를 가정하면 10년 매출 연 13.3% 성장이 필요하고, 우리 기본 시나리오의 5년 성장률(연 12.5%)보다 높다. 약세 시나리오의 연 수익률은 -15.7%이고 손실 확률은 30%다. 위쪽 폭은 있지만 아래쪽 보호가 없다. [C:implied_cagr@m14] [C:revenue_cagr@base] [C:irr@bear] [C:p_loss]
+- 사업의 질은 인정한다. AWS 영업이익은 FY2025Q4 124.7억 달러에서 FY2026Q2 166.2억 달러로 늘었고 FY2026Q1 가이던스를 매출·영업이익 모두 상회했다. 그러나 해자의 증거는 AWS 규모 외에는 회사 발표 수준이고, 이 질이 가격에 이미 반영돼 있다. 좋은 회사를 적정가에 사는 것은 내 기준이 아니다. [F151] [F153] [C:guidance_hit_rate] [S48](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260630xex991.htm)
+
+**사전 부검**
+- 사전 부검: 내가 틀렸다면, 설비투자 정점이 예상보다 빨리 와서 FCF 마진이 14%를 넘어 정상화되고 AWS 영업이익이 계속 늘 때다. 그러면 강세 시나리오(연 수익률 +23.5%)로 가는데, 나는 그 상승을 놓친다. [C:irr@bull] [F153]
+- 사전 부검: 기간 라벨 충돌 때문에 순현금·부채·FCF 일부 계산이 흔들릴 수 있다. 순부채 쪽이 실제로 더 좋거나 FCF 정의(순액 설비투자 기준)가 더 합당하다면 내가 재무 부담을 과대평가한 것이다. [S48](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260630xex991.htm) [F85]
+- 사전 부검: 영업이익·AWS 마진이 가이던스를 계속 상회하면 안전마진 계산이 보수적이었다고 드러날 수 있다. 3분기 실적이 상단을 넘으면 가격 대비 가치 판단을 다시 해야 한다. [F139] [C:guidance_hit_rate]
+
+**반론**
+- → 앤더슨: 앤더슨의 가장 강한 논거는 성장이 가속하고 있고, 강세 case로 10년을 늘리면 주당 가치가 주가의 5.56배라는 것이다. 하지만 이 값은 5배 문턱을 간신히 넘을 뿐이고, 그 위에 서 있는 강세 case는 확률이 가장 낮은 시나리오다. 확률 가중 기대 연 수익률은 9.7%로 요구수익률 10%에 못 미친다. 역DCF도 FCF 마진 14%를 가정하면 연 13.3% 성장을 요구하므로, 시장은 정상화를 이미 가격에 넣고 있다. 좋은 결말 하나를 고른 계산을 안전마진이라고 부를 수는 없다. [C:upside_10y@anderson] [C:expected_irr] [C:implied_cagr@m14]
+- → 슬레이터: 슬레이터의 가장 강한 논거는 생존에 문제가 없다는 것이다. 현금 소진 연수가 10.6년이고 외부 자본 없이 계획을 실행할 수 있다는 점은 인정한다. 그러나 생존 경로와 단위경제는 필요조건이지 가격의 정당화가 아니다. 슬레이터 자신도 기대 연 수익률 9.7%는 큰 비중을 정당화하지 못한다고 썼다. 같은 숫자를 내가 보면 안전마진 9.4%는 내 기준에 못 미치므로, '작게 시작'이 아니라 '아예 담지 않는다'가 내 결론이다. 비중을 줄이는 것은 가격 문제를 풀어 주지 못한다. [C:runway_years] [C:expected_irr] [C:mos@ackman]
+- → 레드팀: 레드팀의 가장 강한 지적은 기본 시나리오가 FCF 마진을 -1.5%에서 14%로 올려야 가치 대부분이 나온다는 것이다. 이 지적이 맞다면 내 10년 FCF 범위는 더 넓어지고, 필요한 안전마진은 20%보다 더 커야 한다. 현재 기본 시나리오 내재가치 285.43은 주가 258.58과 가깝기만 하다. 레드팀의 약세 확률 지적까지 받아들이면 기대수익률은 요구수익률 아래로 내려가므로 레드팀 논리는 내 반대 입장을 강화한다. 다만 내 분석이 틀릴 경로는 레드팀 부검에 없는 설비투자 정점이 빨리 오는 경우다. [C:fcf_margin@FY2025] [C:iv@base] [C:price] [C:expected_irr]
+
+**인정한 점**
+- 앤더슨 논거 중 성장 가속과 AWS 이익 증가는 사실로 인정한다. 사업의 질은 높지만 이것은 가격 문제를 풀어 주지 않으므로 입장은 바뀌지 않는다.
+- 슬레이터의 생존 경로 판단은 인정한다. 그래서 자본시장 의존도는 false로 두지만 FCF 음수와 안전마진 부족 때문에 찬성 조건은 여전히 충족되지 않는다.
+- 레드팀이 지적한 라벨 충돌 때문에 내 재무 부담 계산이 흔들릴 수 있다는 점은 1라운드 사전 부검대로 유지한다. 그러나 FCF 정의가 어느 쪽이든 안전마진 부족은 그대로다.
+
 
 ## 분석 모듈 (L4)
 
 ### 사업·산업 — unclear
 
-Amazon은 온라인·오프라인 리테일과 3자 판매자 서비스(수수료·물류·광고), 구독(Prime), 클라우드(AWS)로 돈을 버는 복합 플랫폼이다. 부문별 매출·영업이익 사실이 이번 근거에 없어 믹스는 확인하지 못했다. FY2025 매출은 7,169.2억 USD로 전년 대비 12.4% 성장했고, 총이익률 50.3%, 영업이익률 11.2%, ROIC 22.6%를 냈다. 2026년 1~2분기에는 매출과 영업이익이 모두 늘었다. 다만 capex 가이던스가 2,200억 USD로 올라 회사는 AI·인프라 투자 확대기에 있고, 부채도 크게 늘었다. 고객 단위 코호트·이탈률·CAC 데이터가 없어 단위경제는 규모 마진으로만 간접 확인되며 '불명확'으로 둔다.
+Amazon은 전자상거래(1P 판매와 3P 마켓플레이스 수수료), 광고, 구독, 물류 서비스로 소비자와 셀러에게 돈을 벌고, AWS로 기업에 컴퓨팅과 AI 인프라를 임대해 이익의 큰 부분을 번다. FY2025 매출은 7,169.2억 달러(성장 12.4%), 영업이익률 11.2%다. 2026년 2분기 매출은 2,006.1억 달러, 영업이익은 274.6억 달러이고, 그중 AWS가 매출 422.3억 달러, 영업이익 166.2억 달러를 낸다. 지금의 핵심은 AI 인프라 증설이다. 2026년 설비투자 가이던스는 약 2,200억 달러이고, FY2025 FCF는 이미 음수다. 단위경제의 직접 지표(CAC, 이탈률, 코호트)는 근거에 없어 판정을 유보하고, 마진과 가이던스 적중 기록으로 간접 확인한다.
 
-- [unit_economics] FY2025 총이익률은 50.3%, 영업이익률은 11.2%였다. 매출총이익 대비 영업이익 비중이 낮아 판관·기술·물류 비용이 큰 구조다. 고객당 경제성(CAC, 순매출유지율, 코호트)은 근거에 없어 개선·악화 판단은 보류한다. [C:gross_margin@FY2025] [C:operating_margin@FY2025] [S17](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm)
-- [unit_economics] 분기 영업이익은 FY2025Q1 184.1억, Q2 191.7억, Q3 174.2억 USD였고 FY2026Q1 238.5억, Q2 274.6억 USD로 올랐다. 추정: FY2026Q2 영업이익은 전년 동기 대비 약 43% 늘었고 매출 증가율(약 20%)을 웃돈다. 영업 레버리지가 나타난 것으로 보인다. 단 부문 구성과 일회성 요인은 확인하지 못했다. [F92] [F93] [F94] [F95] [F96] [F105] [F108]
-- [unit_economics] 3분기 가이던스는 매출 1,995억 USD(범위 1,970억~2,020억), 영업이익 245억 USD(범위 225억~265억)다. 컨센서스는 매출 2,039억, 영업이익 254억으로 가이던스 중간값보다 높다. 시장은 가이던스 상단 이상을 기대하고 있다. [F138] [F139] [F136] [F137] [S4](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260730.htm) [S45](https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/08/amazon-postq-aws-reaccelerates-as-ai-investment-pushes-capex-higher)
-- [runway] 2026년 capex 가이던스는 2,200억 USD이며, 메모리 비용 상승이 이유로 보도됐다. 컨센서스(2,061억)보다 높다. 재투자 활주로는 크지만(AI·클라우드 수요), 수익률은 아직 공시로 입증되지 않았다. 감가상각은 FY2026Q2 199.9억으로 FY2025Q1의 142.6억에서 늘어 투자 부담이 손익에 반영되기 시작했다. [F140] [F141] [F18] [F22] [S25](https://news.google.com/rss/articles/CBMifEFVX3lxTE5YU3ZKX2xoamdmZWNkOE52VGdqb3VtQTFUTXl1S0hwdWFZNGlNTE1SMGNjZlR1MXpVN2lINkVwd1VoWEdkTGFmcFItRTlxVFIyUkhwYlJCM3l5T29aYjhUM0tRSjdYNGVZY3c5eHBqVTNpVmR4aEdSTXJtd1HSAYIBQVVfeXFMTVhaMjBSNjI0eXFRb3NsNUxJNzNlalZvUjRUQkpmSFNkMGJtUVVGS19PN1JLdWpmMEdJaVVvR1B4S1dDN0NUM3dpcWRqdmxiZjdDakUzblV0TmU2QVI0UzRWNldDS3F0MC1DWGU2MUEydXV5c0lYYWI5bFA3WlJoSFhSZw?oc=5) [S26](https://news.google.com/rss/articles/CBMinAFBVV95cUxPYWNwWXZRNEt4SjNsc2hzSThoZ2ZSYktrQ0JZdUdLN3owZnVXRkpXVm5DSXhMTVZYTHdTWk1FWWVhUEtpWE0zWGRMaHlHdi01YXh1Sm9KNXJDUWcxVmNIT3YwWlJaM2U0dDJDQWtQWmVkeTBCWWZWMzczdy14My1NMWUzbFo0S0tDc0V3Ulg4dlVrWjNoNTFOSkpoRmc?oc=5) [S45](https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/08/amazon-postq-aws-reaccelerates-as-ai-investment-pushes-capex-higher)
-- [runway] 투자 재원은 영업현금흐름만으로는 부족해 보인다. 영업현금흐름은 FY2025 1,211.4억 USD(코드 계산값), 부채는 FY2025 656.5억에서 FY2026 1,288.9억으로 늘었다. 현금은 782.1억 수준이다. 기간 라벨이 섞여 있어 정확한 비교는 어렵지만 외부 조달 의존이 커진 방향은 분명하다. [C:ocf@FY2025] [F26] [F28] [F6] [S3](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm)
-- [industry] 산업 구조와 경쟁 강도, 규제 리스크의 일부만 확인된다. FTC가 스폰서 광고 관련 소송을 제기했고 회사는 이에 대응했다. 금액 영향은 수집되지 않았다. 광고 사업이 수익성의 핵심 축일 가능성이 있지만 광고 매출 수치는 없다. [S32](https://news.google.com/rss/articles/CBMiigFBVV95cUxNN1RnMWxFWmtqTEJZNmtTNmVHdGZhUXhVbEVTenNKam8xZmtIVGNfQlYwRlY2anZ1ZXZWc1RDUW9DUFc2endnM1pOdU13c2I0RExUUGNrVFlvajZFWk8wNHZDQVdLR0JNc0wxeG1Lb05mektkVnVhejRsd1oxSG1jNGxBVWhoY2xkSHc?oc=5)
-- [industry] 신규 사업 확장이 나타난다. 드론 배송 확대, 위성 인터넷(Leo) 발사 계약 추가, AWS의 DuckLabs 인수, Bee AI 제품 출시 등이다. 활주로는 넓지만 사업 범위가 넓어 자본 배분의 집중도는 낮아질 수 있다. 각 사업의 단위경제 수치는 없다. [S28](https://news.google.com/rss/articles/CBMikwFBVV95cUxQR1FIZVdwZWpWd2FwTHliRUprMC1IVl9DWnpzVmNTeTFvUHh0NEZGNFVvNGk0aHh0NFUtV0pNNjQyZFp5ZG1BZkVnYVlMQlk2ZWJOSWhvSHdPTk92SHdNN0tGWnVEV1dNcEplYzBvNVpoWl91Y2hHdnVpWF9zWDE1UUpNU2dWREVsQkxsSXRNbXhUUXc?oc=5) [S39](https://news.google.com/rss/articles/CBMihgFBVV95cUxQZktuX0V0R0x5UzdGVWJBU3dhaWxoUHBYUmtEQUxhRDBwMHdQem9MVzk0RXZlMXRCd19ZMFByMWxfZG9qd3ZGX1k4ZUNZNXhnZV9nU04tRWVFbnFSOU1QN0w3dGpmU3Zjd1FWMnFycUp6Rlp0M0pnOXRPV0VNSWtXTjlnbTVfQQ?oc=5) [S37](https://news.google.com/rss/articles/CBMiakFVX3lxTE40S2JJbEVhVWJaQUs0eUFDdTFvbjNGTFppdDRGUlVxaEhGU1BxdkZLdlU5bkp5Nk5yZWlQQlEzMUhWMDFSLU9GR21uRW8tcVFhNlltWU1rOXVQVW1qdVB4YmNFNHk5WDQzVEE?oc=5) [S31](https://news.google.com/rss/articles/CBMijAFBVV95cUxPS056WlBEQzdVTUZLVy1hUDU3cF80SVEyU0xQNDFlYmU4cG5kY0lUQnpFYlhrMEpQRWNiV1dCeTJxZmRoc2NQd3hjSkdtNGhaVWpQMlM5amdXNlNvdDY2SjdiZHc3ZVN3emNXZmlJUW9NLTJ2WVczVE01cXRwVElrR0gtSkJueWZKQzhfRw?oc=5)
-- [customers] 운전자본은 고객 측 단서를 준다. FY2025 DSO는 34.5일, DIO는 39.2일이다. 수취채권은 FY2025Q1 542.2억에서 FY2026Q2 880.9억으로 늘어 매출 증가(AWS 등 기업 고객 비중 확대)를 시사하지만, 부문별 근거가 없어 추정에 그친다. [C:dso@FY2025] [C:dio@FY2025] [F97] [F102]
-- [proven] 공시 재무에 규모의 흔적이 있다. FY2025 매출 7,169.2억 USD를 총이익률 50.3%, ROIC 22.6%로 운영한다. 매출은 FY2023 5,747.9억, FY2024 6,379.6억, FY2025 7,169.2억으로 커졌고 FY2025 성장률은 11.0%에서 12.4%로 높아졌다. 다만 경쟁사 대비 마진이나 점유율은 근거에 없어 해자의 깊이는 확인되지 않는다. [F103] [F133] [F134] [C:gross_margin@FY2025] [C:roic@FY2025] [C:revenue_growth@FY2025] [S17](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm)
-- [claimed] Prime·셀러 도구·AWS 생태계에 의한 전환비용은 회사 보도와 제품 발표(멀티채널 관리, Seller Assistant, AI 제품 출시)로만 나타난다. 이탈률·가격 인상 후 잔존율 기록은 없다. [S36](https://news.google.com/rss/articles/CBMingFBVV95cUxQaUJEMEhNVjVhWlBoRXNvX0FlWEtZMUxyRGZXekdwR2NVcjhTSWZYd0phakF5N3N3Q3FuN2F3UV91SW9McFY3c1REZmhpTmE0NVR0RkFVT1FJSFNBWFNEX0FJV2czQ0VvOWkxY2J3U0RVUjBSV3NzQzA5eUxXTTJ3SjdBQWNwQ2dJbklNWlkwV2N6SUJfSzhwTWdaU2p3Zw?oc=5) [S40](https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ3lUWUszZ0lhaXRhM0FRb2hvTjA2QlBINWhKbEcydkpSRW5uak1jeUZfVGYxUzcyRE55SDNfZHQ0UHF3OW1ab0h4TExxTG5zMmF3YTQyZlA4NWZOVXJmNnhUZC1hb1cySzdyY0NMcURIc0JoQnRKU1puYnhULXRpbkdQLUd3R1h4WDdiSlp6THBWX2doTmFQRUgxX3U?oc=5) [S31](https://news.google.com/rss/articles/CBMijAFBVV95cUxPS056WlBEQzdVTUZLVy1hUDU3cF80SVEyU0xQNDFlYmU4cG5kY0lUQnpFYlhrMEpQRWNiV1dCeTJxZmRoc2NQd3hjSkdtNGhaVWpQMlM5amdXNlNvdDY2SjdiZHc3ZVN3emNXZmlJUW9NLTJ2WVczVE01cXRwVElrR0gtSkJueWZKQzhfRw?oc=5)
-- [claimed] 판매자·구매자 양면 네트워크 효과는 구조상 합리적이지만 점유율·판매자 수 추이 같은 수치 증거가 수집되지 않았다. 판매자가 eBay·Shopify·TikTok·Walmart 판매를 Seller Central에서 함께 관리하는 기능은 멀티호밍을 전제하므로 락인이 약할 수 있다는 단서이기도 하다. [S40](https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ3lUWUszZ0lhaXRhM0FRb2hvTjA2QlBINWhKbEcydkpSRW5uak1jeUZfVGYxUzcyRE55SDNfZHQ0UHF3OW1ab0h4TExxTG5zMmF3YTQyZlA4NWZOVXJmNnhUZC1hb1cySzdyY0NMcURIc0JoQnRKU1puYnhULXRpbkdQLUd3R1h4WDdiSlp6THBWX2doTmFQRUgxX3U?oc=5) [S32](https://news.google.com/rss/articles/CBMiigFBVV95cUxNN1RnMWxFWmtqTEJZNmtTNmVHdGZhUXhVbEVTenNKam8xZmtIVGNfQlYwRlY2anZ1ZXZWc1RDUW9DUFc2endnM1pOdU13c2I0RExUUGNrVFlvajZFWk8wNHZDQVdLR0JNc0wxeG1Lb05mektkVnVhejRsd1oxSG1jNGxBVWhoY2xkSHc?oc=5)
+- [unit_economics] 회사 전체의 수익성은 개선 방향이다. 영업이익은 2026년 1분기 238.5억 달러에서 2분기 274.6억 달러로 늘었고, 1분기 가이던스 영업이익 190.0억 달러를 크게 웃돌았다. 매출도 가이던스 중간값 1,755.0억 달러를 웃도는 1,815.2억 달러였다. 가이던스 적중은 100%지만 표본은 2개뿐이다. [F95] [F96] [F154] [F155] [F107] [C:guidance_hit_rate]
+- [unit_economics] 고객 단위의 CAC, 이탈률, 코호트, 순매출유지율은 근거에 없다. 이 수치가 없어 단위경제를 '입증' 또는 '악화'로 분류할 수 없다. 부문별(광고, 북미, 해외) 손익도 수집하지 못했다. [S48](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260630xex991.htm)
+- [industry] 추정: 2026년 2분기 AWS를 뺀 나머지 영업이익은 약 108억 달러(274.6억 − 166.2억)로, 매출 약 1,584억 달러 대비 마진은 약 6.8%다. 전사 이익이 AWS에 크게 기대는 구조다. 소매와 광고의 개별 마진은 확인되지 않았다. [F96] [F153] [F108] [F152]
+- [industry] AI 클라우드 수요는 강하다. 추정: AWS 매출은 2025년 4분기 355.8억 달러에서 2026년 2분기 422.3억 달러로 두 분기 만에 약 18.7% 늘었다. 다만 경쟁 점유율과 수주잔고는 발표문에 없다. [F150] [F152] [S48](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260630xex991.htm)
+- [runway] 재투자 규모가 매우 크다. 2026년 설비투자 가이던스는 2,200억 달러로, 실적 전 컨센서스 2,061억 달러보다 높다. 2분기 설비투자만 542.1억 달러다. 뉴스는 메모리 비용 상승을 인상 이유로 든다. [F140] [F141] [F149] [S25](https://news.google.com/rss/articles/CBMifEFVX3lxTE5YU3ZKX2xoamdmZWNkOE52VGdqb3VtQTFUTXl1S0hwdWFZNGlNTE1SMGNjZlR1MXpVN2lINkVwd1VoWEdkTGFmcFItRTlxVFIyUkhwYlJCM3l5T29aYjhUM0tRSjdYNGVZY3c5eHBqVTNpVmR4aEdSTXJtd1HSAYIBQVVfeXFMTVhaMjBSNjI0eXFRb3NsNUxJNzNlalZvUjRUQkpmSFNkMGJtUVVGS19PN1JLdWpmMEdJaVVvR1B4S1dDN0NUM3dpcWRqdmxiZjdDakUzblV0TmU2QVI0UzRWNldDS3F0MC1DWGU2MUEydXV5c0lYYWI5bFA3WlJoSFhSZw?oc=5)
+- [runway] 재투자의 대가로 FCF가 음수다. FY2025 FCF는 -106.8억 달러(FCF 마진 -1.5%)이고, 영업현금흐름 대비 설비투자가 커서 TTM FCF 수익률도 -0.4%다. 높은 수익률로 재투자한다는 가정은 AWS 마진 유지에 달려 있다. [C:fcf@FY2025] [C:fcf_margin@FY2025] [C:fcf_yield] [F142] [F144]
+- [customers] FY2025 매출 성장률은 12.4%로 FY2024의 11.0%보다 빨라졌다. 추정: 2026년 2분기 매출은 전년 동기(1,677.0억 달러) 대비 약 19.6% 늘어 성장이 한층 가속됐다. 어닝콜 발언은 확보하지 못했다. [C:revenue_growth@FY2025] [C:revenue_growth@FY2024] [F105] [F108]
+- [industry] 규제와 소송 위험이 있다. FTC가 스폰서 광고에 소송을 제기했고 회사가 반박 입장을 냈다. 광고는 고마진 이익원으로 추정되지만 금액 영향은 확인하지 못했다. [S32](https://news.google.com/rss/articles/CBMiigFBVV95cUxNN1RnMWxFWmtqTEJZNmtTNmVHdGZhUXhVbEVTenNKam8xZmtIVGNfQlYwRlY2anZ1ZXZWc1RDUW9DUFc2endnM1pOdU13c2I0RExUUGNrVFlvajZFWk8wNHZDQVdLR0JNc0wxeG1Lb05mektkVnVhejRsd1oxSG1jNGxBVWhoY2xkSHc?oc=5)
+- [proven] AWS는 규모의 이익을 숫자로 보여준다. 2025년 4분기 영업이익 124.7억 달러(매출 355.8억)에서 2026년 2분기 166.2억 달러(매출 422.3억)로 늘었고, 추정: AWS 영업이익률은 약 35.0%에서 39.4%로 올랐다. 전사 총이익률도 50.3%다. [F150] [F151] [F152] [F153] [C:gross_margin@FY2025]
+- [claimed] 클라우드 워크로드의 전환비용과 자체 칩 Graviton의 매출 약정이 전 분기 대비 약 3배 늘었다는 서술이 있다. 하지만 이는 회사 발표문의 서술일 뿐이고 이탈률이나 순매출유지율은 공시에 없다. [S48](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260630xex991.htm)
+- [claimed] 마켓플레이스와 셀러 도구 확장(여러 채널 판매를 Seller Central로 통합, 셀러용 AI 도구)은 셀러 락인을 노린 것으로 보인다. 점유율이나 셀러 이탈 데이터는 없다. 회사 보도자료 수준의 근거다. [S36](https://news.google.com/rss/articles/CBMingFBVV95cUxQaUJEMEhNVjVhWlBoRXNvX0FlWEtZMUxyRGZXekdwR2NVcjhTSWZYd0phakF5N3N3Q3FuN2F3UV91SW9McFY3c1REZmhpTmE0NVR0RkFVT1FJSFNBWFNEX0FJV2czQ0VvOWkxY2J3U0RVUjBSV3NzQzA5eUxXTTJ3SjdBQWNwQ2dJbklNWlkwV2N6SUJfSzhwTWdaU2p3Zw?oc=5) [S40](https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ3lUWUszZ0lhaXRhM0FRb2hvTjA2QlBINWhKbEcydkpSRW5uak1jeUZfVGYxUzcyRE55SDNfZHQ0UHF3OW1ab0h4TExxTG5zMmF3YTQyZlA4NWZOVXJmNnhUZC1hb1cySzdyY0NMcURIc0JoQnRKU1puYnhULXRpbkdQLUd3R1h4WDdiSlp6THBWX2doTmFQRUgxX3U?oc=5)
 
 ### 경영진·자본배분 — mixed
 
-수집된 근거만으로는 경영진 정렬을 'mixed'로 둘 수밖에 없다. 보상 지표(DEF 14A, S13), 내부자 매매, 과거 가이던스 적중률, 자사주 이력은 수치로 채우지 못했다. 확인되는 사실은 세 가지다. 첫째, 희석은 크지 않다. SBC/매출은 2.9%이고 희석 주식 수는 완만하게 늘었다. 둘째, 자본배분은 AI 투자 쪽으로 크게 기울었다. 2026 capex 가이던스가 $220 billion으로 올랐고 부채도 급증했다. 셋째, 이사회에 사이버보안 전문가가 합류했다. 경영진의 약속 이행은 가이던스 이력이 없어 검증할 수 없다.
+경영진은 가이던스를 보수적으로 잡고 넘기는 편이다. 코드가 대조한 2개 항목(매출, 영업이익)은 모두 상회했고 적중률은 100%다. 다만 표본이 적다. 자본배분은 AI 설비투자로 크게 기울어 있다. 연간 설비투자 가이던스는 2,200억 달러로 컨센서스 2,061억 달러를 웃돌고, FY2025 FCF는 -106.8억 달러다. 희석 주식 수는 완만히 늘고 있다. 보상 지표, 내부자 매매, 인수 가격은 근거가 없어 정렬 여부를 확정할 수 없다. 그래서 정렬은 mixed로 판단한다.
 
-- [compensation] 근거 없음. 보상 연동 지표와 베스팅 기간이 있는 DEF 14A(S13)는 공시 목록에만 있고 수치로 채워지지 않았다. 장기 지표 연동인지 단기 EPS 연동인지 판단할 수 없다. [S13](https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm)
-- [insider] 근거 없음. 창업자·경영진 지분과 최근 내부자 매수·매도 사실이 수집되지 않았다. 8-K 경영진 변동(S2)과 이사회 신규 선임(S41)은 확인되나 지분 정보는 없다. [S2](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000036/amzn-20260908.htm) [S41](https://news.google.com/rss/articles/CBMijAFBVV95cUxNdHVLaG9jX1A0Qk81YV92YzFwVDBlTnRTamtSaS1DUnFnQ0hRdWRzcktUeXIwc1h6dW9MY1ZaeDdNNkRSY0Q2UDRfUnlPY0VULUxyMGNfOXBDbVJlRTFQcDd0N1BjMWZJSHFGRW13NHRMeU0wQjloaGY1d3dzWFRtSHIyajZuMUJJTlZseg?oc=5)
-- [guidance] 과거 가이던스(2025년 2분기~2026년 2분기)를 찾지 못해 적중률(C:guidance_hit_rate)을 낼 수 없다. 현재 3분기 가이던스 매출은 1,995억 USD이고 컨센서스는 2,039억 USD다. 가이던스가 컨센서스보다 낮은 보수적 구조로 보이나, 실제 적중 이력이 없어 신뢰도 평가는 보류한다. [F138] [F136] [S4](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260730.htm) [S45](https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/08/amazon-postq-aws-reaccelerates-as-ai-investment-pushes-capex-higher)
-- [dilution] SBC는 FY2025 기준 매출의 2.9%(C:sbc_to_revenue@FY2025), 영업현금흐름의 17.0%(C:sbc_to_ocf@FY2025)다. 희석 주식 수는 FY2025Q1 107.9억 주에서 FY2026Q2 109.0억 주로 늘었다. 증가폭이 작아 희석 부담은 낮다. 같은 기간 자사주 매입 근거는 없다. [C:sbc_to_revenue@FY2025] [C:sbc_to_ocf@FY2025] [F42] [F46]
-- [capital_allocation] 2026 capex 가이던스는 $220 billion으로 상향됐다(메모리 비용 상승이 이유). 실적 발표 전 컨센서스 capex는 2,061억 USD여서 시장 예상보다 높다. 재투자 수익률(ROIC)은 FY2025 22.6%(C:roic@FY2025)이나, 대규모 AI 투자가 이 수익률을 유지할지는 근거가 없다. [S25](https://news.google.com/rss/articles/CBMifEFVX3lxTE5YU3ZKX2xoamdmZWNkOE52VGdqb3VtQTFUTXl1S0hwdWFZNGlNTE1SMGNjZlR1MXpVN2lINkVwd1VoWEdkTGFmcFItRTlxVFIyUkhwYlJCM3l5T29aYjhUM0tRSjdYNGVZY3c5eHBqVTNpVmR4aEdSTXJtd1HSAYIBQVVfeXFMTVhaMjBSNjI0eXFRb3NsNUxJNzNlalZvUjRUQkpmSFNkMGJtUVVGS19PN1JLdWpmMEdJaVVvR1B4S1dDN0NUM3dpcWRqdmxiZjdDakUzblV0TmU2QVI0UzRWNldDS3F0MC1DWGU2MUEydXV5c0lYYWI5bFA3WlJoSFhSZw?oc=5) [S26](https://news.google.com/rss/articles/CBMinAFBVV95cUxPYWNwWXZRNEt4SjNsc2hzSThoZ2ZSYktrQ0JZdUdLN3owZnVXRkpXVm5DSXhMTVZYTHdTWk1FWWVhUEtpWE0zWGRMaHlHdi01YXh1Sm9KNXJDUWcxVmNIT3YwWlJaM2U0dDJDQWtQWmVkeTBCWWZWMzczdy14My1NMWUzbFo0S0tDc0V3Ulg4dlVrWjNoNTFOSkpoRmc?oc=5) [F140] [F141] [C:roic@FY2025]
-- [capital_allocation] 부채는 FY2025Q1 533.7억 USD에서 FY2026 1,288.9억 USD로 늘었다. 보고 라벨이 겹쳐 기간 해석에는 주의가 필요하다. 투자 재원을 외부 조달로 확대했다는 방향은 확인된다. 다만 계산된 순부채/EBITDA는 0.07x로 아직 낮다. [F23] [F28] [C:net_debt_to_ebitda@FY2025]
-- [capital_allocation] AWS의 DuckLabs(DuckDB 개발사) 인수가 발표됐다. 인수 금액과 가격 적정성은 근거에 없어 고점 인수 여부를 판단할 수 없다. 자사주 매입·배당 이력도 수집되지 않았다. [S37](https://news.google.com/rss/articles/CBMiakFVX3lxTE40S2JJbEVhVWJaQUs0eUFDdTFvbjNGTFppdDRGUlVxaEhGU1BxdkZLdlU5bkp5Nk5yZWlQQlEzMUhWMDFSLU9GR21uRW8tcVFhNlltWU1rOXVQVW1qdVB4YmNFNHk5WDQzVEE?oc=5)
-- [capital_allocation] 사실 충돌이 현금·부채·SBC 등 여러 항목에 있다. 같은 연도 라벨에 분기말 값이 섞인 것이 원인이다. 위 관찰은 방향성 수준으로만 쓰고, 정확한 시점 비교는 기간 라벨 교정 뒤에 해야 한다. [F24] [F26] [F109] [F110]
+- [guidance] 코드가 가이던스와 실제를 대조한 결과 적중률은 100%다. FY2026Q1 매출은 가이던스 1,755.0억 달러에 실제 1,815.2억 달러, 영업이익은 가이던스 190.0억 달러에 실제 238.5억 달러로 둘 다 상회했다. 이전 분기 가이던스는 찾지 못해 표본이 2개뿐이다. 이 결과는 보수적 가이던스 경향을 시사할 뿐 장기 신뢰도의 증거는 아니다. [C:guidance_hit_rate] [F154] [F107] [F155] [F95] [S46](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000002/amzn-20251231xex991.htm)
+- [compensation] 2026-04-09자 DEF 14A(S13)가 수집되어 있다. 그러나 보상 연동 지표(매출·FCF·ROIC·주당가치 vs 단기 EPS)와 베스팅 기간은 본문을 확보하지 못했다. 근거 없음. 장기 지표 연동 여부는 판단할 수 없다. [S13](https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm)
+- [insider] 창업자·경영진 지분과 최근 내부자 매수·매도는 근거 없음. 별도 자료로 채우지 못했다. 2026-09-09에 경영진 변동 8-K가 있고, 같은 날 보도에서 사이버보안 전문가 Kevin Mandia가 이사회에 합류했다. 경영진 변동의 구체적 내용은 수집되지 않았다. [S2](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000036/amzn-20260908.htm) [S41](https://news.google.com/rss/articles/CBMijAFBVV95cUxNdHVLaG9jX1A0Qk81YV92YzFwVDBlTnRTamtSaS1DUnFnQ0hRdWRzcktUeXIwc1h6dW9MY1ZaeDdNNkRSY0Q2UDRfUnlPY0VULUxyMGNfOXBDbVJlRTFQcDd0N1BjMWZJSHFGRW13NHRMeU0wQjloaGY1d3dzWFRtSHIyajZuMUJJTlZseg?oc=5)
+- [dilution] 희석 주식 수는 FY2025Q1 107.9억 주에서 FY2026Q2 109.0억 주로 늘었다. 분기마다 소폭 증가하는 추세이고 자사주 매입이 희석을 상쇄한 흔적은 이 근거에서 보이지 않는다. SBC/매출은 FY2025 기준 2.9%로 규모는 작다. 같은 기간에 SBC 사실이 여러 값으로 충돌해 정확한 SBC 금액은 불확실하다. [F42] [F46] [C:sbc_to_revenue@FY2025] [F109] [F111]
+- [capital_allocation] 설비투자가 자본배분의 중심이다. FY2025 설비투자는 1,318.2억 달러이고 FY2026Q1은 442.0억 달러, Q2는 542.1억 달러로 분기마다 늘고 있다. 2026-07-30에 연간 가이던스를 2,200억 달러로 올렸다. 이는 컨센서스 2,061억 달러보다 높다. 보도는 메모리 비용 상승을 이유로 들었다. 이 투자의 수익률은 아직 증명되지 않았고, AWS Q2 영업이익 166.2억 달러가 그 성과를 가늠할 초기 지표다. [F142] [F148] [F149] [F140] [F141] [S25](https://news.google.com/rss/articles/CBMifEFVX3lxTE5YU3ZKX2xoamdmZWNkOE52VGdqb3VtQTFUTXl1S0hwdWFZNGlNTE1SMGNjZlR1MXpVN2lINkVwd1VoWEdkTGFmcFItRTlxVFIyUkhwYlJCM3l5T29aYjhUM0tRSjdYNGVZY3c5eHBqVTNpVmR4aEdSTXJtd1HSAYIBQVVfeXFMTVhaMjBSNjI0eXFRb3NsNUxJNzNlalZvUjRUQkpmSFNkMGJtUVVGS19PN1JLdWpmMEdJaVVvR1B4S1dDN0NUM3dpcWRqdmxiZjdDakUzblV0TmU2QVI0UzRWNldDS3F0MC1DWGU2MUEydXV5c0lYYWI5bFA3WlJoSFhSZw?oc=5) [F153]
+- [capital_allocation] 투자 부담이 재무에 이미 나타난다. FY2025 FCF는 -106.8억 달러, FCF 마진은 -1.5%, SBC 차감 FCF는 -312.3억 달러다. TTM 기준 FCF 수익률은 -0.4%다. 부채 사실은 기간 라벨이 충돌하지만 모든 후보 값에서 FY2026 부채가 FY2025보다 큰 것으로 나타나 차입 확대가 시사된다. 현금 소진 연수는 10.6년으로 당장의 자금 압박은 아니다. [C:fcf@FY2025] [C:fcf_margin@FY2025] [C:fcf_after_sbc@FY2025] [C:fcf_yield] [F26] [F28] [C:runway_years]
+- [capital_allocation] M&A는 2026-08-26에 AWS가 DuckDB 개발사 DuckLabs 인수를 발표했다. 인수 가격과 수익 기여는 근거 없음이다. 자사주 매입과 배당 이력도 수집된 자료에 없다. 비싼 인수나 고점 매입이 있었는지는 판단할 수 없다. [S37](https://news.google.com/rss/articles/CBMiakFVX3lxTE40S2JJbEVhVWJaQUs0eUFDdTFvbjNGTFppdDRGUlVxaEhGU1BxdkZLdlU5bkp5Nk5yZWlQQlEzMUhWMDFSLU9GR21uRW8tcVFhNlltWU1rOXVQVW1qdVB4YmNFNHk5WDQzVEE?oc=5)
 
 ### 회계 품질 — watch
 
-코드가 계산한 회계 품질 신호는 없고, 재무제표 정정·감사인 변경·계속기업 의문 같은 red 단서도 이 근거에서는 찾지 못했다(찾지 못했다는 것이지 없다는 확인은 아니다). 그러나 이 '신호 없음'은 입력 오염 때문에 신뢰도가 낮다. 같은 FY2025·FY2026 라벨에 분기말 값이 섞여 충돌했고, 그 때문에 연간 기준 발생액·채권 갭·OCF/순이익 신호가 제대로 계산되지 않았을 가능성이 크다. 분기 값을 직접 보면 조정해서 볼 숫자가 있다. (1) FY2026Q2 순이익 626.5억(F80)이 영업이익 274.6억(F96)의 두 배를 넘는다. 이익 상당 부분이 영업 밖에서 왔고(투자 평가이익 등으로 추정, 원인 확인 필요), 반복되지 않는다고 봐야 한다. 이익의 질은 순이익이 아니라 영업이익과 영업현금흐름으로 판단한다. (2) 매출채권이 FY2025 2분기 말 574.1억(F98)에서 FY2026 2분기 말 880.9억(F102)으로 늘었다. 같은 기간 분기 매출은 1,677.0억(F105)에서 2,006.1억(F108)으로 늘어, 채권이 매출보다 훨씬 빠르게 증가했다. AWS 대형 계약의 결제 조건 변화일 수 있으나 근거에 없어 미해명이다. (3) 부채가 656.5억(F26)에서 1,288.9억(F28)으로 늘었고 연간 capex 가이던스가 2,200억(F140)이라 자본집약도가 크게 높아졌다. 이는 회계 조작이 아니라 감가상각 증가로 이어질 이익 지속성 문제다. 따라서 `red_flag`는 아니고 `watch`로 판정한다. 영업이익 기준으로 보고, 비영업 이익을 제외하고, 채권 증가의 원인이 풀릴 때까지 조정해서 봐야 한다.
+코드 회계 신호는 하나도 걸리지 않았고, 재작성·감사인 변경 같은 red 신호도 없다. 다만 이 '신호 없음'은 완전히 믿을 수 없다. 같은 FY2025·FY2026 라벨에 분기말 값이 섞여 충돌하는 사실이 많아서(매출채권, 영업현금흐름, 순이익, 총자산 등) 코드가 증가율 비교를 제대로 못 했을 수 있다. 직접 보면 조정해서 봐야 할 숫자가 세 가지 있다. (1) FY2026Q2 순이익(626.5억)이 영업이익(274.6억)의 두 배를 넘는다. 영업 밖 이익이 이익의 큰 몫이라는 뜻이고, 원인은 근거에 없다. (2) 2026년 6월 말 매출채권(880.9억)이 2025년 6월 말(574.1억)보다 크게 늘었다. 같은 기간 매출은 1,677.0억에서 2,006.1억으로 늘었다. 매출채권이 매출보다 빠르게 늘었을 가능성이 있다. (3) FCF가 마이너스이고 FCF 정의가 섞여 있다. 감사의견, 정정, 특수관계자 거래는 확인하지 못했다. 이 회사의 회계 품질은 '숫자를 믿을 수 없다'가 아니라 '순이익 대신 영업이익과 FCF 기준으로 봐야 한다'는 수준이어서 watch로 판정한다.
 
-- [watch] 코드 신호가 '없음'으로 나왔지만 입력 사실에 기간 라벨 충돌이 있다. cash·debt·ocf·net_income·receivables·sbc·total_assets 등이 같은 FY 라벨 아래 서로 다른 분기말 값으로 섞여 있어, 연간 기준 발생액·OCF/순이익·채권/재고 갭 신호가 정상 계산되지 않았을 가능성이 크다. 기간 라벨을 바로잡아 코드 신호를 다시 계산하기 전에는 '신호 없음'을 깨끗하다는 증거로 읽으면 안 된다. [F81] [F82] [F83] [F100] [F102]
-- [watch] FY2026Q2 순이익 626.5억은 영업이익 274.6억의 두 배를 넘는다. 차이는 비영업 항목(투자 평가이익 등으로 추정)이고 반복 가능성이 낮다. 이 근거에는 구성 내역이 없어 10-Q 손익계산서의 기타 수익(비용)을 직접 확인해야 한다. 이익 배수나 EPS 추세는 순이익이 아니라 영업이익 기준으로 본다. [F80] [F96] [S3](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm)
-- [watch] 매출채권이 FY2025 2분기 말 574.1억에서 FY2026 2분기 말 880.9억으로 늘었다. 같은 기간 분기 매출은 1,677.0억에서 2,006.1억으로 늘었다. 채권이 매출보다 빠르게 증가하는 것이 계약 결제 조건 변화, 큰 고객의 청구 시점, 매출 인식 방식 중 무엇 때문인지 근거로 확인되지 않았다. 재고는 같은 기간 감소해 상품 쪽 부담은 아니다. [F98] [F102] [F105] [F108] [F70]
-- [watch] 부채가 656.5억에서 1,288.9억으로 늘었고 FY2026 capex 가이던스는 2,200억이다(컨센서스는 2,061억). 자본화된 설비의 감가상각이 앞으로 이익을 압박하고, 내용연수 가정을 바꾸면 이익이 달라질 수 있다. 감가상각비는 분기 기준 142.6억에서 199.9억으로 늘었다. 내용연수 변경과 건설 중 자산 규모는 10-K·10-Q 주석에서 확인해야 한다. [F26] [F28] [F140] [F141] [F18] [F22]
-- [info] SBC는 FY2025 연간 기준 매출의 2.9%, 영업현금흐름의 17.0%로 문턱(10%·50%) 아래다. 희석 주식 수는 FY2025 1분기 107.9억에서 FY2026 2분기 109.0억으로 완만하게 늘었다. 주식보상이 이익을 부풀리는 구조는 아니다. [C:sbc_to_revenue@FY2025] [C:sbc_to_ocf@FY2025] [F42] [F46]
-- [info] 이연매출은 약 205억~217억 범위에서 거의 변하지 않는 반면 매출은 두 자릿수로 늘었다. 선수금을 앞당겨 인식한 흔적은 보이지 않는다. 영영권은 총자산 대비 비중이 작아 인수 회계 리스크는 낮다. [F38] [F40] [F58] [C:goodwill_to_assets@FY2025]
-- [info] 감사의견, 감사인 변경, 재무제표 정정, 특수관계자 거래에 대한 별도 근거를 찾지 못했다. 코드의 restatement·auditor_change 신호도 없다. 다만 직접 확인한 것이 아니므로 10-K와 DEF 14A를 읽을 때까지 미확인으로 둔다. FTC 광고 소송은 금액 영향을 알 수 없다. [S17](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm) [S13](https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm) [S32](https://news.google.com/rss/articles/CBMiigFBVV95cUxNN1RnMWxFWmtqTEJZNmtTNmVHdGZhUXhVbEVTenNKam8xZmtIVGNfQlYwRlY2anZ1ZXZWc1RDUW9DUFc2endnM1pOdU13c2I0RExUUGNrVFlvajZFWk8wNHZDQVdLR0JNc0wxeG1Lb05mektkVnVhejRsd1oxSG1jNGxBVWhoY2xkSHc?oc=5)
+- [watch] FY2026Q2 순이익 626.5억은 같은 분기 영업이익 274.6억보다 훨씬 크고, 같은 분기 법인세는 182.0억이다. FY2026Q1은 순이익 302.6억, 영업이익 238.5억이다. 순이익이 영업 성과보다 영업 밖 항목에 크게 기대고 있다. 원인(투자 평가이익 등)은 근거에 없어 확인하지 못했다. 가치평가에서 PER·순이익 기반 지표는 쓰지 말고 영업이익·FCF 기준으로 봐야 하고, 영업외 이익은 반복된다고 가정하면 안 된다. [F80] [F96] [F64] [F79] [F95]
+- [watch] 매출채권이 FY2026Q2 말 880.9억으로, 2025년 중반 574.1억(F98, 라벨이 FY2025인 분기말 값)과 611.8억(F99)보다 크게 늘었다. 같은 기간 분기 매출은 1,677.0억(FY2025Q2)에서 2,006.1억(FY2026Q2)으로 늘었다. 매출채권 증가가 매출 증가보다 빠를 수 있다. 다만 기간 라벨이 충돌해 코드가 이를 flag로 잡지 못했으므로 코드 신호 부재를 근거로 삼을 수 없다. AWS 대형 계약이나 고객 결제 조건 변화일 수 있다는 가능성만 있고 근거는 없다. 재고는 같은 기간 거의 변하지 않아(F68, F70) 재고 쪽 문제는 보이지 않는다. [F102] [F98] [F99] [F105] [F108] [F68] [F70]
+- [info] 이연매출은 FY2026Q2 204.3억으로 직전 분기 208.9억에서 소폭 줄었고, 같은 기간 매출은 늘었다. 매출 대비 이연매출의 감소가 코드 문턱(−10% 초과)을 넘는 수준은 아니고 큰 이상으로 보이지 않는다. [F40] [F39] [F108]
+- [watch] 설비투자가 영업현금흐름을 앞선다. FY2026Q2 설비투자는 542.1억, 영업현금흐름은 453.9억이다. 상반기 설비투자는 984.1억(S48 기준)이고 연간 설비투자 가이던스는 2,200억이다. 총 설비투자 기준 FCF는 음수다(FY2025 −106.8억, C:fcf@FY2025). 반면 S48의 TTM FCF는 인센티브 차감 후 순액 설비투자를 쓴 값이라 정의가 다르다. 두 정의를 섞지 말고, 보수적으로 총 설비투자 기준으로 판단해야 한다. 감가상각은 FY2026Q2 199.9억으로 분기마다 늘고 있어 이 투자가 앞으로 영업이익률을 누른다. 감가상각 내용연수 변경 여부는 근거에 없어 확인하지 못했다. [F149] [F90] [F140] [C:fcf@FY2025] [C:fcf_margin@FY2025] [F22] [S48](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260630xex991.htm)
+- [info] SBC는 FY2025 기준 매출의 2.9%, 영업현금흐름의 17.0%로 문턱(10%·50%)보다 한참 아래다. 희석 주식 수는 FY2025Q1 107.9억에서 FY2026Q2 109.0억으로 소폭 늘어 연평균 증가율이 문턱(3%)보다 낮다. SBC 차감 FCF(−312.3억)가 마이너스인 것은 SBC보다 설비투자 때문이다. [C:sbc_to_revenue@FY2025] [C:sbc_to_ocf@FY2025] [C:fcf_after_sbc@FY2025] [F42] [F46]
+- [info] 영업권은 FY2026Q2 235.0억으로 총 자산 대비 비중이 낮다(문턱 40%에 한참 못 미침). 연결 자산이 커지면서 영업권 비중은 오히려 낮아지고 있어 인수 회계 위험은 작다. [F58] [F131] [C:goodwill_to_assets]
+- [watch] 감사의견(계속기업 의문·핵심감사사항), 감사인 변경, 재무제표 정정, 특수관계자 거래는 별도 근거로 확인하지 못했다. 근거 목록의 8-K 중 4.01·4.02 항목은 보이지 않지만, 이는 부재의 증거가 아니라 확인 못 한 것이다. 이 영역은 미검증으로 남는다. [S17](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm) [S3](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm)
+- [watch] 수집된 사실의 기간 라벨이 충돌한다. 같은 FY2025·FY2026 라벨에 분기말 값과 TTM 값이 섞였다(현금, 부채, 자기자본, 총자산, 영업현금흐름, 순이익, 매출채권 등). 그래서 코드 계산(순현금, ROIC, 증가율 비교, 발생액 비율)이 어느 값을 골랐는지 불확실하다. 예를 들어 FY2025 영업현금흐름은 F83(1,395.1억)이 S46 연간 값과 일치하고 F81·F82는 TTM으로 보인다. 라벨 정정 전에는 '코드 신호 없음'을 '문제 없음'으로 읽으면 안 된다. [F83] [F81] [F82] [F85] [S46](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000002/amzn-20251231xex991.htm) [S48](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260630xex991.htm)
+- [info] 분기 매출 합계는 연간과 맞는다. FY2025 분기 4개의 합계가 연간 매출 7,169.2억과 일치한다(리서처가 확인). 가이던스 대비 FY2026Q1 매출·영업이익은 모두 상회(beat)했고, 보수적인 가이던스 관행이 보이지만 표본이 1개 분기뿐이라 경영진 가이던스의 신뢰성 판단에는 약하다. [F103] [F104] [F105] [F106] [F143] [C:guidance_hit_rate]
 
 ## 레드팀 — 사전 부검 (5년 뒤 −60%라면)
 
-- (20%) AI 인프라 과잉투자와 수익 미회수. 2026 capex가 2,200억 USD까지 올랐는데 AI·클라우드 수요가 투자 속도를 따라오지 못한다. 설비가 가동률 부족에 걸리면 감가상각만 쌓인다. 분기 감가상각은 이미 142.6억에서 199.9억으로 늘었다. 영업이익이 상각을 따라가지 못하면 FCF 마진은 한 자릿수에 머문다. 시장은 PER 약 40배(C:pe)를 FCF 회복을 전제로 지불하고 있어 배수 압축과 이익 정체가 동시에 온다. 메커니즘은 '투자 선행 → 가동률 부족 → 상각 부담 → 배수 하락'이다. [F140] [F141] [F18] [F22] [F96] [C:pe] [S25](https://news.google.com/rss/articles/CBMifEFVX3lxTE5YU3ZKX2xoamdmZWNkOE52VGdqb3VtQTFUTXl1S0hwdWFZNGlNTE1SMGNjZlR1MXpVN2lINkVwd1VoWEdkTGFmcFItRTlxVFIyUkhwYlJCM3l5T29aYjhUM0tRSjdYNGVZY3c5eHBqVTNpVmR4aEdSTXJtd1HSAYIBQVVfeXFMTVhaMjBSNjI0eXFRb3NsNUxJNzNlalZvUjRUQkpmSFNkMGJtUVVGS19PN1JLdWpmMEdJaVVvR1B4S1dDN0NUM3dpcWRqdmxiZjdDakUzblV0TmU2QVI0UzRWNldDS3F0MC1DWGU2MUEydXV5c0lYYWI5bFA3WlJoSFhSZw?oc=5)
-- (12%) 외부 조달 의존과 금리·신용 충격. 투자 재원이 영업현금흐름으로 부족해 부채가 656.5억에서 1,288.9억으로 늘었다. capex가 2,200억 수준으로 이어지면 부채는 더 늘고, 신용시장이 닫히거나 금리가 높게 유지되면 이자 부담이 FCF를 잠식한다. 현재 순부채/EBITDA는 0.07x로 낮아 출발점은 건전하다. 그러나 시장이 AI 투자 회수를 의심하는 순간 조달 비용이 오르고 투자 축소·배당 불가능 구도로 몰릴 수 있다. 부채가 완충을 먹는 속도가 위험이다. [F26] [F28] [F140] [C:net_debt_to_ebitda@FY2025]
-- (10%) 규제·소송으로 고수익 광고·마켓플레이스 수익 훼손. FTC가 스폰서 광고 관련 소송을 제기했다. 광고가 수익성의 핵심 축일 가능성이 높은데 부문 수치가 없어 노출 규모를 알 수 없다. 패소 또는 합의로 광고 노출 방식·수수료 구조가 바뀌면 소매 부문의 영업이익률이 훼손된다. 영업이익률 11.2%(C:operating_margin@FY2025)는 얇아 광고 수익이 줄면 영업이익이 크게 줄어든다. 영업 레버리지가 반대로 작동한다. [S32](https://news.google.com/rss/articles/CBMiigFBVV95cUxNN1RnMWxFWmtqTEJZNmtTNmVHdGZhUXhVbEVTenNKam8xZmtIVGNfQlYwRlY2anZ1ZXZWc1RDUW9DUFc2endnM1pOdU13c2I0RExUUGNrVFlvajZFWk8wNHZDQVdLR0JNc0wxeG1Lb05mektkVnVhejRsd1oxSG1jNGxBVWhoY2xkSHc?oc=5) [C:operating_margin@FY2025]
-- (12%) 이익의 질 저하와 매출채권 팽창. 채권이 574.1억에서 880.9억으로 늘어 매출 증가율보다 빠르다. 대형 고객의 결제 조건 완화나 신용 위험이라면 매출 인식이 현금으로 이어지지 않고, 순이익 626.5억이 영업이익 274.6억의 두 배 이상인 것은 비영업 평가이익에 의존했다는 뜻이다. 투자자가 영업이익과 현금흐름으로 가치를 재평가하면 PER 약 40배는 정당화되지 않는다. 이익의 질에 대한 의문이 커지는 과정이다. [F98] [F102] [F105] [F108] [F80] [F96] [C:pe]
-- 약한 가정 `base.fcf_margin`: 기본 시나리오가 FCF 마진 12%로 직선 상승한다고 가정하지만 이것이 시나리오의 핵심이고 확인된 사실이 아니다. capex가 가이던스 2,200억이면 매출 대비 투자 비중이 매우 커서(FY2026 컨센서스 매출 8,289억 대비 약 27%) 마진 회복은 capex 정점과 상각 흡수 시점에 달려 있다. 모델러도 가정이라고 인정했다. 기저율 표와 대조해도 근거가 약하다. [F140] [F135] [F141]
-- 약한 가정 `base.exit_multiple`: 종료 배수 26배는 현재 PER 약 40배(C:pe)에서의 압축을 반영한 것이나, 투자 회수가 불확실한 환경에서 시장이 26배를 유지할지는 별도 근거가 없다. 성장이 한 자릿수로 둔화하는 5년 차에 26배를 주는 것은 낙관적일 수 있다. [C:pe] [F135]
+- (15%) AI 수요가 증설 속도를 따라오지 못해 설비투자가 좌초자산이 된다. 2026년 설비투자 가이던스는 2,200억 달러로 실적 전 컨센서스 2,061억 달러보다 높고, 2분기 설비투자(542.1억)가 영업현금흐름(453.9억)을 앞선다. 가동률이 낮으면 감가상각(분기 199.9억, 계속 증가)만 영업이익률을 누르고 AWS 마진이 꺾인다. FCF가 음수에서 회복하지 못하고, 시장은 성장주 배수를 거둬 FCF 마진 6% 안팎, 출구 18배로 재평가한다. 이는 모델러의 약세 시나리오(주당 110.4, 연 -15.7%)이며 5년 내 -60%에 가장 가까운 경로다. [F140] [F141] [F149] [F90] [F22] [C:fcf_margin@FY2025] [C:expected_irr]
+- (12%) AWS 의존 구조가 깨진다. 전사 영업이익 274.6억 중 AWS가 166.2억으로 약 61%를 차지하고, 나머지 사업은 매출 약 1,584억에 이익 약 108억(마진 약 6.8%)이다. AI 인프라에서 가격 경쟁이나 대형 고객의 자체 칩 전환이 일어나 AWS 마진이 39%에서 하락하면 전사 이익과 FCF 정상화 가정이 함께 무너진다. 이익의 한 축에 기대면서 시장은 이를 14% FCF 마진으로 가격에 반영하고 있다. [F96] [F153] [F152] [F108] [S48](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260630xex991.htm)
+- (10%) 순이익의 질과 재무 건전성이 동시에 악화된다. FY2026Q2 순이익(626.5억)은 영업이익(274.6억)의 두 배 이상이고 원인은 근거에 없다. 영업 밖 이익이 반복되지 않으면 이익이 크게 줄어든다. 또 매출채권(880.9억)이 매출보다 빠르게 늘었을 가능성이 있고, 부채는 FY2026에 FY2025보다 커졌다(1,288.9억 대 656.5억 등 모든 후보 값에서 증가). 설비투자를 차입으로 메우는 구간에서 금리나 신용 여건이 나빠지면 자본 조달 부담이 FCF 회복을 늦춘다. 경영진 변동(2026-09-09 8-K)의 내용도 확인되지 않았다. [F80] [F96] [F102] [F98] [F26] [F28] [F13] [S2](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000036/amzn-20260908.htm)
+- (8%) 규제·법적 리스크와 소매 마진 정체가 겹친다. FTC가 스폰서 광고 소송을 제기했고(2026-08-31 회사 반박), 광고는 고마진 이익원으로 추정되지만 금액 영향은 확인되지 않았다. 광고가 제한되면 AWS를 제외한 사업 마진 약 6.8%가 더 낮아져 FCF 마진 14% 도달이 어렵다. 시가총액 2.82조 달러, EV/매출 3.65배에서 기대치가 이미 높아 작은 이익 실망도 큰 배수 축소로 이어진다. [S32](https://news.google.com/rss/articles/CBMiigFBVV95cUxNN1RnMWxFWmtqTEJZNmtTNmVHdGZhUXhVbEVTenNKam8xZmtIVGNfQlYwRlY2anZ1ZXZWc1RDUW9DUFc2endnM1pOdU13c2I0RExUUGNrVFlvajZFWk8wNHZDQVdLR0JNc0wxeG1Lb05mektkVnVhejRsd1oxSG1jNGxBVWhoY2xkSHc?oc=5) [C:ev_revenue] [F96] [F153] [F108] [F152]
+- 약한 가정 `base.fcf_margin`: 기본 시나리오는 FCF 마진이 FY2025의 -1.5%에서 5년 뒤 14%로 직선 상승한다고 가정한다. 올해 설비투자는 2,200억 달러로 오히려 늘었고 S48의 TTM 설비투자는 1,730억이다. 매출 대비 투자 비중이 언제 얼마나 내려갈지 근거가 없고, 연도별 모델도 FY2026 1.6%에서 FY2030 14.0%까지 가정에 의존한다. 약 15%포인트의 마진 개선이 모델의 가치 대부분(기본 주당 가치 459.69)을 만든다. 기저율 표도 없어 이 도약이 드문지 검증되지 않았다. [C:fcf_margin@FY2025] [F140] [S48](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260630xex991.htm) [C:base_rate@base]
+- 약한 가정 `base.exit_multiple`: 출구 P/FCF 26배는 FCF가 정상화된 5년 뒤 성숙기 대형주에 주는 배수로는 높다. 민감도표에서 멀티플이 0.75배(약 19.5배)면 기본 시나리오 수익률이 +12.2%에서 +6.5%로 떨어진다. 약세 시나리오는 18배를 쓰고 있어, 두 시나리오 사이 차이가 가치 변동의 큰 부분이다. 현재 FCF 수익률이 -0.4%라 비교할 현재 배수도 없다. [C:fcf_yield] [C:implied_cagr@m14]
+- 약한 가정 `scenarios.bear.p`: 약세 확률 30%는 설비투자 2,200억 달러가 이미 집행 중이고 FCF가 음수라는 사실에 비해 낮을 수 있다. 약세와 기본 사이 기대 연 수익률은 +9.7%로 요구수익률 10% 근처이고, 모델러 스스로 컨센서스와 같은 모델이라 알파가 없다고 인정한다. 확률이 5%포인트만 약세로 이동해도 기대수익률은 요구수익률 아래로 내려간다. [C:expected_irr] [C:p_loss] [C:consensus_diff@revenue@FY2026]
+
+## 검증 (L6)
+
+주장 73개 — supported 61 · unsupported 11 · contradicted 0 · leap 1 · 미검증 0
+
+- [unsupported] 레드팀: 규제·법적 리스크와 소매 마진 정체가 겹친다. FTC가 스폰서 광고 소송을 제기했고(2026-08-31 회사 반박), 광고는 고마진 이익원으로 추정되지만 금액 영 — 출처 없는 숫자 6.8% — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- [unsupported] 슬레이터: 레드팀의 가장 강한 논거는 기본 시나리오의 FCF 마진이 -1.5%에서 5년 뒤 14%로 직선 상승한다는 가정이 근거 없이 가치 대부분을 만든다는 것이다. 이 지 — 없는 근거 인용: C:base_rate@base
+- [unsupported] 사업·산업: AI 클라우드 수요는 강하다. 추정: AWS 매출은 2025년 4분기 355.8억 달러에서 2026년 2분기 422.3억 달러로 두 분기 만에 약 18.7% 늘었 — 출처 없는 숫자 18.7% — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- [unsupported] 회계 품질: 영업권은 FY2026Q2 235.0억으로 총 자산 대비 비중이 낮다(문턱 40%에 한참 못 미침). 연결 자산이 커지면서 영업권 비중은 오히려 낮아지고 있어 인수 — 없는 근거 인용: C:goodwill_to_assets
+- [unsupported] 레드팀: 출구 P/FCF 26배는 FCF가 정상화된 5년 뒤 성숙기 대형주에 주는 배수로는 높다. 민감도표에서 멀티플이 0.75배(약 19.5배)면 기본 시나리오 수익률이 — 출처 없는 숫자 0.75, 19.5, 6.5% — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- [unsupported] 사업·산업: FY2025 매출 성장률은 12.4%로 FY2024의 11.0%보다 빨라졌다. 추정: 2026년 2분기 매출은 전년 동기(1,677.0억 달러) 대비 약 19.6 — 출처 없는 숫자 19.6% — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- [unsupported] 회계 품질: 설비투자가 영업현금흐름을 앞선다. FY2026Q2 설비투자는 542.1억, 영업현금흐름은 453.9억이다. 상반기 설비투자는 984.1억(S48 기준)이고 연간  — 출처 없는 숫자 9.841e+10 — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- [unsupported] 애크먼: 안전마진이 부족하다. 기본 시나리오의 주당 내재가치는 285.43이고 현재 주가는 258.58이라 안전마진이 약 9.4%로 20% 기준에 못 미친다. 확률 가중  — 없는 근거 인용: C:intrinsic_value@base
+- [unsupported] 레드팀: 기본 시나리오는 FCF 마진이 FY2025의 -1.5%에서 5년 뒤 14%로 직선 상승한다고 가정한다. 올해 설비투자는 2,200억 달러로 오히려 늘었고 S48의 — 없는 근거 인용: C:base_rate@base
+- [leap] 앤더슨: 시장은 이미 상당 부분을 가격에 넣었다. 역DCF상 FCF 마진 14%를 가정하면 10년 매출 연 13.3% 성장이 필요하고, 마진을 10%로 낮추면 연 17.5 — 역DCF 13.3%와 17.5%는 맞지만 17.5%는 강세 성장률 15.6%보다 높아 '강세 case의 성장률 안쪽'이라는 서술이 두 값 모두에 성립하지 않는다.
+- [unsupported] 레드팀: AWS 의존 구조가 깨진다. 전사 영업이익 274.6억 중 AWS가 166.2억으로 약 61%를 차지하고, 나머지 사업은 매출 약 1,584억에 이익 약 108억 — 출처 없는 숫자 61%, 1.584e+11, 6.8% — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- [unsupported] 사업·산업: AWS는 규모의 이익을 숫자로 보여준다. 2025년 4분기 영업이익 124.7억 달러(매출 355.8억)에서 2026년 2분기 166.2억 달러(매출 422.3억 — 출처 없는 숫자 35%, 39.4% — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
 
 ## 계산 근거 (L3)
 
@@ -113,9 +286,14 @@ Amazon은 온라인·오프라인 리테일과 3자 판매자 서비스(수수�
 | 영업이익률 (operating_margin) | — | — | 11.2% |
 | 순이익 (net_income) | — | — | 706.2억 USD |
 | 영업현금흐름 (ocf) | — | — | 1,211.4억 USD |
+| 설비투자 (capex) | — | — | 1,318.2억 USD |
+| FCF (fcf) | — | — | -106.8억 USD |
+| FCF 마진 (fcf_margin) | — | — | -1.5% |
+| FCF/순이익 (fcf_conversion) | — | — | -0.15x |
 | SBC (sbc) | — | — | 205.5억 USD |
 | SBC/매출 (sbc_to_revenue) | — | — | 2.9% |
 | SBC/영업현금흐름 (sbc_to_ocf) | — | — | 17.0% |
+| SBC 차감 FCF (fcf_after_sbc) | — | — | -312.3억 USD |
 | ROIC (roic) | — | — | 22.6% |
 | 순현금 (net_cash) | — | — | 546.3억 USD |
 | 순부채/EBITDA (net_debt_to_ebitda) | — | — | -0.39x |
@@ -125,7 +303,7 @@ Amazon은 온라인·오프라인 리테일과 3자 판매자 서비스(수수�
 
 표에 없는 키도 인용할 수 있다: cash, cash_total, cost_of_revenue, d_and_a, debt, debt_current, debt_total, deferred_revenue, ebitda, equity, goodwill, goodwill_to_assets, gross_profit, income_tax, inventory, operating_income, receivables, short_term_investments, total_assets
 
-### 시장 · FY2025 기준 (C:키)
+### 시장 · TTM(FY2026Q2) 기준 (C:키)
 
 | 항목 | 값 |
 |---|---|
@@ -134,22 +312,83 @@ Amazon은 온라인·오프라인 리테일과 3자 판매자 서비스(수수�
 | 시가총액 (market_cap) | 2.82조 USD |
 | 순현금 (net_cash) | -92.4억 USD |
 | EV (ev) | 2.83조 USD |
-| FCF 수익률 (fcf_yield) | — |
+| FCF 수익률 (fcf_yield) | -0.4% |
 | P/FCF (p_fcf) | — |
-| EV/매출 (ev_revenue) | 3.95x |
-| PER (pe) | 39.92x |
-| 순부채/EBITDA (net_debt_to_ebitda) | 0.07x |
-| 현금 소진 연수 (runway_years) | — |
+| EV/매출 (ev_revenue) | 3.65x |
+| PER (pe) | — |
+| 순부채/EBITDA (net_debt_to_ebitda) | — |
+| 현금 소진 연수 (runway_years) | 10.6 |
 
 ### 회계 품질 신호 (코드 계산 — forensic이 하나씩 해명해야 한다)
 
 - 신호 없음
 
+### 가이던스 적중 (C:guidance_hit_rate = 100%)
+
+- revenue FY2026Q1: 가이던스 1,755.0억 → 실제 1,815.2억 = beat [F154, F107]
+- operating_income FY2026Q1: 가이던스 190.0억 → 실제 238.5억 = beat [F155, F95]
+
+### 역DCF — 현재 가격이 가정하는 것
+
+EV 2.83조 USD를 정당화하려면 매출이 10년간 연 몇 % 커져야 하는가 — FCF 마진이 지금 값에서 목표 마진으로 직선 수렴, 할인율 10%, 이후 영구성장 3%.
+기본 시나리오 목표 마진 14% 기준: 연 13.3% (C:implied_cagr)
+
+| 목표 FCF 마진 | 내재 매출 성장(연) | 인용 키 |
+|---|---|---|
+| 10% | 17.5% | C:implied_cagr@m10 |
+| 14% | 13.3% | C:implied_cagr@m14 |
+| 15% | 12.5% | C:implied_cagr@m15 |
+| 20% | 9.0% | C:implied_cagr@m20 |
+| 25% | 6.3% | C:implied_cagr@m25 |
+| 30% | 4.2% | C:implied_cagr@m30 |
+
+### 시나리오 가치 — 5년, 할인율 10% (C:지표@시나리오 — p·revenue_cagr·fcf_margin·exit_multiple·value·iv·irr·revenue·fcf)
+
+| 시나리오 | 확률 | 5년 매출 | 매출 연성장 | FCF 마진 | 출구 P/FCF | 주당 가치 | 현재가치(IV) | 연 수익률 |
+|---|---|---|---|---|---|---|---|---|
+| 약세 | 30% | 1.04조 USD | 7.8% | 6% | 18x | 110.40 | 68.55 | -15.7% |
+| 기본 | 50% | 1.29조 USD | 12.5% | 14% | 26x | 459.69 | 285.43 | +12.2% |
+| 강세 | 20% | 1.48조 USD | 15.6% | 18% | 28x | 742.56 | 461.07 | +23.5% |
+
+확률 가중: 주당 가치 411.48 · IV 255.49 · 기대 연 수익률 +9.7% (C:expected_irr) · 손실 확률 30% (C:p_loss) · 현재 주가 258.58
+
+기본 시나리오 연 수익률 분해 (로그 기여, 합 = 총계): 매출 성장 +11.8% · 마진·멀티플(P/S) -1.6% · 주식 수 변화 -0.5% · 현금 축적 +1.9% = +11.5%
+
+민감도 — 기본 시나리오 연 수익률 (행: 매출 성장 ±, 열: 출구 멀티플 배수)
+
+| 성장 \ 멀티플 | ×0.75 | ×1 | ×1.25 |
+|---|---|---|---|
+| -5%p | +1.3% | +6.7% | +11.1% |
+| +0%p | +6.5% | +12.2% | +16.9% |
+| +5%p | +11.7% | +17.7% | +22.7% |
+
+기본 시나리오 연도별 (드라이버 모델)
+
+| 기간 | 매출 | FCF 마진 | FCF | 희석 주식 수 | 순현금 |
+|---|---|---|---|---|---|
+| FY2026 | 8,280.5억 USD | 1.6% | 133.2억 USD | 109.6억 | 40.8억 USD |
+| FY2027 | 9,439.7억 USD | 4.7% | 444.2억 USD | 110.1억 | 485.0억 USD |
+| FY2028 | 1.06조 USD | 7.8% | 825.1억 USD | 110.7억 | 1,310.1억 USD |
+| FY2029 | 1.17조 USD | 10.9% | 1,279.4억 USD | 111.2억 | 2,589.5억 USD |
+| FY2030 | 1.29조 USD | 14.0% | 1,807.3억 USD | 111.8억 | 4,396.8억 USD |
+
+### 컨센서스 대비 (C:consensus_diff@지표@기간)
+
+| 지표 | 기간 | 컨센서스 | 기본 시나리오 | 차이 |
+|---|---|---|---|---|
+| revenue | FY2026 | 8,289.0억 USD | 8,280.5억 USD | -0.1% |
+
+### 기저율 — 같은 성장을 해낸 기업 비율 (C:base_rate@implied·base·bull)
+
+- 시장 내재 성장 (역DCF): 연 13.3% × 10년 → 기저율 표 없음
+- base 시나리오 매출 성장: 연 12.5% × 5년 → 기저율 표 없음
+- bull 시나리오 매출 성장: 연 15.6% × 5년 → 기저율 표 없음
+
 ### 페르소나 지표 (코드 계산 · case 기본값 기준, C:지표@페르소나)
 
-- 앤더슨 case={"from": "bull", "revenue_growth": [0.17, 0.16, 0.14, 0.13, 0.12, 0.11, 0.1, 0.1, 0.09, 0.09], "fcf_margin": 0.18, "exit_multiple": 30, "share_change": 0.003, "years": 10}: 
-- 슬레이터 case={"from": "base"}: 
-- 애크먼 case={"from": "bear"}: price=258.6, net_debt_to_ebitda=0.07x, leveraged=아니오
+- 앤더슨 case={"from": "bull"}: upside_10y=5.56x, revenue_5y=2.06x
+- 슬레이터 case={"from": "base"}: cash_survives=예, cash_min=1,229.9억 USD, runway_years=10.6
+- 애크먼 case={"from": "base"}: price=258.6, fcf_positive=아니오, leveraged=아니오, intrinsic_value=285.4, mos=9.4%
 
 ### 계산 경고
 
@@ -179,7 +418,8 @@ Amazon은 온라인·오프라인 리테일과 3자 판매자 서비스(수수�
 - 사실 충돌 short_term_investments FY2026: F124=4.1273e+10, F125=4.4775e+10 — 1차 자료 우선으로 하나만 쓴다
 - 사실 충돌 total_assets FY2025: F127=6.8217e+11, F128=7.27921e+11, F129=8.18042e+11 — 1차 자료 우선으로 하나만 쓴다
 - 사실 충돌 total_assets FY2026: F130=9.1663e+11, F131=1.09569e+12 — 1차 자료 우선으로 하나만 쓴다
-- 시나리오 계산 불가 — 연간 매출·영업현금흐름·설비투자·주가·주식 수 필요
+- 모델이 컨센서스와 사실상 같다 — variant perception이 없다면 알파도 없다
+- 기저율 표 없음 — `python3 council.py baserate`로 data/base_rates.json을 만든다
 
 ## 근거
 
@@ -222,3 +462,7 @@ Amazon은 온라인·오프라인 리테일과 3자 판매자 서비스(수수�
 | S41 | news | 2026-09-09 | [Cybersecurity expert Kevin Mandia joins Amazon's Board of Directors - About Amazon](https://news.google.com/rss/articles/CBMijAFBVV95cUxNdHVLaG9jX1A0Qk81YV92YzFwVDBlTnRTamtSaS1DUnFnQ0hRdWRzcktUeXIwc1h6dW9MY1ZaeDdNNkRSY0Q2UDRfUnlPY0VULUxyMGNfOXBDbVJlRTFQcDd0N1BjMWZJSHFGRW13NHRMeU0wQjloaGY1d3dzWFRtSHIyajZuMUJJTlZseg?oc=5) | About Amazon |
 | S44 | data | 2026-10-13 | [Amazon Stock News (Oct 14, 2026): AMZN Falls 0.4% to $258.58](https://www.heygotrade.com/en/news/amazon-amzn-stock-news-october-14-2026/) | AMZN 2026-10-13 종가 $258.58 (전일 대비 -$0.95, -0.37%). 2차 자료(시세 요약). 10-14~10-16 종가는 찾지 못함 |
 | S45 | data | 2026-08-01 | [Amazon post-Q2: AWS reaccelerates as AI investment pushes capex higher - S&P Global Market Intelligence](https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/08/amazon-postq-aws-reaccelerates-as-ai-investment-pushes-capex-higher) | FY2026 매출 컨센서스 약 $828.9B (실적 후 +0.5% 상향), 3분기 매출 컨센서스 약 $202B. Visible Alpha 실적 전 컨센서스: 3분기 매출 $203.9B, 영업이익 $25.4B, 2026 capex $206.1B. 날짜는 8월 기사로 추정. 단일 출처, 2027 컨센서스 없음 |
+| S46 | filing | 2026-02-05 | [Amazon 8-K Exhibit 99.1 — Q4 및 FY2025 실적 발표문](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000002/amzn-20251231xex991.htm) | FY2025Q4 매출 213,386백만, 영업이익 24,977백만, 영업현금흐름 54,459백만, 설비투자(purchases of property and equipment) 39,522백만. FY2025 연간 영업현금흐름 139,514백만, 설비투자 131,819백만. AWS Q4 매출 35,579백만, 영업이익 12,465백만. 2026년 1분기 가이던스: 매출 173,500~178,500백만, 영업이익 16,500~21,500백만 |
+| S47 | filing | 2026-04-29 | [Amazon 8-K Exhibit 99.1 — 2026년 1분기 실적 발표문](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000012/amzn-20260331xex991.htm) | FY2026Q1 매출 181,519백만, 영업현금흐름 26,032백만, 설비투자 44,203백만 |
+| S48 | filing | 2026-07-30 | [Amazon 8-K Exhibit 99.1 — 2026년 2분기 실적 발표문](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260630xex991.htm) | FY2026Q2 매출 200,606백만, 영업현금흐름 45,387백만(TTM 161,403백만), 설비투자 54,208백만(상반기 98,411백만, TTM 173,028백만). AWS Q2 매출 42,232백만, 영업이익 16,621백만. 3분기 가이던스 매출 197,000~202,000백만, 영업이익 22,500~26,500백만. 수주잔고(backlog) 수치는 발표문에 없음. Graviton 매출 약정이 전 분기 대비 약 3배 증가했다고 서술 |
+| S49 | filing | 2025-10-30 | [Amazon 8-K Exhibit 99.1 — 2025년 3분기 실적 발표문](https://www.sec.gov/Archives/edgar/data/1018724/000101872425000121/amzn-20250930xex991.htm) | FY2025Q3 매출 180,169백만, 영업현금흐름 35,525백만, 설비투자 35,095백만(3분기 누적 92,297백만) |

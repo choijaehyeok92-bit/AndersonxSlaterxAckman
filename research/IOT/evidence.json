@@ -352,6 +352,60 @@
       "date": "2026-08-10",
       "note": "종가 39.34(-2.43%). 52주 범위 약 $23.38~47.47. 12개월 평균 목표가 44.31, 컨센서스 '매수'. Piper Sandler 하향(2026-08-10)이 표에 있음. 2차 집계 페이지라 시차가 있을 수 있다.",
       "retrieved": "2026-10-17T17:33:16Z"
+    },
+    {
+      "type": "data",
+      "title": "Yahoo Finance IOT historical prices",
+      "url": "https://finance.yahoo.com/quote/IOT/history/",
+      "date": "2026-10-16",
+      "note": "2026-10-16 종가 39.57 USD",
+      "id": "S44",
+      "retrieved": "2026-10-17T17:47:18Z"
+    },
+    {
+      "id": "S45",
+      "type": "news",
+      "title": "Samsara Tracking Label: The Best Inventions of 2026 - Time Magazine",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1pdFBsQ2V5MWM4Z2k1MkcxbG81SFBMSUlFWUhId1lMZ0tRWi1EdFYwbElDT0dRbExjVUw2UlU5U0x5SVBsRE5odTdyc29fakhiTkJYRDNEeTZkOEdtclJYbTJGUW9VazRHaTRDMlBXb20yUmhNTU1ZaG1KUFo?oc=5",
+      "note": "Time Magazine",
+      "date": "2026-10-15",
+      "retrieved": "2026-10-17T17:50:59Z"
+    },
+    {
+      "id": "S46",
+      "type": "news",
+      "title": "Samsara Fleet Management: Features, Fees, Support 2026 - Tech.co",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJdFdIVm0xTHE3dzFwTHMxSmtndkUzVmkyeFk4YVk0N0FWSTFZVDNwb1VpZHdkZVVEaHY1VS1ieGpXd1pybjl5emNaWm9tbjhOVUxoMDEyRVJiZk5zUTFua1E2c2M5T2djcnd6MzdtSzhCQQ?oc=5",
+      "note": "Tech.co",
+      "date": "2026-09-07",
+      "retrieved": "2026-10-17T17:50:59Z"
+    },
+    {
+      "id": "S47",
+      "type": "news",
+      "title": "Samsara Fleet Management Review and Pricing - Business.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE13NlVyUDVSYk9GWTkwMU04T3k2VG5HNnVkUXhpMVRSa0ViWElfTEdyYTAtckRPWTRfY2VVMGZjS2psWXhHWm1zS2pOMFZndFh5eTZz?oc=5",
+      "note": "Business.com",
+      "date": "2026-10-07",
+      "retrieved": "2026-10-17T17:50:59Z"
+    },
+    {
+      "id": "S48",
+      "type": "news",
+      "title": "Why this company ditched tech blue for construction yellow in its new logo - Fast Company",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1IMmZBNU45dy1QUEwxLTZJWndoYmw0ZFo4dXJaZFFXdUstZ2lTb3BaQlp2VTNhUGJZVmJpZ3ctS3doUjFidWZzWDVvM1RLejBlMFhRQWo1TzJORTJRUlJqWVlIdFB5TlVMc2QzTTBOQzl6dw?oc=5",
+      "note": "Fast Company",
+      "date": "2026-08-27",
+      "retrieved": "2026-10-17T17:50:59Z"
+    },
+    {
+      "id": "S49",
+      "type": "news",
+      "title": "Samsara’s Tiny Tracker Offers 45-Day Visibility for Any Shipment - FreightWaves",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQ3FXeDYxTXQweTN3X0xpZ2kwakR3b0pTdjVndFNTODFxYXlnU2plVlZWa3VKeEZWcDg4eUpfX3plU1hhc3B6QS1UTzRLdXpjenFWX2NESnpVa3BuLUxTdVRlNlBpbXpqMTRDSDAwUVNwUUJ3dG5Zb1hYcWRETHN5bWl2QkZUb2s4ZVRnbUNOZnFPREpnbGhhalpXcEFDZw?oc=5",
+      "note": "FreightWaves",
+      "date": "2026-08-10",
+      "retrieved": "2026-10-17T17:52:46Z"
     }
   ],
   "facts": [
@@ -2786,10 +2840,150 @@
       "basis": "consensus",
       "source": "S42",
       "origin": "research"
+    },
+    {
+      "id": "F218",
+      "metric": "price",
+      "value": 39.57,
+      "unit": "USD/share",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S44",
+      "origin": "research"
+    },
+    {
+      "id": "F219",
+      "metric": "capex",
+      "value": 5969000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2025-08-02",
+      "basis": "reported",
+      "origin": "sec",
+      "derived": true,
+      "note": "Q2 = 6개월 누적 − 3개월 누적 (코드 계산)",
+      "source": "S1"
+    },
+    {
+      "id": "F220",
+      "metric": "capex",
+      "value": 7859000,
+      "unit": "USD",
+      "period": "FY2026Q3",
+      "end": "2025-11-01",
+      "basis": "reported",
+      "origin": "sec",
+      "derived": true,
+      "note": "Q3 = 9개월 누적 − 6개월 누적 (코드 계산)",
+      "source": "S12"
+    },
+    {
+      "id": "F221",
+      "metric": "capex",
+      "value": 8783000,
+      "unit": "USD",
+      "period": "FY2027Q2",
+      "end": "2026-08-01",
+      "basis": "reported",
+      "origin": "sec",
+      "derived": true,
+      "note": "Q2 = 6개월 누적 − 3개월 누적 (코드 계산)",
+      "source": "S1"
+    },
+    {
+      "id": "F222",
+      "metric": "ocf",
+      "value": 50161000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2025-08-02",
+      "basis": "reported",
+      "origin": "sec",
+      "derived": true,
+      "note": "Q2 = 6개월 누적 − 3개월 누적 (코드 계산)",
+      "source": "S1"
+    },
+    {
+      "id": "F223",
+      "metric": "ocf",
+      "value": 63704000,
+      "unit": "USD",
+      "period": "FY2026Q3",
+      "end": "2025-11-01",
+      "basis": "reported",
+      "origin": "sec",
+      "derived": true,
+      "note": "Q3 = 9개월 누적 − 6개월 누적 (코드 계산)",
+      "source": "S12"
+    },
+    {
+      "id": "F224",
+      "metric": "ocf",
+      "value": 73524000,
+      "unit": "USD",
+      "period": "FY2027Q2",
+      "end": "2026-08-01",
+      "basis": "reported",
+      "origin": "sec",
+      "derived": true,
+      "note": "Q2 = 6개월 누적 − 3개월 누적 (코드 계산)",
+      "source": "S1"
+    },
+    {
+      "id": "F225",
+      "metric": "capex",
+      "value": 5347000,
+      "unit": "USD",
+      "period": "FY2025Q4",
+      "end": "2025-02-01",
+      "basis": "reported",
+      "origin": "sec",
+      "derived": true,
+      "note": "Q4 = 연간 − Q1~Q3 (코드 계산)",
+      "source": "S9"
+    },
+    {
+      "id": "F226",
+      "metric": "ocf",
+      "value": 53859000,
+      "unit": "USD",
+      "period": "FY2025Q4",
+      "end": "2025-02-01",
+      "basis": "reported",
+      "origin": "sec",
+      "derived": true,
+      "note": "Q4 = 연간 − Q1~Q3 (코드 계산)",
+      "source": "S9"
+    },
+    {
+      "id": "F227",
+      "metric": "capex",
+      "value": 8018000,
+      "unit": "USD",
+      "period": "FY2026Q4",
+      "end": "2026-01-31",
+      "basis": "reported",
+      "origin": "sec",
+      "derived": true,
+      "note": "Q4 = 연간 − Q1~Q3 (코드 계산)",
+      "source": "S9"
+    },
+    {
+      "id": "F228",
+      "metric": "ocf",
+      "value": 69733000,
+      "unit": "USD",
+      "period": "FY2026Q4",
+      "end": "2026-01-31",
+      "basis": "reported",
+      "origin": "sec",
+      "derived": true,
+      "note": "Q4 = 연간 − Q1~Q3 (코드 계산)",
+      "source": "S9"
     }
   ],
   "as_of": "2026-10-18",
-  "collected": "2026-10-17T17:32:31Z",
+  "collected": "2026-10-17T17:52:46Z",
   "gaps": [
     "희석 주식 수는 XBRL 사실(F60 등)이 있으나 최신 발행주식 수(shares_outstanding, 10-Q 표지 기준)는 찾지 못했다. 코드 점검의 '주식 수 없음'은 이 때문으로 보이며 10-Q(S1) 표지에서 확인해야 한다.",
     "2026-10-18 기준 최신 주가는 찾지 못했다. 가장 가까운 값은 2026-09-04 장중 $40.29(S39)이고, 2026-08-10 종가 39.34(S43)는 더 오래됐다. 공식 종가가 아니라 기사 속 장중가다.",

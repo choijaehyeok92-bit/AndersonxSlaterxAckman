@@ -532,6 +532,24 @@
       "date": "2026-08-13",
       "note": "2분기 자산운용 모집 770억 USD로 사상 최대, 수수료 부과 자본 6,720억 USD(+19%). 요약 출처이며 원문 대조 필요.",
       "retrieved": "2026-10-17T17:42:54Z"
+    },
+    {
+      "type": "data",
+      "title": "Yahoo Finance BN historical prices",
+      "url": "https://finance.yahoo.com/quote/BN/history/",
+      "date": "2026-10-16",
+      "note": "2026-10-16 종가 36.62 USD",
+      "id": "S60",
+      "retrieved": "2026-10-17T17:47:14Z"
+    },
+    {
+      "id": "S61",
+      "type": "news",
+      "title": "Stocks in play: Brookfield Corporation - Yahoo! Finance Canada",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTU1XWUlQaWk0dEhPZDlub1dsUUpuN0N1X2drZ0N3YUI4RmZ6VDl0MjZzZXFkTGVHR1o0TTlkR3NmYzE0YlVYQXc1WFcxTHYybzNmV0RxUGgwOEpQQXpadnltZWZXUFF4UGh2M2hzLWxWUHJDN1hZR0Q4aUF0TDF5MTVYZmlQbDY5b0sw?oc=5",
+      "note": "Yahoo! Finance Canada",
+      "date": "2026-09-04",
+      "retrieved": "2026-10-17T17:50:35Z"
     }
   ],
   "facts": [
@@ -1521,10 +1539,20 @@
       "basis": "reported",
       "source": "S58",
       "origin": "research"
+    },
+    {
+      "id": "F91",
+      "metric": "price",
+      "value": 36.62,
+      "unit": "USD/share",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S60",
+      "origin": "research"
     }
   ],
   "as_of": "2026-10-18",
-  "collected": "2026-10-17T17:19:31Z",
+  "collected": "2026-10-17T17:52:25Z",
   "gaps": [
     "2026-10-16 종가를 확인하지 못했다. 최신 가격은 2026-09-09의 39.27 USD(S54), 2026-08-20의 41.37 USD(S55)와 2026-06-30의 NYSE 종가 42.59 USD(S60)뿐이라 기준일 직전 가격이 없다. 시세는 거래소나 시세 제공처에서 다시 확인해야 한다.",
     "TTM 계산에 필요한 2025년 3분기·4분기 매출을 분기 단독 값으로 찾지 못했다. FY2025 연간 매출에서 상반기를 뺀 합계(약 390.7억 USD)만 알 수 있다.",

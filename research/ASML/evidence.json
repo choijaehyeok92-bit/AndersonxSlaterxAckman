@@ -289,6 +289,69 @@
       "date": "2026-10-14",
       "note": "2차 요약(보도). 3분기 순이익에 지분투자 평가이익 약 €509.7M 포함 → 이를 제외한 기초 순이익 약 €4.5B라는 분석. 경영진 발언: 현재 계획된 2027·2028년 공급은 고객 수요를 다 채우지 못하며, 일부 고객이 2029·2030년 주문에도 관심을 표명(주문 확정이 아니라 관심 표명). 3분기 신규 수주(bookings)는 확인되지 않음.",
       "retrieved": "2026-10-17T17:23:13Z"
+    },
+    {
+      "type": "data",
+      "title": "Yahoo Finance ASML historical prices",
+      "url": "https://finance.yahoo.com/quote/ASML/history/",
+      "date": "2026-10-16",
+      "note": "2026-10-16 종가 1641.52 USD",
+      "id": "S36",
+      "retrieved": "2026-10-17T17:47:14Z"
+    },
+    {
+      "type": "data",
+      "title": "Yahoo Finance USDEUR=X historical rates",
+      "url": "https://finance.yahoo.com/quote/USDEUR=X/history/",
+      "date": "2026-10-16",
+      "note": "2026-10-16 종가 1 USD = 0.8918 EUR",
+      "id": "S37",
+      "retrieved": "2026-10-17T17:47:14Z"
+    },
+    {
+      "id": "S38",
+      "type": "news",
+      "title": "ASML Holding N.V. vs. Marvell Technology: Which Technology Stock Is a Better Buy in 2026? - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPbTVQY3A5SHlvandtejg2R2Y5YWRUZlVud0tEYkRVa2E3RW02OU1wTXljWXdSUkJRaWc0ckNjY2g3UGJkcS1vN1FVaF9HVFNGa2V0NTFCcUdPMUZueHhxUjhsbnFoYUhQUzRpYkhWcEhPQzk4TS1XdE8tSXpUamdldzExYWRxYXNSVE4wRXRoYjJOY19KTXZMM2RjZmRkbGVCUlJUUnQxb0FpX1B2V0t2NlVPdlpsWllWSUN1MmV1WWNlcTB2ajNEZzY1UnhFQkRDVUU0WQ?oc=5",
+      "note": "The Motley Fool",
+      "date": "2026-09-30",
+      "retrieved": "2026-10-17T17:50:39Z"
+    },
+    {
+      "id": "S39",
+      "type": "news",
+      "title": "ASML vs. Applied Digital: Which Is the Better Semiconductor Equipment Stock to Own for the Next 1 Year? - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQ0tNT09IRWZ6TEdKUWZZb0FXRjgyUjk5bGd6azllbG5EazhRa3lVWFVZNVA0SWVvNVJCa0RNSW1BaXB6ZHBZdlFaRDlxcEJycmRCMkpxd0plYWMyYUJiQVJ5Z3FUUm45NTRSeEtmc1pWclpub1hDV2o5ay1pQTM3eTZzWGxqWGwzYUNqb0l0S0RnOFh2YmpJ?oc=5",
+      "note": "The Motley Fool",
+      "date": "2026-10-01",
+      "retrieved": "2026-10-17T17:50:39Z"
+    },
+    {
+      "id": "S40",
+      "type": "news",
+      "title": "ASML vs. Qualcomm: Which AI Semiconductor Stock Is a Better Buy in 2026? - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMnpOcG0yTTUwcHp3eENjaDBxcUU1WkJIREpFWWlNUU1WcTVnR2gtUHNRdFVnWXZNT2d3LUpVQm54UUY0VUItbC1zdVpMQWs3emtJQzM2N19tMVNqNW5TcGtnejVSdHZFQVE3enk4T094eVFGUDhsaF9BQ0YzcDB3cUcxODNLRG5hdDhZUWd0RHFURy1WYU8ydHBFRzg5X3BXTHZwY0NScjRRdGx1?oc=5",
+      "note": "The Motley Fool",
+      "date": "2026-09-26",
+      "retrieved": "2026-10-17T17:50:39Z"
+    },
+    {
+      "id": "S41",
+      "type": "news",
+      "title": "Are Computer and Technology Stocks Lagging ASML Holding (ASML) This Year? - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUVp0dGZLd242QmdWNlp5ZVhPV01XYTloUlFlMWtvVHlnZDNtUVZCZ01YNHhuNmxQeUFBNVgwTmpYV21uclA2Z3piQXNJZUpTV1M4T2xrel9FT0swckRyUVpmRGNqOER5ZlVmcnZ6eS1nX1NOM0k0dElENVBpVHZZMVhSb0h6UW5HNDgxSlpQbXdpX1N0Tl9kc0xhamZQOTFTVFcyVHlrRQ?oc=5",
+      "note": "Yahoo Finance",
+      "date": "2026-09-15",
+      "retrieved": "2026-10-17T17:50:39Z"
+    },
+    {
+      "id": "S42",
+      "type": "news",
+      "title": "ASML vs. Qualcomm: Which AI Semiconductor Stock Is a Better Buy in 2026? - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWV9PazctRDFEWENDamxibzN3Rzdic1VobGhZRm5TZ2pFUEVzQ2xac184T2JaNTh2NlpYYkZzT3VpdERXNlZranhkV21aRHpCeHlPSnZQR3I3WHlweXpPNU03d0wtZjl5SVdFQzJ0OU9FdXdDdENyVThocm5hZmlxRHBaeENfWE0wbVJGM0xDNWVfWVJaYnNNd1l3NjZEWE0?oc=5",
+      "note": "Yahoo Finance",
+      "date": "2026-09-26",
+      "retrieved": "2026-10-17T17:52:29Z"
     }
   ],
   "facts": [
@@ -1778,10 +1841,30 @@
       "basis": "guidance",
       "source": "S33",
       "origin": "research"
+    },
+    {
+      "id": "F136",
+      "metric": "price",
+      "value": 1641.52,
+      "unit": "USD/share",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S36",
+      "origin": "research"
+    },
+    {
+      "id": "F137",
+      "metric": "fx",
+      "value": 0.8918,
+      "unit": "EUR/USD",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S37",
+      "origin": "research"
     }
   ],
   "as_of": "2026-10-18",
-  "collected": "2026-10-17T17:22:29Z",
+  "collected": "2026-10-17T17:52:29Z",
   "gaps": [
     "최신 주가: 10월 9일 이후 종가를 찾지 못했다. 10월 14일 실적 후 주가 급등(S31 제목 +9.4%)이 S34의 가격에 반영되지 않았다. 가치 판단 전에 10월 16일 종가를 확인해야 한다.",
     "EUR/USD 환율(fx)을 찾지 못했다. 재무는 EUR, 주가는 USD라서 환율 없이는 주당가치와 주가를 비교할 수 없다.",

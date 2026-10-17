@@ -271,6 +271,15 @@
       "note": "Space",
       "date": "2026-09-19",
       "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "type": "data",
+      "title": "Yahoo Finance SPCX historical prices",
+      "url": "https://finance.yahoo.com/quote/SPCX/history/",
+      "date": "2026-10-16",
+      "note": "2026-10-16 종가 146.03 USD",
+      "id": "S31",
+      "retrieved": "2026-10-17T17:47:17Z"
     }
   ],
   "facts": [
@@ -471,10 +480,20 @@
       "basis": "reported",
       "origin": "sec",
       "source": "S2"
+    },
+    {
+      "id": "F19",
+      "metric": "price",
+      "value": 146.03,
+      "unit": "USD/share",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S31",
+      "origin": "research"
     }
   ],
   "as_of": "2026-10-18",
-  "collected": "2026-10-17T17:29:53Z",
+  "collected": "2026-10-17T17:52:40Z",
   "gaps": [
     "연간 매출(FY2024·FY2025) — 수집된 사실은 FY2026Q2 분기 값뿐이다. 주어진 근거(S1~S30)에는 연간 수치가 없어 S-1(S10)의 연간 재무제표나 10-K·XBRL에서 찾아야 한다. 이 응답에서는 채우지 못했다.",
     "현재 주가(price, basis market, 기준일 2026-10-18 이전 날짜) — 주어진 근거에 시세 데이터가 없다. 웹 검색으로 확인하지 않았고, 확인되지 않은 값은 넣지 않았다.",

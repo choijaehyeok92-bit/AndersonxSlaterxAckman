@@ -271,6 +271,24 @@
       "date": "2026-08-12",
       "note": "보도. 2분기 GAAP 매출 $180.1M은 컨센서스 $194M 하회(하드웨어 부진, 클라우드는 상회). 3분기 core 매출 컨센서스(가이던스 이전) $211.9M. 2026 core 매출 컨센서스(가이던스 상향 전) 약 $863.4M. GAAP 매출총이익률은 기대에 크게 못 미침.",
       "retrieved": "2026-10-17T17:28:27Z"
+    },
+    {
+      "type": "data",
+      "title": "Yahoo Finance CBRS historical prices",
+      "url": "https://finance.yahoo.com/quote/CBRS/history/",
+      "date": "2026-10-16",
+      "note": "2026-10-16 종가 127.21 USD",
+      "id": "S31",
+      "retrieved": "2026-10-17T17:47:17Z"
+    },
+    {
+      "id": "S32",
+      "type": "news",
+      "title": "Cerebras Systems Introduces Superfast AI Accelerator - Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcUpZSVhkNDcyU0lXNWx4WHF0ZTRweFE2N3pvbU5URlU4SjQtQVRXekhGV0t4TFVWa1A1YTY1U2pwRGExR3EydjI4U3E4ZTRDZzZaX2VMVjhWUXVNUWJBNnBYcmRrYmhmRm5pc3lxcUlVaGp4OG1qUVl1Ym1aa3BDVHlyYWdWRzF1RkpUaA?oc=5",
+      "note": "Investor's Business Daily",
+      "date": "2026-08-18",
+      "retrieved": "2026-10-17T17:50:49Z"
     }
   ],
   "facts": [
@@ -939,10 +957,59 @@
       "basis": "consensus",
       "source": "S30",
       "origin": "research"
+    },
+    {
+      "id": "F61",
+      "metric": "price",
+      "value": 127.21,
+      "unit": "USD/share",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S31",
+      "origin": "research"
+    },
+    {
+      "id": "F62",
+      "metric": "capex",
+      "value": 416903000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "derived": true,
+      "note": "Q2 = 6개월 누적 − 3개월 누적 (코드 계산)",
+      "source": "S1"
+    },
+    {
+      "id": "F63",
+      "metric": "d_and_a",
+      "value": 24376000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "derived": true,
+      "note": "Q2 = 6개월 누적 − 3개월 누적 (코드 계산)",
+      "source": "S1"
+    },
+    {
+      "id": "F64",
+      "metric": "ocf",
+      "value": -59823000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "derived": true,
+      "note": "Q2 = 6개월 누적 − 3개월 누적 (코드 계산)",
+      "source": "S1"
     }
   ],
   "as_of": "2026-10-18",
-  "collected": "2026-10-17T17:27:28Z",
+  "collected": "2026-10-17T17:52:38Z",
   "gaps": [
     "FY2026·FY2027 연간 GAAP 매출 컨센서스를 찾지 못했다. FY2026 core 매출 컨센서스 $863.4M은 2분기 실적과 가이던스 상향 전 수치로, 지금은 낡았다. FY2027 컨센서스는 전혀 없어 variant perception을 검증하기 어렵다.",
     "현재 주가 $175.44의 기준일이 불확실하다. 기사에 날짜가 없고 '화요일'로만 적혀 있어 10-13으로 추정했으며, 10-16~10-18 종가는 확인하지 못했다.",

@@ -550,6 +550,42 @@
       "date": "2026-07-21",
       "note": "보도(2차 자료). 2Q26 콜에서 2026 설비투자 가이던스를 US$52~56bn에서 US$60~64bn으로 상향. CFO는 향후 3년 설비투자가 직전 3년보다 크게 늘 것이라고 발언(보도). 3Q26 콜에서의 변경 여부는 XTB 요약이 US$64bn 언급(미확인).",
       "retrieved": "2026-10-17T17:37:56Z"
+    },
+    {
+      "type": "data",
+      "title": "Yahoo Finance TSM historical prices",
+      "url": "https://finance.yahoo.com/quote/TSM/history/",
+      "date": "2026-10-16",
+      "note": "2026-10-16 종가 412.61 USD (ADR, 1 ADR = 5 보통주)",
+      "id": "S62",
+      "retrieved": "2026-10-17T17:47:11Z"
+    },
+    {
+      "type": "data",
+      "title": "Yahoo Finance USDTWD=X historical rates",
+      "url": "https://finance.yahoo.com/quote/USDTWD=X/history/",
+      "date": "2026-10-16",
+      "note": "2026-10-16 종가 1 USD = 32.428 TWD",
+      "id": "S63",
+      "retrieved": "2026-10-17T17:47:11Z"
+    },
+    {
+      "id": "S64",
+      "type": "news",
+      "title": "Taiwan Semiconductor Manufacturing (TSM) Dropped, So What Is Behind The Move? - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNU1lxVG1ueWNWR1Ezc3JJN3p5VDk3YU9IZi1DUVpLZDRyTWVqeUFBSnY1REVJWW1OTmRNQnQ2dV84aTBtRUlvSTBRU1VfR1Y4b2pBR19zYW85TGUtb0tVRXpVMGJtd1FfTXQ3cUF0WXRHa0tDcEFPOTF4aWotVG5zWXM1ZjlMRWJXYmQ2OEVreVRjWDBHbjlVU0tpUjUwczlSdFQ1UXNxU2FuQkN4UU4tRA?oc=5",
+      "note": "Yahoo Finance",
+      "date": "2026-10-17",
+      "retrieved": "2026-10-17T17:50:27Z"
+    },
+    {
+      "id": "S65",
+      "type": "news",
+      "title": "Taiwan Semiconductor Manufacturing Heads 3 AI Chip Stocks To Watch - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWXRTTmNnNFdERjdmcjRiRzM1LVBlcmFkUHhHd2Q3dnUzMlZlYTFMQm8tS3dQQnJtRG1qdDNEVEw1V2VFTkZBeDREYW9RVmZsOVU0MU9rVjdJNG9DSDJKU2xMN1NiQkc2UGx2alpydGxJSHpDS3pyMEFOOTNaR18xMldpWU5IT2dneVkyNTBZTVNwWEtoMUdWMmV1MHYwVTRablhZaG1Cb3dPQQ?oc=5",
+      "note": "Yahoo Finance",
+      "date": "2026-10-07",
+      "retrieved": "2026-10-17T17:50:27Z"
     }
   ],
   "facts": [
@@ -1645,10 +1681,30 @@
       "basis": "guidance",
       "source": "S61",
       "origin": "research"
+    },
+    {
+      "id": "F100",
+      "metric": "price",
+      "value": 412.61,
+      "unit": "USD/ADR",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S62",
+      "origin": "research"
+    },
+    {
+      "id": "F101",
+      "metric": "fx",
+      "value": 32.428,
+      "unit": "TWD/USD",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S63",
+      "origin": "research"
     }
   ],
   "as_of": "2026-10-18",
-  "collected": "2026-10-17T17:14:34Z",
+  "collected": "2026-10-17T17:52:17Z",
   "gaps": [
     "FY2025 연간 영업활동현금흐름·NT$ 설비투자·영업이익·현금·차입금 (20-F S30 본문 미확인)",
     "FY2025 순이익 NT$1.7178조는 단일 보도 출처뿐이라 20-F로 교차 확인 필요",

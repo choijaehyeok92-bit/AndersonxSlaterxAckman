@@ -487,6 +487,24 @@
       "date": "2026-08-18",
       "note": "2026년 2분기 총매출 약 $36.2M, 전년 대비 +68.8%. 로보택시 서비스 매출 $12.1M, 전년 대비 +691.2%. 요금 징수 매출은 +849.3%. 로보택시 1,975대, 연말 3,500대 이상 목표. Uber와 유럽에 2,000대 이상 공동 배치 계획.",
       "retrieved": "2026-10-17T17:26:34Z"
+    },
+    {
+      "type": "data",
+      "title": "Yahoo Finance PONY historical prices",
+      "url": "https://finance.yahoo.com/quote/PONY/history/",
+      "date": "2026-10-16",
+      "note": "2026-10-16 종가 4.93 USD",
+      "id": "S55",
+      "retrieved": "2026-10-17T17:47:16Z"
+    },
+    {
+      "type": "filing",
+      "title": "PONY 20-F (FY2025) — XBRL us-gaap:PaymentsToAcquireProductiveAssets",
+      "url": "https://www.sec.gov/Archives/edgar/data/1969302/000110465926046406/",
+      "date": "2026-04-22",
+      "note": "20-F 현금흐름표 us-gaap:PaymentsToAcquireProductiveAssets FY2025 = 43,875,000 USD",
+      "id": "S56",
+      "retrieved": "2026-10-17T17:47:16Z"
     }
   ],
   "facts": [
@@ -1355,10 +1373,75 @@
       "basis": "guidance",
       "source": "S54",
       "origin": "research"
+    },
+    {
+      "id": "F80",
+      "metric": "price",
+      "value": 4.93,
+      "unit": "USD/share",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S55",
+      "origin": "research"
+    },
+    {
+      "id": "F81",
+      "metric": "capex",
+      "value": 43875000,
+      "unit": "USD",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "source": "S56",
+      "origin": "research"
+    },
+    {
+      "id": "F82",
+      "metric": "capex",
+      "value": 12033000,
+      "unit": "USD",
+      "period": "FY2022",
+      "end": "2022-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S31"
+    },
+    {
+      "id": "F83",
+      "metric": "capex",
+      "value": 5091000,
+      "unit": "USD",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S22"
+    },
+    {
+      "id": "F84",
+      "metric": "capex",
+      "value": 11397000,
+      "unit": "USD",
+      "period": "FY2024",
+      "end": "2024-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S22"
+    },
+    {
+      "id": "F85",
+      "metric": "capex",
+      "value": 43875000,
+      "unit": "USD",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S22"
     }
   ],
   "as_of": "2026-10-18",
-  "collected": "2026-10-17T17:26:07Z",
+  "collected": "2026-10-17T17:52:37Z",
   "gaps": [
     "2026-10-18 전후의 PONY 최신 종가를 찾지 못했다. 가장 가까운 날짜인 2026-09-22 종가 $7.29를 썼다. 판정 전에 최신 가격으로 바꿔야 한다.",
     "adr_ratio 1(ADS 1주 = Class A 보통주 1주)은 20-F 기재 사항으로 알고 있는 값이다. 20-F 본문으로 다시 확인하지 않았다.",

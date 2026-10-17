@@ -388,6 +388,51 @@
       "date": "2026-08-05",
       "note": "보도. 3분기 매출 저 30%대 성장 가이던스 확인. Benzinga는 3분기 매출 가이던스를 $3.73~3.78B로 표시했으나 다른 출처로 미확인, 사실로 쓰지 않음.",
       "retrieved": "2026-10-17T17:29:17Z"
+    },
+    {
+      "type": "data",
+      "title": "Yahoo Finance SHOP historical prices",
+      "url": "https://finance.yahoo.com/quote/SHOP/history/",
+      "date": "2026-10-16",
+      "note": "2026-10-16 종가 169.52 USD",
+      "id": "S44",
+      "retrieved": "2026-10-17T17:47:17Z"
+    },
+    {
+      "id": "S45",
+      "type": "news",
+      "title": "Why Shopify Stock Could Be the Biggest Winner in Agentic AI Commerce - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRDVSQnQ4bVhLYmtpclJtM3hXbjZLMUxZbmVOT2xvY21tUmpaZVlwT2ZmUEJFZjZ2T0NlRXdhWmdvTk8yWmdDS2p2WTlsVEV5ZXNZbmxDQ2w0NGRFdTNVYlJzdlJCRTJiOWozcWlPeXl3WkoyempXUEhGTVc4OVpZLUVQM1QzMjZXY3kxdVZHQTRjbXM2MGpUVw?oc=5",
+      "note": "The Motley Fool",
+      "date": "2026-08-09",
+      "retrieved": "2026-10-17T17:50:51Z"
+    },
+    {
+      "id": "S46",
+      "type": "news",
+      "title": "Shopify CEO says employees' 'slop grenades' are making more work for everyone else - Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUFJjbVNFdnhJcTdWRFl3TG8wNGdvZ0Y0T1UxUXhfWFpzYmNMbW1kTFhIb3dyaE9pY3dVWm0yUzJNa1ZVMndRbTNNd3Z2NjZGRHc2RnJoOFg1UHNrNzhQUWtjTWd3U3B2WUlGZzlVWjJacnFEMkI0WjhNbkN5SzhzSVNfQ2R1V0VnSVZILXBTQlh4Zw?oc=5",
+      "note": "Business Insider",
+      "date": "2026-09-17",
+      "retrieved": "2026-10-17T17:50:51Z"
+    },
+    {
+      "id": "S47",
+      "type": "news",
+      "title": "Shopify Turns On Agent Checkout by Default for a Million Merchants - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNUtrUmtDOUlrRGRKUmxVSlItOV83R1Z3S3h6eXEwaDhHRHAybFMyTGRrX1dLR20tdXF6VElpa1RVaTk3SV9SMjQ1dUJiN1NaSU10M3NneUoydUZSVlNzaGw4RGp3NjNUSkQxM3JGTE0xeHRROWc1SW93LU40TG1VOUNISmdvaWFpeXhUa2s0R0xyeTJlRzlaZmxkbmxqVWd0VUE?oc=5",
+      "note": "Yahoo Finance",
+      "date": "2026-09-24",
+      "retrieved": "2026-10-17T17:50:51Z"
+    },
+    {
+      "id": "S48",
+      "type": "news",
+      "title": "Shopify Signals Revenue Acceleration as AI Tools, Merchant Growth Drive Results - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQczVVRUo0X1BGUmdjZG1nVFVsbmhQV3BQZ3Rad0pvTHM5RnVtVUJJOWN1eHU3ZHA5TXhSQ2laVDlOWjdpa0tqNGthQW9mVmtOZGtCTjNhY21hNUo2OTZpeHZXbS1sRm9WWnYxaFJ6X1I5Ml9rUDNyNUc5T0dDa1UzUnEwUHRuS21UajdVenJoOXM0ZlhnMWFKWS1abXh3QklVd0RjYkNvRmZWZW5RbFNDVUJkRU1vVXpV?oc=5",
+      "note": "WSJ",
+      "date": "2026-08-05",
+      "retrieved": "2026-10-17T17:52:03Z"
     }
   ],
   "facts": [
@@ -456,17 +501,6 @@
       "basis": "reported",
       "origin": "sec",
       "source": "S16"
-    },
-    {
-      "id": "F7",
-      "metric": "capex",
-      "value": 39000000,
-      "unit": "USD",
-      "period": "FY2022",
-      "end": "2023-12-31",
-      "basis": "reported",
-      "origin": "sec",
-      "source": "S9"
     },
     {
       "id": "F8",
@@ -568,17 +602,6 @@
       "source": "S17"
     },
     {
-      "id": "F17",
-      "metric": "cash",
-      "value": 1413000000,
-      "unit": "USD",
-      "period": "FY2022",
-      "end": "2023-12-31",
-      "basis": "reported",
-      "origin": "sec",
-      "source": "S16"
-    },
-    {
       "id": "F18",
       "metric": "cash",
       "value": 1498000000,
@@ -676,17 +699,6 @@
       "basis": "reported",
       "origin": "sec",
       "source": "S16"
-    },
-    {
-      "id": "F27",
-      "metric": "cost_of_revenue",
-      "value": 3545000000,
-      "unit": "USD",
-      "period": "FY2022",
-      "end": "2023-12-31",
-      "basis": "reported",
-      "origin": "sec",
-      "source": "S9"
     },
     {
       "id": "F28",
@@ -788,17 +800,6 @@
       "source": "S16"
     },
     {
-      "id": "F37",
-      "metric": "d_and_a",
-      "value": 70000000,
-      "unit": "USD",
-      "period": "FY2022",
-      "end": "2023-12-31",
-      "basis": "reported",
-      "origin": "sec",
-      "source": "S9"
-    },
-    {
       "id": "F38",
       "metric": "d_and_a",
       "value": 36000000,
@@ -896,17 +897,6 @@
       "basis": "reported",
       "origin": "sec",
       "source": "S17"
-    },
-    {
-      "id": "F47",
-      "metric": "deferred_revenue",
-      "value": 302000000,
-      "unit": "USD",
-      "period": "FY2022",
-      "end": "2023-12-31",
-      "basis": "reported",
-      "origin": "sec",
-      "source": "S16"
     },
     {
       "id": "F48",
@@ -1008,17 +998,6 @@
       "source": "S16"
     },
     {
-      "id": "F57",
-      "metric": "diluted_shares",
-      "value": 1295511385,
-      "unit": "shares",
-      "period": "FY2022",
-      "end": "2023-12-31",
-      "basis": "reported",
-      "origin": "sec",
-      "source": "S9"
-    },
-    {
       "id": "F58",
       "metric": "diluted_shares",
       "value": 1301509980,
@@ -1113,17 +1092,6 @@
       "unit": "USD",
       "period": "FY2022",
       "end": "2022-12-31",
-      "basis": "reported",
-      "origin": "sec",
-      "source": "S9"
-    },
-    {
-      "id": "F67",
-      "metric": "equity",
-      "value": 9066000000,
-      "unit": "USD",
-      "period": "FY2022",
-      "end": "2023-12-31",
       "basis": "reported",
       "origin": "sec",
       "source": "S9"
@@ -1228,17 +1196,6 @@
       "source": "S16"
     },
     {
-      "id": "F77",
-      "metric": "goodwill",
-      "value": 427000000,
-      "unit": "USD",
-      "period": "FY2022",
-      "end": "2023-12-31",
-      "basis": "reported",
-      "origin": "sec",
-      "source": "S9"
-    },
-    {
       "id": "F78",
       "metric": "goodwill",
       "value": 452000000,
@@ -1336,17 +1293,6 @@
       "basis": "reported",
       "origin": "sec",
       "source": "S16"
-    },
-    {
-      "id": "F87",
-      "metric": "gross_profit",
-      "value": 3515000000,
-      "unit": "USD",
-      "period": "FY2022",
-      "end": "2023-12-31",
-      "basis": "reported",
-      "origin": "sec",
-      "source": "S9"
     },
     {
       "id": "F88",
@@ -1448,17 +1394,6 @@
       "source": "S16"
     },
     {
-      "id": "F97",
-      "metric": "income_tax",
-      "value": 53000000,
-      "unit": "USD",
-      "period": "FY2022",
-      "end": "2023-12-31",
-      "basis": "reported",
-      "origin": "sec",
-      "source": "S9"
-    },
-    {
       "id": "F98",
       "metric": "income_tax",
       "value": 209000000,
@@ -1558,17 +1493,6 @@
       "source": "S15"
     },
     {
-      "id": "F107",
-      "metric": "inventory",
-      "value": 19000000,
-      "unit": "USD",
-      "period": "FY2022",
-      "end": "2023-12-31",
-      "basis": "reported",
-      "origin": "sec",
-      "source": "S16"
-    },
-    {
       "id": "F108",
       "metric": "inventory",
       "value": 26000000,
@@ -1611,17 +1535,6 @@
       "basis": "reported",
       "origin": "sec",
       "source": "S16"
-    },
-    {
-      "id": "F112",
-      "metric": "net_income",
-      "value": 132000000,
-      "unit": "USD",
-      "period": "FY2022",
-      "end": "2023-12-31",
-      "basis": "reported",
-      "origin": "sec",
-      "source": "S9"
     },
     {
       "id": "F113",
@@ -1723,17 +1636,6 @@
       "source": "S16"
     },
     {
-      "id": "F122",
-      "metric": "ocf",
-      "value": 944000000,
-      "unit": "USD",
-      "period": "FY2022",
-      "end": "2023-12-31",
-      "basis": "reported",
-      "origin": "sec",
-      "source": "S9"
-    },
-    {
       "id": "F123",
       "metric": "ocf",
       "value": 1616000000,
@@ -1833,17 +1735,6 @@
       "source": "S16"
     },
     {
-      "id": "F132",
-      "metric": "operating_income",
-      "value": -1418000000,
-      "unit": "USD",
-      "period": "FY2022",
-      "end": "2023-12-31",
-      "basis": "reported",
-      "origin": "sec",
-      "source": "S9"
-    },
-    {
       "id": "F133",
       "metric": "operating_income",
       "value": 1075000000,
@@ -1921,17 +1812,6 @@
       "source": "S1"
     },
     {
-      "id": "F140",
-      "metric": "pretax_income",
-      "value": 185000000,
-      "unit": "USD",
-      "period": "FY2022",
-      "end": "2023-12-31",
-      "basis": "reported",
-      "origin": "sec",
-      "source": "S9"
-    },
-    {
       "id": "F141",
       "metric": "pretax_income",
       "value": 2228000000,
@@ -1971,17 +1851,6 @@
       "unit": "USD",
       "period": "FY2022",
       "end": "2022-12-31",
-      "basis": "reported",
-      "origin": "sec",
-      "source": "S17"
-    },
-    {
-      "id": "F145",
-      "metric": "revenue",
-      "value": 7060000000,
-      "unit": "USD",
-      "period": "FY2022",
-      "end": "2023-12-31",
       "basis": "reported",
       "origin": "sec",
       "source": "S17"
@@ -2086,17 +1955,6 @@
       "source": "S16"
     },
     {
-      "id": "F155",
-      "metric": "rnd",
-      "value": 1730000000,
-      "unit": "USD",
-      "period": "FY2022",
-      "end": "2023-12-31",
-      "basis": "reported",
-      "origin": "sec",
-      "source": "S9"
-    },
-    {
       "id": "F156",
       "metric": "rnd",
       "value": 1367000000,
@@ -2194,17 +2052,6 @@
       "basis": "reported",
       "origin": "sec",
       "source": "S16"
-    },
-    {
-      "id": "F165",
-      "metric": "sbc",
-      "value": 615000000,
-      "unit": "USD",
-      "period": "FY2022",
-      "end": "2023-12-31",
-      "basis": "reported",
-      "origin": "sec",
-      "source": "S9"
     },
     {
       "id": "F166",
@@ -2306,17 +2153,6 @@
       "source": "S17"
     },
     {
-      "id": "F175",
-      "metric": "short_term_investments",
-      "value": 3595000000,
-      "unit": "USD",
-      "period": "FY2022",
-      "end": "2023-12-31",
-      "basis": "reported",
-      "origin": "sec",
-      "source": "S16"
-    },
-    {
       "id": "F176",
       "metric": "short_term_investments",
       "value": 3981000000,
@@ -2414,17 +2250,6 @@
       "basis": "reported",
       "origin": "sec",
       "source": "S17"
-    },
-    {
-      "id": "F185",
-      "metric": "total_assets",
-      "value": 11299000000,
-      "unit": "USD",
-      "period": "FY2022",
-      "end": "2023-12-31",
-      "basis": "reported",
-      "origin": "sec",
-      "source": "S16"
     },
     {
       "id": "F186",
@@ -2847,10 +2672,240 @@
       "basis": "consensus",
       "source": "S42",
       "origin": "research"
+    },
+    {
+      "id": "F222",
+      "metric": "price",
+      "value": 169.52,
+      "unit": "USD/share",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S44",
+      "origin": "research"
+    },
+    {
+      "id": "F223",
+      "metric": "capex",
+      "value": 39000000,
+      "unit": "USD",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S9"
+    },
+    {
+      "id": "F224",
+      "metric": "cash",
+      "value": 1413000000,
+      "unit": "USD",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S16"
+    },
+    {
+      "id": "F225",
+      "metric": "cost_of_revenue",
+      "value": 3545000000,
+      "unit": "USD",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S9"
+    },
+    {
+      "id": "F226",
+      "metric": "d_and_a",
+      "value": 70000000,
+      "unit": "USD",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S9"
+    },
+    {
+      "id": "F227",
+      "metric": "deferred_revenue",
+      "value": 302000000,
+      "unit": "USD",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S16"
+    },
+    {
+      "id": "F228",
+      "metric": "diluted_shares",
+      "value": 1295511385,
+      "unit": "shares",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S9"
+    },
+    {
+      "id": "F229",
+      "metric": "equity",
+      "value": 9066000000,
+      "unit": "USD",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S9"
+    },
+    {
+      "id": "F230",
+      "metric": "goodwill",
+      "value": 427000000,
+      "unit": "USD",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S9"
+    },
+    {
+      "id": "F231",
+      "metric": "gross_profit",
+      "value": 3515000000,
+      "unit": "USD",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S9"
+    },
+    {
+      "id": "F232",
+      "metric": "income_tax",
+      "value": 53000000,
+      "unit": "USD",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S9"
+    },
+    {
+      "id": "F233",
+      "metric": "inventory",
+      "value": 19000000,
+      "unit": "USD",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S16"
+    },
+    {
+      "id": "F234",
+      "metric": "net_income",
+      "value": 132000000,
+      "unit": "USD",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S9"
+    },
+    {
+      "id": "F235",
+      "metric": "ocf",
+      "value": 944000000,
+      "unit": "USD",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S9"
+    },
+    {
+      "id": "F236",
+      "metric": "operating_income",
+      "value": -1418000000,
+      "unit": "USD",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S9"
+    },
+    {
+      "id": "F237",
+      "metric": "pretax_income",
+      "value": 185000000,
+      "unit": "USD",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S9"
+    },
+    {
+      "id": "F238",
+      "metric": "revenue",
+      "value": 7060000000,
+      "unit": "USD",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S17"
+    },
+    {
+      "id": "F239",
+      "metric": "rnd",
+      "value": 1730000000,
+      "unit": "USD",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S9"
+    },
+    {
+      "id": "F240",
+      "metric": "sbc",
+      "value": 615000000,
+      "unit": "USD",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S9"
+    },
+    {
+      "id": "F241",
+      "metric": "short_term_investments",
+      "value": 3595000000,
+      "unit": "USD",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S16"
+    },
+    {
+      "id": "F242",
+      "metric": "total_assets",
+      "value": 11299000000,
+      "unit": "USD",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S16"
     }
   ],
   "as_of": "2026-10-18",
-  "collected": "2026-10-17T17:28:19Z",
+  "collected": "2026-10-17T17:52:03Z",
   "gaps": [
     "FY2027 매출 컨센서스 — 신뢰할 만한 값을 찾지 못함 (variant perception 검증 불가). TIKR는 향후 2년 연 약 24% 성장 전망이라고 하나 컨센서스 수치는 아님",
     "FY2026 매출 컨센서스 $14.69B는 집계 사이트 값이고 2분기 실적 전 추정이 섞여 있을 수 있음 — FactSet·LSEG·Visible Alpha로 재확인 필요",

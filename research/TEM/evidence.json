@@ -370,6 +370,24 @@
       "date": "2026-07-31",
       "note": "보도: Zacks 컨센서스 FY2026 매출 약 $1.59B(가이던스 상향 전 추정치일 가능성). Zacks는 상향 가이던스를 $1.60~1.61B로 적어 회사 보도자료($1.595~1.605B)와 다르다. 회사 자료를 우선한다",
       "retrieved": "2026-10-17T17:24:26Z"
+    },
+    {
+      "type": "data",
+      "title": "Yahoo Finance TEM historical prices",
+      "url": "https://finance.yahoo.com/quote/TEM/history/",
+      "date": "2026-10-16",
+      "note": "2026-10-16 종가 64.72 USD",
+      "id": "S42",
+      "retrieved": "2026-10-17T17:47:15Z"
+    },
+    {
+      "id": "S43",
+      "type": "news",
+      "title": "Tempus Q2 Earnings Call Highlights Data Growth and Pricing Upside - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOTdPS1NrZTJwOEtWU1V1RkNnVzA4WDRfSXVQbjA2Wkx2YlFoREFWM2tNcW5YamVJZ2E3T3hXZTlSbERCUTdwb0h1dW1xZkZFTWdWS1I2TDNBazdFSkZwQzl4a0lRUEwwcWtzT3Y3M1Z2RS04N0pWQ3dycXFYazhoVGgzR096el9Ud0xXQVEzS2RsN1J5UWctMjhyRQ?oc=5",
+      "note": "Yahoo Finance",
+      "date": "2026-08-11",
+      "retrieved": "2026-10-17T17:50:45Z"
     }
   ],
   "facts": [
@@ -2034,10 +2052,137 @@
       "basis": "consensus",
       "source": "S41",
       "origin": "research"
+    },
+    {
+      "id": "F151",
+      "metric": "price",
+      "value": 64.72,
+      "unit": "USD/share",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S42",
+      "origin": "research"
+    },
+    {
+      "id": "F152",
+      "metric": "capex",
+      "value": 7514000,
+      "unit": "USD",
+      "period": "FY2025Q2",
+      "end": "2025-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "derived": true,
+      "note": "Q2 = 6개월 누적 − 3개월 누적 (코드 계산)",
+      "source": "S1"
+    },
+    {
+      "id": "F153",
+      "metric": "capex",
+      "value": 6706000,
+      "unit": "USD",
+      "period": "FY2025Q3",
+      "end": "2025-09-30",
+      "basis": "reported",
+      "origin": "sec",
+      "derived": true,
+      "note": "Q3 = 9개월 누적 − 6개월 누적 (코드 계산)",
+      "source": "S13"
+    },
+    {
+      "id": "F154",
+      "metric": "capex",
+      "value": 6125000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "derived": true,
+      "note": "Q2 = 6개월 누적 − 3개월 누적 (코드 계산)",
+      "source": "S1"
+    },
+    {
+      "id": "F155",
+      "metric": "dividends",
+      "value": 0,
+      "unit": "USD",
+      "period": "FY2025Q3",
+      "end": "2025-09-30",
+      "basis": "reported",
+      "origin": "sec",
+      "derived": true,
+      "note": "Q3 = 9개월 누적 − 6개월 누적 (코드 계산)",
+      "source": "S13"
+    },
+    {
+      "id": "F156",
+      "metric": "ocf",
+      "value": 44164000,
+      "unit": "USD",
+      "period": "FY2025Q2",
+      "end": "2025-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "derived": true,
+      "note": "Q2 = 6개월 누적 − 3개월 누적 (코드 계산)",
+      "source": "S1"
+    },
+    {
+      "id": "F157",
+      "metric": "ocf",
+      "value": -119842000,
+      "unit": "USD",
+      "period": "FY2025Q3",
+      "end": "2025-09-30",
+      "basis": "reported",
+      "origin": "sec",
+      "derived": true,
+      "note": "Q3 = 9개월 누적 − 6개월 누적 (코드 계산)",
+      "source": "S13"
+    },
+    {
+      "id": "F158",
+      "metric": "ocf",
+      "value": -7525000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "derived": true,
+      "note": "Q2 = 6개월 누적 − 3개월 누적 (코드 계산)",
+      "source": "S1"
+    },
+    {
+      "id": "F159",
+      "metric": "capex",
+      "value": 4755000,
+      "unit": "USD",
+      "period": "FY2025Q4",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "derived": true,
+      "note": "Q4 = 연간 − Q1~Q3 (코드 계산)",
+      "source": "S10"
+    },
+    {
+      "id": "F160",
+      "metric": "ocf",
+      "value": -36788000,
+      "unit": "USD",
+      "period": "FY2025Q4",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "derived": true,
+      "note": "Q4 = 연간 − Q1~Q3 (코드 계산)",
+      "source": "S10"
     }
   ],
   "as_of": "2026-10-18",
-  "collected": "2026-10-17T17:23:49Z",
+  "collected": "2026-10-17T17:52:35Z",
   "gaps": [
     "FY2027·FY2028 매출 컨센서스 미확인 — variant perception 검증 불가. FY2026 컨센서스 $1.59B는 가이던스 상향 이전 값일 수 있음",
     "과거 분기 가이던스(FY2025 연간·분기) 미수집 — 경영진 가이던스 적중률 산출 불가",
