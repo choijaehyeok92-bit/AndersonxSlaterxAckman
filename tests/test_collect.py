@@ -89,6 +89,15 @@ class Sec(unittest.TestCase):
         self.assertEqual([got[("ocf", f"FY2025Q{n}")]["value"] for n in (1, 2, 3, 4)], [8, 11, 10, 11])
         self.assertTrue(got[("ocf", "FY2025Q2")]["derived"] and not got[("ocf", "FY2025Q1")].get("derived"))
 
+    def test_drops_mis_scaled_diluted_shares(self):
+        cf = {"facts": {"us-gaap": {
+            "Revenues": {"units": {"USD": [rec("2025-01-01", "2025-12-31", 100, *K25)]}},
+            "WeightedAverageNumberOfDilutedSharesOutstanding": {"units": {"shares": [rec("2025-01-01", "2025-12-31", 174264, *K25)]}}},
+            "dei": {"EntityCommonStockSharesOutstanding": {"units": {"shares": [rec(None, "2026-02-10", 180434756, *K25)]}}}}}
+        got = {f["metric"] for f in collect.sec_facts(1, cf, "2026-04-30")}
+        self.assertIn("shares_outstanding", got)
+        self.assertNotIn("diluted_shares", got)
+
     def test_recollect_keeps_ids_and_research_facts(self):
         with mock.patch.object(collect, "fetch", sec_fetch):
             collect.collect(self.d, "TEST", as_of="2026-04-30")

@@ -172,6 +172,9 @@ def sec_facts(cik, cf, as_of):
                 out.append(fact(m, r, None))
         elif k == "instant" and (e in annual or e in quarter):
             out.append(fact(m, r, label(e) if e in annual else labels[e]))
+    so = max((f["value"] for f in out if f["metric"] == "shares_outstanding"), default=0)
+    if so:  # 희석 주식 수를 천 주 단위로 잘못 태그한 공시(값이 발행주식수의 1% 미만)는 버린다 — calc는 발행주식수로 대신한다
+        out = [f for f in out if not (f["metric"] == "diluted_shares" and f["value"] < 0.01 * so)]
     for e in annual[-2:]:  # Q4 = 연간 − Q1~Q3 (흐름 지표만)
         fy = label(e)
         for m in sorted({m for (m, k, e2) in best if k == "annual" and e2 == e and m not in STOCK_METRICS and m != "diluted_shares"}):

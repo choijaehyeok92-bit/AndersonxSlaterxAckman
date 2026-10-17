@@ -19,6 +19,11 @@ class History(Base):
         self.assertEqual(an["valuation"], None)  # 모델 전에는 시나리오 계산이 없다
         self.assertEqual(calc.sufficiency(core.load(self.d / "evidence.json"), an), [])
 
+    def test_mis_scaled_diluted_shares_fall_back_to_outstanding(self):
+        self.add_facts({"metric": "diluted_shares", "value": 1.0e5, "unit": "shares", "period": "FY2026Q2", "end": "2026-06-30", "source": "S1"},
+                       {"metric": "shares_outstanding", "value": 1.0e8, "unit": "shares", "end": "2026-07-01", "basis": "market", "source": "S1"})
+        self.assertEqual(calc.analyze(core.load(self.d / "evidence.json"))["market"]["shares"], 1.0e8)
+
     def test_unit_lookahead_and_conflicts_are_excluded(self):
         self.fact("F53", value=31)                                     # 31%를 31로 — 단위 오류
         self.add_facts({"metric": "revenue", "value": 9e9, "unit": "USD", "period": "FY2026", "end": "2026-12-31", "source": "S1"},

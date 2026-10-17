@@ -132,7 +132,9 @@ def balance(fx, cur):
         fs = [f for f in rep if f["metric"] == m and f["end"] == last]
         return fx.pick(fs)["value"] if fs else None
     cash = at("cash")
-    shares = fx.value("diluted_shares", unit="shares") or fx.value("shares_outstanding", unit="shares")
+    dil, out = fx.value("diluted_shares", unit="shares"), fx.value("shares_outstanding", unit="shares")
+    ref = out or fx.value("shares_outstanding", basis="market", unit="shares")
+    shares = ref if dil and ref and dil < 0.01 * ref else dil or out  # 천 주 단위로 잘못 태그된 희석 주식 수는 쓰지 않는다
     return dict(cash=None if cash is None else cash + (at("short_term_investments") or 0),
                 debt=(at("debt") or 0) + (at("debt_current") or 0), shares=shares, date=last)
 
