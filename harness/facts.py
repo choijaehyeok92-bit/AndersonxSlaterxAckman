@@ -83,6 +83,9 @@ class Facts:
         if period is None:
             last = max(f["end"] for f in fs)
             fs = [f for f in fs if f["end"] == last]
+        if basis in ("guidance", "consensus"):  # 전망치는 자료 유형보다 날짜가 먼저 — 상향·하향된 최신 가이던스가 옛 1차 자료를 이긴다
+            top = max(self.src[f["source"]].get("date") or "" for f in fs)
+            fs = [f for f in fs if (self.src[f["source"]].get("date") or "") == top]
         return self.pick(fs)
 
     def value(self, metric, period=None, basis="reported", unit=None):

@@ -198,3 +198,15 @@ class Tracing(Base):
         self.assertEqual(num, "1.2e+09")
         self.assertIn("F4", where)
         self.assertEqual(facts.trace("추정: 매출 99억 달러", cited, everything), [])
+
+
+class Forecasts(Base):
+    def test_latest_guidance_beats_older_primary_source(self):  # 가이던스 상향: 2차 자료의 최신 값이 옛 1차 자료를 이긴다
+        ev = core.load(self.d / "evidence.json")
+        ev["sources"].append({"id": "S12", "type": "news", "title": "가이던스 상향 보도", "url": "u12", "date": "2026-10-16"})
+        core.save(self.d / "evidence.json", ev)
+        self.add_facts({"metric": "revenue", "value": 1.3e9, "unit": "USD", "period": "FY2025", "end": "2025-12-31", "source": "S12",
+                        "basis": "guidance", "low": 1.25e9, "high": 1.35e9})
+        fx = Facts(core.load(self.d / "evidence.json"))
+        self.assertEqual(fx.get("revenue", "FY2025", basis="guidance")["value"], 1.3e9)
+        self.assertEqual(fx.get("revenue", "FY2025")["source"], "S1")   # 실적은 그대로 1차 자료 우선
