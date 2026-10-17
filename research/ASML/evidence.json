@@ -111,15 +111,6 @@
       "retrieved": "2026-10-17T17:22:29Z"
     },
     {
-      "id": "S13",
-      "type": "news",
-      "title": "ASML Holding N.V. vs. Marvell Technology: Which Technology Stock Is a Better Buy in 2026? - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPbTVQY3A5SHlvandtejg2R2Y5YWRUZlVud0tEYkRVa2E3RW02OU1wTXljWXdSUkJRaWc0ckNjY2g3UGJkcS1vN1FVaF9HVFNGa2V0NTFCcUdPMUZueHhxUjhsbnFoYUhQUzRpYkhWcEhPQzk4TS1XdE8tSXpUamdldzExYWRxYXNSVE4wRXRoYjJOY19KTXZMM2RjZmRkbGVCUlJUUnQxb0FpX1B2V0t2NlVPdlpsWllWSUN1MmV1WWNlcTB2ajNEZzY1UnhFQkRDVUU0WQ?oc=5",
-      "note": "The Motley Fool",
-      "date": "2026-09-30",
-      "retrieved": "2026-10-17T17:22:29Z"
-    },
-    {
       "id": "S14",
       "type": "news",
       "title": "ASML says it sold 'absolutely nothing' in Europe in 2026 — lithography giant calls on EU to help create demand - Tom's Hardware",
@@ -162,24 +153,6 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZjB5dTFZdHdwdktnU25XdWE2aDRCM05tNUpIbjdCWVlvUnIzWXBqdkZzaG9SUnJrMnUyd3NYV3Y2eWV4SHFtSjdScHEtanEzbHBrdTJTaUpCNzlTRVk4dm5ISGVVNGRsdi1aX25ZbGI4MEl2anhpNXY3cExpNUVEbG9IZVk?oc=5",
       "note": "Financial Times",
       "date": "2026-09-27",
-      "retrieved": "2026-10-17T17:22:29Z"
-    },
-    {
-      "id": "S19",
-      "type": "news",
-      "title": "ASML vs. Qualcomm: Which AI Semiconductor Stock Is a Better Buy in 2026? - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWV9PazctRDFEWENDamxibzN3Rzdic1VobGhZRm5TZ2pFUEVzQ2xac184T2JaNTh2NlpYYkZzT3VpdERXNlZranhkV21aRHpCeHlPSnZQR3I3WHlweXpPNU03d0wtZjl5SVdFQzJ0OU9FdXdDdENyVThocm5hZmlxRHBaeENfWE0wbVJGM0xDNWVfWVJaYnNNd1l3NjZEWE0?oc=5",
-      "note": "Yahoo Finance",
-      "date": "2026-09-26",
-      "retrieved": "2026-10-17T17:22:29Z"
-    },
-    {
-      "id": "S20",
-      "type": "news",
-      "title": "ASML vs. Applied Digital: Which Is the Better Semiconductor Equipment Stock to Own for the Next 1 Year? - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQ0tNT09IRWZ6TEdKUWZZb0FXRjgyUjk5bGd6azllbG5EazhRa3lVWFVZNVA0SWVvNVJCa0RNSW1BaXB6ZHBZdlFaRDlxcEJycmRCMkpxd0plYWMyYUJiQVJ5Z3FUUm45NTRSeEtmc1pWclpub1hDV2o5ay1pQTM3eTZzWGxqWGwzYUNqb0l0S0RnOFh2YmpJ?oc=5",
-      "note": "The Motley Fool",
-      "date": "2026-10-01",
       "retrieved": "2026-10-17T17:22:29Z"
     },
     {
@@ -289,6 +262,33 @@
       "note": "Yahoo Finance",
       "date": "2026-10-12",
       "retrieved": "2026-10-17T17:22:29Z"
+    },
+    {
+      "id": "S33",
+      "type": "filing",
+      "title": "ASML reports €11.7 billion total net sales and €5.0 billion net income in Q3 2026 (6-K press release)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000937966/000162828026065813/pressreleasefinancialresul.htm",
+      "date": "2026-10-14",
+      "note": "2026년 3분기 총순매출 €11,662M, 매출총이익 €6,700M(57.5%), 순이익 €4,960M, 설치기반관리(IBM) 매출 €3,289M, 신규 리소그래피 장비 113대(2분기 86대), 중고 8대. 현금·단기투자 €12,735M(2분기 €7,582M). 3분기 자사주 매입 약 €4.1B(2026–2028 프로그램). 2026 중간배당 주당 €1.88(11월 4일 지급). 가이던스: 4분기 순매출 €14.2~15.2B·매출총이익률 약 57%, R&D 약 €1.2B, SG&A 약 €0.4B; 2026 연간 순매출 €44~45B·매출총이익률 약 56%. 2분기 비교치: 순매출 €9,326M, 매출총이익 €5,035M(54.0%), 순이익 €2,918M, IBM €2,762M.",
+      "retrieved": "2026-10-17T17:23:13Z"
+    },
+    {
+      "id": "S34",
+      "type": "data",
+      "title": "ASML (Nasdaq) share price history – InvestSmart",
+      "url": "https://www.investsmart.com.au/security/nasdaq/asml/asml-holding-nv/share-price",
+      "date": "2026-10-09",
+      "note": "나스닥 ASML(뉴욕 등록 보통주) 2026-10-09 종가 USD 1,770.29. 같은 페이지의 실시간 표시가 약 1,780.34는 시점 불명이라 쓰지 않음. 10월 14일 실적 발표 후 주가 반응(S31 보도 제목은 +9.4%)은 반영되지 않은 값 — 최신 종가 아님.",
+      "retrieved": "2026-10-17T17:23:13Z"
+    },
+    {
+      "id": "S35",
+      "type": "news",
+      "title": "ASML Q3 2026: Record €11.7 billion in sales and higher margins (Vested Finance)",
+      "url": "https://vestedfinance.com/blog/us-stocks/asml-q3-earnings-2026/",
+      "date": "2026-10-14",
+      "note": "2차 요약(보도). 3분기 순이익에 지분투자 평가이익 약 €509.7M 포함 → 이를 제외한 기초 순이익 약 €4.5B라는 분석. 경영진 발언: 현재 계획된 2027·2028년 공급은 고객 수요를 다 채우지 못하며, 일부 고객이 2029·2030년 주문에도 관심을 표명(주문 확정이 아니라 관심 표명). 3분기 신규 수주(bookings)는 확인되지 않음.",
+      "retrieved": "2026-10-17T17:23:13Z"
     }
   ],
   "facts": [
@@ -1544,8 +1544,256 @@
       "basis": "reported",
       "origin": "sec",
       "source": "S6"
+    },
+    {
+      "id": "F115",
+      "metric": "price",
+      "value": 1770.29,
+      "unit": "USD/share",
+      "end": "2026-10-09",
+      "basis": "market",
+      "source": "S34",
+      "origin": "research"
+    },
+    {
+      "id": "F116",
+      "metric": "revenue",
+      "value": 11662000000,
+      "unit": "EUR",
+      "period": "FY2026Q3",
+      "end": "2026-09-30",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F117",
+      "metric": "gross_profit",
+      "value": 6700000000,
+      "unit": "EUR",
+      "period": "FY2026Q3",
+      "end": "2026-09-30",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F118",
+      "metric": "net_income",
+      "value": 4960000000,
+      "unit": "EUR",
+      "period": "FY2026Q3",
+      "end": "2026-09-30",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F119",
+      "metric": "cash",
+      "value": 12735000000,
+      "unit": "EUR",
+      "period": "FY2026Q3",
+      "end": "2026-09-30",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F120",
+      "metric": "installed_base_management_sales",
+      "value": 3289000000,
+      "unit": "EUR",
+      "period": "FY2026Q3",
+      "end": "2026-09-30",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F121",
+      "metric": "new_systems_sold",
+      "value": 113,
+      "unit": "count",
+      "period": "FY2026Q3",
+      "end": "2026-09-30",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F122",
+      "metric": "buybacks",
+      "value": 4100000000,
+      "unit": "EUR",
+      "period": "FY2026Q3",
+      "end": "2026-09-30",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F123",
+      "metric": "dividend_per_share_interim",
+      "value": 1.88,
+      "unit": "EUR/share",
+      "period": "FY2026Q3",
+      "end": "2026-09-30",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F124",
+      "metric": "revenue",
+      "value": 9326000000,
+      "unit": "EUR",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F125",
+      "metric": "gross_profit",
+      "value": 5035000000,
+      "unit": "EUR",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F126",
+      "metric": "net_income",
+      "value": 2918000000,
+      "unit": "EUR",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F127",
+      "metric": "cash",
+      "value": 7582000000,
+      "unit": "EUR",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F128",
+      "metric": "installed_base_management_sales",
+      "value": 2762000000,
+      "unit": "EUR",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F129",
+      "metric": "new_systems_sold",
+      "value": 86,
+      "unit": "count",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F130",
+      "metric": "revenue",
+      "low": 44000000000,
+      "high": 45000000000,
+      "value": 44500000000,
+      "unit": "EUR",
+      "period": "FY2026",
+      "end": "2026-12-31",
+      "basis": "guidance",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F131",
+      "metric": "gross_margin",
+      "value": 0.56,
+      "unit": "ratio",
+      "period": "FY2026",
+      "end": "2026-12-31",
+      "basis": "guidance",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F132",
+      "metric": "revenue",
+      "low": 14200000000,
+      "high": 15200000000,
+      "value": 14700000000,
+      "unit": "EUR",
+      "period": "FY2026Q4",
+      "end": "2026-12-31",
+      "basis": "guidance",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F133",
+      "metric": "gross_margin",
+      "value": 0.57,
+      "unit": "ratio",
+      "period": "FY2026Q4",
+      "end": "2026-12-31",
+      "basis": "guidance",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F134",
+      "metric": "rnd",
+      "value": 1200000000,
+      "unit": "EUR",
+      "period": "FY2026Q4",
+      "end": "2026-12-31",
+      "basis": "guidance",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F135",
+      "metric": "sga",
+      "value": 400000000,
+      "unit": "EUR",
+      "period": "FY2026Q4",
+      "end": "2026-12-31",
+      "basis": "guidance",
+      "source": "S33",
+      "origin": "research"
     }
   ],
   "as_of": "2026-10-18",
-  "collected": "2026-10-17T17:22:29Z"
+  "collected": "2026-10-17T17:22:29Z",
+  "gaps": [
+    "최신 주가: 10월 9일 이후 종가를 찾지 못했다. 10월 14일 실적 후 주가 급등(S31 제목 +9.4%)이 S34의 가격에 반영되지 않았다. 가치 판단 전에 10월 16일 종가를 확인해야 한다.",
+    "EUR/USD 환율(fx)을 찾지 못했다. 재무는 EUR, 주가는 USD라서 환율 없이는 주당가치와 주가를 비교할 수 없다.",
+    "희석 주식 수 최신값(2026년 3분기)을 찾지 못했다. 현재는 FY2025 말 shares_outstanding(F109)과 FY2025 diluted_shares만 있고, 2026년 자사주 매입분이 빠져 있다.",
+    "컨센서스: FY2026·FY2027·FY2028 매출·EPS 컨센서스를 찾지 못했다. variant perception을 검증할 수 없다.",
+    "3분기 신규 수주(net bookings)와 수주잔고(backlog)를 확인하지 못했다. ASML은 2026년 수주 공시를 중단했을 수 있어 별도 확인이 필요하다.",
+    "3분기 영업이익, 영업현금흐름, 설비투자 등 US GAAP 전체 재무제표 값을 확인하지 못했다. 10-Q 성격의 6-K 본문 확인이 필요하다.",
+    "EUV와 DUV 대수 구분, 지역별 매출(중국 비중), 고객 집중도(top3_concentration) 등 운영 KPI를 확인하지 못했다.",
+    "과거 가이던스(2025~2026년 분기별 전망)와 어닝콜 원문·Q&A를 찾지 못했다. 경영진 적중률을 대조할 수 없다.",
+    "회계 품질 단서(감사의견, 감사인 변경, 정정, 특수관계자 거래)를 20-F 본문에서 확인하지 못했다. 3분기 지분투자 평가이익 약 €510M(S35, 2차 요약)의 구성도 불명이다.",
+    "컨퍼런스·투자자의 날 자료, DEF 14A 해당 문서(네덜란드 기업이라 보상 보고서), 내부자 매매는 수집하지 못했다.",
+    "미국·네덜란드의 수출 통제 동향(S16, S21)과 Mistral 제휴(S28)는 제목만 있고 본문을 확인하지 못했다."
+  ],
+  "researched": "2026-10-18"
 }
