@@ -1,0 +1,371 @@
+{
+  "agent": "verifier",
+  "basis": "fa306fd5a2b4",
+  "checks": [
+    {
+      "id": "V1",
+      "verdict": "supported",
+      "reason": "F32는 182397(천 단위)이고 F146은 1.80435e8주이며, C:ev는 시가총액에서 현금 F15만 뺀 값과 일치하고 F11→F12 현금 급증도 맞다."
+    },
+    {
+      "id": "V2",
+      "verdict": "supported",
+      "reason": "S9에는 보상 지표 내용이 없고, 조정 EBITDA 가이던스 약 $65M은 F148과 일치한다."
+    },
+    {
+      "id": "V3",
+      "verdict": "supported",
+      "reason": "2Q26 +22%, 가이던스 약 +25%, FY2025 성장률 83.4%가 모두 인용 자료와 맞는다."
+    },
+    {
+      "id": "V4",
+      "verdict": "supported",
+      "reason": "DSO 64.8→89.3일과 채권 증가가 맞는다. 부검 시나리오는 이 현재 사실에 기대고 있다."
+    },
+    {
+      "id": "V5",
+      "verdict": "supported",
+      "reason": "F32의 단위 문제, 주가와 발행주식으로 잰 큰 시가총액, 지표 미수집이 인용 자료와 맞는다."
+    },
+    {
+      "id": "V6",
+      "verdict": "supported",
+      "reason": "영업적자, 분기 SBC, DSO, Personalis $1.5B 인수는 인용 자료와 맞고 나머지는 시나리오 가정이다."
+    },
+    {
+      "id": "V7",
+      "verdict": "supported",
+      "reason": "현금 6.0억, FCF 마진 개선, 조달 내역 미공개가 인용 자료와 맞는다."
+    },
+    {
+      "id": "V8",
+      "verdict": "supported",
+      "reason": "가이던스 중간값 $1.6B, 조정 EBITDA $65M, FY2025 FCF 마진 음수가 인용과 맞는다. 성장률·마진·희석 값은 가정이다."
+    },
+    {
+      "id": "V9",
+      "verdict": "supported",
+      "reason": "$1.5B 인수는 현금 6.0억보다 크고, 종결 예정 시기는 S40에 있으며, 조달 방식 미확인은 자료에 없는 사실로 맞다."
+    },
+    {
+      "id": "V10",
+      "verdict": "supported",
+      "reason": "현금 6.6억→6.0억, OCF -2.18억, 배당 562.5만→0은 맞다. 조달 구성은 근거에 없다고 스스로 밝혔다."
+    },
+    {
+      "id": "V11",
+      "verdict": "supported",
+      "reason": "평가이익 $98.5M, 영업손실 -7,591만, SBC 및 관련 급여세 $55.6M, 조정 EBITDA $8.0M이 모두 S40·F 값과 일치한다."
+    },
+    {
+      "id": "V12",
+      "verdict": "supported",
+      "reason": "채권 1.5억→3.6억과 DSO 64.8→89.3일이 맞고, 나머지는 해석이다."
+    },
+    {
+      "id": "V13",
+      "verdict": "supported",
+      "reason": "FCF 마진 -58.2%→-18.8%, FY2025 FCF -2.39억, 현금 6.0억, 1Q26 OCF -7,328만이 모두 맞는다."
+    },
+    {
+      "id": "V14",
+      "verdict": "supported",
+      "reason": "순이익 564만, 영업이익 -7,591만, 평가이익 $98.5M이 S40·F80·F95와 일치한다."
+    },
+    {
+      "id": "V15",
+      "verdict": "supported",
+      "reason": "$1.5B는 현금 6.0억보다 크고 조달 방식은 인용 자료에 없다."
+    },
+    {
+      "id": "V16",
+      "verdict": "supported",
+      "reason": "$1.5B가 현금 6.0억의 두 배를 넘는다는 사실은 맞다. 나머지는 다른 분석가의 주장과 이에 대한 반론이다."
+    },
+    {
+      "id": "V17",
+      "verdict": "supported",
+      "reason": "평가이익 $98.5M이 순이익에 들어 있고 영업손실과 순이익의 부호가 반대라는 점이 맞다."
+    },
+    {
+      "id": "V18",
+      "verdict": "supported",
+      "reason": "성장률 30.4%→83.4%, 영업이익률 -19.9%, 2Q26 영업손실 -7,591만이 인용값과 일치한다."
+    },
+    {
+      "id": "V19",
+      "verdict": "supported",
+      "reason": "조정 EBITDA $8.0M과 GAAP 영업손실의 격차, SBC 및 급여세 $55.6M, 평가이익이 모두 자료와 맞다."
+    },
+    {
+      "id": "V20",
+      "verdict": "supported",
+      "reason": "FCF 마진 개선, 현금 6.0억, 영업손실, SBC 규모가 인용과 맞고 판단 유보는 해석이다."
+    },
+    {
+      "id": "V21",
+      "verdict": "supported",
+      "reason": "F59는 -4,618만의 법인세 이익이고, 인수 관련이라는 추정은 스스로 확인하지 못했다고 밝혔다."
+    },
+    {
+      "id": "V22",
+      "verdict": "supported",
+      "reason": "인수 규모가 현금 6.0억보다 크고 희석이 40.4%라는 현재 사실이 맞다."
+    },
+    {
+      "id": "V23",
+      "verdict": "supported",
+      "reason": "분기 영업손실 -7,591만과 FY2025 FCF 음수가 맞고, FCF 마진 15%는 가정일 뿐이라는 설명도 타당하다."
+    },
+    {
+      "id": "V24",
+      "verdict": "supported",
+      "reason": "F32는 182397로 천 단위이고 F146은 1.80435e8주이며, C:market_cap과 C:ev는 단위 오류를 보인다."
+    },
+    {
+      "id": "V25",
+      "verdict": "supported",
+      "reason": "가이던스 상향, 조정 EBITDA 약 $65M 유지, 인수 효과 제외는 S40과 일치한다. 적중률 미계산은 자료에 없는 사실로 맞다."
+    },
+    {
+      "id": "V26",
+      "verdict": "supported",
+      "reason": "S34의 제목이 데이터 사업이 시험대에 있다는 보도임을 보여 준다. 해자 증거가 없다는 말은 자료 부재와 일치한다."
+    },
+    {
+      "id": "V27",
+      "verdict": "supported",
+      "reason": "FCF 마진 -18.8%, SBC 차감 FCF -3.64억, 영업손실 지속이 맞고 기저율 표 부재도 인용(존재하지 않음)과 일치한다."
+    },
+    {
+      "id": "V28",
+      "verdict": "supported",
+      "reason": "단위 오류 지적과 DSO, 희석 값은 인용과 맞는다. 안전마진 불가는 판단이다."
+    },
+    {
+      "id": "V29",
+      "verdict": "supported",
+      "reason": "경쟁 구조 지표가 인용 자료에 없고 인수는 사업 범위 확대 신호라는 설명도 맞다."
+    },
+    {
+      "id": "V30",
+      "verdict": "supported",
+      "reason": "평가이익, 영업손실, 조정 EBITDA $8M, SBC 5,412만이 모두 인용값과 일치한다."
+    },
+    {
+      "id": "V31",
+      "verdict": "supported",
+      "reason": "64.72 × 1.80435억 ≈ 117억 달러이고 F32의 단위 문제가 맞다."
+    },
+    {
+      "id": "V32",
+      "verdict": "supported",
+      "reason": "가상의 놓치는 경로이고 현재 영업손실과 초기 징후 미수집이 자료와 맞는다."
+    },
+    {
+      "id": "V33",
+      "verdict": "supported",
+      "reason": "주가 급등 보도(S23·S29)와 컨센서스 대비 차이가 작다는 점이 인용과 맞고 FY2027 컨센서스 부재는 자료에 없는 사실로 일치한다."
+    },
+    {
+      "id": "V34",
+      "verdict": "supported",
+      "reason": "채권 증가가 매출보다 빠르고 DSO가 길어진 것이 C:receivables_gap, C:dso와 맞는다."
+    },
+    {
+      "id": "V35",
+      "verdict": "supported",
+      "reason": "채권 9,446만→1.548억, 매출 5.32→6.93억, DSO 64.8/81.5/89.3일, 영업권 급증, 이연매출 증가, FY2026Q2 채권 증가가 모두 인용값과 맞는다."
+    },
+    {
+      "id": "V36",
+      "verdict": "supported",
+      "reason": "감사의견 관련 내용은 인용된 10-K 항목에 수집되어 있지 않다."
+    },
+    {
+      "id": "V37",
+      "verdict": "supported",
+      "reason": "현금 6.0억, FCF 마진 개선, 영업적자, 평가이익이 맞고 나머지는 상대 주장에 대한 반론이다."
+    },
+    {
+      "id": "V38",
+      "verdict": "supported",
+      "reason": "R&D 3,587만→5,264만과 $1.5B 인수·종결 시기·가이던스 제외가 인용과 맞는다."
+    },
+    {
+      "id": "V39",
+      "verdict": "supported",
+      "reason": "희석 40.4%, 주식 수 변화 45.4%, SBC 5,271만→5,412만이 인용값과 일치한다."
+    },
+    {
+      "id": "V40",
+      "verdict": "supported",
+      "reason": "평가이익, 영업손실, DSO, 채권 증가가 맞고 가설 훼손 여부는 미확인이라고 한 점도 타당하다."
+    },
+    {
+      "id": "V41",
+      "verdict": "supported",
+      "reason": "계약 규모·잔고 미확인과 데이터 사업이 시험대에 있다는 보도가 인용과 맞고 나머지는 가상 시나리오다."
+    },
+    {
+      "id": "V42",
+      "verdict": "supported",
+      "reason": "가이던스 상향과 Recursion 보도는 맞고 KPI 미수집도 자료 부재와 일치한다."
+    },
+    {
+      "id": "V43",
+      "verdict": "supported",
+      "reason": "평가이익, 영업손실, 조정 EBITDA, SBC, DSO, 희석, 컨센서스 비교, 인수 조달 미상이 인용과 맞는다."
+    },
+    {
+      "id": "V44",
+      "verdict": "supported",
+      "reason": "내부자 지분·거래 정보는 인용된 S9에 수집되어 있지 않다."
+    },
+    {
+      "id": "V45",
+      "verdict": "supported",
+      "reason": "가이던스 상향과 Recursion 제휴 보도는 맞고, 회사 서사일 뿐 잔고·갱신율은 없다는 한정도 맞다."
+    },
+    {
+      "id": "V46",
+      "verdict": "supported",
+      "reason": "인수가 현금보다 크고 희석이 40%대라는 현재 사실이 맞고 −60%는 가상 시나리오다."
+    },
+    {
+      "id": "V47",
+      "verdict": "supported",
+      "reason": "3.57B×22%≈7.9억, ×35≈275억, 시총 약 117억의 2.4배로 계산이 맞다."
+    },
+    {
+      "id": "V48",
+      "verdict": "supported",
+      "reason": "데이터·애플리케이션 $93.2M은 맞고 점유율·이탈률 미수집과 시험대 보도도 인용과 일치한다."
+    },
+    {
+      "id": "V49",
+      "verdict": "supported",
+      "reason": "특수관계자 거래 정보가 인용된 S9·S10 항목에 수집되어 있지 않다."
+    },
+    {
+      "id": "V50",
+      "verdict": "supported",
+      "reason": "DSO 64.8→89.3일, 채권 3.6억, 이연매출 7,287만→8,725만이 인용과 맞는다."
+    },
+    {
+      "id": "V51",
+      "verdict": "supported",
+      "reason": "조정 EBITDA $8M, GAAP 영업손실, SBC 및 급여세 $55.6M, 연간 가이던스 $65M이 자료와 맞다."
+    },
+    {
+      "id": "V52",
+      "verdict": "supported",
+      "reason": "재고 3,839만→5,351만은 맞고, 같은 기간 매출 성장이 훨씬 커서 격차 신호가 없다는 말은 자연스럽다."
+    },
+    {
+      "id": "V53",
+      "verdict": "supported",
+      "reason": "희석 89.3%·45.4%·40.4%, SBC/매출 9.8%·77.0%, 분기 SBC 2,297만→5,412만이 모두 인용값과 일치한다."
+    },
+    {
+      "id": "V54",
+      "verdict": "supported",
+      "reason": "영업손실, FCF 음수, 강세 시총 약 2.4배는 인용으로 계산되고 나머지는 상대 주장에 대한 반론이다."
+    },
+    {
+      "id": "V55",
+      "verdict": "supported",
+      "reason": "SBC/매출 77.0%→9.8%와 분기 SBC 2,297만→5,412만 증가가 인용과 맞고 일회성 추정은 한정된 표현이다."
+    },
+    {
+      "id": "V56",
+      "verdict": "supported",
+      "reason": "코드 시총·EV와 F32의 천 단위 문제가 인용으로 확인된다."
+    },
+    {
+      "id": "V57",
+      "verdict": "leap",
+      "reason": "OCF -2.18억과 인수 규모는 맞지만, 현금이 외부 조달로 늘었다고 단정하고 자본시장 의존이 구조적이라고 한 것은 인용 자료에서 따라 나오지 않는다."
+    },
+    {
+      "id": "V58",
+      "verdict": "supported",
+      "reason": "순이익 564만, 영업이익 -7,591만, 조정 EBITDA 800만, SBC 5,412만, SBC 차감 FCF 음수가 모두 맞는다."
+    },
+    {
+      "id": "V59",
+      "verdict": "supported",
+      "reason": "S40·S20·S34의 정황과 증명 아님이라는 한정이 맞고 나머지는 상대 주장 언급이다."
+    },
+    {
+      "id": "V60",
+      "verdict": "supported",
+      "reason": "영업권 7,334만→4.65~4.70억, FY2025 FCF 마진 -18.8%가 맞고 ROIC 근거 없음도 일치한다."
+    },
+    {
+      "id": "V61",
+      "verdict": "unsupported",
+      "reason": "기본 시나리오 현금 경로가 0 아래로 내려가지 않는다는 주장의 인용 C:cash_survives가 존재하지 않아 근거가 없다."
+    },
+    {
+      "id": "V62",
+      "verdict": "unsupported",
+      "reason": "기본 시나리오 현금 경로가 모델 기간 내내 0 위라는 주장의 인용 C:cash_survives가 존재하지 않는다."
+    },
+    {
+      "id": "V63",
+      "verdict": "supported",
+      "reason": "이연매출 8,725만, 평가이익, 영업손실, DSO, 희석이 인용과 맞고 나머지는 반론과 판단이다."
+    },
+    {
+      "id": "V64",
+      "verdict": "supported",
+      "reason": "희석 주식 수 추이 63032→182397, SBC 2.36배, OCF 음수, F146=A+B 합계가 모두 인용과 맞는다."
+    },
+    {
+      "id": "V65",
+      "verdict": "supported",
+      "reason": "Recursion 제휴 확대와 데이터 사업 관련 보도는 맞고 가상 시나리오는 판정 대상이 아니다."
+    },
+    {
+      "id": "V66",
+      "verdict": "supported",
+      "reason": "채권 1.5억→3.1억→3.6억과 DSO 64.8→89.3일이 맞고 청구 대상 구성은 미수집이다."
+    },
+    {
+      "id": "V67",
+      "verdict": "supported",
+      "reason": "FY2025 주식 수 증가 45.4%와 SBC 증가, 인수 조달 미확인이 인용과 맞는다."
+    },
+    {
+      "id": "V68",
+      "verdict": "supported",
+      "reason": "조정 EBITDA $8M, 가이던스 $65M, SBC 5,412만의 대비가 인용과 맞는다."
+    },
+    {
+      "id": "V69",
+      "verdict": "supported",
+      "reason": "발생액 비율 -1.7%, 영업권/총자산 약 20%, 이연매출 8,725만 vs 9,267만이 맞고 FY2026Q2 OCF 미수집도 일치한다."
+    },
+    {
+      "id": "V70",
+      "verdict": "supported",
+      "reason": "단위경제 지표가 인용 자료에 없고 성장 가속과 영업적자는 확인된다."
+    },
+    {
+      "id": "V71",
+      "verdict": "supported",
+      "reason": "S3과 S20은 정황만 제공하고 계약 규모·기간 정보는 없다."
+    },
+    {
+      "id": "V72",
+      "verdict": "supported",
+      "reason": "인수 규모, 희석 40.4%, 현금 6.0억이 맞고 조달에 따른 영향은 가정이다."
+    },
+    {
+      "id": "V73",
+      "verdict": "supported",
+      "reason": "Recursion 확대, Personalis 인수, 가이던스 상향이 맞고 FCF 마진 22%·희석 2%는 시나리오 가정이다."
+    }
+  ]
+}
