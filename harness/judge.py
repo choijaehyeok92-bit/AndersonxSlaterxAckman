@@ -27,8 +27,9 @@ def porder(p):  # FY2026 < FY2026Q3? 연간은 4분기와 같은 자리
     return (int(m[1]), int(m[2]) if m[2] else 2 * int(m[3]) if m[3] else 4) if m else (0, 0)
 
 
-def latest(fx):  # 가장 최근에 보고된 분기
-    ps = [f["period"] for f in fx.facts.values() if f["basis"] == "reported" and re.match(r"^FY\d{4}Q[1-4]$", f.get("period") or "")]
+def latest(fx):  # 가장 최근에 실적이 보고된 분기 — 매출 기준 (채권 발행 같은 사건성 사실의 기간 라벨에 끌려가지 않게)
+    q = lambda f: f["basis"] == "reported" and re.match(r"^FY\d{4}Q[1-4]$", f.get("period") or "")
+    ps = [f["period"] for f in fx.facts.values() if q(f) and f["metric"] == "revenue"] or [f["period"] for f in fx.facts.values() if q(f)]
     return max(ps, key=porder, default=None)
 
 
@@ -70,7 +71,9 @@ def break_status(fx, x):
     if not x.get("metric"):
         return "수동 확인", None
     hit, actual = status(fx, x, forward=True)
-    if hit is None and (p := ahead(fx, x)):
+    last = latest(fx)
+    p = x.get("period") if x.get("period") and last and porder(x["period"]) > porder(last) else ahead(fx, x)
+    if hit is None and p:
         return f"대기 — {p} 미발표", None
     return ("자료 없음" if hit is None else "충족 — 훼손" if hit else "미충족"), actual
 

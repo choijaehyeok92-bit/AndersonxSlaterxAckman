@@ -123,9 +123,10 @@ class Verification(Base):
             {"metric": "nrr", "op": "<", "value": 1.5, "note": "FY2026Q3 NRR이 1.5 아래면"},
             {"metric": "nrr", "op": "<", "value": 1.5, "note": "3분기 NRR이 2분기보다 낮아지면"},
             {"metric": "nrr", "op": "<", "value": 1.385, "note": "NRR이 지금 수준(1.38)보다 낮아지면"},   # 0.4% 차이 — 반올림 문턱
-            {"metric": "nrr", "op": "<", "value": 1.5, "note": "NRR이 1.5 아래면"}])
+            {"metric": "nrr", "op": "<", "value": 1.5, "note": "NRR이 1.5 아래면"},
+            {"metric": "nrr", "op": "<", "value": 1.5, "period": "FY2026Q4", "note": "4분기 NRR"}])
         st = [b["status"] for b in judge(self.d)["breaks"] if b["who"] == "애크먼"]
-        self.assertEqual(st, ["대기 — FY2026Q3 미발표", "대기 — FY2026Q3 미발표", "미충족", "충족 — 훼손"])
+        self.assertEqual(st, ["대기 — FY2026Q3 미발표", "대기 — FY2026Q3 미발표", "미충족", "충족 — 훼손", "대기 — FY2026Q4 미발표"])
         self.edit("slater.2.json", metrics={**core.load(self.d / "slater.2.json")["metrics"], "must_be_true": [
             {"claim": "회수기간 FY2026Q2 수준(15.95개월) 이하 유지", "metric": "payback_months", "op": "<=", "value": 15.95, "status": "on_track"}]})
         x = judge(self.d)["agents"][1]
