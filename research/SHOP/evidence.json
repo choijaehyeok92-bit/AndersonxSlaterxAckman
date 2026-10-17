@@ -352,6 +352,42 @@
       "note": "Shopify",
       "date": "2026-08-13",
       "retrieved": "2026-10-17T17:28:19Z"
+    },
+    {
+      "id": "S40",
+      "type": "data",
+      "title": "Shopify (NASDAQ: SHOP) 종가 – 2026-10-16",
+      "url": "https://finance.yahoo.com/quote/SHOP/",
+      "date": "2026-10-16",
+      "note": "2026-10-16 나스닥 종가 $169.52, 전일 대비 -4.84%. 직전 종가 $178.14, 10월 12일 종가 $179.22(약 1년 만의 최고 종가). 여러 시세 페이지가 같은 종가를 보고. 다음 실적 발표 2026-11-03.",
+      "retrieved": "2026-10-17T17:29:17Z"
+    },
+    {
+      "id": "S41",
+      "type": "filing",
+      "title": "Shopify 2026년 2분기 실적 보도자료 (8-K Ex.99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001594805/000159480526000046/exhibit991pressreleaseq220.htm",
+      "date": "2026-08-05",
+      "note": "GMV $115,567M (전년 $87,837M, +32%), MRR $221M(전년 $185M), 가맹점 솔루션 매출 $2,781M(+37%), 구독 솔루션 매출 $802M(+22%), 매출 $3.58B(+34%, 고정환율 +33%), FCF $654M(마진 18%), 결제 침투율 GMV의 68%. 자사주 매입 $1,420M(분기). 현금 $1,656M + 시장성 증권 $3,291M = $4,947M, 장기 투자 $525M. 3분기 가이던스 원문: 매출 전년 대비 '저 30%대' 성장, 매출총이익 달러 '중~후반 20%대' 성장, 영업비용 매출의 33~34%, SBC $150M, FCF 마진 '후반 10%대~초반 20%대'.",
+      "retrieved": "2026-10-17T17:29:17Z"
+    },
+    {
+      "id": "S42",
+      "type": "data",
+      "title": "Shopify FY2026 매출 컨센서스 (집계 사이트, 2분기 실적 이전 자료 포함)",
+      "url": "https://www.tikr.com/blog/shopify-stock-analyst-consensus-points-to-152-as-ai-commerce-position-compounds-in-2026",
+      "date": "2026-10-18",
+      "note": "집계 사이트 기준 FY2026 매출 컨센서스 약 $14.69~14.7B. 방법론 미공개이고 일부는 2분기 실적 이전 추정이라 낡았을 수 있음 — FactSet·LSEG 등 1차 컨센서스로 재확인 필요. 월가 평균 목표주가 약 $152(TIKR, 시점 불명). 2분기 실적 전 컨센서스는 2분기 매출 약 $3.44B였고 실제는 $3.58B.",
+      "retrieved": "2026-10-17T17:29:17Z"
+    },
+    {
+      "id": "S43",
+      "type": "news",
+      "title": "Shopify expects Q3 revenue growth in the low 30s as it expands agentic commerce infrastructure – Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4626580-shopify-expects-q3-revenue-growth-in-the-low-30s-as-it-expands-agentic-commerce",
+      "date": "2026-08-05",
+      "note": "보도. 3분기 매출 저 30%대 성장 가이던스 확인. Benzinga는 3분기 매출 가이던스를 $3.73~3.78B로 표시했으나 다른 출처로 미확인, 사실로 쓰지 않음.",
+      "retrieved": "2026-10-17T17:29:17Z"
     }
   ],
   "facts": [
@@ -2609,8 +2645,223 @@
       "derived": true,
       "note": "Q4 = 연간 − Q1~Q3 (코드 계산)",
       "source": "S9"
+    },
+    {
+      "id": "F204",
+      "metric": "price",
+      "value": 169.52,
+      "unit": "USD/share",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S40",
+      "origin": "research"
+    },
+    {
+      "id": "F205",
+      "metric": "shares_outstanding",
+      "value": 1286643931,
+      "unit": "shares",
+      "end": "2026-07-31",
+      "basis": "market",
+      "source": "S1",
+      "origin": "research"
+    },
+    {
+      "id": "F206",
+      "metric": "gmv",
+      "value": 115567000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S41",
+      "origin": "research"
+    },
+    {
+      "id": "F207",
+      "metric": "gmv",
+      "value": 87837000000,
+      "unit": "USD",
+      "period": "FY2025Q2",
+      "end": "2025-06-30",
+      "basis": "reported",
+      "source": "S41",
+      "origin": "research"
+    },
+    {
+      "id": "F208",
+      "metric": "mrr",
+      "value": 221000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S41",
+      "origin": "research"
+    },
+    {
+      "id": "F209",
+      "metric": "mrr",
+      "value": 185000000,
+      "unit": "USD",
+      "period": "FY2025Q2",
+      "end": "2025-06-30",
+      "basis": "reported",
+      "source": "S41",
+      "origin": "research"
+    },
+    {
+      "id": "F210",
+      "metric": "merchant_solutions_revenue",
+      "value": 2781000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S41",
+      "origin": "research"
+    },
+    {
+      "id": "F211",
+      "metric": "subscription_solutions_revenue",
+      "value": 802000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S41",
+      "origin": "research"
+    },
+    {
+      "id": "F212",
+      "metric": "payments_penetration",
+      "value": 0.68,
+      "unit": "ratio",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S41",
+      "origin": "research"
+    },
+    {
+      "id": "F213",
+      "metric": "fcf_reported",
+      "value": 654000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S41",
+      "origin": "research"
+    },
+    {
+      "id": "F214",
+      "metric": "marketable_securities",
+      "value": 3291000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S41",
+      "origin": "research"
+    },
+    {
+      "id": "F215",
+      "metric": "long_term_investments",
+      "value": 525000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S41",
+      "origin": "research"
+    },
+    {
+      "id": "F216",
+      "metric": "revenue_growth_yoy",
+      "value": 0.34,
+      "unit": "ratio",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S41",
+      "origin": "research"
+    },
+    {
+      "id": "F217",
+      "metric": "revenue_growth_yoy",
+      "low": 0.3,
+      "high": 0.33,
+      "value": 0.315,
+      "unit": "ratio",
+      "period": "FY2026Q3",
+      "end": "2026-09-30",
+      "basis": "guidance",
+      "source": "S41",
+      "origin": "research"
+    },
+    {
+      "id": "F218",
+      "metric": "opex_pct_revenue",
+      "low": 0.33,
+      "high": 0.34,
+      "value": 0.335,
+      "unit": "ratio",
+      "period": "FY2026Q3",
+      "end": "2026-09-30",
+      "basis": "guidance",
+      "source": "S41",
+      "origin": "research"
+    },
+    {
+      "id": "F219",
+      "metric": "sbc",
+      "value": 150000000,
+      "unit": "USD",
+      "period": "FY2026Q3",
+      "end": "2026-09-30",
+      "basis": "guidance",
+      "source": "S41",
+      "origin": "research"
+    },
+    {
+      "id": "F220",
+      "metric": "fcf_margin",
+      "low": 0.17,
+      "high": 0.22,
+      "value": 0.195,
+      "unit": "ratio",
+      "period": "FY2026Q3",
+      "end": "2026-09-30",
+      "basis": "guidance",
+      "source": "S41",
+      "origin": "research"
+    },
+    {
+      "id": "F221",
+      "metric": "revenue",
+      "value": 14690000000,
+      "unit": "USD",
+      "period": "FY2026",
+      "end": "2026-12-31",
+      "basis": "consensus",
+      "source": "S42",
+      "origin": "research"
     }
   ],
   "as_of": "2026-10-18",
-  "collected": "2026-10-17T17:28:19Z"
+  "collected": "2026-10-17T17:28:19Z",
+  "gaps": [
+    "FY2027 매출 컨센서스 — 신뢰할 만한 값을 찾지 못함 (variant perception 검증 불가). TIKR는 향후 2년 연 약 24% 성장 전망이라고 하나 컨센서스 수치는 아님",
+    "FY2026 매출 컨센서스 $14.69B는 집계 사이트 값이고 2분기 실적 전 추정이 섞여 있을 수 있음 — FactSet·LSEG·Visible Alpha로 재확인 필요",
+    "과거 가이던스(2025~2026년 분기별 전망)의 원문 수치 미수집 — 경영진 적중률 계산 불가. 8-K 실적 발표(S2·S8·S10·S13)에서 추출 필요",
+    "FY2025 Q4·FY2026 Q1~Q2 어닝콜 원문과 Q&A, 투자자의 날·컨퍼런스 자료 미수집 (S5는 6월 2일 IR 8-K로 내용 미확인)",
+    "DEF 14A 보상 지표, 내부자 매매, 자사주 매입 승인 규모(FY2026Q2 $1.42B 집행의 총 한도)는 미확인. 6월 16일 8-K(S4)와 자사주 관련 8-K(a26june_shopifyrepurchase) 확인 필요",
+    "순매출유지율·이탈률·가맹점 수·결제 GPV 등 운영 KPI 미공개 또는 미수집. 결제 침투율 68%만 확인",
+    "감사의견·감사인 변경·정정·특수관계자 거래·Non-GAAP 조정 내역 미수집 (10-K S9 주석 확인 필요)",
+    "FY2022 사실 충돌은 40-F(구 US GAAP 환산 전후)와 10-K의 소급 재작성 차이로 보이며 1차 자료 우선 규칙으로 정리해야 함. 연도별 수치가 서로 다른 기준에서 온 듯하니 이번 보강에서는 건드리지 않음",
+    "Q3 2026 가이던스의 '저 30%대'를 0.30~0.33으로 환산한 것은 해석이며 회사가 정확한 범위를 제시하지 않음. 매출 달러 가이던스($3.73~3.78B)는 Benzinga 단독 보도라 사실에서 제외",
+    "주가는 2026-10-16 종가로 기준일(10-18)보다 이전 마지막 거래일 값. 경쟁사·고객사 교차 확인, 대체 데이터(채용·트래픽·특허)는 수집하지 않음"
+  ],
+  "researched": "2026-10-18"
 }
