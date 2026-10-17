@@ -1,0 +1,135 @@
+{
+  "agent": "modeler",
+  "basis": "4cee1058d25d",
+  "years": 5,
+  "discount_rate": 0.1,
+  "drivers": [
+    {
+      "name": "installed_base",
+      "start": "F46",
+      "note": "연말 설치 대수"
+    },
+    {
+      "name": "revenue_per_unit",
+      "start": 37500,
+      "cites": [
+        "F4",
+        "F46"
+      ],
+      "note": "추정: 매출 12억 달러 / 설치 대수 3.2만 대"
+    }
+  ],
+  "scenarios": {
+    "bear": {
+      "p": 0.3,
+      "growth": {
+        "installed_base": [
+          0.35,
+          0.25,
+          0.18,
+          0.12,
+          0.08
+        ],
+        "revenue_per_unit": -0.03
+      },
+      "fcf_margin": 0.08,
+      "share_change": 0.02,
+      "exit_multiple": 16,
+      "rationale": "휴머노이드가 2028년 상용화되면 신규 수주 단가가 무너지고 하드웨어 마진이 31%에서 개선되지 못한다",
+      "cites": [
+        "S6",
+        "F53"
+      ]
+    },
+    "base": {
+      "p": 0.5,
+      "growth": {
+        "installed_base": [
+          0.55,
+          0.4,
+          0.3,
+          0.22,
+          0.16
+        ],
+        "revenue_per_unit": 0.0
+      },
+      "fcf_margin": 0.18,
+      "share_change": 0.015,
+      "exit_multiple": 28,
+      "rationale": "설치 대수 +72%가 감속하며 이어지고, 소프트웨어 비중 확대로 FCF 마진이 18%까지 오른다",
+      "cites": [
+        "S2",
+        "F54",
+        "S3"
+      ]
+    },
+    "bull": {
+      "p": 0.2,
+      "growth": {
+        "installed_base": [
+          0.7,
+          0.55,
+          0.42,
+          0.32,
+          0.25
+        ],
+        "revenue_per_unit": 0.03
+      },
+      "fcf_margin": 0.24,
+      "share_change": 0.01,
+      "exit_multiple": 32,
+      "rationale": "플릿 데이터로 배치 기간이 9주에서 3주로 줄어든 효과가 수확체증으로 이어지고 구독형이 단가를 끌어올린다",
+      "cites": [
+        "S4",
+        "S3"
+      ]
+    }
+  },
+  "variant": {
+    "market": "시장은 10년간 매출이 연 30% 넘게 커지는 시나리오를 이미 가격에 넣었다",
+    "ours": "기본 시나리오는 FY2026 매출이 컨센서스보다 6% 높다 — 설치 대수 증가가 컨센서스 가정보다 길게 간다",
+    "why": "순매출유지율 138%와 회수기간 16개월은 기존 고객이 스스로 설치를 늘린다는 뜻이고, 컨센서스는 신규 고객만 본다",
+    "catalyst": "2027년 구독형(RaaS) 확대 실적이 분기 공시에 드러나는 시점",
+    "when": "FY2026 4분기 실적 (2027년 2월)",
+    "cites": [
+      "C:consensus_diff@revenue@FY2026",
+      "F51",
+      "F50",
+      "F57"
+    ]
+  },
+  "kpis": [
+    {
+      "metric": "revenue",
+      "period": "FY2026",
+      "op": ">=",
+      "value": 1750000000.0,
+      "p": 0.7,
+      "why": "기본 시나리오 18.6억 달러, 컨센서스 17.5억 달러 이상"
+    },
+    {
+      "metric": "installed_base",
+      "period": "FY2026",
+      "op": ">=",
+      "value": 48000,
+      "p": 0.65,
+      "why": "기본 시나리오 연 55% 성장의 하한"
+    },
+    {
+      "metric": "nrr",
+      "period": "FY2026Q4",
+      "op": ">=",
+      "value": 1.2,
+      "p": 0.8,
+      "why": "기존 고객 확장이 가설의 중심"
+    },
+    {
+      "metric": "hardware_gross_margin",
+      "period": "FY2026",
+      "op": ">=",
+      "value": 0.34,
+      "p": 0.5,
+      "why": "원가 곡선이 실제로 내려오는지"
+    }
+  ]
+}

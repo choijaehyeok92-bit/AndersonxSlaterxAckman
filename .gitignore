@@ -1,1 +1,3 @@
 __pycache__/
+research/*/repro/
+research/*/analysis.json

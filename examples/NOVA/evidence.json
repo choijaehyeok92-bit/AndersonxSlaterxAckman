@@ -1,17 +1,638 @@
 {
-  "ticker": "NOVA",
-  "name": "Nova Robotics (가상 예시)",
-  "as_of": "2026-10-16",
-  "researched": "2026-10-16",
-  "sources": [
-    {"id": "S1", "type": "filing", "title": "10-K FY2025", "url": "https://example.com/nova/10k-2025", "date": "2026-02-20", "note": "매출 12억 달러(+68%), 하드웨어 총이익률 31%·소프트웨어 82%, 영업현금흐름 1.4억 달러, 순현금 9억 달러, 창업자 지분 18%(차등의결권)"},
-    {"id": "S2", "type": "filing", "title": "10-Q 2026 Q2", "url": "https://example.com/nova/10q-2026q2", "date": "2026-08-05", "note": "설치 대수 4.1만 대(+72%), 상위 3개 고객 매출 비중 47%(전년 55%), 로봇 1대당 회수기간 16개월"},
-    {"id": "S3", "type": "call", "title": "2026 Q2 어닝콜", "url": "https://example.com/nova/call-2026q2", "date": "2026-08-05", "note": "CEO: '이익 전액을 차세대 플랫폼 R&D에 재투자'. 순매출유지율 138%. 2027년 중형 고객 대상 구독형(RaaS) 확대"},
-    {"id": "S4", "type": "conference", "title": "Investor Day 2026", "url": "https://example.com/nova/investor-day-2026", "date": "2026-05-14", "note": "2030년 시장 규모 1,800억 달러 제시. 플릿 데이터로 신규 현장 배치 기간 9주→3주. 하드웨어 원가 연 12% 하락 목표"},
-    {"id": "S5", "type": "filing", "title": "DEF 14A 2026", "url": "https://example.com/nova/proxy-2026", "date": "2026-04-10", "note": "CEO 보상의 90%가 10년 베스팅 주식, 매출·FCF 연동"},
-    {"id": "S6", "type": "news", "title": "범용 휴머노이드 업체들, 창고 시장 진입 선언", "url": "https://example.com/news/humanoid-warehouse", "date": "2026-09-22", "note": "빅테크 2곳이 2028년 창고용 휴머노이드 상용화 목표 (보도)"},
-    {"id": "S7", "type": "data", "title": "시장 데이터", "url": "https://example.com/nova/quote", "date": "2026-10-15", "note": "주가 84달러, 시가총액 210억 달러, 희석 주식 수 2.5억 주, 2025년 FCF 0.6억 달러"},
-    {"id": "S8", "type": "news", "title": "Nova, 신규 공장 증설 발표", "url": "https://example.com/news/nova-factory", "date": "2026-07-01", "note": "증설 자금은 보유 현금과 영업현금흐름으로 충당, 차입 없음"}
-  ],
-  "gaps": ["코호트별 CAC 공시 없음"]
+ "ticker": "NOVA",
+ "name": "Nova Robotics (가상 예시)",
+ "as_of": "2026-10-16",
+ "researched": "2026-10-16",
+ "sources": [
+  {
+   "id": "S1",
+   "type": "filing",
+   "title": "10-K FY2025",
+   "url": "https://example.com/nova/10k-2025",
+   "date": "2026-02-20",
+   "note": "매출 12억 달러(+68%), 하드웨어 총이익률 31%·소프트웨어 82%, 영업현금흐름 1.4억 달러, 설비투자 0.8억 달러, 현금 9억 달러·차입금 없음, SBC 0.75억 달러, 창업자 지분 18%(차등의결권), 연말 설치 대수 3.2만 대"
+  },
+  {
+   "id": "S2",
+   "type": "filing",
+   "title": "10-Q 2026 Q2",
+   "url": "https://example.com/nova/10q-2026q2",
+   "date": "2026-08-05",
+   "note": "설치 대수 4.1만 대(+72%), 상위 3개 고객 매출 비중 47%(전년 55%), 로봇 1대당 회수기간 16개월"
+  },
+  {
+   "id": "S3",
+   "type": "call",
+   "title": "2026 Q2 어닝콜",
+   "url": "https://example.com/nova/call-2026q2",
+   "date": "2026-08-05",
+   "note": "CEO: '이익 전액을 차세대 플랫폼 R&D에 재투자'. 순매출유지율 138%. 2027년 중형 고객 대상 구독형(RaaS) 확대, 구독형 매출 비중 18%"
+  },
+  {
+   "id": "S4",
+   "type": "conference",
+   "title": "Investor Day 2026",
+   "url": "https://example.com/nova/investor-day-2026",
+   "date": "2026-05-14",
+   "note": "2030년 시장 규모 1,800억 달러 제시(회사 추정). 플릿 데이터로 신규 현장 배치 기간 9주→3주. 하드웨어 원가 연 12% 하락 목표"
+  },
+  {
+   "id": "S5",
+   "type": "filing",
+   "title": "DEF 14A 2026",
+   "url": "https://example.com/nova/proxy-2026",
+   "date": "2026-04-10",
+   "note": "CEO 보상의 90%가 10년 베스팅 주식, 매출·FCF 연동"
+  },
+  {
+   "id": "S6",
+   "type": "news",
+   "title": "범용 휴머노이드 업체들, 창고 시장 진입 선언",
+   "url": "https://example.com/news/humanoid-warehouse",
+   "date": "2026-09-22",
+   "note": "빅테크 2곳이 2028년 창고용 휴머노이드 상용화 목표 (보도)"
+  },
+  {
+   "id": "S7",
+   "type": "data",
+   "title": "시장 데이터",
+   "url": "https://example.com/nova/quote",
+   "date": "2026-10-15",
+   "note": "주가 84달러, 희석 주식 수 2.5억 주"
+  },
+  {
+   "id": "S8",
+   "type": "news",
+   "title": "Nova, 신규 공장 증설 발표",
+   "url": "https://example.com/news/nova-factory",
+   "date": "2026-07-01",
+   "note": "증설 자금은 보유 현금과 영업현금흐름으로 충당, 차입 없음"
+  },
+  {
+   "id": "S9",
+   "type": "data",
+   "title": "애널리스트 컨센서스",
+   "url": "https://example.com/nova/consensus",
+   "date": "2026-10-15",
+   "note": "FY2026 매출 17.5억 달러, FY2027 매출 24억 달러 (애널리스트 12명 평균)"
+  },
+  {
+   "id": "S10",
+   "type": "call",
+   "title": "2024 Q4 어닝콜",
+   "url": "https://example.com/nova/call-2024q4",
+   "date": "2025-02-20",
+   "note": "FY2025 매출 가이던스 11억~11.5억 달러"
+  },
+  {
+   "id": "S11",
+   "type": "filing",
+   "title": "10-K FY2024",
+   "url": "https://example.com/nova/10k-2024",
+   "date": "2025-02-21",
+   "note": "매출 7.14억 달러(+66%), FY2023 매출 4.3억 달러, FY2022 매출 2.6억 달러"
+  }
+ ],
+ "facts": [
+  {
+   "id": "F1",
+   "metric": "revenue",
+   "value": 260000000.0,
+   "unit": "USD",
+   "period": "FY2022",
+   "end": "2022-12-31",
+   "source": "S11"
+  },
+  {
+   "id": "F2",
+   "metric": "revenue",
+   "value": 430000000.0,
+   "unit": "USD",
+   "period": "FY2023",
+   "end": "2023-12-31",
+   "source": "S11"
+  },
+  {
+   "id": "F3",
+   "metric": "revenue",
+   "value": 714000000.0,
+   "unit": "USD",
+   "period": "FY2024",
+   "end": "2024-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F4",
+   "metric": "revenue",
+   "value": 1200000000.0,
+   "unit": "USD",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F5",
+   "metric": "gross_profit",
+   "value": 155000000.0,
+   "unit": "USD",
+   "period": "FY2023",
+   "end": "2023-12-31",
+   "source": "S11"
+  },
+  {
+   "id": "F6",
+   "metric": "gross_profit",
+   "value": 271000000.0,
+   "unit": "USD",
+   "period": "FY2024",
+   "end": "2024-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F7",
+   "metric": "gross_profit",
+   "value": 494000000.0,
+   "unit": "USD",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F8",
+   "metric": "operating_income",
+   "value": -30000000.0,
+   "unit": "USD",
+   "period": "FY2023",
+   "end": "2023-12-31",
+   "source": "S11"
+  },
+  {
+   "id": "F9",
+   "metric": "operating_income",
+   "value": 14000000.0,
+   "unit": "USD",
+   "period": "FY2024",
+   "end": "2024-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F10",
+   "metric": "operating_income",
+   "value": 72000000.0,
+   "unit": "USD",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F11",
+   "metric": "net_income",
+   "value": -20000000.0,
+   "unit": "USD",
+   "period": "FY2023",
+   "end": "2023-12-31",
+   "source": "S11"
+  },
+  {
+   "id": "F12",
+   "metric": "net_income",
+   "value": 20000000.0,
+   "unit": "USD",
+   "period": "FY2024",
+   "end": "2024-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F13",
+   "metric": "net_income",
+   "value": 80000000.0,
+   "unit": "USD",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F14",
+   "metric": "pretax_income",
+   "value": 90000000.0,
+   "unit": "USD",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F15",
+   "metric": "income_tax",
+   "value": 10000000.0,
+   "unit": "USD",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F16",
+   "metric": "ocf",
+   "value": 10000000.0,
+   "unit": "USD",
+   "period": "FY2023",
+   "end": "2023-12-31",
+   "source": "S11"
+  },
+  {
+   "id": "F17",
+   "metric": "ocf",
+   "value": 70000000.0,
+   "unit": "USD",
+   "period": "FY2024",
+   "end": "2024-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F18",
+   "metric": "ocf",
+   "value": 140000000.0,
+   "unit": "USD",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F19",
+   "metric": "capex",
+   "value": 30000000.0,
+   "unit": "USD",
+   "period": "FY2023",
+   "end": "2023-12-31",
+   "source": "S11"
+  },
+  {
+   "id": "F20",
+   "metric": "capex",
+   "value": 50000000.0,
+   "unit": "USD",
+   "period": "FY2024",
+   "end": "2024-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F21",
+   "metric": "capex",
+   "value": 80000000.0,
+   "unit": "USD",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F22",
+   "metric": "sbc",
+   "value": 30000000.0,
+   "unit": "USD",
+   "period": "FY2023",
+   "end": "2023-12-31",
+   "source": "S11"
+  },
+  {
+   "id": "F23",
+   "metric": "sbc",
+   "value": 45000000.0,
+   "unit": "USD",
+   "period": "FY2024",
+   "end": "2024-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F24",
+   "metric": "sbc",
+   "value": 75000000.0,
+   "unit": "USD",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F25",
+   "metric": "d_and_a",
+   "value": 20000000.0,
+   "unit": "USD",
+   "period": "FY2023",
+   "end": "2023-12-31",
+   "source": "S11"
+  },
+  {
+   "id": "F26",
+   "metric": "d_and_a",
+   "value": 30000000.0,
+   "unit": "USD",
+   "period": "FY2024",
+   "end": "2024-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F27",
+   "metric": "d_and_a",
+   "value": 40000000.0,
+   "unit": "USD",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F28",
+   "metric": "cash",
+   "value": 600000000.0,
+   "unit": "USD",
+   "period": "FY2023",
+   "end": "2023-12-31",
+   "source": "S11"
+  },
+  {
+   "id": "F29",
+   "metric": "cash",
+   "value": 750000000.0,
+   "unit": "USD",
+   "period": "FY2024",
+   "end": "2024-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F30",
+   "metric": "cash",
+   "value": 900000000.0,
+   "unit": "USD",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F31",
+   "metric": "receivables",
+   "value": 70000000.0,
+   "unit": "USD",
+   "period": "FY2023",
+   "end": "2023-12-31",
+   "source": "S11"
+  },
+  {
+   "id": "F32",
+   "metric": "receivables",
+   "value": 130000000.0,
+   "unit": "USD",
+   "period": "FY2024",
+   "end": "2024-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F33",
+   "metric": "receivables",
+   "value": 200000000.0,
+   "unit": "USD",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F34",
+   "metric": "inventory",
+   "value": 60000000.0,
+   "unit": "USD",
+   "period": "FY2023",
+   "end": "2023-12-31",
+   "source": "S11"
+  },
+  {
+   "id": "F35",
+   "metric": "inventory",
+   "value": 100000000.0,
+   "unit": "USD",
+   "period": "FY2024",
+   "end": "2024-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F36",
+   "metric": "inventory",
+   "value": 150000000.0,
+   "unit": "USD",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F37",
+   "metric": "total_assets",
+   "value": 900000000.0,
+   "unit": "USD",
+   "period": "FY2023",
+   "end": "2023-12-31",
+   "source": "S11"
+  },
+  {
+   "id": "F38",
+   "metric": "total_assets",
+   "value": 1300000000.0,
+   "unit": "USD",
+   "period": "FY2024",
+   "end": "2024-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F39",
+   "metric": "total_assets",
+   "value": 1600000000.0,
+   "unit": "USD",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F40",
+   "metric": "equity",
+   "value": 780000000.0,
+   "unit": "USD",
+   "period": "FY2023",
+   "end": "2023-12-31",
+   "source": "S11"
+  },
+  {
+   "id": "F41",
+   "metric": "equity",
+   "value": 1150000000.0,
+   "unit": "USD",
+   "period": "FY2024",
+   "end": "2024-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F42",
+   "metric": "equity",
+   "value": 1350000000.0,
+   "unit": "USD",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F43",
+   "metric": "diluted_shares",
+   "value": 240000000.0,
+   "unit": "shares",
+   "period": "FY2023",
+   "end": "2023-12-31",
+   "source": "S11"
+  },
+  {
+   "id": "F44",
+   "metric": "diluted_shares",
+   "value": 245000000.0,
+   "unit": "shares",
+   "period": "FY2024",
+   "end": "2024-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F45",
+   "metric": "diluted_shares",
+   "value": 250000000.0,
+   "unit": "shares",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F46",
+   "metric": "installed_base",
+   "value": 32000,
+   "unit": "count",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F47",
+   "metric": "installed_base",
+   "value": 41000,
+   "unit": "count",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "source": "S2"
+  },
+  {
+   "id": "F48",
+   "metric": "top3_concentration",
+   "value": 0.55,
+   "unit": "ratio",
+   "period": "FY2025Q2",
+   "end": "2025-06-30",
+   "source": "S2"
+  },
+  {
+   "id": "F49",
+   "metric": "top3_concentration",
+   "value": 0.47,
+   "unit": "ratio",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "source": "S2"
+  },
+  {
+   "id": "F50",
+   "metric": "payback_months",
+   "value": 16,
+   "unit": "months",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "source": "S2"
+  },
+  {
+   "id": "F51",
+   "metric": "nrr",
+   "value": 1.38,
+   "unit": "ratio",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "source": "S3"
+  },
+  {
+   "id": "F52",
+   "metric": "subscription_share",
+   "value": 0.18,
+   "unit": "ratio",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "source": "S3"
+  },
+  {
+   "id": "F53",
+   "metric": "hardware_gross_margin",
+   "value": 0.31,
+   "unit": "ratio",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F54",
+   "metric": "software_gross_margin",
+   "value": 0.82,
+   "unit": "ratio",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F55",
+   "metric": "founder_stake",
+   "value": 0.18,
+   "unit": "ratio",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "source": "S1"
+  },
+  {
+   "id": "F56",
+   "metric": "revenue",
+   "value": 1125000000.0,
+   "low": 1100000000.0,
+   "high": 1150000000.0,
+   "unit": "USD",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "basis": "guidance",
+   "source": "S10"
+  },
+  {
+   "id": "F57",
+   "metric": "revenue",
+   "value": 1750000000.0,
+   "unit": "USD",
+   "period": "FY2026",
+   "end": "2026-12-31",
+   "basis": "consensus",
+   "source": "S9"
+  },
+  {
+   "id": "F58",
+   "metric": "revenue",
+   "value": 2400000000.0,
+   "unit": "USD",
+   "period": "FY2027",
+   "end": "2027-12-31",
+   "basis": "consensus",
+   "source": "S9"
+  },
+  {
+   "id": "F59",
+   "metric": "price",
+   "value": 84,
+   "unit": "USD/share",
+   "end": "2026-10-15",
+   "basis": "market",
+   "source": "S7"
+  }
+ ],
+ "gaps": [
+  "코호트별 CAC 공시 없음",
+  "휴머노이드 경쟁사의 가격·성능 자료 없음"
+ ]
 }

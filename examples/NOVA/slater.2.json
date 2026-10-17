@@ -1,19 +1,69 @@
 {
   "agent": "slater",
+  "basis": "392e04e6e4e4",
   "stance": "for",
   "conviction": 3,
   "rebuttals": [
-    {"to": "anderson", "point": "상방에는 동의한다. 그러나 '5배'가 성립하려면 하드웨어 원가 하락이 참이어야 하고, 그것은 아직 투자자의 날 슬라이드에 있다. 크기는 증거가 정한다", "cites": ["S4", "S1"]},
-    {"to": "ackman", "point": "자본시장 의존이 없다는 데는 둘 다 동의한다. 차이는 예측 가능성인데, 순매출유지율 138%는 기존 고객 매출이 이미 예측 가능해지고 있다는 증거다", "cites": ["S3", "S8"]}
+    {
+      "to": "anderson",
+      "point": "상방에는 동의한다. 그러나 '5배'가 성립하려면 하드웨어 원가 하락이 참이어야 하고, 그것은 아직 투자자의 날 슬라이드에 있다. 크기는 증거가 정한다",
+      "cites": [
+        "S4",
+        "F53"
+      ]
+    },
+    {
+      "to": "ackman",
+      "point": "자본시장 의존이 없다는 데는 둘 다 동의한다. 차이는 예측 가능성인데, 순매출유지율 138%는 기존 고객 매출이 이미 예측 가능해지고 있다는 증거다",
+      "cites": [
+        "F51",
+        "S8"
+      ]
+    },
+    {
+      "to": "redteam",
+      "point": "가격 경쟁 시나리오는 회수기간으로 먼저 드러난다 — 이미 참이어야 하는 것에 18개월 상한으로 걸어 두었다",
+      "cites": [
+        "F50"
+      ]
+    }
   ],
-  "concessions": ["애크먼의 지적대로 휴머노이드 진입은 10년 FCF 범위를 넓힌다 — 경쟁 지표를 참이어야 하는 것에 추가하고 위험 신호로 둔다"],
+  "concessions": [
+    "애크먼의 지적대로 휴머노이드 진입은 10년 FCF 범위를 넓힌다 — 경쟁 지표를 참이어야 하는 것에 추가하고 위험 신호로 둔다"
+  ],
   "metrics": {
     "must_be_true": [
-      {"claim": "로봇 1대당 회수기간 18개월 이하 유지", "status": "on_track"},
-      {"claim": "상위 3개 고객 매출 비중 30% 이하로 하락", "status": "on_track"},
-      {"claim": "하드웨어 총이익률 연 3%p 이상 개선", "status": "on_track"},
-      {"claim": "외부 조달 없이 영업현금흐름으로 증설 자금 충당", "status": "on_track"},
-      {"claim": "휴머노이드 상용화 이후에도 신규 수주 승률 유지", "status": "at_risk"}
+      {
+        "claim": "로봇 1대당 회수기간 18개월 이하 유지",
+        "metric": "payback_months",
+        "op": "<=",
+        "value": 18,
+        "status": "on_track"
+      },
+      {
+        "claim": "상위 3개 고객 매출 비중 FY2028까지 30% 이하로 하락",
+        "metric": "top3_concentration",
+        "period": "FY2028",
+        "op": "<=",
+        "value": 0.3,
+        "status": "on_track"
+      },
+      {
+        "claim": "하드웨어 총이익률 FY2026 34% 이상 (연 3%p 개선)",
+        "metric": "hardware_gross_margin",
+        "period": "FY2026",
+        "op": ">=",
+        "value": 0.34,
+        "status": "on_track"
+      },
+      {
+        "claim": "외부 조달 없이 영업현금흐름으로 증설 자금 충당",
+        "status": "on_track"
+      },
+      {
+        "claim": "휴머노이드 상용화 이후에도 신규 수주 승률 유지",
+        "status": "at_risk"
+      }
     ]
   }
 }
