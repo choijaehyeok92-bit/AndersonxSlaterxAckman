@@ -1,4 +1,4 @@
-import io, json, os, shutil, sys, tempfile, unittest
+import io, shutil, sys, tempfile, unittest
 from contextlib import redirect_stderr, redirect_stdout
 from pathlib import Path
 from harness import core

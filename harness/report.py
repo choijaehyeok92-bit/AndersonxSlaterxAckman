@@ -1,6 +1,6 @@
 """보고서 — 계산값 표(프롬프트와 공유)와 report.md. 서술은 에이전트가, 숫자 표는 코드가 만든다."""
 import json, re
-from . import core, rules
+from . import core
 
 ROWS = [("revenue", "매출", "money"), ("revenue_growth", "매출 성장", "pct"), ("gross_margin", "총이익률", "pct"),
         ("operating_margin", "영업이익률", "pct"), ("net_income", "순이익", "money"), ("ocf", "영업현금흐름", "money"),
@@ -170,7 +170,7 @@ def render(r):
     out = [f"# {r['name']} ({r['ticker']}) 리서치 보고서 — 기준일 {r['as_of']}", "",
            f"**{r['label']}** — " + (f"찬성 {r['votes']['for']} · 반대 {r['votes']['against']} · 보류 {r['votes']['abstain']} · "
                                      f"확신 가중 점수 {r['score']:+.2f} (−1~+1)" if r["agents"] else "토론 전 단계에서 멈춤"), ""]
-    out += [f"- 게이트: " + " → ".join(f"{g['name']} {'✓' if g['ok'] else '✗ ' + '; '.join(g['why'])}" for g in r["gates"]), ""]
+    out += ["- 게이트: " + " → ".join(f"{g['name']} {'✓' if g['ok'] else '✗ ' + '; '.join(g['why'])}" for g in r["gates"]), ""]
     if r.get("gated"):
         out += [f"> 게이트에서 멈췄다 — 뒤 단계(모델·토론)는 실행하지 않는다. 이유: {r['gated']}", ""]
     vp = (r.get("model") or {}).get("variant") or {}

@@ -1,5 +1,4 @@
 import json
-from harness import core
 from council import main
 from tests.base import Base
 

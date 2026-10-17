@@ -80,7 +80,7 @@ class HarnessTests(Base):
 
     def test_audit_error_injection(self):
         r = pipeline.audit(self.d, self.cli(), n=5)
-        self.assertEqual((r["injected"], r["caught_by_verifier"], r["false_alarms"]), (5, 5, 0))
+        self.assertEqual((r["injected"], r["caught_by_verifier"], r["flagged_clean"], r["false_alarms"]), (5, 5, 0, 0))
         self.assertGreaterEqual(r["caught_by_code"], 4)                  # 틀린 숫자는 인용 자료와 대조해 대부분 잡힌다
         self.assertTrue(r["ok"])
         self.assertEqual(pipeline.corrupt("순매출유지율 138% 유지", 1.5), ("순매출유지율 207% 유지", "207"))

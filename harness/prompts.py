@@ -17,6 +17,12 @@ TASK = {
 }
 
 
+KIND = {  # 검증자에게 주장의 종류만 알려 준다 — 누가 썼는지·입장은 가린 채
+    "premortem": "사전 부검 — '5년 뒤 −60%가 되었다'고 가정한 가상 시나리오", "scenarios": "시나리오 가정과 그 근거",
+    "rebuttals": "반론 — 다른 분석가의 주장을 언급할 수 있다", "variant": "시장과 다르게 보는 점과 그 근거",
+    "weakest": "모델 가정 비판"}
+
+
 def block(title, obj):
     return f"## {title}\n```json\n{json.dumps(obj, ensure_ascii=False, indent=1)}\n```"
 
@@ -87,7 +93,8 @@ def claims(d):
 
     def add(role, where, point, cites):
         if point:
-            out.append(dict(role=role, where=where, point=str(point), cites=[str(c) for c in cites or []] if isinstance(cites, list) else []))
+            out.append(dict(role=role, where=where, point=str(point), kind=KIND.get(where.split("[")[0].split(".")[0], ""),
+                            cites=[str(c) for c in cites or []] if isinstance(cites, list) else []))
 
     def each(o, k):  # 객체 대신 문자열이 와도 주장으로 받는다 (인용이 없으니 검증에서 실패한다)
         return enumerate(x if isinstance(x, dict) else {"point": str(x)} for x in (o.get(k) or []))
@@ -137,4 +144,5 @@ def cited(c, ev, fx, ref):  # 주장이 인용한 자료의 내용
 
 def verifier_view(d, cl, ev, fx):
     ref = calc.analyze(ev, core.load(d / "model.json", {}) or None)["ref"]
-    return "\n\n".join(f"### {c['id']}\n주장: {c['point']}\n인용:\n{cited(c, ev, fx, ref)}" for c in cl)
+    return "\n\n".join(f"### {c['id']}\n주장: {c['point']}\n" + (f"유형: {c['kind']}\n" if c.get("kind") else "")
+                       + f"인용:\n{cited(c, ev, fx, ref)}" for c in cl)

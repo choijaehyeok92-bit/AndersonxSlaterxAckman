@@ -328,7 +328,7 @@ def reverse_dcf(ev, rev0, m0, mT, r=rules.DISCOUNT, gT=rules.TERMINAL_G, n=rules
 # ── 전체 분석 ──
 
 def setup(fx, model, an, warn):  # 시나리오 계산의 출발점
-    rows, t, mkt = an["history"], an["ttm"], an["market"]
+    rows, mkt = an["history"], an["market"]
     if not rows or not mkt or rows[-1]["fcf_margin"] is None:
         warn.append("시나리오 계산 불가 — 연간 매출·영업현금흐름·설비투자·주가·주식 수 필요")
         return None

@@ -70,9 +70,9 @@ class Facts:
             return f"출처 {f['source']}가 기준일({self.as_of}) 이후 자료"
         return None
 
-    def pick(self, fs):  # 1차 자료 > 직접 보고 > 최신 자료
+    def pick(self, fs):  # 연결 > 별도, 1차 자료 > 직접 보고 > 최신 자료
         fs = sorted(fs, key=lambda f: self.src[f["source"]].get("date") or "", reverse=True)
-        return min(fs, key=lambda f: (RANK[self.src[f["source"]]["type"]], f.get("derived", False)))
+        return min(fs, key=lambda f: (f.get("scope") == "separate", RANK[self.src[f["source"]]["type"]], f.get("derived", False)))
 
     def get(self, metric, period=None, basis="reported", unit=None):
         """기간을 주면 그 기간 값, 안 주면 종료일이 가장 늦은 값. 같은 값이 여럿이면 1차 자료."""

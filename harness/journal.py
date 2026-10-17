@@ -5,7 +5,7 @@ research/<TICKER>/journal.jsonl에 한 줄씩 덧붙인다 (지우지 않는다)
   update    새 실적으로 KPI 적중·반증 조건·추정 대비 실제를 대조 → 유지 / 약화 / 훼손
   decision  사람이 정한 비중과 이유 (하네스는 비중을 정하지 않는다)
 """
-import json, math
+import json
 from . import core, facts
 from .judge import status
 

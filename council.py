@@ -18,7 +18,6 @@
 종료 코드: 0 찬성 우세·유지·통과 · 1 반대 우세·팽팽·판정 불가·약화·훼손·불통과(collect는 수집 실패) · 2 입력·실행 오류.
 """
 import argparse, json, subprocess, sys
-from pathlib import Path
 from harness import calc, collect, core, journal, pipeline, report
 from harness.judge import judge
 from harness.prompts import prompt
@@ -135,11 +134,12 @@ def main(argv=None):
         if a.cmd == "audit":
             r = pipeline.audit(d, a.cli, a.n, a.seed)
             show(a, r, f"오류 {r['injected']}개 주입 — 검증자 {r['caught_by_verifier']}개 · 기계 대조 {r['caught_by_code']}개 적발 · "
-                       f"멀쩡한 주장 {r['clean']}개 중 오탐 {r['false_alarms']}개")
+                       f"주입하지 않은 주장 {r['clean']}개 중 지적 {r['flagged_clean']}개"
+                       + ("" if r["false_alarms"] is None else f" (기존 검증에서 통과했는데 이번에 지적 = 오탐 {r['false_alarms']}개)"))
             return 0 if r["ok"] else 1
         if a.cmd == "baserate":
             t = collect.baserate(a.first, a.last)
-            print(f"data/base_rates.json: " + ", ".join(f"{h}년 n={x['all']['n']}" for h, x in t["horizons"].items()))
+            print("data/base_rates.json: " + ", ".join(f"{h}년 n={x['all']['n']}" for h, x in t["horizons"].items()))
             return 0
     except (OSError, ValueError, KeyError, TypeError, RuntimeError, subprocess.TimeoutExpired) as e:
         print(f"오류: {type(e).__name__}: {e}", file=sys.stderr)

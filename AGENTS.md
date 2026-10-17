@@ -83,8 +83,9 @@
 | 슬레이터 | `unit_economics` ≠ `deteriorating` · `survival_path` ≠ `false` · `cash_survives`(코드: case 현금 경로) ≠ `false` · `must_be_true` 작성 · `broken` 없음(코드가 사실로 대조) | `must_be_true`에 주가·목표가 |
 | 애크먼 | `simple_predictable` · `fcf_positive`(코드) · `capital_markets_dependent` = `false`(순부채/EBITDA > 4 또는 FCF 음수·소진 3년 미만이면 코드가 `true`) · `mos`(코드) ≥ 20% | — |
 
-**검증** — 주장마다: 인용 없음 · 없는 근거 · 기준일 이후 근거 · **인용 자료에 없는 숫자**(코드가 숫자를 하나씩 대조, 퍼센트와 금액을 구분)
-· 검증자의 `unsupported`·`contradicted`는 실패. 한 페르소나의 논거 절반 이상이 실패하면 그 표는 '보류'로 집계. `leap`은 경고.
+**검증** — 주장마다: 인용 없음 · 없는 근거 · 기준일 이후 근거 · **출처 없는 숫자**(코드가 숫자를 하나씩 대조해 근거·계산값 어디에도 없는 숫자,
+퍼센트와 금액을 구분) · 검증자의 `unsupported`·`contradicted`는 실패. 한 페르소나의 논거 절반 이상이 실패하면 그 표는 '보류'로 집계.
+`leap`과 '다른 근거에 있는데 인용하지 않은 숫자'는 경고.
 
 **경고** — 2라운드 반론 누락(두 상대 + 레드팀) · 기계 판정 가능한 반증 조건 없음 · 이미 충족된 반증 조건 · 회계 신호 미해명 ·
 회사 발표만으로 '입증'한 해자 · 컨센서스와 같은 모델(variant 없음) · 기저율상 드문 기본 시나리오 · 낡은 입력(`basis`) · `filing`·`call` 근거 부재.

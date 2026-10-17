@@ -1,4 +1,4 @@
-import json, math
+import math
 from unittest import mock
 from harness import calc, core, facts
 from harness.facts import Facts

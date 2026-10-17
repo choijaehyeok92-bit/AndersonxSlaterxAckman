@@ -152,7 +152,8 @@ def corrupt(point, k):  # 주장의 첫 단위 숫자를 k배로 바꾼다
 def audit(d, cli, n=5, seed=0):
     """오류 주입 — 주장 속 숫자를 일부러 틀리게 바꾸고 검증자(LLM)와 기계 대조(코드)가 잡아내는지 본다."""
     ev, model = core.load(d / "evidence.json"), core.load(d / "model.json", {})
-    fx, cl = facts.Facts(ev), prompts.claims(d)[0]
+    (fx, (cl, key)), vf = (facts.Facts(ev), prompts.claims(d)), core.load(d / "verifier.json", {})
+    before = {c.get("id"): c.get("verdict") for c in vf.get("checks", [])} if vf.get("basis") == key else {}
     an = calc.analyze(ev, model or None)
     everything = facts.pool(fx.src.values(), fx.facts.values(), an["ref"], an["ref_pct"])
     rng = random.Random(seed)
@@ -164,7 +165,7 @@ def audit(d, cli, n=5, seed=0):
             k = rng.choice((0.6, 1.5, 2.0))
             c = {**c, "point": corrupt(c["point"], k)[0], "injected": k}
         mutated.append(c)
-    text = "\n\n".join([f"<!-- council role=verifier round=1 -->", core.doc("verifier"),
+    text = "\n\n".join(["<!-- council role=verifier round=1 -->", core.doc("verifier"),
                         f"## 지금 할 일\n{prompts.TASK['verifier']}", "## 검증할 주장", prompts.verifier_view(d, mutated, ev, fx)])
     got = {x.get("id"): x.get("verdict") for x in ask(cli, text, "verifier").get("checks", [])}
     flagged = lambda c: got.get(c["id"]) in ("contradicted", "unsupported")
@@ -177,7 +178,9 @@ def audit(d, cli, n=5, seed=0):
     caught = sum(flagged(c) for c in mutated if "injected" in c)
     r = dict(cmd="audit", injected=len(details), caught_by_verifier=caught,
              caught_by_code=sum(x["code"] != "놓침" for x in details),
-             false_alarms=sum(flagged(c) for c in mutated if "injected" not in c), clean=len(mutated) - len(details), details=details)
+             clean=len(mutated) - len(details), details=details,
+             flagged_clean=sum(flagged(c) for c in mutated if "injected" not in c),  # 주입하지 않은 주장 중 지적 (원래 결함일 수 있다)
+             false_alarms=sum(flagged(c) for c in mutated if "injected" not in c and before.get(c["id"]) == "supported") if before else None)
     r["ok"] = bool(details) and caught / len(details) >= 0.8
     core.save(d / "audit.json", r)
     return r
