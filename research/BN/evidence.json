@@ -478,6 +478,33 @@
       "note": "Yahoo Finance",
       "date": "2026-07-31",
       "retrieved": "2026-10-17T17:19:31Z"
+    },
+    {
+      "id": "S54",
+      "type": "data",
+      "title": "Brookfield Corporation (BN) - Price History (digrin.com)",
+      "url": "https://www.digrin.com/stocks/detail/BN/price",
+      "date": "2026-09-09",
+      "note": "집계 사이트 기준 BN 종가 39.27 USD (2026-09-09). 약 5주 전 값이며 최신 시세가 아님. 같은 검색에서 AlphaQuery는 41.37 USD (2026-08-20), 52주 범위 37.93~49.57 USD로 표기. 출처 간 불일치가 있어 사용 전 실시간 시세 확인 필요.",
+      "retrieved": "2026-10-17T17:20:01Z"
+    },
+    {
+      "id": "S55",
+      "type": "data",
+      "title": "Brookfield Corporation (BN) - AlphaQuery",
+      "url": "https://www.alphaquery.com/stock/BN/volatility-option-statistics",
+      "date": "2026-08-20",
+      "note": "집계 사이트 기준 BN 종가 41.37 USD (2026-08-20). 보조 가격 근거.",
+      "retrieved": "2026-10-17T17:20:01Z"
+    },
+    {
+      "id": "S56",
+      "type": "filing",
+      "title": "Brookfield Corporation Q2 2026 Interim Report",
+      "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/Brookfield-BN-IR-V2/2026/Q2/2026-q2-bn-interim-report.pdf",
+      "date": "2026-08-13",
+      "note": "2026년 2분기 분배가능이익(DE) 15.48억 USD, 주당 0.66 USD. 실현손익 반영 전 DE 14.27억 USD(주당 0.61, 전년 동기 0.53). 최근 12개월 DE 61.72억 USD(주당 2.61), 실현 전 DE 56.52억 USD(주당 2.39). 지배주주 귀속 순이익 3.64억 USD(주당 0.14). 수치는 검색 요약 기준이며 원문 대조 필요.",
+      "retrieved": "2026-10-17T17:20:01Z"
     }
   ],
   "facts": [
@@ -1195,8 +1222,83 @@
       "basis": "reported",
       "origin": "sec",
       "source": "S28"
+    },
+    {
+      "id": "F66",
+      "metric": "price",
+      "value": 39.27,
+      "unit": "USD/share",
+      "end": "2026-09-09",
+      "basis": "market",
+      "source": "S54",
+      "origin": "research"
+    },
+    {
+      "id": "F67",
+      "metric": "price",
+      "value": 41.37,
+      "unit": "USD/share",
+      "end": "2026-08-20",
+      "basis": "market",
+      "source": "S55",
+      "origin": "research"
+    },
+    {
+      "id": "F68",
+      "metric": "distributable_earnings",
+      "value": 1548000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S56",
+      "origin": "research"
+    },
+    {
+      "id": "F69",
+      "metric": "distributable_earnings_per_share",
+      "value": 0.66,
+      "unit": "USD/share",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S56",
+      "origin": "research"
+    },
+    {
+      "id": "F70",
+      "metric": "distributable_earnings_before_realizations_per_share",
+      "value": 0.61,
+      "unit": "USD/share",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S56",
+      "origin": "research"
+    },
+    {
+      "id": "F71",
+      "metric": "net_income",
+      "value": 364000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S56",
+      "origin": "research"
     }
   ],
   "as_of": "2026-10-18",
-  "collected": "2026-10-17T17:19:31Z"
+  "collected": "2026-10-17T17:19:31Z",
+  "gaps": [
+    "2026-10-16 전후의 최신 BN 종가를 확인하지 못했다. 가격은 2026-09-09 종가(S54)와 2026-08-20 종가(S55)뿐이며 모두 집계 사이트 값이다. 두 값이 서로 다르고 최신이 아니므로 시세를 다시 확인해야 한다.",
+    "현재 발행 주식 수(shares_outstanding)와 희석 주식 수를 확인하지 못했다. 기존 FY2025 희석 주식 수 22.5억 주가 있다. DE 15.48억 USD ÷ 주당 0.66 USD로 역산하면 약 23.5억 주지만, 이는 추정이므로 사실로 넣지 않았다. Q2 6-K 첨부(exh_991)에서 확인해야 한다.",
+    "컨센서스(향후 2개 연도 매출, 주당 DE)를 확인하지 못했다. Q2 실적이 월가 추정에 못 미쳤다는 보도(S44)만 있고 수치는 없다.",
+    "과거 가이던스(최근 2~4개 기간)를 확인하지 못했다.",
+    "운영 KPI(운용자산 AUM, 수수료 부과 자본, 모집 규모, 보험 자산 등)를 어닝콜 원문에서 확인하지 못했다. S42·S48 요약은 있으나 수치는 아직 사실로 옮기지 않았다.",
+    "회계 품질 단서(감사인, 정정 여부, 특수관계자 거래, 비GAAP 조정 내역)를 확인하지 못했다.",
+    "BN은 40-F 외국 발행인이므로 DEF 14A 보상 지표와 내부자 매매 근거가 없다. 경영진 평가용 근거를 별도로 찾아야 한다.",
+    "수집된 XBRL의 FY2025 매출(751.0억 USD)과 순이익(13.1억 USD)은 IFRS 연결 기준이다. 지주회사 성격상 사업 가치 평가의 중심은 DE와 자산운용 부문(BAM 지분 등) 가치이므로 별도 사실이 필요하다."
+  ],
+  "researched": "2026-10-18"
 }
