@@ -1,0 +1,673 @@
+{
+  "ticker": "CBRS",
+  "name": "Cerebras Systems",
+  "sources": [
+    {
+      "id": "S1",
+      "type": "filing",
+      "title": "10-Q",
+      "date": "2026-08-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026056357/cbrs-20260630.htm",
+      "accn": "0001628280-26-056357",
+      "retrieved": "2026-10-17T17:27:28Z"
+    },
+    {
+      "id": "S2",
+      "type": "filing",
+      "title": "8-K 실적 발표",
+      "date": "2026-08-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026056186/cbrs-20260812.htm",
+      "accn": "0001628280-26-056186",
+      "retrieved": "2026-10-17T17:27:28Z"
+    },
+    {
+      "id": "S3",
+      "type": "filing",
+      "title": "10-Q",
+      "date": "2026-06-24",
+      "url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026044981/cbrs-20260331.htm",
+      "accn": "0001628280-26-044981",
+      "retrieved": "2026-10-17T17:27:28Z"
+    },
+    {
+      "id": "S4",
+      "type": "filing",
+      "title": "8-K 실적 발표",
+      "date": "2026-06-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026044941/cbrs-20260623.htm",
+      "accn": "0001628280-26-044941",
+      "retrieved": "2026-10-17T17:27:28Z"
+    },
+    {
+      "id": "S5",
+      "type": "filing",
+      "title": "8-K 기타 중요 사항",
+      "date": "2026-05-15",
+      "url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026035605/closing8-k.htm",
+      "accn": "0001628280-26-035605",
+      "retrieved": "2026-10-17T17:27:28Z"
+    },
+    {
+      "id": "S6",
+      "type": "filing",
+      "title": "S-1",
+      "date": "2026-04-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026025762/cerebras-sx1april2026.htm",
+      "accn": "0001628280-26-025762",
+      "retrieved": "2026-10-17T17:27:28Z"
+    },
+    {
+      "id": "S7",
+      "type": "news",
+      "title": "What Does Cerebras Systems (CBRS) CS 4 Launch Mean For Its AI Push? - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT09BeDlRRVhLRGl3UnQxLXBzY1JXUEV6ckZ4N0JpZjdKRDBBdmpDT1BNMGgwZkFTVTROV0h1NVplVkdLZ0RVMUZ3WW15Q3J0ay05WmdtRGd1YkFMM2Z5UzBMNnBtTzN6Y0VUNEhMbTI2aWRrNjdVcW05N3Q5a1BkdUpRRGFrM0FtczBoQW1FSXJzUlJ3aVFvdQ?oc=5",
+      "note": "Yahoo Finance",
+      "date": "2026-08-31",
+      "retrieved": "2026-10-17T17:27:28Z"
+    },
+    {
+      "id": "S8",
+      "type": "news",
+      "title": "Introducing Cerebras CS-4: The Fastest AI Just Got Faster - Cerebras",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBmMUQxb0dVSUo2UzM1MVE2dExHRlRYUlg2QW1GSktqeTd0WmVldXpKaVFIVUxaWVpwQ0RpQlpnYjBUZWJ4ZmZBWHowMzlRQkdPV0E3VzE3VkxfdjJtUmNBNFE1dFI?oc=5",
+      "note": "Cerebras",
+      "date": "2026-08-18",
+      "retrieved": "2026-10-17T17:27:28Z"
+    },
+    {
+      "id": "S9",
+      "type": "news",
+      "title": "Cerebras shares plummet 16% after results fail to impress investors - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPS3RxTUJxMTh2Mk9XSmgxdm1MZDh6MlRtcVl5aFM1bmF1ajVmWlFnUF9nNU0yYjloQ0pON2VSWFZBYTVldmJ0TGI5N2psYlcwZVRuSURZaUM1NkYzVkh4NGVNRUtjd0F0M3RMTno2X0RSNG9VbF91V2lDOUh0OG5nSDJiY2M4cDdrM1lGRnNicldnNXBBQTBDRFVzNHdJQQ?oc=5",
+      "note": "Reuters",
+      "date": "2026-08-25",
+      "retrieved": "2026-10-17T17:27:28Z"
+    },
+    {
+      "id": "S10",
+      "type": "news",
+      "title": "Cerebras Systems: This Is Not A Golden Buying Opportunity (NASDAQ:CBRS) - Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNk5ZWDcya0pXamNfMGIybGhZNGQ4U05LX21iUFVZeDhKd3gtUlR5dWFjXzNSd3FZc1JUQlJCX0NoSWpmNEpWdkZ5UjBQcjZ3dEFxMWF2NF85XzBibThSLXNPeE54SlpwX0FwM1FrQktNT1ZoaU10V3NWb2J1aWNyamlpbTdaTHV5bHRueWpJcFQtNFBxQWNaY01rR19qUQ?oc=5",
+      "note": "Seeking Alpha",
+      "date": "2026-10-01",
+      "retrieved": "2026-10-17T17:27:28Z"
+    },
+    {
+      "id": "S11",
+      "type": "news",
+      "title": "Cerebras Systems CEO Andrew Feldman on Q2 earnings: ‘We are pretty proud of the results’ - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYkF3cWRoc0l6SnJFYXhUVUtwemJGUWpIUFRYR2REaDJIeWVpVnpnaTQtRWhZUHNEdHpPOWt0c2ptVUlyNWRuWDZvUV9lb1JVSXVhekNFZjhFSDRJT192ZlBocGd0NzkxRkcwMzhmYWlEOUFEV05mbHZXajNUdnlneDRoVl9rUm91Vm13UEFR?oc=5",
+      "note": "CNBC",
+      "date": "2026-08-13",
+      "retrieved": "2026-10-17T17:27:28Z"
+    },
+    {
+      "id": "S12",
+      "type": "news",
+      "title": "Cerebras Systems' Tough 2026 Continues: It'll Double Soon According to One of The Biggest Global Banks - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNaEpZUi0xamI3SFN4QlNMakxWVkNnTTUtU3BDakQzMmJFVDkwdHppZzl0LUQ1NUdOV0ZQczJhT1FJa0ZJUXlidWUxSDQ4aE5sY1FmQlBHQWJIUFZiNzZEaG44NU4zRFBPUkF1LXJEY1AzR0pJTkFoZE92RzBwUjIyMHhnZE5zSmxJYlZDa3BJV1hTOFNmM2lJTjhhTmJrTlV6QnVKX3B4cWN4WVYyM1FKd3otOE5OOHZiNGlxc0tiYWU4R0ZOX01TVXh0VndUUEQ3Smdxa21kbTJ0UWM?oc=5",
+      "note": "24/7 Wall St.",
+      "date": "2026-10-05",
+      "retrieved": "2026-10-17T17:27:28Z"
+    },
+    {
+      "id": "S13",
+      "type": "news",
+      "title": "Why is Cerebras Systems stock surging today? - Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYkJybUthcmRzWWJfekdnTlJuaWJkOVFBRHJTbUVUMVQwYzRxV0sxWE9CR0x1OHVwTV80d09QMXF6ZDdFX2pQYkFwZVk0ek91TjZxWEUzRGQ0N25hMDl2czJ1QlZETzhVWDRVZENMMTJUX3dqRFRwMDR3V3R5QS1ZX1dzaVI5V0ROWGhUNWd3UV9zdFdaQjBoSGs4dUFmcU1kY0M3TlNJRTg?oc=5",
+      "note": "Investing.com",
+      "date": "2026-09-04",
+      "retrieved": "2026-10-17T17:27:28Z"
+    },
+    {
+      "id": "S14",
+      "type": "news",
+      "title": "Cerebras Systems (CBRS) Stock Looks Fairly Valued With Book Value Steady And Growth Risk Unclear - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLWI2OVlHSEZpcEVGdzhXQ2xQQ0dQSjN2a0NSdUF0QlFQdHEwcHpSVWVxNXZqWlBmZV9sSU53bjV3eHlDYTFobGZmRDNlTEYyNkV0aEh1TjFMY0RwdGFzT1V0M0k0RGgxM2ZyT3c1RjY4NE82czlrNnB1VnVCX0tMQlhVelRGQnhpOWZTQklfN1hfOVBYZDlXZ180ci1wM2c?oc=5",
+      "note": "Yahoo Finance",
+      "date": "2026-08-31",
+      "retrieved": "2026-10-17T17:27:28Z"
+    },
+    {
+      "id": "S15",
+      "type": "news",
+      "title": "Ultrafast Frontier Inference | Cerebras Hot Chips 2026 - Cerebras",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNjNfbnRoZFloVUFkdDZxWUppbzg1ejVBcTIxVGVxQXZOS0hNZFdPVi02UFVGdU1oR0NPWjBrelZnUnY2bHFDSm1hdDl2a0JDNnBWNV9YQ2ZyT21nOWt6TTdFZjZNMm4tMVUzX3lYQy1QMzMwbmNuSmFZalQycjNZQlhFSTRfa2RYeHVFUnFXSGs0aGRMNGVSOGRR?oc=5",
+      "note": "Cerebras",
+      "date": "2026-08-25",
+      "retrieved": "2026-10-17T17:27:28Z"
+    },
+    {
+      "id": "S16",
+      "type": "news",
+      "title": "Cerebras to supply AI systems to cloud computing startup Gimlet Labs - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMDgtbmhLenNVQVdOQXJDbmJmck52THdJR3BYWV8zeXdjRFdieFdIdUNlTTNreWNWSy1obHdabzhtakNsQldBeGF6Y0RwLTQ0ZVRzZy11UkFycEx6azI0dWM1enN5NkdHTEg3N1VhajVFZEFqMmlKblo3Y2Zmam1wUTNLS3ZNYTd2b2MxdWNVQzJtdklpVV92WS1wZllQVGVBak9mUEdkeldoWFZRWFE?oc=5",
+      "note": "Reuters",
+      "date": "2026-09-28",
+      "retrieved": "2026-10-17T17:27:28Z"
+    },
+    {
+      "id": "S17",
+      "type": "news",
+      "title": "Final Trades: Abbvie, Transocean, Cerebras Systems and Netflix - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQa0NWX0Jva09Qc00tX3Fybjd5N2p5X2ZjbklnZlR2cUUzRUpqN1VhV0VXcU9YWExzZVlkMl9iZWVwQ2dzcGNaMnZJcGJDREp4c2Q4aURkc2w3QjdYREVHNEEzcGsycGlpTGV2NVgxbm9oSFd2YzhvVkJhTHFiby01dGxRMnFzMEE0QkZOV0l5MFFqZjRJcTN1eUo1a0N6VnM5SHJzZw?oc=5",
+      "note": "CNBC",
+      "date": "2026-07-23",
+      "retrieved": "2026-10-17T17:27:28Z"
+    },
+    {
+      "id": "S18",
+      "type": "news",
+      "title": "AMD and Cerebras Announce Disaggregated AI Inference - Cerebras",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSGxfRjlGZUZfR1hack0zbEdZcVJXY1JCaWw4dl9fMFZnQnJHVnVfU3NsZkpVd2hPbjh5Q0dHTVcxYTByelU2b3lMUzVDNk54ZFN4OG1VSko2MXEzV0d3bDdHSTJiRHlrMFZtallYSllLUzdSQ2lVdDVra2ZqY0xPaEV2cmxRaXRIWnhRd19obk82eFBGQXQ1YnpYc2hLY0poOGVsdS1yZ19mVGs0RlFVZ1diV0luRktiNV9Uc05vSHpEbmViQ1NjX1h1UQ?oc=5",
+      "note": "Cerebras",
+      "date": "2026-07-23",
+      "retrieved": "2026-10-17T17:27:28Z"
+    },
+    {
+      "id": "S19",
+      "type": "news",
+      "title": "Cerebras Systems (CBRS) Stock Looks Stretched Following Its 54% Slump - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOT2FhTUFkZVhBM1RBdm1vS2VXdlpudndaVVNvcTIzSnhXNVRGRHRNYjROZlV5OXNXUmFTZDVsTDQ0Sm93QWhnZ2RQemlDcURXS090a0xOVWJKSlBXMFdlUkg0aERSQWY4UXo4WlBQbFdmOURsdmU1Y3luUnh2eXJSU2VkUFZQd1JnT19zUlB3R08wQ0tqcVZtc1JvdG9venc?oc=5",
+      "note": "Yahoo Finance",
+      "date": "2026-10-16",
+      "retrieved": "2026-10-17T17:27:28Z"
+    },
+    {
+      "id": "S20",
+      "type": "news",
+      "title": "Cerebras stock plunges 14% after second earnings report following IPO - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJcHVySkhhUXc0UTFTUU44MC1zazJYSFpyMVRkdy1MUG5QSDBOX1dkVmstdi1VWVBZTm91U2ZXYzhXZmlzUlAzT2NNdExXMVZ6eWdyQkQ0eFA0UzU3amczTzYxQkthMTRWOXJGRjZ0bzQyT2F6b1pGbFMwN1hHcTDSAYQBQVVfeXFMTlk2ekExUzkydDVRQ1E3elduc0F5c08tUklVMFJBazUyS1lEZml4alVXSTdxYWpSdVdiVEFuVnMtVnFSTnNOWjZsaldlUlFyMnBEU0pWbkFJektITkdWSnItZS05aFBfRm94X1ZOV1J0Y3FIdXBUdklRLWZJSktrekxYRG8x?oc=5",
+      "note": "CNBC",
+      "date": "2026-08-12",
+      "retrieved": "2026-10-17T17:27:28Z"
+    },
+    {
+      "id": "S21",
+      "type": "news",
+      "title": "Cerebras - Cerebras",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX2piOFVCQm13SEhULVljVDFLTmt0YVJtcnEtR1AxMVc4YlR6aktwcWJPVzVVNnZSU2c2ZUQ1LVVJQ09jVFA5NzBxbndoTFljM1ozV29mWHB3NnZpbmZnd1FGNFhLT1Zlbk5GajR3SFJQTHJ2STNxMGtDbmVhTHZaOXRFM2tib0JkdFRwVWlTWjF4azFEQmRRYVVGdmpwUW1GZ3laTDZ1cmd2OExLUjR4UmpmcGs2UEVnd0RubWpKeTlnU3dfVWpZbg?oc=5",
+      "note": "Cerebras",
+      "date": "2026-09-28",
+      "retrieved": "2026-10-17T17:27:28Z"
+    },
+    {
+      "id": "S22",
+      "type": "news",
+      "title": "Cerebras Systems (CBRS) Revenue Surges: Why Did CBRS Stock Crash, and What About AMD? - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNFhsamgwSTdhZnk4U1N2X1Z2cUZGV2hSR0tMVzRDN3FVMFhTb25NTGRYSi1MWW9iV0R1VkdLRVYtVm5sekRmOElIY1F2RWlfV0JDUVlsWGZoQnZlcU9UWmljWlhqamR3VHpFWVVpeHhhSmtpMmEybjlKUjN1dEJnNElQejdqa1lJT1kzUlkwQmhXM3BtRXJlQW5nQVpLQ21ULXlR?oc=5",
+      "note": "Yahoo Finance",
+      "date": "2026-08-24",
+      "retrieved": "2026-10-17T17:27:28Z"
+    },
+    {
+      "id": "S23",
+      "type": "news",
+      "title": "Can Cerebras Systems (CBRS) Justify Its Valuation After ARK Bought More Shares? - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxON193TXVxMVBxVjZxa3RCNlY0Zlg4N0pjTVAybWdLNHk2UUwzTTJQd0VYaVU0R1hIdEUzcTR1eHRpZW9pajNpQk9wZVNkTk83WjRtdE5YMm50b2hldUxrYnlhVGp2VldTcFlVRVBHNlVYVFd2ZldQZDYycjdZVWlDQjd0c0pMWDBQTVlFTldkS281MHhFbmNwa3ZOblhVckI4MklndDR4aw?oc=5",
+      "note": "Yahoo Finance",
+      "date": "2026-08-26",
+      "retrieved": "2026-10-17T17:27:28Z"
+    },
+    {
+      "id": "S24",
+      "type": "news",
+      "title": "Can Cerebras (CBRS) Turn Its $25.4B Backlog Into High-Margin Growth? - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOalM0ejc1WHVWb29zVVZRdEFSVm5aeWhSUDVLVjlUZDAyc1Y2LWhfa1RTTVNXYVM2ZzRSY0Q3cW1pdDN2Q21FeWYybUNwLWRtMl9reTVyb1RDSDdCTmxBRXlselNHTUtfdTY4eG15WDVWQzJxRWxOVlNQdFo1WkRwMkZwQmRKQkotR0xaYlRZc1l1Zw?oc=5",
+      "note": "Yahoo Finance",
+      "date": "2026-10-13",
+      "retrieved": "2026-10-17T17:27:28Z"
+    },
+    {
+      "id": "S25",
+      "type": "news",
+      "title": "Cerebras Systems CEO Andrew Feldman at All-In We Make AI ‘Blisteringly Fast’ - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSWFJbDFFcFFnWDZiRlRYemRpQjhpcFFUUFJTZ3RNQmI3MGo0RGE2T25QeEdVZl9sVnE1X3hlYWlfdUtBMnVNOEJ6N2NsdWlQWlFCLTRydlNSQV85ajJidVRnLXRrUks0TmdQZjlNMEgyTGVyd2VXbGpjeTZ2ZURIU3M0QXdxRThDUnc?oc=5",
+      "note": "Yahoo Finance",
+      "date": "2026-08-12",
+      "retrieved": "2026-10-17T17:27:28Z"
+    },
+    {
+      "id": "S26",
+      "type": "news",
+      "title": "Cramer's Mad Dash: Cerebras Systems - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVUpQVFJGd18yU244eVpCSTNYeUpWUXJFMm5QbGQtUVFWSm96Z3dNYW91LWFBQ2RLMmt1bFJ0REl1QVFwVXVERzZzZUZxTERUNmJ3RGlRR0ltTDJCZXpkQktKNlAyTTBQSnNNZmNmZFhDRGxmdndFUDJ6SkkwUkY0eUF3?oc=5",
+      "note": "CNBC",
+      "date": "2026-09-30",
+      "retrieved": "2026-10-17T17:27:28Z"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F1",
+      "metric": "capex",
+      "value": 131970000,
+      "unit": "USD",
+      "period": "FY2026Q1",
+      "end": "2026-03-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S3"
+    },
+    {
+      "id": "F2",
+      "metric": "cash",
+      "value": 1716016000,
+      "unit": "USD",
+      "period": "FY2026Q1",
+      "end": "2026-03-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S3"
+    },
+    {
+      "id": "F3",
+      "metric": "cash",
+      "value": 6742157000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S1"
+    },
+    {
+      "id": "F4",
+      "metric": "cost_of_revenue",
+      "value": 107230000,
+      "unit": "USD",
+      "period": "FY2026Q1",
+      "end": "2026-03-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S3"
+    },
+    {
+      "id": "F5",
+      "metric": "cost_of_revenue",
+      "value": 154551000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S1"
+    },
+    {
+      "id": "F6",
+      "metric": "d_and_a",
+      "value": 18175000,
+      "unit": "USD",
+      "period": "FY2026Q1",
+      "end": "2026-03-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S3"
+    },
+    {
+      "id": "F7",
+      "metric": "debt",
+      "value": 361617000,
+      "unit": "USD",
+      "period": "FY2026Q1",
+      "end": "2026-03-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S3"
+    },
+    {
+      "id": "F8",
+      "metric": "debt",
+      "value": 182208000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S1"
+    },
+    {
+      "id": "F9",
+      "metric": "debt_current",
+      "value": 621306000,
+      "unit": "USD",
+      "period": "FY2026Q1",
+      "end": "2026-03-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S3"
+    },
+    {
+      "id": "F10",
+      "metric": "debt_current",
+      "value": 736036000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S1"
+    },
+    {
+      "id": "F11",
+      "metric": "deferred_revenue",
+      "value": 149918000,
+      "unit": "USD",
+      "period": "FY2026Q1",
+      "end": "2026-03-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S3"
+    },
+    {
+      "id": "F12",
+      "metric": "deferred_revenue",
+      "value": 173735000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S1"
+    },
+    {
+      "id": "F13",
+      "metric": "diluted_shares",
+      "value": 62806000,
+      "unit": "shares",
+      "period": "FY2026Q1",
+      "end": "2026-03-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S3"
+    },
+    {
+      "id": "F14",
+      "metric": "diluted_shares",
+      "value": 150968000,
+      "unit": "shares",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S1"
+    },
+    {
+      "id": "F15",
+      "metric": "equity",
+      "value": -194682000,
+      "unit": "USD",
+      "period": "FY2026Q1",
+      "end": "2026-03-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S1"
+    },
+    {
+      "id": "F16",
+      "metric": "equity",
+      "value": 9154642000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S1"
+    },
+    {
+      "id": "F17",
+      "metric": "gross_profit",
+      "value": 86176000,
+      "unit": "USD",
+      "period": "FY2026Q1",
+      "end": "2026-03-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S3"
+    },
+    {
+      "id": "F18",
+      "metric": "gross_profit",
+      "value": 25559000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S1"
+    },
+    {
+      "id": "F19",
+      "metric": "income_tax",
+      "value": 1497000,
+      "unit": "USD",
+      "period": "FY2026Q1",
+      "end": "2026-03-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S3"
+    },
+    {
+      "id": "F20",
+      "metric": "income_tax",
+      "value": 274000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S1"
+    },
+    {
+      "id": "F21",
+      "metric": "inventory",
+      "value": 89040000,
+      "unit": "USD",
+      "period": "FY2026Q1",
+      "end": "2026-03-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S3"
+    },
+    {
+      "id": "F22",
+      "metric": "inventory",
+      "value": 32666000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S1"
+    },
+    {
+      "id": "F23",
+      "metric": "net_income",
+      "value": -14006000,
+      "unit": "USD",
+      "period": "FY2026Q1",
+      "end": "2026-03-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S1"
+    },
+    {
+      "id": "F24",
+      "metric": "net_income",
+      "value": -450528000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S1"
+    },
+    {
+      "id": "F25",
+      "metric": "ocf",
+      "value": 12335000,
+      "unit": "USD",
+      "period": "FY2026Q1",
+      "end": "2026-03-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S3"
+    },
+    {
+      "id": "F26",
+      "metric": "operating_income",
+      "value": -15037000,
+      "unit": "USD",
+      "period": "FY2026Q1",
+      "end": "2026-03-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S3"
+    },
+    {
+      "id": "F27",
+      "metric": "operating_income",
+      "value": -477233000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S1"
+    },
+    {
+      "id": "F28",
+      "metric": "pretax_income",
+      "value": -12509000,
+      "unit": "USD",
+      "period": "FY2026Q1",
+      "end": "2026-03-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S3"
+    },
+    {
+      "id": "F29",
+      "metric": "pretax_income",
+      "value": -450254000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S1"
+    },
+    {
+      "id": "F30",
+      "metric": "receivables",
+      "value": 62631000,
+      "unit": "USD",
+      "period": "FY2026Q1",
+      "end": "2026-03-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S3"
+    },
+    {
+      "id": "F31",
+      "metric": "receivables",
+      "value": 123361000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S1"
+    },
+    {
+      "id": "F32",
+      "metric": "revenue",
+      "value": 193406000,
+      "unit": "USD",
+      "period": "FY2026Q1",
+      "end": "2026-03-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S3"
+    },
+    {
+      "id": "F33",
+      "metric": "revenue",
+      "value": 180110000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S1"
+    },
+    {
+      "id": "F34",
+      "metric": "rnd",
+      "value": 75495000,
+      "unit": "USD",
+      "period": "FY2026Q1",
+      "end": "2026-03-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S3"
+    },
+    {
+      "id": "F35",
+      "metric": "rnd",
+      "value": 320151000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S1"
+    },
+    {
+      "id": "F36",
+      "metric": "sbc",
+      "value": 9593000,
+      "unit": "USD",
+      "period": "FY2026Q1",
+      "end": "2026-03-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S3"
+    },
+    {
+      "id": "F37",
+      "metric": "sbc",
+      "value": 377008000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S1"
+    },
+    {
+      "id": "F38",
+      "metric": "total_assets",
+      "value": 4948378000,
+      "unit": "USD",
+      "period": "FY2026Q1",
+      "end": "2026-03-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S3"
+    },
+    {
+      "id": "F39",
+      "metric": "total_assets",
+      "value": 11627872000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S1"
+    }
+  ],
+  "as_of": "2026-10-18",
+  "collected": "2026-10-17T17:27:28Z"
+}
