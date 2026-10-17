@@ -24,6 +24,38 @@ class History(Base):
                        {"metric": "shares_outstanding", "value": 1.0e8, "unit": "shares", "end": "2026-07-01", "basis": "market", "source": "S1"})
         self.assertEqual(calc.analyze(core.load(self.d / "evidence.json"))["market"]["shares"], 1.0e8)
 
+    def test_shares_use_larger_of_weighted_diluted_and_outstanding(self):  # 기간 중 상장 — 가중평균이 현재 주식 수보다 작다
+        self.add_facts({"metric": "diluted_shares", "value": 1.5e8, "unit": "shares", "period": "FY2026Q2", "end": "2026-06-30", "source": "S1"},
+                       {"metric": "shares_outstanding", "value": 2.4e8, "unit": "shares", "end": "2026-07-01", "basis": "market", "source": "S1"})
+        self.assertEqual(calc.analyze(core.load(self.d / "evidence.json"))["market"]["shares"], 2.4e8)
+
+    def test_long_term_investments_count_as_cash(self):
+        self.add_facts({"metric": "long_term_investments", "value": 1e8, "unit": "USD", "period": "FY2025", "end": "2025-12-31", "source": "S1"})
+        self.assertEqual(calc.analyze(core.load(self.d / "evidence.json"))["market"]["ev"], 2.0e10)
+
+    def test_stale_consensus_is_not_a_variant(self):  # 낡은 컨센서스가 '시장과 다른 시각'을 만들지 않는다
+        model = core.load(self.d / "model.json")
+        cons = lambda: calc.analyze(core.load(self.d / "evidence.json"), model)["valuation"]
+        self.assertEqual([c["period"] for c in cons()["consensus"]], ["FY2026", "FY2027"])
+        self.add_facts({"metric": "revenue", "value": 1.8e9, "unit": "USD", "period": "FY2026", "end": "2026-12-31", "source": "S9",
+                        "basis": "consensus"})                          # 같은 날 자료 — 나중에 들어온 사실이 앞의 것을 대신한다
+        v = cons()
+        self.assertEqual([c["cites"] for c in v["consensus"] if c["period"] == "FY2026"], [["F60"]])
+        self.assertIn("F57: 같은 revenue FY2026", " ".join(v["stale_consensus"]))
+        self.add_facts({"metric": "revenue", "value": 1.9e9, "unit": "USD", "period": "FY2026", "end": "2026-12-31", "source": "S9",
+                        "basis": "guidance", "low": 1.85e9, "high": 1.95e9})  # 가이던스 하단보다 낮은 컨센서스 = 실적 반영 전 값
+        v = cons()
+        self.assertEqual([c["period"] for c in v["consensus"]], ["FY2027"])
+        self.assertIn("가이던스 하단", " ".join(v["stale_consensus"]))
+        ev = core.load(self.d / "evidence.json")
+        ev["sources"].append({"id": "S12", "type": "filing", "title": "3분기 실적", "url": "u12", "date": "2026-10-16"})
+        core.save(self.d / "evidence.json", ev)
+        self.add_facts({"metric": "revenue", "value": 4e8, "unit": "USD", "period": "FY2026Q3", "end": "2026-09-30", "source": "S12"})
+        v = cons()                                                     # 실적 발표(10-16) 전 날짜(10-15)의 컨센서스 → F58도 제외
+        self.assertEqual(v["consensus"], [])
+        self.assertIn("F58: 컨센서스 날짜 2026-10-15가 최근 실적 발표(FY2026Q3, 2026-10-16) 전", " ".join(v["stale_consensus"]))
+        self.assertIn("낡은 컨센서스", " ".join(calc.analyze(core.load(self.d / "evidence.json"), model)["warnings"]))
+
     def test_unit_lookahead_and_conflicts_are_excluded(self):
         self.fact("F53", value=31)                                     # 31%를 31로 — 단위 오류
         self.add_facts({"metric": "revenue", "value": 9e9, "unit": "USD", "period": "FY2026", "end": "2026-12-31", "source": "S1"},

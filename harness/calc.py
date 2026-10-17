@@ -134,8 +134,11 @@ def balance(fx, cur):
     cash = at("cash")
     dil, out = fx.value("diluted_shares", unit="shares"), fx.value("shares_outstanding", unit="shares")
     ref = out or fx.value("shares_outstanding", basis="market", unit="shares")
-    shares = ref if dil and ref and dil < 0.01 * ref else dil or out  # 천 주 단위로 잘못 태그된 희석 주식 수는 쓰지 않는다
-    return dict(cash=None if cash is None else cash + (at("short_term_investments") or 0),
+    if dil and ref and dil < 0.01 * ref:  # 천 주 단위로 잘못 태그된 희석 주식 수는 쓰지 않는다
+        dil = None
+    # 기간 가중평균 희석 주식 수는 기간 중 상장·대규모 발행이 있으면 현재 주식 수보다 작다 — 더 큰 쪽(보수적)을 쓴다
+    shares = max(dil, ref) if dil and ref else dil or ref
+    return dict(cash=None if cash is None else cash + (at("short_term_investments") or 0) + (at("long_term_investments") or 0),
                 debt=(at("debt") or 0) + (at("debt_current") or 0), shares=shares, date=last)
 
 
@@ -404,11 +407,40 @@ def scenarios(fx, model, sc, base, total):
                                 irr=[[project(base, model, sc["base"], shift=s, mult_k=k)["irr"] for k in (0.75, 1.0, 1.25)]
                                      for s in (-0.05, 0.0, 0.05)]))
     rows = {r["period"]: r for r in res["base"]["rows"]}
+    fresh, out["stale_consensus"] = consensus(fx)
     out["consensus"] = [dict(metric=f["metric"], period=f["period"], consensus=f["value"], model=rows[f["period"]][f["metric"]],
                              diff=rows[f["period"]][f["metric"]] / f["value"] - 1, cites=[f["id"]])
-                        for f in fx.facts.values() if f["basis"] == "consensus" and f["metric"] in ("revenue", "fcf")
-                        and f.get("period") in rows and f["value"]]
+                        for f in fresh if f["metric"] in ("revenue", "fcf") and f.get("period") in rows and f["value"]]
     return out
+
+
+def consensus(fx):
+    """쓸 수 있는 컨센서스 → (사실 목록, 제외 사유). 낡은 컨센서스가 variant perception을 만들지 않게 한다.
+    같은 지표·기간이 여럿이면 가장 최근 자료(같은 날이면 나중에 들어온 사실)만, 회사 가이던스 하단보다 낮거나
+    최근 실적 발표 전 날짜의 컨센서스는 실적 반영 전 값으로 보고 제외한다."""
+    num = lambda f: int(f["id"][1:])
+    when = lambda f: fx.src[f["source"]].get("date") or ""
+    cs = [f for f in fx.facts.values() if f["basis"] == "consensus" and f.get("period")]
+    q = [f for f in fx.facts.values() if f["basis"] == "reported" and f["metric"] == "revenue" and QUARTER.match(f.get("period") or "")]
+    last = max(q, key=lambda f: f["end"], default=None)
+    released = when(last) if last else ""
+    keep, why = {}, []
+    for f in sorted(cs, key=lambda f: (when(f), num(f))):
+        k = (f["metric"], f["period"], f["unit"])
+        if k in keep:
+            why.append(f"{keep[k]['id']}: 같은 {f['metric']} {f['period']} 컨센서스 {f['id']}가 더 최근 — 제외")
+        keep[k] = f
+    out = []
+    for f in keep.values():
+        g = fx.get(f["metric"], f["period"], basis="guidance", unit=f["unit"])
+        low = g and g.get("low", g["value"])
+        if low and f["value"] < low * (1 - rules.NEAR):
+            why.append(f"{f['id']}: {f['metric']} {f['period']} 컨센서스 {f['value']:g}가 회사 가이던스 하단 {low:g}({g['id']})보다 낮다 — 갱신 전 값으로 보고 제외")
+        elif released and when(f) and when(f) < released:
+            why.append(f"{f['id']}: 컨센서스 날짜 {when(f)}가 최근 실적 발표({last['period']}, {released}) 전 — 갱신 전 값으로 보고 제외")
+        else:
+            out.append(f)
+    return out, why
 
 
 def persona(an, base, model, a, case=None):
@@ -480,6 +512,7 @@ def analyze(ev, model=None, cases=None):
             an["base_rates"].append(dict(key=k, label=f"{k} 시나리오 매출 성장", **br))
             if k == "base" and br.get("share") is not None and br["share"] < rules.RARE:
                 warn.append(f"기본 시나리오 매출 연 {cg:.0%} 성장은 기저율상 {br['share']:.0%}의 기업만 달성 — 근거를 보강하거나 가정을 낮춘다")
+        warn += [f"낡은 컨센서스 — {w}" for w in v.get("stale_consensus", [])]
         if v["consensus"] and all(abs(c["diff"]) < rules.VARIANT_GAP for c in v["consensus"]):
             warn.append("모델이 컨센서스와 사실상 같다 — variant perception이 없다면 알파도 없다")
         if not v["consensus"]:

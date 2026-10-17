@@ -3,6 +3,7 @@
 게이트(근거 충분성 → 회계 품질 → 모델) → 페르소나 레드라인(코드 계산 지표로) → 주장 검증(기계 대조 + 독립 검증자)
 → 가중 표결. 지표는 코드 계산값이 페르소나가 쓴 값을 이긴다.
 """
+import re
 from . import calc, core, facts, prompts, rules
 from .core import items
 
@@ -21,21 +22,65 @@ def opinion(d, a):  # 최종 의견 = 1라운드에 2라운드를 덮어쓴 것 
             "rebuttals": items(r2.get("rebuttals"), "point"), "opening": r1.get("stance"), "round": 2 if r2 else 1}
 
 
-def status(fx, x):
-    """조건 {metric, op, value, period?}을 현재 사실에 대어 본다 → (조건 성립 여부 | None, 실제 값)."""
+def porder(p):  # FY2026 < FY2026Q3? 연간은 4분기와 같은 자리
+    m = re.match(r"^FY(\d{4})(?:Q([1-4])|H([12]))?$", p or "")
+    return (int(m[1]), int(m[2]) if m[2] else 2 * int(m[3]) if m[3] else 4) if m else (0, 0)
+
+
+def latest(fx):  # 가장 최근에 보고된 분기
+    ps = [f["period"] for f in fx.facts.values() if f["basis"] == "reported" and re.match(r"^FY\d{4}Q[1-4]$", f.get("period") or "")]
+    return max(ps, key=porder, default=None)
+
+
+def ahead(fx, x):
+    """period 없이 메모에만 기간을 적은 조건('FY2026Q3 총예약액이…', '3분기 영업이익이…')이 아직 보고되지 않은 기간을
+    겨냥하면 그 기간. 직전 분기 값으로 미래 분기 조건을 판정하지 않기 위해서다. 연도 없는 'N분기'는 최근 보고 분기의 회계연도로 읽는다."""
+    last = latest(fx)
+    if x.get("period") or not last:
+        return None
+    text = " ".join(str(x.get(k) or "") for k in ("note", "claim"))
+    ps = re.findall(r"FY\d{4}(?:Q[1-4])?", text)
+    y, lq = porder(last)
+    qs = [int(q) for q in re.findall(r"(?<![\dQ])([1-4])분기", text)]
+    if qs:
+        q = max(qs)
+        ps.append(f"FY{y if q >= lq else y + 1}Q{q}")
+    p = max(ps, key=porder, default=None)
+    return p if p and porder(p) > porder(last) else None
+
+
+def status(fx, x, hold=False, forward=False):
+    """조건 {metric, op, value, period?}을 현재 사실에 대어 본다 → (조건 성립 여부 | None, 실제 값).
+    실제 값이 문턱의 ±NEAR 안이면 문턱을 넘지 않은 것으로 본다 — hold=False(반증 조건)면 '미충족', hold=True(참이어야
+    하는 것)면 '성립', hold=None(KPI 예측)이면 그대로 비교한다. forward=True면 아직 보고되지 않은 기간을 겨냥한 조건은 판정하지 않는다(None)."""
     if not x.get("metric") or x.get("op") not in OPS or not isinstance(x.get("value"), (int, float)):
         return None, None
+    if forward and ahead(fx, x):
+        return None, None
     f = fx.get(x["metric"], x.get("period")) or fx.get(x["metric"], x.get("period"), basis="market")
-    return (None, None) if f is None else (OPS[x["op"]](f["value"], x["value"]), f["value"])
+    if f is None:
+        return None, None
+    a, b = f["value"], x["value"]
+    if hold is not None and b and abs(a - b) <= rules.NEAR * abs(b):
+        return hold, a
+    return OPS[x["op"]](a, b), a
+
+
+def break_status(fx, x):
+    if not x.get("metric"):
+        return "수동 확인", None
+    hit, actual = status(fx, x, forward=True)
+    if hit is None and (p := ahead(fx, x)):
+        return f"대기 — {p} 미발표", None
+    return ("자료 없음" if hit is None else "충족 — 훼손" if hit else "미충족"), actual
 
 
 def breaks(fx, items, who):
     out = []
     for x in items or []:
-        hit, actual = status(fx, x)
+        st, actual = break_status(fx, x)
         out.append(dict(who=who, metric=x.get("metric"), op=x.get("op"), value=x.get("value"), period=x.get("period"),
-                        note=x.get("note", ""), actual=actual,
-                        status="수동 확인" if not x.get("metric") else "자료 없음" if hit is None else "충족 — 훼손" if hit else "미충족"))
+                        note=x.get("note", ""), actual=actual, status=st))
     return out
 
 
@@ -160,7 +205,7 @@ def judge(d):
         if a == "slater":
             mbt = []
             for x in m.get("must_be_true", []):
-                ok, actual = status(fx, x)
+                ok, actual = status(fx, x, hold=True)
                 if ok is False and x.get("status") != "broken":
                     warn.append(f"참이어야 하는 것 '{x.get('claim')}' — 실제 {actual:g}로 깨짐 (코드 판정)")
                     x = {**x, "status": "broken"}
@@ -233,7 +278,7 @@ def kpis(fx, model):
         if not (isinstance(k, dict) and k.get("metric") and k.get("period") and k.get("op") in OPS and isinstance(k.get("value"), (int, float))
                 and isinstance(k.get("p"), (int, float)) and 0 < k["p"] < 1):
             continue
-        hit, actual = status(fx, k)
+        hit, actual = status(fx, k, hold=None)
         out.append(dict(id=f"K{i}", **{x: k.get(x) for x in ("metric", "period", "op", "value", "p", "why")},
                         actual=actual, status="대기" if hit is None else "적중" if hit else "빗나감"))
     return out

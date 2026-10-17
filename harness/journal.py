@@ -7,7 +7,7 @@ research/<TICKER>/journal.jsonl에 한 줄씩 덧붙인다 (지우지 않는다)
 """
 import json
 from . import core, facts
-from .judge import status
+from .judge import break_status, status
 
 KEEP = ("basis", "verdict", "score", "agents", "kpis", "gated", "iv")
 
@@ -74,16 +74,15 @@ def update(d):
     fx = facts.Facts(ev)
     kp = []
     for k in j.get("kpis", []):
-        hit, actual = status(fx, k)
+        hit, actual = status(fx, k, hold=None)
         kp.append({**k, "actual": actual, "status": "대기" if hit is None else "적중" if hit else "빗나감"})
     br = []
     for b in j.get("breaks", []):
-        hit, actual = status(fx, b) if b.get("metric") else (None, None)
-        br.append({**b, "actual": actual, "status": "수동 확인" if not b.get("metric") else "자료 없음" if hit is None
-                   else "충족 — 훼손" if hit else "미충족"})
+        st, actual = break_status(fx, b)
+        br.append({**b, "actual": actual, "status": st})
     mbt = []
     for x in j.get("must_be_true", []):
-        ok, actual = status(fx, x)
+        ok, actual = status(fx, x, hold=True)
         mbt.append({**x, "actual": actual, "status": "broken" if ok is False else x.get("status")})
     dev = []
     for period, p in (j.get("projection") or {}).items():
