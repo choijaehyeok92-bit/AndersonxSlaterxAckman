@@ -29,6 +29,13 @@ def check(role, rnd, o):  # 최소 형식 — 어기면 한 번 다시 묻는다
         return f"{need[role][0]}는 {'|'.join(need[role][1])}"
     elif role == "modeler" and not {"bear", "base", "bull"} <= set(o.get("scenarios") or {}):
         return "scenarios에 bear·base·bull 필요"
+    elif role == "modeler":  # growth 키가 드라이버 이름이 아니면 코드가 무시해 성장률 0으로 계산된다
+        names = {d.get("name") for d in o.get("drivers") or [] if isinstance(d, dict)} or {"revenue"}
+        for k in ("bear", "base", "bull"):
+            g = (o["scenarios"].get(k) or {}).get("growth")
+            if isinstance(g, dict) and (extra := set(g) - names):
+                return (f"시나리오 {k}의 growth 키 {', '.join(sorted(extra))}는 drivers 이름({', '.join(sorted(names))})이 아니다 — "
+                        "매출 성장률을 직접 주려면 시나리오 최상위에 revenue_growth")
     elif role == "redteam" and not o.get("premortem"):
         return "premortem 필요"
     elif role == "verifier" and not isinstance(o.get("checks"), list):

@@ -66,6 +66,12 @@ class Ask(Base):
         bad = f'"{sys.executable}" -c "print(\'{{}}\')"'
         self.assertRaises(ValueError, pipeline.ask, bad, "x", "forensic")
 
+    def test_modeler_growth_keys_must_be_drivers(self):
+        sc = lambda g: {k: {"p": 0.3, "growth": g, "fcf_margin": 0.2, "exit_multiple": 20} for k in ("bear", "base", "bull")}
+        self.assertIn("revenue_growth", pipeline.check("modeler", 1, {"scenarios": sc({"revenue_growth": 0.2})}))
+        self.assertIsNone(pipeline.check("modeler", 1, {"scenarios": sc({"revenue": 0.2})}))
+        self.assertIsNone(pipeline.check("modeler", 1, {"drivers": [{"name": "units"}], "scenarios": sc({"units": [0.3, 0.2]})}))
+
     def test_cli_failure(self):
         self.assertRaises(RuntimeError, pipeline.ask, f'"{sys.executable}" -c "import sys; sys.exit(3)"', "x")
 
