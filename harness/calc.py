@@ -231,7 +231,7 @@ def guidance(fx):  # 과거 가이던스 vs 실제 — 경영진 신뢰도의 �
         lo, hi = f.get("low", f["value"]), f.get("high", f["value"])
         if lo == hi:
             lo, hi = lo - abs(lo) * 0.01, hi + abs(hi) * 0.01
-        out.append(dict(metric=f["metric"], period=f["period"], guided=f["value"], actual=a["value"], cites=[f["id"], a["id"]],
+        out.append(dict(metric=f["metric"], period=f["period"], unit=f["unit"], guided=f["value"], actual=a["value"], cites=[f["id"], a["id"]],
                         result="beat" if a["value"] > hi else "hit" if a["value"] >= lo else "miss"))
     return out
 
@@ -430,11 +430,19 @@ def consensus(fx):
         if k in keep:
             why.append(f"{keep[k]['id']}: 같은 {f['metric']} {f['period']} 컨센서스 {f['id']}가 더 최근 — 제외")
         keep[k] = f
+    def quarters(f):  # 연간 컨센서스와 같은 해의 분기 합 — 보고된 분기는 실적, 나머지는 분기 컨센서스
+        y = f["period"]
+        vals = [(fx.get(f["metric"], f"{y}Q{i}", unit=f["unit"]) or keep.get((f["metric"], f"{y}Q{i}", f["unit"])) or {}).get("value")
+                for i in range(1, 5)]
+        return sum(vals) if ANNUAL.match(y) and all(v is not None for v in vals) else None
     out = []
     for f in keep.values():
         g = fx.get(f["metric"], f["period"], basis="guidance", unit=f["unit"])
         low = g and g.get("low", g["value"])
-        if low and f["value"] < low * (1 - rules.NEAR):
+        qs = quarters(f)
+        if qs and f["value"] < qs * (1 - rules.NEAR):
+            why.append(f"{f['id']}: {f['metric']} {f['period']} 연간 컨센서스 {f['value']:g}가 분기 합(실적 + 분기 컨센서스) {qs:g}보다 낮다 — 갱신 전 값으로 보고 제외")
+        elif low and f["value"] < low * (1 - rules.NEAR):
             why.append(f"{f['id']}: {f['metric']} {f['period']} 컨센서스 {f['value']:g}가 회사 가이던스 하단 {low:g}({g['id']})보다 낮다 — 갱신 전 값으로 보고 제외")
         elif released and when(f) and when(f) < released:
             why.append(f"{f['id']}: 컨센서스 날짜 {when(f)}가 최근 실적 발표({last['period']}, {released}) 전 — 갱신 전 값으로 보고 제외")

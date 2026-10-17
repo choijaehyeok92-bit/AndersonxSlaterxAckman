@@ -56,6 +56,14 @@ class History(Base):
         self.assertIn("F58: 컨센서스 날짜 2026-10-15가 최근 실적 발표(FY2026Q3, 2026-10-16) 전", " ".join(v["stale_consensus"]))
         self.assertIn("낡은 컨센서스", " ".join(calc.analyze(core.load(self.d / "evidence.json"), model)["warnings"]))
 
+    def test_annual_consensus_below_quarter_sum_is_stale(self):  # 상반기 실적 + 하반기 분기 컨센서스 > 연간 컨센서스 = 갱신 전 값
+        q = lambda i, v, basis: {"metric": "revenue", "value": v, "unit": "USD", "period": f"FY2026Q{i}",
+                                 "end": ["2026-03-31", "2026-06-30", "2026-09-30", "2026-12-31"][i - 1], "source": "S9", "basis": basis}
+        self.add_facts(q(1, 4.2e8, "reported"), q(2, 4.5e8, "reported"), q(3, 4.8e8, "consensus"), q(4, 5.0e8, "consensus"))
+        v = calc.analyze(core.load(self.d / "evidence.json"), core.load(self.d / "model.json"))["valuation"]
+        self.assertEqual([c["period"] for c in v["consensus"]], ["FY2027"])  # 1.75e9 < 1.85e9
+        self.assertIn("분기 합", " ".join(v["stale_consensus"]))
+
     def test_unit_lookahead_and_conflicts_are_excluded(self):
         self.fact("F53", value=31)                                     # 31%를 31로 — 단위 오류
         self.add_facts({"metric": "revenue", "value": 9e9, "unit": "USD", "period": "FY2026", "end": "2026-12-31", "source": "S1"},

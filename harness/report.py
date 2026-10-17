@@ -103,7 +103,8 @@ def analysis_md(an, valuation=True):
             for f in an["forensic"]] or ["- 신호 없음"]
     if an["guidance"]:
         out += ["", f"### 가이던스 적중 (C:guidance_hit_rate = {an['guidance_hit_rate']:.0%})", ""]
-        out += [f"- {g['metric']} {g['period']}: 가이던스 {money(g['guided'])} → 실제 {money(g['actual'])} = {g['result']} "
+        gv = lambda g, v: f"{v:.1%}" if g.get("unit") == "ratio" else money(v)
+        out += [f"- {g['metric']} {g['period']}: 가이던스 {gv(g, g['guided'])} → 실제 {gv(g, g['actual'])} = {g['result']} "
                 f"[{', '.join(g['cites'])}]" for g in an["guidance"]]
     rd = an["reverse_dcf"]
     if rd:
