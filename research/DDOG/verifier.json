@@ -1,0 +1,371 @@
+{
+  "agent": "verifier",
+  "basis": "9fade79e0d8a",
+  "checks": [
+    {
+      "id": "V1",
+      "verdict": "supported",
+      "reason": "bull IV 260.2는 주가 247.11을 간신히 넘는다. 나머지는 해석이다."
+    },
+    {
+      "id": "V2",
+      "verdict": "supported",
+      "reason": "Non-GAAP 2.57억, 가이던스 10.2억, GAAP 546만, SBC 2.2억이 모두 일치한다. 차이의 대부분이 SBC라는 말도 계산이 맞다."
+    },
+    {
+      "id": "V3",
+      "verdict": "supported",
+      "reason": "SBC/OCF 71.5%, SBC 차감 FCF 2.5억, FCF 마진 29.2%가 모두 일치한다."
+    },
+    {
+      "id": "V4",
+      "verdict": "supported",
+      "reason": "IV 142.37, 주가 247.11, 안전마진 -73.6%, bull IV 260.22, base 수익률 음수가 모두 일치한다."
+    },
+    {
+      "id": "V5",
+      "verdict": "supported",
+      "reason": "35배와 16%는 모델 가정이라 판정 대상이 아니다. 컨센서스 근거가 없다는 말도 인용과 충돌하지 않는다."
+    },
+    {
+      "id": "V6",
+      "verdict": "supported",
+      "reason": "Q3부터 사용량이 감소하고 규모가 비공개라는 점, SBC 차감 FCF가 보고 FCF의 약 1/4이라는 점, RPO·청구액 증가가 모두 일치한다. 없는 C:implied_cagr는 예측 부분에만 걸려 있다."
+    },
+    {
+      "id": "V7",
+      "verdict": "supported",
+      "reason": "S24 제목이 인수 협상 보도를 뒷받침하고, 주장도 미확인 보도라고 한정했다."
+    },
+    {
+      "id": "V8",
+      "verdict": "supported",
+      "reason": "희석 4.8% 대 2.5%, 35배, 안전마진 -73.6%, IV 142가 일치한다. 가정을 보수적으로 바꾸면 격차가 벌어진다는 추론도 맞다."
+    },
+    {
+      "id": "V9",
+      "verdict": "supported",
+      "reason": "기대 수익률 -1.6%, 손실 확률 80%, 주가 247.11이 일치한다. 사상 최고 종가 293.26 대비 급락했다는 설명도 S40과 맞는다."
+    },
+    {
+      "id": "V10",
+      "verdict": "supported",
+      "reason": "총매출유지율, NRR, RPO·청구액 증가는 S39와 일치한다. 순부채/EBITDA가 -83배라 순현금 상태다."
+    },
+    {
+      "id": "V11",
+      "verdict": "supported",
+      "reason": "FCF/순이익 9.29배와 FY2025 발생액 비율 음수가 일치한다. '모든 해' 부분은 인용에 없지만 핵심 수치는 맞다."
+    },
+    {
+      "id": "V12",
+      "verdict": "unsupported",
+      "reason": "FY2024 성장률은 26.1%라 '27~28%대'와 어긋난다. FY2021 성장률은 인용에 없다. FY2025 매출, 가이던스, R&D, 자본집약도는 맞다."
+    },
+    {
+      "id": "V13",
+      "verdict": "supported",
+      "reason": "기대 수익률 -1.6%와 손실 확률 80%가 일치하고, 음수 기대수익 포지션이라는 추론도 따라 나온다."
+    },
+    {
+      "id": "V14",
+      "verdict": "unsupported",
+      "reason": "DSO 79일만 맞다. FY2021 95일, 매출채권 증가율, 이연매출 증가율은 인용에 없고, 존재하지 않는 계산값을 인용했다."
+    },
+    {
+      "id": "V15",
+      "verdict": "supported",
+      "reason": "희석 주식 수 3.65억→3.71억, 가이던스 3.76억이 맞고, 자사주 매입 자료 미수집도 명시했다."
+    },
+    {
+      "id": "V16",
+      "verdict": "supported",
+      "reason": "총이익률 77.2%→80.0%, 분기 80.2%→79.6%가 일치한다."
+    },
+    {
+      "id": "V17",
+      "verdict": "supported",
+      "reason": "SBC 매출 대비 21.9%, FY2025 GAAP 영업손실, 분기 GAAP 546만 대비 Non-GAAP 2.57억이 일치한다. 'FY2021 이후 20% 안팎'은 인용에 없다."
+    },
+    {
+      "id": "V18",
+      "verdict": "supported",
+      "reason": "S39와 S23이 AI 고객 사용량 감소와 규모 비공개를 뒷받침한다."
+    },
+    {
+      "id": "V19",
+      "verdict": "supported",
+      "reason": "SBC 21.9%, OCF 대비 71.5%, SBC 차감 FCF 2.5억, FCF 10.0억, 1.3%, 4.8%가 모두 일치한다."
+    },
+    {
+      "id": "V20",
+      "verdict": "supported",
+      "reason": "Q3 사용량 감소, 규모 비공개, 발표 후 16~18% 급락이 인용과 일치한다."
+    },
+    {
+      "id": "V21",
+      "verdict": "supported",
+      "reason": "고객 33,400곳, 10만 달러 이상 4,720곳, ARR 91%, AI 고객 750·31·8곳이 모두 일치한다."
+    },
+    {
+      "id": "V22",
+      "verdict": "unsupported",
+      "reason": "-1.6%, 80%, bull 50배는 맞다. 수익률 분해에서 멀티플 압축이 성장 기여를 거의 다 상쇄한다는 말은 인용에 근거가 없다."
+    },
+    {
+      "id": "V23",
+      "verdict": "supported",
+      "reason": "10만 달러 이상 고객 3,850→4,720곳, ARR 91%, 비AI 성장 가속이 S39와 일치한다. 회사 발언이라는 한정도 붙어 있다."
+    },
+    {
+      "id": "V24",
+      "verdict": "supported",
+      "reason": "총이익률 80.2%→79.6%는 맞다. 경쟁 압력과 22% 마진 등은 사전 부검 가정이고, 경쟁 자료가 없다는 점도 명시했다."
+    },
+    {
+      "id": "V25",
+      "verdict": "supported",
+      "reason": "AI 고객 사용량 감소와 규모 비공개는 인용과 일치하고, 나머지는 가상 시나리오다."
+    },
+    {
+      "id": "V26",
+      "verdict": "supported",
+      "reason": "총매출유지율, NRR, 고객 수 33,400 대 31,400, 10만 달러 이상 4,720 대 3,850이 일치한다."
+    },
+    {
+      "id": "V27",
+      "verdict": "supported",
+      "reason": "AI 고객 8곳·31곳, 3,850→4,720곳, 91%, 희석 4.8% 대 2.5%가 일치한다. 소음이라는 평가는 해석이다."
+    },
+    {
+      "id": "V28",
+      "verdict": "supported",
+      "reason": "S20은 창업자 평가이익 보도 제목이고 S8은 내용을 읽지 못했다. 둘 다 판단에 쓰지 않는다고 한정했다."
+    },
+    {
+      "id": "V29",
+      "verdict": "supported",
+      "reason": "안전마진 -73.6%, IV 142, upside_10y 3.92(5 미만), RPO·청구액이 일치한다."
+    },
+    {
+      "id": "V30",
+      "verdict": "supported",
+      "reason": "총이익률이 80.2%에서 79.6%로 내린 것이 일치하고, 한 분기 변동이라는 한정도 맞다."
+    },
+    {
+      "id": "V31",
+      "verdict": "supported",
+      "reason": "SBC 매출 대비 21.9%와 SBC 차감 FCF가 보고 FCF보다 작다는 점이 일치한다."
+    },
+    {
+      "id": "V32",
+      "verdict": "supported",
+      "reason": "기대 수익률 -1.6%, 손실 확률 80%, 주가가 일치한다. 나머지는 의견이다."
+    },
+    {
+      "id": "V33",
+      "verdict": "supported",
+      "reason": "AI 고객 감소, 가이던스 약 4.46조 달러대 중간값, 총이익률 79.6%는 맞다. 나머지는 시나리오 가정이다."
+    },
+    {
+      "id": "V34",
+      "verdict": "supported",
+      "reason": "AI 고객 사용량 감소는 인용과 일치하고, 반복 시 시나리오는 가정이다."
+    },
+    {
+      "id": "V35",
+      "verdict": "unsupported",
+      "reason": "10만 달러 이상 고객 ARR 91%는 맞다. 제품 간 교차판매가 확인된다는 말은 인용에 없다."
+    },
+    {
+      "id": "V36",
+      "verdict": "supported",
+      "reason": "가이던스 약 10.8억 달러 대비 실적 11.2억 달러와 적중률 100%가 맞고, 표본 한 건이라는 한계도 인정했다."
+    },
+    {
+      "id": "V37",
+      "verdict": "supported",
+      "reason": "NRR, 총매출유지율, 10만 달러 이상 고객 증가가 S39와 일치한다."
+    },
+    {
+      "id": "V38",
+      "verdict": "supported",
+      "reason": "S39와 S23이 사용량 감소 인정, 가이던스 반영, 규모 비공개를 뒷받침한다."
+    },
+    {
+      "id": "V39",
+      "verdict": "supported",
+      "reason": "AI 고객 750곳과 10만 달러 이상 4,720곳은 맞고, FY2024 FCF 마진 31.1%는 약 30%로 볼 수 있다. 나머지는 시나리오 가정이다."
+    },
+    {
+      "id": "V40",
+      "verdict": "supported",
+      "reason": "영업권 3.6억→5.3억, 5.4억→7.1억이 일치한다. 인수 세부와 S24 보도는 반영하지 않는다고 한정했다."
+    },
+    {
+      "id": "V41",
+      "verdict": "supported",
+      "reason": "SBC 21.9%, 희석 4.8%, SBC 차감 FCF는 일치한다. 나머지는 사전 부검 메커니즘이다."
+    },
+    {
+      "id": "V42",
+      "verdict": "supported",
+      "reason": "RPO +43%와 청구액 +38%는 S39와 일치한다. 5년 매출 두 배는 가정이다."
+    },
+    {
+      "id": "V43",
+      "verdict": "supported",
+      "reason": "SBC 비율, SBC 차감 FCF 약 1/4, 희석 4.8%가 모두 일치한다."
+    },
+    {
+      "id": "V44",
+      "verdict": "supported",
+      "reason": "upside_10y 3.92는 5 미만이고, base_rate 계산값이 없다는 말도 맞다. 10만 달러 이상 고객 수와 총이익률 지표도 존재한다."
+    },
+    {
+      "id": "V45",
+      "verdict": "supported",
+      "reason": "DEF 14A 두 건은 공시 목록에만 있고 내용은 없다. 주장도 근거 없음이라고 쓰고 있어 인용과 일치한다."
+    },
+    {
+      "id": "V46",
+      "verdict": "supported",
+      "reason": "SBC 21.9%, OCF 대비 71.5%, SBC 차감 FCF 2.5억, 희석 4.8%, 영업권 증가가 일치한다."
+    },
+    {
+      "id": "V47",
+      "verdict": "supported",
+      "reason": "기대 수익률 -1.6%와 손실 확률 80%가 일치한다. 나머지는 사전 부검 가정이다."
+    },
+    {
+      "id": "V48",
+      "verdict": "supported",
+      "reason": "NRR '낮은 120%대' 구간 발언, EV/매출 23.0, PER 516이 일치한다. 나머지는 사전 부검 가정이다."
+    },
+    {
+      "id": "V49",
+      "verdict": "supported",
+      "reason": "FCF 마진 29.2%, 자본집약도 4~5%, 현금 보유가 일치한다. 현금 경로는 코드 결과로 인용에 없지만 결론을 해치지 않는다."
+    },
+    {
+      "id": "V50",
+      "verdict": "supported",
+      "reason": "FCF 마진 29.2%, SBC 21.9%, SBC 차감 FCF 2.5억, 분기 FCF 2.79억(25%)이 일치한다."
+    },
+    {
+      "id": "V51",
+      "verdict": "unsupported",
+      "reason": "bull CAGR 25.5%와 50배는 맞다. 코드가 계산한 10년 상방이 5배 미만이라는 값과 FY2030 성장 20%는 인용에 없다."
+    },
+    {
+      "id": "V52",
+      "verdict": "unsupported",
+      "reason": "35배, 멀티플 변화 -19.2%, 배수 ×0.75 민감도 -6.4%는 인용에 없다. base_rate는 존재하지 않는 근거이고 ev_revenue만 있다."
+    },
+    {
+      "id": "V53",
+      "verdict": "supported",
+      "reason": "가이던스 4.46조 달러는 FY2025 대비 약 30% 성장이 맞다. RPO·청구액, 분기 FCF, 희석 가이던스도 일치하고 나머지는 가정이다."
+    },
+    {
+      "id": "V54",
+      "verdict": "supported",
+      "reason": "총이익률 77.2%, 80.7%, 80.0%, 분기 79.6% 대 80.2%가 일치한다."
+    },
+    {
+      "id": "V55",
+      "verdict": "supported",
+      "reason": "안전마진 -73.6%, 기대 수익률 -1.6%, RPO·청구액 증가, 현금 보유가 일치한다."
+    },
+    {
+      "id": "V56",
+      "verdict": "supported",
+      "reason": "희석 신호 4.8%와 SBC 21.9%는 맞고, 2.5% 가정과의 격차 비교는 모델 비판이다."
+    },
+    {
+      "id": "V57",
+      "verdict": "supported",
+      "reason": "FY2026 가이던스, Q3부터 사용량 감소, 기저율 표 부재가 일치한다. 21.7% 성장은 가정이다."
+    },
+    {
+      "id": "V58",
+      "verdict": "supported",
+      "reason": "EV/매출 23.0, bull 가치 419는 주가의 약 1.7배, bull 수익률 11.1%, 신고가 회복이 일치한다."
+    },
+    {
+      "id": "V59",
+      "verdict": "leap",
+      "reason": "가이던스 적중률 100%는 표본이 한 건이다. '계속 상회했다'로 일반화하면 자료를 넘어선다."
+    },
+    {
+      "id": "V60",
+      "verdict": "supported",
+      "reason": "공시 내용을 읽지 못했다는 한정이 붙어 있다. 문제없다는 증거가 아니라 미확인이라고 쓴 점이 인용과 맞다."
+    },
+    {
+      "id": "V61",
+      "verdict": "supported",
+      "reason": "경쟁 구도 자료 부재와 S24 미반영을 명시했다. S24는 미확인 보도다."
+    },
+    {
+      "id": "V62",
+      "verdict": "supported",
+      "reason": "10월 9일 신고가 회복, RPO·청구액, 비AI 성장 가속이 일치한다. 나머지는 사전 부검이다."
+    },
+    {
+      "id": "V63",
+      "verdict": "supported",
+      "reason": "Q3부터 사용량 감소, 가이던스 반영, 규모 비공개, WSJ 보도, 16~18% 하락이 일치한다."
+    },
+    {
+      "id": "V64",
+      "verdict": "supported",
+      "reason": "AI 고객 1,000만 달러 이상 8곳·100만 달러 이상 31곳, 사용량 감소, 급락이 일치한다. 나머지는 가상 시나리오다."
+    },
+    {
+      "id": "V65",
+      "verdict": "supported",
+      "reason": "AI 고객 감소와 SBC 차감 FCF 반영은 인용과 일치한다. 반증 조건 제안은 의견이다."
+    },
+    {
+      "id": "V66",
+      "verdict": "supported",
+      "reason": "FCF 마진 29.2%, 자본집약도 4~5%, SBC 차감 FCF가 작다는 점이 일치한다."
+    },
+    {
+      "id": "V67",
+      "verdict": "supported",
+      "reason": "자본화 소프트웨어 3,482만→8,584만, 매출 대비 2.5%, 설비투자와 합쳐 4~5%가 일치하고 증가폭이 2%p 아래라는 계산도 맞다."
+    },
+    {
+      "id": "V68",
+      "verdict": "unsupported",
+      "reason": "RPO·청구액, Q2 가이던스 대비 실적은 맞다. 이전 가이던스 43.0~43.4억 달러는 인용에 없어 상향 폭을 확인할 수 없다."
+    },
+    {
+      "id": "V69",
+      "verdict": "supported",
+      "reason": "NRR 낮은 120%대, 총매출유지율 90%대 중후반, 비AI 성장 가속이 일치하고 NRR 1.2가 근사값이라는 한정도 맞다."
+    },
+    {
+      "id": "V70",
+      "verdict": "supported",
+      "reason": "RPO 34.7억 달러(+43%)와 청구액(+38%)이 S39와 일치한다."
+    },
+    {
+      "id": "V71",
+      "verdict": "supported",
+      "reason": "희석 4.8%, FY2025 1.3%, 가이던스 3.76억 주가 일치한다."
+    },
+    {
+      "id": "V72",
+      "verdict": "unsupported",
+      "reason": "영업권 5.4억→7.1억은 맞다. 총자산 대비 비중이 문턱보다 훨씬 낮다는 말은 존재하지 않는 계산값에 의존한다."
+    },
+    {
+      "id": "V73",
+      "verdict": "supported",
+      "reason": "설비투자와 자본화 소프트웨어 4~5%, 현금 12.5억→4.0억→4.35억이 일치하고, 용처를 특정하지 못했다는 한정도 맞다."
+    }
+  ]
+}

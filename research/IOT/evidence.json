@@ -165,15 +165,6 @@
       "retrieved": "2026-10-17T17:32:31Z"
     },
     {
-      "id": "S19",
-      "type": "news",
-      "title": "Samsara Tracking Label: The Best Inventions of 2026 - Time Magazine",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1pdFBsQ2V5MWM4Z2k1MkcxbG81SFBMSUlFWUhId1lMZ0tRWi1EdFYwbElDT0dRbExjVUw2UlU5U0x5SVBsRE5odTdyc29fakhiTkJYRDNEeTZkOEdtclJYbTJGUW9VazRHaTRDMlBXb20yUmhNTU1ZaG1KUFo?oc=5",
-      "note": "Time Magazine",
-      "date": "2026-10-15",
-      "retrieved": "2026-10-17T17:32:31Z"
-    },
-    {
       "id": "S20",
       "type": "news",
       "title": "Samsara Inc. (IOT) Stock Falls Amid Market Uptick: What Investors Need to Know - Yahoo Finance",
@@ -183,39 +174,12 @@
       "retrieved": "2026-10-17T17:32:31Z"
     },
     {
-      "id": "S21",
-      "type": "news",
-      "title": "Samsara Fleet Management: Features, Fees, Support 2026 - Tech.co",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJdFdIVm0xTHE3dzFwTHMxSmtndkUzVmkyeFk4YVk0N0FWSTFZVDNwb1VpZHdkZVVEaHY1VS1ieGpXd1pybjl5emNaWm9tbjhOVUxoMDEyRVJiZk5zUTFua1E2c2M5T2djcnd6MzdtSzhCQQ?oc=5",
-      "note": "Tech.co",
-      "date": "2026-09-07",
-      "retrieved": "2026-10-17T17:32:31Z"
-    },
-    {
-      "id": "S22",
-      "type": "news",
-      "title": "Samsara Fleet Management Review and Pricing - Business.com",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE13NlVyUDVSYk9GWTkwMU04T3k2VG5HNnVkUXhpMVRSa0ViWElfTEdyYTAtckRPWTRfY2VVMGZjS2psWXhHWm1zS2pOMFZndFh5eTZz?oc=5",
-      "note": "Business.com",
-      "date": "2026-10-07",
-      "retrieved": "2026-10-17T17:32:31Z"
-    },
-    {
       "id": "S23",
       "type": "news",
       "title": "Samsara Launches Fuel Command Center to Help Fleets Control Costs Amid Price Volatility - Business Wire",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNU1QyWk9pdjBfLXZIaXRCVGlwY1kwSFB2ZTBXUHkwczlnWUZpWGpBT3A5bUJBb251dkxTZERBX3ZrdEs5dDBXeXYwYjJ4WGVoRXF1V1BieV9fTExDZVJKbnFMYU9Zd18xUmoyb0ZJdV9KT2hNYUpzbTFPUndnaHBvN2dNWUFqRG5rRWo4OEJpM1VDVmRKeFJhUnp4bXBlZERIUVBBS2VIbjhFemlYT1ZKSXotMmpmejcwQlhxVF8tUC1IRnhCMTZ6bWt2RVBhcTZtS0lPMHhRdUZXMFRL?oc=5",
       "note": "Business Wire",
       "date": "2026-08-19",
-      "retrieved": "2026-10-17T17:32:31Z"
-    },
-    {
-      "id": "S24",
-      "type": "news",
-      "title": "Why this company ditched tech blue for construction yellow in its new logo - Fast Company",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1IMmZBNU45dy1QUEwxLTZJWndoYmw0ZFo4dXJaZFFXdUstZ2lTb3BaQlp2VTNhUGJZVmJpZ3ctS3doUjFidWZzWDVvM1RLejBlMFhRQWo1TzJORTJRUlJqWVlIdFB5TlVMc2QzTTBOQzl6dw?oc=5",
-      "note": "Fast Company",
-      "date": "2026-08-27",
       "retrieved": "2026-10-17T17:32:31Z"
     },
     {
@@ -343,6 +307,51 @@
       "note": "Yahoo Finance",
       "date": "2026-08-04",
       "retrieved": "2026-10-17T17:32:31Z"
+    },
+    {
+      "id": "S39",
+      "type": "data",
+      "title": "Samsara Analysts Boost Their Forecasts After Strong Q2 Earnings",
+      "url": "https://www.itiger.com/news/2664435814",
+      "date": "2026-09-04",
+      "note": "보도. IOT 주가 2026-09-04(금) 장중 $40.29, +4%. FY27 Q2 매출 $508.44M(추정 $483.26M), EPS $0.20(추정 $0.16). 목표가 상향: BTIG 54, Guggenheim 51, KeyBanc 55, TD Cowen 53, RBC 55, Wells Fargo 58, BMO 54, BofA 55 (모두 매수 의견). 공식 종가가 아니라 기사 속 장중가.",
+      "retrieved": "2026-10-17T17:33:16Z"
+    },
+    {
+      "id": "S40",
+      "type": "news",
+      "title": "Samsara Reports Second Quarter Fiscal Year 2027 Financial Results (Quartr·Zacks·Benzinga 등 2차 요약)",
+      "url": "https://secure.businesswire.com/news/home/20260903120692/en/Samsara-Reports-Second-Quarter-Fiscal-Year-2027-Financial-Results",
+      "date": "2026-09-03",
+      "note": "보도(2차 요약, 원문은 403으로 열지 못함). 종료 ARR 약 $2.125B(+30% YoY), 순신규 ARR $134.1M(+28%), ARR $100K 이상 고객 3,605곳(해당 고객 ARR $1.3B, +38%). 가이던스: FY27 Q3 매출 $514~516M, FY27 매출 $2.043~2.047B, 비GAAP 영업이익률 Q3·FY 모두 21%. 직전 FY27 가이던스는 매출 $2.005~2.013B, 비GAAP EPS $0.70~0.72.",
+      "retrieved": "2026-10-17T17:33:16Z"
+    },
+    {
+      "id": "S41",
+      "type": "data",
+      "title": "Samsara Inc. (IOT) Stock Forecast — TickFlow 컨센서스 (2026-08-01 기준)",
+      "url": "https://tickflow.io/stock/IOT/forecast",
+      "date": "2026-08-01",
+      "note": "FY27(2027-01-31 종료) 매출 컨센서스 평균 $1.97B(저 $1.95B~고 $1.98B). Q2 실적·가이던스 상향 이전 값이라 낡았다. FY28은 분기 합계 약 $2.7B로 읽히나 명확한 연간 컨센서스는 못 찾았다.",
+      "retrieved": "2026-10-17T17:33:16Z"
+    },
+    {
+      "id": "S42",
+      "type": "data",
+      "title": "Earnings Whispers — IOT FY2027 가이던스·컨센서스",
+      "url": "https://earningswhispers.com/epsdetails/IOT/202607",
+      "date": "2026-09-03",
+      "note": "보도성 집계. Q2 발표 전 FY27(2027-01 종료) 매출 컨센서스 약 $2.01B. 상향 후 가이던스 $2.043~2.047B.",
+      "retrieved": "2026-10-17T17:33:16Z"
+    },
+    {
+      "id": "S43",
+      "type": "data",
+      "title": "Investing.com — Samsara Inc (IOT) 시세 스냅샷",
+      "url": "https://www.investing.com/equities/samsara",
+      "date": "2026-08-10",
+      "note": "종가 39.34(-2.43%). 52주 범위 약 $23.38~47.47. 12개월 평균 목표가 44.31, 컨센서스 '매수'. Piper Sandler 하향(2026-08-10)이 표에 있음. 2차 집계 페이지라 시차가 있을 수 있다.",
+      "retrieved": "2026-10-17T17:33:16Z"
     }
   ],
   "facts": [
@@ -2662,8 +2671,138 @@
       "derived": true,
       "note": "Q4 = 연간 − Q1~Q3 (코드 계산)",
       "source": "S9"
+    },
+    {
+      "id": "F208",
+      "metric": "price",
+      "value": 40.29,
+      "unit": "USD/share",
+      "end": "2026-09-04",
+      "basis": "market",
+      "source": "S39",
+      "origin": "research"
+    },
+    {
+      "id": "F209",
+      "metric": "arr",
+      "value": 2125000000,
+      "unit": "USD",
+      "period": "FY2027Q2",
+      "end": "2026-08-01",
+      "basis": "reported",
+      "source": "S40",
+      "origin": "research"
+    },
+    {
+      "id": "F210",
+      "metric": "net_new_arr",
+      "value": 134100000,
+      "unit": "USD",
+      "period": "FY2027Q2",
+      "end": "2026-08-01",
+      "basis": "reported",
+      "source": "S40",
+      "origin": "research"
+    },
+    {
+      "id": "F211",
+      "metric": "customers_over_100k_arr",
+      "value": 3605,
+      "unit": "count",
+      "period": "FY2027Q2",
+      "end": "2026-08-01",
+      "basis": "reported",
+      "source": "S40",
+      "origin": "research"
+    },
+    {
+      "id": "F212",
+      "metric": "arr_100k_customers",
+      "value": 1300000000,
+      "unit": "USD",
+      "period": "FY2027Q2",
+      "end": "2026-08-01",
+      "basis": "reported",
+      "source": "S40",
+      "origin": "research"
+    },
+    {
+      "id": "F213",
+      "metric": "revenue",
+      "value": 2045000000,
+      "low": 2043000000,
+      "high": 2047000000,
+      "unit": "USD",
+      "period": "FY2027",
+      "end": "2027-01-31",
+      "basis": "guidance",
+      "source": "S40",
+      "origin": "research"
+    },
+    {
+      "id": "F214",
+      "metric": "revenue",
+      "value": 515000000,
+      "low": 514000000,
+      "high": 516000000,
+      "unit": "USD",
+      "period": "FY2027Q3",
+      "end": "2026-10-31",
+      "basis": "guidance",
+      "source": "S40",
+      "origin": "research"
+    },
+    {
+      "id": "F215",
+      "metric": "non_gaap_operating_margin",
+      "value": 0.21,
+      "unit": "ratio",
+      "period": "FY2027",
+      "end": "2027-01-31",
+      "basis": "guidance",
+      "source": "S40",
+      "origin": "research"
+    },
+    {
+      "id": "F216",
+      "metric": "revenue",
+      "value": 1970000000,
+      "low": 1950000000,
+      "high": 1980000000,
+      "unit": "USD",
+      "period": "FY2027",
+      "end": "2027-01-31",
+      "basis": "consensus",
+      "source": "S41",
+      "origin": "research"
+    },
+    {
+      "id": "F217",
+      "metric": "revenue",
+      "value": 2010000000,
+      "unit": "USD",
+      "period": "FY2027",
+      "end": "2027-01-31",
+      "basis": "consensus",
+      "source": "S42",
+      "origin": "research"
     }
   ],
   "as_of": "2026-10-18",
-  "collected": "2026-10-17T17:32:31Z"
+  "collected": "2026-10-17T17:32:31Z",
+  "gaps": [
+    "희석 주식 수는 XBRL 사실(F60 등)이 있으나 최신 발행주식 수(shares_outstanding, 10-Q 표지 기준)는 찾지 못했다. 코드 점검의 '주식 수 없음'은 이 때문으로 보이며 10-Q(S1) 표지에서 확인해야 한다.",
+    "2026-10-18 기준 최신 주가는 찾지 못했다. 가장 가까운 값은 2026-09-04 장중 $40.29(S39)이고, 2026-08-10 종가 39.34(S43)는 더 오래됐다. 공식 종가가 아니라 기사 속 장중가다.",
+    "FY2028(2028-01 종료) 연간 매출 컨센서스를 찾지 못했다. 분기 합계 약 $2.7B라는 값은 해석이 불확실해 사실로 넣지 않았다.",
+    "FY2027 컨센서스는 Q2 발표 전 값($1.97B·$2.01B)뿐이다. 발표 후 상향된 컨센서스는 찾지 못했다. 이 값들은 이미 낡은 컨센서스이고, 새 가이던스($2.043~2.047B)가 더 높다.",
+    "과거 가이던스는 직전 FY27 매출 $2.005~2.013B(S40 note)뿐이다. 각 가이던스를 낸 날짜와 분기별 원문, 최근 4개 분기 가이던스 이력은 찾지 못했다. 원문 보도자료는 403으로 열지 못했다.",
+    "순매출유지율(NRR), 총이익률 추이를 뒷받침할 이탈률·코호트, CAC 회수기간, 고객 집중도는 확인하지 못했다.",
+    "어닝콜 원문과 핵심 Q&A, 투자자의 날·컨퍼런스 자료는 찾지 못했다. 세 가지 모두 call·conference 근거가 없다.",
+    "DEF 14A(S6)의 보상 지표, 내부자 매매, 감사의견·감사인 변경, 재무제표 정정, 특수관계자 거래는 확인하지 못했다.",
+    "경쟁사(Geotab 등)·주요 고객사의 공시를 통한 교차 확인은 하지 못했다.",
+    "S40은 원문(보도자료)이 아니라 Quartr·Zacks·Benzinga의 2차 요약이어서, 여기서 나온 사실은 원문 대조가 필요하다.",
+    "S43의 Piper Sandler 하향(2026-08-10)의 이유와 목표가는 확인하지 못했다.",
+    "S19(Time 발명품), S21·S22(요금 리뷰), S24(로고 변경)는 투자 판단과 무관해 drop에 넣었다."
+  ],
+  "researched": "2026-10-18"
 }
