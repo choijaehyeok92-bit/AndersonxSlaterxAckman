@@ -1,0 +1,356 @@
+{
+  "agent": "verifier",
+  "basis": "47a9df0c222d",
+  "checks": [
+    {
+      "id": "V1",
+      "verdict": "supported",
+      "reason": "현금 71.05억→48.7억, 부채 83.5억→107.3억, 매입 증가, 분기 FCF 28억·영업이익 18.9억이 모두 인용과 일치한다."
+    },
+    {
+      "id": "V2",
+      "verdict": "supported",
+      "reason": "주가 70.35, 기본 내재가치 91.12, 안전마진 22.8%가 코드 값과 맞는다."
+    },
+    {
+      "id": "V3",
+      "verdict": "supported",
+      "reason": "영업이익률 3.0%→10.7%, ROIC 5.7%→14.7%가 코드 값과 일치한다."
+    },
+    {
+      "id": "V4",
+      "verdict": "supported",
+      "reason": "FY2025 FCF 마진 18.8%는 맞고 나머지는 모델 가정에 대한 비판이다. 충당금 미반영과 '사상 최고 구간'은 인용에 직접 근거가 없다."
+    },
+    {
+      "id": "V5",
+      "verdict": "supported",
+      "reason": "SBC/매출 3.5%, SBC/OCF 18.1%, 희석 주식 -1.4%, 매입 65.2억이 모두 일치한다."
+    },
+    {
+      "id": "V6",
+      "verdict": "unsupported",
+      "reason": "소송과 철수·조사는 뉴스 제목이 받치지만, '전문경영인 체제라 창업자의 장기 지평에 기대기 어렵다'는 사실은 인용에 없다."
+    },
+    {
+      "id": "V7",
+      "verdict": "supported",
+      "reason": "상방 6.61배, 5년 매출 1.96배, 3분기 환율 불변 18~22%가 2분기 22%보다 낮다는 점이 인용과 맞는다."
+    },
+    {
+      "id": "V8",
+      "verdict": "supported",
+      "reason": "부채, 매입, 현금의 수치와 기간이 모두 인용과 일치하고, 나머지는 가상 시나리오의 메커니즘이다."
+    },
+    {
+      "id": "V9",
+      "verdict": "supported",
+      "reason": "매출 372.8억→520.2억과 2분기 총예약액 580억(+24%)이 인용과 일치한다."
+    },
+    {
+      "id": "V10",
+      "verdict": "supported",
+      "reason": "가이던스 환율 불변 하단 18%는 2분기 22%보다 낮고, 중간값 592.5억은 컨센서스 593.3억보다 소폭 낮다."
+    },
+    {
+      "id": "V11",
+      "verdict": "supported",
+      "reason": "매입 65.2억이 SBC 18.3억보다 크고 희석 주식 -1.4%가 코드 값과 일치한다."
+    },
+    {
+      "id": "V12",
+      "verdict": "supported",
+      "reason": "나이지리아 철수, 소송, AV 제휴와 3분기 가이던스는 인용에 있고, 나머지는 시나리오 가정이다."
+    },
+    {
+      "id": "V13",
+      "verdict": "supported",
+      "reason": "마진과 ROIC 수치는 맞고 S43이 단위경제 지표 부재와 충돌하지 않으며, 나머지는 해석이다."
+    },
+    {
+      "id": "V14",
+      "verdict": "supported",
+      "reason": "안전마진 22.8%, 현금 경로 최저값 53.9억(0 이상), 분기 FCF 28억이 인용과 맞는다."
+    },
+    {
+      "id": "V15",
+      "verdict": "unsupported",
+      "reason": "인용된 C:implied_cagr가 존재하지 않는다. 세금 환입·순이익 대비 FCF·순부채 부담 같은 핵심 사실도 인용에 없다."
+    },
+    {
+      "id": "V16",
+      "verdict": "supported",
+      "reason": "Baidu·Wayve·Zipline 제휴는 인용에 있고 수수료 압박 경로는 가상 시나리오다."
+    },
+    {
+      "id": "V17",
+      "verdict": "supported",
+      "reason": "가이던스 범위, 환율 불변 성장률, 컨센서스 대비 총예약액과 EPS(0.86 vs 0.89)가 일치한다."
+    },
+    {
+      "id": "V18",
+      "verdict": "supported",
+      "reason": "2분기 총예약액 580억(+24%)과 3분기 가이던스가 일치하고 나머지는 해석이다."
+    },
+    {
+      "id": "V19",
+      "verdict": "supported",
+      "reason": "안전마진 22.8%와 20% 기준, 3분기 가이던스 수치가 맞고 민감도 서술은 추론 범위다."
+    },
+    {
+      "id": "V20",
+      "verdict": "supported",
+      "reason": "음수 법인세, 16억 지분 재평가 이익, PER 15.06, 가이던스 미달이 인용과 일치한다."
+    },
+    {
+      "id": "V21",
+      "verdict": "supported",
+      "reason": "5년 매출 1.96배(2배 미만)와 3분기 가이던스 둔화 방향이 인용과 맞는다."
+    },
+    {
+      "id": "V22",
+      "verdict": "supported",
+      "reason": "FY2026 컨센서스 582.8억은 FY2025 520.2억 대비 약 12% 성장이고, 나머지는 시나리오 가정이다."
+    },
+    {
+      "id": "V23",
+      "verdict": "supported",
+      "reason": "FCF 마진 18.8%, SBC 차감 FCF 79.4억, 설비투자 3.36억이 일치한다."
+    },
+    {
+      "id": "V24",
+      "verdict": "supported",
+      "reason": "AV 제휴와 조정 EBITDA 마진 4.9%가 인용에 있고 나머지는 가상 시나리오다."
+    },
+    {
+      "id": "V25",
+      "verdict": "unsupported",
+      "reason": "발생액 비율과 DSO 26.9일은 맞지만 '51.0일'이라는 이전 DSO는 인용에 없다."
+    },
+    {
+      "id": "V26",
+      "verdict": "supported",
+      "reason": "법인세, 순이익, 영업이익 수치가 모두 일치하고 환입 성격은 '보이나 미확인'으로 유보했다."
+    },
+    {
+      "id": "V27",
+      "verdict": "supported",
+      "reason": "S24는 기업 인력 3,300명 감원, S25는 10% 감원을 보도하고 비용 규모는 미확보로 적었다."
+    },
+    {
+      "id": "V28",
+      "verdict": "supported",
+      "reason": "FCF 28억, TTM 100억 초과, FY2025 OCF 101.0억이 인용과 일치한다."
+    },
+    {
+      "id": "V29",
+      "verdict": "supported",
+      "reason": "가이던스 중간값 592.5억이 컨센서스 593.3억을 소폭 하회한다는 점이 일치한다."
+    },
+    {
+      "id": "V30",
+      "verdict": "supported",
+      "reason": "안전마진 22.8%, 상방 6.61배, 기대 수익률 14.7%가 코드 값과 맞는다."
+    },
+    {
+      "id": "V31",
+      "verdict": "supported",
+      "reason": "상방 6.61배와 기대 수익률 14.7%를 바르게 옮겼다."
+    },
+    {
+      "id": "V32",
+      "verdict": "supported",
+      "reason": "S43에 CAC·이탈률 등 고객 단위 지표가 없어 증거 부재 서술과 맞는다."
+    },
+    {
+      "id": "V33",
+      "verdict": "supported",
+      "reason": "FCF 마진 18.8%와 현금 경로 최저 53.9억 양수를 바르게 인용했고, 사상 최고 구간 표현은 해석이다."
+    },
+    {
+      "id": "V34",
+      "verdict": "supported",
+      "reason": "S43에 단위경제 지표가 없다는 서술과 일치한다."
+    },
+    {
+      "id": "V35",
+      "verdict": "supported",
+      "reason": "매입 65.2억이 SBC 18.3억보다 크고 희석 주식 -1.4%가 일치한다."
+    },
+    {
+      "id": "V36",
+      "verdict": "supported",
+      "reason": "592.5억 vs 593.3억, EPS 0.86(0.84~0.88) vs 0.89가 일치한다."
+    },
+    {
+      "id": "V37",
+      "verdict": "supported",
+      "reason": "Baidu·Wayve 제휴와 스페인 로보택시 허가는 뉴스 제목이 받치고, 다른 분석가의 확률 언급은 판정 대상이 아니다."
+    },
+    {
+      "id": "V38",
+      "verdict": "supported",
+      "reason": "나이지리아 철수·반독점 조사와 세 번째 벨웨더 합의가 뉴스 제목과 맞고 규모는 불명으로 적었다."
+    },
+    {
+      "id": "V39",
+      "verdict": "supported",
+      "reason": "마진, ROIC, R&D 31.64억→34.02억이 일치하고 해자 입증 한계도 유보했다."
+    },
+    {
+      "id": "V40",
+      "verdict": "supported",
+      "reason": "부채 83.5억→105.2억→107.3억과 순부채/EBITDA 0.46x·0.72x가 일치한다."
+    },
+    {
+      "id": "V41",
+      "verdict": "supported",
+      "reason": "순이익 24억, 지분 재평가 세전 16억, 영업이익 18.9억이 일치한다."
+    },
+    {
+      "id": "V42",
+      "verdict": "supported",
+      "reason": "AV 제휴와 로보택시 허가는 인용에 있고 조건 미확인도 사실과 맞는다."
+    },
+    {
+      "id": "V43",
+      "verdict": "supported",
+      "reason": "AV 제휴 사실은 인용에 있고 수수료 위협은 가설로 명시했다."
+    },
+    {
+      "id": "V44",
+      "verdict": "supported",
+      "reason": "총예약액 +24%, 제휴 사실, 영업이익률·ROIC가 인용과 맞고 나머지는 시나리오 가정이다."
+    },
+    {
+      "id": "V45",
+      "verdict": "supported",
+      "reason": "TTM 순부채/EBITDA 0.72x가 코드 값과 일치한다."
+    },
+    {
+      "id": "V46",
+      "verdict": "supported",
+      "reason": "16억 지분 재평가 이익이 순이익에 포함됐다는 점이 맞고 충당금·구조조정 비용 미확보도 일치한다."
+    },
+    {
+      "id": "V47",
+      "verdict": "supported",
+      "reason": "AV 제휴 사실은 인용에 있고 계약 조건 부재도 맞다. 나머지는 가상 시나리오다."
+    },
+    {
+      "id": "V48",
+      "verdict": "supported",
+      "reason": "FCF 97.6억, 마진 18.8%, SBC 차감 79.4억, 2분기 FCF 28억, TTM 100억 초과, 설비투자 3.4억이 일치한다."
+    },
+    {
+      "id": "V49",
+      "verdict": "supported",
+      "reason": "조정 EBITDA 28.2억, 마진 4.9%, EPS 가이던스 0.86, SBC 차감 FCF 79.4억이 일치한다."
+    },
+    {
+      "id": "V50",
+      "verdict": "supported",
+      "reason": "소송, 감원, 나이지리아 철수는 뉴스 제목이 받치고 규모 미확보는 증거 부재와 일치한다."
+    },
+    {
+      "id": "V51",
+      "verdict": "supported",
+      "reason": "S38 제목이 Costco 배달의 Uber Eats 전국 확대를 가리킨다."
+    },
+    {
+      "id": "V52",
+      "verdict": "supported",
+      "reason": "부채 증가와 매입, 현금 감소는 인용과 맞고 나머지는 모델 비판이다. '+5.3%' 기여도는 인용에 없다."
+    },
+    {
+      "id": "V53",
+      "verdict": "supported",
+      "reason": "지분 재평가 이익, 음수 법인세, 충당금 미확인이 인용과 일치한다."
+    },
+    {
+      "id": "V54",
+      "verdict": "leap",
+      "reason": "24억 순이익과 16억 재평가 이익, 영업이익 18.9억은 맞다. 그러나 '비현금·비반복'과 'AV 등'은 자료에 없는 추론이다."
+    },
+    {
+      "id": "V55",
+      "verdict": "supported",
+      "reason": "매출 증가와 총예약액 +24%는 맞고 점유율 근거 부재도 자료와 일치한다."
+    },
+    {
+      "id": "V56",
+      "verdict": "supported",
+      "reason": "S10 DEF 14A는 목록만 있고 보상 지표 내용이 없다는 서술과 맞는다."
+    },
+    {
+      "id": "V57",
+      "verdict": "supported",
+      "reason": "영업권 80.7억→94.7억과 16억 재평가 이익이 일치하고 인수는 '시사'로 유보했다."
+    },
+    {
+      "id": "V58",
+      "verdict": "supported",
+      "reason": "기대 수익률 14.7%와 손실 확률 30%가 코드 값과 일치한다."
+    },
+    {
+      "id": "V59",
+      "verdict": "supported",
+      "reason": "AV 제휴와 스페인 로보택시 허가는 인용에 있고 가설은 미입증이라 명시했다."
+    },
+    {
+      "id": "V60",
+      "verdict": "supported",
+      "reason": "FY2025 FCF 97.6억, 마진 18.8%, 분기 FCF 28억이 일치한다."
+    },
+    {
+      "id": "V61",
+      "verdict": "supported",
+      "reason": "인용된 8-K는 제목만 있어 내용 미확인이라는 서술과 맞는다."
+    },
+    {
+      "id": "V62",
+      "verdict": "supported",
+      "reason": "OCF 101.0억, 매입 65.2억, 희석 -1.4%, 부채 107.3억, 현금 48.7억, 0.46배, 3,300명 감원이 일치한다."
+    },
+    {
+      "id": "V63",
+      "verdict": "supported",
+      "reason": "매입 0→12.5억→65.2억→30.1억, FCF 97.6억, SBC 18.3억이 일치한다."
+    },
+    {
+      "id": "V64",
+      "verdict": "supported",
+      "reason": "상방 6.61배, 5년 매출 1.96배, 기대 수익률 14.7%, 손실 확률 30%가 코드 값과 일치한다."
+    },
+    {
+      "id": "V65",
+      "verdict": "supported",
+      "reason": "영업권 94.7억/총자산 658.0억은 약 14%이고 순부채/EBITDA 0.46배도 일치한다. 존재하지 않는 인용은 수치로 보완된다."
+    },
+    {
+      "id": "V66",
+      "verdict": "supported",
+      "reason": "SBC 3.5%와 6.7%, 희석 주식 21.5억→20.5억, 분기 SBC 4.73억→5.56억이 일치한다."
+    },
+    {
+      "id": "V67",
+      "verdict": "supported",
+      "reason": "FCF 마진 -4.3%→18.8%와 낮은 설비투자가 일치한다."
+    },
+    {
+      "id": "V68",
+      "verdict": "unsupported",
+      "reason": "인용된 base_rate가 존재하지 않고 P/FCF 비교와 '멀티플 ×0.75 시 10.8%'는 인용에 없다."
+    },
+    {
+      "id": "V69",
+      "verdict": "supported",
+      "reason": "벨웨더 합의, 나이지리아 조사, 분기 영업이익은 인용과 맞고 나머지는 가상 시나리오다."
+    },
+    {
+      "id": "V70",
+      "verdict": "supported",
+      "reason": "약세 시나리오 수익률 -4.6%와 손실 확률 30%가 코드 값과 일치하고 AV 제휴도 인용에 있다."
+    }
+  ]
+}
