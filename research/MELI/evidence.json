@@ -397,6 +397,24 @@
       "date": "2026-08-19",
       "note": "보도: 월가 컨센서스는 매수. 목표주가 하단 약 1,750달러, 상단 약 2,600달러, 평균 약 2,167달러 (애널리스트 33명, 집계 사이트 기준). 2026년 EPS 추정은 어닝 전 기준 약 41달러.",
       "retrieved": "2026-10-17T17:15:51Z"
+    },
+    {
+      "id": "S45",
+      "type": "call",
+      "title": "MercadoLibre (MELI) Q2 2026 earnings summary - Quartr",
+      "url": "https://quartr.com/events/mercadolibre-inc-meli-q2-2026_3ePJ0gcZ",
+      "date": "2026-08-05",
+      "note": "2026년 2분기 어닝콜 요약 페이지. 검색 결과에서 링크만 확인했고 본문은 읽지 못했다. 원문 트랜스크립트가 아니며 사실 근거로 쓰지 않았다.",
+      "retrieved": "2026-10-17T17:38:24Z"
+    },
+    {
+      "id": "S46",
+      "type": "news",
+      "title": "MercadoLibre Inc. Reports Second Quarter 2026 Financial Results - Business Wire",
+      "url": "https://businesswire.com/news/home/20260805925866/en/MercadoLibre-Inc.-Reports-Second-Quarter-2026-Financial-Results",
+      "date": "2026-08-05",
+      "note": "2분기 실적 보도자료(S4 8-K 첨부와 같은 내용). 검색 요약으로 확인한 수치: 순매출 및 금융수익 101.69억 달러(전년 대비 +50%, 환율 중립 +43%), 영업이익 6.83억 달러(-17%, 영업이익률 6.7%), 순이익 4.66억 달러, 조정 FCF 2.14억 달러(1~2분기 누적 1.58억 달러), 설비투자 4.41억 달러, 신용 포트폴리오 증가에 21억 달러 투입. 요약을 통해 본 것이고 원문 대조는 하지 못했다.",
+      "retrieved": "2026-10-17T17:38:24Z"
     }
   ],
   "facts": [
@@ -2783,19 +2801,95 @@
       "basis": "market",
       "source": "S42",
       "origin": "research"
+    },
+    {
+      "id": "F215",
+      "metric": "net_revenue_and_financial_income",
+      "value": 10169000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S46",
+      "origin": "research"
+    },
+    {
+      "id": "F216",
+      "metric": "capex",
+      "value": 441000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S46",
+      "origin": "research"
+    },
+    {
+      "id": "F217",
+      "metric": "adjusted_free_cash_flow",
+      "value": 214000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S46",
+      "origin": "research"
+    },
+    {
+      "id": "F218",
+      "metric": "gmv",
+      "value": 21900000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S46",
+      "origin": "research"
+    },
+    {
+      "id": "F219",
+      "metric": "tpv",
+      "value": 101000000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S46",
+      "origin": "research"
+    },
+    {
+      "id": "F220",
+      "metric": "credit_portfolio",
+      "value": 16400000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S46",
+      "origin": "research"
+    },
+    {
+      "id": "F221",
+      "metric": "price_target_mean",
+      "value": 2167,
+      "unit": "USD/share",
+      "end": "2026-08-19",
+      "basis": "consensus",
+      "source": "S44",
+      "origin": "research"
     }
   ],
   "as_of": "2026-10-18",
   "collected": "2026-10-17T17:15:16Z",
   "gaps": [
-    "2026-10-17(기준일 직전 거래일) 종가를 찾지 못했다. 위 주가는 2026-10-03 종가이고 집계 사이트 수치라 검증되지 않았다.",
-    "연도별 매출 컨센서스(2026·2027)를 찾지 못했다. 분기 컨센서스(2분기 약 98.6억 달러)와 목표주가만 보도에서 확인된다.",
-    "회사 가이던스: 2분기 실적 발표에 정식 가이던스가 없는 것으로 보도됐고, 과거 가이던스 사실도 확보하지 못했다.",
-    "XBRL 매출이 보도 수치와 다르다. FY2026Q2 revenue F166은 70.5억 달러인데 보도는 약 102억 달러다. FY2025 203.3억 달러(F161)도 회사 보고 순매출 및 금융수익 합계와 범위가 달라 보인다. 수집 시 태그가 순매출의 일부 항목(예: 상품 매출)만 잡았을 가능성이 있다. 10-K·10-Q의 연결 순매출로 대조가 필요하다.",
-    "어닝콜 원문, 투자자의 날·컨퍼런스 자료(S2·S13 8-K 첨부 제외), 최근 4분기 핵심 Q&A는 수집하지 못했다.",
-    "운영 KPI(고유 구매자 수, 핀테크 월간 활성 사용자, 신용 포트폴리오 규모와 연체율, 물량(GMV·TPV)을 찾지 못했다.",
-    "신용 포트폴리오 대손충당금 등 회계 품질 단서(감사의견·감사인 변경·정정·특수관계자 거래)와 DEF 14A 보상 지표·내부자 매매를 사실로 정리하지 못했다.",
-    "diluted_shares는 XBRL에 5,070만 주로 들어 있으나 분기별로 같은 값이 반복돼 보인다(F53~F59). 실제 분기 희석 주식 수 확인이 필요하다. 보통주 발행 주식 수(F177)는 5,069.68만 주(2026-08-05)다."
+    "2026-10-16(기준일 직전 거래일) 종가를 찾지 못했다. 가격 사실은 2026-10-03 종가 1,696.24달러(F214)뿐이며 집계 사이트 수치라 검증되지 않았다. 옛 가격을 지우지 않았다. 새 가격이 없는 상태에서 지우면 주가가 비기 때문이다.",
+    "XBRL revenue(F157~F212)는 순매출 및 금융수익 합계보다 작다. 2분기는 XBRL 70.5억 달러, 공시 보도자료 101.69억 달러다. 새 사실 net_revenue_and_financial_income을 별도 metric으로 넣었으므로 코드가 revenue로 쓸지 판단해야 한다. 연간 FY2025와 다른 분기의 합계 매출은 10-K·10-Q 연결 손익계산서로 채워야 하는데 이번에 확인하지 못했다.",
+    "FY2025 capex를 찾지 못했다. FY2026Q2 capex 4.41억 달러만 보도자료 요약에서 확인했다. TTM에 필요한 직전 4개 분기의 단독 revenue·ocf·capex도 확보하지 못했다.",
+    "연도별 매출 컨센서스(2026·2027)를 찾지 못했다. 2분기 컨센서스 매출 약 98.6억 달러(S43)와 EPS 컨센서스 8.69~8.83달러만 확인했다. 목표주가 평균은 TIKR 집계(S44) 기준이다.",
+    "회사 가이던스: 2분기 발표에 정식 가이던스가 없는 것으로 보도돼 과거 가이던스 사실을 확보하지 못했다.",
+    "어닝콜 원문과 핵심 Q&A를 확보하지 못했다. S45는 요약 페이지 링크이고 본문을 읽지 못했다.",
+    "신용 연체율(NPL)과 대손충당금, 고유 구매자 수, 핀테크 월간 활성 사용자, 감사의견·정정·특수관계자 거래 등 회계 품질 단서와 DEF 14A 보상 지표·내부자 매매를 사실로 정리하지 못했다.",
+    "분기 희석 주식 수는 XBRL에서 5,070만 주가 반복되는 값이라 실제 분기별 값 확인이 필요하다."
   ],
   "researched": "2026-10-18"
 }

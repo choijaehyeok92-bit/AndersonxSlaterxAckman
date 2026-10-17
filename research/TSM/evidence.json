@@ -514,6 +514,42 @@
       "date": "2026-10-15",
       "note": "3Q26 어닝콜 원문(이번 조사에서 본문은 읽지 못함 — 요약·헤드라인만 확인). 보도 요약: 매출이 자체 가이던스를 상회, 2nm 생산 확대, 2027 전망에 신중(Reuters 'prudent'). 설비투자·AI 수요·2027 성장 발언은 원문 확인 필요.",
       "retrieved": "2026-10-17T17:15:14Z"
+    },
+    {
+      "id": "S58",
+      "type": "news",
+      "title": "TSMC Delivers Record 2025 Revenue and Profit as AI Chip Demand Fuels Growth, US Expansion Accelerates - Telecom Lead",
+      "url": "https://telecomlead.com/semiconductor/tsmc-delivers-record-2025-revenue-and-profit-as-ai-chip-demand-fuels-growth-us-expansion-accelerates-124150",
+      "date": "2026-01-15",
+      "note": "보도(2차 자료). 날짜는 4Q25 실적 발표일 기준으로 둠. FY2025 매출 NT$3,809.05bn(+31.6%), US$122.42bn(+35.9%), 매출총이익률 59.9%, 영업이익률 50.8%. 순이익 NT$1.7178조·EPS NT$66.25는 이 검색에서 단일 출처 보도로만 확인됨.",
+      "retrieved": "2026-10-17T17:37:56Z"
+    },
+    {
+      "id": "S59",
+      "type": "news",
+      "title": "TSMC 2025 Q4 earnings — VectorShift",
+      "url": "https://vectorshift.ai/research/companies/taiwan-semiconductor-manufacturing-co/earnings/2025-q4",
+      "date": "2026-01-15",
+      "note": "보도(2차 자료). 날짜는 4Q25 실적 발표일 기준으로 둠. 4Q25 영업활동현금흐름 약 NT$726bn, 설비투자 NT$357bn. 4Q25 설비투자 US$11.51bn, FY2025 설비투자 US$40.90bn. 연간 NT$ 설비투자와 연간 영업현금흐름은 확인하지 못함.",
+      "retrieved": "2026-10-17T17:37:56Z"
+    },
+    {
+      "id": "S60",
+      "type": "news",
+      "title": "TSMC Q3 Revenue Rises to $46.7B With a 66.4% Gross Margin - FourWeekMBA",
+      "url": "https://fourweekmba.com/ai-tsmc-q3-revenue-rises-to-46-7b-with-a-66-4-gross-margin/",
+      "date": "2026-10-15",
+      "note": "보도(2차 자료). 3Q26 매출 US$46.72bn, 매출총이익률 66.4%, 매출이 자체 가이던스 상단 상회.",
+      "retrieved": "2026-10-17T17:37:56Z"
+    },
+    {
+      "id": "S61",
+      "type": "news",
+      "title": "TSMC post-Q2: AI drives beat, outlook raised; higher capex weighs on sentiment - S&P Global Market Intelligence",
+      "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/07/tsmc-postq-ai-drives-beat-outlook-raised-higher-capex-weighs-on-sentiment",
+      "date": "2026-07-21",
+      "note": "보도(2차 자료). 2Q26 콜에서 2026 설비투자 가이던스를 US$52~56bn에서 US$60~64bn으로 상향. CFO는 향후 3년 설비투자가 직전 3년보다 크게 늘 것이라고 발언(보도). 3Q26 콜에서의 변경 여부는 XTB 요약이 US$64bn 언급(미확인).",
+      "retrieved": "2026-10-17T17:37:56Z"
     }
   ],
   "facts": [
@@ -1497,24 +1533,135 @@
       "basis": "guidance",
       "source": "S56",
       "origin": "research"
+    },
+    {
+      "id": "F90",
+      "metric": "revenue",
+      "value": 3809050000000,
+      "unit": "TWD",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "source": "S58",
+      "origin": "research"
+    },
+    {
+      "id": "F91",
+      "metric": "revenue",
+      "value": 122420000000,
+      "unit": "USD",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "source": "S58",
+      "origin": "research"
+    },
+    {
+      "id": "F92",
+      "metric": "gross_margin",
+      "value": 0.599,
+      "unit": "ratio",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "source": "S58",
+      "origin": "research"
+    },
+    {
+      "id": "F93",
+      "metric": "operating_margin",
+      "value": 0.508,
+      "unit": "ratio",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "source": "S58",
+      "origin": "research"
+    },
+    {
+      "id": "F94",
+      "metric": "net_income",
+      "value": 1717800000000,
+      "unit": "TWD",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "source": "S58",
+      "origin": "research"
+    },
+    {
+      "id": "F95",
+      "metric": "capex",
+      "value": 40900000000,
+      "unit": "USD",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "source": "S59",
+      "origin": "research"
+    },
+    {
+      "id": "F96",
+      "metric": "ocf",
+      "value": 726000000000,
+      "unit": "TWD",
+      "period": "FY2025Q4",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "source": "S59",
+      "origin": "research"
+    },
+    {
+      "id": "F97",
+      "metric": "capex",
+      "value": 357000000000,
+      "unit": "TWD",
+      "period": "FY2025Q4",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "source": "S59",
+      "origin": "research"
+    },
+    {
+      "id": "F98",
+      "metric": "revenue",
+      "value": 46720000000,
+      "unit": "USD",
+      "period": "FY2026Q3",
+      "end": "2026-09-30",
+      "basis": "reported",
+      "source": "S60",
+      "origin": "research"
+    },
+    {
+      "id": "F99",
+      "metric": "capex",
+      "value": 62000000000,
+      "low": 60000000000,
+      "high": 64000000000,
+      "unit": "USD",
+      "period": "FY2026",
+      "end": "2026-12-31",
+      "basis": "guidance",
+      "source": "S61",
+      "origin": "research"
     }
   ],
   "as_of": "2026-10-18",
   "collected": "2026-10-17T17:14:34Z",
   "gaps": [
-    "FY2025 연간 재무(매출·영업현금흐름·설비투자·순이익·현금·차입금)가 XBRL에 없음 — 20-F(S30)는 목록만 있고 사실 미추출. FY2024가 마지막 연간 사실이라 TTM·최근 연간 계산 불가",
-    "FY2025Q1~Q4 및 FY2026Q1~Q2 분기 재무 사실 미확보(6-K 재무제표 S7·S21 등 본문 미확인) — 3Q26 TTM 계산 불가",
-    "컨센서스: FY2026·FY2027 매출·EPS 컨센서스 미확보",
-    "과거 가이던스(최근 2~4개 분기) 미확보 — 경영진 가이던스 적중률 산출 불가. 3Q26 가이던스 US$44.6~45.8bn는 보도 한 건으로만 확인(2차 자료, 인용 안 함)",
-    "연간 설비투자 가이던스(2026·2027), 3Q26 설비투자·영업현금흐름·현금·차입금 미확보",
-    "시장 환율(TWD/USD 현물) 미확보 — 위 fx는 회사 가이던스 가정치이며 시장 환율이 아님",
-    "ADR 비율 5주=1ADR은 6-K의 EPS(NT$29.43 → US$4.60/ADR)와 일치하나 별도 근거 문서에서 직접 확인하지 않음",
-    "희석 주식 수 최신(2026) 미확보: 기존 shares_outstanding 259.3억주(2025-12-31) 사용",
-    "고객 집중도(애플·엔비디아 등), 공정별(2nm·3nm·5nm) 매출 비중, HPC 비중, 웨이퍼 가격 인상, CoWoS 캐파 등 운영 KPI 미확보",
-    "회계 품질 단서(감사의견·감사인, 정정, 특수관계자 거래) 및 DEF 14A 해당 없음(20-F 발행사) — 경영진 보상·내부자 매매 근거 미확보",
-    "경쟁·교차 확인(삼성 파운드리·인텔 18A, ASML·엔비디아 어닝콜) 및 지정학·관세 규제 리스크 근거 미확보",
-    "어닝콜 원문 본문 미확인(S57은 헤드라인·요약 수준) — 핵심 Q&A, 2027 '신중' 발언의 구체 내용 불명",
-    "10-07 472.20 → 10-16 412.61 하락 원인(실적 반응 vs 시장 전반)은 확인하지 못함"
+    "FY2025 연간 영업활동현금흐름·NT$ 설비투자·영업이익·현금·차입금 (20-F S30 본문 미확인)",
+    "FY2025 순이익 NT$1.7178조는 단일 보도 출처뿐이라 20-F로 교차 확인 필요",
+    "FY2025Q1~Q3, FY2026Q1~Q2 분기별 매출·영업현금흐름·설비투자 단독 값 — TTM 계산 불가",
+    "3Q26 영업현금흐름·설비투자·현금·차입금, 3Q콜에서 갱신된 2026 설비투자 가이던스 (XTB 요약의 US$64bn은 미확인)",
+    "TWD/USD 시장 환율(기준일 직전 거래일 현물). 가이던스 가정치 31.8은 시장 환율이 아님",
+    "FY2026·FY2027 매출·EPS 컨센서스",
+    "과거 가이던스 2~4개 분기 (3Q26 가이던스 US$44.6~45.8bn은 단일 보도로만 확인되어 사실로 넣지 않음)",
+    "희석 주식 수 최신값, 어닝콜 원문 본문(핵심 Q&A, 2027 '신중' 발언의 구체 내용)",
+    "고객 집중도, 공정별(2nm·3nm·5nm)·HPC 매출 비중, 웨이퍼 가격 인상, CoWoS 캐파",
+    "회계 품질 단서(감사의견·감사인 변경·정정·특수관계자 거래), 경영진 보상·내부자 매매",
+    "삼성 파운드리·인텔 18A 등 경쟁사와 ASML·엔비디아 교차 확인, 지정학·관세 리스크",
+    "10-07 이후 주가 하락 원인(실적 반응인지 시장 전반인지)"
   ],
   "researched": "2026-10-18"
 }

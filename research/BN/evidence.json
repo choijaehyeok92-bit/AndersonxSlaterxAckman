@@ -505,6 +505,33 @@
       "date": "2026-08-13",
       "note": "2026년 2분기 분배가능이익(DE) 15.48억 USD, 주당 0.66 USD. 실현손익 반영 전 DE 14.27억 USD(주당 0.61, 전년 동기 0.53). 최근 12개월 DE 61.72억 USD(주당 2.61), 실현 전 DE 56.52억 USD(주당 2.39). 지배주주 귀속 순이익 3.64억 USD(주당 0.14). 수치는 검색 요약 기준이며 원문 대조 필요.",
       "retrieved": "2026-10-17T17:20:01Z"
+    },
+    {
+      "id": "S57",
+      "type": "call",
+      "title": "Brookfield Q2 earnings call highlights (MarketBeat)",
+      "url": "https://www.marketbeat.com/instant-alerts/brookfield-q2-earnings-call-highlights-2026-08-13/",
+      "date": "2026-08-13",
+      "note": "2026년 2분기 어닝콜 요약(원문 아님). 상반기 모집 980억 USD, 투자 집행 1,000억 USD, 자산 매각 400억 USD. 실현손익 반영 전 분배가능이익(DE) 약 14억 USD(주당 0.61 USD), 전년 대비 주당 15% 증가.",
+      "retrieved": "2026-10-17T17:42:54Z"
+    },
+    {
+      "id": "S58",
+      "type": "call",
+      "title": "Brookfield (BN) Q2 2026 earnings summary (Quartr)",
+      "url": "https://quartr.com/events/brookfield-corporation-bn-q2-2026_3euSF2x2",
+      "date": "2026-08-13",
+      "note": "어닝콜 요약(원문 아님). 최근 12개월 DE: 실현 전 57억 USD, 실현 포함 62억 USD. 웰스솔루션 이익 23% 증가, 보험 자산 약 1,910억 USD(Just Group 인수 후), 회사 유동성 56억 USD, 배치 가능 자본 2,100억 USD로 사상 최대. 이 페이지는 날짜가 8월 13일과 10월 8일로 두 개 표기됨.",
+      "retrieved": "2026-10-17T17:42:54Z"
+    },
+    {
+      "id": "S59",
+      "type": "call",
+      "title": "Brookfield Corporation posts 15% EPS growth and record deployable capital on strong Q2 2026 results (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/brookfield-corporation-posts-15-eps-growth-and-record-deployable-capital-on-strong-q2-2026-results",
+      "date": "2026-08-13",
+      "note": "2분기 자산운용 모집 770억 USD로 사상 최대, 수수료 부과 자본 6,720억 USD(+19%). 요약 출처이며 원문 대조 필요.",
+      "retrieved": "2026-10-17T17:42:54Z"
     }
   ],
   "facts": [
@@ -1286,19 +1313,229 @@
       "basis": "reported",
       "source": "S56",
       "origin": "research"
+    },
+    {
+      "id": "F72",
+      "metric": "revenue",
+      "value": 19406000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S56",
+      "origin": "research"
+    },
+    {
+      "id": "F73",
+      "metric": "revenue",
+      "value": 18580000000,
+      "unit": "USD",
+      "period": "FY2026Q1",
+      "end": "2026-03-31",
+      "basis": "reported",
+      "source": "S56",
+      "origin": "research"
+    },
+    {
+      "id": "F74",
+      "metric": "revenue",
+      "value": 18083000000,
+      "unit": "USD",
+      "period": "FY2025Q2",
+      "end": "2025-06-30",
+      "basis": "reported",
+      "source": "S56",
+      "origin": "research"
+    },
+    {
+      "id": "F75",
+      "metric": "revenue",
+      "value": 17944000000,
+      "unit": "USD",
+      "period": "FY2025Q1",
+      "end": "2025-03-31",
+      "basis": "reported",
+      "source": "S56",
+      "origin": "research"
+    },
+    {
+      "id": "F76",
+      "metric": "cash",
+      "value": 14885000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S56",
+      "origin": "research"
+    },
+    {
+      "id": "F77",
+      "metric": "corporate_borrowings",
+      "value": 14711000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S56",
+      "origin": "research"
+    },
+    {
+      "id": "F78",
+      "metric": "common_equity",
+      "value": 42483000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S56",
+      "origin": "research"
+    },
+    {
+      "id": "F79",
+      "metric": "goodwill",
+      "value": 41928000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S56",
+      "origin": "research"
+    },
+    {
+      "id": "F80",
+      "metric": "total_assets",
+      "value": 525515000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S56",
+      "origin": "research"
+    },
+    {
+      "id": "F81",
+      "metric": "diluted_shares",
+      "value": 2352700000,
+      "unit": "shares",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S56",
+      "origin": "research"
+    },
+    {
+      "id": "F82",
+      "metric": "price",
+      "value": 42.59,
+      "unit": "USD/share",
+      "end": "2026-06-30",
+      "basis": "market",
+      "source": "S56",
+      "origin": "research"
+    },
+    {
+      "id": "F83",
+      "metric": "distributable_earnings_ttm",
+      "value": 6172000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S56",
+      "origin": "research"
+    },
+    {
+      "id": "F84",
+      "metric": "distributable_earnings_per_share_ttm",
+      "value": 2.61,
+      "unit": "USD/share",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S56",
+      "origin": "research"
+    },
+    {
+      "id": "F85",
+      "metric": "distributable_earnings_before_realizations_per_share_ttm",
+      "value": 2.39,
+      "unit": "USD/share",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S56",
+      "origin": "research"
+    },
+    {
+      "id": "F86",
+      "metric": "fee_bearing_capital",
+      "value": 672000000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S59",
+      "origin": "research"
+    },
+    {
+      "id": "F87",
+      "metric": "fundraising",
+      "value": 77000000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S59",
+      "origin": "research"
+    },
+    {
+      "id": "F88",
+      "metric": "deployable_capital",
+      "value": 210000000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S58",
+      "origin": "research"
+    },
+    {
+      "id": "F89",
+      "metric": "corporate_liquidity",
+      "value": 5600000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S58",
+      "origin": "research"
+    },
+    {
+      "id": "F90",
+      "metric": "insurance_assets",
+      "value": 191000000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S58",
+      "origin": "research"
     }
   ],
   "as_of": "2026-10-18",
   "collected": "2026-10-17T17:19:31Z",
   "gaps": [
-    "2026-10-16 전후의 최신 BN 종가를 확인하지 못했다. 가격은 2026-09-09 종가(S54)와 2026-08-20 종가(S55)뿐이며 모두 집계 사이트 값이다. 두 값이 서로 다르고 최신이 아니므로 시세를 다시 확인해야 한다.",
-    "현재 발행 주식 수(shares_outstanding)와 희석 주식 수를 확인하지 못했다. 기존 FY2025 희석 주식 수 22.5억 주가 있다. DE 15.48억 USD ÷ 주당 0.66 USD로 역산하면 약 23.5억 주지만, 이는 추정이므로 사실로 넣지 않았다. Q2 6-K 첨부(exh_991)에서 확인해야 한다.",
-    "컨센서스(향후 2개 연도 매출, 주당 DE)를 확인하지 못했다. Q2 실적이 월가 추정에 못 미쳤다는 보도(S44)만 있고 수치는 없다.",
-    "과거 가이던스(최근 2~4개 기간)를 확인하지 못했다.",
-    "운영 KPI(운용자산 AUM, 수수료 부과 자본, 모집 규모, 보험 자산 등)를 어닝콜 원문에서 확인하지 못했다. S42·S48 요약은 있으나 수치는 아직 사실로 옮기지 않았다.",
-    "회계 품질 단서(감사인, 정정 여부, 특수관계자 거래, 비GAAP 조정 내역)를 확인하지 못했다.",
-    "BN은 40-F 외국 발행인이므로 DEF 14A 보상 지표와 내부자 매매 근거가 없다. 경영진 평가용 근거를 별도로 찾아야 한다.",
-    "수집된 XBRL의 FY2025 매출(751.0억 USD)과 순이익(13.1억 USD)은 IFRS 연결 기준이다. 지주회사 성격상 사업 가치 평가의 중심은 DE와 자산운용 부문(BAM 지분 등) 가치이므로 별도 사실이 필요하다."
+    "2026-10-16 종가를 확인하지 못했다. 최신 가격은 2026-09-09의 39.27 USD(S54), 2026-08-20의 41.37 USD(S55)와 2026-06-30의 NYSE 종가 42.59 USD(S60)뿐이라 기준일 직전 가격이 없다. 시세는 거래소나 시세 제공처에서 다시 확인해야 한다.",
+    "TTM 계산에 필요한 2025년 3분기·4분기 매출을 분기 단독 값으로 찾지 못했다. FY2025 연간 매출에서 상반기를 뺀 합계(약 390.7억 USD)만 알 수 있다.",
+    "분기 단독 영업현금흐름(ocf)과 설비투자(capex)를 확보하지 못했다. 상반기(YTD) 값은 영업현금흐름 20.90억 USD, 유형자산 취득 95.75억 USD(S60)이며, 2025년 3분기·4분기 값과 2026년 1분기 단독 값은 1분기 6-K(S20)와 40-F(S28)에서 차감해야 한다.",
+    "상반기 YTD 영업현금흐름·설비투자는 분기 단독 값이 아니라서 사실로 넣지 않았다. 따라서 TTM 계산 불가 상태가 그대로 남는다.",
+    "컨센서스(향후 2개 연도 매출, 주당 DE)와 과거 가이던스를 찾지 못했다. 2분기 실적이 월가 추정에 못 미쳤다는 보도(S44)만 있고 수치는 없다.",
+    "어닝콜 원문은 없고 요약(S57~S59, S42, S48)만 확보했다. 경영진 발언·Q&A는 2차 요약이므로 수치는 원문 대조가 필요하다.",
+    "현재 발행 주식 수는 찾지 못했다. 2분기 가중평균 희석 주식 수 23.527억 주(S60)만 있으며 시점 발행 주식 수는 아니다.",
+    "회계 품질 단서(감사인 변경·정정·특수관계자 거래·비GAAP 조정 내역)를 찾지 못했다. BN은 40-F 외국 발행인이라 DEF 14A 보상 지표와 내부자 매매 근거도 없다.",
+    "수수료 부과 자본·모집·배치 가능 자본·보험 자산 등 운영 KPI는 요약(S58·S59) 기준이다. 개별 부문(자산운용·웰스솔루션·오퍼레이팅 비즈니스) 수치는 6-K 첨부 원문 대조가 필요하다.",
+    "BN의 IFRS 연결 재무는 하위 상장 자회사를 모두 포함해 순이익이 지배주주 귀속분과 크게 다르다(2분기 순이익 7.03억 USD 중 지배주주 3.64억). 가치 평가는 DE와 자산운용 부문(BAM 지분 등) 기준의 별도 사실이 필요하다."
   ],
   "researched": "2026-10-18"
 }

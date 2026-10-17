@@ -2754,21 +2754,81 @@
       "basis": "consensus",
       "source": "S44",
       "origin": "research"
+    },
+    {
+      "id": "F212",
+      "metric": "ocf",
+      "value": 2320000000,
+      "unit": "USD",
+      "period": "FY2025Q3",
+      "end": "2025-09-30",
+      "basis": "reported",
+      "source": "S16",
+      "origin": "research"
+    },
+    {
+      "id": "F213",
+      "metric": "capex",
+      "value": 90000000,
+      "unit": "USD",
+      "period": "FY2025Q3",
+      "end": "2025-09-30",
+      "basis": "reported",
+      "source": "S16",
+      "origin": "research"
+    },
+    {
+      "id": "F214",
+      "metric": "ocf",
+      "value": 2900000000,
+      "unit": "USD",
+      "period": "FY2025Q4",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "source": "S13",
+      "origin": "research"
+    },
+    {
+      "id": "F215",
+      "metric": "capex",
+      "value": 100000000,
+      "unit": "USD",
+      "period": "FY2025Q4",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "source": "S13",
+      "origin": "research"
+    },
+    {
+      "id": "F216",
+      "metric": "ocf",
+      "value": 2860000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S43",
+      "origin": "research"
+    },
+    {
+      "id": "F217",
+      "metric": "capex",
+      "value": 70000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S43",
+      "origin": "research"
     }
   ],
   "as_of": "2026-10-18",
   "collected": "2026-10-17T17:14:34Z",
   "gaps": [
-    "2027년 연간 매출 컨센서스: 분기별 평균만 확인됨(연간 합계는 코드가 계산해야 함). 컨센서스 날짜·애널리스트 수는 집계 사이트 기준이라 불확실하며, 2026년 매출은 Simply Wall St 약 601억 달러와 편차가 있다.",
-    "과거 가이던스 이력(2025~2026년 분기별 총예약액·조정 EBITDA 가이던스)을 찾지 못함. 경영진 적중률 계산에 필요.",
-    "최근 4분기 어닝콜 원문·Q&A 및 투자자의 날·컨퍼런스 자료 미확보(call·conference 유형 근거 없음).",
-    "운영 KPI(월간 활성 이용자, 이용 건수, 구독 회원 수, 순매출유지율, 모빌리티·배달·화물 부문별 총예약액·조정 EBITDA) 미확보.",
-    "자율주행 파트너십(Baidu·Wayve·Zipline 등)의 단위경제, 계약 조건, 투자 약정 규모 미확보. AV 소유 지분 평가이익(2분기 세전 16억 달러)의 내역도 미확보.",
-    "DEF 14A 보상 지표, 내부자 매매, 자사주 매입 승인 잔여 한도, 2026년 9월 감원(약 3,300명, 10%)의 구조조정 비용 규모 미확보.",
-    "성범죄 소송(벨웨더 재판 3건 합의)의 충당금·잔여 소송 규모, 나이지리아 철수와 규제 조사 영향 미확보.",
-    "ADR 아님. 환율 사실은 불필요하나 총예약액의 통화 구성은 미확보.",
-    "FY2025 Q4 및 FY2026 Q1·Q2의 ocf·capex 분기 값은 공시 사실에 일부 누락(FY2026Q2 ocf, capex 없음). 2분기 FCF 28억 달러는 보도자료 수치이며 XBRL 값으로 대조하지 못함.",
-    "2026-10-16 이후 주가 변동과 3분기 실적 발표 예정일(2026-11-04) 전 프리뷰 컨센서스는 미확보."
+    "TTM 입력 중 FY2025Q3·FY2025Q4·FY2026Q2의 ocf와 capex는 현금흐름표 원문이 아니라 보도자료 수치와 이를 다룬 2차 요약에서 가져왔다. FY2025Q3 ocf 23.2억은 Nasdaq 보도의 2.32B, FY2025Q4 ocf 29억은 보도자료의 2.9B(반올림), FY2026Q2 ocf 28.6억은 상반기 52.1억에서 1분기 23.5억을 뺀 값이다.",
+    "capex는 '영업현금흐름 − 잉여현금흐름'으로 역산한 근사치다. FY2025Q3 약 9천만 달러, FY2025Q4 약 1억 달러(반올림), FY2026Q2 약 7천만 달러(상반기 FCF 50.8억 기준)이며, 10-Q·10-K의 'purchases of property and equipment' 줄로 확인하지 못했다.",
+    "어닝콜(call) 원문·트랜스크립트와 컨퍼런스 자료는 검색에서 찾지 못했다. 지금까지 확인한 것은 실적 보도자료뿐이다.",
+    "2027년 연간 매출 컨센서스, 과거 분기별 가이던스 이력, 운영 KPI(MAU·이용 건수·부문별 총예약액과 조정 EBITDA), DEF 14A 보상 지표, 내부자 매매, 구조조정 비용, 소송 충당금은 이전 공백 그대로 남아 있다."
   ],
   "researched": "2026-10-18"
 }

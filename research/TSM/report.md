@@ -15,32 +15,32 @@
 - ⚠ 주가 통화 USD ≠ 재무 통화 TWD — fx 사실 필요 (단위 TWD/USD)
 ## 계산 근거 (L3)
 
-### 재무 이력 (코드 계산 · 인용은 C:지표@기간, 예: C:fcf_margin@FY2024)
+### 재무 이력 (코드 계산 · 인용은 C:지표@기간, 예: C:fcf_margin@FY2025)
 
-| 지표 (키) | FY2020 | FY2021 | FY2022 | FY2023 | FY2024 |
-|---|---|---|---|---|---|
-| 매출 (revenue) | 1.34조 TWD | 1.59조 TWD | 2.26조 TWD | 2.16조 TWD | 2.89조 TWD |
-| 매출 성장 (revenue_growth) | — | 18.5% | 42.6% | -4.5% | 33.9% |
-| 총이익률 (gross_margin) | 53.1% | 51.6% | 59.6% | 54.4% | 56.1% |
-| 영업이익률 (operating_margin) | 42.3% | 40.9% | 49.5% | 42.6% | 45.7% |
-| 순이익 (net_income) | 5,107.4억 TWD | 5,923.6억 TWD | 9,929.2억 TWD | 8,517.4억 TWD | 1.16조 TWD |
-| 영업현금흐름 (ocf) | 8,226.7억 TWD | 1.11조 TWD | 1.61조 TWD | 1.24조 TWD | 1.83조 TWD |
-| 설비투자 (capex) | 5,072.4억 TWD | 8,392.0억 TWD | 1.08조 TWD | 9,498.2억 TWD | 9,560.1억 TWD |
-| FCF (fcf) | 3,154.3억 TWD | 2,729.7억 TWD | 5,279.3억 TWD | 2,921.5억 TWD | 8,701.7억 TWD |
-| FCF 마진 (fcf_margin) | 23.6% | 17.2% | 23.3% | 13.5% | 30.1% |
-| FCF/순이익 (fcf_conversion) | 0.62x | 0.46x | 0.53x | 0.34x | 0.75x |
-| ROIC (roic) | 42.2% | 53.6% | 62.4% | 40.8% | 51.4% |
-| 순현금 (net_cash) | 6,601.7억 TWD | 1.06조 TWD | 1.34조 TWD | 1.47조 TWD | 2.13조 TWD |
-| 희석 주식 수 (diluted_shares) | 259.3억 | 259.3억 | 259.3억 | 259.3억 | 259.3억 |
-| 주식 수 변화 (share_change) | — | 0.0% | -0.0% | 0.0% | -0.0% |
-| DIO(일) (dio) | 79.8 | 91.8 | 88.2 | 92.9 | 82.7 |
-| 발생액 비율 (accruals_ratio) | — | -16.0% | -14.2% | -7.4% | -10.9% |
+| 지표 (키) | FY2020 | FY2021 | FY2022 | FY2023 | FY2024 | FY2025 |
+|---|---|---|---|---|---|---|
+| 매출 (revenue) | 1.34조 TWD | 1.59조 TWD | 2.26조 TWD | 2.16조 TWD | 2.89조 TWD | 3.81조 TWD |
+| 매출 성장 (revenue_growth) | — | 18.5% | 42.6% | -4.5% | 33.9% | 31.6% |
+| 총이익률 (gross_margin) | 53.1% | 51.6% | 59.6% | 54.4% | 56.1% | — |
+| 영업이익률 (operating_margin) | 42.3% | 40.9% | 49.5% | 42.6% | 45.7% | — |
+| 순이익 (net_income) | 5,107.4억 TWD | 5,923.6억 TWD | 9,929.2억 TWD | 8,517.4억 TWD | 1.16조 TWD | 1.72조 TWD |
+| 영업현금흐름 (ocf) | 8,226.7억 TWD | 1.11조 TWD | 1.61조 TWD | 1.24조 TWD | 1.83조 TWD | — |
+| 설비투자 (capex) | 5,072.4억 TWD | 8,392.0억 TWD | 1.08조 TWD | 9,498.2억 TWD | 9,560.1억 TWD | — |
+| FCF (fcf) | 3,154.3억 TWD | 2,729.7억 TWD | 5,279.3억 TWD | 2,921.5억 TWD | 8,701.7억 TWD | — |
+| FCF 마진 (fcf_margin) | 23.6% | 17.2% | 23.3% | 13.5% | 30.1% | — |
+| FCF/순이익 (fcf_conversion) | 0.62x | 0.46x | 0.53x | 0.34x | 0.75x | — |
+| ROIC (roic) | 42.2% | 53.6% | 62.4% | 40.8% | 51.4% | — |
+| 순현금 (net_cash) | 6,601.7억 TWD | 1.06조 TWD | 1.34조 TWD | 1.47조 TWD | 2.13조 TWD | — |
+| 희석 주식 수 (diluted_shares) | 259.3억 | 259.3억 | 259.3억 | 259.3억 | 259.3억 | — |
+| 주식 수 변화 (share_change) | — | 0.0% | -0.0% | 0.0% | -0.0% | — |
+| DIO(일) (dio) | 79.8 | 91.8 | 88.2 | 92.9 | 82.7 | — |
+| 발생액 비율 (accruals_ratio) | — | -16.0% | -14.2% | -7.4% | -10.9% | — |
 
 표에 없는 키도 인용할 수 있다: cash, cash_total, cost_of_revenue, debt_total, equity, gross_profit, income_tax, inventory, inventory_growth, operating_income, pretax_income, rnd, total_assets
 
 ### 회계 품질 신호 (코드 계산 — forensic이 하나씩 해명해야 한다)
 
-- [watch] inventory_gap (C:inventory_gap): FY2023 재고 증가율 - 매출 증가율 18.0% > 15%
+- 신호 없음
 
 ### 페르소나 지표 (코드 계산 · case 기본값 기준, C:지표@페르소나)
 
@@ -113,3 +113,7 @@
 | S55 | data | 2026-10-16 | [TSM (NYSE) 일별 종가 이력 — StockAnalysis](https://stockanalysis.com/stocks/tsm/history/) | TSM ADR 종가 2026-10-16 USD 412.61, 10-15 422.25, 10-14 430.00, 10-13 445.12, 10-12 444.35, 10-09 453.31, 10-08 457.99, 10-07 472.20. 어닝 발표(10-15) 전후 약 12.6% 하락(10-07 대비 10-16). |
 | S56 | filing | 2026-10-15 | [6-K — 3Q26 실적 발표 및 4Q26 가이던스 (a3q26e_withguidancexfinal)](https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000726/a3q26e_withguidancexfinal.htm) | 3Q26 매출 NT$1,494.24bn(전년比 +50.9%), 매출총이익 NT$992,379백만(총이익률 66.4%), 영업이익 NT$876,445백만(영업이익률 58.7%), 순이익 NT$763.06bn(전년比 +68.7%), 희석 EPS NT$29.43(ADR 단위 US$4.60). 4Q26 가이던스: 매출 US$52.3~54.3bn, 총이익률 65~67%, 영업이익률 56.5~58.5%, 환율 가정 US$1=NT$31.8. 보도에 따르면 2nm 초기 비용으로 총이익률·영업이익률은 2Q 대비 하락. 이 문서에는 3Q 영업현금흐름·설비투자·현금과 연간 설비투자 가이던스가 없음. |
 | S57 | call | 2026-10-15 | [TSMC (TSM) Q3 2026 Earnings Call Transcript — Motley Fool](https://www.fool.com/earnings/call-transcripts/2026/10/15/tsmc-tsm-q3-2026-earnings-call-transcript/) | 3Q26 어닝콜 원문(이번 조사에서 본문은 읽지 못함 — 요약·헤드라인만 확인). 보도 요약: 매출이 자체 가이던스를 상회, 2nm 생산 확대, 2027 전망에 신중(Reuters 'prudent'). 설비투자·AI 수요·2027 성장 발언은 원문 확인 필요. |
+| S58 | news | 2026-01-15 | [TSMC Delivers Record 2025 Revenue and Profit as AI Chip Demand Fuels Growth, US Expansion Accelerates - Telecom Lead](https://telecomlead.com/semiconductor/tsmc-delivers-record-2025-revenue-and-profit-as-ai-chip-demand-fuels-growth-us-expansion-accelerates-124150) | 보도(2차 자료). 날짜는 4Q25 실적 발표일 기준으로 둠. FY2025 매출 NT$3,809.05bn(+31.6%), US$122.42bn(+35.9%), 매출총이익률 59.9%, 영업이익률 50.8%. 순이익 NT$1.7178조·EPS NT$66.25는 이 검색에서 단일 출처 보도로만 확인됨. |
+| S59 | news | 2026-01-15 | [TSMC 2025 Q4 earnings — VectorShift](https://vectorshift.ai/research/companies/taiwan-semiconductor-manufacturing-co/earnings/2025-q4) | 보도(2차 자료). 날짜는 4Q25 실적 발표일 기준으로 둠. 4Q25 영업활동현금흐름 약 NT$726bn, 설비투자 NT$357bn. 4Q25 설비투자 US$11.51bn, FY2025 설비투자 US$40.90bn. 연간 NT$ 설비투자와 연간 영업현금흐름은 확인하지 못함. |
+| S60 | news | 2026-10-15 | [TSMC Q3 Revenue Rises to $46.7B With a 66.4% Gross Margin - FourWeekMBA](https://fourweekmba.com/ai-tsmc-q3-revenue-rises-to-46-7b-with-a-66-4-gross-margin/) | 보도(2차 자료). 3Q26 매출 US$46.72bn, 매출총이익률 66.4%, 매출이 자체 가이던스 상단 상회. |
+| S61 | news | 2026-07-21 | [TSMC post-Q2: AI drives beat, outlook raised; higher capex weighs on sentiment - S&P Global Market Intelligence](https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/07/tsmc-postq-ai-drives-beat-outlook-raised-higher-capex-weighs-on-sentiment) | 보도(2차 자료). 2Q26 콜에서 2026 설비투자 가이던스를 US$52~56bn에서 US$60~64bn으로 상향. CFO는 향후 3년 설비투자가 직전 3년보다 크게 늘 것이라고 발언(보도). 3Q26 콜에서의 변경 여부는 XTB 요약이 US$64bn 언급(미확인). |

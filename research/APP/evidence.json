@@ -343,6 +343,33 @@
       "date": "2026-09-01",
       "note": "날짜 불명 스냅샷(9월 초로 추정). 시가총액 약 1,077억 USD, 52주 범위 297.82~735.50 USD. 7월에는 약 528 USD였다는 보도가 있다(Robinhood 페이지).",
       "retrieved": "2026-10-17T17:15:03Z"
+    },
+    {
+      "id": "S42",
+      "type": "filing",
+      "title": "AppLovin Corp - Form 8-K Exhibit 99.1, Q2 2026 earnings press release (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001751008/000175100826000057/exhibit991-2q26earningspre.htm",
+      "date": "2026-08-05",
+      "note": "현금흐름: 2분기 영업활동현금흐름 8.690억 USD(전년 동기 7.722억), 설비투자 140만 USD(전년 동기 4만), FCF 8.633억(전년 동기 7.681억). 상반기 영업활동현금흐름 21.604억(전년 동기 16.039억). 2분기 자사주 매입·세금 원천징수 5.513억 USD(110만 주). 6월 30일 발행 주식 3.3529억 주(2025년 말 3.383억). 2분기 FCF 전환이 낮았던 이유는 해외 현금 세금과 이자 납부 시점이라고 경영진이 설명했고, 연간 FCF 전환율은 조정 EBITDA의 약 75%로 정상화될 것으로 봤다. 3분기 가이던스: 매출 20.55억~20.85억 USD, 조정 EBITDA 17.1억~17.4억 USD(마진 83%).",
+      "retrieved": "2026-10-17T17:38:06Z"
+    },
+    {
+      "id": "S43",
+      "type": "data",
+      "title": "AppLovin (NASDAQ:APP) trading down on analyst downgrade - MarketBeat",
+      "url": "https://www.marketbeat.com/instant-alerts/applovin-nasdaqapp-trading-down-47-on-analyst-downgrade-2026-08-12/",
+      "date": "2026-10-12",
+      "note": "검색 결과 요약 기준 2026-10-12 나스닥 종가 270.87 USD(-2.23%). 같은 페이지의 50일 범위는 268.22~419.70 USD. 기준일 직전 거래일(10-16) 종가는 찾지 못했다.",
+      "retrieved": "2026-10-17T17:38:06Z"
+    },
+    {
+      "id": "S44",
+      "type": "call",
+      "title": "AppLovin Corp (APP) Q2 2026 Earnings Call Highlights - GuruFocus (요약)",
+      "url": "https://www.gurufocus.com/news/9014732/applovin-corp-app-q2-2026-earnings-call-highlights-record-revenue-and-strategic-expansion-amid-model-timing-challenges",
+      "date": "2026-08-06",
+      "note": "2차 요약이고 원문은 아니다. 핵심 게임 광고 부문의 모델 개선 시점이 늦어진 것이 2분기 부진 원인이라고 경영진이 설명했다. 이커머스·소비자 광고 확장을 강조했다. FCF 전환율이 낮았던 이유는 세금과 이자 납부 시점 때문이라고 했다.",
+      "retrieved": "2026-10-17T17:38:06Z"
     }
   ],
   "facts": [
@@ -2679,20 +2706,118 @@
       "high": 1740000000,
       "source": "S39",
       "origin": "research"
+    },
+    {
+      "id": "F210",
+      "metric": "price",
+      "value": 270.87,
+      "unit": "USD/share",
+      "end": "2026-10-12",
+      "basis": "market",
+      "source": "S43",
+      "origin": "research"
+    },
+    {
+      "id": "F211",
+      "metric": "shares_outstanding",
+      "value": 335291000,
+      "unit": "shares",
+      "end": "2026-06-30",
+      "basis": "market",
+      "source": "S42",
+      "origin": "research"
+    },
+    {
+      "id": "F212",
+      "metric": "ocf",
+      "value": 869000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S42",
+      "origin": "research"
+    },
+    {
+      "id": "F213",
+      "metric": "ocf",
+      "value": 772200000,
+      "unit": "USD",
+      "period": "FY2025Q2",
+      "end": "2025-06-30",
+      "basis": "reported",
+      "source": "S42",
+      "origin": "research"
+    },
+    {
+      "id": "F214",
+      "metric": "capex",
+      "value": 1400000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S42",
+      "origin": "research"
+    },
+    {
+      "id": "F215",
+      "metric": "capex",
+      "value": 40000,
+      "unit": "USD",
+      "period": "FY2025Q2",
+      "end": "2025-06-30",
+      "basis": "reported",
+      "source": "S42",
+      "origin": "research"
+    },
+    {
+      "id": "F216",
+      "metric": "free_cash_flow",
+      "value": 863300000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S42",
+      "origin": "research"
+    },
+    {
+      "id": "F217",
+      "metric": "free_cash_flow",
+      "value": 768100000,
+      "unit": "USD",
+      "period": "FY2025Q2",
+      "end": "2025-06-30",
+      "basis": "reported",
+      "source": "S42",
+      "origin": "research"
+    },
+    {
+      "id": "F218",
+      "metric": "buybacks",
+      "value": 551300000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S42",
+      "origin": "research"
     }
   ],
   "as_of": "2026-10-18",
   "collected": "2026-10-17T17:14:34Z",
   "gaps": [
-    "기준일(2026-10-18) 현재 주가를 찾지 못했다. 가장 가까운 날짜가 있는 값이 9월 1일 종가 312.06 USD이고, 9월 말~10월 초 뉴스는 52주 신저가를 언급한다. 현재가는 이보다 낮을 수 있으니 재확인이 필요하다.",
-    "연간 매출 컨센서스(FY2026·FY2027)를 찾지 못했다. variant perception을 검증할 수 없다.",
-    "최근 4분기 어닝콜 원문과 핵심 Q&A를 확보하지 못했다. 요약 출처(Yahoo Finance, Barchart)만 확인했다.",
-    "과거 분기 가이던스(FY2025Q1~FY2026Q2)가 수집분에 없다. 경영진 적중률을 낼 수 없다.",
+    "기준일 직전 거래일(2026-10-16) 종가를 찾지 못했다. 가장 가까운 값은 10-12 종가 270.87 USD이고 4거래일 오래됐다. 옛 가격 F206(312.06 USD, 9월 1일)은 사실이라 지울 수 없다. 최신 날짜인 270.87 USD를 쓰고, 9월 1일 값보다 약 13% 낮다는 점을 감안해야 한다.",
+    "TTM 계산에 필요한 FY2025Q3·FY2025Q4 분기별 영업현금흐름과 설비투자를 찾지 못했다. FY2025Q3와 Q4 값은 10-Q와 10-K의 YTD 값에서 차감해야 나온다. 이번에 확보한 것은 FY2026Q2와 FY2025Q2뿐이다. FY2026Q1 ocf는 기존 F119(12.9억)가 있다.",
+    "FY2025 연간 capex(10-K 현금흐름표)를 확인하지 못했다. FY2026Q2 capex는 140만 USD로 극히 작다.",
+    "연간 매출 컨센서스(FY2026·FY2027)를 찾지 못했다. variant perception을 검증할 수 없다. 3분기 가이던스 중간값이 컨센서스보다 약 0.6% 낮았다는 보도(S40)만 있다.",
+    "어닝콜 원문과 Q&A를 확보하지 못했다. 요약(S44, S33)만 있다.",
+    "과거 분기 가이던스(FY2025Q1~FY2026Q2)를 찾지 못했다. 경영진 적중률을 낼 수 없다.",
     "운영 KPI(이커머스·소비자 광고 매출 비중, 광고주 수, 모델 개선 일정)를 확인하지 못했다.",
-    "회계 품질 단서(감사의견, 감사인 변경, 정정 여부, 특수관계자 거래, Non-GAAP 조정 내역)는 10-K 본문에서 확인하지 못했다.",
-    "FY2025 4분기 이후 영업현금흐름과 설비투자의 분기 값이 수집분에 없다(OCF는 FY2025Q1·FY2026Q1만 있음).",
-    "법적·규제 리스크(Unity와의 데이터 수집 분쟁, 샌디에이고 시의 아동 대상 선정 광고 소송, 9월말~10월초 보도 기준)의 1차 공시 근거가 없다.",
-    "발행 주식 수(shares_outstanding)는 별도로 확인하지 못했다. 희석 주식 수는 수집된 XBRL 값(약 3.4억 주)을 쓴다."
+    "회계 품질 단서(감사의견, 감사인 변경, 정정, 특수관계자 거래, Non-GAAP 조정 내역)를 확인하지 못했다.",
+    "법적·규제 리스크(Unity 데이터 수집 분쟁, 샌디에이고 시의 아동 대상 광고 소송)는 보도(S22, S23, S28)뿐이다. 1차 공시 근거가 없다.",
+    "FY2025 4분기 이후 분기 단독 설비투자와 FY2025Q3·Q4 영업현금흐름은 별도 확인이 필요하다."
   ],
   "researched": "2026-10-18"
 }

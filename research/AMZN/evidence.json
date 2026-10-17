@@ -334,6 +334,42 @@
       "date": "2026-08-01",
       "note": "FY2026 매출 컨센서스 약 $828.9B (실적 후 +0.5% 상향), 3분기 매출 컨센서스 약 $202B. Visible Alpha 실적 전 컨센서스: 3분기 매출 $203.9B, 영업이익 $25.4B, 2026 capex $206.1B. 날짜는 8월 기사로 추정. 단일 출처, 2027 컨센서스 없음",
       "retrieved": "2026-10-17T17:19:19Z"
+    },
+    {
+      "id": "S46",
+      "type": "filing",
+      "title": "Amazon 8-K Exhibit 99.1 — Q4 및 FY2025 실적 발표문",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000002/amzn-20251231xex991.htm",
+      "date": "2026-02-05",
+      "note": "FY2025Q4 매출 213,386백만, 영업이익 24,977백만, 영업현금흐름 54,459백만, 설비투자(purchases of property and equipment) 39,522백만. FY2025 연간 영업현금흐름 139,514백만, 설비투자 131,819백만. AWS Q4 매출 35,579백만, 영업이익 12,465백만. 2026년 1분기 가이던스: 매출 173,500~178,500백만, 영업이익 16,500~21,500백만",
+      "retrieved": "2026-10-17T17:42:18Z"
+    },
+    {
+      "id": "S47",
+      "type": "filing",
+      "title": "Amazon 8-K Exhibit 99.1 — 2026년 1분기 실적 발표문",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000012/amzn-20260331xex991.htm",
+      "date": "2026-04-29",
+      "note": "FY2026Q1 매출 181,519백만, 영업현금흐름 26,032백만, 설비투자 44,203백만",
+      "retrieved": "2026-10-17T17:42:18Z"
+    },
+    {
+      "id": "S48",
+      "type": "filing",
+      "title": "Amazon 8-K Exhibit 99.1 — 2026년 2분기 실적 발표문",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260630xex991.htm",
+      "date": "2026-07-30",
+      "note": "FY2026Q2 매출 200,606백만, 영업현금흐름 45,387백만(TTM 161,403백만), 설비투자 54,208백만(상반기 98,411백만, TTM 173,028백만). AWS Q2 매출 42,232백만, 영업이익 16,621백만. 3분기 가이던스 매출 197,000~202,000백만, 영업이익 22,500~26,500백만. 수주잔고(backlog) 수치는 발표문에 없음. Graviton 매출 약정이 전 분기 대비 약 3배 증가했다고 서술",
+      "retrieved": "2026-10-17T17:42:18Z"
+    },
+    {
+      "id": "S49",
+      "type": "filing",
+      "title": "Amazon 8-K Exhibit 99.1 — 2025년 3분기 실적 발표문",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000121/amzn-20250930xex991.htm",
+      "date": "2025-10-30",
+      "note": "FY2025Q3 매출 180,169백만, 영업현금흐름 35,525백만, 설비투자 35,095백만(3분기 누적 92,297백만)",
+      "retrieved": "2026-10-17T17:42:18Z"
     }
   ],
   "facts": [
@@ -1889,23 +1925,181 @@
       "basis": "consensus",
       "source": "S45",
       "origin": "research"
+    },
+    {
+      "id": "F142",
+      "metric": "capex",
+      "value": 131819000000,
+      "unit": "USD",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "source": "S46",
+      "origin": "research"
+    },
+    {
+      "id": "F143",
+      "metric": "revenue",
+      "value": 213386000000,
+      "unit": "USD",
+      "period": "FY2025Q4",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "source": "S46",
+      "origin": "research"
+    },
+    {
+      "id": "F144",
+      "metric": "ocf",
+      "value": 54459000000,
+      "unit": "USD",
+      "period": "FY2025Q4",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "source": "S46",
+      "origin": "research"
+    },
+    {
+      "id": "F145",
+      "metric": "capex",
+      "value": 39522000000,
+      "unit": "USD",
+      "period": "FY2025Q4",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "source": "S46",
+      "origin": "research"
+    },
+    {
+      "id": "F146",
+      "metric": "operating_income",
+      "value": 24977000000,
+      "unit": "USD",
+      "period": "FY2025Q4",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "source": "S46",
+      "origin": "research"
+    },
+    {
+      "id": "F147",
+      "metric": "capex",
+      "value": 35095000000,
+      "unit": "USD",
+      "period": "FY2025Q3",
+      "end": "2025-09-30",
+      "basis": "reported",
+      "source": "S49",
+      "origin": "research"
+    },
+    {
+      "id": "F148",
+      "metric": "capex",
+      "value": 44203000000,
+      "unit": "USD",
+      "period": "FY2026Q1",
+      "end": "2026-03-31",
+      "basis": "reported",
+      "source": "S47",
+      "origin": "research"
+    },
+    {
+      "id": "F149",
+      "metric": "capex",
+      "value": 54208000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S48",
+      "origin": "research"
+    },
+    {
+      "id": "F150",
+      "metric": "aws_revenue",
+      "value": 35579000000,
+      "unit": "USD",
+      "period": "FY2025Q4",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "source": "S46",
+      "origin": "research"
+    },
+    {
+      "id": "F151",
+      "metric": "aws_operating_income",
+      "value": 12465000000,
+      "unit": "USD",
+      "period": "FY2025Q4",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "source": "S46",
+      "origin": "research"
+    },
+    {
+      "id": "F152",
+      "metric": "aws_revenue",
+      "value": 42232000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S48",
+      "origin": "research"
+    },
+    {
+      "id": "F153",
+      "metric": "aws_operating_income",
+      "value": 16621000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S48",
+      "origin": "research"
+    },
+    {
+      "id": "F154",
+      "metric": "revenue",
+      "value": 175500000000,
+      "low": 173500000000,
+      "high": 178500000000,
+      "unit": "USD",
+      "period": "FY2026Q1",
+      "end": "2026-03-31",
+      "basis": "guidance",
+      "source": "S46",
+      "origin": "research"
+    },
+    {
+      "id": "F155",
+      "metric": "operating_income",
+      "value": 19000000000,
+      "low": 16500000000,
+      "high": 21500000000,
+      "unit": "USD",
+      "period": "FY2026Q1",
+      "end": "2026-03-31",
+      "basis": "guidance",
+      "source": "S46",
+      "origin": "research"
     }
   ],
   "as_of": "2026-10-18",
   "collected": "2026-10-17T17:18:45Z",
   "gaps": [
-    "10월 14~16일 종가를 찾지 못했다. 가격은 10월 13일 종가이고 2차 자료다. 1차 시세로 확인 필요",
-    "FY2027 매출·영업이익 컨센서스를 찾지 못했다. FY2026 컨센서스 $828.9B는 S&P Global 단일 출처이고 수집일이 8월이라 낡았을 수 있다",
-    "FY2024·FY2023 매출은 FY2025 10-K(S17)의 비교 연도 수치다. 검색으로 대조하지 않았고 기억에 의존했으니 코드 대조 필요",
-    "과거 가이던스(2025년 2분기~2026년 2분기)의 매출·영업이익 범위를 찾지 못했다. 경영진 적중률을 낼 수 없다",
-    "최근 4분기 어닝콜 원문과 Q&A, 투자자의 날·컨퍼런스 자료를 찾지 못했다",
-    "AWS·광고·북미·해외 부문별 매출과 영업이익 사실, AWS 수주잔고(backlog)를 채우지 못했다",
-    "Prime Day 시점 효과(2026년 3분기 비교에 영향)는 가이던스 문구에서만 확인했다. 수치 사실은 없다",
-    "회계 품질 단서(감사의견, 감사인 변경, 재무제표 정정, 특수관계자 거래)를 별도 근거로 찾지 못했다. 10-K(S17)와 DEF 14A(S13)를 직접 읽어야 한다",
-    "FTC 광고 소송(S32)·해산물 지속가능성 소송(S27) 같은 규제·법적 리스크의 금액 영향은 찾지 못했다",
-    "DEF 14A(S13)의 보상 지표, 내부자 매매, 자사주 이력은 수치로 채우지 못했다",
-    "사실 충돌(cash·debt·ocf·net_income·sbc·equity 등): 같은 'FY2025'·'FY2026' 라벨에 분기말 시점(Q1·Q2·Q3) 값이 섞여 있다. 수집된 사실은 바꿀 수 없어 보강하지 않았다. 코드 쪽에서 기간 라벨을 분기(`Q1`~`Q3`)로 바로잡아야 한다",
-    "희석 주식 수는 FY2026Q2 109.0억 주(F46)를 쓸 수 있다. 시장 데이터용 최신 발행주식 수는 F119(2026-07-22, 107.863억 주)를 쓴다"
+    "어닝콜(type call) 원문·트랜스크립트는 찾지 못했다. S46~S49는 실적 발표문(8-K Exhibit 99.1)이며 콜이 아니다. 콜 Q&A·경영진 발언은 비어 있다",
+    "FY2025Q4 이전 가이던스(2025년 2~3분기, 2026년 2분기)의 매출·영업이익 범위는 찾지 못했다. 2026년 1분기 가이던스만 채웠고, 경영진 적중률은 표본이 1~2개뿐이다",
+    "AWS 수주잔고(backlog) 수치는 2분기 발표문에 없다. 부문별(광고·북미·해외) 매출·영업이익도 못 채웠다",
+    "FY2027 매출 컨센서스와 최신(10월) FY2026 컨센서스를 찾지 못했다. FY2026 컨센서스 828.9B는 8월 S&P 단일 출처다",
+    "주가는 10월 13일 종가(2차 자료)이고 10월 14~16일 종가는 찾지 못했다",
+    "회계 품질 단서(감사의견, 감사인 변경, 정정, 특수관계자 거래)와 DEF 14A 보상 지표, 내부자 매매는 별도 근거로 채우지 못했다",
+    "FTC 광고 소송 등 규제·법적 리스크의 금액 영향은 찾지 못했다",
+    "FY2023·FY2024 매출(F133·F134)은 검색으로 대조하지 않았다. 이번 조회로 확인한 것은 FY2025 분기 4개의 합계(155.67+167.70+180.17+213.39=716.9B)가 F103 7,169.2억과 일치한다는 점뿐이다",
+    "수집된 사실의 기간 라벨 충돌(같은 FY2025·FY2026에 분기말 시점 값이 섞임, 예: cash·debt·equity·total_assets)은 보강분으로 바꿀 수 없다. 코드 쪽에서 분기 라벨로 바로잡아야 한다",
+    "연간 FY2025 ocf는 충돌 사실 중 F83=1,395.1억만 S46의 139,514백만과 일치한다. 나머지 FY2025 라벨 값(F81·F82)은 분기말 TTM 값으로 보인다",
+    "TTM ocf(2026-06-30) 161,403백만은 S48과 F85가 일치한다. TTM 설비투자(173,028백만)는 사실로 넣지 않았다. 계산은 코드가 한다",
+    "총 설비투자와 FCF 정의: S48의 TTM FCF -7,604백만은 인센티브 차감 후 순액(169,007백만)을 쓴 값이라 총 설비투자 기준 FCF와 다르다. 두 정의가 섞이지 않게 주의"
   ],
   "researched": "2026-10-18"
 }
