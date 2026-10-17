@@ -27,8 +27,11 @@ XBRL = {  # metric → (단위 종류, 태그 우선순위). 회사마다 태그
     "pretax_income": ("money", [G + "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
                                 I + "ProfitLossBeforeTax"]),
     "income_tax": ("money", [G + "IncomeTaxExpenseBenefit", I + "IncomeTaxExpenseContinuingOperations"]),
-    "ocf": ("money", [G + "NetCashProvidedByUsedInOperatingActivities", I + "CashFlowsFromUsedInOperatingActivities"]),
-    "capex": ("money", [G + "PaymentsToAcquirePropertyPlantAndEquipment", I + "PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities"]),
+    "ocf": ("money", [G + "NetCashProvidedByUsedInOperatingActivities", I + "CashFlowsFromUsedInOperatingActivities",
+                      G + "NetCashProvidedByUsedInOperatingActivitiesContinuingOperations"]),
+    "capex": ("money", [G + "PaymentsToAcquirePropertyPlantAndEquipment", I + "PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+                        G + "PaymentsToAcquireProductiveAssets", G + "PaymentsToAcquirePropertyPlantAndEquipmentAndIntangibleAssets",
+                        G + "PaymentsToAcquireOtherPropertyPlantAndEquipment"]),
     "sbc": ("money", [G + "ShareBasedCompensation", G + "AllocatedShareBasedCompensationExpense"]),
     "rnd": ("money", [G + "ResearchAndDevelopmentExpense", I + "ResearchAndDevelopmentExpense"]),
     "d_and_a": ("money", [G + "DepreciationDepletionAndAmortization", G + "DepreciationAndAmortization",
@@ -107,23 +110,58 @@ def sec_facts(cik, cf, as_of):
     for o in sorted(own.values(), key=lambda o: o["filed"]):
         if o["fy"] and o["fp"] in ("FY", "Q1", "Q2", "Q3"):
             labels.setdefault(o["end"], f"FY{o['fy']}" + ("" if o["fp"] == "FY" else o["fp"]))
+    by_label = {}
+    for e, lb in labels.items():  # 같은 라벨이 서로 다른 기간 말에 붙으면(제출서의 fy 오기) 연도가 가장 맞는 쪽만 라벨을 갖는다
+        by_label.setdefault(lb, []).append(e)
+    for lb, es in by_label.items():
+        if len(es) > 1:
+            keep = min(es, key=lambda e: (abs(int(e[:4]) - int(lb[2:6])), e))
+            for e in es:
+                if e != keep:
+                    del labels[e]  # 연간이면 아래 label()이 종료 연도로, 분기면 버린다
     span = lambda r: (date.fromisoformat(r["end"]) - date.fromisoformat(r["start"])).days if r.get("start") else None
     kind_of = lambda r: ("instant" if r.get("start") is None else "annual" if 340 <= span(r) <= 380
                          else "quarter" if 80 <= span(r) <= 100 else None)
-    best = {}
+    best, ytd = {}, {}
     for metric, rs in recs.items():
         for r in rs:
             k = kind_of(r)
+            if k == "annual" and re.match(r"^FY\d{4}Q\d$", labels.get(r["end"], "")):
+                continue  # 분기 말에 끝나는 12개월 값(일부 회사가 10-Q에 싣는 TTM 열)은 연간이 아니다
             if k and (metric in STOCK_METRICS) == (k == "instant"):
                 key = (metric, k, r["end"])
                 if key not in best or (r["pri"], -_ord(r["filed"])) < (best[key]["pri"], -_ord(best[key]["filed"])):
                     best[key] = r
+            elif k is None and r.get("start") and metric not in STOCK_METRICS and metric != "diluted_shares":
+                n = 2 if 170 <= span(r) <= 195 else 3 if 260 <= span(r) <= 290 else None  # 반기·3분기 누적(YTD)
+                key = (metric, n, r["end"])
+                if n and (key not in ytd or (r["pri"], -_ord(r["filed"])) < (ytd[key]["pri"], -_ord(ytd[key]["filed"]))):
+                    ytd[key] = r
+    # 매출: 우선 태그가 일부만 담는 회사(예: 금융 매출이 ASC 606 밖)는 총매출 태그가 5% 넘게 크다 — 같은 시점·더 최신 제출이면 총매출을 쓴다
+    for (metric, k, e), r in list(best.items()):
+        if metric == "revenue" and k != "instant":
+            alt = [x for x in recs[metric] if x["end"] == e and kind_of(x) == k and x["pri"] > r["pri"]
+                   and x["val"] > 1.05 * r["val"] > 0 and _ord(x["filed"]) >= _ord(r["filed"])]
+            if alt:
+                best[(metric, k, e)] = max(alt, key=lambda x: (_ord(x["filed"]), -x["pri"]))
+    # Q2·Q3 흐름 지표가 누적(YTD)으로만 있으면 분기 값 = 이번 누적 − 직전 누적(Q2는 Q1) (코드 계산, derived)
+    for (metric, n, e), r in sorted(ytd.items(), key=lambda kv: kv[0][2]):
+        if (metric, "quarter", e) in best:
+            continue
+        prev = [x for x in (best.values() if n == 2 else ytd.values()) if x is not r and x.get("start") == r["start"]
+                and x["end"] < e and (kind_of(x) == "quarter" if n == 2 else 170 <= span(x) <= 195)
+                and recs and x in recs.get(metric, [])]
+        if prev:
+            p = max(prev, key=lambda x: x["end"])
+            best[(metric, "quarter", e)] = {**r, "val": r["val"] - p["val"], "derived": True,
+                                            "note": f"Q{n} = {n * 3}개월 누적 − {(n - 1) * 3}개월 누적 (코드 계산)"}
     annual = sorted({e for (m, k, e) in best if k == "annual"})[-ANNUAL_YEARS:]
     quarter = sorted({e for (m, k, e) in best if k == "quarter" and re.match(r"^FY\d{4}Q[1-3]$", labels.get(e, ""))})[-QUARTERS:]
     label = lambda e: labels.get(e) if re.match(r"^FY\d{4}$", labels.get(e, "")) else f"FY{e[:4]}"
     out = []
     fact = lambda m, r, period, **kw: dict(metric=m, value=r["val"], unit=r["unit"], period=period, end=r["end"],
-                                           basis="reported", origin="sec", accn=r["accn"], form=r["form"], filed=r["filed"], **kw)
+                                           basis="reported", origin="sec", accn=r["accn"], form=r["form"], filed=r["filed"],
+                                           **({"derived": True, "note": r["note"]} if r.get("derived") else {}), **kw)
     for (m, k, e), r in sorted(best.items()):
         if k == "annual" and e in annual:
             out.append(fact(m, r, label(e)))

@@ -72,6 +72,23 @@ class Sec(unittest.TestCase):
         self.assertEqual(fx.warnings, [])
         self.assertEqual([f["key"] for f in calc.forensic([], fx)], ["restatement"])
 
+    def test_ttm_columns_total_revenue_and_ytd_quarters(self):
+        cf = {"facts": {"us-gaap": {
+            "RevenueFromContractWithCustomerExcludingAssessedTax": {"units": {"USD": [
+                rec("2025-01-01", "2025-12-31", 70, *K25), rec("2025-01-01", "2025-03-31", 15, *Q[1]),
+                rec("2025-04-01", "2025-06-30", 17, *Q[2]), rec("2025-07-01", "2025-09-30", 18, *Q[3])]}},
+            "Revenues": {"units": {"USD": [rec("2025-01-01", "2025-12-31", 100, *K25)]}},           # 총매출이 5% 넘게 크다 → 총매출
+            "NetCashProvidedByUsedInOperatingActivities": {"units": {"USD": [
+                rec("2025-01-01", "2025-12-31", 40, *K25), rec("2024-07-01", "2025-06-30", 33, *Q[2]),  # 10-Q의 TTM 열 → 연간 아님
+                rec("2025-01-01", "2025-03-31", 8, *Q[1]), rec("2025-01-01", "2025-06-30", 19, *Q[2]),
+                rec("2025-01-01", "2025-09-30", 29, *Q[3])]}}}}}
+        got = {(f["metric"], f["period"]): f for f in collect.sec_facts(1, cf, "2026-04-30")}
+        self.assertEqual(got[("revenue", "FY2025")]["value"], 100)
+        self.assertEqual(got[("ocf", "FY2025")]["value"], 40)
+        self.assertNotIn(("ocf", "FY2024"), got)
+        self.assertEqual([got[("ocf", f"FY2025Q{n}")]["value"] for n in (1, 2, 3, 4)], [8, 11, 10, 11])
+        self.assertTrue(got[("ocf", "FY2025Q2")]["derived"] and not got[("ocf", "FY2025Q1")].get("derived"))
+
     def test_recollect_keeps_ids_and_research_facts(self):
         with mock.patch.object(collect, "fetch", sec_fetch):
             collect.collect(self.d, "TEST", as_of="2026-04-30")
