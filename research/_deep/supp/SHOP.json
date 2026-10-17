@@ -1,0 +1,775 @@
+{
+ "sources": [
+  {
+   "id": "S900",
+   "type": "news",
+   "title": "Shopify merchants to pay 4% fee on sales made through ChatGPT checkout (PYMNTS)",
+   "url": "https://www.pymnts.com/news/ecommerce/2026/shopify-merchants-to-pay-4percent-fee-on-sales-made-through-chatgpt-checkout",
+   "note": "보도(2026-01-21, The Information 보도와 Shopify 대변인 인용). OpenAI가 ChatGPT 체크아웃으로 팔린 매출에 대해 가맹점에 4% 수수료를 부과한다. 이 수수료는 'Shopify가 받는 수수료에 더해(on top of)' 붙는다. Google AI Mode·Gemini·Microsoft Copilot 판매에는 '당분간(for now)' 추가 수수료가 없다. 추가 수수료가 없는 플랫폼에서만 상품이 기본으로 판매되고, 수수료를 받는 플랫폼(ChatGPT)은 가맹점이 직접 선택(opt-in)해야 한다. 의미: AI 채널이 Shopify 결제 경로 위에 중개 수수료를 얹은 첫 사례. 앤더슨의 수동 반증 조건('AI 채널이 기본 체크아웃 경로에서 Shopify를 빼거나 중개 수수료를 요구')에 해당하는 사건이 토론 전인 2026년 1월에 이미 있었다. 다만 2026년 2분기 실적(매출 +34%, 결제 침투율 68%)에는 아직 영향이 보이지 않는다.",
+   "date": "2026-01-21"
+  },
+  {
+   "id": "S901",
+   "type": "news",
+   "title": "What It Means That The Leader In Agentic Commerce Just Pulled Back (Forrester blog)",
+   "url": "https://www.forrester.com/blogs/what-it-means-that-the-leader-in-agentic-commerce-just-pulled-back",
+   "note": "2차(애널리스트 블로그). 게시일은 표시되지 않았다. 날짜는 글이 다루는 사건일인 2026-03-06(금)을 썼다. OpenAI가 ChatGPT 안에서 주문을 끝내는 Instant Checkout을 축소(scale back)했고, OpenAI는 이를 '일시적(temporary)'이라고 했다. 체크아웃은 ChatGPT 안의 가맹점 앱이나 가맹점 웹사이트로 넘어간다. 2025년 말 OpenAI 제휴로 만든 Shopify Payments 기반 ChatGPT 네이티브 체크아웃은 '이제 없어졌다(now gone)'. Shopify는 ChatGPT에 카탈로그 공급(신디케이션)은 계속한다. 카탈로그 서비스에 실제로 연결된 가맹점은 약 12곳(The Information 보도)이었고, Shopify는 Forrester에 약 30곳이라고 했다. 리서치 노트는 이를 비Shopify 가맹점(Agentic plan) 수로 보았고, 원문 표현은 다시 확인해야 한다. Forrester 설문에서 '답변 엔진 안에서 구매 완료'는 가장 덜 쓰이는 용도였다. 의미: 가장 큰 AI 채널(ChatGPT)이 Shopify 기본 체크아웃을 경로에서 뺀 두 번째 사례(2026년 3월, 토론 전). 앤더슨 수동 반증 조건의 과거 발생 사례다. 수수료(S900)와 체크아웃 위치를 정하는 쪽은 Shopify가 아니라 AI 플랫폼이라는 점을 보여 준다.",
+   "date": "2026-03-06"
+  },
+  {
+   "id": "S902",
+   "type": "news",
+   "title": "The agentic commerce platform: Shopify connects any merchant to every AI conversation (Shopify)",
+   "url": "https://www.shopify.com/news/ai-commerce-at-scale",
+   "note": "회사 발표(2026-01-11). (1) Universal Commerce Protocol(UCP)을 Google과 공동 개발했다. UCP는 REST·MCP·AP2·A2A 위에서 동작하는 개방 표준이고, Shopify Payments를 포함한 모든 결제 처리사와 쓸 수 있다. (2) Agentic Storefronts: 가맹점이 Shopify Admin에서 ChatGPT·Copilot·Google AI Mode·Gemini로 상품을 공급한다. (3) Copilot Checkout: Microsoft Copilot 안에 넣은 체크아웃. Keen·Pura Vida가 사용한다. (4) Agentic plan: Shopify 스토어가 없는 브랜드도 Shopify Catalog(수십억 개 상품)에 등록할 수 있다. Gymshark·Monos·Everlane이 Google AI Mode·Gemini에서 판매한다. 발표문에는 수수료와 AI 주문 지표가 없다. 회사 발표만으로 해자를 입증할 수는 없다.",
+   "date": "2026-01-11"
+  },
+  {
+   "id": "S903",
+   "type": "news",
+   "title": "Shopify embraces Meta's Muse across all stores as Amazon blocks it (Forkast)",
+   "url": "https://forkast.news/shopify-embraces-metas-muse-across-all-stores-as-amazon-blocks-it-and-the-merchant-landscape-splits-in-two/",
+   "note": "보도(2차). 2026-09-21에 Shop Pay가 Meta Muse 안에서 가동을 시작했다. Muse의 체크아웃 경로는 Shopify 가맹점은 Shop Pay, 그 밖의 가맹점은 Stripe Link, 그리고 대체 수단으로 브라우저 자동화다. 같은 날 Amazon은 자사 마켓플레이스에서 Muse를 차단했다. 2025년 12월에 출시한 Agentic Storefronts로 미국에서 판매하는 대상 스토어는 모두 기본으로 노출된다. Shopify 수치를 인용한 보도에 따르면 2026년 1분기 Shopify 스토어로 오는 AI 유입 트래픽은 전년 대비 8배, AI 검색 경유 주문은 약 13배다. 출발 규모는 공개되지 않았고 작을 가능성이 크다. Muse·Shop Pay가 대규모로 안정적으로 돈다는 공개 자료는 아직 없다.",
+   "date": "2026-09-22"
+  },
+  {
+   "id": "S904",
+   "type": "news",
+   "title": "Shopify Q2 2026 Earnings (EcomCrew)",
+   "url": "https://www.ecomcrew.com/shopify-q2-2026-earnings/",
+   "note": "2차(콜·자료 요약). 보도자료에는 결제 처리액(GPV)과 침투율 변화가 없어 이 출처를 쓴다. 2026년 2분기 결제 침투율은 GMV의 68%로 전년 64%에서 올랐다. Shopify Payments 처리 GMV는 $78.1B로 전년 $56.6B에서 38% 늘었다. 가맹점 솔루션 매출의 전년 대비 증가분 $757M 가운데 $624M(약 82%)이 결제에서 나왔다. 가맹점 솔루션에는 결제 말고도 Capital·배송 라벨·추천 수수료·하드웨어·광고가 들어간다. R&D는 $445M(+13%). 참고: AI 콜 요약(S905)은 침투율이 '전년 대비 3%p 올라 68%'라고 해 이 출처(+4%p)와 다르다. 콜 원문으로 확인해야 한다.",
+   "date": "2026-08-10"
+  },
+  {
+   "id": "S905",
+   "type": "call",
+   "title": "SHOP 2Q26 AI Summary (Platform Aeronaut)",
+   "url": "https://transcripts.platformaeronaut.com/summaries/SHOP-2Q26-AI-Summary",
+   "note": "2차, AI가 만든 콜 요약이고 원문과 대조하지 않았다. 날짜는 콜 날짜다. 2026년 2분기 Shop Pay GMV +53%, 해외 GMV +37%, 북미 GMV +28%, 오프라인(POS) GMV +32%, B2B GMV +76%. 3분기 FCF 마진 가이던스('후반 10%대~초반 20%대')에는 '가맹점 현금 선지급(MCA) 회계 변경에서 오는 1%p 미만의 순풍'이 들어 있다. 환율 영향은 크지 않을 것으로 본다. 경영진은 매출총이익 성장이 매출 성장보다 낮은 이유를 매출 구성 변화와 결제 강세로 설명했다. 결제 침투율은 '전년 대비 3%p 올라 68%'라고 했다(S904는 64%→68%).",
+   "date": "2026-08-05"
+  },
+  {
+   "id": "S906",
+   "type": "filing",
+   "title": "Shopify 10-Q 2026년 2분기 — 신용손실·MCA 현금흐름 표시·자사주·지분 투자 세부",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001594805/000159480526000047/shop-20260630.htm",
+   "note": "S1과 같은 10-Q다. 리서치 노트에서 읽은 세부를 담는다. [MCA 현금흐름 재분류] 10-Q는 '가맹점 현금 선지급(MCA) 관련 현금흐름은 투자활동 현금흐름에 표시한다'고 쓰고, 중요한 회계정책에는 '중요한 변경이 없다'고 한다. 2분기 콜에서 회사는 3분기 FCF 마진 가이던스에 MCA 회계 변경 효과가 1%p 미만 들어 있다고 했다(S905). 의미: MCA 지급(현금 유출)이 투자활동에 있으면 Capital 대출 잔액이 늘어도 영업현금흐름과 FCF가 줄지 않는다. 같은 기준으로 보려면 대출·MCA 순증가분을 FCF에서 빼 봐야 한다. 변경의 정확한 범위·시점과 과거 기간 재작성 여부는 확인하지 못했다(10-Q를 일부만 읽음). [신용손실] 거래·대출 손실은 2분기 $141M으로 전년 $80M에서 76% 늘었다. 상반기는 $257M으로 전년 $155M이었다. 대출·MCA 순액(유동)은 2026-06-30 $2,184M으로 2025-12-31 $1,784M에서 늘었다. 매출보다 빠르게 늘고 있다. [자사주] 2026년 1분기에 4,214,019주를 $521M에, 2분기에 12,645,957주를 $1,445M에 매입했다. 주당 평균 약 $124(1분기)와 약 $114(2분기)는 리서치 노트의 계산값이고 공시 수치가 아니다. 상반기 자사주 현금 지급액은 $1,911M이다(현금흐름 기준 1분기 $491M + 2분기 $1,420M, F3·F4와 일치). 2분기 매입 가치 $1,445M과 현금 지급 $1,420M의 차이 $25M은 결제 시점 차이로 보이지만 맞춰 보지 않았다. 매입 한도와 잔여 한도는 확인하지 못했다. 참고: 2026-05-06 주가는 $107.37(S907)이었다. [지분 투자] 상장 지분증권은 2026-06-30 $2,703M(2025-12-31 $2,986M)이다. Affirm $1,655M, Global-E $768M, Klaviyo $280M(연말 $599M). 공정가치를 쉽게 알 수 없는 지분 투자(비상장) 장부가는 $1,555M이고, 비상장사 전환사채는 $587M이다. 지분·기타 투자의 순미실현이익은 2분기 $1,249M, 상반기 $185M이다. 보이는 재무상태표에 차입금 항목은 없다. 장기 투자 $525M(F215)과 비상장 지분이 겹치는지는 확인하지 못했다. [주식 수] 2026-07-31 기준 Class A 1,208.6M주, Class B 78.1M주, Founder Share 1주.",
+   "date": "2026-08-05"
+  },
+  {
+   "id": "S907",
+   "type": "news",
+   "title": "Shopify eyes 7% upside after brutal selloff (Yahoo Finance)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/shopify-eyes-7-upside-brutal-173423864.html",
+   "note": "보도. 2026-05-06 주가 $107.37, 연초 대비 −33.1%. 당시 평균 목표주가 $159.49, Buy 39·Sell 1. 기사 안에 날짜와 52주 최고가가 서로 맞지 않는 곳이 있어 주가 수준만 쓴다.",
+   "date": "2026-05-06"
+  },
+  {
+   "id": "S908",
+   "type": "news",
+   "title": "Shopify stock drops 16% after Q1 beat: is the selloff an overreaction? (TIKR)",
+   "url": "https://www.tikr.com/blog/shopify-stock-drops-16-after-q1-beat-is-the-selloff-an-overreaction?",
+   "note": "2차. 2026년 1분기(2026-05-05 발표): 매출 $3.2B(+34%), GMV $101B(+35%), FCF $476M(마진 15%). 가맹점 솔루션 총이익률 39%, 구독 솔루션 80%로 둘 다 전년과 비슷하다. 거래·대출 손실률은 매출의 3.7%로 전년 3.2%에서 올랐다. 1분기 발표 때 낸 2분기 가이던스: 매출 성장 '높은 20%대(high-20s)', 매출총이익 '중간 20%대(mid-20s)', FCF 마진 '중간 10%대(mid-teens)'. 발표 뒤 주가는 약 16% 떨어졌다. 가이던스 사실의 범위(0.27~0.29, 0.24~0.26, 0.14~0.16)는 기존 F217('low-thirties'→0.30~0.33)과 같은 말→숫자 관례로 옮긴 것이다. 실제 2분기 실적은 매출 +34%, 매출총이익 +31%, FCF 마진 18%(S41)였다.",
+   "date": "2026-05-06"
+  },
+  {
+   "id": "S909",
+   "type": "data",
+   "title": "Shopify (SHOP) Earnings Forecasts (Benzinga)",
+   "url": "https://www.benzinga.com/quote/SHOP/earnings-forecasts",
+   "note": "컨센서스 집계. 페이지에 기준일이 없다. 2분기 실적(2026-08-05) 뒤의 값이고, 날짜는 조회일(2026-10-18)을 썼다. 매출 컨센서스: 2026년 3분기 $3.74B, 4분기 $4.75B. EPS 컨센서스: 2026년 3분기 $0.43, 4분기 $0.62, 2027년 1분기 $0.27, 2027년 2분기 $0.40. EPS 기준(조정·GAAP)과 애널리스트 수는 표시되지 않았다. 3분기 매출 컨센서스 $3.74B는 회사 가이던스('저 30%대' 성장) 범위 안이다. FY2026 연간 컨센서스는 이 출처에 없다. 리서치 노트의 약 $15.24B는 상반기 실적과 3·4분기 컨센서스를 리서처가 더한 값이라 사실로 넣지 않는다. 2분기 전 자료인 F221($14.69B, S42)보다 새 정보다.",
+   "date": "2026-10-18"
+  },
+  {
+   "id": "S910",
+   "type": "data",
+   "title": "Shopify (SHOP) Stock Price Target & Analyst Ratings (MarketBeat)",
+   "url": "https://www.marketbeat.com/stocks/NASDAQ/SHOP/price-target/",
+   "note": "2026-10-16 기준 애널리스트 48명, 컨센서스 'Moderate Buy'(Strong Buy 2·Buy 36·Hold 10·Sell 0). 평균 목표주가 $175.89(현재가 대비 +3.8%), 최고 $210(Stifel, 2026-10-14), 최저 $130(Rothschild & Co Redburn으로 보임, 2026-07-21 하향). 최근 변경: 2026-10-16 RBC Outperform $180→$200; 2026-10-14 Stifel Buy $180→$210; 2026-10-14 Baird Outperform $160→$190; 2026-10-12 Cantor Neutral $145→$158; 2026-10-06 JPMorgan Overweight $185→$200; 2026-09-24 Mizuho $180; 2026-09-23 Wedbush Outperform $176; 2026-09-10 Bernstein Outperform 신규 $160. 최근 변경은 모두 상향이다. 평균 목표주가가 현재가에 가까워 컨센서스 기준 상승 여지는 작다.",
+   "date": "2026-10-16"
+  },
+  {
+   "id": "S911",
+   "type": "news",
+   "title": "Amazon and Shopify now control nearly half of U.S. e-commerce (EcomCrew)",
+   "url": "https://www.ecomcrew.com/amazon-and-shopify-now-control-nearly-half-of-u-s-e-commerce/",
+   "note": "2차, 약한 출처. 2025년 미국 이커머스 점유율: Amazon 35.7%(약 $440B, Forbes는 37.6%), Shopify 14%(2024년 12%). Shopify 수치는 원출처가 적혀 있지 않아 방향성만 본다. Walmart 6.4%, Apple 3.6%, eBay 3%. Amazon과 Shopify 합계 49.7%(Marketplace Pulse 인용), 2021년 약 43%.",
+   "date": "2026-02-27"
+  },
+  {
+   "id": "S912",
+   "type": "news",
+   "title": "Ecommerce platform market share 2026 (Visionary Marketing)",
+   "url": "https://visionary-marketing.co.uk/blog/ecommerce-platform-market-share-2026",
+   "note": "약한 출처: 에이전시가 스토어 약 84,000곳을 크롤링한 자료(2026년 2~3월, 2026년 1분기)이고 독립 검증이 없다. 게시일은 확인하지 못했다. 스토어 수 점유율: Shopify(Plus 포함) 42.6%(2022년 31.8%), WooCommerce 24.6%(32.4%), Magento 8.4%(18.6%), 커스텀·헤드리스 9.4%. 매출 $32M 넘는 스토어 중 커스텀·헤드리스는 38.4%다. 대형 가맹점일수록 Shopify 밖 대안이 많다는 뜻이다. 같은 글은 Shopify의 2025년 GMV를 약 $31.2B로 추정했는데, 실제 공시 GMV(2026년 2분기 한 분기만 $115.6B)와 크게 어긋난다. 그래서 스토어 수 점유율만 쓴다."
+  },
+  {
+   "id": "S913",
+   "type": "news",
+   "title": "Shopify's customer retention problem (The Globe and Mail)",
+   "url": "https://www.theglobeandmail.com/business/article-shopify-customer-retention-problem/",
+   "note": "낡은 자료: 2022년 가을 무렵 기사이고 정확한 날짜는 확인하지 못했다. Store Leads 도메인 데이터를 분석했다(2019~2021 코호트). 전체 Shopify 스토어의 1년 생존율은 약 34%(2019 코호트 36%, 2020 34%, 2021 32%)다. Shopify Plus의 1년 생존율은 2019 코호트 80%, 2020 72%, 2021 51%다. 2022년 MRR에서 Plus 비중은 31%였다. 떠난 가맹점은 주로 WooCommerce로 옮겼다. Shopify는 내부 데이터가 '크게 다르다(drastically different)'고 했지만 공개하지 않았다. Shopify는 지금도 가맹점 유지율·이탈률·NRR·CAC를 공개하지 않는다. 이 기사가 유일한 코호트 자료다."
+  }
+ ],
+ "facts": [
+  {
+   "metric": "merchant_solutions_revenue",
+   "value": 2024000000,
+   "unit": "USD",
+   "period": "FY2025Q2",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S41"
+  },
+  {
+   "metric": "subscription_solutions_revenue",
+   "value": 656000000,
+   "unit": "USD",
+   "period": "FY2025Q2",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S41"
+  },
+  {
+   "metric": "gross_profit_growth_yoy",
+   "value": 0.31,
+   "unit": "ratio",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S41"
+  },
+  {
+   "metric": "gmv_growth_yoy",
+   "value": 0.32,
+   "unit": "ratio",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S41"
+  },
+  {
+   "metric": "fcf_reported",
+   "value": 422000000,
+   "unit": "USD",
+   "period": "FY2025Q2",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S41"
+  },
+  {
+   "metric": "fcf_margin",
+   "value": 0.18,
+   "unit": "ratio",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S41"
+  },
+  {
+   "metric": "fcf_margin",
+   "value": 0.16,
+   "unit": "ratio",
+   "period": "FY2025Q2",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S41"
+  },
+  {
+   "metric": "net_income_ex_equity_investments",
+   "value": 439000000,
+   "unit": "USD",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S41"
+  },
+  {
+   "metric": "net_income_ex_equity_investments",
+   "value": 338000000,
+   "unit": "USD",
+   "period": "FY2025Q2",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S41"
+  },
+  {
+   "metric": "equity_investment_gain_net_of_tax",
+   "value": 1063000000,
+   "unit": "USD",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S41"
+  },
+  {
+   "metric": "gross_profit_growth_yoy",
+   "value": 0.27,
+   "unit": "ratio",
+   "period": "FY2026Q3",
+   "end": "2026-09-30",
+   "basis": "guidance",
+   "source": "S41",
+   "low": 0.25,
+   "high": 0.29
+  },
+  {
+   "metric": "transaction_loan_losses",
+   "value": 141000000,
+   "unit": "USD",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S906"
+  },
+  {
+   "metric": "transaction_loan_losses",
+   "value": 80000000,
+   "unit": "USD",
+   "period": "FY2025Q2",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S906"
+  },
+  {
+   "metric": "transaction_loan_losses",
+   "value": 257000000,
+   "unit": "USD",
+   "period": "FY2026H1",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S906"
+  },
+  {
+   "metric": "transaction_loan_losses",
+   "value": 155000000,
+   "unit": "USD",
+   "period": "FY2025H1",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S906"
+  },
+  {
+   "metric": "loans_and_mca_net_current",
+   "value": 2184000000,
+   "unit": "USD",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S906"
+  },
+  {
+   "metric": "loans_and_mca_net_current",
+   "value": 1784000000,
+   "unit": "USD",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S906"
+  },
+  {
+   "metric": "shares_repurchased",
+   "value": 4214019,
+   "unit": "shares",
+   "period": "FY2026Q1",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S906"
+  },
+  {
+   "metric": "shares_repurchased",
+   "value": 12645957,
+   "unit": "shares",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S906"
+  },
+  {
+   "metric": "buyback_value_repurchased",
+   "value": 521000000,
+   "unit": "USD",
+   "period": "FY2026Q1",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S906"
+  },
+  {
+   "metric": "buyback_value_repurchased",
+   "value": 1445000000,
+   "unit": "USD",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S906"
+  },
+  {
+   "metric": "listed_equity_investments",
+   "value": 2703000000,
+   "unit": "USD",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S906"
+  },
+  {
+   "metric": "listed_equity_investments",
+   "value": 2986000000,
+   "unit": "USD",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S906"
+  },
+  {
+   "metric": "affirm_stake_fair_value",
+   "value": 1655000000,
+   "unit": "USD",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S906"
+  },
+  {
+   "metric": "globale_stake_fair_value",
+   "value": 768000000,
+   "unit": "USD",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S906"
+  },
+  {
+   "metric": "klaviyo_stake_fair_value",
+   "value": 280000000,
+   "unit": "USD",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S906"
+  },
+  {
+   "metric": "klaviyo_stake_fair_value",
+   "value": 599000000,
+   "unit": "USD",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S906"
+  },
+  {
+   "metric": "private_equity_investments_carrying",
+   "value": 1555000000,
+   "unit": "USD",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S906"
+  },
+  {
+   "metric": "convertible_notes_private_companies",
+   "value": 587000000,
+   "unit": "USD",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S906"
+  },
+  {
+   "metric": "unrealized_gain_equity_investments",
+   "value": 1249000000,
+   "unit": "USD",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S906"
+  },
+  {
+   "metric": "unrealized_gain_equity_investments",
+   "value": 185000000,
+   "unit": "USD",
+   "period": "FY2026H1",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S906"
+  },
+  {
+   "metric": "payments_penetration",
+   "value": 0.64,
+   "unit": "ratio",
+   "period": "FY2025Q2",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S904"
+  },
+  {
+   "metric": "gpv",
+   "value": 78100000000,
+   "unit": "USD",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S904"
+  },
+  {
+   "metric": "gpv",
+   "value": 56600000000,
+   "unit": "USD",
+   "period": "FY2025Q2",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S904"
+  },
+  {
+   "metric": "payments_contribution_to_merchant_solutions_growth",
+   "value": 624000000,
+   "unit": "USD",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S904"
+  },
+  {
+   "metric": "shop_pay_gmv_growth_yoy",
+   "value": 0.53,
+   "unit": "ratio",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S905"
+  },
+  {
+   "metric": "international_gmv_growth_yoy",
+   "value": 0.37,
+   "unit": "ratio",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S905"
+  },
+  {
+   "metric": "north_america_gmv_growth_yoy",
+   "value": 0.28,
+   "unit": "ratio",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S905"
+  },
+  {
+   "metric": "offline_gmv_growth_yoy",
+   "value": 0.32,
+   "unit": "ratio",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S905"
+  },
+  {
+   "metric": "b2b_gmv_growth_yoy",
+   "value": 0.76,
+   "unit": "ratio",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S905"
+  },
+  {
+   "metric": "gmv",
+   "value": 101000000000,
+   "unit": "USD",
+   "period": "FY2026Q1",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S908"
+  },
+  {
+   "metric": "gmv_growth_yoy",
+   "value": 0.35,
+   "unit": "ratio",
+   "period": "FY2026Q1",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S908"
+  },
+  {
+   "metric": "fcf_reported",
+   "value": 476000000,
+   "unit": "USD",
+   "period": "FY2026Q1",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S908"
+  },
+  {
+   "metric": "fcf_margin",
+   "value": 0.15,
+   "unit": "ratio",
+   "period": "FY2026Q1",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S908"
+  },
+  {
+   "metric": "merchant_solutions_gross_margin",
+   "value": 0.39,
+   "unit": "ratio",
+   "period": "FY2026Q1",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S908"
+  },
+  {
+   "metric": "subscription_solutions_gross_margin",
+   "value": 0.8,
+   "unit": "ratio",
+   "period": "FY2026Q1",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S908"
+  },
+  {
+   "metric": "transaction_loan_loss_pct_revenue",
+   "value": 0.037,
+   "unit": "ratio",
+   "period": "FY2026Q1",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S908"
+  },
+  {
+   "metric": "transaction_loan_loss_pct_revenue",
+   "value": 0.032,
+   "unit": "ratio",
+   "period": "FY2025Q1",
+   "end": "2025-03-31",
+   "basis": "reported",
+   "source": "S908"
+  },
+  {
+   "metric": "revenue_growth_yoy",
+   "value": 0.28,
+   "unit": "ratio",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "guidance",
+   "source": "S908",
+   "low": 0.27,
+   "high": 0.29
+  },
+  {
+   "metric": "gross_profit_growth_yoy",
+   "value": 0.25,
+   "unit": "ratio",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "guidance",
+   "source": "S908",
+   "low": 0.24,
+   "high": 0.26
+  },
+  {
+   "metric": "fcf_margin",
+   "value": 0.15,
+   "unit": "ratio",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "guidance",
+   "source": "S908",
+   "low": 0.14,
+   "high": 0.16
+  },
+  {
+   "metric": "revenue",
+   "value": 3740000000,
+   "unit": "USD",
+   "period": "FY2026Q3",
+   "end": "2026-09-30",
+   "basis": "consensus",
+   "source": "S909"
+  },
+  {
+   "metric": "revenue",
+   "value": 4750000000,
+   "unit": "USD",
+   "period": "FY2026Q4",
+   "end": "2026-12-31",
+   "basis": "consensus",
+   "source": "S909"
+  },
+  {
+   "metric": "eps",
+   "value": 0.43,
+   "unit": "USD/share",
+   "period": "FY2026Q3",
+   "end": "2026-09-30",
+   "basis": "consensus",
+   "source": "S909"
+  },
+  {
+   "metric": "eps",
+   "value": 0.62,
+   "unit": "USD/share",
+   "period": "FY2026Q4",
+   "end": "2026-12-31",
+   "basis": "consensus",
+   "source": "S909"
+  },
+  {
+   "metric": "eps",
+   "value": 0.27,
+   "unit": "USD/share",
+   "period": "FY2027Q1",
+   "end": "2027-03-31",
+   "basis": "consensus",
+   "source": "S909"
+  },
+  {
+   "metric": "eps",
+   "value": 0.4,
+   "unit": "USD/share",
+   "period": "FY2027Q2",
+   "end": "2027-06-30",
+   "basis": "consensus",
+   "source": "S909"
+  },
+  {
+   "metric": "price_target",
+   "value": 175.89,
+   "unit": "USD/share",
+   "end": "2026-10-16",
+   "basis": "consensus",
+   "source": "S910",
+   "low": 130,
+   "high": 210
+  },
+  {
+   "metric": "analyst_count",
+   "value": 48,
+   "unit": "count",
+   "end": "2026-10-16",
+   "basis": "consensus",
+   "source": "S910"
+  },
+  {
+   "metric": "price",
+   "value": 107.37,
+   "unit": "USD/share",
+   "end": "2026-05-06",
+   "basis": "market",
+   "source": "S907"
+  },
+  {
+   "metric": "ai_traffic_growth_multiple",
+   "value": 8,
+   "unit": "x",
+   "period": "FY2026Q1",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S903"
+  },
+  {
+   "metric": "ai_orders_growth_multiple",
+   "value": 13,
+   "unit": "x",
+   "period": "FY2026Q1",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S903"
+  },
+  {
+   "metric": "us_ecommerce_share",
+   "value": 0.14,
+   "unit": "ratio",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S911"
+  },
+  {
+   "metric": "us_ecommerce_share",
+   "value": 0.12,
+   "unit": "ratio",
+   "period": "FY2024",
+   "end": "2024-12-31",
+   "basis": "reported",
+   "source": "S911"
+  },
+  {
+   "metric": "amazon_us_ecommerce_share",
+   "value": 0.357,
+   "unit": "ratio",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S911"
+  },
+  {
+   "metric": "amazon_shopify_combined_us_ecommerce_share",
+   "value": 0.497,
+   "unit": "ratio",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S911"
+  },
+  {
+   "metric": "shopify_store_count_share",
+   "value": 0.426,
+   "unit": "ratio",
+   "period": "FY2026Q1",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S912"
+  },
+  {
+   "metric": "woocommerce_store_count_share",
+   "value": 0.246,
+   "unit": "ratio",
+   "period": "FY2026Q1",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S912"
+  },
+  {
+   "metric": "magento_store_count_share",
+   "value": 0.084,
+   "unit": "ratio",
+   "period": "FY2026Q1",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S912"
+  },
+  {
+   "metric": "custom_headless_store_count_share",
+   "value": 0.094,
+   "unit": "ratio",
+   "period": "FY2026Q1",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S912"
+  },
+  {
+   "metric": "custom_headless_share_stores_over_32m_revenue",
+   "value": 0.384,
+   "unit": "ratio",
+   "period": "FY2026Q1",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S912"
+  }
+ ],
+ "gaps": [
+  "어닝콜 원문 전체와 Q&A 전문은 아직 보지 못했다. 콜 근거(S49~S51, S905)는 일부 전사와 AI·2차 요약뿐이다. 해외·오프라인·B2B·Shop Pay 성장률과 MCA 순풍 발언은 원문으로 확인해야 한다",
+  "가맹점 수, Plus 가맹점 수·MRR 비중, 순매출유지율·이탈률·코호트 GMV 유지율·CAC·LTV는 1차 자료가 없다. 코호트 자료는 2022년 Globe and Mail 분석(S913)뿐이다",
+  "결제 침투율 변화가 출처마다 다르다(S904: 64%→68%, S905: +3%p). 콜 원문으로 확인해야 한다",
+  "일부 요약 사이트에 오류가 있다(Beancount의 매출 $2.8B, Stock Taper 표의 매출 성장 +13.0%). 두 값은 S41의 공식 수치(매출 $3.58B, +34%)와 충돌하므로 쓰지 않았다",
+  "FY2026 연간 매출 컨센서스는 2분기 실적 뒤의 집계 출처를 찾지 못했다. 리서치 노트의 약 $15.24B는 상반기 실적과 3·4분기 컨센서스(S909)를 리서처가 더한 값이라 사실로 넣지 않았다. F221($14.69B, S42)은 2분기 실적 전 추정이 섞여 낡았을 수 있다",
+  "FY2027 매출·FCF 컨센서스를 찾지 못했다. Benzinga EPS 컨센서스의 기준(조정·GAAP)과 애널리스트 수도 확인하지 못했다",
+  "과거 가이던스 원문: 2분기 가이던스는 2차 출처(S908)로만 확인했다. 그보다 앞선 분기 가이던스는 찾지 못했다",
+  "AI 에이전트 경유 GMV·주문 비중과 에이전트 주문의 수수료율은 공시되지 않았다. AI 트래픽 8배·주문 13배(S903)는 출발 규모를 모른다. Perplexity 체크아웃 상태도 확인하지 못했다",
+  "MCA 현금흐름 재분류의 정확한 범위·시점과 과거 기간 재작성 여부, 자사주 매입 한도와 잔여 한도는 10-Q를 일부만 읽어 확인하지 못했다",
+  "내부자 지분·Form 4 거래, DEF 14A 보상 지표, 2026-07-02 경영진 변동 8-K(S3)의 내용은 조사하지 못했다",
+  "Salesforce Commerce Cloud·Adobe Commerce·BigCommerce의 2026년 엔터프라이즈 점유율과 TikTok Shop·Temu·Buy with Prime이 겹치는 정도는 찾지 못했다. 미국 이커머스 점유율 14%(S911)는 원출처가 없고 스토어 수 점유율(S912)은 에이전시 크롤링이라 둘 다 약한 출처다"
+ ]
+}
