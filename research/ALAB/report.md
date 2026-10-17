@@ -1,27 +1,27 @@
 # Astera Labs (ALAB) 리서치 보고서 — 기준일 2026-10-18
 
-**찬성 우세** — 찬성 2 · 반대 1 · 보류 0 · 확신 가중 점수 +0.00 (−1~+1)
+**팽팽** — 찬성 1 · 반대 1 · 보류 1 · 확신 가중 점수 -0.13 (−1~+1)
 
 - 게이트: 근거 충분성 ✓ → 회계 품질 ✓ → 모델 ✓
 
 ## 1. Variant perception
 
-- 시장 내재: 매출 10년 연 33.0% (FCF 마진 34% 수렴 가정) · 기본 시나리오: 5년 연 0.0%
-- 시장이 반영한 것: 현재 EV 522.9억 달러는 FCF 마진 20%로 수렴한다고 해도 10년간 연 40.3% 매출 성장(C:implied_cagr@m20)을 가정한다. 주가는 2분기 매출이 컨센서스 3.6085억(F184)을 넘어 3.924억(F135)을 기록한 뒤에도 285.82달러(F183)에 있어, 높은 성장이 10년 가까이 유지되는 것까지 반영하고 있다.
-- 우리가 다르게 보는 점: 근 분기 실적은 우리도 낙관한다. 3분기 가이던스 5.4억~5.6억(F185)은 보수적일 가능성이 높다. 다른 점은 성장이 얼마나 오래 가느냐다. 우리 기본 시나리오는 2027년 이후 성장률이 40%에서 15%로 빠르게 내려온다고 본다. 시장 가격은 이 감속이 훨씬 늦다고 가정한다. 또한 FCF 2.8억(C:fcf@FY2025)의 절반 이상이 SBC로 부풀려져 있어(C:sbc_to_ocf@FY2025), 주주 몫 FCF가 FCF 수익률 0.5%(C:fcf_yield)보다 작다고 본다.
-- 왜 우리가 맞는가: 단기 램프는 가이던스와 재고 증가(F85)로 입증되지만, 10년 40% 성장은 같은 성장을 해낸 기업이 드물다는 기저율(서사 과적합) 문제와 부딪친다. 회계 품질 분석에서도 SBC와 세금 이익이 순이익·PER을 부풀리고 있다고 지적했다. 연간 컨센서스가 없어 컨센서스와의 차이는 검증하지 못했다. [C:implied_cagr@m20] [F184] [F135] [F183] [F185] [C:sbc_to_ocf@FY2025] [C:fcf_yield] [F85]
-- 촉매: 3분기 실적에서 매출·총이익률·재고가 가이던스 안에 들어오는지, 그리고 2027년 가이던스와 Scorpio 비중이 감속 속도를 어떻게 보여주는지.
-- 시점: 2026-11 (3분기 실적), 2027-02 (4분기 실적과 연간 전망)
+- 시장 내재: 매출 10년 연 33.8% (FCF 마진 32% 수렴 가정) · 기본 시나리오: 5년 연 28.9%
+- 시장이 반영한 것: 현재 가격은 EV 기준으로 FCF 마진 20% 수렴 시 10년간 연 40.3%(C:implied_cagr@m20)의 매출 성장을 가정한다. 단기 실적 상회와 가이던스 상향(S19, S33)은 이미 가격에 선반영되었다는 것이 시장 서사다(S19).
+- 우리가 다르게 보는 점: 단기 실적은 시장 기대를 웃돌 가능성이 높지만, 5년 기본 시나리오의 주당 가치는 현재 가격을 정당화하는 수준에 못 미친다. 가격이 요구하는 것은 한두 해의 고성장이 아니라 10년에 걸친 지속성이다. 또한 주주 관점의 FCF는 SBC를 차감해야 하는데(C:fcf_after_sbc@FY2025) 시장 배수는 SBC 차감 전 FCF에 매겨져 있다(C:p_fcf).
+- 왜 우리가 맞는가: 기저율상 높은 성장을 여러 해 연속 이어간 기업은 드물고, 근거 수집에서도 고객 집중도·제품별 비중·수주잔고가 확인되지 않아 해자의 지속성은 입증되지 않았다. 다만 실적 모멘텀 자체는 가이던스(F185)가 뒷받침하므로, 틀릴 수 있는 쪽은 단기가 아니라 지속성 가정이다. [C:implied_cagr@m20] [C:fcf_after_sbc@FY2025] [C:p_fcf] [F185] [F187] [S19](https://news.google.com/rss/articles/CBMizwFBVV95cUxNMlAzWVpPbmFJY1JQbkVWNng2Z254UGZ5VzJ6QllFQ1VkVUVTTzhxVzFpaEVLZmVQYlQ4OUJCd1YyTWNGazJ5ZGE3VGN1YmlSZ2JfeHdTZllTNXRPTmVMQTNwUF9wZUFlN0VaM2t2R3RTeXc4aWxzY1NfQ2NTWExnWGl2aFBtNGQ3dUpWZVAyaXRIa1dWbmlManVFSjV5Sk8xczc5bDBfMGNiVlRzTHRjOGZ3ZUtvTzJsaXF4QWpkRFR6Q3VLLU1HWDBaUWt2aUU?oc=5) [S33](https://news.google.com/rss/articles/CBMingFBVV95cUxPR3VxWjF6UmpuQVFGazJlT3BDRTlOdTkzb1Z6bXRjdjE1LVZOWHBjQld5aDlGdk05aVU2SE5SY2lrOHZ0QWI5aHczOUtndjNvc1VIVFBCZXVkeGlldkUtM1Q3S3ptQUJJbHlxQ1dUZm9KZ0ZpWkJLZmRxUW9uNHZBaWlUa09hU3BzcW9uZTNqMG5IYXh2RGFxdGp5MXlZZw?oc=5)
+- 촉매: 3분기·4분기 실적에서 매출 성장 감속 속도와 총이익률(가이던스 약 72%, F187), 재고·매출채권 일수 변화가 드러난다. 또한 Scorpio 비중과 고객 집중도 공시가 나오면 지속성 판단이 바뀐다.
+- 시점: 2026년 3분기 실적(2026년 11월 초 예상)부터 2027년 상반기
 
 ## 2. 시나리오 분포와 기대수익률
 
-확률 가중 IV **28.33** vs 주가 285.82 · 기대 연 수익률 **-30.7%** · 손실 확률 100%
+확률 가중 IV **140.13** vs 주가 285.82 · 기대 연 수익률 **-4.6%** · 손실 확률 75%
 
 | 시나리오 | 확률 | 주당 가치 | IV | 연 수익률 | 근거 |
 |---|---|---|---|---|---|
-| 약세 | 30% | 21.71 | 13.48 | -40.3% | FY2026은 상반기 실적과 3분기 가이던스(F185)로 대부분 정해져 있어 +105%까지만 낮춘다. 문제는 그다음이다. 하이퍼스케일러가 AI 서버 증설을 한 번 쉬면 리타이머·스위치 주문이 재고 소진 쪽으로 돌아선 |
-| 기본 | 50% | 49.37 | 30.65 | -29.6% | FY2026은 1~2분기(F134, F135)와 3분기 가이던스 5.4억~5.6억(F185)에 4분기를 3분기보다 소폭 높게 놓으면 연 +120% 안팎이다. 2027년부터는 Scorpio가 최대 제품군이 되는 전환( |
-| 강세 | 20% | 72.15 | 44.80 | -24.1% | NVIDIA가 경쟁 AI 칩을 자사 랙에 허용하는 구도(S34)와 Scorpio 패브릭 스위치의 조기 램프(S43)가 겹쳐, 연결 부품이 가속기 출하보다 빠르게 커지는 경우다. 2분기 매출이 컨센서스를 8.8% 웃돈 |
+| 약세 | 25% | 34.37 | 21.34 | -34.5% | 하이퍼스케일러 AI 투자가 둔화하고 경쟁 연결 칩과 자체 설계 대안이 가격을 압박한다. 3분기 이후 분기 매출이 정체한다(3분기 가이던스 F185). 총이익률은 가이던스 약 72%(F187)에서 더 내려가고 SBC  |
+| 기본 | 50% | 232.16 | 144.15 | -4.1% | FY2026은 상반기 실적과 3분기 가이던스(F185)로 이미 정해진 부분이 커서 4분기 매출이 약 6억 달러 안팎이라고 본다. 이후 Scorpio 패브릭 스위치와 Taurus 3.2T 제품군이 램프하며(S43, S |
+| 강세 | 25% | 404.07 | 250.90 | +7.2% | Scorpio가 스케일업 스위치와 스케일아웃 연결 양쪽에서 설계를 확보하고, NVIDIA 랙의 외부 칩 허용(S34)이 연결 구간 점유율 확대로 이어진다. 3분기 가이던스 상단 초과가 반복되고(2분기에도 컨센서스를  |
 
 ## 3. 반증 조건 (thesis break)
 
@@ -31,147 +31,149 @@
 - [자료 없음] 슬레이터: 3분기 매출이 가이던스 하단 미달 — 수요 가설 약화 — `revenue < 5.4e+08` (FY2026Q3)
 - [자료 없음] 슬레이터: Non-GAAP 총이익률 70% 미만 — 가격 압력 가설 강화 — `non_gaap_gross_margin < 0.7` (FY2026Q3)
 - [수동 확인] 슬레이터: 다음 보고에서 제품별 매출과 상위 고객 비중이 공개되지 않거나 집중도가 과도하면 비중을 키우지 않는다 — 수동 확인
-- [미충족] 애크먼: 직전 판단에서 이월한 가격 조건. 이 아래로 내려오면 안전마진 재검토. 현재 모델 계산이 불완전해 모델 수정 후 갱신 필요 — `price < 167`
+- [미충족] 애크먼: 이 아래로 내려오면 안전마진을 다시 계산한다 — `price < 167`
 - [자료 없음] 애크먼: 가이던스 상단 초과와 총이익률 유지가 함께 확인되면 성장 가정 상향 여부 재검토 — `revenue >= 5.6e+08` (FY2026Q3)
 - [수동 확인] 애크먼: 10-K·10-Q의 상위 고객 비중과 설계 수주 공시로 해자가 입증되면 단순성·예측가능성 판단 재평가 — 수동 확인
-- [충족 — 훼손] 레드팀: 4분기 매출이 3분기 가이던스 하단 5.4억 달러 아래 — 램프가 아니라 재고 조정이 진행 중 — `revenue < 5.4e+08`
-- [미충족] 레드팀: 주가가 52주 저점 100.27달러 아래 — 멀티플 붕괴가 진행 중 (S40의 52주 범위 하단) — `price < 100.27`
-- [미충족] 레드팀: Non-GAAP 총이익률 70% 미만 — 가이던스 약 72%에서 이탈, 가격 경쟁 시작 — `non_gaap_gross_margin < 0.7`
-- [미충족] 레드팀: 3분기 희석 주식 수가 가이던스 1.85억을 초과 — SBC 희석이 통제되지 않음 — `diluted_shares > 1.85e+08`
+- [충족 — 훼손] 레드팀: FY2026Q4 매출이 6억 달러 미만 — 3분기 가이던스 이후 성장이 꺾이고 배수 재평가가 시작됨 — `revenue < 6e+08`
+- [미충족] 레드팀: Non-GAAP 총이익률이 71% 미만 — 가이던스(약 72%) 아래로 내려가며 가격 경쟁 시작 — `non_gaap_gross_margin < 0.71`
+- [미충족] 레드팀: 재고가 1.5억 달러 초과 — 수요 둔화 속 선제 비축이 쌓이며 평가손실 위험 확대 — `inventory > 1.5e+08`
+- [미충족] 레드팀: 분기 SBC가 8,000만 달러 초과 — 희석과 SBC 차감 후 이익 압박이 가속 — `sbc > 8e+07`
 
 ## 4. 모니터링 KPI (예측 — 교정의 재료)
 
 | ID | 지표 | 기간 | 기대 | 확률 | 이유 |
 |---|---|---|---|---|---|
-| K1 | revenue | FY2026Q3 | >= 5.4e+08 | 90% | 가이던스 하단 달성 여부. 2분기에 컨센서스를 8.8% 웃돌았으므로 경영진이 가이던스를 보수적으로 잡는지 시험한다. |
-| K2 | revenue | FY2026Q3 | >= 5.6e+08 | 60% | 가이던스 상단 초과 여부. 기본 시나리오의 FY2026 +120% 가정이 보수적인지 가늠한다. |
-| K3 | non_gaap_gross_margin | FY2026Q3 | >= 0.71 | 80% | 믹스가 Scorpio 쪽으로 옮겨가며 총이익률이 가이던스 약 72% 안에서 멈추는지. 더 내려가면 약세 시나리오의 가격 압력 가설이 강해진다. |
-| K4 | non_gaap_eps | FY2026Q3 | >= 1.16 | 85% | 가이던스 하단 EPS. 영업레버리지가 유지되고 SBC·희석이 통제되는지 시험한다. |
-| K5 | revenue | FY2026Q4 | >= 6e+08 | 60% | 3분기 이후에도 분기 성장이 이어지는지 확인한다. 기본 시나리오의 FY2026 연간 성장 가정과 감속 시점을 직접 시험한다. |
+| K1 | revenue | FY2026Q3 | >= 5.4e+08 | 90% | 가이던스 하단 달성 여부. 경영진 가이던스가 보수적이라는 가설의 최소 조건이다. |
+| K2 | revenue | FY2026Q3 | >= 5.6e+08 | 60% | 가이던스 상단 초과 여부. 기본 시나리오 FY2026 성장 가정이 보수적인지 시험한다. |
+| K3 | non_gaap_gross_margin | FY2026Q3 | >= 0.71 | 80% | Scorpio로 믹스가 이동해도 총이익률이 가이던스 약 72% 근처에서 유지되는지. 더 내려가면 약세 시나리오의 가격 압력 가설이 강해진다. |
+| K4 | non_gaap_eps | FY2026Q3 | >= 1.16 | 85% | 가이던스 하단 EPS. 영업레버리지 유지와 희석 통제를 시험한다. |
+| K5 | revenue | FY2026Q4 | >= 6e+08 | 55% | 3분기 이후에도 분기 성장이 이어지는지. 기본 시나리오의 감속 시점을 직접 시험하며 미달 시 약세 확률이 올라간다. |
 
 ## 5. 확신도와 비중
 
-- 확신 가중 점수 +0.00 · 비중 참고값 0.0% (확률 가중 기대 연 수익률 -30.7%가 요구수익률 10% 이하 — 찬성이어도 가격이 보상하지 않는다) · 슬레이터 시작 비중 1.0%
+- 확신 가중 점수 -0.13 · 비중 참고값 0.0% (팽팽 — 신규 비중 없음) · 슬레이터 시작 비중 1.0%
 - **최종 확신도와 비중은 사람이 정한다** — `python3 council.py decide <TICKER> --size 0.02 --note "이유"`
 
 ## 표결
 
 | 에이전트 | 1라운드 → 최종 | 확신 | 레드라인 | 논거 검증 | 지표 (코드 계산 포함) |
 |---|---|---|---|---|---|
-| 앤더슨 | 찬성 → 찬성 | 2/5 | ✓ | 0/5 실패 | founder_led=예, upside_10y=5.64x, revenue_5y=11.08x |
-| 슬레이터 | 찬성 → 찬성 | 2/5 | ✓ | 0/4 실패 | unit_economics=proven, survival_path=예, starter_weight=1.0%, cash_survives=예, cash_min=1.1억 USD |
-| 애크먼 | 반대 → 반대 | 4/5 | ✗ 단순·예측 가능한 사업이 아님; 안전마진 20% 미만 또는 계산 불가 | 0/5 실패 | simple_predictable=아니오, capital_markets_dependent=아니오, catalyst=없음, fcf_positive=예, net_debt_to_ebitda=-0.39x, intrinsic_value=117.1, mos=-144.1% |
+| 앤더슨 | 보류 → 보류 | 2/5 | ✗ 10년 주당가치 5배 미만 또는 계산 불가 (LTGG Q10) | 0/5 실패 | founder_led=예, upside_10y=4.60x, revenue_5y=5.04x |
+| 슬레이터 | 찬성 → 찬성 | 2/5 | ✓ | 0/5 실패 | unit_economics=proven, survival_path=예, starter_weight=1.0%, cash_survives=예, cash_min=1.1억 USD |
+| 애크먼 | 반대 → 반대 | 4/5 | ✗ 단순·예측 가능한 사업이 아님; 안전마진 20% 미만 또는 계산 불가 | 2/5 실패 | simple_predictable=아니오, capital_markets_dependent=아니오, catalyst=없음 — 3분기 실적과 Scorpio 램프는 시장이 이미 반영한 모멘텀이지, 가치와 가격의 격차를 좁히는 행동이 아니다, intrinsic_value=144.2, mos=-98.3%, fcf_positive=예, net_debt_to_ebitda=-0.39x |
 
-- ⚠ 앤더슨: revenue_5y: 페르소나가 쓴 8.2 대신 코드 계산값 11.1 사용
-- ⚠ 앤더슨: risks[0] unsupported: 가격이 40%대 성장을 담는다는 부분은 맞지만 수익률 분해에서 멀티플 변화가 가장 큰 마이너스라는 내용은 인용 자료에 없다.
-- ⚠ 애크먼: rebuttals[0] unsupported: 출처 없는 숫자 130%, 35 — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
-- ⚠ 애크먼: rebuttals[2]: 인용하지 않은 근거의 숫자 34%(C:fcf_margin@base) — cites에 추가
-- ⚠ 애크먼: rebuttals[0]: 인용하지 않은 근거의 숫자 28(C:expected_iv), 10%(C:discount_rate), 38%(C:fcf_margin@bull·C:sbc_to_revenue@FY2022) — cites에 추가
-- ⚠ 애크먼: arguments[3]: 인용하지 않은 근거의 숫자 0.5%(C:fcf_yield) — cites에 추가
-- ⚠ 시나리오 bear: growth의 revenue_growth가 drivers에 없다 — 무시
-- ⚠ 시나리오 base: growth의 revenue_growth가 drivers에 없다 — 무시
-- ⚠ 시나리오 bull: growth의 revenue_growth가 drivers에 없다 — 무시
+- ⚠ 앤더슨: rebuttals[2] unsupported: 출처 없는 숫자 60% — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- ⚠ 앤더슨: risks[2] unsupported: 없는 근거 인용: C:base_rate@implied
+- ⚠ 앤더슨: arguments[0] leap: FY2025 +115.1%와 2분기 +104%는 맞지만, 연간 242%→115%→104%로 증가율이 낮아지는 중이라 '가속 구간'이라는 결론이 따라 나오지 않는다.
+- ⚠ 앤더슨: rebuttals[0]: 인용하지 않은 근거의 숫자 45(C:exit_multiple@base) — cites에 추가
+- ⚠ 슬레이터: arguments[3]: 인용하지 않은 근거의 숫자 32%(C:fcf_margin@base) — cites에 추가
+- ⚠ 애크먼: rebuttals[2] unsupported: 출처 없는 숫자 28.3%, 0.75, 9% — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- ⚠ 애크먼: arguments[2] unsupported: 출처 없는 숫자 70% — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- ⚠ 애크먼: arguments[4] unsupported: 재고·매출채권이 '매출보다 빠르게 늘고 있다'는 비교는 인용된 단일 시점 값(F85, F126)만으로 확인되지 않는다. KPI 부재는 S43과 부합한다.
+- ⚠ 애크먼: arguments[0]: 인용하지 않은 근거의 숫자 32%(C:fcf_margin@base) — cites에 추가
+- ⚠ 애크먼: arguments[1]: 인용하지 않은 근거의 숫자 28.9%(C:revenue_cagr@base) — cites에 추가
 - ⚠ 컨센서스 근거 없음 — 시장 기대와의 차이를 검증할 수 없다 (리서처: basis=consensus 사실)
 - ⚠ 기저율 표 없음 — `python3 council.py baserate`로 data/base_rates.json을 만든다
+- ⚠ 모델러 variant 검증 실패(unsupported): '기저율상 높은 성장을 여러 해 연속 이어간 기업은 드물다'를 받치는 기저율 자료가 인용에 없다. SBC 차감 FCF와 P/FCF, 가이던스는 일치한다.
+- ⚠ 레드팀 premortem[0] 검증 실패(unsupported): 출처 없는 숫자 28.3% — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
 - ⚠ 사업·산업 findings[1]: 인용하지 않은 근거의 숫자 1.6e+08(C:cash@FY2025Q2·C:revenue@FY2025Q1·C:sbc@FY2025) — cites에 추가
-- ⚠ 레드팀 weakest[2] 검증 실패(unsupported): 없는 근거 인용: C:base_rate@bull
+- ⚠ 레드팀 weakest[0] 검증 실패(unsupported): 출처 없는 숫자 28.3%, 9% — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
 - ⚠ 회계 품질 findings[3] 검증 실패(unsupported): 없는 근거 인용: C:goodwill_to_assets
 - ⚠ 사업·산업 findings[0] 검증 실패(unsupported): 출처 없는 숫자 70% — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
-- ⚠ 레드팀 weakest[0]: 인용하지 않은 근거의 숫자 8.5e+08(C:revenue@FY2025·C:revenue@base·C:revenue@bear), 0%(C:deferred_revenue@FY2023·C:deferred_revenue@FY2025·C:revenue_cagr@base) — cites에 추가
+- ⚠ 레드팀 weakest[1] 검증 실패(unsupported): 없는 근거 인용: C:base_rate@base
+- ⚠ 회계 품질 flags[4] 검증 실패(unsupported): 분기 희석 주식 1.8억 안팎, 3분기 가이던스 1.85억, 자사주 매입 0은 맞다. 다만 IPO 우선주 전환·신주 발행 때문이라는 원인과 FY2025 증가가 '연중 가중 효과'라는 설명은 인용 자료에 없다.
 - ⚠ 사업·산업 findings[4]: 인용하지 않은 근거의 숫자 8.8%(S41) — cites에 추가
-- ⚠ 사업·산업 findings[7]: 인용하지 않은 근거의 숫자 20%(C:operating_margin@FY2025·C:p@bull) — cites에 추가
+- ⚠ 사업·산업 findings[7]: 인용하지 않은 근거의 숫자 20%(C:fcf_margin@bear·C:operating_margin@FY2025) — cites에 추가
 - ⚠ 회계 품질 flags[2]: 인용하지 않은 근거의 숫자 8.34e+06(C:receivables@FY2023·F119) — cites에 추가
 - ⚠ 회계 품질 flags[0]: 인용하지 않은 근거의 숫자 2.8e+08(C:fcf@FY2025·C:fcf@ttm) — cites에 추가
 - ⚠ 회계 품질 findings[4] 검증 실패(unsupported): 출처 없는 숫자 1.29 — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
 
-## 앤더슨 — 찬성 (2/5)
+## 앤더슨 — 보류 (2/5)
 
-> 연결 병목을 푸는 부품이 AI 데이터센터에서 가속기보다 빠르게 커지는 구조라면, 이 회사는 멱법칙 쪽 후보가 될 수 있다. 매출이 FY2025에 115.1% 늘었고 총이익률은 75.7%를 유지하며 FCF 마진은 33.1%다. 그러나 시장은 이미 큰 활주로를 가격에 넣었다. 역DCF로 보면 FCF 마진 20% 수렴에도 10년간 연 40.3% 성장이 필요하다. 모델러 시나리오는 계산기에서 성장률이 무시되어 매출이 평평하게 나오므로 이 지표를 그대로 쓰지 않고, 내 case에서 매출 성장 경로를 직접 지정했다. 5배는 모델러의 강세보다 더 대담한 경로(10년 뒤 매출이 현재의 약 28배)에서만 나온다. 이는 기저율상 매우 드문 일이고, 기저율 표는 아직 없어 검증하지 못했다. 그래서 찬성이지만 확신은 3으로 낮추고, 작게 사서 오래 들고 가는 비대칭 베팅으로 본다. 틀리면 손실은 제한되고, 맞으면 상방이 열려 있다.
+> 사업은 내가 찾는 모양에 가깝다. AI 데이터센터 연결 구간의 병목을 풀고, 매출이 두 배씩 늘며, 영업레버리지가 뚜렷하고, 창업자가 이끄는 회사로 보도된다. 그러나 10번 질문, 즉 5배가 될 수 있는 길에서 막힌다. 강세 시나리오를 10년으로 늘려도 코드가 계산한 10년 뒤 주당 가치는 현재 주가의 4.6배로 5배에 못 미친다. 현재 가격이 이미 연 40%대의 10년 매출 성장을 요구한다는 점도 걸린다. 성장 가설 자체는 훼손되지 않았다. 다만 이 가격에서는 대담함의 보상이 부족하다. 가격을 이유로 반대하지는 않고, 5배 길이 열리는 증거(제품 비중, 고객 집중도, 수주 가시성)를 기다리며 기권한다.
+
+*이전 판단 대비: 직전 판단은 찬성(확신 2)이었다. 이번에는 코드가 계산한 10년 뒤 주당 가치가 현재 가격의 4.6배로 5배 문턱에 못 미친다는 점을 반영해 기권으로 바꾼다. 경로를 낙관적으로 바꿔 문턱을 넘기는 대신 강세 시나리오를 그대로 두었다. 근거: C:implied_cagr@m20, C:ev_revenue, C:sbc_to_revenue@FY2025.*
 
 **논거**
-- 성장과 마진이 같이 올라왔다. 매출이 FY2024 242.2%, FY2025 115.1% 늘었는데 총이익률은 70%대 중반을 지켰다. 영업이익률은 -29.3%에서 20.3%로 바뀌었다. 규모가 커질수록 단위경제가 좋아지는 수확체증의 초기 모습이다. [C:revenue_growth@FY2024] [C:revenue_growth@FY2025] [C:gross_margin@FY2025] [C:operating_margin@FY2024] [C:operating_margin@FY2025]
-- 성장이 가속하는 중이다. 3분기 매출 가이던스는 5.4억~5.6억 달러로 2분기 대비 약 40% 늘어난 수준이고, 2분기는 컨센서스를 웃돌았다. 경영진은 Scorpio 패브릭 스위치가 한 분기 앞서 최대 제품군이 된다고 전망했다. 제품이 리타이머에서 스위치로 확장되며 시장이 커지는 모습이다. 다만 이 전망은 콜 도입 발언 수준이다. [F185] [F135] [F184] [S43](https://allmind.ai/earnings/event/2940664) [S33](https://news.google.com/rss/articles/CBMingFBVV95cUxPR3VxWjF6UmpuQVFGazJlT3BDRTlOdTkzb1Z6bXRjdjE1LVZOWHBjQld5aDlGdk05aVU2SE5SY2lrOHZ0QWI5aHczOUtndjNvc1VIVFBCZXVkeGlldkUtM1Q3S3ptQUJJbHlxQ1dUZm9KZ0ZpWkJLZmRxUW9uNHZBaWlUa09hU3BzcW9uZTNqMG5IYXh2RGFxdGp5MXlZZw?oc=5)
-- 추정: 5배(10년 뒤 주당 가치 ÷ 주가)는 내 case로 연 성장률이 30%대 중반에서 10%대로 내려오는 경로, 10년 뒤 FCF 마진 38%, 출구 P/FCF 35배를 가정해야 나온다. 시장 내재 성장 연 33.0%는 기본 마진 기준이므로 내 경로는 그와 같은 규모의 대담함이다. 숫자는 코드가 case로 계산한다. [C:implied_cagr] [C:implied_cagr@m20]
-- 창업자형 경영진과 재투자 의지가 보인다. 영업현금흐름이 R&D를 감당하는 가운데 R&D를 FY2025 3.0억 달러로 늘렸고, 순현금이 있고 부채 부담이 낮다. 창업자가 이끄는 AI 데이터센터 기업으로 분류한 보도도 있다. 인수로 영업권도 늘렸다. [F139] [C:ocf@FY2025] [C:net_debt_to_ebitda@FY2025] [S18](https://news.google.com/rss/articles/CBMikAFBVV95cUxPMWhsSHZCT3ZJanU5R2Z3S0szSkY3eFEybTJSZjVScWZSaW5abTNEY214YlA2aEprOWJLcFZCV3luTklBX0hKNHMtdHhyX1ByNlR5dTEwQWg0bnhyN1Z2QVhEUmlUOUZPU3F6V1BuaUFXbXowSHJOUW4xUWIwZ2NDUE0tRk1XN1JHRWVxeENWTTU?oc=5) [F58]
-- NVIDIA가 경쟁 가속기를 자사 랙에 허용하면 중립적 연결 부품 공급자인 이 회사의 시장이 넓어질 수 있다. 가속기 승자를 고르지 않고 연결 구간 전체에 걸 수 있다는 점이 비대칭이다. 다만 점유율·계약 근거는 없다. [S34](https://news.google.com/rss/articles/CBMimAFBVV95cUxPQkRNUnVZc0JGMVdRZVUtWW5aX3FIbGFUa2F4SlE5LUFyc0ttQ2E3WktDMktsY01mNWl6d2dTbC1RQWhlVXF2QU1GN0s4Zk1iRGo5MXZMTDBmRWtRc0lvRUVYMjJoS2R2RXo2SUlxdWg3Y2NpZkRnd0R2bFFiSW1haTNMcldaSTh5cGRPU3hGQVcwMXpQbjRHZw?oc=5) [S29](https://news.google.com/rss/articles/CBMingFBVV95cUxNemw5bzRDQUs2TGt0MFhQeGhOWktDcVA5WE1PTWcxbk5LYzlpVGtwNnljcWpzcGhnSU1oWElUTVM1d2FoUlpialJ1SzkzMjEzY3Y1eW5Hd1VBVHpQejJHSXEwWWdZZ3ZSczhNN0FhOHd2TEt4MURGb1RPX2dBMGo2MWViX3NNck1sY2NfeHlqZ1dCVXVyQXNLaFV5dkxrQQ?oc=5)
+- 매출 성장이 가속 구간에 있다. FY2025 매출은 전년 대비 115.1% 늘었고, 2026년 2분기도 전년 대비 +104%를 기록했다. 멱법칙 기업이 보이는 초기 곡선과 일치한다. [C:revenue_growth@FY2025] [S38](https://www.sec.gov/Archives/edgar/data/0001736297/000173629726000033/q226exhibit991.htm)
+- 규모가 커지는데 마진이 오른다. 영업이익률이 FY2024 -29.3%에서 FY2025 20.3%로 바뀌었다. 총이익률은 70%대 중반을 유지했다. 이익률 여지(6번 질문)와 수익의 현금 전환(7번 질문)은 통과한다. [C:operating_margin@FY2024] [C:operating_margin@FY2025] [C:gross_margin@FY2025]
+- 단기 모멘텀이 가이던스로 확인된다. 3분기 매출 가이던스는 5.4억~5.6억 달러이고, 보도는 직전 분기 대비 약 40% 증가로 요약한다. 2분기에도 컨센서스를 웃돌았다. 성장 가설은 지금 깨지지 않았다. [F185] [S33](https://news.google.com/rss/articles/CBMingFBVV95cUxPR3VxWjF6UmpuQVFGazJlT3BDRTlOdTkzb1Z6bXRjdjE1LVZOWHBjQld5aDlGdk05aVU2SE5SY2lrOHZ0QWI5aHczOUtndjNvc1VIVFBCZXVkeGlldkUtM1Q3S3ptQUJJbHlxQ1dUZm9KZ0ZpWkJLZmRxUW9uNHZBaWlUa09hU3BzcW9uZTNqMG5IYXh2RGFxdGp5MXlZZw?oc=5) [F184]
+- 시장은 이 기회를 과소평가하지 않는다. EV/매출은 43.51x이고, FCF 마진 20% 수렴을 가정하면 10년간 연 40.3% 매출 성장이 가격에 들어 있다. 9번 질문의 답이 '시장이 놓치고 있다'가 아니다. 그래서 5배 길이 좁다. [C:ev_revenue] [C:implied_cagr@m20]
+- 생태계 중립성이 상방을 연다. NVIDIA가 경쟁 AI 칩을 자사 랙에 허용하면 연결 구간 수혜가 커질 수 있다는 보도가 있다. 다만 점유율과 계약 근거가 없어 상방의 크기를 키우는 데 쓰지 못한다. [S34](https://news.google.com/rss/articles/CBMimAFBVV95cUxPQkRNUnVZc0JGMVdRZVUtWW5aX3FIbGFUa2F4SlE5LUFyc0ttQ2E3WktDMktsY01mNWl6d2dTbC1RQWhlVXF2QU1GN0s4Zk1iRGo5MXZMTDBmRWtRc0lvRUVYMjJoS2R2RXo2SUlxdWg3Y2NpZkRnd0R2bFFiSW1haTNMcldaSTh5cGRPU3hGQVcwMXpQbjRHZw?oc=5)
 
 **사전 부검**
-- 사전 부검: 가격이 이미 10년 40% 안팎 성장을 담고 있다. 성장이 FY2027에 크게 꺾이면 멀티플이 압축되어 5년 안에 큰 손실이 난다. 기본 시나리오 수익률 분해에서도 멀티플 변화가 가장 큰 마이너스다. [C:implied_cagr@m20] [C:ev_revenue] [C:pe]
-- 사전 부검: 고객·제품 집중과 해자 입증 부재. 해자가 모두 회사 발표 수준이고 고객 집중도, 제품별 비중, 설계 수주 수가 없다. 주요 하이퍼스케일러가 자체 연결 칩으로 옮기면 성장 가설 자체가 깨진다. [S43](https://allmind.ai/earnings/event/2940664) [S32](https://news.google.com/rss/articles/CBMimAFBVV95cUxPdHVXblBuanNQX0hyNVBtWncwc2hWN1BUSWg2TXp1NTdkdXlMZ2lTT3h3MWIxOEJZZXJXcXNDUlc4ZzE4UFJUZVYxc1dxd3g0LWcwdEJnSHZQbkZZaEg4RG95SjVuSHBQNU12T1EtUlRCazItdElDQmhnQTJkX1BCNFhTZ0pmSmlHRnFmSXdOMnAzeGl2VGVEdQ?oc=5) [S29](https://news.google.com/rss/articles/CBMingFBVV95cUxNemw5bzRDQUs2TGt0MFhQeGhOWktDcVA5WE1PTWcxbk5LYzlpVGtwNnljcWpzcGhnSU1oWElUTVM1d2FoUlpialJ1SzkzMjEzY3Y1eW5Hd1VBVHpQejJHSXEwWWdZZ3ZSczhNN0FhOHd2TEt4MURGb1RPX2dBMGo2MWViX3NNck1sY2NfeHlqZ1dCVXVyQXNLaFV5dkxrQQ?oc=5) [F126]
-- 사전 부검: 이익의 질. SBC가 영업현금흐름의 절반 수준이라 주주 몫 FCF는 FCF 수익률 0.5%보다 작다. 분기 SBC도 늘고 있다. 순이익은 세금 이익으로 부풀려져 PER 기준은 믿기 어렵다. 재고가 한 분기에 거의 두 배가 된 점도 램프 둔화 시 평가손실 위험이다. [C:sbc_to_ocf@FY2025] [C:fcf_after_sbc@FY2025] [C:fcf_yield] [F153] [F94] [F77] [F84] [F85]
+- 사전 부검: 지속성이 짧았다. 고객 집중도, 제품별 비중, 수주잔고가 확인되지 않아 해자는 회사 주장 수준이다. 소수 하이퍼스케일러의 설계 사이클이 꺾이면 성장이 빠르게 식고, 높은 배수가 함께 무너진다. [S43](https://allmind.ai/earnings/event/2940664) [S22](https://news.google.com/rss/articles/CBMimwFBVV95cUxOaVJvc0pzMGsyRGo3OGFia25QQW1rVDUwWXFxd2dvMDBzaE5XUi12MzdhR1VZS3ZxMGdzc1BNYkNfdnprMXFnZzJjNEdMcTR4Q2xJSHptNGJKWGVoajhxM2VXMEZEM0RCR21PSElrUzhwcmgtOEZCT1VwUWR0TXN5QUdUa25GOGVUQmRFWVlIbnltall0QVdHV0VYaw?oc=5) [S23](https://news.google.com/rss/articles/CBMikAFBVV95cUxQRU5TbmtpSHJ5QkJSdWxsUTdCNHFMUnNhMDZyQm1VZkNMQzgwSGtfZDJGOEVWOGdjV2otZ2dQUmlsX1FsZV9BNk5mWVJTSVU2MGdNMnNWUGhNaWZUMENqUVBTZkc3RDN4bEZLNl9veHc1YTBvR2xuS2lJMldIZHpnS3NqMmpCYmJzNDFZRXdfNHU?oc=5)
+- 사전 부검: 주주 몫의 현금이 작았다. SBC가 매출의 18.8%이고 분기 SBC가 계속 늘고 있어, 헤드라인 FCF 마진이 보여주는 것보다 희석 비용이 크다. 10년 주당 가치 계산이 이를 반영해도 5배에 못 미친다. [C:sbc_to_revenue@FY2025] [F153]
+- 사전 부검: 기저율 근거가 없다. 연 수십 %의 성장을 10년 이어간 기업이 얼마나 드문지 표로 확인되지 않았다. 드문 일에 거는 것이 내 철학이지만, 그 드묾의 정도를 모른 채 크게 걸 수는 없다. [C:base_rate@implied]
 
 **반론**
-- → 애크먼: 가장 강한 논거는 역DCF다. 마진이 20%로 수렴해도 연 40.3% 성장이 필요하다는 것이다. 이 반론은 현재 배수가 요구하는 크기를 정확히 짚었다. 그러나 이것은 내 논지를 깨지 않고 확인한다. 나는 '싸다'고 주장하지 않았고, 5배가 나오려면 시장 내재 성장에 맞먹는 대담한 경로가 필요하다고 이미 썼다. 현재 P/FCF 189.40x를 안전마진 잣대로 쓰면 10년 뒤 크기를 재지 못한다. 단순성·예측가능성 부재는 맞다. 다만 그것은 비중을 작게 하라는 이유이지, 수확체증이 시작된 단위경제(영업이익률 -29.3%에서 20.3%)를 무시할 이유는 아니다. [C:implied_cagr@m20] [C:p_fcf] [C:operating_margin@FY2024] [C:operating_margin@FY2025]
-- → 슬레이터: 가장 강한 논거는 '성장의 지속성은 아직 가설이고 증거가 아니다'이다. 고객 집중도·제품 비중이 없으니 맞는 말이다. 나는 증거를 기다리다 가장 가치 있는 구간을 놓치는 것을 경계하지만, 같은 증거 공백이 내 해자 판단에도 걸려 있음을 인정한다. 슬레이터의 3분기 검증 조건(가이던스 하단 매출, 총이익률 70% 이상)은 내 반증 조건과 같아서 이견이 없다. 이견은 비중을 키우는 시점뿐이다. 나는 3분기 결과가 나오기 전 소규모 시작을 지지한다. [F185] [F187] [S43](https://allmind.ai/earnings/event/2940664) [S7](https://www.sec.gov/Archives/edgar/data/1736297/000173629726000010/alab-20251231.htm)
-- → 레드팀: 사전 부검 중 성장 가설 자체를 깨는 것은 가격 압력과 고객의 자체 설계(총이익률 70% 미만)이고, 재고·매출채권 급증과 멀티플 압축은 경로의 소음에 가깝다. 전자는 내 반증 조건에 넣었다. 후자는 사업이 무너지지 않아도 주가가 먼저 무너질 수 있다는 점에서 소음이 아니라 실제 손실이다. 이것은 내 비대칭 주장을 약하게 만든다. 모델 구조 오류 지적은 맞지만, 내 case는 revenue_growth를 직접 지정했으므로 드라이버 누락의 영향을 받지 않는다. 반면 FCF 마진 가정이 SBC를 비용으로 보지 않았다는 지적은 유효하다. [F187] [F84] [F85] [F126] [C:ev_revenue] [C:sbc_to_ocf@FY2025] [C:fcf_after_sbc@FY2025]
+- → 애크먼: 애크먼의 가장 강한 논거는 가격이 요구하는 성장이 과하다는 것이다. 그러나 그의 가치 판단은 기본 시나리오 5년 값에 묶여 있다. 기본 시나리오 내재가치가 주가의 절반이라는 결론은 5년 뒤 45배 출구 배수를 전제한 계산이고, 이 회사의 가치는 5년 뒤가 아니라 그 이후 구간에서 결정된다. 다만 FCF 수익률 0.5%와 역DCF 연 33.8% 요구 성장은 내 5배 문턱에서도 같은 방향으로 확인된다. 그래서 반대로 돌아서지는 않고 기권을 유지한다. [C:implied_cagr@m32] [C:fcf_yield] [C:iv@base]
+- → 슬레이터: 슬레이터는 단위경제가 입증됐고 자체 현금으로 계획을 실행하므로 1% 시작 비중이 맞다고 본다. 생존과 단위경제는 인정한다. 그러나 코드가 계산한 확률 가중 기대 연 수익률이 -4.6%이고 손실 확률이 75%인 상태에서, 증거가 쌓이길 기다리며 사는 것은 내 기준으로는 대담함이 아니다. 5배 길이 보일 때 크게 사는 쪽이 낫다. 다만 가설이 깨지지 않았다는 점에서 그의 소규모 진입이 틀렸다고 보지도 않는다. [C:expected_irr] [C:p_loss] [C:gross_margin@FY2025]
+- → 레드팀: 레드팀의 가장 강한 시나리오는 멀티플 붕괴다. 이익이 무너지지 않아도 성장이 감속하면 배수가 줄어 -60%가 가능하다. 이것은 성장 가설 자체를 깨는 것이 아니라 가격 위험이다. 반면 총이익률 하락과 AI 설비투자 반전 시나리오는 성장 가설을 직접 깬다. 후자는 FY2026Q3·Q4 매출과 총이익률로 분기마다 확인 가능하므로 내 반증 조건에 이미 들어 있다. 재고가 6,016만에서 1.1억으로 늘어난 점은 경로의 소음일 수도 있어 3분기 확인 전에는 가설 훼손으로 보지 않는다. [C:irr@bear] [F186] [F187] [F84] [F85] [F185]
 
 **인정한 점**
-- 애크먼: 주주 몫 FCF가 보고 FCF보다 작다는 지적을 인정한다. SBC 차감 FCF가 FCF의 절반에 못 미치므로 내 case의 FCF 마진 38%는 낙관적이다. 이 가정이 틀리면 5배 레드라인 여유가 줄어든다. 그래서 확신을 4가 아닌 낮게 둔다.
-- 슬레이터·레드팀: 고객 집중도와 제품별 비중이 없어 해자는 모두 회사 주장 수준이다. 기저율 표도 없어 내 성장 경로가 얼마나 드문 일인지 검증하지 못했다. 이 두 공백 때문에 확신을 3에서 2로 낮춘다.
-- 입장은 유지한다. 손실이 제한되고 상방이 열려 있다는 비대칭, 그리고 규모와 함께 개선되는 단위경제는 반박되지 않았다. 다만 이 찬성은 작은 시작 비중과 3분기 검증을 전제로 한다.
+- 애크먼이 옳은 부분: SBC 차감 FCF가 1.2억 달러로 헤드라인 FCF의 절반에 못 미치고 자사주 매입이 없어 희석이 그대로 노출된다. 주주 몫의 현금이 작다는 점은 내 5배 계산에도 불리하게 작용한다.
+- 레드팀이 옳은 부분: 고객 집중도, 제품별 비중, 수주잔고가 없어 해자의 지속성은 입증되지 않았고 기저율 표도 없다. 드문 일에 거는 것은 내 철학이지만 드묾의 정도를 모른 채 크게 걸 수는 없다.
+- 슬레이터가 옳은 부분: 가이던스가 수요 가설을 단기에 받치고 있어 성장 가설은 깨지지 않았다. 이 때문에 반대가 아닌 기권을 유지한다.
 
 
 ## 슬레이터 — 찬성 (2/5)
 
-> 기회의 크기와 지속성 면에서 증거가 쌓이고 있는 회사지만, 가격이 이미 많은 것을 요구하므로 첫 비중만 허용하는 찬성이다. 총이익률은 매출이 커지는 동안 70%대 중반을 유지했고(C:gross_margin@FY2025), FCF 마진은 33.1%이며(C:fcf_margin@FY2025), 외부 자본 없이 계획을 실행할 수 있다. 2분기 매출은 컨센서스를 웃돌았고(F135, F184), 3분기 가이던스도 큰 폭이다(F185). 하지만 고객 집중도, 제품별 매출 비중, 어닝콜 Q&A는 확인하지 못했다. '성장의 지속성'은 아직 가설이고 증거가 아니다. 역DCF는 높은 성장이 오래 유지되어야 한다고 말한다(C:implied_cagr@m20). 그래서 확신은 낮게 두고 시작 비중도 작게 잡는다. 3분기 실적에서 매출, 총이익률, 재고가 가이던스 안에 들어오고 다음 보고에서 고객·제품 비중이 공개되면 비중을 키운다. 가설이 깨지면 손익과 무관하게 정리한다. 직전 판단과 달라진 점: 모델러 시나리오의 성장률 키(revenue_growth)가 드라이버에 없어 코드가 이를 무시했고 매출이 0% 성장으로 계산되었다. 그래서 case에 revenue_growth를 직접 지정해 코드가 의도한 성장 경로로 현금을 계산하게 했다.
-
-*이전 판단 대비: 직전 판단(반대)과 달라진 점: 새 근거가 아니라 계산 오류의 정정이다. 모델러 시나리오의 성장률 키가 드라이버에 없어 코드가 이를 무시했고, 시나리오 가치가 현재 사업 규모를 5년간 그대로 두는 0% 성장 가정으로 계산되었다. case에 revenue_growth를 직접 지정해 의도한 경로로 현금을 계산했다. 입장 근거는 F135, F185, C:fcf_margin@FY2025이다. 가격 부담과 고객·제품 증거 부재(S7, S43)는 그대로여서 확신은 낮게 둔다.*
+> 사업의 증거는 쌓이고 있다. 총이익률은 70%대 중반을 유지한 채 매출이 커졌고, 영업이익률은 적자에서 흑자로 돌아섰으며, 자체 현금 창출로 계획을 실행할 수 있어 생존 문제는 없다. 3분기 가이던스도 수요 가설을 뒷받침한다. 반면 성장의 지속성은 아직 계획 수준이다. 고객 집중도, 제품별 매출 비중, 수주잔고가 없어 시장 크기와 해자는 입증되지 않았다. 현재 가격은 이미 장기 고성장을 요구하고, 코드가 계산한 기대 수익률은 음수다. 그래서 가설이 깨지지 않았다는 이유로 1% 이하의 시작 비중만 둔다. 3분기와 4분기 실적과 고객·제품 비중 공시가 확인되면 키우고, 반증 조건이 충족되면 정리한다. 가격이 비싸다는 것만으로 매도 사유는 아니지만, 지금은 크게 살 이유도 아니다.
 
 **논거**
-- 단위경제가 규모와 함께 개선된다. 총이익률이 FY2022 73.5%에서 FY2025 75.7%로 유지된 채 영업이익률은 FY2024 -29.3%에서 FY2025 20.3%로 바뀌었다. 매출 확대가 마진을 깎지 않는 구조다. 다만 고객 코호트 데이터가 없어 마진·비용 구조로만 확인된다. [C:gross_margin@FY2022] [C:gross_margin@FY2025] [C:operating_margin@FY2024] [C:operating_margin@FY2025] [S7](https://www.sec.gov/Archives/edgar/data/1736297/000173629726000010/alab-20251231.htm)
-- 자체 현금 창출로 계획을 실행할 수 있다. FY2025 FCF가 2.8억 달러, FCF 마진이 33.1%, 순부채/EBITDA가 -0.93x다. 2022년의 교훈인 외부 자본 의존이 없다. case 경로에서도 현금이 0 아래로 내려가지 않는다. [C:fcf@FY2025] [C:fcf_margin@FY2025] [C:net_debt_to_ebitda@FY2025] [F56]
-- 모멘텀이 가이던스로 확인된다. 2분기 매출 3.924억 달러는 컨센서스 3.6085억 달러를 웃돌았고, 3분기 가이던스는 5.4억~5.6억 달러다. 경영진은 Scorpio가 한 분기 앞서 최대 제품군이 된다고 전망했다. 이것은 정성 발언이므로 제품별 매출 비중이 공개되기 전까지는 계획이지 실적이 아니다. [F135] [F184] [F185] [S43](https://allmind.ai/earnings/event/2940664)
-- 시장이 가격에 넣은 성장은 크다. 마진이 20%로 수렴해도 연 40.3% 성장이 필요하다. 이런 성장은 기저율상 드물다. 그래서 확신을 낮추고 비중을 1% 이하로 시작한다. 가격이 비싸다는 이유만으로 정의되지 않은 시장을 버리지는 않는다. 다만 비싼 가격은 증거가 쌓일 때까지 비중을 키우지 않는 이유가 된다. [C:implied_cagr@m20] [C:ev_revenue] [C:fcf_yield]
+- 단위경제가 규모와 함께 개선됐다. 총이익률은 75.7%로 70%대 중반을 지켰고, 영업이익률은 FY2024 -29.3%에서 FY2025 20.3%로 바뀌었다. 고객 코호트 데이터는 없지만 마진·비용 구조로는 입증된다. [C:gross_margin@FY2025] [C:operating_margin@FY2024] [C:operating_margin@FY2025]
+- 외부 자본 없이 계획을 실행할 수 있다. FY2025 FCF 마진은 33.1%이고 순부채/EBITDA는 음수라 부채 부담이 없다. 노스볼트형 조달 의존 위험은 해당되지 않는다. [C:fcf_margin@FY2025] [C:net_debt_to_ebitda] [F18]
+- 수요 가설을 단기 증거가 받치고 있다. 3분기 매출 가이던스는 5.4억~5.6억 달러이고, 2분기 매출은 컨센서스를 웃돌았다. 3분기에 Scorpio가 최대 제품군이 된다는 경영진 전망도 있다. 다만 이 전망은 콜 도입 발언 수준이다. [F185] [F184] [F135] [S43](https://allmind.ai/earnings/event/2940664)
+- 지속성은 아직 입증되지 않았다. 고객 집중도, 제품별 비중, 수주잔고가 없다. 현재 가격은 FCF 마진 32% 수렴을 가정할 때 10년간 연 33.8%의 매출 성장을 요구한다. 이 가격이 요구하는 기간은 증거가 있는 기간보다 훨씬 길다. [C:implied_cagr] [S43](https://allmind.ai/earnings/event/2940664) [S29](https://news.google.com/rss/articles/CBMingFBVV95cUxNemw5bzRDQUs2TGt0MFhQeGhOWktDcVA5WE1PTWcxbk5LYzlpVGtwNnljcWpzcGhnSU1oWElUTVM1d2FoUlpialJ1SzkzMjEzY3Y1eW5Hd1VBVHpQejJHSXEwWWdZZ3ZSczhNN0FhOHd2TEt4MURGb1RPX2dBMGo2MWViX3NNck1sY2NfeHlqZ1dCVXVyQXNLaFV5dkxrQQ?oc=5)
+- 가격이 가설의 이익을 많이 앞당겨 반영했다. 코드가 계산한 확률 가중 기대 연 수익률이 -4.6%이고 손실 확률은 75%다. 그래서 증거 수준에 맞춰 시작 비중을 최소로 잡는다. [C:expected_irr] [C:p_loss]
 
 **사전 부검**
-- 사전 부검: 소수 하이퍼스케일러 의존이 드러나 설계 사이클이 한 번 쉬면 주문이 재고 소진 쪽으로 돌아선다. 재고가 6,016만에서 1.1억으로, 매출채권이 1.3억에서 1.9억으로 늘어난 상태라 둔화 때 평가손실과 회수 지연이 겹친다. 고객 집중도가 미확인이라 이 위험의 크기를 알 수 없다. [F84] [F85] [F125] [F126] [S7](https://www.sec.gov/Archives/edgar/data/1736297/000173629726000010/alab-20251231.htm)
-- 사전 부검: 이익의 질이 낮다. SBC가 영업현금흐름의 50.1%이고 SBC 차감 FCF는 1.2억 달러다. 분기 SBC는 계속 늘고 자사주 매입은 없다. 2분기 순이익은 세금 이익이 부풀렸다. 주주 몫의 경제적 이익이 보고된 숫자보다 작으면 가설이 맞아도 수익이 기대에 못 미친다. [C:sbc_to_ocf@FY2025] [C:fcf_after_sbc@FY2025] [F153] [F77] [F94]
-- 사전 부검: 3분기 총이익률 가이던스가 약 72%로 2분기 73.7%보다 낮아 믹스 변화나 경쟁 압력이 시작됐을 수 있다. 70% 아래로 내려가면 가격 압력 가설이 강해지고 단위경제 판단을 바꿔야 한다. [F186] [F187]
+- 재고가 직전 분기 6,016만에서 1.1억 달러로 거의 두 배가 됐고 매출채권도 늘었다. 3분기 램프를 위한 선행 비축이면 문제없지만, 수요가 꺾이면 재고 평가손실과 총이익률 하락으로 이어진다. [F84] [F85] [F126]
+- SBC가 매출의 18.8%이고 분기 SBC가 계속 늘고 있다. 주주 몫의 FCF는 SBC 차감 후 1.2억 달러 수준이라 시장이 매기는 FCF 배수보다 실제 현금 창출력이 낮다. [C:sbc_to_revenue@FY2025] [C:fcf_after_sbc@FY2025] [F153]
+- 하이퍼스케일러 설계 사이클에 대한 소수 고객 의존이 사실이면 성장은 지속성이 아니라 사이클일 수 있다. 가격은 지속성을 전제하므로 감속이 시작되면 멀티플이 먼저 무너진다. [C:implied_cagr] [C:ev_revenue] [S43](https://allmind.ai/earnings/event/2940664)
 
 **반론**
-- → 앤더슨: 10년 뒤 5배는 성장률이 오래 높게 유지된다는 가정 위에 서 있다. 그런데 지금 확인된 증거는 3분기 가이던스와 마진 구조까지다. Scorpio가 최대 제품군이 된다는 전망은 콜 도입 발언 수준이어서 계획이지 실적이 아니다. 5배를 근거로 비중을 키울 수는 없다. 비중은 3분기 이후 제품별 매출 비중과 고객 집중도가 공개되는 만큼만 늘린다. 시작 비중은 작게 둔다. [S43](https://allmind.ai/earnings/event/2940664) [F185] [C:implied_cagr@m20]
-- → 애크먼: 가격이 비싸다는 논거는 가장 강하고, 비중을 키우지 않는 이유로 받아들인다. 하지만 '예측 가능하지 않다'는 이유로 아직 정의되지 않은 시장을 버리는 데는 동의하지 않는다. 자본시장 의존이 없다는 점은 같이 확인했다. 순현금이고 부채 부담이 낮으며 FCF가 양(+)이다. 외부 조달 없이 계획을 실행할 수 있으니 틀려도 손실은 첫 비중으로 제한된다. 해자 증거가 없다는 점은 인정하며, 그래서 확신을 낮게 둔다. [C:net_debt_to_ebitda@FY2025] [C:fcf_margin@FY2025] [C:fcf_yield] [S43](https://allmind.ai/earnings/event/2940664)
-- → 레드팀: 가장 강한 부검은 재고 급증 뒤 주문이 꺾이는 경우다. 재고와 매출채권이 한 분기에 크게 늘었기 때문이다. 다만 그 신호로 쓴 '4분기 매출이 3분기 가이던스 하단 아래'는 늦다. 램프가 아니라 조정이 진행 중이라는 것을 확인하는 시점에 이미 손실이 나 있다. 그래서 선행 지표를 must_be_true에 넣는다. 3분기 매출이 가이던스 하단 이상이어야 하고, 총이익률이 70% 이상을 지켜야 한다. 재고가 매출 증가보다 빨리 늘어난 채 남으면 비중을 키우지 않는다. 모델 구조 오류 지적도 맞다. 내 case는 매출 성장을 직접 지정해 현금 경로를 계산했으므로 시나리오 가치 표에 의존하지 않는다. [F84] [F85] [F126] [F185] [F187] [C:expected_irr]
+- → 앤더슨: 기권의 근거는 강세 시나리오 10년 가치가 5배 문턱에 못 미친다는 것이다. 그 문턱은 앤더슨의 기준이고 나는 쓰지 않는다. 내 질문은 가설이 증거로 입증되고 있느냐다. 제품 비중, 고객 집중도, 수주 가시성은 다음 보고가 나와야 확인되는데, 증거를 기다리며 지켜만 보는 것과 최소 비중으로 증거가 쌓이는 것을 지켜보는 것은 다르다. 시작 비중이 최소라면 문턱 아래의 상방도 잃을 것이 크지 않다. 가격이 요구하는 성장 기간이 증거가 있는 기간보다 길다는 점은 인정한다. [C:implied_cagr] [S43](https://allmind.ai/earnings/event/2940664)
+- → 애크먼: 가장 강한 논거는 확률 가중 기대 수익률이 음수이고 손실 확률이 높다는 것이다. 맞다. 그래서 나는 크게 사지 않고 시작 비중을 최소로 둔다. 그러나 내재가치 대비 가격 격차는 5년 기본 시나리오의 출구 배수 가정에 크게 의존하고, 이 가정은 단일 값이다. 예측 가능성이 낮다는 이유로 아직 정의되지 않은 시장의 선택권을 버리지 않는다. 가격이 비싸다는 것은 매도 사유가 아니라 비중의 상한이다. 가설이 깨지는 신호는 반증 조건으로 따로 둔다. [C:expected_irr] [C:p_loss] [C:iv@base]
+- → 레드팀: 사전 부검의 선행 신호 중 4분기 매출, 총이익률, 재고가 가설의 운영 지표로 쓸 만하다. 재고가 직전 분기의 거의 두 배가 됐고 매출채권이 매출보다 빠르게 늘었다는 지적은 맞다. 선행 비축이면 문제없지만 입증되지 않았다. 재고 상한을 must_be_true에 넣어 3분기 보고에서 코드가 대조하게 한다. 멀티플 붕괴는 가격 문제이지 가설 훼손이 아니므로 반증 조건이 아니라 비중으로 대응한다. [F84] [F85] [F125] [F126] [F185]
 
 **참이어야 하는 것**
-- [on_track] 3분기 매출이 가이던스 하단(5.4억 달러) 이상이다. 수요 가설의 가장 직접적인 시험이다.
-- [on_track] 믹스가 Scorpio 쪽으로 옮겨가도 Non-GAAP 총이익률이 70% 이상을 지킨다. 가격 압력이 없다는 뜻이다.
-- [on_track] 3분기 Non-GAAP EPS가 가이던스 하단 이상이다. 영업레버리지가 SBC와 희석을 흡수한다는 증거다.
-- [at_risk] 재고와 매출채권의 급증이 램프를 선행한 것이어서 이후 분기 매출이 이어진다. 4분기 매출이 3분기 가이던스 상단보다 높아야 한다.
+- [on_track] 3분기 매출이 가이던스 하단 이상이다
+- [on_track] Scorpio 믹스 이동에도 Non-GAAP 총이익률이 70% 이상을 유지한다
+- [at_risk] 4분기에도 분기 매출 성장이 이어진다
+- [on_track] 3분기 영업현금흐름이 양(+)으로 유지된다
+- [at_risk] 재고가 수요 둔화 속에 쌓이지 않는다 (선행 비축이 매출로 소화된다)
 
 **인정한 점**
-- 애크먼: 가격이 이미 먼 미래의 성장을 담고 있다는 점을 인정한다. 확신은 2로 유지하고 시작 비중은 낮게 둔다. 3분기 결과가 가이던스 밖이면 비중을 늘리지 않는다.
-- 레드팀: 선행 신호는 4분기 매출보다 3분기 총이익률과 재고·매출채권 추이가 낫다. must_be_true와 thesis_breaks에 총이익률 조건을 두었고, 4분기 매출 조건은 '위험' 상태로 남겨 확인한다.
-- 앤더슨: 상방의 크기에는 동의하지만 이를 성립시키는 조건은 아직 증명되지 않았다. 입장은 같고 비중 제안은 더 보수적이다.
+- 애크먼의 지적대로 기대 수익률이 음수이고 SBC 차감 후 주주 몫의 현금이 작다. 확신을 높일 근거가 아니므로 확신은 낮게, 비중은 최소로 유지한다.
+- 레드팀의 재고·채권 부담 지적을 받아들여 재고 상한을 반증할 수 있는 지표로 추가한다.
 
 
 ## 애크먼 — 반대 (4/5)
 
-> 사업의 질은 인정한다. 총이익률 70%대 중반, FCF 마진 30%대, 순현금, 부채 없음이다. 그러나 좋은 회사를 비싸게 사면 나쁜 투자다. 현재 P/FCF는 189배, FCF 수익률은 0.5%여서 오늘 가격에서는 보수적 가정으로 안전마진을 확보할 수 없다. 역DCF상 FCF 마진 20%로 수렴하는 경우에도 10년 동안 연 40% 넘는 매출 성장이 필요하다. 이 성장이 가능하다고 말하려면 고객 집중도, 설계 수주, 제품별 비중 같은 해자 증거가 있어야 하는데 하나도 확보되지 않았다. 그래서 10년 뒤 FCF를 합리적 범위로 추정할 수 없고, 단순성·예측가능성 기준을 통과하지 못한다. 가치와 가격의 격차를 좁힐 촉매도 없다. 코드의 시나리오 계산은 드라이버가 비어 있어 매출 성장이 반영되지 않았으므로 그 안전마진 절댓값에 의존하지 않는다. 판단은 역DCF와 현재 배수에 근거한다. 지켜보다가 가격이 내려오거나 해자 증거가 공시로 확인되면 재검토한다.
-
-*이전 판단 대비: 입장은 직전 판단과 같은 반대다. 새로운 근거는 없고, 모델 계산 경고(드라이버 누락)로 직전에 쓴 기본 시나리오 현재가치 약 167달러 기준을 이번에는 신뢰하지 않아 판단 근거를 역DCF(C:implied_cagr@m20)와 현재 배수(C:p_fcf)로 옮겼다.*
+> Astera Labs는 사업의 질은 좋지만 지금 가격은 맞지 않는다. 총이익률 75.7%, FCF 마진 33.1%, 순현금 구조로 레버리지 위험은 없다. 그러나 고객 집중도, 제품별 비중, 설계 수주 같은 해자 증거가 없어 10년 뒤 FCF를 합리적 범위로 추정한다고 말하기 어렵다. 가격은 더 큰 문제다. 시가총액이 524억 달러, FCF 수익률이 0.5%이고, 역DCF는 FCF 마진 32% 수렴 시 10년간 연 33.8% 매출 성장을 요구한다. 기본 시나리오 내재가치는 주가의 절반 수준이고 확률 가중 기대 연 수익률은 마이너스다. 좋은 회사를 비싸게 사면 나쁜 투자다. 앞선 판단(반대)을 유지한다.
 
 **논거**
-- 가격이 모든 것을 말한다. P/FCF가 매우 높고 FCF 수익률은 1%에도 못 미친다. 현금 창출 능력이 좋아도 이 가격에서는 보유 기간 수익이 멀티플 확장이 아닌 성장에만 달려 있다. [C:p_fcf] [C:fcf_yield] [F183]
-- 역DCF가 시장이 가정하는 것을 보여 준다. FCF 마진이 20%로 수렴해도 10년간 연 40.3% 매출 성장이 필요하고, 마진 30%로 수렴해도 연 34.7%가 필요하다. 이 정도 성장을 10년 지속한 기업은 드물다. 기저율 표는 아직 없지만 방향은 분명하다. [C:implied_cagr@m20] [C:implied_cagr@m30]
-- 사업의 질은 높다. FY2025 총이익률 75.7%, FCF 마진 33.1%이고 순부채/EBITDA는 음수여서 자본시장 의존이 낮다. 이것은 레버리지 레드라인을 통과시키지만 가격의 정당화는 아니다. [C:gross_margin@FY2025] [C:fcf_margin@FY2025] [C:net_debt_to_ebitda@FY2025]
-- 주주 몫 FCF는 보고 FCF보다 작다. SBC 차감 FCF는 FY2025에 1.2억 달러로 FCF의 절반에 못 미치고, 분기 SBC는 계속 늘고 있다. 자사주 매입은 사실상 없어 희석이 그대로 노출된다. 0.5%의 FCF 수익률도 실제 주주 몫으로는 더 낮다. [C:fcf_after_sbc@FY2025] [C:sbc_to_ocf@FY2025] [F153] [F4]
-- 단순성과 예측가능성이 입증되지 않았다. 해자는 모두 회사 주장 수준이고, 설계 수주·재구매·고객 집중 데이터와 제품별 매출 비중이 없다. 매출채권과 재고가 최근 분기에 급증했다. 10년 FCF를 합리적 범위로 추정할 근거가 부족하다. [S43](https://allmind.ai/earnings/event/2940664) [F85] [F126] [C:dso@FY2025]
+- 가격이 요구하는 성장이 과하다. 역DCF상 FCF 마진 32%로 수렴해도 10년간 연 33.8% 매출 성장이 필요하고, FCF 수익률은 0.5%에 불과하다. 안전마진을 논하기 전에 가격이 이미 완벽한 실행을 전제한다. [C:implied_cagr@m32] [C:fcf_yield] [C:p_fcf]
+- 기본 시나리오 내재가치가 주가에 크게 못 미친다. 확률 가중 기대 연 수익률은 마이너스이고 손실 확률이 75%다. 기본 시나리오 수익률 분해에서 멀티플 축소가 가장 큰 하락 요인이다. 매출이 연 28.9% 성장해도 가격이 따라오지 못한다. [C:expected_irr] [C:p_loss] [C:irr@base] [C:iv@base]
+- 사업의 질은 인정한다. 총이익률이 70%대 중반을 유지하는 가운데 매출이 크게 늘었고 FCF 마진이 33.1%이며 순현금 구조다. 자본시장 의존이나 레버리지 문제는 없다. 그러나 이것은 필요조건이다. [C:gross_margin@FY2025] [C:fcf_margin@FY2025] [C:net_debt_to_ebitda@FY2025]
+- 주주 관점의 FCF는 SBC를 차감해야 한다. FY2025 SBC 차감 FCF는 1.2억 달러로 FCF의 절반에 못 미친다. 시장 배수는 차감 전 FCF에 매겨져 있어 실제 수익률은 더 낮다. 분기 SBC도 다시 늘고 있고 자사주 매입은 사실상 없어 희석이 그대로 노출된다. [C:fcf_after_sbc@FY2025] [C:sbc_to_ocf@FY2025] [F153] [F4]
+- 단순성과 예측가능성이 입증되지 않았다. 해자는 회사 주장 수준이고, 고객 집중도와 제품별 매출 비중 등 운영 KPI가 없으며, 매출채권과 재고가 매출보다 빠르게 늘고 있다. 10년 FCF 범위를 좁게 추정할 근거가 없다. [F85] [F126] [S43](https://allmind.ai/earnings/event/2940664)
 
 **사전 부검**
-- 사전 부검: 내가 틀렸다면 AI 연결 부품 수요가 예상보다 훨씬 오래, 가파르게 이어졌고 Scorpio 램프가 3분기 가이던스를 크게 넘어서면서 성장 감속이 늦어진 경우다. 이 경우 높은 멀티플이 정당화되고 기다리는 동안 기회비용이 생긴다. [F185] [F184] [S43](https://allmind.ai/earnings/event/2940664)
-- 사전 부검: 모델 계산에 드라이버가 비어 있어 시나리오 가치가 매출 성장을 반영하지 못했다. 내 안전마진 판단이 코드의 절댓값에 의존했다면 오류였겠지만, 판단의 중심은 역DCF와 현재 배수이므로 방향은 유지된다. 다만 정확한 격차 크기는 모른다. [C:implied_cagr@m20] [C:p_fcf]
-- 사전 부검: 해자가 실제로는 강한데 공시와 자료 접근 부족 때문에 내가 과소평가했을 수 있다. 상위 고객 비중과 설계 수주가 확인되면 예측가능성 판단이 달라질 수 있다. [S7](https://www.sec.gov/Archives/edgar/data/1736297/000173629726000010/alab-20251231.htm) [S6](https://www.sec.gov/Archives/edgar/data/1736297/000114036126016359/ny20065212x1_def14a.htm)
+- 사전 부검: 내가 틀렸다면 Scorpio와 NVIDIA 생태계 개방이 설계 수주를 폭넓게 확보해 성장이 기본 시나리오보다 훨씬 오래 이어진 경우다. 이 경우 강세 시나리오 이상의 실적이 나와 높은 배수가 정당화된다. 다만 강세 시나리오조차 연 수익률이 +7.2%에 그친다. [S34](https://news.google.com/rss/articles/CBMimAFBVV95cUxPQkRNUnVZc0JGMVdRZVUtWW5aX3FIbGFUa2F4SlE5LUFyc0ttQ2E3WktDMktsY01mNWl6d2dTbC1RQWhlVXF2QU1GN0s4Zk1iRGo5MXZMTDBmRWtRc0lvRUVYMjJoS2R2RXo2SUlxdWg3Y2NpZkRnd0R2bFFiSW1haTNMcldaSTh5cGRPU3hGQVcwMXpQbjRHZw?oc=5) [C:irr@bull]
+- 사전 부검: 가치와 가격의 격차를 좁힐 촉매가 내 판단 밖에 있을 수 있다. 3분기 가이던스 상단 초과와 총이익률 유지가 반복되면 이익 상향이 가격을 더 밀어 올릴 수 있다. 이 경우 기회비용이 생긴다. [F185] [F187]
+- 사전 부검: 고객 집중도 공시로 상위 고객 의존이 낮고 반복 구매가 확인되면 해자 판단과 단순성 판단이 달라질 수 있다. 지금은 증거가 없어 보수적으로 본 것이다. [S7](https://www.sec.gov/Archives/edgar/data/1736297/000173629726000010/alab-20251231.htm) [S43](https://allmind.ai/earnings/event/2940664)
 
 **반론**
-- → 앤더슨: 앤더슨의 10년 5배는 매출이 10년 뒤 현재의 약 28배가 되는 경로(첫 해 +130%, 이후 30%대 중반에서 10%대로 감속)에 마진 38%, 출구 P/FCF 35배를 모두 얹어야 나온다. 시장 내재 성장도 FCF 마진 30%로 수렴하는 경우 연 34.7%다. 같은 규모의 성장을 10년 이어 간 기업은 드물고, 기저율 표가 없어 그 빈도를 확인하지 못했다. 생존자 편향에 기댄 가정이다. 게다가 앤더슨 자신이 '멀티플 변화가 가장 큰 마이너스'라고 사전 부검에 적었다. 가격이 이미 완벽한 실행을 담고 있다면 비대칭 베팅이 아니다. 주주 몫 FCF인 SBC 차감 FCF는 보고 FCF의 절반에 못 미치고, FCF 수익률 0.5%보다도 낮다. [C:implied_cagr@m30] [C:implied_cagr@m20] [C:fcf_after_sbc@FY2025] [C:fcf_yield] [C:p_fcf]
-- → 슬레이터: 슬레이터가 말한 자체 현금 창출과 단위경제 개선은 필요조건이지 가격의 정당화가 아니다. 슬레이터 스스로 '성장의 지속성은 아직 가설이고 증거가 아니다'라고 썼고, 고객 집중도·제품 비중·Q&A도 확인하지 못했다. 증거가 가설 단계라면 P/FCF 189배는 그 가설이 이미 입증된 것처럼 값을 매긴 것이다. 비중 1% 이하로 시작하겠다는 것은 확신이 낮다는 고백이다. 확신이 서지 않으면 아예 담지 않는다. 또 재고가 한 분기에 거의 두 배, 매출채권이 1.9억으로 늘어난 점은 슬레이터가 스스로 at_risk로 표시했다. [C:p_fcf] [C:implied_cagr@m20] [F85] [F126] [S43](https://allmind.ai/earnings/event/2940664)
-- → 레드팀: 레드팀의 사전 부검은 FCF 범위를 넓힌다. 재고 조정이나 멀티플 압축이 오면 10년 뒤 FCF를 한 문단 범위로 좁히기 더 어려워지고, 레드팀이 지적한 SBC 차감 마진 문제로 보수적 FCF 마진은 34%보다 더 낮아진다. 그만큼 요구되는 안전마진은 20%보다 커져야 한다. 반면 레드팀이 짚은 모델 구조 오류(성장률 키 누락)는 옳다. 그래서 나는 코드의 안전마진 절댓값이 아니라 역DCF와 현재 배수로 판단한다. 이 방향은 모델을 고쳐도 바뀌지 않는다. [C:fcf_after_sbc@FY2025] [C:sbc_to_ocf@FY2025] [C:expected_irr] [C:implied_cagr@m20] [C:p_fcf]
+- → 앤더슨: 앤더슨은 가격을 이유로 반대하지 않고 5배 길이 열리는 증거를 기다리며 기권한다고 했다. 그러나 가장 낙관적인 강세 시나리오에서도 코드가 계산한 연 수익률은 +7.2%에 그친다. 시장 내재 성장이 FCF 마진 20% 수렴 시 연 40.3%이므로, 증거가 쌓여 5배 길이 열려도 그 증거는 이미 가격에 들어 있을 가능성이 크다. 기다림은 중립이 아니라, 지금 가격에서는 기대값이 음수라는 판단과 같다. [C:irr@bull] [C:implied_cagr@m20]
+- → 슬레이터: 슬레이터는 가설이 깨지지 않았다는 이유로 1% 시작 비중에 찬성하지만, 생존 경로와 단위경제는 필요조건이지 가격의 정당화가 아니다. 슬레이터 자신이 인용한 확률 가중 기대 연 수익률은 -4.6%이고 손실 확률은 75%다. 기대값이 음수인 자산에 시작 비중을 두는 것은 증거 수준에 맞춘 규율이 아니라 가격을 무시한 것이다. 또한 4분기 매출 조건이 스스로 at_risk로 표시되어 있다. [C:expected_irr] [C:p_loss] [C:irr@base]
+- → 레드팀: 레드팀의 사전 부검은 멀티플 붕괴를 가장 큰 위험으로 짚는다. 기본 시나리오 수익률 분해에서 멀티플 변화가 -28.3%로 가장 큰 항목이고, 출구 배수를 0.75배로 낮추면 연 수익률이 -9.0%까지 내려간다. 이 가정이 현재 189.40배 P/FCF에서 이미 크게 내린 값인데도 결과가 음수라면, 내가 요구하는 20% 안전마진을 채우려면 가격이 지금보다 훨씬 내려와야 한다. SBC 차감 FCF가 FCF의 절반에 못 미치는 점이 FCF 범위를 더 넓히므로 필요한 안전마진은 20%보다 커진다. [C:irr@base] [C:p_fcf] [C:fcf_after_sbc@FY2025]
 
 **인정한 점**
-- 앤더슨과 슬레이터가 옳은 점: 총이익률이 70%대 중반을 유지하며 영업이익률이 -29.3%에서 20.3%로 바뀌었고 순현금이라 자본시장 의존 레드라인은 통과한다. 사업의 질은 의심하지 않는다. 다만 이것은 가격이 아니라 단순성 판단에도 충분하지 않다.
-- 슬레이터의 가이던스 사실은 인정한다: 2분기 매출이 컨센서스를 웃돌았고 3분기 가이던스가 큰 폭이다. 단기 램프는 맞을 가능성이 높다. 하지만 10년 FCF 범위와 가격의 격차는 좁혀지지 않는다.
-- 모델 계산이 성장 키 누락으로 왜곡되어 기본 시나리오 안전마진 수치를 인용하지 않는다. 이 오류를 고쳐도 현재 가격은 역DCF가 요구하는 성장을 전제하므로 입장은 유지한다.
+- 앤더슨과 슬레이터가 지적한 대로 사업 자체의 질과 성장 가속은 부인하지 않는다. 총이익률이 70%대 중반을 지키고 순현금 구조라 자본시장 의존은 없다. 이 점은 반대 사유가 사업이 아니라 가격임을 분명히 한다.
+- 레드팀이 지적한 대로 고객 집중도와 제품별 비중이 확인되지 않아 단순성과 예측가능성 판단은 보수적으로 둔다. 이 증거가 공시되면 단순성 판단은 재평가하지만, 코드가 계산한 안전마진은 -98.3%라 가격 문제는 그대로 남는다.
 
 
 ## 분석 모듈 (L4)
@@ -223,27 +225,32 @@ Astera Labs는 AI 데이터센터 서버·가속기 사이의 연결 병목(PCIe
 
 ## 레드팀 — 사전 부검 (5년 뒤 −60%라면)
 
-- (25%) 하이퍼스케일러의 AI 서버 증설이 한 번 쉬어 가면서 재고 소진 국면으로 들어간다. 3분기 가이던스 5.4억~5.6억 달러는 선행 비축과 램프를 전제로 한 숫자다. 재고는 직전 분기 6,016만에서 1.1억 달러로, 매출채권은 1.3억에서 1.9억 달러로 늘어난 상태다. 주문이 꺾이면 재고 평가손실과 회수 지연이 겹치고, 매출은 가이던스 하단 아래로 내려간다. 주가는 EV/매출 43.51x, 역DCF상 10년 연 40% 성장을 담고 있어 한 분기의 감속만으로도 크게 재평가된다. [F84] [F85] [F125] [F126] [F185] [C:ev_revenue] [C:implied_cagr@m20]
-- (30%) 사업은 무너지지 않아도 멀티플이 먼저 무너진다. 현재 PER은 141.82x, FCF 수익률은 0.5%다. PER에는 세금 이익 5,026만 달러가 섞여 있다. 성장이 40%대에서 한 자릿수 후반~20%대로 내려오는 순간 시장은 같은 이익에 훨씬 낮은 배수를 준다. 5년 동안 이익이 두 배가 되어도 배수가 3분의 1이 되면 주가는 −60%에 닿는다. 시장 기대에 이미 완벽한 실행이 반영되어 있어 비대칭이 아래로 기울어 있다. [C:pe] [C:fcf_yield] [C:p_fcf] [F77] [F183] [S40](https://www.digrin.com/stocks/detail/ALAB/price)
-- (20%) 고객의 자체 설계와 경쟁사(Broadcom·Marvell·Credo)의 번들링이 가격을 압박한다. 리타이머·스위치는 소수 하이퍼스케일러와 AI 서버 OEM에 팔리고, 고객 집중도와 설계 수주 데이터는 없다. 해자는 모두 회사 주장(claimed) 수준이다. NVIDIA가 경쟁 칩을 랙에 허용한다는 구도는 Astera의 중립성이 되기도 하지만, 같은 문이 경쟁사에도 열린다는 뜻이다. 총이익률이 가이던스 약 72%에서 더 내려가면 영업레버리지가 거꾸로 작동한다. [F187] [S23](https://news.google.com/rss/articles/CBMikAFBVV95cUxQRU5TbmtpSHJ5QkJSdWxsUTdCNHFMUnNhMDZyQm1VZkNMQzgwSGtfZDJGOEVWOGdjV2otZ2dQUmlsX1FsZV9BNk5mWVJTSVU2MGdNMnNWUGhNaWZUMENqUVBTZkc3RDN4bEZLNl9veHc1YTBvR2xuS2lJMldIZHpnS3NqMmpCYmJzNDFZRXdfNHU?oc=5) [S34](https://news.google.com/rss/articles/CBMimAFBVV95cUxPQkRNUnVZc0JGMVdRZVUtWW5aX3FIbGFUa2F4SlE5LUFyc0ttQ2E3WktDMktsY01mNWl6d2dTbC1RQWhlVXF2QU1GN0s4Zk1iRGo5MXZMTDBmRWtRc0lvRUVYMjJoS2R2RXo2SUlxdWg3Y2NpZkRnd0R2bFFiSW1haTNMcldaSTh5cGRPU3hGQVcwMXpQbjRHZw?oc=5) [S43](https://allmind.ai/earnings/event/2940664) [S22](https://news.google.com/rss/articles/CBMimwFBVV95cUxOaVJvc0pzMGsyRGo3OGFia25QQW1rVDUwWXFxd2dvMDBzaE5XUi12MzdhR1VZS3ZxMGdzc1BNYkNfdnprMXFnZzJjNEdMcTR4Q2xJSHptNGJKWGVoajhxM2VXMEZEM0RCR21PSElrUzhwcmgtOEZCT1VwUWR0TXN5QUdUa25GOGVUQmRFWVlIbnltall0QVdHV0VYaw?oc=5)
-- (20%) 주주 몫의 이익이 보고 이익보다 훨씬 작다는 사실이 드러난다. FCF 2.8억 달러 중 상당 부분이 SBC 가산분이고, SBC 차감 FCF는 1.2억 달러뿐이다. 분기 SBC는 4,137만에서 6,399만 달러로 늘고 있다. 자사주 매입은 없고, 3분기 희석 주식 가이던스는 현 발행 주식 1.73억보다 많은 1.85억이다. 희석이 가이던스를 넘고 Non-GAAP과 GAAP의 격차가 벌어지면, 시장이 Non-GAAP EPS를 믿지 않게 되어 FCF 배수의 기준 자체가 낮아진다. [C:fcf_after_sbc@FY2025] [C:sbc_to_ocf@FY2025] [F182] [F153] [F154] [F194] [F4]
-- 약한 가정 `scenarios.*.growth.revenue_growth`: 계산 경고에 따르면 시나리오의 revenue_growth가 drivers에 없어 코드가 이를 무시했고, 5년 뒤 매출은 세 시나리오 모두 8.5억 달러(연 0.0%)로 계산됐다. 그 결과 기대 연 수익률 −30.7%와 손실 확률 100%라는 값이 나온다. 이 값은 모델러의 서술(FY2026 +120%, 이후 감속)과 전혀 다른 모델에서 나온 것이어서, 현재 시나리오 가치 표는 어느 쪽 판단의 근거도 될 수 없다. 모델 구조 오류이며, 상류에서 고쳐야 한다. [C:expected_irr] [C:p_loss] [F135]
-- 약한 가정 `base.fcf_margin`: 34%는 FY2025 FCF 마진 33.1%에서 거의 그대로 가져온 값이다. 그런데 이 FCF는 SBC 가산분이 크고(SBC/OCF 50.1%), SBC 차감 FCF는 1.2억 달러다. 총이익률은 가이던스 약 72%로 내려가는 방향이고, 분기 SBC는 계속 늘고 있다. 5년 뒤에도 SBC를 비용으로 보지 않은 마진 34%를 유지한다는 가정은 주주 몫 마진을 과대평가한다. [C:fcf_margin@FY2025] [C:sbc_to_ocf@FY2025] [C:fcf_after_sbc@FY2025] [F187]
-- 약한 가정 `bull.exit_multiple`: 성장이 25%로 내려온 해에 출구 P/FCF 40배를 주는 것은 현재 189.40x에서 내려오더라도 여전히 높은 값이다. 이 배수는 성장 유지를 전제로 하므로 성장률 가정과 독립이 아니다. 기저율 표가 없어 40% 안팎 성장을 5~10년 지속한 사례의 빈도를 검증하지 못했다. [C:p_fcf] [C:implied_cagr@m20] [C:base_rate@bull]
+- (25%) 멀티플 붕괴. 5년 뒤 −60%는 이익이 무너지지 않아도 가능하다. 현재 EV/매출은 43.51x, P/FCF는 189.40x이고(C:ev_revenue, C:p_fcf), 시장은 FCF 마진 32%로 수렴할 때 10년간 연 33.8%의 매출 성장을 가정한다(C:implied_cagr@m32). 성장이 한 번 감속하면 시장은 성장주 배수를 성숙 반도체 배수로 재평가한다. 모델러의 약세 시나리오 출구 배수는 22x다. 이 경우 연 수익률은 −34.5%이고(C:irr@bear) 기본 시나리오도 이미 −4.1%다(C:irr@base). 기본 시나리오 수익률 분해에서 멀티플 변화가 −28.3%로 가장 크다. 2026년 8월 보도도 '랠리가 먼저 와서 실적 상회 후에도 주가가 빠졌다'고 지적했다(S19). 매출이 계속 늘어도 배수만 줄면 주가는 크게 내려간다. [C:ev_revenue] [C:p_fcf] [C:implied_cagr@m32] [C:irr@bear] [C:irr@base] [S19](https://news.google.com/rss/articles/CBMizwFBVV95cUxNMlAzWVpPbmFJY1JQbkVWNng2Z254UGZ5VzJ6QllFQ1VkVUVTTzhxVzFpaEVLZmVQYlQ4OUJCd1YyTWNGazJ5ZGE3VGN1YmlSZ2JfeHdTZllTNXRPTmVMQTNwUF9wZUFlN0VaM2t2R3RTeXc4aWxzY1NfQ2NTWExnWGl2aFBtNGQ3dUpWZVAyaXRIa1dWbmlManVFSjV5Sk8xczc5bDBfMGNiVlRzTHRjOGZ3ZUtvTzJsaXF4QWpkRFR6Q3VLLU1HWDBaUWt2aUU?oc=5)
+- (15%) 경쟁·플랫폼 대체로 인한 가격 압력. 회사의 해자는 근거 없이 '주장' 수준이다. 설계 수주 수, 고객 집중도, 제품별 매출 비중은 수집되지 않았다. NVIDIA가 랙에 외부 칩을 허용하는 구조(S34)는 Astera에게 기회이면서 동시에 같은 문이 Broadcom·Credo 같은 경쟁사에게도 열린다는 뜻이다(S22, S23). 연결 부품이 표준화되고 하이퍼스케일러가 자체 설계로 옮기면 총이익률이 무너진다. 3분기 Non-GAAP 총이익률 가이던스는 이미 약 72%로 2분기 73.7%보다 낮다(F187, F186). 총이익률이 내려가기 시작하면 영업레버리지가 거꾸로 작동한다. R&D는 FY2026Q2에 분기 1.4억(F144)으로 고정비 성격이 강해 매출 둔화와 마진 하락이 동시에 온다. [S34](https://news.google.com/rss/articles/CBMimAFBVV95cUxPQkRNUnVZc0JGMVdRZVUtWW5aX3FIbGFUa2F4SlE5LUFyc0ttQ2E3WktDMktsY01mNWl6d2dTbC1RQWhlVXF2QU1GN0s4Zk1iRGo5MXZMTDBmRWtRc0lvRUVYMjJoS2R2RXo2SUlxdWg3Y2NpZkRnd0R2bFFiSW1haTNMcldaSTh5cGRPU3hGQVcwMXpQbjRHZw?oc=5) [S22](https://news.google.com/rss/articles/CBMimwFBVV95cUxOaVJvc0pzMGsyRGo3OGFia25QQW1rVDUwWXFxd2dvMDBzaE5XUi12MzdhR1VZS3ZxMGdzc1BNYkNfdnprMXFnZzJjNEdMcTR4Q2xJSHptNGJKWGVoajhxM2VXMEZEM0RCR21PSElrUzhwcmgtOEZCT1VwUWR0TXN5QUdUa25GOGVUQmRFWVlIbnltall0QVdHV0VYaw?oc=5) [S23](https://news.google.com/rss/articles/CBMikAFBVV95cUxQRU5TbmtpSHJ5QkJSdWxsUTdCNHFMUnNhMDZyQm1VZkNMQzgwSGtfZDJGOEVWOGdjV2otZ2dQUmlsX1FsZV9BNk5mWVJTSVU2MGdNMnNWUGhNaWZUMENqUVBTZkc3RDN4bEZLNl9veHc1YTBvR2xuS2lJMldIZHpnS3NqMmpCYmJzNDFZRXdfNHU?oc=5) [F186] [F187] [F144]
+- (15%) AI 설비투자 사이클 반전과 재고·채권 부담. 매출 성장은 하이퍼스케일러 AI 투자에 묶여 있다. 그런데 재고가 FY2026Q1 6,016만에서 FY2026Q2 1.1억으로 거의 두 배가 됐고(F84, F85), 매출채권도 1.3억에서 1.9억으로 늘었다(F125, F126). 이는 매출 증가율(3.1억에서 3.9억)보다 빠르다(F134, F135). 고객이 주문을 미루면 선제 비축한 재고는 평가손실로, 채권은 회수 지연으로 바뀐다. 5년 동안 하이퍼스케일러 투자가 한 번만 조정되어도 3분기 가이던스 5.4억~5.6억(F185)이 정점이 되고, 성장주 배수가 붙은 상태에서 −60%가 나온다. 고객 집중도 데이터가 없다는 점이 이 위험을 가린다. [F84] [F85] [F125] [F126] [F134] [F135] [F185]
+- (10%) SBC 희석과 이익 품질 인식 변화. 시장 배수는 SBC 차감 전 FCF에 매겨져 있다. FY2025 FCF는 2.8억이지만 SBC 차감 FCF는 1.2억에 그친다(C:fcf@FY2025, C:fcf_after_sbc@FY2025). 분기 SBC는 FY2025Q2 3,547만에서 FY2026Q2 6,399만으로 늘었다(F150, F153). 자사주 매입은 FY2025에 0이라 희석을 상쇄하지 못한다(F4). FY2026Q2 순이익 1.5억은 5,026만의 세금 이익이 부풀린 것이어서(F77, F94) PER 141.82x도 반복 가능한 이익이 아니다(C:pe). 투자자가 SBC 차감 기준과 세금 효과를 제거한 이익으로 가치를 다시 매기면 헤드라인 배수가 정당화되지 않는다. 여기에 희석이 이어지면 주당 가치의 성장이 매출 성장에 못 미친다. [C:fcf@FY2025] [C:fcf_after_sbc@FY2025] [F150] [F153] [F4] [F77] [F94] [C:pe]
+- 약한 가정 `base.exit_multiple`: 기본 시나리오 출구 P/FCF 45x는 현재 189.40x에서 크게 내려온 값이지만, 성숙해진 5년 뒤에도 45x를 유지한다는 가정은 여전히 관대하다. 약세 시나리오는 22x다. 기본 시나리오 수익률 분해에서 멀티플 변화가 −28.3%로 가장 큰 항목이고, 출구 멀티플을 ×0.75로 낮추면 연 수익률이 −9.0%로 내려간다. 이 가정 하나가 결과를 좌우한다. [C:p_fcf] [C:irr@base] [C:irr@bear]
+- 약한 가정 `base.revenue_growth`: FY2027 매출 성장 50%와 이후 35%, 25%, 20%의 연속 고성장은 지속성 근거가 없다. 고객 집중도, 제품별 비중, 수주잔고는 확보되지 않았고 기저율 표도 없어서 이런 성장이 얼마나 드문지 검증되지 않았다. 역DCF가 요구하는 10년 연 33.8% 성장(C:implied_cagr@m32)과 비교해도 모델의 5년 연 28.9%(C:revenue_cagr@base)는 시장이 요구하는 수준에 가깝다. [C:revenue_cagr@base] [C:implied_cagr@m32] [C:base_rate@base]
+- 약한 가정 `base.fcf_margin`: FCF 마진 32%는 FY2025의 33.1%(C:fcf_margin@FY2025)에 거의 붙어 있다. 그러나 이 마진은 SBC를 비용으로 보지 않은 값이다. SBC 차감 FCF는 FY2025에 1.2억으로 절반에 못 미치고(C:fcf_after_sbc@FY2025), 분기 SBC는 계속 늘고 있다. 총이익률 가이던스 약 72%(F187)도 하락 방향이어서 마진 유지 가정은 보수적이지 않다. [C:fcf_margin@FY2025] [C:fcf_after_sbc@FY2025] [F187]
 
 ## 검증 (L6)
 
-주장 73개 — supported 63 · unsupported 6 · contradicted 0 · leap 4 · 미검증 0
+주장 74개 — supported 59 · unsupported 13 · contradicted 0 · leap 2 · 미검증 0
 
-- [unsupported] 레드팀: 성장이 25%로 내려온 해에 출구 P/FCF 40배를 주는 것은 현재 189.40x에서 내려오더라도 여전히 높은 값이다. 이 배수는 성장 유지를 전제로 하므로 성 — 없는 근거 인용: C:base_rate@bull
+- [unsupported] 앤더슨: 레드팀의 가장 강한 시나리오는 멀티플 붕괴다. 이익이 무너지지 않아도 성장이 감속하면 배수가 줄어 -60%가 가능하다. 이것은 성장 가설 자체를 깨는 것이 아니라 — 출처 없는 숫자 60% — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- [unsupported] 모델러: 단기 실적은 시장 기대를 웃돌 가능성이 높지만, 5년 기본 시나리오의 주당 가치는 현재 가격을 정당화하는 수준에 못 미친다. 가격이 요구하는 것은 한두 해의 고성 — '기저율상 높은 성장을 여러 해 연속 이어간 기업은 드물다'를 받치는 기저율 자료가 인용에 없다. SBC 차감 FCF와 P/FCF, 가이던스는 일치한다.
+- [unsupported] 레드팀: 멀티플 붕괴. 5년 뒤 −60%는 이익이 무너지지 않아도 가능하다. 현재 EV/매출은 43.51x, P/FCF는 189.40x이고(C:ev_revenue, C:p — 출처 없는 숫자 28.3% — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- [unsupported] 애크먼: 레드팀의 사전 부검은 멀티플 붕괴를 가장 큰 위험으로 짚는다. 기본 시나리오 수익률 분해에서 멀티플 변화가 -28.3%로 가장 큰 항목이고, 출구 배수를 0.75 — 출처 없는 숫자 28.3%, 0.75, 9% — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- [unsupported] 애크먼: 사업의 질은 인정한다. 총이익률이 70%대 중반을 유지하는 가운데 매출이 크게 늘었고 FCF 마진이 33.1%이며 순현금 구조다. 자본시장 의존이나 레버리지 문제 — 출처 없는 숫자 70% — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- [unsupported] 레드팀: 기본 시나리오 출구 P/FCF 45x는 현재 189.40x에서 크게 내려온 값이지만, 성숙해진 5년 뒤에도 45x를 유지한다는 가정은 여전히 관대하다. 약세 시나 — 출처 없는 숫자 28.3%, 9% — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
 - [unsupported] 회계 품질: 영업권이 FY2025 1,902만에서 FY2026Q1 8,772만, FY2026Q2 9,156만으로 늘었다. 인수에 따른 것이다. 총자산 19.3억 대비 약 5% — 없는 근거 인용: C:goodwill_to_assets
-- [leap] 경영진·자본배분: 희석이 크다. 희석 주식 수는 FY2024 대비 FY2025에 36.8% 늘었다(C:share_change@FY2025). 코드 신호 'dilution'은 연 7 — 수치는 맞지만 가중평균 희석 주식 수 1.85억과 기말 발행 주식 1.73억은 기준이 달라 차이만으로 희석 증가가 이어진다고 결론짓기 어렵다.
-- [unsupported] 애크먼: 앤더슨의 10년 5배는 매출이 10년 뒤 현재의 약 28배가 되는 경로(첫 해 +130%, 이후 30%대 중반에서 10%대로 감속)에 마진 38%, 출구 P/FC — 출처 없는 숫자 130%, 35 — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
+- [leap] 경영진·자본배분: 희석이 크다. 희석 주식 수는 FY2024 대비 FY2025에 36.8% 늘었다(C:share_change@FY2025). 코드 신호 'dilution'은 연 7 — 대부분의 수치는 맞다. 다만 3분기 희석 주식 1.85억(가중 희석 기준)과 현 발행주식 1.73억(기본 주식)을 비교해 '희석 증가가 이어진다'고 한 것은 비약이다. 2분기 희석 주식이 이미 1.833억이었다.
 - [unsupported] 사업·산업: 총이익률이 FY2022 73.5%, FY2023 68.9%, FY2024 76.4%, FY2025 75.7%로 70%대 중반을 유지했다. 매출이 약 10배 커지는 — 출처 없는 숫자 70% — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
-- [leap] 레드팀: 사업은 무너지지 않아도 멀티플이 먼저 무너진다. 현재 PER은 141.82x, FCF 수익률은 0.5%다. PER에는 세금 이익 5,026만 달러가 섞여 있다.  — PER 141.82, FCF 수익률 0.5%, 세금 이익은 맞지만 이익이 2배이고 배수가 3분의 1이면 주가는 약 -33%이지 -60%가 아니라서 산술이 어긋난다.
-- [leap] 회계 품질: 연 73.9% 증가는 FY2023 3,713만에서 FY2024 1.3억으로 뛴 구간에서 나온다. 가중평균 희석 주식 수가 IPO 때 우선주가 전환되고 신주가 발행 — 희석 주식 수 추이와 자사주 매입 0은 맞지만 IPO 우선주 전환과 신주 발행이 원인이라는 설명은 인용 자료에 없다.
-- [leap] 모델러: 근 분기 실적은 우리도 낙관한다. 3분기 가이던스 5.4억~5.6억(F185)은 보수적일 가능성이 높다. 다른 점은 성장이 얼마나 오래 가느냐다. 우리 기본 시나 — 재고 증가(F85)만으로 단기 램프가 입증된다고 하는 것은 비약이다. 재고 증가는 둔화의 신호일 수도 있다.
-- [unsupported] 앤더슨: 사전 부검: 가격이 이미 10년 40% 안팎 성장을 담고 있다. 성장이 FY2027에 크게 꺾이면 멀티플이 압축되어 5년 안에 큰 손실이 난다. 기본 시나리오 수 — 가격이 40%대 성장을 담는다는 부분은 맞지만 수익률 분해에서 멀티플 변화가 가장 큰 마이너스라는 내용은 인용 자료에 없다.
+- [unsupported] 애크먼: 단순성과 예측가능성이 입증되지 않았다. 해자는 회사 주장 수준이고, 고객 집중도와 제품별 매출 비중 등 운영 KPI가 없으며, 매출채권과 재고가 매출보다 빠르게  — 재고·매출채권이 '매출보다 빠르게 늘고 있다'는 비교는 인용된 단일 시점 값(F85, F126)만으로 확인되지 않는다. KPI 부재는 S43과 부합한다.
+- [unsupported] 레드팀: FY2027 매출 성장 50%와 이후 35%, 25%, 20%의 연속 고성장은 지속성 근거가 없다. 고객 집중도, 제품별 비중, 수주잔고는 확보되지 않았고 기저율 — 없는 근거 인용: C:base_rate@base
+- [unsupported] 회계 품질: 연 73.9% 증가는 FY2023 3,713만에서 FY2024 1.3억으로 뛴 구간에서 나온다. 가중평균 희석 주식 수가 IPO 때 우선주가 전환되고 신주가 발행 — 분기 희석 주식 1.8억 안팎, 3분기 가이던스 1.85억, 자사주 매입 0은 맞다. 다만 IPO 우선주 전환·신주 발행 때문이라는 원인과 FY2025 증가가 '연중 가중 효과'라는 설명은 인용 자료에 없다.
+- [unsupported] 앤더슨: 사전 부검: 기저율 근거가 없다. 연 수십 %의 성장을 10년 이어간 기업이 얼마나 드문지 표로 확인되지 않았다. 드문 일에 거는 것이 내 철학이지만, 그 드묾의 — 없는 근거 인용: C:base_rate@implied
+- [leap] 앤더슨: 매출 성장이 가속 구간에 있다. FY2025 매출은 전년 대비 115.1% 늘었고, 2026년 2분기도 전년 대비 +104%를 기록했다. 멱법칙 기업이 보이는 초 — FY2025 +115.1%와 2분기 +104%는 맞지만, 연간 242%→115%→104%로 증가율이 낮아지는 중이라 '가속 구간'이라는 결론이 따라 나오지 않는다.
 - [unsupported] 회계 품질: FY2025 영업현금흐름 3.2억은 순이익 2.2억을 웃돌고, 발생액 비율은 -7.7%로 음수이며, FCF/순이익은 1.29x다. 이익이 현금으로 뒷받침된다. 순 — 출처 없는 숫자 1.29 — 근거에도 계산값에도 없다 (직접 계산했다면 '추정:'으로 시작)
 
 ## 계산 근거 (L3)
@@ -304,7 +311,7 @@ Astera Labs는 AI 데이터센터 서버·가속기 사이의 연결 병목(PCIe
 ### 역DCF — 현재 가격이 가정하는 것
 
 EV 522.9억 USD를 정당화하려면 매출이 10년간 연 몇 % 커져야 하는가 — FCF 마진이 지금 값에서 목표 마진으로 직선 수렴, 할인율 10%, 이후 영구성장 3%.
-기본 시나리오 목표 마진 34% 기준: 연 33.0% (C:implied_cagr)
+기본 시나리오 목표 마진 32% 기준: 연 33.8% (C:implied_cagr)
 
 | 목표 FCF 마진 | 내재 매출 성장(연) | 인용 키 |
 |---|---|---|
@@ -313,55 +320,52 @@ EV 522.9억 USD를 정당화하려면 매출이 10년간 연 몇 % 커져야 하
 | 20% | 40.3% | C:implied_cagr@m20 |
 | 25% | 37.2% | C:implied_cagr@m25 |
 | 30% | 34.7% | C:implied_cagr@m30 |
-| 34% | 33.0% | C:implied_cagr@m34 |
+| 32% | 33.8% | C:implied_cagr@m32 |
 
 ### 시나리오 가치 — 5년, 할인율 10% (C:지표@시나리오 — p·revenue_cagr·fcf_margin·exit_multiple·value·iv·irr·revenue·fcf)
 
 | 시나리오 | 확률 | 5년 매출 | 매출 연성장 | FCF 마진 | 출구 P/FCF | 주당 가치 | 현재가치(IV) | 연 수익률 |
 |---|---|---|---|---|---|---|---|---|
-| 약세 | 30% | 8.5억 USD | 0.0% | 22% | 18x | 21.71 | 13.48 | -40.3% |
-| 기본 | 50% | 8.5억 USD | 0.0% | 34% | 30x | 49.37 | 30.65 | -29.6% |
-| 강세 | 20% | 8.5억 USD | 0.0% | 38% | 40x | 72.15 | 44.80 | -24.1% |
+| 약세 | 25% | 13.1억 USD | 8.9% | 20% | 22x | 34.37 | 21.34 | -34.5% |
+| 기본 | 50% | 30.3억 USD | 28.9% | 32% | 45x | 232.16 | 144.15 | -4.1% |
+| 강세 | 25% | 43.0억 USD | 38.2% | 35% | 50x | 404.07 | 250.90 | +7.2% |
 
-확률 가중: 주당 가치 45.63 · IV 28.33 · 기대 연 수익률 -30.7% (C:expected_irr) · 손실 확률 100% (C:p_loss) · 현재 주가 285.82
+확률 가중: 주당 가치 225.69 · IV 140.13 · 기대 연 수익률 -4.6% (C:expected_irr) · 손실 확률 75% (C:p_loss) · 현재 주가 285.82
 
-기본 시나리오 연 수익률 분해 (로그 기여, 합 = 총계): 매출 성장 +0.0% · 마진 변화 +0.6% · 멀티플 변화 -36.4% · 주식 수 변화 -2.5% · 현금 축적 +3.2% = -35.1%
+기본 시나리오 연 수익률 분해 (로그 기여, 합 = 총계): 매출 성장 +25.4% · 마진 변화 -0.6% · 멀티플 변화 -28.3% · 주식 수 변화 -2.0% · 현금 축적 +1.4% = -4.2%
 
 민감도 — 기본 시나리오 연 수익률 (행: 매출 성장 ±, 열: 출구 멀티플 배수)
 
 | 성장 \ 멀티플 | ×0.75 | ×1 | ×1.25 |
 |---|---|---|---|
-| -5%p | -36.0% | -32.9% | -30.3% |
-| +0%p | -32.9% | -29.6% | -26.9% |
-| +5%p | -29.8% | -26.3% | -23.4% |
+| -5%p | -13.4% | -8.8% | -4.9% |
+| +0%p | -9.0% | -4.1% | +0.0% |
+| +5%p | -4.6% | +0.6% | +4.9% |
 
 기본 시나리오 연도별 (드라이버 모델)
 
 | 기간 | 매출 | FCF 마진 | FCF | 희석 주식 수 | 순현금 |
 |---|---|---|---|---|---|
-| FY2026 | 8.5억 USD | 33.2% | 2.8억 USD | 1.9억 | 3.9억 USD |
-| FY2027 | 8.5억 USD | 33.4% | 2.9억 USD | 1.9억 | 6.8억 USD |
-| FY2028 | 8.5억 USD | 33.6% | 2.9억 USD | 2.0억 | 9.7억 USD |
-| FY2029 | 8.5억 USD | 33.8% | 2.9억 USD | 2.0억 | 12.5억 USD |
-| FY2030 | 8.5억 USD | 34.0% | 2.9억 USD | 2.1억 | 15.4억 USD |
+| FY2026 | 10.0억 USD | 32.8% | 3.3억 USD | 1.9억 | 4.4억 USD |
+| FY2027 | 15.0억 USD | 32.6% | 4.9억 USD | 1.9억 | 9.3억 USD |
+| FY2028 | 20.2억 USD | 32.4% | 6.5억 USD | 1.9억 | 15.8억 USD |
+| FY2029 | 25.2억 USD | 32.2% | 8.1억 USD | 2.0억 | 24.0억 USD |
+| FY2030 | 30.3억 USD | 32.0% | 9.7억 USD | 2.0억 | 33.6억 USD |
 
 ### 기저율 — 같은 성장을 해낸 기업 비율 (C:base_rate@implied·base·bull)
 
-- 시장 내재 성장 (역DCF): 연 33.0% × 10년 → 기저율 표 없음
-- base 시나리오 매출 성장: 연 0.0% × 5년 → 기저율 표 없음
-- bull 시나리오 매출 성장: 연 0.0% × 5년 → 기저율 표 없음
+- 시장 내재 성장 (역DCF): 연 33.8% × 10년 → 기저율 표 없음
+- base 시나리오 매출 성장: 연 28.9% × 5년 → 기저율 표 없음
+- bull 시나리오 매출 성장: 연 38.2% × 5년 → 기저율 표 없음
 
 ### 페르소나 지표 (코드 계산 · case 기본값 기준, C:지표@페르소나)
 
-- 앤더슨 case={"from": "bull", "years": 10, "revenue_growth": [1.3, 0.7, 0.5, 0.4, 0.35, 0.3, 0.25, 0.2, 0.15, 0.12], "fcf_margin": 0.38, "exit_multiple": 35, "share_change": 0.02}: upside_10y=5.64x, revenue_5y=11.08x
-- 슬레이터 case={"from": "base", "revenue_growth": [1.2, 0.4, 0.25, 0.2, 0.15]}: cash_survives=예, cash_min=1.1억 USD
-- 애크먼 case={"from": "base", "revenue_growth": [1.2, 0.4, 0.25, 0.2, 0.15], "fcf_margin": 0.3, "exit_multiple": 25}: price=285.8, fcf_positive=예, net_debt_to_ebitda=-0.39x, leveraged=아니오, intrinsic_value=117.1, mos=-144.1%
+- 앤더슨 case={"from": "bull"}: upside_10y=4.60x, revenue_5y=5.04x
+- 슬레이터 case={"from": "base"}: cash_survives=예, cash_min=1.1억 USD
+- 애크먼 case={"from": "base"}: price=285.8, fcf_positive=예, net_debt_to_ebitda=-0.39x, leveraged=아니오, intrinsic_value=144.2, mos=-98.3%
 
 ### 계산 경고
 
-- 시나리오 bear: growth의 revenue_growth가 drivers에 없다 — 무시
-- 시나리오 base: growth의 revenue_growth가 drivers에 없다 — 무시
-- 시나리오 bull: growth의 revenue_growth가 drivers에 없다 — 무시
 - 컨센서스 근거 없음 — 시장 기대와의 차이를 검증할 수 없다 (리서처: basis=consensus 사실)
 - 기저율 표 없음 — `python3 council.py baserate`로 data/base_rates.json을 만든다
 
