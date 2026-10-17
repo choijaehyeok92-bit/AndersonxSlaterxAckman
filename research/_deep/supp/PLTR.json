@@ -1,0 +1,834 @@
+{
+ "sources": [
+  {
+   "id": "S900",
+   "type": "call",
+   "title": "Palantir (PLTR) Q2 2026 Earnings Call Transcript (The Motley Fool)",
+   "url": "https://www.fool.com/earnings/call-transcripts/2026/08/10/palantir-pltr-q2-2026-earnings-call-transcript/",
+   "note": "2026-08-03 2분기 어닝콜 원문 트랜스크립트(2026-08-10 게재). CFO 데이비드 글레이저: 국제 상업 매출 1.82억 달러(전년 대비 +26%, 전분기 대비 +2%), 국제 정부 매출 1.81억 달러(+42% YoY, +5% QoQ). 미국 상업 고객 수 653(+35% YoY, +6% QoQ). 순매출유지율(NDR) 157%, 전분기 대비 +700bp — 카르프 CEO: \"the NDR number is anomalously strong.\" 총 고객 수는 공개하지 않음. 상위 20개 고객 평균 TTM 매출 1.24억 달러(+67% YoY). 조정 비용 7.41억 달러(+37% YoY, 주로 기술 인력 채용) — CFO가 신규 채용 계절성으로 \"a significant ramp in expense in the third quarter\"를 예고. CTO 샴 산카르: \"AIP is where your sovereign AI is built, deployed and compounded\", 'sovereign boot camp' 운영, 한 프런티어 AI 랩과의 비교 평가(bake-off)에서 그 랩이 \"failed to deliver anything of value\"라고 발언. 메이븐은 합동군 전반에 \"over 25,000 builders\", 한 정부 프로그램 오브 레코드가 메이븐을 채택. 산카르: \"Our Department of War trailing 12-month revenue is still less than 25 basis points of the Pentagon's budget.\" 경쟁사를 거명하지 않음(산카르: \"The others are focused on productivity\"). 카르프의 18개월 성장 발언(S43의 2차 요약)을 원문으로 확인.",
+   "date": "2026-08-10"
+  },
+  {
+   "id": "S901",
+   "type": "news",
+   "title": "Financial analysis of Palantir Technologies: the quarter to 30 June 2026 against the FY2025 record (sec-api.io)",
+   "url": "https://sec-api.io/insights/financial-analysis-of-palantir-technologies-the-quarter-to-30-june-2026-against-the-fy2025-record",
+   "note": "2차 자료 — sec-api.io의 2026년 2분기 10-Q(S1) 판독 분석. 작성일은 노트에 없음(10-Q 제출 2026-08-04 이후). 10-Q 원문과 직접 대조하지 않았으므로 아래 항목은 모두 1차 확인 필요. ① 자사주 매입: 10억 달러 자사주 매입 프로그램을 2026년 1월 종료, 남은 매입 승인 없음. FY2025 매입은 Class A 60만 주, 7,500만 달러. 2026년 매입 없음. 관련 위험 요인 문구 삭제. ② 계약부채 11억 달러(이연수익 6.132억 + 고객 예치금 4.526억 달러), 2025-12-31 8.123억 달러에서 증가. 이 이연수익 6.132억 달러는 XBRL 이연수익 사실(F51, 5.794억 달러)과 다르다 — 유동+비유동 합계일 가능성이 있으나 정의는 미확인. 잔여이행의무(RPO) 49억 달러(2026-06-30), 이 중 43%는 12개월 내, 36%는 13~36개월에 인식 예정. ③ 매출채권 14.852억 달러 중 고객 한 곳이 27%를 차지(고객명 미공개). 매출의 10%를 넘는 단일 고객은 없음. ④ 정부 매출(미국+국제) 약 9.9억 달러로 2분기 매출의 약 51.2%, 상반기 약 51.8%, FY2025 54%(sec-api의 계산 비율). ⑤ 실효세율 1.4%(2분기 법인세 1,540만 달러), 1분기와 FY2025도 1.4%. ⑥ 발행주식 수: 2026-06-30 Class A 23.005억, Class B 1.014억, Class F 100.5만 주, 2026-07-27 기준 합계 24.031억 주(10-Q 표지). ⑦ 위험 요인: 대형 정부 고객의 '예산·지출 수준 불확실성' 문구는 3개 공시 동안 그대로이고 DOGE·정부 셧다운 언급 없음. 가장 많이 고쳐 쓴 위험 요인은 회사·경영진에 대한 외부 감시, 미국 매출 비중 상승, AI·개인정보 규제."
+  },
+  {
+   "id": "S902",
+   "type": "news",
+   "title": "Palantir Stock Fell 7% as France Drops Its Software: Is the Sovereignty Threat Real or a Buying Opportunity? (TIKR)",
+   "url": "https://www.tikr.com/blog/palantir-stock-fell-7-as-france-drops-its-software-is-the-sovereignty-threat-real-or-a-buying-opportunity",
+   "note": "유럽 주권 반발. ① 프랑스: 2026-06-16 세바스티앵 르코르뉘 총리가 국내정보총국(DGSI)이 팔란티어를 버리고 프랑스 기업 ChapsVision으로 옮긴다고 발표(\"cannot accept new strategic dependencies\"). 팔란티어는 2025년 12월 DGSI와 3년 계약을 갱신했고, 이전에는 수년이 걸린다. PLTR은 2026-06-22 6.98% 내린 119.50달러. ② 영국: 의회 위원회가 3.3억 파운드 NHS 계약을 2027년 2월 중도해지 조항(break clause)으로 끝내라고 장관들에게 권고하며 팔란티어를 \"unacceptable point of weakness\"라 부름. 팔란티어 UK는 NHS 추가 시술 11만 건 이상을 근거로 반박. ③ 1분기 2026: 총매출 16.33억 달러(+85%), 미국 매출 12.82억 달러(+104%), 국제 상업 1.79억 달러(+26%), 국제 정부 1.72억 달러(+51%). 1분기 실적 다음 날(2026-05-04) 주가 -6.93%(약 18% 상회에도). ④ 2025년 11월 고점 207.52달러 대비 낙폭이 2026-06-22에 42.3%.",
+   "date": "2026-06-23"
+  },
+  {
+   "id": "S903",
+   "type": "data",
+   "title": "Palantir Stock Rose 60% in Q3 (TIKR via Yahoo Finance)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stock-rose-60-q3-151806420.html",
+   "note": "TIKR 컨센서스 집계(2026-10-02 기사). 매출 컨센서스 2026년 약 82억 달러(2025-12-31 약 63억에서 약 31% 상향), 2027년 약 123억 달러(약 87억에서 상향). NTM EPS 약 1.90달러(약 0.93에서). 커버리지 23~29명, 의견 Buy 19·Outperform 1·Hold 9·Underperform 1·Sell 1. 2026-10-01 기준 평균 목표가 약 196달러, 최고 255달러. 3분기 컨센서스: 매출 약 21.8억 달러, 조정 영업이익 약 13.1억 달러(둘 다 가이던스 상단 위). 2026-10-01 종가 190.04달러(연초 대비 +6.91%), 상반기 -34.36%, 3분기 +60.32%. 고점 대비 낙폭 2026-06-25에 48.22%. NTM 정규화 P/E 약 100배(2025년 말 약 192배).",
+   "date": "2026-10-02"
+  },
+  {
+   "id": "S904",
+   "type": "news",
+   "title": "Palantir's Earnings Gamble: Nine Straight Beats Set High Bar for November (24/7 Wall St.)",
+   "url": "https://247wallst.com/investing/2026/10/14/palantirs-earnings-gamble-nine-straight-beats-set-high-bar-for-november-2/",
+   "note": "2차 자료. 9분기 연속 실적 상회, 2분기 실적일 주가 +29.45%. 2분기 조정 EPS 0.41달러 vs 컨센서스 약 0.28달러. 강세론 근거로 전체 잔여 계약가치(RDV) 131억 달러를 인용(보도자료에는 전체 RDV 미공개 — 2차). FY2027 국방부(DoW) AI 예산 요청 585억 달러 인용(예산 문서 미확인). 주가 약 207.40달러(10-13/14 무렵), 52주 최고 212.94·최저 106.37달러. 평균 목표가 205.27달러(2026-10-14). 밸류에이션(약 207달러 기준): 선행 P/E 85배(그래픽 90배), P/S 81.6배, P/FCF 228.9배(기준 불명). 동종: 스노우플레이크 선행 P/E 169배, 마이크로소프트 25배. 독립 시나리오: 기본 213.38달러(Hold), 강세 266.93달러(선행 EPS 110배), 약세 133.46달러(55배; 멀티플 축소·SBC·국제 +26%·편의 해지 조항).",
+   "date": "2026-10-14"
+  },
+  {
+   "id": "S905",
+   "type": "news",
+   "title": "Enterprise Software Stocks Fall as AI Financing Worries Spread: Palantir and ServiceNow Drop 5%, Salesforce Slides 4% (24/7 Wall St.)",
+   "url": "https://247wallst.com/investing/2026/10/16/enterprise-software-stocks-fall-as-ai-financing-worries-spread-palantir-and-servicenow-drop-5-salesforce-slides-4/",
+   "note": "헤드라인만 확인. 2026-10-16 AI 자금 조달 우려로 팔란티어·서비스나우 각 약 5%, 세일즈포스 약 4% 하락 — 섹터 동조 하락.",
+   "date": "2026-10-16"
+  },
+  {
+   "id": "S906",
+   "type": "news",
+   "title": "Palantir Stock Closes Below $190, Down 13% From Its Record: What the Selloff Is Pricing In (FinanceFeeds)",
+   "url": "https://financefeeds.com/palantir-stock-closes-below-190-down-13-from-its-record-what-the-selloff-is-pricing-in/",
+   "note": "2026-10-16 종가 186.03달러(당일 -7.22%, 주간 -11.01%, 장중 저가 184.45). 사상 최고 장중가 212.94달러(2026-10-12). 그 주 나스닥 -4.5%와 AI 인프라 자금 우려가 배경이고 회사 고유 악재는 없음. 중간선거를 앞둔 정부 IT 계약업체 감시 우려가 거론됐으나 하락을 \"did not demonstrably cause\". 목표가 변경: 골드만삭스(가브리엘라 보르헤스) 2026-10-08 Neutral→Buy, 204→230달러. 바클레이즈(앤서니 발렌티니) 2026-10-08 Overweight 개시, 265달러. 베어드 2026-10-13 200→250달러.",
+   "date": "2026-10-16"
+  },
+  {
+   "id": "S907",
+   "type": "news",
+   "title": "PLTR: Palantir Technologies stock 12-month price target raised by 18 percent — Goldman Sachs, October 2026 (TheStreet)",
+   "url": "https://www.thestreet.com/investing/stocks/pltr-palantir-technologies-stock-12-month-price-target-raised-by-18-percent-goldman-sachs-october-2026",
+   "note": "골드만삭스 2026-10-08 상향(Neutral→Buy, 목표가 204→230달러, 상향 당시 주가 194.12달러). 논지: \"Moat likely compounds into another step function change in TAM.\" 목표가 근거: 2029년 GAAP EPS 4.50달러에 60배, 약 13.5% 할인. 매출 추정 2026년 83.7억, 2027년 132억, 2029년 257.5억 달러. 영업 모델: 미국 상업 영업 인력 2021년 초 약 12명→연말 약 80명, 비슷한 매출 규모의 서비스나우는 영업·마케팅 약 2,400명. \"the FDE lead has held even as rivals invested.\" 정부 동력: TITAN 양산, 육군 100억 달러 EA, 메이븐 프로그램 오브 레코드. 신규: Zeta가 Foundry 위에 Data Cloud 재구축(7년, 연 1억 달러 초과 매출 목표), 엔비디아 제휴 확대(2026-09-10), Nebius가 선호 주권 AI 공급자로 지정(2026-09-08), 피터 자피노 2027년 1월 금융 부문 총괄 합류. 위험: 경쟁사의 FDE 모델 복제, AI 수익 확장이 어려울 경우 기업 AI 도입 둔화, 정부 계약 수주율을 바꿀 수 있는 의회 변화. EV/FCF 기준 고성장 동종 대비 할인(수치 없음).",
+   "date": "2026-10-10"
+  },
+  {
+   "id": "S908",
+   "type": "news",
+   "title": "Palantir Stocks Fall 6.6% (GuruFocus via Yahoo Finance)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stocks-fall-6-6-203109076.html",
+   "note": "미즈호(그레그 모스코위츠) 2026-10-15 Outperform 유지, 목표가 215→245달러. 2분기 GAAP와 조정 영업이익 차이 2.825억 달러 = SBC 2.652억 + 고용주 급여세 1,730만 달러, 조정 영업이익의 23.6%.",
+   "date": "2026-10-16"
+  },
+  {
+   "id": "S909",
+   "type": "news",
+   "title": "Jefferies' Latest Warning on Palantir Sends a Message (Barchart via Yahoo Finance)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/jefferies-latest-warning-palantir-sends-133832548.html",
+   "note": "약세 측 목표가. 제프리스(브렌트 실) 2026-08-12 Underperform 유지, 목표가 70→80달러: \"We are fundamental fans of PLTR, but valuation leaves little room for a normalization in growth or execution slippage.\" 높아지는 비교 기저와 '국제 성장 둔화'를 지적. RBC(리시 잘루리아) Underperform, 목표가 90달러, 국제 매출 둔화 지적. 29명 평균 목표가 198.41달러(Strong Buy 21·Hold 6·Moderate Sell 1·Strong Sell 1). 2026-08-12 주가 약 171달러. 모건스탠리는 산지트 싱의 성장 가속 언급만 있고 의견·목표가 없음.",
+   "date": "2026-08-12"
+  },
+  {
+   "id": "S910",
+   "type": "news",
+   "title": "Why Palantir Stock Plunged 34% (The Motley Fool via Yahoo Finance)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/why-palantir-stock-plunged-34-071500679.html",
+   "note": "상반기 34% 하락 원인: AI 종목 간 밸류에이션 차별화와 'AI 도입이 정점을 찍었다'는 우려. FY2026 매출 성장 가이던스가 61%에서 1분기 실적(2026-05) 때 71%로 상향(이후 2분기에 82% — S42). 4분기 2025 매출 14억 달러(+70%), 1분기 2026 16.3억 달러(+85%). 2026년 7월 P/E 149배, PEG 0.52.",
+   "date": "2026-07-09"
+  },
+  {
+   "id": "S911",
+   "type": "news",
+   "title": "Palantir Announces Date of Third Quarter 2026 Earnings Release (Business Wire via Yahoo Finance)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-announces-date-third-quarter-200500055.html",
+   "note": "2026-10-12 발표: 3분기 2026 실적을 2026-11-02(월) 장 마감 후 공개, 웹캐스트 동부시간 오후 5시.",
+   "date": "2026-10-12"
+  },
+  {
+   "id": "S912",
+   "type": "news",
+   "title": "Exclusive: Pentagon to adopt Palantir AI as core US military system (Reuters via Yahoo)",
+   "url": "https://www.yahoo.com/news/articles/exclusive-pentagon-adopt-palantir-ai-232906085.html",
+   "note": "로이터 단독(2026-03-20 보도). 스티브 파인버그 국방부 부장관이 3월 9일자 메모로 메이븐 스마트 시스템(Maven Smart System)을 공식 프로그램 오브 레코드(program of record)로 지정. 30일 내 감독권이 NGA에서 CDAO로 이관되고 향후 계약은 육군을 통함. 메모는 \"stable, long-term funding\"을 약속하나 금액은 없다고 보도. 메이븐 계약 상한은 4.8억 달러(2024)에서 13억 달러(2025년 5월)로 상향된 바 있음. 메이븐은 국방부가 공급망 위험으로 지정한 앤트로픽 Claude를 사용 — 잠재적 복잡 요인. 대이란 '수천 건의 표적 공습'에 쓰였다는 보도와 AI 표적화에 대한 UN 전문가 패널의 우려도 언급.",
+   "date": "2026-03-20"
+  },
+  {
+   "id": "S913",
+   "type": "news",
+   "title": "Palantir lands $10 billion Army software and data contract (CNBC)",
+   "url": "https://www.cnbc.com/2025/08/01/palantir-lands-10-billion-army-software-and-data-contract.html",
+   "note": "2025-08-01 미 육군 엔터프라이즈 계약(EA): 10년간 최대 100억 달러. 6개월 이상 지난 자료. 상한(ceiling)이지 확정 금액이 아님 — 집행(obligated) 금액은 확인하지 못함(S914도 '상한이지 약정이 아니다'라고 지적).",
+   "date": "2025-08-01"
+  },
+  {
+   "id": "S914",
+   "type": "news",
+   "title": "Deep Dive: Palantir (PLTR) (Rebound Capital, Substack)",
+   "url": "https://reboundcapital.substack.com/p/deep-dive-palantir-pltr",
+   "note": "2차 자료(독립 애널리스트 서브스택, 개별 항목은 독립 검증 안 됨). ① 경쟁 — 하이퍼스케일러·AI 랩의 FDE(전진배치 엔지니어) 모델 복제: AWS가 FDE에 10억 달러 투입(2026-06-30), 마이크로소프트 25억 달러·엔지니어 6,000명(2026-07-02), 앤트로픽과 오픈AI가 2026년 5월 배포(deployment) 사업 출범, 오픈AI는 배포 회사 투자자에게 연 17.5% 수익을 보장했다고 보도(Axios 인용). ② 데이터 플랫폼: 데이터브릭스가 2026년 6월 서밋에서 'Genie Ontology' 출시 — 팔란티어의 시맨틱 레이어(온톨로지)를 겨냥한 것으로 저자가 해석. 스노우플레이크도 거버넌스된 AI용 데이터 레이어 구축 중. 반론: AWS CloudWatch·DocumentDB·Redshift가 데이터독·몽고DB·스노우플레이크와 경쟁했지만 세 회사 모두 성장. 국방: 기밀망 인증은 신규 진입자에게 수년짜리 장벽. 가격: AIP 모델 재판매와 경쟁사 배포 상품이 부가 매출의 가격을 낮출 수 있음. ③ 유럽: 국제 상업 매출이 FY2025에 약 2% 성장, 스위스 기관이 7년간 최소 9번 팔란티어를 거절, 독일군이 팔란티어를 배제. ④ 정부 계약: 육군 100억 달러 EA와 USDA 3억 달러 수주는 '상한이지 약정이 아니며' 대부분의 정부 계약에 편의 해지(termination for convenience) 조항. ⑤ 주가: 2026년 6월 말 저점 약 106달러, 선행 GAAP P/E 2025년 11월 고점 때 200배 이상·2026년 7월 약 80배. 액센추어 P/E 약 11배. ⑥ 자본배분 오점: 2021년 SPAC에 4.055억 달러 투자(RBC 인용), 2022년 약 3억 달러 손실(6개월 이상 지난 사건). ⑦ 저자 의견: 조정 총이익률 약 88%·조정 영업이익률 약 60%는 비용 분류로 부풀려졌다.",
+   "date": "2026-07-07"
+  }
+ ],
+ "facts": [
+  {
+   "metric": "us_revenue",
+   "value": 1573000000,
+   "unit": "USD",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S42"
+  },
+  {
+   "metric": "us_government_revenue",
+   "value": 809000000,
+   "unit": "USD",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S42"
+  },
+  {
+   "metric": "total_contract_value",
+   "value": 3373000000,
+   "unit": "USD",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S42"
+  },
+  {
+   "metric": "deals_over_10m",
+   "value": 73,
+   "unit": "count",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S42"
+  },
+  {
+   "metric": "adjusted_operating_income",
+   "value": 1194500000,
+   "unit": "USD",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S42"
+  },
+  {
+   "metric": "adjusted_operating_income",
+   "value": 464400000,
+   "unit": "USD",
+   "period": "FY2025Q2",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S42"
+  },
+  {
+   "metric": "adjusted_free_cash_flow",
+   "value": 568800000,
+   "unit": "USD",
+   "period": "FY2025Q2",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S42"
+  },
+  {
+   "metric": "adjusted_ebitda",
+   "value": 1202700000,
+   "unit": "USD",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S42"
+  },
+  {
+   "metric": "rule_of_40",
+   "value": 1.55,
+   "unit": "ratio",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S42"
+  },
+  {
+   "metric": "diluted_eps",
+   "value": 0.41,
+   "unit": "USD/share",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S42"
+  },
+  {
+   "metric": "diluted_eps",
+   "value": 0.13,
+   "unit": "USD/share",
+   "period": "FY2025Q2",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S42"
+  },
+  {
+   "metric": "adjusted_eps",
+   "value": 0.41,
+   "unit": "USD/share",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S42"
+  },
+  {
+   "metric": "revenue_growth",
+   "value": 0.82,
+   "unit": "ratio",
+   "period": "FY2026",
+   "end": "2026-12-31",
+   "basis": "guidance",
+   "source": "S42",
+   "note": "2026-08-03 2분기 실적 때 가이던스"
+  },
+  {
+   "metric": "us_commercial_revenue_growth",
+   "value": 1.34,
+   "unit": "ratio",
+   "period": "FY2026",
+   "end": "2026-12-31",
+   "basis": "guidance",
+   "source": "S42",
+   "note": "'134% 이상' 하한"
+  },
+  {
+   "metric": "revenue_growth",
+   "value": 0.61,
+   "unit": "ratio",
+   "period": "FY2026",
+   "end": "2026-12-31",
+   "basis": "guidance",
+   "source": "S910",
+   "note": "1분기 실적(2026-05) 이전 가이던스"
+  },
+  {
+   "metric": "revenue_growth",
+   "value": 0.71,
+   "unit": "ratio",
+   "period": "FY2026",
+   "end": "2026-12-31",
+   "basis": "guidance",
+   "source": "S910",
+   "note": "1분기 실적(2026-05) 때 상향한 가이던스"
+  },
+  {
+   "metric": "international_commercial_revenue",
+   "value": 182000000,
+   "unit": "USD",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900"
+  },
+  {
+   "metric": "international_government_revenue",
+   "value": 181000000,
+   "unit": "USD",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900"
+  },
+  {
+   "metric": "international_commercial_revenue_growth_qoq",
+   "value": 0.02,
+   "unit": "ratio",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900"
+  },
+  {
+   "metric": "international_commercial_revenue_growth_yoy",
+   "value": 0.26,
+   "unit": "ratio",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900"
+  },
+  {
+   "metric": "us_commercial_customers",
+   "value": 653,
+   "unit": "count",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900"
+  },
+  {
+   "metric": "nrr",
+   "value": 1.57,
+   "unit": "ratio",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900"
+  },
+  {
+   "metric": "top20_customer_avg_ttm_revenue",
+   "value": 124000000,
+   "unit": "USD",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900"
+  },
+  {
+   "metric": "top20_customer_avg_ttm_revenue_growth",
+   "value": 0.67,
+   "unit": "ratio",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900"
+  },
+  {
+   "metric": "adjusted_expenses",
+   "value": 741000000,
+   "unit": "USD",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900"
+  },
+  {
+   "metric": "international_commercial_revenue",
+   "value": 179000000,
+   "unit": "USD",
+   "period": "FY2026Q1",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S902"
+  },
+  {
+   "metric": "international_government_revenue",
+   "value": 172000000,
+   "unit": "USD",
+   "period": "FY2026Q1",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S902"
+  },
+  {
+   "metric": "us_revenue",
+   "value": 1282000000,
+   "unit": "USD",
+   "period": "FY2026Q1",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S902"
+  },
+  {
+   "metric": "price",
+   "value": 119.5,
+   "unit": "USD/share",
+   "end": "2026-06-22",
+   "basis": "market",
+   "source": "S902"
+  },
+  {
+   "metric": "drawdown_from_peak",
+   "value": 0.423,
+   "unit": "ratio",
+   "end": "2026-06-22",
+   "basis": "market",
+   "source": "S902"
+  },
+  {
+   "metric": "price_peak",
+   "value": 207.52,
+   "unit": "USD/share",
+   "end": "2025-11-30",
+   "basis": "market",
+   "source": "S902",
+   "note": "2025년 11월 고점 — 노트에 일자가 없어 end를 월말로 둠"
+  },
+  {
+   "metric": "government_revenue_share",
+   "value": 0.512,
+   "unit": "ratio",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S901"
+  },
+  {
+   "metric": "government_revenue_share",
+   "value": 0.518,
+   "unit": "ratio",
+   "period": "FY2026H1",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S901"
+  },
+  {
+   "metric": "government_revenue_share",
+   "value": 0.54,
+   "unit": "ratio",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S901"
+  },
+  {
+   "metric": "rpo",
+   "value": 4900000000,
+   "unit": "USD",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S901"
+  },
+  {
+   "metric": "rpo_within_12m_share",
+   "value": 0.43,
+   "unit": "ratio",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S901"
+  },
+  {
+   "metric": "rpo_13_36m_share",
+   "value": 0.36,
+   "unit": "ratio",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S901"
+  },
+  {
+   "metric": "contract_liabilities",
+   "value": 1100000000,
+   "unit": "USD",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S901"
+  },
+  {
+   "metric": "contract_liabilities",
+   "value": 812300000,
+   "unit": "USD",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S901"
+  },
+  {
+   "metric": "contract_liabilities_deferred_revenue",
+   "value": 613200000,
+   "unit": "USD",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S901",
+   "note": "sec-api의 10-Q 판독. XBRL deferred_revenue(F51 5.794억)와 정의가 다를 수 있음"
+  },
+  {
+   "metric": "contract_liabilities_customer_deposits",
+   "value": 452600000,
+   "unit": "USD",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S901"
+  },
+  {
+   "metric": "receivables_top_customer_share",
+   "value": 0.27,
+   "unit": "ratio",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S901"
+  },
+  {
+   "metric": "shares_outstanding",
+   "value": 2403100000,
+   "unit": "shares",
+   "end": "2026-07-27",
+   "basis": "market",
+   "source": "S901",
+   "note": "10-Q 표지 기준 Class A·B·F 합계(2차 판독)"
+  },
+  {
+   "metric": "effective_tax_rate",
+   "value": 0.014,
+   "unit": "ratio",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S901"
+  },
+  {
+   "metric": "effective_tax_rate",
+   "value": 0.014,
+   "unit": "ratio",
+   "period": "FY2026Q1",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S901"
+  },
+  {
+   "metric": "effective_tax_rate",
+   "value": 0.014,
+   "unit": "ratio",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S901"
+  },
+  {
+   "metric": "buyback_authorization_remaining",
+   "value": 0,
+   "unit": "USD",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S901",
+   "note": "10억 달러 프로그램 2026년 1월 종료(2차 판독)"
+  },
+  {
+   "metric": "shares_repurchased",
+   "value": 600000,
+   "unit": "shares",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S901"
+  },
+  {
+   "metric": "total_remaining_deal_value",
+   "value": 13100000000,
+   "unit": "USD",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S904",
+   "note": "2차 — 보도자료에 전체 RDV 미공개"
+  },
+  {
+   "metric": "consecutive_quarterly_beats",
+   "value": 9,
+   "unit": "count",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S904"
+  },
+  {
+   "metric": "adjusted_eps",
+   "value": 0.28,
+   "unit": "USD/share",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "consensus",
+   "source": "S904"
+  },
+  {
+   "metric": "price_52w_high",
+   "value": 212.94,
+   "unit": "USD/share",
+   "end": "2026-10-14",
+   "basis": "market",
+   "source": "S904"
+  },
+  {
+   "metric": "price_52w_low",
+   "value": 106.37,
+   "unit": "USD/share",
+   "end": "2026-10-14",
+   "basis": "market",
+   "source": "S904",
+   "note": "2026년 6월 말 저점(S914 '약 106달러')"
+  },
+  {
+   "metric": "price_target_mean",
+   "value": 205.27,
+   "unit": "USD/share",
+   "end": "2026-10-14",
+   "basis": "consensus",
+   "source": "S904"
+  },
+  {
+   "metric": "revenue",
+   "value": 8200000000,
+   "unit": "USD",
+   "period": "FY2026",
+   "end": "2026-12-31",
+   "basis": "consensus",
+   "source": "S903"
+  },
+  {
+   "metric": "revenue",
+   "value": 12300000000,
+   "unit": "USD",
+   "period": "FY2027",
+   "end": "2027-12-31",
+   "basis": "consensus",
+   "source": "S903"
+  },
+  {
+   "metric": "revenue",
+   "value": 2180000000,
+   "unit": "USD",
+   "period": "FY2026Q3",
+   "end": "2026-09-30",
+   "basis": "consensus",
+   "source": "S903"
+  },
+  {
+   "metric": "adjusted_operating_income",
+   "value": 1310000000,
+   "unit": "USD",
+   "period": "FY2026Q3",
+   "end": "2026-09-30",
+   "basis": "consensus",
+   "source": "S903"
+  },
+  {
+   "metric": "price",
+   "value": 190.04,
+   "unit": "USD/share",
+   "end": "2026-10-01",
+   "basis": "market",
+   "source": "S903"
+  },
+  {
+   "metric": "drawdown_from_peak",
+   "value": 0.4822,
+   "unit": "ratio",
+   "end": "2026-06-25",
+   "basis": "market",
+   "source": "S903"
+  },
+  {
+   "metric": "price_target_mean",
+   "value": 196,
+   "unit": "USD/share",
+   "end": "2026-10-01",
+   "basis": "consensus",
+   "source": "S903"
+  },
+  {
+   "metric": "price_target_high",
+   "value": 255,
+   "unit": "USD/share",
+   "end": "2026-10-01",
+   "basis": "consensus",
+   "source": "S903"
+  },
+  {
+   "metric": "goldman_revenue_estimate",
+   "value": 8370000000,
+   "unit": "USD",
+   "period": "FY2026",
+   "end": "2026-12-31",
+   "basis": "consensus",
+   "source": "S907"
+  },
+  {
+   "metric": "goldman_revenue_estimate",
+   "value": 13200000000,
+   "unit": "USD",
+   "period": "FY2027",
+   "end": "2027-12-31",
+   "basis": "consensus",
+   "source": "S907"
+  },
+  {
+   "metric": "goldman_revenue_estimate",
+   "value": 25750000000,
+   "unit": "USD",
+   "period": "FY2029",
+   "end": "2029-12-31",
+   "basis": "consensus",
+   "source": "S907"
+  },
+  {
+   "metric": "goldman_gaap_eps_estimate",
+   "value": 4.5,
+   "unit": "USD/share",
+   "period": "FY2029",
+   "end": "2029-12-31",
+   "basis": "consensus",
+   "source": "S907"
+  },
+  {
+   "metric": "goldman_target_pe",
+   "value": 60,
+   "unit": "x",
+   "period": "FY2029",
+   "end": "2029-12-31",
+   "basis": "consensus",
+   "source": "S907",
+   "note": "2029년 GAAP EPS에 적용, 약 13.5% 할인"
+  },
+  {
+   "metric": "price_target_goldman",
+   "value": 230,
+   "unit": "USD/share",
+   "end": "2026-10-08",
+   "basis": "consensus",
+   "source": "S907"
+  },
+  {
+   "metric": "price_record_high",
+   "value": 212.94,
+   "unit": "USD/share",
+   "end": "2026-10-12",
+   "basis": "market",
+   "source": "S906",
+   "note": "장중 사상 최고가"
+  },
+  {
+   "metric": "price_target_barclays",
+   "value": 265,
+   "unit": "USD/share",
+   "end": "2026-10-08",
+   "basis": "consensus",
+   "source": "S906"
+  },
+  {
+   "metric": "price_target_baird",
+   "value": 250,
+   "unit": "USD/share",
+   "end": "2026-10-13",
+   "basis": "consensus",
+   "source": "S906"
+  },
+  {
+   "metric": "price_target_mizuho",
+   "value": 245,
+   "unit": "USD/share",
+   "end": "2026-10-15",
+   "basis": "consensus",
+   "source": "S908"
+  },
+  {
+   "metric": "sbc_payroll_tax",
+   "value": 17300000,
+   "unit": "USD",
+   "period": "FY2026Q2",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S908"
+  },
+  {
+   "metric": "price_target_jefferies",
+   "value": 80,
+   "unit": "USD/share",
+   "end": "2026-08-12",
+   "basis": "consensus",
+   "source": "S909"
+  },
+  {
+   "metric": "price_target_rbc",
+   "value": 90,
+   "unit": "USD/share",
+   "end": "2026-08-12",
+   "basis": "consensus",
+   "source": "S909"
+  },
+  {
+   "metric": "price_target_mean",
+   "value": 198.41,
+   "unit": "USD/share",
+   "end": "2026-08-12",
+   "basis": "consensus",
+   "source": "S909"
+  },
+  {
+   "metric": "price",
+   "value": 171,
+   "unit": "USD/share",
+   "end": "2026-08-12",
+   "basis": "market",
+   "source": "S909"
+  },
+  {
+   "metric": "international_commercial_revenue_growth_yoy",
+   "value": 0.02,
+   "unit": "ratio",
+   "period": "FY2025",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S914",
+   "note": "2차(서브스택)"
+  }
+ ],
+ "gaps": [
+  "총 고객 수(전사): 2분기 자료에 공개되지 않음",
+  "전체 잔여 계약가치(RDV) 131억 달러는 2차 보도(S904)뿐이고 1차 자료에서 확인하지 못함",
+  "10-Q(S1) 원문을 직접 열지 않음 — 자사주 매입 승인 종료, 매출채권 27% 고객, RPO 49억, 계약부채·이연수익(6.132억 vs XBRL F51 5.794억, 유동/비유동 정의), 실효세율, 표지 주식 수는 sec-api(S901) 2차 판독이라 1차 확인 필요",
+  "보도자료(S42)의 현금·단기 미국채 합계 92억 달러는 XBRL(현금 20.3억 + 단기투자 73.8억 ≈ 94억)과 맞지 않음 — 미국채가 아닌 유가증권일 가능성이 있으나 미확인, 사실로 넣지 않음",
+  "과거 가이던스: FY2026 매출 성장률 경로(61%→71%→82%)만 확보. 이전 분기들의 금액 가이던스(FY2025 연간 등)는 8-K 원문에서 추출하지 못함",
+  "육군 EA(100억 달러 상한)의 집행 금액, AIP 단독 매출·부트캠프 수·전환율, 메이븐 NATO 계약 갱신 금액을 찾지 못함",
+  "DOGE 영향에 관한 2026년 1차 보도, 팔란티어 프로그램별 FY2027 예산 수치 없음. S27('sovereign AI external guardrail')의 내용은 확인하지 못함",
+  "경쟁사(데이터브릭스·스노우플레이크·마이크로소프트 Fabric·서비스나우·C3.ai)에 계약을 잃은 구체 사례는 1차·주요 언론에서 찾지 못함. 앤두릴 관계는 출처 없음. 하이퍼스케일러·AI 랩 FDE 투자액(S914)은 서브스택 2차 자료",
+  "이연법인세자산·NOL 일정이 없어 실효세율(1.4%) 정상화 시점을 추정할 수 없음",
+  "컨센서스는 TIKR·Barchart·24/7 집계뿐(패널이 조금씩 다름), Bloomberg·FactSet 스냅샷 없음. FY2028 이후는 골드만 단일 추정만 있음. 모건스탠리 의견·목표가 미확인",
+  "2025년 11월 고점(207.52달러)의 정확한 일자, 2026년 6월 저점의 정확한 일자, 2021~2022년 낙폭 이력은 출처로 확인하지 못함",
+  "회계 품질 단서(감사의견·감사인 변경·정정·특수관계자 거래)와 DEF 14A 보상 지표·내부자 매매는 1차 원문 확인 필요"
+ ]
+}
