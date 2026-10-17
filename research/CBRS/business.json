@@ -1,13 +1,13 @@
 {
   "agent": "business",
-  "basis": "fa842ddd09cc",
-  "summary": "Cerebras sells AI inference and training systems built on its own wafer-scale chip. Revenue comes from hardware sales (CS-4 systems, S8) and from a cloud service that rents the capacity back out. FY2025 revenue was $510M, up 75.7% from $290M (C:revenue_growth@FY2025), and the top two customers made up 86% of FY2025 revenue (F48). In Q2 2026, GAAP revenue was $180.1M and core revenue was $209.9M, up 103% (S29). Gross margin is split: core is 41% and GAAP is 14% (F50, F51), and the cause of the gap is not documented. The remaining performance obligations of $25.4B (F52) and the 600MW of contracted data center capacity (F53) show large future demand. They also show a shift toward a capital-heavy cloud model, with a $420M quarterly capex figure (F62). Unit economics cannot be assessed because CAC, churn and cohort data are missing. Customer concentration is the main weakness in the business.",
+  "basis": "5a3439fb43e2",
+  "summary": "Cerebras는 웨이퍼 단위 AI 가속기와 CS-4 시스템을 직접 팔고(하드웨어), 자체 데이터센터에서 추론·학습 용량을 임대하는 클라우드 사업도 한다. 이 사업이 커지고 있다. 2026년 2분기 core 매출은 $209.9M으로 +103%였고(S29), 남은 이행의무(RPO)는 254.0억 USD, 계약된 데이터센터 용량은 600MW다(F52, F53). 하지만 단위경제는 아직 입증되지 않았다. 2분기 core 매출총이익률은 41%인데 GAAP은 14%로 차이가 매우 크다(F50, F51). 이 차이를 설명하는 자료는 없다. 매출은 소수 고객에 쏠려 있다. FY2025 상위 2개 고객 비중이 86%다(F48). 성장을 위해 투자 규모도 크다. FY2025 영업이익률은 -28.6%, FCF 마진은 -77.0%다(C:operating_margin@FY2025, C:fcf_margin@FY2025). IPO로 현금은 67.4억 USD로 늘었다(F3).",
   "unit_economics": "unclear",
   "moat": [
     {
       "type": "ip",
       "evidence": "claimed",
-      "point": "The wafer-scale chip architecture and the CS-4 launch are positioned as the fastest AI inference (S8, S15). The sources are Cerebras's own announcements and press coverage. No third-party benchmarks, share data or price-retention records are in the evidence.",
+      "point": "웨이퍼 단위 칩 설계와 CS-4 신제품, Hot Chips 발표가 기술 차별화의 근거로 제시된다. 하지만 이는 회사 발표와 보도뿐이다. 경쟁사 대비 성능·점유율·가격 프리미엄 같은 시장 데이터는 수집하지 못했다.",
       "cites": [
         "S8",
         "S15",
@@ -17,92 +17,100 @@
     {
       "type": "scale",
       "evidence": "claimed",
-      "point": "Contracted data center capacity of 600MW (F53) and a $25.4B backlog (S24) suggest scale, and management says core gross margin is moving toward the 60% range in 2027 (S29). That target is a company statement and has not been shown in results. Core gross margin of 41% in Q2 is above the Q3 guidance of 38~40% (F57), so the near-term trend is flat to slightly down.",
+      "point": "600MW 규모의 데이터센터 용량 계약과 RPO 254.0억 USD는 규모 진입장벽 후보다. 다만 두 수치 모두 어닝콜 요약과 보도에서 나온 것이다. RPO의 고객 구성, 인식 시기, 해지 조건은 확인하지 못했다.",
       "cites": [
         "F53",
-        "F57",
-        "S24",
-        "S29"
+        "F52",
+        "S29",
+        "S24"
       ]
     },
     {
       "type": "switching",
       "evidence": "claimed",
-      "point": "The partnerships with AMD (disaggregated inference) and Gimlet Labs show ecosystem expansion (S18, S16). No record of retention, repurchase or price increases at the customer level was found, so switching costs are unproven.",
+      "point": "AMD와의 분리형 추론 협력, Gimlet Labs 공급 계약은 생태계 확장 시도다. 하지만 이탈률이나 가격 인상 후 고객 잔존 기록이 없어 전환비용을 입증할 수 없다.",
       "cites": [
-        "S16",
-        "S18"
+        "S18",
+        "S16"
       ]
     }
   ],
   "findings": [
     {
+      "area": "unit_economics",
+      "point": "2026년 2분기 core 매출총이익률은 41%, GAAP 매출총이익률은 14%다. 3분기 core 매출총이익률 가이던스는 38~40%로, 2분기보다 낮다. FY2025 연간 매출총이익률은 보도 기준 0.39였다. 14%라는 GAAP 수치의 원인(일회성, SBC, 클라우드 감가상각 등)은 아직 설명되지 않았다. 따라서 이익률이 개선 중인지 악화 중인지 판단할 수 없다.",
+      "cites": [
+        "F50",
+        "F51",
+        "F57",
+        "F47",
+        "S2"
+      ]
+    },
+    {
       "area": "customers",
-      "point": "The top two customers accounted for 86% of FY2025 revenue (F48), and the S-1 reporting links them to G42 and MBZUAI. Revenue depends on very few counterparties. The concentration may have eased in 2026, but the evidence does not show this.",
+      "point": "FY2025 상위 2개 고객이 매출의 86%였다(G42·MBZUAI 연계로 보도됨). 고객 CAC, 순매출유지율, 이탈률은 공시에서 확인하지 못했다. 단위경제의 핵심 지표가 비어 있다. 이 집중도는 S-1 원문으로 재확인해야 한다.",
       "cites": [
         "F48",
         "S6"
       ]
     },
     {
-      "area": "unit_economics",
-      "point": "Core gross margin was 41% (F50) against GAAP gross margin of 14% (F51) in Q2 2026. FY2025 gross margin was 39% (F47). The gap between core and GAAP margin has not been explained. Core excludes items that GAAP includes, and the filing needs to be read to see which ones. Core margin of 41% is not clearly higher than the FY2025 level of 39%.",
-      "cites": [
-        "F47",
-        "F50",
-        "F51",
-        "S2"
-      ]
-    },
-    {
-      "area": "unit_economics",
-      "point": "Q3 guidance calls for core revenue of $214~216M and core gross margin of 38~40% (F56, F57). The consensus of $211.9M before guidance (F59) is slightly below that. Core margin is guided below the 41% reported in Q2, so there is no sign yet of margin expansion.",
-      "cites": [
-        "F56",
-        "F57",
-        "F59",
-        "S29"
-      ]
-    },
-    {
-      "area": "industry",
-      "point": "Q2 GAAP revenue of $180.1M missed the consensus of $194M (F58). Hardware was weak and cloud beat estimates (S30). The stock fell 14~16% after the report (S9, S20). This suggests the market is giving less weight to the hardware business and more to cloud, but the cloud and hardware split is not in the facts.",
-      "cites": [
-        "F58",
-        "S9",
-        "S20",
-        "S30"
-      ]
-    },
-    {
       "area": "runway",
-      "point": "RPO is $25.4B (F52), and deferred revenue is only $170M (F12, 1.7억). The backlog is recognized over a long period, and the timing, customer mix and termination terms are not known. OpenAI and AWS contract sizes are also not found. The backlog is therefore a signal of demand and cannot be used as a forecast of revenue.",
+      "point": "RPO는 254.0억 USD이고 2026년 2분기 말 이연매출은 1.7억 USD다. RPO가 이연매출보다 훨씬 크므로 대부분은 아직 청구되지 않은 장기 계약이다. 인식 시기와 해지 가능성이 성장 활주로의 신뢰도를 정한다. 현재 자료에서는 이를 알 수 없다.",
       "cites": [
-        "F12",
         "F52",
+        "F12",
+        "S2",
         "S24"
       ]
     },
     {
       "area": "runway",
-      "point": "Cash was $6.74B at the end of Q2 (F3, 67.4억) and equity was $9.15B (F16, 91.5억), both well above the Q1 levels of $1.72B (F2) and -$190M (F15). The increase follows the May IPO. Q2 capex was $420M (F62) and operating cash flow was -$59.82M (F64). Building out the cloud capacity is funded by IPO money for now.",
+      "point": "매출은 빠르게 늘고 있다. FY2025 매출 성장은 75.7%였고, 2026년 2분기 core 매출은 +103%, GAAP 매출은 +74%였다. 경영진은 2026 core 매출 가이던스를 $880~890M으로 올렸고(기존 $855~865M), 2027년 매출 3배 이상을 계획한다고 했다. 2027 목표는 회사 발언일 뿐 입증된 수치가 아니다.",
       "cites": [
-        "F2",
-        "F3",
-        "F15",
-        "F16",
-        "F62",
-        "F64",
-        "S1"
+        "C:revenue_growth@FY2025",
+        "S29",
+        "F54",
+        "F55"
+      ]
+    },
+    {
+      "area": "unit_economics",
+      "point": "성장에는 자본이 많이 든다. FY2025 영업현금흐름은 -1,005만 USD, 설비투자는 3.8억 USD로 FCF 마진은 -77.0%였다. 2026년 2분기 영업현금흐름도 음수(-5,982만 USD)다. 클라우드 데이터센터를 직접 짓는 모델이라면 자본집약도가 높고, 하드웨어 판매보다 투하자본수익률이 낮을 수 있다.",
+      "cites": [
+        "F65",
+        "F67",
+        "C:fcf_margin@FY2025",
+        "F64"
       ]
     },
     {
       "area": "industry",
-      "point": "The competitors are NVIDIA and AMD, but no share data or competitor margin comparison was collected. Management says 2026 core revenue will be $880~890M, raised from $855~865M (S29). The market position cannot be judged from the evidence, which holds only company guidance and press coverage.",
+      "point": "2분기 GAAP 매출 $180.1M은 컨센서스 $194M을 밑돌았다. 하드웨어가 부진했고 클라우드는 상회했다. 이는 매출 구성이 하드웨어에서 클라우드로 옮겨 가고 있음을 시사한다. 하지만 어닝콜 원문이 없어 믹스 변화가 이익률에 미치는 영향은 확인하지 못했다.",
       "cites": [
-        "F54",
-        "F55",
-        "S29"
+        "S30",
+        "F58",
+        "S9"
+      ]
+    },
+    {
+      "area": "industry",
+      "point": "경쟁 구조(NVIDIA, AMD 등), 점유율, 공급자 협상력(칩 제조 위탁·메모리)에 대한 교차 확인 자료는 수집하지 못했다. 산업 내 위치는 회사 발표와 보도로만 추정할 수 있다. AMD와의 협력은 경쟁이면서 동시에 보완 관계일 수 있다.",
+      "cites": [
+        "S18",
+        "S15"
+      ]
+    },
+    {
+      "area": "unit_economics",
+      "point": "IPO 직후라 재무제표가 크게 바뀌었다. 2026년 2분기 말 자본은 91.5억 USD(1분기 -1.9억), 현금은 67.4억 USD(1분기 17.2억)다. 2분기 순손실은 -4.5억 USD이고 SBC는 3.8억 USD로 1분기보다 급증했다. 이 손실이 IPO 연계 일회성인지 구조적인지에 따라 영업 레버리지 판단이 달라지지만 아직 구분할 수 없다.",
+      "cites": [
+        "F16",
+        "F3",
+        "F24",
+        "F37",
+        "S1"
       ]
     }
   ]
