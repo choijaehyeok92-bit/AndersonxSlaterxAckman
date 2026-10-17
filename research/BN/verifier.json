@@ -1,0 +1,366 @@
+{
+  "agent": "verifier",
+  "basis": "cfeda8539863",
+  "checks": [
+    {
+      "id": "V1",
+      "verdict": "supported",
+      "reason": "Reliance Worldwide 인수 보도는 S45·S52 제목이 받치고, 원가·자금조달 우위의 비교 근거가 없다는 점도 주장이 스스로 인정한다."
+    },
+    {
+      "id": "V2",
+      "verdict": "supported",
+      "reason": "DE 15.48억, 주당 0.66, 실현 전 0.61(전년 0.53), 최근 12개월 2.61·2.39가 S56과 일치하고 원문 대조가 필요하다는 단서도 있다."
+    },
+    {
+      "id": "V3",
+      "verdict": "supported",
+      "reason": "SBC 규모는 인용에 없고 S40 제목은 자사주 매입과 구조 단순화를 다룰 뿐 규모 수치가 없다."
+    },
+    {
+      "id": "V4",
+      "verdict": "supported",
+      "reason": "DE 15.5억 대 순이익 3.6억, 실현 전 0.61과 실현 후 0.66이 S56과 일치하고 조정 내역이 없다는 점도 맞다."
+    },
+    {
+      "id": "V5",
+      "verdict": "supported",
+      "reason": "희석 주식 수 15.6억→22.7억→22.5억과 45.5% 증가가 F23~F25와 계산값에 맞고 나머지는 근거 부재 진술이다."
+    },
+    {
+      "id": "V6",
+      "verdict": "supported",
+      "reason": "매출 959.2억→751.0억, 성장률 -12.7%, 총이익률 45.6%→62.2%가 모두 맞고 구성 변화는 추정으로 표시했다."
+    },
+    {
+      "id": "V7",
+      "verdict": "supported",
+      "reason": "실현 전 DE 0.61과 연결 매출 감소가 인용과 일치하고 S56 수준의 주장이라는 단서가 정확하다."
+    },
+    {
+      "id": "V8",
+      "verdict": "supported",
+      "reason": "PIF 후원 중동 펀드 20억 USD는 S41 제목이 받치고, 이탈률·재계약률 등이 근거에 없다는 말도 맞다."
+    },
+    {
+      "id": "V9",
+      "verdict": "supported",
+      "reason": "주당 DE 0.66, 실현 전 0.61, 전년 0.53, 순이익 3.6억(주당 0.14)이 S56과 일치한다."
+    },
+    {
+      "id": "V10",
+      "verdict": "supported",
+      "reason": "FY2023 이후 매출 감소와 FY2025 성장률 음수가 F58, F60, 계산값과 맞는다."
+    },
+    {
+      "id": "V11",
+      "verdict": "supported",
+      "reason": "실현 전 주당 DE 0.53→0.61이 S56과 일치하고 원문 대조 필요 단서도 정확하다."
+    },
+    {
+      "id": "V12",
+      "verdict": "supported",
+      "reason": "FCF 수익률이 음수라 P/FCF를 계산할 수 없다는 점이 계산값과 맞고 나머지는 모델 비판이다."
+    },
+    {
+      "id": "V13",
+      "verdict": "supported",
+      "reason": "인용한 DE·순이익·영업권·손실 확률·활주로가 맞고 나머지는 상대 논거를 받아들인 추론이다."
+    },
+    {
+      "id": "V14",
+      "verdict": "supported",
+      "reason": "희석 주식 수 15.6억→22.7억과 음수 FCF 수익률이 인용과 일치한다."
+    },
+    {
+      "id": "V15",
+      "verdict": "supported",
+      "reason": "역DCF 3.3%와 실현 전 DE 수치가 맞고 AUM·수수료 부과 자본이 사실로 옮겨지지 않았다는 말도 맞다."
+    },
+    {
+      "id": "V16",
+      "verdict": "supported",
+      "reason": "영업권 433.6억과 FY2025 FCF -37.9억이 인용과 일치하고 나머지는 사전 부검 메커니즘이다."
+    },
+    {
+      "id": "V17",
+      "verdict": "supported",
+      "reason": "매출채권 202.8억→227.7억, 매출 860.1억→751.0억, DSO 86.1일→110.7일이 모두 재계산과 맞는다."
+    },
+    {
+      "id": "V18",
+      "verdict": "supported",
+      "reason": "영업권 349.1억→357.3억→433.6억과 총자산 대비 8.4%가 맞고 원인 부재 진술도 맞다."
+    },
+    {
+      "id": "V19",
+      "verdict": "unsupported",
+      "reason": "BAM 상장 계열사 구조와 특수관계자 거래 중요성은 인용(빈 S28)에 없고 외부 지식이며, 연결 순이익 13.1억만 F45와 맞는다."
+    },
+    {
+      "id": "V20",
+      "verdict": "supported",
+      "reason": "실현 전 DE, 주식 수 22.5억, 매출 성장률 음수가 인용과 일치하고 나머지는 반론의 입장이다."
+    },
+    {
+      "id": "V21",
+      "verdict": "leap",
+      "reason": "영업권 202.3억→433.6억은 맞지만 총자산 대비 8.4%를 '큰 부분'이라 하고 성장의 상당 부분이 인수에 의존한다고 한 것은 자료에서 따라 나오지 않는다."
+    },
+    {
+      "id": "V22",
+      "verdict": "supported",
+      "reason": "PIF 후원 펀드와 인프라·AI 전력·디지털 보도는 S41·S46·S47 제목이 받치고 수치가 없다는 단서도 정확하다."
+    },
+    {
+      "id": "V23",
+      "verdict": "supported",
+      "reason": "OCF 109.6억에서 capex 147.5억을 빼면 FCF -37.9억, 마진 -5.1%로 맞는다."
+    },
+    {
+      "id": "V24",
+      "verdict": "supported",
+      "reason": "capex 80.7억→111.7억→147.5억, OCF 109.6억, FCF -37.9억, 마진 -5.1%가 모두 인용과 맞는다."
+    },
+    {
+      "id": "V25",
+      "verdict": "supported",
+      "reason": "capex 111.7억→147.5억과 FCF -37.9억이 맞고 투자 수익률 근거가 없다는 말도 맞다."
+    },
+    {
+      "id": "V26",
+      "verdict": "supported",
+      "reason": "BAM CEO 주장과 전력·디지털 AI 수혜는 S46·S47 제목이 받치고 보도 수준이라는 단서가 정확하다."
+    },
+    {
+      "id": "V27",
+      "verdict": "supported",
+      "reason": "총이익률 상승과 기록적 모집 보도(S48)가 맞고 나머지는 사전 부검 가정이다."
+    },
+    {
+      "id": "V28",
+      "verdict": "supported",
+      "reason": "희석 주식 수 15.6억→22.7억→22.5억과 영업권 433.6억이 인용과 일치한다."
+    },
+    {
+      "id": "V29",
+      "verdict": "supported",
+      "reason": "기대 IRR 약 11.5%와 손실 확률 30%가 계산값과 맞고 나머지는 평가다."
+    },
+    {
+      "id": "V30",
+      "verdict": "supported",
+      "reason": "capex 68.8억→147.5억(2.1배)과 FCF -37.9억, 마진 -5.1%가 맞고 수익률 근거 부재 진술도 맞다."
+    },
+    {
+      "id": "V31",
+      "verdict": "supported",
+      "reason": "순이익이 DE의 몇 분의 1이라는 것, 실현 전 DE, FCF 마진, 역DCF 값이 인용과 일치한다."
+    },
+    {
+      "id": "V32",
+      "verdict": "supported",
+      "reason": "실현 전 DE 0.61이 전년 동기 0.53보다 높다는 것이 S56과 일치하고 나머지는 가상 시나리오다."
+    },
+    {
+      "id": "V33",
+      "verdict": "supported",
+      "reason": "역DCF 3.3%, 음수 FCF 수익률, PER 67.5가 계산값과 맞고 기저율·컨센서스 부재 진술도 맞다."
+    },
+    {
+      "id": "V34",
+      "verdict": "supported",
+      "reason": "현금 소진 연수 4.3년과 음수 FCF, capex 147.5억이 맞고 나머지는 반론의 해석이다."
+    },
+    {
+      "id": "V35",
+      "verdict": "supported",
+      "reason": "자사주 매입·법인 단순화와 BIP 단일 회사 구조 전환이 S40·S49·S38 제목과 부합하고 가치 영향 근거가 없다는 말도 맞다."
+    },
+    {
+      "id": "V36",
+      "verdict": "supported",
+      "reason": "손실 확률 30%, 영업권, 순이익 대비 DE 격차는 인용과 맞고 나머지는 확률 모델 비판이다."
+    },
+    {
+      "id": "V37",
+      "verdict": "supported",
+      "reason": "capex 68.8억→147.5억과 AI 전력·모집 보도가 인용과 맞고 보도 수준이라는 단서가 정확하다."
+    },
+    {
+      "id": "V38",
+      "verdict": "supported",
+      "reason": "보상 지표가 수집되지 않았다는 근거 부재 진술로, 인용에 그런 자료가 없다."
+    },
+    {
+      "id": "V39",
+      "verdict": "supported",
+      "reason": "자사주 매입·단순화 보도(S40, S49)에 규모가 없다는 점이 맞고 촉매 가능성은 가정이다."
+    },
+    {
+      "id": "V40",
+      "verdict": "supported",
+      "reason": "OCF 109.6억, 순이익 13.1억, 감가상각 103.8억, capex 147.5억, FCF -37.9억이 맞고 발생액 비율도 음수다."
+    },
+    {
+      "id": "V41",
+      "verdict": "supported",
+      "reason": "capex가 OCF를 넘는 점, 희석 45.5%, 소진 연수 4.3년이 맞고 나머지는 가상 시나리오다."
+    },
+    {
+      "id": "V42",
+      "verdict": "supported",
+      "reason": "역DCF 3.3%, 기대 IRR 11.5%, 손실 확률 30%가 계산값과 맞다."
+    },
+    {
+      "id": "V43",
+      "verdict": "supported",
+      "reason": "기대 IRR, 손실 확률, 음수 FCF, capex가 OCF를 넘는 점이 맞고 슬레이터 언급은 판정 대상이 아니다."
+    },
+    {
+      "id": "V44",
+      "verdict": "supported",
+      "reason": "추정 미달 보도(S44)와 DE 증가(S56)가 인용과 맞고 컨센서스 수치 부재 진술도 맞다."
+    },
+    {
+      "id": "V45",
+      "verdict": "supported",
+      "reason": "기록적 AUM·모집과 PIF 펀드 20억 USD는 S40·S41·S48 제목이 받치고 수치 부재 단서도 맞다."
+    },
+    {
+      "id": "V46",
+      "verdict": "supported",
+      "reason": "총이익률 62.2%, TTM DE 61.72억, 주당 2.61÷39.27≈6.6%, 역DCF 3.3%가 맞고 나머지는 시나리오 가정이다."
+    },
+    {
+      "id": "V47",
+      "verdict": "supported",
+      "reason": "영업권 349.1억→433.6억과 Reliance Worldwide 인수 합의 보도(S45)가 맞고 조건 부재도 맞다."
+    },
+    {
+      "id": "V48",
+      "verdict": "supported",
+      "reason": "순이익 13.1억 대 OCF 109.6억, 2분기 순이익 3.6억이 DE 15.5억의 4분의 1 미만이라는 점이 맞다."
+    },
+    {
+      "id": "V49",
+      "verdict": "supported",
+      "reason": "감사인 변경·정정·감사의견 정보가 근거에 없다는 부재 진술로, 인용에 그런 내용이 없다."
+    },
+    {
+      "id": "V50",
+      "verdict": "supported",
+      "reason": "DE 15.5억 대 순이익 3.6억, PER 67.5가 인용과 맞고 나머지는 가상 시나리오다."
+    },
+    {
+      "id": "V51",
+      "verdict": "supported",
+      "reason": "39.27 USD(2026-09-09)와 41.37 USD(2026-08-20)로 가격이 서로 다르다."
+    },
+    {
+      "id": "V52",
+      "verdict": "supported",
+      "reason": "매출 959.2억→751.0억 감소와 부문별 근거 부재가 인용과 맞는다."
+    },
+    {
+      "id": "V53",
+      "verdict": "supported",
+      "reason": "추정 미달 보도(S44)가 있고 수치와 가이던스 사실이 없다는 부재 진술이다."
+    },
+    {
+      "id": "V54",
+      "verdict": "supported",
+      "reason": "영업권 202.3억→433.6억(2배 이상)과 Reliance 인수 보도가 맞고 손상은 가상 시나리오다."
+    },
+    {
+      "id": "V55",
+      "verdict": "supported",
+      "reason": "추정 미달 보도(S44, S50)만 있고 컨센서스 수치가 없다는 진술이 인용과 맞는다."
+    },
+    {
+      "id": "V56",
+      "verdict": "supported",
+      "reason": "DE 15.5억 대 순이익 3.6억, 주당 0.66 대 0.61이 S56과 일치하고 조정 내역 부재도 맞다."
+    },
+    {
+      "id": "V57",
+      "verdict": "supported",
+      "reason": "45.5% 증가, FY2025 -0.9%, 12.8% 희석 신호가 계산값과 맞고 사유 미확인도 정확하다."
+    },
+    {
+      "id": "V58",
+      "verdict": "supported",
+      "reason": "음수 FCF와 capex, 실현 전 DE 0.53→0.61이 인용과 맞고 연결 FCF가 capex를 나누지 않는다는 점도 정의상 맞다."
+    },
+    {
+      "id": "V59",
+      "verdict": "supported",
+      "reason": "실현 전 주당 DE 0.61 대 0.53과 TTM 2.61이 S56과 일치하고 '주장' 수준이라는 단서도 정확하다."
+    },
+    {
+      "id": "V60",
+      "verdict": "supported",
+      "reason": "희석 주식 수 15.6억→22.7억→22.5억, 45.5%, -0.9%, 12.8%가 모두 맞는다."
+    },
+    {
+      "id": "V61",
+      "verdict": "supported",
+      "reason": "실현 전 DE 0.61, 순이익, 영업권, 주식 수 증가가 인용과 맞고 나머지는 반론의 가정·해석이다."
+    },
+    {
+      "id": "V62",
+      "verdict": "supported",
+      "reason": "인용이 없는 근거 부재 진술이고 어떤 자료도 이를 반박하지 않는다."
+    },
+    {
+      "id": "V63",
+      "verdict": "supported",
+      "reason": "DE 15.5억 대 순이익 3.6억이 S56과 일치하고 조정 내역 부재 진술도 맞다."
+    },
+    {
+      "id": "V64",
+      "verdict": "supported",
+      "reason": "TTM DE 61.72억(주당 2.61), 실현 전 0.61 대 0.53, 역DCF·PER·FCF 수익률이 인용과 맞고 나머지는 평가다."
+    },
+    {
+      "id": "V65",
+      "verdict": "supported",
+      "reason": "PIF 후원 펀드와 기록적 모집은 보도 수준이고 매출 -12.7%가 맞으며 모집 정체는 가상 시나리오다."
+    },
+    {
+      "id": "V66",
+      "verdict": "supported",
+      "reason": "FCF -37.9억, 매출 -12.7%, 영업권 433.6억, 희석 신호가 인용과 맞고 나머지는 시나리오다."
+    },
+    {
+      "id": "V67",
+      "verdict": "supported",
+      "reason": "실현 전 DE 0.61 대 0.53과 보도 수준 근거라는 단서가 정확하고 나머지는 시나리오 가정이다."
+    },
+    {
+      "id": "V68",
+      "verdict": "supported",
+      "reason": "FCF 마진 -5.1%에서 10%까지 15.1%p 이동이라는 점과 capex 증가가 맞고 나머지는 모델 비판이다."
+    },
+    {
+      "id": "V69",
+      "verdict": "supported",
+      "reason": "실현손익 포함 0.66과 제외 0.61의 구분이 S56과 맞고 나머지는 조건부 해석이다."
+    },
+    {
+      "id": "V70",
+      "verdict": "supported",
+      "reason": "재고 54.2억→59.2억, DIO 49.3→76.3일, 원가 401.2억→283.5억, 총이익률 53.3%→62.2%가 재계산과 맞는다."
+    },
+    {
+      "id": "V71",
+      "verdict": "supported",
+      "reason": "소진 연수 4.3년, 현금 162.4억, FCF -37.9억이 맞고 survival_path 불명 단서도 정확하다."
+    },
+    {
+      "id": "V72",
+      "verdict": "supported",
+      "reason": "DE 15.5억, 순이익 3.6억, 실현 전 DE가 S56과 맞고 조정 내역 부재 진술도 맞다."
+    }
+  ]
+}

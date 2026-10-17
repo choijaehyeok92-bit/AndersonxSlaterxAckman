@@ -361,6 +361,15 @@
       "note": "Yahoo Finance",
       "date": "2026-09-21",
       "retrieved": "2026-10-17T17:23:15Z"
+    },
+    {
+      "id": "S41",
+      "type": "news",
+      "title": "Credo Reports Q1 Fiscal 2027 Revenue Of $479 Million, Up 115% Year Over Year",
+      "url": "https://pulse2.com/credo-reports-q1-fiscal-2027-revenue-of-479-million-up-115-year-over-year/",
+      "date": "2026-09-01",
+      "note": "보도(2차 요약, 회사 8-K S3로 재확인 필요). Q1 FY27 매출 4.79억 달러(전년비 +114.7%, 전분기비 +9.6%), 비GAAP EPS 1.20달러, 비GAAP 매출총이익률 68.0%. 컨센서스 매출 약 4.718억 달러, EPS 1.17달러. Q2 FY27 가이던스: 매출 5.25~5.35억 달러, 비GAAP 매출총이익률 67~69%, 비GAAP 영업비용 1.00~1.05억 달러. FY27 전체 매출 성장률 전망은 출처마다 80% 초과·85% 초과로 엇갈림. 실적 발표 후 마진 우려로 주가 약 8~9% 하락.",
+      "retrieved": "2026-10-17T17:23:40Z"
     }
   ],
   "facts": [
@@ -2778,8 +2787,80 @@
       "derived": true,
       "note": "Q4 = 연간 − Q1~Q3 (코드 계산)",
       "source": "S5"
+    },
+    {
+      "id": "F217",
+      "metric": "revenue",
+      "value": 530000000,
+      "low": 525000000,
+      "high": 535000000,
+      "unit": "USD",
+      "period": "FY2027Q2",
+      "end": "2026-10-31",
+      "basis": "guidance",
+      "source": "S41",
+      "origin": "research"
+    },
+    {
+      "id": "F218",
+      "metric": "non_gaap_gross_margin",
+      "value": 0.68,
+      "low": 0.67,
+      "high": 0.69,
+      "unit": "ratio",
+      "period": "FY2027Q2",
+      "end": "2026-10-31",
+      "basis": "guidance",
+      "source": "S41",
+      "origin": "research"
+    },
+    {
+      "id": "F219",
+      "metric": "non_gaap_opex",
+      "value": 102500000,
+      "low": 100000000,
+      "high": 105000000,
+      "unit": "USD",
+      "period": "FY2027Q2",
+      "end": "2026-10-31",
+      "basis": "guidance",
+      "source": "S41",
+      "origin": "research"
+    },
+    {
+      "id": "F220",
+      "metric": "non_gaap_gross_margin",
+      "value": 0.68,
+      "unit": "ratio",
+      "period": "FY2027Q1",
+      "end": "2026-08-01",
+      "basis": "reported",
+      "source": "S41",
+      "origin": "research"
+    },
+    {
+      "id": "F221",
+      "metric": "revenue",
+      "value": 471800000,
+      "unit": "USD",
+      "period": "FY2027Q1",
+      "end": "2026-08-01",
+      "basis": "consensus",
+      "source": "S41",
+      "origin": "research"
     }
   ],
   "as_of": "2026-10-18",
-  "collected": "2026-10-17T17:23:15Z"
+  "collected": "2026-10-17T17:23:15Z",
+  "gaps": [
+    "현재 주가(price)를 찾지 못함: 검색 결과에 2026-10-16 종가가 없고, 날짜 불명 스냅샷(231.27달러)과 2026-08-18 종가(245.97달러)만 보임. 날짜를 확인할 수 없는 값은 사실로 넣지 않았다. Nasdaq·Yahoo Finance·StockAnalysis의 일별 시세로 직접 확인해야 한다.",
+    "다음 2개 연도(FY2027·FY2028) 연간 매출 컨센서스를 찾지 못함. Q1 FY27 컨센서스(약 4.718억 달러)만 확인됨. variant perception 검증이 불가능한 상태다.",
+    "과거 가이던스(FY2026Q2~FY2027Q1 분기 매출·마진 전망)를 찾지 못함. 경영진 적중률을 낼 수 없다. 10-Q·8-K 실적 발표(S3·S9·S10)와 어닝콜 원문에서 보강해야 한다.",
+    "FY2027 전체 매출 성장률 전망이 출처마다 다르다(80% 초과 vs 85% 초과). 사실로 넣지 않았으며 8-K 원문(S3) 대조가 필요하다.",
+    "어닝콜 원문·핵심 Q&A, 투자자의 날·컨퍼런스 자료(S7 8-K 포함), NRR·고객 집중도(상위 고객 비중)·설치 대수 같은 운영 KPI를 찾지 못함.",
+    "회계 품질 단서(감사의견·감사인 변경·정정·특수관계자 거래·Non-GAAP 조정 내역)를 아직 확인하지 못함. 10-K(S5)와 10-Q(S2) 원문 확인이 필요하다.",
+    "FY2027Q1 영업권이 9.9억 달러로 FY2026의 9,280만 달러에서 급증했다(F68). 대규모 인수가 있었을 가능성이 있으나 인수 내용과 대가를 확인하지 못했다. 재고는 3.1억 달러, 매출채권은 2.9억 달러로 증가해 회계 점검 대상이다.",
+    "대체 데이터(채용공고·트래픽·특허)와 경쟁사·고객사 교차 확인 근거를 수집하지 못함."
+  ],
+  "researched": "2026-10-18"
 }
