@@ -1,0 +1,1254 @@
+{
+  "ticker": "ASND",
+  "name": "Ascendis Pharma A/S",
+  "sources": [
+    {
+      "id": "S1",
+      "type": "filing",
+      "title": "6-K",
+      "date": "2026-10-16",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526423938/d167361d6k.htm",
+      "accn": "0001193125-26-423938",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S2",
+      "type": "filing",
+      "title": "6-K",
+      "date": "2026-10-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526421789/d743945d6k.htm",
+      "accn": "0001193125-26-421789",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S3",
+      "type": "filing",
+      "title": "6-K",
+      "date": "2026-09-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526407293/d153773d6k.htm",
+      "accn": "0001193125-26-407293",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S4",
+      "type": "filing",
+      "title": "6-K",
+      "date": "2026-09-15",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526390877/d183438d6k.htm",
+      "accn": "0001193125-26-390877",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S5",
+      "type": "filing",
+      "title": "6-K",
+      "date": "2026-09-15",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526390874/d52763d6k.htm",
+      "accn": "0001193125-26-390874",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S6",
+      "type": "filing",
+      "title": "6-K",
+      "date": "2026-09-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526386630/d152057d6k.htm",
+      "accn": "0001193125-26-386630",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S7",
+      "type": "filing",
+      "title": "6-K",
+      "date": "2026-09-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526386434/d32116d6k.htm",
+      "accn": "0001193125-26-386434",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S8",
+      "type": "filing",
+      "title": "6-K",
+      "date": "2026-08-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526376733/d139239d6k.htm",
+      "accn": "0001193125-26-376733",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S9",
+      "type": "filing",
+      "title": "6-K",
+      "date": "2026-08-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437d6k.htm",
+      "accn": "0001193125-26-348046",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S10",
+      "type": "filing",
+      "title": "6-K",
+      "date": "2026-08-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000161204226000016/asnd-20260630.htm",
+      "accn": "0001612042-26-000016",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S11",
+      "type": "filing",
+      "title": "6-K",
+      "date": "2026-08-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526347172/d135787d6k.htm",
+      "accn": "0001193125-26-347172",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S12",
+      "type": "filing",
+      "title": "6-K",
+      "date": "2026-08-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526337270/d169607d6k.htm",
+      "accn": "0001193125-26-337270",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S13",
+      "type": "filing",
+      "title": "6-K",
+      "date": "2026-07-15",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526304903/d109910d6k.htm",
+      "accn": "0001193125-26-304903",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S14",
+      "type": "filing",
+      "title": "6-K",
+      "date": "2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526290485/d93159d6k.htm",
+      "accn": "0001193125-26-290485",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S15",
+      "type": "filing",
+      "title": "6-K",
+      "date": "2026-06-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526288414/d22299d6k.htm",
+      "accn": "0001193125-26-288414",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S16",
+      "type": "filing",
+      "title": "6-K",
+      "date": "2026-06-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526274306/d78361d6k.htm",
+      "accn": "0001193125-26-274306",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S17",
+      "type": "filing",
+      "title": "6-K",
+      "date": "2026-06-15",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526270227/d48156d6k.htm",
+      "accn": "0001193125-26-270227",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S18",
+      "type": "filing",
+      "title": "6-K",
+      "date": "2026-06-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526268415/d136465d6k.htm",
+      "accn": "0001193125-26-268415",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S19",
+      "type": "filing",
+      "title": "6-K",
+      "date": "2026-06-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526265829/d85296d6k.htm",
+      "accn": "0001193125-26-265829",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S20",
+      "type": "filing",
+      "title": "6-K",
+      "date": "2026-05-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526221597/d865415d6k.htm",
+      "accn": "0001193125-26-221597",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S21",
+      "type": "filing",
+      "title": "6-K",
+      "date": "2026-05-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526210386/d121855d6k.htm",
+      "accn": "0001193125-26-210386",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S22",
+      "type": "filing",
+      "title": "6-K",
+      "date": "2026-05-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000161204226000005/asnd-20260331.htm",
+      "accn": "0001612042-26-000005",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S23",
+      "type": "filing",
+      "title": "6-K",
+      "date": "2026-04-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526167208/d91071d6k.htm",
+      "accn": "0001193125-26-167208",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S24",
+      "type": "filing",
+      "title": "6-K",
+      "date": "2026-04-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526165330/d139196d6k.htm",
+      "accn": "0001193125-26-165330",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S25",
+      "type": "filing",
+      "title": "6-K",
+      "date": "2026-04-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526162766/d620541d6k.htm",
+      "accn": "0001193125-26-162766",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S26",
+      "type": "filing",
+      "title": "6-K",
+      "date": "2026-04-16",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526157347/d134243d6k.htm",
+      "accn": "0001193125-26-157347",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S27",
+      "type": "filing",
+      "title": "6-K",
+      "date": "2026-04-08",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526147597/d118310d6k.htm",
+      "accn": "0001193125-26-147597",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S28",
+      "type": "filing",
+      "title": "6-K",
+      "date": "2026-04-08",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526147577/d132436d6k.htm",
+      "accn": "0001193125-26-147577",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S29",
+      "type": "filing",
+      "title": "6-K",
+      "date": "2026-04-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526144463/d121667d6k.htm",
+      "accn": "0001193125-26-144463",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S30",
+      "type": "filing",
+      "title": "6-K",
+      "date": "2026-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526131753/d127945d6k.htm",
+      "accn": "0001193125-26-131753",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S31",
+      "type": "filing",
+      "title": "20-F (XBRL)",
+      "date": "2024-02-07",
+      "accn": "0000950170-24-012212",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000095017024012212/0000950170-24-012212-index.htm",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S32",
+      "type": "filing",
+      "title": "20-F (XBRL)",
+      "date": "2025-02-12",
+      "accn": "0000950170-25-018852",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000095017025018852/0000950170-25-018852-index.htm",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S33",
+      "type": "filing",
+      "title": "20-F (XBRL)",
+      "date": "2026-02-11",
+      "accn": "0001193125-26-046590",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526046590/0001193125-26-046590-index.htm",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S34",
+      "type": "filing",
+      "title": "20-F (XBRL)",
+      "date": "2023-02-16",
+      "accn": "0000950170-23-003068",
+      "url": "https://www.sec.gov/Archives/edgar/data/1612042/000095017023003068/0000950170-23-003068-index.htm",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S35",
+      "type": "news",
+      "title": "Ascendis Pharma A/S (ASND) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9EOVJNcG5FM21pY0NPNEJDVzVLbUhTT05JUkhKb2FxbzNUZEZ4dGJEWnNaR1h6QUkyZXoxU0tDZ0ZtdVBEY3dXOXNmTDRlcV9iZ3c?oc=5",
+      "note": "Yahoo! Finance Canada",
+      "date": "2026-10-16",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S36",
+      "type": "news",
+      "title": "Ascendis Pharma A/S Q2 Earnings Call Highlights - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdUJFVXhFNDdmaGU5NEJqWDgycEdZZFdkMV9iM3hQZWJIWDhqLXp2ZVVoWmFxR0JIQnMtMlNqV0RzNmEwSDdfaENpOGhJbXNLc2w0cGYzMVJkc1ZweVgtV25DaVlfZVhkZWFEZGlMY0FnZi1xWWtCcVVrNkVaY1paUXdUVTJUcm96eEZ2aVh6N0Y1bkxIZV9uT3hSVHBHeUlBZTFJSlZHTmwtZ00?oc=5",
+      "note": "TradingView",
+      "date": "2026-08-13",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S37",
+      "type": "news",
+      "title": "Ascendis Pharma (NasdaqGS:ASND) Stock Price - Simply Wall Street",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5MZnBMYU94VVhYYWcwd05DVWNXTDBkNEw1MFU1M2toTVpKUUZ6N3FFN1dfNUYzdm9ZNlVrbGxpM1NKU3BPTDc1YmF1WFh0YUFlSHFV?oc=5",
+      "note": "Simply Wall Street",
+      "date": "2026-10-03",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S38",
+      "type": "news",
+      "title": "Ascendis Pharma to Participate in the Morgan Stanley 24th Annual Global Healthcare Conference - GlobeNewswire",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQMndMeTdpclVMNm5XZTVwcG5IQ0hFZTNkdWwxUk5sSHdObWNIOEJ4MkVjMEdPdk1mbzNsN1NHc0NTMEk4YUVEV3hTblYwdnZUbDdGTlFyRVI1UGw0MXlsMEMwN19hXzhPbzJSVzhyQUU5SkU5VGU1SlpzNDZaWG5tckRWX2ZjZGQ3ak9tQVFHcm5pWXUtdl8xbWszbjlRbEFYSUstaXRjU2RWR1NwUEMyWGE0cnp6ZENSaEZhWFV4OE1fTG9fbUd6NnZSaHZhU0lTY0dkRk9JYUwyNFJqei00VVlOUGtqWlNwQWU0SW9ZU3VPcl9uWk1xUA?oc=5",
+      "note": "GlobeNewswire",
+      "date": "2026-09-08",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S39",
+      "type": "news",
+      "title": "Ascendis Pharma Reports More Than 220 U.S. YUVIWEL Enrollments - Stock Titan",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONHVXM2EtWkc1M1padi16bnF0YW52elAyM25UMHp4RnlqMzctdTdMMV9UNDZVTWN1NThwTUN6Q25YZ2NWLUdxeUFndFBaWE5leUZCb28yRE9Fdi1nNGdmZzFRMmhBd0VnTlBFOFBQZW10MU1jNVZhYVpVcDNReHh5WFB4TXREenh3ZnVmXy03bmpLbWcxRzFGVXJyNUV4ZnRsUnBsV3ZSUE9TTUJD?oc=5",
+      "note": "Stock Titan",
+      "date": "2026-08-13",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S40",
+      "type": "news",
+      "title": "Ascendis Pharma: Back To Full Independence (NASDAQ:ASND) - Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQam9fZWc1Q2hyWEhxNllSQ1dGdGJKdU1mWUM0SE5qUmxKa21DUlRmU1gxQjBtOFpGeklNWVNvZ2VBQUE2b0J4Q2dpT2w0Zm9IWnFzSGZCZDhYOXhLdXFfRHZBOGp2bzNRSDZobzlSQk5jVDNBVU5mcnRkWVIwdWRabm9oelJlN1JWbHc?oc=5",
+      "note": "Seeking Alpha",
+      "date": "2026-09-16",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S41",
+      "type": "news",
+      "title": "Morgan Stanley Initiates Ascendis Pharma A/S(ASND.US) With Buy Rating, Announces Target Price $273 - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdTdmbVJFYTdjX25mbGxMaEhsZFBUR0pxZUppbVJ0TV9leERyR3JNbW5RR3JfRTZ2QzdNdVRaaGhJU2h1N1JkT25mY1RJMmlncV9Ed2tpWjRIVmFCMUVHT1JqcDJkRXhTdUdUaFV4RGZSQjdueFlqTHRkYVp6bVhOU2JuVUNTeHRyeGw1UmkzTndSdGU0Zl9jU2owS3JxTFNadXVYUURSWQ?oc=5",
+      "note": "Moomoo",
+      "date": "2026-10-12",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S42",
+      "type": "news",
+      "title": "Ascendis Pharma A/S Stock (ASND) Moved Down by 12.08% on Sep 15: What Signal Does It Send? - TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNnRHZTVhRTFWTmUwVkx3Y0hjeWU4cFZSeEVLemtmZ2lhZ1JOQkR2UjJkOFFscXRBNEtISFJWNkp3RlcwcHdZWFFDMEJ6WTRZN3NmRFdkaUk0aVZ1WmV5b0MtNnpTMy1acUp2dW9VWnNzUFFmX3RMaDZoNUtuaEJFUUc0VHdtREtiNUJR?oc=5",
+      "note": "TradingKey",
+      "date": "2026-09-15",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S43",
+      "type": "news",
+      "title": "Employees receive 35,890 warrants from Ascendis Pharma (ASND) at a $223.21 exercise price. - Stock Titan",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdU1tSTlnWlJ5R0Z4Mm9UNUkzbjc2dVMwUHhwd3JiUlR5N1JIeTNoSGpXVlNOcndKWlVKQ0RzUzhPNmtqWW56TFQxYzY3RTZkSElZOXJVMk81RnZVbE5hcVkwVGRlRmgtRkpOdGFDODRlTlRfcHRXWFU3UDZPQkxxUERjUERaMXE0R2l3a1NwS0p4SmlYWEtyVFVhZnJvUXNYTnNVZzFEaDNTcHQtWmVsTFEtdW9PUQ?oc=5",
+      "note": "Stock Titan",
+      "date": "2026-10-14",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S44",
+      "type": "news",
+      "title": "HC Wainwright Initiates Coverage on Ascendis Pharma A/S With Buy Rating, $345 Price Target - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaVd3eHJkZzViUE1KOVZfcWNudnBPX3MzazdGeDhiRllCS1F1YmlWdm5VVk0zaVZZVEZMc1lsTThFVUdoUDNFbnUxSEFrV2dNWkdGNjJvMy1tTzRNdmtTWkpjRGJ4VlFEcDJqdVNhMlVRWWhNLXB0N2F0VmRzbHBBeXhnVlJsNE41dk9OcDBOVWU2RTUzS2ZCM1FsMlFwYjdDR0E3MEpnT3I2dw?oc=5",
+      "note": "Yahoo Finance",
+      "date": "2026-08-27",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S45",
+      "type": "news",
+      "title": "EU advisers weigh in on once-weekly TransCon CNP for children at Ascendis Pharma (ASND) - Stock Titan",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOUV5eUdjYWplbmNVc0hRaWFuT0RteWVjRUZXV3E1c18xakI4Xzc5Mk94T3N3RUF5S3Z0ZWJxa0czdm1xZXJLLWtSemVQMjZTRmphTnFIaF9XaUFsRmFyeVo5c2s0dWRJTGhfTkl5U0hZQlY0RjhoWEh1UDRkNVFlbjh2MU5QTDJtVy1UOVZLX0dMR2JlUWZybEMtbzd6OXZmMUlhZmJxNGFWUXAwRXd4VWZLUFRPQQ?oc=5",
+      "note": "Stock Titan",
+      "date": "2026-10-16",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S46",
+      "type": "news",
+      "title": "Ascendis Pharma (ASND): Three New Drugs Are Turning This Biotech Into A Growth Machine - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObVB2N29uMk1WYmhhcXNFSjE0N00zOFhQTjYyYy12VmxqN0RyazYxZUlhMmdrM2RhRE96dTBjWF82UUduTmZaX08xNDFMRDdDN3JNeVpZTFVYbmV3RnpoeUVRb0VQSjFSYTBwaXV1SWdnTXZ5X2hkdjdUN0VuNUk1cjdqZEVEVTBBenZ3TUlCdEtMbHE1ZzljXw?oc=5",
+      "note": "Yahoo Finance",
+      "date": "2026-08-21",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S47",
+      "type": "news",
+      "title": "At about $123.36 per share, warrant exercises add 210,812 shares at Ascendis Pharma (ASND). - Stock Titan",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTV94WmdkVWFYTGEtUUpvNWxVZlhuajNPZ0cyWUNYRFJkMmVMZnpaT0QzbW9ORVV2Mnl0ZUZSNFdQUlBvVUxKQVU5MHI4cmcxSGVoRlVGYXVEZ1lYdk9hengxdmJzQ1dhWXNvLXZIdk1Rbm52TlBycjZSblByZHhDYWo3cXFtYzhOTW4zSTBBRnlWTE5OVFF0dGJNTFZMT3RKSjZxOHBJLV95RUtxRGNQalFReXdqQQ?oc=5",
+      "note": "Stock Titan",
+      "date": "2026-09-29",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S48",
+      "type": "news",
+      "title": "Ascendis Pharma (ASND) Will Regain Metabolic Drug Rights. Is Greater Ownership Worth the Cost? - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLU9FT0RRb3FhY1VNcW9qc1pLdVJncjljS2hFNHlXcmp5Tm15S3ZXOXdKRUZRN3hkM1J1UjJHNUNES1htTUQxZnRLXzhCVFJlNDl4QWVBVG40SUc1YVktVlFJYV91NS1vWTlPOWpFSy1XQVhPb1prcWdVbWUzcXE5aEh5M3NMTmxDWXNBVUNjX1RjT3FVemlXV0RsbFB1ZFk?oc=5",
+      "note": "Yahoo Finance",
+      "date": "2026-09-17",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S49",
+      "type": "news",
+      "title": "Novo Nordisk deal ends as Ascendis (NASDAQ: ASND) takes back obesity drug rights, with more programs shifting over - Stock Titan",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObEV1c05rMXI1T3VwalBRR1R5amdCeXlXcVM4VVpYa1lMc0hPYnNsZHNrZDVQZl9yRVNnMF9FRFVMRDBycXVUVEgyalg2U084aElBTG5GOUN5dkJVd2tiODVMZXl6b1dGM01CNnFGc3VkcFFubDlNVlduaVA4RDdQU1o2LVFXVVgyMzlRT2VzSG1PTGotTlF0d0RPSG9zMVFZenpQNVN5M05hRkxILUZrdVpFWl9VUQ?oc=5",
+      "note": "Stock Titan",
+      "date": "2026-09-15",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S50",
+      "type": "news",
+      "title": "Ascendis Pharma (ASND) Authorizes $400M Share Buyback - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOX3BRdUlYU2g1NmVJLTM1VXRPSGxlamR3T1BCRDVVTTB3Z213VnFjdDQ5VVVlODJtNEhnQTZpcDMxaUdSZ25TRTBzZEFuUUJzdXllNTBEcC00ZkJiMkFnWWdwbWt2dkN6bjE1TlE0MnF6TlRXbTVzbGVPUER3MHg3R0tWQ2ZDSEpJNUhkSF9YdTQ5R3VvV2YxZkExY0VpTm9ZWlZv?oc=5",
+      "note": "Yahoo Finance",
+      "date": "2026-09-20",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S51",
+      "type": "news",
+      "title": "Ascendis Pharma (NASDAQ: ASND) board okays discretionary $400M share buyback - Stock Titan",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTTFnQmFrN1lxeENBcVppV1F2Z19MQVhuMThjcHV6bHhOX0tYak9YN3V2MzdyQ0loeHFsekdFZnQ2Umowazl4aVJVU0Q1NVI5d1hVU0RNUWU3VzJ5d0FIVXhjUHdRUTEtTVZNa0RYbzhUMWEtVWVyNVRmSHk4TV9qdDY4SUhQeTUzNEt3Ty1zTS1DOEJkZVZBT0djSWJvWjZkZ05SMW84Q2F5R0kwZEwzR3JqbUhZdw?oc=5",
+      "note": "Stock Titan",
+      "date": "2026-09-15",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S52",
+      "type": "news",
+      "title": "UBS Adjusts Ascendis Pharma A/S Price Target to $269 From $307, Maintains Buy Rating - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQTVsanpVelJISlR6TGZLV0pjbTg4d1ltSk9kZWhqMGNMazkxWEZ5YUhjaENuVmtnRXFXdy10bmZtaUxVMnRjcXdMbGtHRWZoMEJUTmYwX3BmWEpGQjh6WmFhYkRXQ2stR2NNbkNGWU03d2I2alllVjZWcjE4MW1xMUg0cXJEZzZZUnNIbWVaQ0Jyc3l1eng5ZXZBdw?oc=5",
+      "note": "Moomoo",
+      "date": "2026-10-16",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S53",
+      "type": "news",
+      "title": "Ascendis Pharma Regains Rights to TransCon Metabolic and Cardiovascular Programs, Including Once-Monthly TransCon Semaglutide - Quiver Quantitative",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPOS1MdzFyanNaNzMwZDB1N1F1OGVPR2xjUnZYX3V5LVdNU0NQR2JtR1VoOEdkRkxjY0FRVzIxTDZWcm93VHBhZ2NHSnZhTm92dXNvWmpWTHFIMlVPY21mN0tLVFZJTmo1YTQ2dGpOU082X1U5eXhFNHUyd3BzWUNSTUZfQmVzS19tUnJPMm1DQWdINThRaUxEampoYUY3ZkEzaF9LWUgxaTNPbUdqLVVUNW93MnpKMlFzb00tZUhxRHE3cUp5LUt6dUVZQjhfWFA4QkljTUdoYURmV29oTkgxWDRlMGRXc3pjTlFqUFNqdXNtQQ?oc=5",
+      "note": "Quiver Quantitative",
+      "date": "2026-09-14",
+      "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S54",
+      "type": "news",
+      "title": "Ascendis Announces COACH Week 78 Results and Provides - GlobeNewswire",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOSjB6b05ObkY5QmNxeXFRU25vdzNJVjNoUVh2M1UxaUh0X09aT25iSkxfSGozdFctTFFFaE81U3pRSDZLcGplZU5kX2M4SzBuaXdyODljV1VTN2taSmw1VVdHcldSYnltWGRCZkwyYm5mTVgzeG5sd0gwVEZoR3R1NC1NZVNGQWtzbzdDZG9yUjdyVG9zSGJxS2VtNkN2cDkzdzlKVHlNWktxak9jblBPdHhWVWtkQWFabDlzbDd0R1RBTV9SN1pPY2F6RHNTS3FrcWtEd242U3JPdUgyblJjOVc3RU1ESVkwNm1MZmlmTjMzQUpJbm5DSVIwSF9CekhxcnBvVW9XejNueVZYMllZSEM3S3lQVVBN?oc=5",
+      "note": "GlobeNewswire",
+      "date": "2026-08-06",
+      "retrieved": "2026-10-18T10:31:12Z"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F1",
+      "metric": "capex",
+      "value": 23704000,
+      "unit": "EUR",
+      "period": "FY2021",
+      "end": "2021-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S31"
+    },
+    {
+      "id": "F2",
+      "metric": "capex",
+      "value": 14489000,
+      "unit": "EUR",
+      "period": "FY2022",
+      "end": "2022-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S31"
+    },
+    {
+      "id": "F3",
+      "metric": "capex",
+      "value": 2442000,
+      "unit": "EUR",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S31"
+    },
+    {
+      "id": "F4",
+      "metric": "cash",
+      "value": 446267000,
+      "unit": "EUR",
+      "period": "FY2021",
+      "end": "2021-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S32"
+    },
+    {
+      "id": "F5",
+      "metric": "cash",
+      "value": 444767000,
+      "unit": "EUR",
+      "period": "FY2022",
+      "end": "2022-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F6",
+      "metric": "cash",
+      "value": 392164000,
+      "unit": "EUR",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F7",
+      "metric": "cash",
+      "value": 559543000,
+      "unit": "EUR",
+      "period": "FY2024",
+      "end": "2024-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F8",
+      "metric": "cash",
+      "value": 616041000,
+      "unit": "EUR",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F9",
+      "metric": "cost_of_revenue",
+      "value": 3523000,
+      "unit": "EUR",
+      "period": "FY2021",
+      "end": "2021-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S31"
+    },
+    {
+      "id": "F10",
+      "metric": "cost_of_revenue",
+      "value": 12137000,
+      "unit": "EUR",
+      "period": "FY2022",
+      "end": "2022-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S32"
+    },
+    {
+      "id": "F11",
+      "metric": "cost_of_revenue",
+      "value": 44395000,
+      "unit": "EUR",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F12",
+      "metric": "cost_of_revenue",
+      "value": 44258000,
+      "unit": "EUR",
+      "period": "FY2024",
+      "end": "2024-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F13",
+      "metric": "cost_of_revenue",
+      "value": 94915000,
+      "unit": "EUR",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F14",
+      "metric": "diluted_shares",
+      "value": 54771763,
+      "unit": "shares",
+      "period": "FY2021",
+      "end": "2021-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S31"
+    },
+    {
+      "id": "F15",
+      "metric": "diluted_shares",
+      "value": 56071793,
+      "unit": "shares",
+      "period": "FY2022",
+      "end": "2022-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S32"
+    },
+    {
+      "id": "F16",
+      "metric": "diluted_shares",
+      "value": 56287060,
+      "unit": "shares",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F17",
+      "metric": "diluted_shares",
+      "value": 57891570,
+      "unit": "shares",
+      "period": "FY2024",
+      "end": "2024-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F18",
+      "metric": "diluted_shares",
+      "value": 60607131,
+      "unit": "shares",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F19",
+      "metric": "gross_profit",
+      "value": 4255000,
+      "unit": "EUR",
+      "period": "FY2021",
+      "end": "2021-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S31"
+    },
+    {
+      "id": "F20",
+      "metric": "gross_profit",
+      "value": 39037000,
+      "unit": "EUR",
+      "period": "FY2022",
+      "end": "2022-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S32"
+    },
+    {
+      "id": "F21",
+      "metric": "gross_profit",
+      "value": 222323000,
+      "unit": "EUR",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F22",
+      "metric": "gross_profit",
+      "value": 319383000,
+      "unit": "EUR",
+      "period": "FY2024",
+      "end": "2024-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F23",
+      "metric": "gross_profit",
+      "value": 625217000,
+      "unit": "EUR",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F24",
+      "metric": "income_tax",
+      "value": -367000,
+      "unit": "EUR",
+      "period": "FY2021",
+      "end": "2021-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S31"
+    },
+    {
+      "id": "F25",
+      "metric": "income_tax",
+      "value": 5377000,
+      "unit": "EUR",
+      "period": "FY2022",
+      "end": "2022-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S32"
+    },
+    {
+      "id": "F26",
+      "metric": "income_tax",
+      "value": 7303000,
+      "unit": "EUR",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F27",
+      "metric": "income_tax",
+      "value": 4843000,
+      "unit": "EUR",
+      "period": "FY2024",
+      "end": "2024-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F28",
+      "metric": "income_tax",
+      "value": 15383000,
+      "unit": "EUR",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F29",
+      "metric": "inventory",
+      "value": 75405000,
+      "unit": "EUR",
+      "period": "FY2021",
+      "end": "2021-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S34"
+    },
+    {
+      "id": "F30",
+      "metric": "inventory",
+      "value": 130673000,
+      "unit": "EUR",
+      "period": "FY2022",
+      "end": "2022-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S31"
+    },
+    {
+      "id": "F31",
+      "metric": "inventory",
+      "value": 208931000,
+      "unit": "EUR",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S32"
+    },
+    {
+      "id": "F32",
+      "metric": "inventory",
+      "value": 295609000,
+      "unit": "EUR",
+      "period": "FY2024",
+      "end": "2024-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F33",
+      "metric": "inventory",
+      "value": 301533000,
+      "unit": "EUR",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F34",
+      "metric": "net_income",
+      "value": -383577000,
+      "unit": "EUR",
+      "period": "FY2021",
+      "end": "2021-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S31"
+    },
+    {
+      "id": "F35",
+      "metric": "net_income",
+      "value": -583194000,
+      "unit": "EUR",
+      "period": "FY2022",
+      "end": "2022-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S32"
+    },
+    {
+      "id": "F36",
+      "metric": "net_income",
+      "value": -481447000,
+      "unit": "EUR",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F37",
+      "metric": "net_income",
+      "value": -378084000,
+      "unit": "EUR",
+      "period": "FY2024",
+      "end": "2024-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F38",
+      "metric": "net_income",
+      "value": -228034000,
+      "unit": "EUR",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F39",
+      "metric": "ocf",
+      "value": -417649000,
+      "unit": "EUR",
+      "period": "FY2021",
+      "end": "2021-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S31"
+    },
+    {
+      "id": "F40",
+      "metric": "ocf",
+      "value": -495699000,
+      "unit": "EUR",
+      "period": "FY2022",
+      "end": "2022-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S32"
+    },
+    {
+      "id": "F41",
+      "metric": "ocf",
+      "value": -467361000,
+      "unit": "EUR",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F42",
+      "metric": "ocf",
+      "value": -306197000,
+      "unit": "EUR",
+      "period": "FY2024",
+      "end": "2024-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F43",
+      "metric": "ocf",
+      "value": 53897000,
+      "unit": "EUR",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F44",
+      "metric": "operating_income",
+      "value": -451792000,
+      "unit": "EUR",
+      "period": "FY2021",
+      "end": "2021-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S31"
+    },
+    {
+      "id": "F45",
+      "metric": "operating_income",
+      "value": -561814000,
+      "unit": "EUR",
+      "period": "FY2022",
+      "end": "2022-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S32"
+    },
+    {
+      "id": "F46",
+      "metric": "operating_income",
+      "value": -455541000,
+      "unit": "EUR",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F47",
+      "metric": "operating_income",
+      "value": -278763000,
+      "unit": "EUR",
+      "period": "FY2024",
+      "end": "2024-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F48",
+      "metric": "operating_income",
+      "value": -136271000,
+      "unit": "EUR",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F49",
+      "metric": "pretax_income",
+      "value": -383944000,
+      "unit": "EUR",
+      "period": "FY2021",
+      "end": "2021-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S31"
+    },
+    {
+      "id": "F50",
+      "metric": "pretax_income",
+      "value": -577817000,
+      "unit": "EUR",
+      "period": "FY2022",
+      "end": "2022-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S32"
+    },
+    {
+      "id": "F51",
+      "metric": "pretax_income",
+      "value": -474144000,
+      "unit": "EUR",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F52",
+      "metric": "pretax_income",
+      "value": -373241000,
+      "unit": "EUR",
+      "period": "FY2024",
+      "end": "2024-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F53",
+      "metric": "pretax_income",
+      "value": -212651000,
+      "unit": "EUR",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F54",
+      "metric": "revenue",
+      "value": 7778000,
+      "unit": "EUR",
+      "period": "FY2021",
+      "end": "2021-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S31"
+    },
+    {
+      "id": "F55",
+      "metric": "revenue",
+      "value": 51174000,
+      "unit": "EUR",
+      "period": "FY2022",
+      "end": "2022-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S32"
+    },
+    {
+      "id": "F56",
+      "metric": "revenue",
+      "value": 266718000,
+      "unit": "EUR",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F57",
+      "metric": "revenue",
+      "value": 363641000,
+      "unit": "EUR",
+      "period": "FY2024",
+      "end": "2024-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F58",
+      "metric": "revenue",
+      "value": 720132000,
+      "unit": "EUR",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F59",
+      "metric": "rnd",
+      "value": 295867000,
+      "unit": "EUR",
+      "period": "FY2021",
+      "end": "2021-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S31"
+    },
+    {
+      "id": "F60",
+      "metric": "rnd",
+      "value": 379624000,
+      "unit": "EUR",
+      "period": "FY2022",
+      "end": "2022-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S32"
+    },
+    {
+      "id": "F61",
+      "metric": "rnd",
+      "value": 413454000,
+      "unit": "EUR",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F62",
+      "metric": "rnd",
+      "value": 307004000,
+      "unit": "EUR",
+      "period": "FY2024",
+      "end": "2024-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F63",
+      "metric": "rnd",
+      "value": 303621000,
+      "unit": "EUR",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F64",
+      "metric": "shares_outstanding",
+      "value": 61977408,
+      "unit": "shares",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F65",
+      "metric": "total_assets",
+      "value": 1084921000,
+      "unit": "EUR",
+      "period": "FY2021",
+      "end": "2021-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S34"
+    },
+    {
+      "id": "F66",
+      "metric": "total_assets",
+      "value": 1089738000,
+      "unit": "EUR",
+      "period": "FY2022",
+      "end": "2022-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S31"
+    },
+    {
+      "id": "F67",
+      "metric": "total_assets",
+      "value": 825587000,
+      "unit": "EUR",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S32"
+    },
+    {
+      "id": "F68",
+      "metric": "total_assets",
+      "value": 1179495000,
+      "unit": "EUR",
+      "period": "FY2024",
+      "end": "2024-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    },
+    {
+      "id": "F69",
+      "metric": "total_assets",
+      "value": 1302570000,
+      "unit": "EUR",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S33"
+    }
+  ],
+  "as_of": "2026-10-18",
+  "collected": "2026-10-18T10:31:12Z"
+}
