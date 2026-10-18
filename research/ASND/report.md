@@ -1,19 +1,316 @@
 # Ascendis Pharma A/S (ASND) 리서치 보고서 — 기준일 2026-10-18
 
-**판정 불가 — 근거 충분성** — 토론 전 단계에서 멈춤
+**찬성 우세** — 찬성 2 · 반대 1 · 보류 1 · 확신 가중 점수 +0.20 (−1~+1)
 
-- 게이트: 근거 충분성 ✗ 주가·주식 수 없음 — 시장 가격과 비교할 수 없다
+- 게이트: 근거 충분성 ✓ → 회계 품질 ✓ → 모델 ✓
+- 조건부 판정: 주가 ≤ 72.27 (-64%) → 찬성 우세 (찬3·반1·보0)
 
-> 게이트에서 멈췄다 — 뒤 단계(모델·토론)는 실행하지 않는다. 이유: 주가·주식 수 없음 — 시장 가격과 비교할 수 없다
+## 1. Variant perception
+
+- 시장 내재: 매출 10년 연 17.2% (FCF 마진 30% 수렴 가정) · 기본 시나리오: 5년 연 36.0%
+- 시장이 반영한 것: 현재가(€200.88 상당)는 EV 기준으로 목표 FCF 마진 20%일 때 10년간 연 22.0% 매출 성장을 요구한다(C:implied_cagr@m20). 2026~2027년 매출 컨센서스(€1.37B, €2.02B)는 이미 가격에 들어 있고, 15명 Strong Buy를 포함한 애널리스트 20명이 모두 매수라 단기 성장 기대는 합의돼 있다.
+- 우리가 다르게 보는 점: 2026년 매출·영업현금흐름 수준에서는 컨센서스와 크게 다르지 않다. 다른 점은 이익의 질이다. 2026년 상반기 이익과 영업현금흐름에는 PRV 매각(순 €158.1M)과 이연법인세자산 인식이 섞여 경상 수준보다 높다. 시장 배수(PER, FCF 수익률)는 이를 그대로 반영해 싸 보이고, 우리는 SBC를 비용으로 차감한 FCF와 BioMarin 로열티를 뺀 YUVIWEL 마진으로 본다. 따라서 알파는 매출 서프라이즈보다 FCF 전환율과 YUVIWEL 순마진 쪽에서 나오고, 그 방향은 위가 아니라 아래일 수 있다.
+- 왜 우리가 맞는가: SBC가 영업현금흐름의 215.5%(2025년)이고 희석 가중 주식 수가 계속 늘고 있다. 가이던스 적중률은 33%이며, 순가격·이탈률 같은 단위경제 지표는 공시되지 않는다. 이 불확실성은 시장이 주로 매출 성장으로 보는 가격에 충분히 반영돼 있지 않다. [C:implied_cagr@m20] [C:sbc_to_ocf] [C:guidance_hit_rate] [F78] [F238] [F239] [F259] [S80](https://stockanalysis.com/stocks/asnd/forecast/) [S56](https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437dex991.htm) [S67](https://www.sec.gov/Archives/edgar/data/1612042/000119312526423938/d167361d6k.htm#chmp)
+- 촉매: 2026년 3분기 실적(PRV 없는 경상 영업현금흐름, YUVIWEL 첫 BioMarin 로열티 반영 마진), 2026년 4분기 EC 결정과 고아의약품 지정 유지 여부, 연간 영업현금흐름 €500M 초과 달성 여부.
+- 시점: 2026년 4분기~2027년 1분기
+- 컨센서스 대비 revenue FY2026: -1.2% (13.5억 EUR vs 13.7억 EUR)
+- 컨센서스 대비 revenue FY2027: -6.2% (19.0억 EUR vs 20.2억 EUR)
+
+## 2. 시나리오 분포와 기대수익률
+
+확률 가중 IV **186.79** vs 주가 200.88 · 기대 연 수익률 **+8.4%** · 손실 확률 30%
+
+| 시나리오 | 확률 | 주당 가치 | IV | 연 수익률 | 근거 |
+|---|---|---|---|---|---|
+| 약세 | 30% | 91.46 | 56.79 | -14.6% | YORVIPATH 성장이 2분기 수준에서 꺾인다. 순가격과 이탈률이 공시되지 않아 가격·이탈 위험을 확인할 수 없고, 2026년 하반기에는 더 이상 가속하지 않는다. 부갑상선기능저하증 경쟁약(AstraZeneca e |
+| 기본 | 50% | 293.75 | 182.40 | +7.9% | 2026년은 컨센서스(€1.37B)와 거의 같은 경로다. 상반기 매출 €585.9M에 YORVIPATH 2분기 €252.1M과 YUVIWEL 출시가 더해진다. 이후 YORVIPATH 환자 증가와 해외 정식 출시(20 |
+| 강세 | 20% | 632.60 | 392.80 | +25.8% | YORVIPATH가 미국 블록버스터 궤도를 유지하고 해외 출시가 빠르게 이어진다. YUVIWEL이 영아·소아에서 주 1회 편의성으로 VOXZOGO 전환 환자를 끌어오고, COACH 병용(TransCon CNP+hGH |
+
+## 3. 반증 조건 (thesis break)
+
+- [대기 — FY2026Q3 미발표] 앤더슨: YORVIPATH 3분기 매출이 2분기 수준(€252.1M) 아래로 내려가면 성장 곡선이 꺾였다는 뜻 — `yorvipath_revenue < 2.5e+08` (FY2026Q3)
+- [대기 — FY2026 미발표] 앤더슨: 2026년 영업현금흐름이 €500M에 못 미치면 PRV 제외 경상 현금 창출 가설이 틀림 — `ocf < 5e+08` (FY2026)
+- [수동 확인] 앤더슨: EC가 TransCon CNP 고아의약품 지정을 유지하지 않거나 YUVIWEL 3분기 매출이 급여·순가격 문제로 정체 — 수동 확인
+- [대기 — FY2026Q3 미발표] 슬레이터: YORVIPATH 3분기 매출이 2분기보다 줄면 환자 증가 가설이 틀린 것 — `yorvipath_revenue < 2.4e+08` (FY2026Q3)
+- [대기 — FY2026Q3 미발표] 슬레이터: YUVIWEL 3분기 매출이 거의 늘지 않으면 등록이 매출로 전환되지 않는 것 — `yuviwel_revenue < 1.2e+07` (FY2026Q3)
+- [수동 확인] 슬레이터: 회사가 외부 자본 조달에 나서거나 2026년 영업현금흐름 가이던스를 철회하면 정리 — 수동 확인
+- [미충족] 애크먼: 안전마진 20% 가격대(코드 buy_below를 달러로 환산한 근사치)에 진입하면 가격 레드라인은 충족된다. 예측 가능성 판단은 별도다. — `price <= 163`
+- [대기 — FY2026 미발표] 애크먼: PRV 현금 없이도 연간 영업현금흐름 €500M 초과를 달성하면 예측 가능성 판단을 재검토한다. — `ocf >= 5e+08` (FY2026)
+- [수동 확인] 애크먼: 3분기 실적에서 BioMarin 로열티 반영 후에도 YUVIWEL 순마진과 YORVIPATH 순가격이 입증되면 예측 가능성 판단을 재검토한다. 수동 확인.
+- [대기 — FY2026 미발표] 클라만: 2026년 영업현금흐름이 회사 가이던스 €500M에 못 미침 — 경상 현금 창출력 가정이 깨짐 — `ocf < 5e+08` (FY2026)
+- [대기 — FY2026Q3 미발표] 클라만: YORVIPATH 3분기 매출이 2분기 수준 아래로 감소 — 핵심 제품 성장 둔화 — `yorvipath_revenue < 2.5e+08` (FY2026Q3)
+- [수동 확인] 클라만: EC 결정에서 TransCon CNP 고아의약품 지정이 유지되지 않으면 EU 독점 가치 재평가 — 수동 확인
+- [대기 — FY2026Q3 미발표] 레드팀: FY2026Q3 YORVIPATH 매출이 2분기 €252.114M보다 낮음 — 하반기에도 이전 분기와 같은 성장이라는 회사 발언이 깨짐 — `yorvipath_revenue < 2.52114e+08`
+- [대기 — FY2026Q3 미발표] 레드팀: FY2026Q3 YUVIWEL 매출이 첫 분기 €7.582M에서 크게 늘지 못함 — 순가격·급여 구조·VOXZOGO 전환 가정이 틀림 — `yuviwel_revenue < 2e+07`
+- [대기 — FY2026 미발표] 레드팀: FY2026 영업현금흐름이 회사의 '€500M 초과' 가이던스에 못 미침 — PRV 일회성 제외 경상 현금 창출이 약함 — `ocf < 5e+08`
+- [대기 — FY2026Q3 미발표] 레드팀: FY2026Q3 희석 가중 주식 수가 2분기 68,320,412주를 넘음 — 자사주 매입이 희석을 상쇄하지 못함 — `diluted_shares > 6.83204e+07`
+
+## 4. 모니터링 KPI (예측 — 교정의 재료)
+
+| ID | 지표 | 기간 | 기대 | 확률 | 이유 |
+|---|---|---|---|---|---|
+| K1 | revenue | FY2026 | >= 1.3e+09 | 80% | 컨센서스 범위의 하단(€1.3B)이다. 상반기 €585.9M에서 하반기 평균 분기 매출이 이어지는지 시험하고, 성장이 2분기 수준에서 유지된다는 기본 시나리오의 하한을 검증한다. |
+| K2 | yorvipath_revenue | FY2026Q3 | >= 2.6e+08 | 65% | 회사는 하반기에도 YORVIPATH가 이전 분기와 같은 성장을 낼 것이라고 했다. 2분기 €252.1M 대비 증가 여부로 환자 증가와 계절성 가정을 시험한다. |
+| K3 | yuviwel_revenue | FY2026Q3 | >= 2e+07 | 60% | 출시 첫 분기 €7.6M에서 등록 220명·급여 승인 65% 초과로 늘어난 수요가 매출로 전환되는지 시험한다. 낮으면 순가격이나 급여 구조, 로열티 후 마진 가정이 틀린 것이다. |
+| K4 | ocf | FY2026 | >= 5e+08 | 75% | 회사 가이던스 '€500M 초과'를 확률로 시험한다. 상반기 €274.0M에는 PRV 현금 €158.1M이 들어 있어, 하반기 경상 현금 창출이 기본 시나리오 FCF 마진 경로와 맞는지 확인한다. |
 
 ## 5. 확신도와 비중
 
-- 확신 가중 점수 +0.00 · 비중 참고값 0.0% (판정 전)
+- 확신 가중 점수 +0.20 · 비중 참고값 0.0% (확률 가중 기대 연 수익률 +8.4%가 요구수익률 10% 이하 — 찬성이어도 가격이 보상하지 않는다) · 슬레이터 시작 비중 1.5%
 - **최종 확신도와 비중은 사람이 정한다** — `python3 council.py decide <TICKER> --size 0.02 --note "이유"`
 
+## 6. 조건부 판정 — 이 가격 이하라면
 
-- ⚠ call 유형 근거 없음 — 리서치 보강 필요
-- ⚠ 주가 통화 USD ≠ 재무 통화 EUR — fx 사실 필요 (단위 EUR/USD)
+가치(내재가치·10년 가치·단단한 가치)는 그대로 두고 가격에 걸린 지표만 다시 계산해, 주가가 각 페르소나의 조건 가격까지 내려왔을 때의 표결을 본다. 주가를 예측하는 것이 아니다.
+
+| 주가 | 현재가 대비 | 표 | 판정 | 이 가격이 조건인 페르소나 |
+|---|---|---|---|---|
+| 200.88 | 현재가 | 찬2·반1·보1 | 찬성 우세 |  |
+| 72.27 | -64% | 찬3·반1·보0 | 찬성 우세 | 클라만 |
+
+클라만의 세 질문 (코드 계산):
+
+- 성장 전망이 틀리면 어디까지? 단단한 가치 주당 36.14 (성장 없는 현금흐름 가치) — 현재가에서 -82.0% · 내재가치 범위(약세~기본) 56.79~182.40 · 순현금 4.79 · 유형 순자산 20.97 · 성장 없는 현금흐름 가치 36.14
+- 현재 가격에 성장이 얼마나 들어 있나? 주가의 82%가 성장 없는 가치(36.14) 위의 몫 · 시장 내재 매출 성장 연 17.2%
+- 기다리면 더 싼 가격이 오나? 조건 가격 72.27 · 지난 52주 범위 165.93~251.63 — 그 기간에 조건 가격 이하로 내려간 적이 없다 — 가격은 예측하지 않는다, 기록만 본다
+
+## 표결
+
+| 에이전트 | 1라운드 → 최종 | 확신 | 레드라인 | 논거 검증 | 지표 (코드 계산 포함) |
+|---|---|---|---|---|---|
+| 앤더슨 | 찬성 → 찬성 | 4/5 | ✓ | 1/5 실패 | founder_led=예, value_10y=1,702.0, revenue_5y=6.41x, upside_10y=8.47x, buy_below=340.4 |
+| 슬레이터 | 찬성 → 찬성 | 3/5 | ✓ | 0/5 실패 | unit_economics=unclear, survival_path=예, starter_weight=1.5%, cash_survives=예, cash_min=8.4억 EUR |
+| 애크먼 | 반대 → 반대 | 3/5 | ✗ 단순·예측 가능한 사업이 아님; 안전마진 20% 미만 또는 계산 불가 | 2/5 실패 | simple_predictable=아니오, capital_markets_dependent=아니오, catalyst=$400M 자사주 매입(집행 실적 미공시), 2026년 4분기 EC 결정, 3분기 경상 영업현금흐름 확인. 격차를 좁힐 구체적 행동은 아직 약하다., fcf_positive=예, leveraged=아니오, intrinsic_value=182.4, mos=-10.1%, buy_below=145.9 |
+| 클라만 | 조건부 찬성 → 보류 (조건 가격 72.3 위) | 3/5 | ✗ 보수적 내재가치 대비 안전마진 30% 미만 또는 계산 불가; 성장이 틀리면 단단한 가치까지 50% 넘게 하락 — 영구적 손실 위험 | 1/5 실패 | inefficiency=none, intrinsic_value=182.4, iv_low=56.8, iv_high=182.4, hard_value=36.1, no_growth_ps=36.1, downside=82.0%, growth_premium=82.0%, mos=-10.1%, buy_below=72.3, low_52w=165.9, traded_below_52w=아니오, leveraged=아니오, fcf_positive=예, net_cash_ps=4.8, tangible_book_ps=21.0, owner_fcf=2.1억 EUR, hard_basis=no_growth_ps, high_52w=251.6 |
+
+- ⚠ 앤더슨: rebuttals[2] leap: 성장 없는 가치가 2025년 OCF 기준이라는 점과 매출 두 배 성장은 인용 값에서 따라 나오지 않고, 2025년 영업이익률 -18.9%만으로는 부족하다.
+- ⚠ 앤더슨: rebuttals[0] unsupported: 기대 IRR, 총이익률, 등록 수는 맞지만 수익률 분해의 가장 큰 음의 항이 멀티플 변화라는 내용은 인용에 없다.
+- ⚠ 앤더슨: rebuttals[1] unsupported: CAGR, FCF 마진, 현금은 맞지만 상방 10년 가치가 5배를 넘는다는 코드 값은 인용에 없다.
+- ⚠ 앤더슨: arguments[3] unsupported: 역DCF 22.0%는 맞지만 상방 10년 가치가 5배 문턱을 넘는다는 코드 값은 인용에 없다.
+- ⚠ 앤더슨: risks[0] unsupported: 순가격·이탈률 비공개와 경쟁약 정보는 맞지만, 2분기부터 신규 등록 공시를 줄였다는 내용은 자료에 없다.
+- ⚠ 앤더슨: arguments[2]: 인용하지 않은 근거의 숫자 80%(C:yorvipath_us_covered_lives_share@FY2026Q1·F250·S75) — cites에 추가
+- ⚠ 슬레이터: risks[0] unsupported: 순가격 비공개는 S76에 있으나, 2분기부터 미국 신규 등록 수 공시를 중단했다는 내용은 인용 자료에 없다.
+- ⚠ 슬레이터: arguments[4]: 인용하지 않은 근거의 숫자 10%(C:discount_rate·C:mos@ackman·C:mos@klarman) — cites에 추가
+- ⚠ 애크먼: arguments[4] unsupported: 인용 F78은 영업이익 쪽 PRV 이익이고, PRV 현금이 영업현금흐름에 들어 있다는 내용은 인용 자료에 없다.
+- ⚠ 애크먼: rebuttals[0] unsupported: 없는 근거 인용: C:base_rate@base
+- ⚠ 애크먼: arguments[1] unsupported: 적중률 33%와 가이던스 표현 변화는 맞지만, 2024년 SKYTROFA 가이던스를 두 번 빗나갔다는 근거는 인용에 없다.
+- ⚠ 애크먼: rebuttals[3]: 인용하지 않은 근거의 숫자 38%(C:fcf_margin@bull) — cites에 추가
+- ⚠ 클라만: 주가의 82%가 성장에 대한 값 — 성장 없는 가치는 주당 36.14
+- ⚠ 클라만: arguments[3] unsupported: SBC 비율은 맞지만, S56은 PRV를 기타영업이익으로만 서술해 현금흐름에 PRV가 섞였다는 내용은 인용 자료에 없다.
+- ⚠ 기저율 표 없음 — `python3 council.py baserate`로 data/base_rates.json을 만든다
+- ⚠ 회계 품질 findings[3] 검증 실패(unsupported): 매출채권·재고·분기 매출·마일스톤은 맞지만, 2024년 DSO 166.9일은 인용 자료에 없다.
+- ⚠ 사업·산업 findings[2] 검증 실패(unsupported): 커버리지 80%, 8주 내 승인, Q1 매출 감소와 계절성은 맞지만, 2분기부터 신규 등록 수 공시를 중단했다는 내용은 자료에 없다.
+- ⚠ 사업·산업 findings[0] 검증 실패(unsupported): 2025년 총이익률과 Q2 매출총이익은 맞지만, 2023년 83.4%와 2024년 87.8%는 인용에 없다.
+- ⚠ 회계 품질 flags[1] 검증 실패(unsupported): 상반기 SBC €60.0M과 PRV 현금의 OCF 포함은 인용 자료(S62, S74, F78)에 없다. 그 외 수치는 일치한다.
+- ⚠ 레드팀 premortem[0] 검증 실패(unsupported): YORVIPATH 매출, 이탈 발언, 경쟁약 정보는 맞지만, 2분기부터 미국 신규 등록 수를 내지 않는다는 내용은 자료에 없다.
+- ⚠ 회계 품질 findings[7] 검증 실패(unsupported): 무형자산 €3.7M과 설비투자 €8.5M은 맞지만, 재무상태표에 영업권이 없다는 내용은 인용 자료에 없다.
+- ⚠ 레드팀 weakest[1] 검증 실패(unsupported): 없는 근거 인용: C:base_rate@base
+- ⚠ 경영진·자본배분 findings[4]: 인용하지 않은 근거의 숫자 5.789e+07(C:diluted_shares@FY2024·F17·S60), 6.061e+07(C:diluted_shares@FY2025·C:diluted_shares@FY2025Q3·F18) — cites에 추가
+- ⚠ 회계 품질 flags[0] 검증 실패(unsupported): SBC/매출 16.1%와 SBC 금액은 맞지만, 2024년 26.3%, 2025년 희석 주식 수 6,061만, 분기 SBC가 일정하다는 내용은 인용에 없다.
+- ⚠ 모델러 variant 검증 실패(unsupported): SBC/OCF, 적중률, 로열티율은 맞지만, 영업현금흐름에 PRV 현금이 섞였다는 내용과 OCF 수준이 컨센서스와 비슷하다는 내용은 인용에 없다.
+
+## 앤더슨 — 찬성 (4/5)
+
+> Ascendis는 TransCon 플랫폼 하나로 희귀질환 제품을 연달아 상업화하는 회사다. 이 점이 멱법칙형 복리 기업의 모습과 가장 닮았다. YORVIPATH는 출시 2년차에 연환산 블록버스터 궤도에 올랐고, YUVIWEL이 두 번째 대형 프랜차이즈로 붙었다. 반환받은 비만·대사 프로그램은 값을 치르지 않고 얻은 옵션이다. 매출이 2배가 되는지는 따질 필요가 없는 단계다. 시장이 가격에 넣은 성장(역DCF)은 10년 연 20%대 초반인데, 이 회사의 실제 성장 경로는 그보다 훨씬 가파르다. 회계상 이익의 질(PRV, 이연법인세자산, SBC)과 낮은 가이던스 적중률은 분명한 약점이다. 그러나 이는 현금 창출 속도의 소음이지 성장 가설을 깨는 요인이 아니다. 상방 시나리오를 10년으로 늘리면 5배 문턱을 넘는다. 담을 가치가 있다고 본다.
+
+**논거**
+- 수요가 실제로 쌓이고 있다. YORVIPATH 미국 고유 등록은 4,250명에서 5,300명, 6,300명으로 분기마다 늘었고 처방의사도 함께 늘었다. 2분기 YORVIPATH 매출은 전년 동기의 두 배를 넘었다. 이는 수확체증 초입의 모습이다. [F242] [F243] [F244] [F245] [F246] [F247] [F115] [F111]
+- 두 번째 성장 엔진이 이미 켜졌다. YUVIWEL은 출시 첫 분기에 매출이 잡혔고 미국 등록이 5월 1일 60명 초과에서 7월 31일 220명 초과로 늘었으며, 급여 승인 비율은 65%를 넘었다. EU CHMP 긍정 의견이 나왔고 2027년 1분기 독일 출시가 계획돼 있다. 주 1회 투여 편의성과 COACH 병용 데이터는 연골무형성증 프랜차이즈를 키울 수 있다. BioMarin과의 합의는 ITC 수입금지라는 꼬리 위험을 없앴다. [F121] [F253] [F255] [F258] [S67](https://www.sec.gov/Archives/edgar/data/1612042/000119312526423938/d167361d6k.htm#chmp) [S90](https://www.sec.gov/Archives/edgar/data/1612042/000119312526337270/d169607d6k.htm#coach-w78) [S64](https://www.sec.gov/Archives/edgar/data/1612042/000119312526376733/d139239d6k.htm#biomarin-settlement)
+- 단위 구조는 규모에 올라탈 준비가 됐다. 총이익률은 80%대 후반이고, 영업이익률은 2025년 -18.9%에서 2026년 2분기 Non-IFRS 기준 27.1%로 올랐다. 영업비용은 매출보다 느리게 늘 것이라는 회사 발언과 맞는다. 모델러의 FCF 마진 가정이 높아 보여도 이 레버리지 방향과 일치한다. [C:gross_margin@FY2025] [C:operating_margin@FY2025] [F160] [S56](https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437dex991.htm) [S77](https://quartr.com/events/ascendis-pharma-a-s-asnd-morgan-stanley-24th-annual-global-healthcare-conference_FktzYToh)
+- 시장은 이 기회를 평범한 성장주로 값을 매긴다. 역DCF는 목표 FCF 마진 20%에서 10년 연 22.0% 매출 성장을 요구한다. 수요 곡선과 해외 출시 계획을 보면 이 문턱은 낮은 편이다. 코드가 계산한 상방 시나리오의 10년 가치는 현재가의 5배 문턱을 넘는다. 기저율 표가 없어 이 성장이 얼마나 드문 일인지는 숫자로 말할 수 없고, 이 점은 숨기지 않는다. [C:implied_cagr@m20] [C:revenue_growth@FY2025] [C:expected_irr]
+- 자본 구조가 정리되고 경영진의 시간 지평이 긴 쪽에 있다. 전환사채가 전액 주식으로 전환됐고 은행 차입이 없으며 금융 약정도 없다. 이사와 CFO가 공개시장에서 매수했다. 회사는 추가 자본 조달 계획이 없다고 했고, R&D를 자본배분 1순위로 둔다. Vision 2030의 제품매출 목표는 장기 야심의 크기를 보여 준다. [F216] [S62](https://www.sec.gov/Archives/edgar/data/1612042/000119312526046590/asnd-20251231.htm) [S87](https://www.sec.gov/Archives/edgar/data/1612042/000161071726000360/0001610717-26-000360-index.htm) [S77](https://quartr.com/events/ascendis-pharma-a-s-asnd-morgan-stanley-24th-annual-global-healthcare-conference_FktzYToh) [S75](https://www.fool.com/earnings/call-transcripts/2026/05/08/ascendis-asnd-q1-2026-earnings-call-transcript/) [F237]
+
+**사전 부검**
+- 사전 부검 1: 성장 가설 자체가 꺾이는 경우. 순가격·이탈률이 공시되지 않아 YORVIPATH 환자 단위 경제성이 약할 수 있다. 회사는 2분기부터 미국 신규 등록 수 공시도 줄였다. AstraZeneca와 MBX의 부갑상선기능저하증 신약이 선점 우위를 빠르게 깎으면 상방 시나리오는 성립하지 않는다. [S74](https://www.fool.com/earnings/call-transcripts/2026/08/20/ascendis-pharma-asnd-q2-2026-earnings-call-transcript/) [S75](https://www.fool.com/earnings/call-transcripts/2026/05/08/ascendis-asnd-q1-2026-earnings-call-transcript/) [S84](https://www.astrazeneca.com/media-centre/press-releases/2026/eneboparatide-normalised-serum-calcium-and-achieved-independence-from-supplements-in-31-1-percent-of-adults-with-HypoPT-in-CALYPSO-Phase-iii-trial.html) [S85](https://www.sec.gov/Archives/edgar/data/0001776111/000119312526369674/mbx-ex99_1.htm) [S57](https://www.sec.gov/Archives/edgar/data/1612042/000161204226000016/asnd-20260630.htm#mdna-notes)
+- 사전 부검 2: YUVIWEL이 기대에 못 미치는 경우. VOXZOGO가 성장을 이어가고 영아 구간이 핵심 경쟁 지대인데 YUVIWEL의 영아 근거는 센티넬 7명뿐이다. BridgeBio의 경구 약이 나오면 주사제는 불리하다. BioMarin 로열티는 2030년 5월까지 매출총이익을 깎는다. 이는 소음이 아니라 두 번째 엔진을 직접 겨냥하는 위험이다. [S82](https://www.sec.gov/Archives/edgar/data/0001048477/000104847726000015/earningsrelease-6aug26ex991.htm) [S91](https://www.sec.gov/Archives/edgar/data/1612042/000119312526386630/d152057d6k.htm#reachin) [S83](https://investor.bridgebio.com/news/news-details/2026/BridgeBio-Reports-Positive-Phase-3-Topline-Results-for-Oral-Infigratinib-with-the-First-Statistically-Significant-Improvements-in-Body-Proportionality-in-Achondroplasia/) [S64](https://www.sec.gov/Archives/edgar/data/1612042/000119312526376733/d139239d6k.htm#biomarin-settlement) [F259] [F260]
+- 사전 부검 3: 이익의 질과 희석. 상반기 이익과 영업현금흐름에 PRV와 이연법인세자산 인식이 섞여 PER, FCF 수익률이 좋아 보인다. SBC는 2025년 영업현금흐름보다 컸고 워런트가 많이 남아 있다. 가이던스 적중률이 낮아 €500M 영업현금흐름 목표도 미끄러질 수 있다. 신뢰가 깎이면 멀티플이 압축된다. [C:sbc_to_ocf] [C:guidance_hit_rate] [F78] [F168] [F98] [S74](https://www.fool.com/earnings/call-transcripts/2026/08/20/ascendis-pharma-asnd-q2-2026-earnings-call-transcript/)
+
+**반론**
+- → 슬레이터: 슬레이터의 가장 강한 논거는 확률 가중 기대 연 수익률 8.4%가 할인율에 못 미친다는 것이다. 그러나 이 수익률은 5년 보유에 출구 멀티플을 낮게 잡은 기본 시나리오에서 나온다. 수익률 분해에서 가장 큰 음의 항이 멀티플 변화다. 성장주를 멀티플 압축 가정으로 재면 아웃라이어가 모두 평범해 보인다. 내가 보는 것은 10년 뒤 크기다. 증거를 기다려 키우자는 접근은 3분기 실적이 확인될 즈음에는 가격이 이미 그 확인을 반영해 버릴 위험이 있다. 단위경제가 불명이라는 점은 인정한다. 그러나 총이익률이 높고 환자 누적이 분기마다 늘고 있으니, 불명은 가설을 깨는 증거가 아니라 아직 측정되지 않은 구간이다. [C:expected_irr] [C:irr@base] [C:gross_margin@FY2025] [F242] [F243] [F244]
+- → 애크먼: 애크먼의 가장 강한 논거는 시나리오 범위가 너무 넓어 10년 FCF를 좁게 추정할 수 없다는 것이다. 범위가 넓은 것은 사실이다. 그러나 멱법칙 기업은 원래 분포가 넓고, 손실은 100%로 막혀 있지만 상승은 열려 있다. 좁게 추정할 수 있는 회사만 사면 아웃라이어를 사전에 살 수 없다. 안전마진이 마이너스인 것은 기본 시나리오 5년 가치 기준이다. 내 레드라인은 상방 시나리오를 10년으로 늘린 가치가 현재가의 5배를 넘는지이고, 코드 계산값은 그 문턱을 넘는다. 재무 건전성과 자본시장 비의존은 애크먼 본인이 합격시켰다. 남은 반대는 예측 가능성이라는 철학의 차이다. [C:revenue_cagr@base] [C:revenue_cagr@bull] [C:fcf_margin@bull] [F75] [S62](https://www.sec.gov/Archives/edgar/data/1612042/000119312526046590/asnd-20251231.htm)
+- → 클라만: 클라만의 가장 강한 논거는 성장이 틀리면 82.0%를 잃는다는 하방 계산이다. 이 숫자는 성장 없는 현금흐름 가치 36.1로 재서 나온다. 그러나 이 회사는 2025년 영업현금흐름이 막 흑자로 돌아선 해의 값으로 성장 없는 가치를 매기고 있어 구조적으로 작게 나온다. 영업이익률이 이미 올라오고 있고 매출이 두 배로 크는 중이다. 성장 없는 가치로 아웃라이어를 재면 모두 비싸 보인다. 놓친 상방도 손실이다. 그래도 클라만이 조건 가격 72.3이라고 했듯이 가격에 걸린 그의 기준은 나와 다르며, 그 차이는 인정한다. 내 판단은 하방 폭이 아니라 성장 가설이 살아 있느냐에 달려 있다. [C:downside@klarman] [C:hard_value@klarman] [C:no_growth_ps@klarman] [C:operating_margin@FY2025] [C:buy_below@klarman]
+- → 레드팀: 레드팀의 가장 강한 부검은 YORVIPATH 성장이 2분기에서 멈춘다는 것이다. 순가격·이탈률 비공개와 2분기부터 줄어든 등록 공시가 있어 외부 검증이 어렵다는 지적은 맞다. 이것은 성장 가설 자체를 깨는 위험이다. 그래서 내 반증 조건으로 YORVIPATH 3분기 매출을 두고, 2분기 수준 아래면 정리한다. 반면 희석과 현금흐름의 질에 대한 부검은 경로의 소음에 가깝다. 상반기 이익에 PRV와 이연법인세자산이 섞인 것은 사실이나, 이는 멀티플과 신뢰를 흔들 뿐 환자 증가 곡선을 바꾸지 않는다. 경쟁약 부검은 둘 다 임상 단계라는 점에서 시차가 있고, 그 시차 동안 선점 우위가 쌓인다. [S74](https://www.fool.com/earnings/call-transcripts/2026/08/20/ascendis-pharma-asnd-q2-2026-earnings-call-transcript/) [S75](https://www.fool.com/earnings/call-transcripts/2026/05/08/ascendis-asnd-q1-2026-earnings-call-transcript/) [S84](https://www.astrazeneca.com/media-centre/press-releases/2026/eneboparatide-normalised-serum-calcium-and-achieved-independence-from-supplements-in-31-1-percent-of-adults-with-HypoPT-in-CALYPSO-Phase-iii-trial.html) [S85](https://www.sec.gov/Archives/edgar/data/0001776111/000119312526369674/mbx-ex99_1.htm) [C:sbc_to_ocf] [F78] [F168]
+
+**인정한 점**
+- 레드팀의 지적대로 내 YORVIPATH 반증 문턱은 2분기 수준보다 약간 낮게 잡혀 있어 엄격하지 않다. 판단은 유지하되 성장이 꺾이는지 보는 문턱은 2분기 수준 그대로 읽는다.
+- 슬레이터가 말한 대로 순가격·이탈률·CAC가 공시되지 않아 단위경제는 입증이 아니라 불명이다. 이 불확실성 때문에 확신을 5로 올리지 않고 4에 둔다.
+- 클라만의 하방 지적과 애크먼의 가격 지적은 가격에 대해서는 타당하다. 다만 내 레드라인과 철학은 가격이 아니라 성장 가설이며, 그 가설을 깨는 새 근거는 이번 라운드에 나오지 않았다.
+
+
+## 슬레이터 — 찬성 (3/5)
+
+> YORVIPATH는 시장의 크기와 지속성이 이미 실적으로 보이는 제품이다. 미국 고유 등록이 분기마다 늘고 2분기 매출이 €252.114M까지 왔다. 자체 현금으로 계획을 실행할 수 있어 생존 문제도 없다. 다만 순가격·이탈률·CAC가 공시되지 않아 단위경제는 입증이 아니라 '불명'이다. 기본 시나리오 연 수익률도 요구수익률에 못 미친다. 그래서 확신 없이 크게 사지 않고, 작게 시작해 3분기 실적이 YORVIPATH 성장 지속과 YUVIWEL의 매출 전환을 증명하면 키운다. 가격이 움직였다는 이유로 가설을 바꾸지 않고, 아래 반증 조건이 깨지면 정리한다.
+
+**논거**
+- 시장의 크기와 지속성이 실적으로 보인다. YORVIPATH 미국 고유 등록이 4,250명, 5,300명, 6,300명으로 분기마다 늘었고, 2분기 매출은 €252.114M이다. 아직 정의되지 않은 시장이 아니라 환자가 쌓이는 시장이다. [F242] [F243] [F244] [S56](https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437dex991.htm)
+- 생존은 문제가 아니다. 현금이 €812.260M이고 은행 차입과 전환사채가 없으며 금융 약정도 없다. 외부 자본 없이 계획을 실행할 수 있다. [S56](https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437dex991.htm) [S57](https://www.sec.gov/Archives/edgar/data/1612042/000161204226000016/asnd-20260630.htm#mdna-notes) [S62](https://www.sec.gov/Archives/edgar/data/1612042/000119312526046590/asnd-20251231.htm)
+- 이익 구조는 제품 단위에서 입증됐다. 총이익률이 86.8%다. 반면 순가격·이탈률·CAC는 공시되지 않아 환자 단위 경제성은 입증되지 않았다. 그래서 `unit_economics`를 `proven`이 아니라 `unclear`로 둔다. [C:gross_margin@FY2025] [S74](https://www.fool.com/earnings/call-transcripts/2026/08/20/ascendis-pharma-asnd-q2-2026-earnings-call-transcript/) [S76](https://www.fool.com/earnings/call-transcripts/2026/02/23/ascendis-asnd-q4-2025-earnings-call-transcript/)
+- 두 번째 성장축 YUVIWEL의 초기 증거가 있다. 미국 고유 등록이 60명에서 220명으로 늘었고 급여 승인 비율이 65%를 넘었다. 다만 BioMarin 로열티 20%가 마진을 깎고, 매출은 첫 분기 €7.582M이다. 아직 계획이 실적으로 바뀌는 중이다. [F253] [F255] [F258] [F259] [S56](https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437dex991.htm)
+- 가격이 안전하지 않아 비중을 작게 시작한다. 기본 시나리오 연 수익률은 +7.9%, 확률 가중 기대 연 수익률은 +8.4%로 할인율 10%에 못 미친다. 가설은 맞아 보이지만 지금 가격에서 크게 사야 할 증거 수준은 아니다. 크기는 3분기 실적으로 키운다. [C:irr@base] [C:expected_irr]
+
+**사전 부검**
+- 사전 부검: 성장의 질을 추적할 수 없다. 회사가 2분기부터 미국 신규 등록 수를 공시하지 않고 순가격도 비공개다. 환자 수는 늘어도 이탈이 커지거나 순가격이 내려가면 가설이 깨진 것을 뒤늦게 안다. [S74](https://www.fool.com/earnings/call-transcripts/2026/08/20/ascendis-pharma-asnd-q2-2026-earnings-call-transcript/) [S76](https://www.fool.com/earnings/call-transcripts/2026/02/23/ascendis-asnd-q4-2025-earnings-call-transcript/) [S75](https://www.fool.com/earnings/call-transcripts/2026/05/08/ascendis-asnd-q1-2026-earnings-call-transcript/)
+- 사전 부검: 현금흐름의 질과 가이던스 신뢰. SBC가 영업현금흐름의 215.5%이고 가이던스 적중률은 33%다. 상반기 영업현금흐름에는 PRV 현금이 일회성으로 들어 있어, 하반기 경상 현금 창출이 기대에 못 미칠 수 있다. [C:sbc_to_ocf] [C:guidance_hit_rate] [S57](https://www.sec.gov/Archives/edgar/data/1612042/000161204226000016/asnd-20260630.htm#mdna-notes)
+- 사전 부검: 경쟁이 선점 우위를 줄인다. BioMarin VOXZOGO는 2분기 순매출 $253M로 아직 성장 중이고, BridgeBio 경구 infigratinib은 3상에 성공했다. 부갑상선 쪽에서도 주 1회 경쟁 약 3상이 시작됐다. [S82](https://www.sec.gov/Archives/edgar/data/0001048477/000104847726000015/earningsrelease-6aug26ex991.htm) [S83](https://investor.bridgebio.com/news/news-details/2026/BridgeBio-Reports-Positive-Phase-3-Topline-Results-for-Oral-Infigratinib-with-the-First-Statistically-Significant-Improvements-in-Body-Proportionality-in-Achondroplasia/) [S85](https://www.sec.gov/Archives/edgar/data/0001776111/000119312526369674/mbx-ex99_1.htm)
+
+**반론**
+- → 앤더슨: 앤더슨의 5배는 강세 시나리오에서만 성립하고, 그 시나리오는 아직 계획이다. 코드가 계산한 확률 가중 기대 연 수익률은 +8.4%로 요구수익률에 못 미친다. 그래서 나는 확신을 높이지 않고 작게 시작한다. 강세가 성립하려면 YUVIWEL이 급여·순가격 문제 없이 매출로 이어지고 영업현금흐름 목표가 지켜져야 한다. 둘 다 3분기 실적 전에는 실적이 아니다. [C:expected_irr] [F121] [S74](https://www.fool.com/earnings/call-transcripts/2026/08/20/ascendis-pharma-asnd-q2-2026-earnings-call-transcript/)
+- → 애크먼: 애크먼의 가장 강한 논거는 순가격·이탈률이 비공개라서 10년 FCF를 좁게 추정할 수 없다는 점이다. 이 점은 인정한다. 그래서 `unit_economics`를 `proven`이 아니라 `unclear`로 두었다. 다만 예측이 어렵다는 이유로 버리지는 않는다. YORVIPATH 미국 고유 등록은 4,250명, 5,300명, 6,300명으로 분기마다 늘었다. 수요는 실적으로 쌓이고 있고, 모르는 것은 환자당 경제성이다. 이것은 버릴 이유가 아니라 작게 시작해서 3분기 실적으로 확인할 이유다. [F242] [F243] [F244] [S74](https://www.fool.com/earnings/call-transcripts/2026/08/20/ascendis-pharma-asnd-q2-2026-earnings-call-transcript/) [S76](https://www.fool.com/earnings/call-transcripts/2026/02/23/ascendis-asnd-q4-2025-earnings-call-transcript/)
+- → 클라만: 클라만의 하방 82.0%는 성장이 전부 사라질 때를 가정한 수치다. 성장을 기다리는 원칙으로 보면 맞다. 하지만 이 회사는 현금 흐름이 흑자로 돌아섰고 은행 차입과 전환사채가 없어 외부 자본 없이 계획을 실행한다. 영구 손실의 경로가 자본 구조에서 나오지는 않는다. 하방이 넓으면 사지 않는 것이 아니라 작게 시작해 증거로 키우는 것이 내 방식이다. 가격에 대한 경고는 받아들여 비중을 작게 유지한다. [C:downside@klarman] [C:leveraged@klarman] [S56](https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437dex991.htm) [S62](https://www.sec.gov/Archives/edgar/data/1612042/000119312526046590/asnd-20251231.htm)
+- → 레드팀: 레드팀의 첫 번째 사전 부검은 YORVIPATH가 2분기 수준에서 멈추는 경우다. 선행 신호를 `must_be_true`에 이미 넣었다. 3분기 YORVIPATH 매출이 2분기 €252.114M을 넘지 못하면 환자 증가 가설이 꺾인 것이므로 정리한다. 희석 신호(희석 가중 주식 수 증가)는 가치 판단에 쓸 만하지만 내 가설을 깨는 조건은 아니므로 `thesis_breaks`에는 넣지 않고 경고로만 둔다. 가격이 아니라 운영 지표로 판단한다. [S56](https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437dex991.htm) [F115] [F94]
+
+**참이어야 하는 것**
+- [on_track] YORVIPATH 2026년 3분기 매출이 2분기 수준을 넘어 성장을 이어간다
+- [on_track] YUVIWEL이 출시 둘째 분기에 매출로 전환된다
+- [at_risk] 2026년 영업현금흐름이 회사 가이던스 하한을 넘는다
+- [on_track] 2026년 연간 매출이 컨센서스 범위 하단을 넘는다
+
+**인정한 점**
+- 애크먼의 지적대로 2026년 영업현금흐름 €500M 목표는 상반기 PRV 현금과 낮은 가이던스 적중률 때문에 입증되지 않았다. 이 항목의 상태를 `at_risk`로 유지하고 확신을 올리지 않는다.
+- 클라만과 애크먼이 보인 가격 부담은 사실이다. 확률 가중 기대 수익률이 요구수익률보다 낮으므로 증거가 쌓이기 전에는 크기를 키우지 않는다.
+- 레드팀이 짚은 순가격·이탈률 비공개는 내가 추적할 수 없는 영역이다. 이 점이 확신 3을 4로 올리지 못하게 하는 이유다.
+
+
+## 애크먼 — 반대 (3/5)
+
+> 사업의 질은 좋아지고 있지만 지금 가격에서는 살 수 없다. 총이익률이 높고 영업현금흐름이 흑자로 돌아섰으며, 전환사채가 전액 자본으로 바뀌어 은행 차입이 없다. 레버리지와 자본시장 의존이라는 밸리언트식 결격 사유는 없다. 그러나 두 가지가 걸린다. 첫째, 단순성과 예측 가능성이다. 매출 대부분이 신약 두 개에 달려 있고, 순가격과 이탈률은 공시되지 않으며, 회사 가이던스 적중률은 낮다. 시나리오 범위(5년 매출 약 20억~46억 유로, FCF 마진 20~38%)가 너무 넓어 10년 FCF를 합리적 범위로 추정했다고 말할 수 없다. 둘째, 가격이다. 기본 시나리오 기준 안전마진이 마이너스라 20% 레드라인에 크게 못 미친다. 시장은 이미 컨센서스 수준의 고성장을 가격에 넣었다. 반대하는 이유는 사업이 나쁘기 때문이 아니라 예측 불가능성과 가격 때문이다. 3분기 경상 현금흐름과 YUVIWEL 순마진이 확인되면 다시 본다.
+
+**논거**
+- 한 문단으로 설명은 되지만 10년 FCF를 좁은 범위로 추정할 수 없다. 모델러의 약세·강세 시나리오 사이에서 주당 가치가 크게 갈린다. 이는 애크먼의 첫 번째 필터인 예측 가능성을 통과하지 못한다는 뜻이다. [C:revenue_cagr@bear] [C:revenue_cagr@bull] [C:fcf_margin@bear] [C:fcf_margin@bull]
+- 회사 가이던스의 신뢰가 낮다. 과거 가이던스 적중률은 33%이고, 2024년 SKYTROFA 매출 가이던스는 두 번 모두 빗나갔다. 2026년 영업현금흐름 목표도 '약 €500M'에서 '€500M 초과'로 표현이 바뀌었다. 경영진이 말하는 숫자를 보수적으로 깎아 봐야 한다. [C:guidance_hit_rate] [S74](https://www.fool.com/earnings/call-transcripts/2026/08/20/ascendis-pharma-asnd-q2-2026-earnings-call-transcript/) [S76](https://www.fool.com/earnings/call-transcripts/2026/02/23/ascendis-asnd-q4-2025-earnings-call-transcript/)
+- 가격이 보수적 가정의 내재가치보다 비싸다. 기본 시나리오에서 안전마진이 마이너스다. 역DCF로 보면 현재 가격은 목표 FCF 마진 20%일 때 10년간 연 22.0% 매출 성장을 요구하며, 단기 컨센서스는 이미 가격에 들어 있다. [C:mos@ackman] [C:implied_cagr@m20] [S80](https://stockanalysis.com/stocks/asnd/forecast/)
+- 재무 건전성은 합격이다. 2분기 말 현금이 8.1억 유로이고 전환사채가 전액 전환돼 은행 차입이 없으며 금융 약정도 없다. 현금 소진 우려가 없어 자본시장 의존 레드라인은 문제가 없다. 다만 Royalty Pharma 로열티 펀딩 부채와 SBC에 따른 희석은 남아 있다. [F75] [S57](https://www.sec.gov/Archives/edgar/data/1612042/000161204226000016/asnd-20260630.htm#mdna-notes) [S62](https://www.sec.gov/Archives/edgar/data/1612042/000119312526046590/asnd-20251231.htm) [C:sbc_to_ocf]
+- 이익의 질이 경상 수준이 아니다. 2분기 영업이익과 영업현금흐름에 PRV 매각분이 들어 있고, 순이익에는 이연법인세자산 인식이 들어 있다. PER과 FCF 수익률이 싸 보이는 것은 착시일 수 있다. SBC를 차감한 FCF는 2025년에도 음수였다. [F78] [F168] [F174] [C:fcf_after_sbc@FY2025]
+
+**사전 부검**
+- 사전 부검: 내가 틀렸다면 YORVIPATH가 미국 블록버스터 궤도를 유지하고 해외 출시가 이어져 기본 시나리오 이상으로 성장한 경우다. 그러면 지금 가격은 기회였고, 우리는 예측 가능성 필터 때문에 놓친 것이다. 영업 레버리지가 실제로 나타나고 있다는 점이 이 반대 시나리오를 뒷받침한다. [S56](https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437dex991.htm) [S74](https://www.fool.com/earnings/call-transcripts/2026/08/20/ascendis-pharma-asnd-q2-2026-earnings-call-transcript/) [F160]
+- 사전 부검: 경쟁 위험이 과소평가됐다면 판단은 더 나빠진다. BioMarin의 일 1회 VOXZOGO는 계속 성장 중이고, BridgeBio의 경구 약제와 부갑상선기능저하증 후발 약제가 개발 중이다. BioMarin 로열티는 YUVIWEL 마진을 2030년 5월까지 깎는다. [S82](https://www.sec.gov/Archives/edgar/data/0001048477/000104847726000015/earningsrelease-6aug26ex991.htm) [S83](https://investor.bridgebio.com/news/news-details/2026/BridgeBio-Reports-Positive-Phase-3-Topline-Results-for-Oral-Infigratinib-with-the-First-Statistically-Significant-Improvements-in-Body-Proportionality-in-Achondroplasia/) [S85](https://www.sec.gov/Archives/edgar/data/0001776111/000119312526369674/mbx-ex99_1.htm) [S64](https://www.sec.gov/Archives/edgar/data/1612042/000119312526376733/d139239d6k.htm#biomarin-settlement)
+- 사전 부검: Novo 협력 종료로 비만·대사 자체 개발비가 들어가는데 예산이 공시되지 않았다. 회사는 R&D가 크게 늘지 않는다고만 했다. 비용이 늘면 FCF 마진 경로가 흔들린다. [S65](https://www.sec.gov/Archives/edgar/data/1612042/000119312526390877/d183438d6k.htm#novo-termination) [S89](https://fiercebiotech.com/biotech/novo-walks-away-285m-pact-develop-monthly-glp-1-ascendis) [S77](https://quartr.com/events/ascendis-pharma-a-s-asnd-morgan-stanley-24th-annual-global-healthcare-conference_FktzYToh)
+
+**반론**
+- → 앤더슨: 역DCF가 요구하는 성장(목표 FCF 마진 20%에서 10년 연 22.0%)이 낮은 문턱이라는 주장은 생존자 편향이다. 같은 성장을 해낸 기업의 비율을 보여 주는 기저율 표가 없어 그 문턱이 쉬운지 어려운지 숫자로 말할 수 없다고 본인도 인정했다. 상방 시나리오의 5배는 확률 20%짜리 가정이고, 확률 가중 기대 연 수익률은 +8.4%로 할인율 10%에 못 미친다. [C:implied_cagr@m20] [C:expected_irr] [C:base_rate@base]
+- → 슬레이터: 생존 경로와 단위경제는 필요조건이지 가격의 정당화가 아니다. 슬레이터 스스로 기본 시나리오 연 수익률 +7.9%가 요구수익률에 못 미친다고 썼고, 단위경제를 입증이 아닌 불명으로 두었다. 그렇다면 같은 근거에서 나오는 결론은 소액 매수가 아니라 가격을 기다리는 것이다. 좋은 회사도 비싸게 사면 나쁜 투자다. [C:irr@base] [C:expected_irr] [S74](https://www.fool.com/earnings/call-transcripts/2026/08/20/ascendis-pharma-asnd-q2-2026-earnings-call-transcript/) [S76](https://www.fool.com/earnings/call-transcripts/2026/02/23/ascendis-asnd-q4-2025-earnings-call-transcript/)
+- → 클라만: 하방 규율은 같다. 다만 단단한 가치 36.1을 성장 없는 가치로만 잡으면 예측 가능한 FCF의 가치를 놓친다. 그래도 기본 시나리오 내재가치 182.4도 주가보다 낮아 안전마진이 -10.1%이므로, 단단한 가치를 올려 잡아도 결론은 같다. 나는 조건 가격 72.3보다 레드라인 기준 145.9가 맞는 하한이라고 본다. 어느 쪽이든 현재가는 위에 있다. [C:hard_value@klarman] [C:mos@ackman] [C:buy_below@ackman] [C:buy_below@klarman]
+- → 레드팀: 사전 부검이 FCF 범위를 넓히는 방향은 인정한다. SBC 차감 FCF가 2025년 음수였고 YUVIWEL 로열티 20%와 Royalty Pharma 지급이 마진을 깎는다. FCF 마진 30%는 2025년 6.3%에서 오른 값이라 약세 20%와 강세 38% 사이의 불확실성이 크다. 이만큼 FCF 범위가 넓으면 20%의 안전마진으로는 부족해, 기본 시나리오에서 이미 마이너스인 안전마진이 더 큰 결격 사유가 된다. [C:fcf_margin@FY2025] [C:fcf_after_sbc@FY2025] [C:sbc_to_ocf] [F259] [F232]
+
+**인정한 점**
+- 앤더슨이 옳은 부분: 재무 건전성과 영업 레버리지는 실재한다. 전환사채가 전액 자본으로 전환돼 은행 차입이 없고 현금이 8.1억 유로라서 밸리언트식 결격 사유는 없다. 그래서 반대의 근거는 사업의 질이 아니라 예측 가능성과 가격이다.
+- 슬레이터가 옳은 부분: 미국 고유 등록과 YORVIPATH 매출 추이는 수요가 쌓이고 있음을 보여 주어, 3분기 실적에서 경상 현금흐름과 YUVIWEL 순마진이 확인되면 단순성 판단을 다시 할 수 있다. 다만 확인 전에는 입장을 바꾸지 않는다.
+- 클라만이 옳은 부분: 가격이 문제인 회사이므로 against보다 conditional이 더 정확한 표현일 수 있다. 그러나 나의 단순성·예측 가능성 레드라인이 먼저 막고 있어, 가격이 내려와도 3분기 증거 없이는 찬성하지 않는다.
+
+
+## 클라만 — 보류 (3/5)
+
+> 사업은 진짜다. 총이익률이 높고, 은행 차입과 전환사채가 없고, 영업현금흐름이 흑자로 돌아섰다. 그러나 현재 주가는 단단한 가치 위에 거의 전부 성장 값으로 얹혀 있다. 성장이 멈춰도 남는 가치는 주당 36.1이고 주가는 200.9라서, 성장 전망이 틀리면 82.0%를 잃는다. 기본 시나리오 내재가치 182.4조차 주가보다 낮아 안전마진이 -10.1%다. 약세·기본 범위의 하단은 56.8이다. 레버리지나 회계 문제 때문에 어떤 가격에서도 거부할 회사는 아니므로 `against`는 아니다. 코드가 계산한 조건 가격은 72.3이고, 52주 동안 이 가격 이하로 거래된 적이 없다. 지금은 사지 않고 가격을 기다리는 `conditional`이다. 이 가격은 현재가에서 멀어 사실상 '지금은 아니다'에 가깝다.
+
+**논거**
+- 하방부터 본다. 단단한 가치는 성장 없는 현금흐름 가치이고 주당 36.1이다. 주가 200.9에 비해 성장 전망이 틀릴 때의 하락 폭이 82.0%다. 하네스 한도 50%를 크게 넘는다. 주가의 대부분이 성장에 대한 값이다. [C:downside@klarman] [C:hard_value@klarman] [C:growth_premium@klarman]
+- 내재가치는 범위로 본다. 약세 시나리오 56.8, 기본 시나리오 182.4다. 주가 200.9는 이 범위의 위쪽 끝도 넘는다. 안전마진이 -10.1%이니 완충재가 없다. 확률 가중 기대 연 수익률은 +8.4%이고 손실 확률은 30%다. 영구적 손실 위험을 감수하며 받는 보상으로는 얇다. [C:mos@klarman] [C:iv_low@klarman] [C:expected_irr] [C:p_loss]
+- 현재 가격이 요구하는 성장이 높다. 목표 FCF 마진이 20%여도 10년간 연 22.0% 매출 성장이 필요하다. 그리고 컨센서스를 따르는 2026~2027년 기대는 이미 가격에 들어 있다. 분석가 20명이 모두 매수이고 이견이 없다. 비효율은 보이지 않는다. [C:implied_cagr@m20] [S80](https://stockanalysis.com/stocks/asnd/forecast/) [C:consensus_diff@revenue@FY2027]
+- 이익의 질이 단단한 가치를 깎는다. 2025년 SBC가 영업현금흐름의 215.5%였고, SBC를 뺀 FCF는 음수다. 2분기 이익과 현금흐름에는 일회성 PRV 매각이 섞여 있다. 보이는 FCF 수익률과 PER은 경상 수준이 아니다. 그래서 성장 없는 가치를 보수적으로 잡는 것이 맞다. [C:sbc_to_ocf] [C:fcf_after_sbc@FY2025] [F78] [S56](https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437dex991.htm)
+- 원칙을 위반하는 부분은 가격뿐이다. 순부채 지표와 FCF 기준 레버리지는 문제없고, 은행 차입과 전환사채가 없으며 금융 약정도 없다. Royalty Pharma 로열티 펀딩 부채는 매출에 연동된 의무로 따로 봐야 한다. 이 회사는 가격이 내려오면 살 수 있는 회사다. 조건 가격은 72.3이다. 현재가보다 한참 낮고 52주 최저가에도 못 미친다. [C:buy_below@klarman] [C:leveraged@klarman] [C:traded_below_52w@klarman] [F208] [S62](https://www.sec.gov/Archives/edgar/data/1612042/000119312526046590/asnd-20251231.htm)
+
+**사전 부검**
+- 사전 부검: 매수를 기다렸는데 가격이 내려오지 않고 사업이 계속 커진다면 기회비용이 생긴다. 단 하방 82.0%에 비하면 회복 가능한 손실이다. 52주 안에 조건 가격에 닿은 적이 없다는 점은 이 위험이 실재함을 보여 준다. [C:traded_below_52w@klarman] [C:downside@klarman] [F85]
+- 사전 부검: 단단한 가치 36.1이 지나치게 보수적일 수 있다. 성장 없는 가치는 SBC를 뺀 주주 FCF 기준인데, 2026년 영업현금흐름 €500M 초과가 달성되면 경상 현금흐름이 커져 이 가치도 올라간다. 이 경우 조건 가격이 높아지고 지금의 기다림이 틀린 판단이 된다. [C:no_growth_ps@klarman] [F236] [S74](https://www.fool.com/earnings/call-transcripts/2026/08/20/ascendis-pharma-asnd-q2-2026-earnings-call-transcript/)
+- 사전 부검: 반대로 하방이 더 깊을 수 있다. 가이던스 적중률이 낮고 순가격·이탈률이 공시되지 않는다. BioMarin 로열티가 YUVIWEL 매출총이익을 2030년 5월까지 줄이고, 신규 경쟁약이 나온다. 이 경우 약세 시나리오 56.8도 낙관적일 수 있다. 성장 프리미엄만 지워지는 것이 아니라 단단한 가치 쪽으로 가격이 수렴한다. [C:guidance_hit_rate] [C:iv_low@klarman] [F259] [F260] [S83](https://investor.bridgebio.com/news/news-details/2026/BridgeBio-Reports-Positive-Phase-3-Topline-Results-for-Oral-Infigratinib-with-the-First-Statistically-Significant-Improvements-in-Body-Proportionality-in-Achondroplasia/) [S85](https://www.sec.gov/Archives/edgar/data/0001776111/000119312526369674/mbx-ex99_1.htm)
+
+**반론**
+- → 앤더슨: 앤더슨의 가장 강한 논거는 시장이 평범한 성장주 값만 매겼고 상방은 열려 있다는 것이다. 그러나 상방이 열려 있어도 하방이 닫혀 있지 않으면 성립하지 않는다. 성장이 멈춰도 남는 가치는 주당 36.1이고 주가는 200.9라서, 성장 전망이 틀리면 82.0%를 잃는다. 앤더슨의 5배 문턱은 강세 시나리오 하나가 맞아야 넘는다. 기대 연 수익률은 +8.4%이고 손실 확률은 30%다. 하방 82.0% 앞에서 얻는 보상으로는 얇다. [C:hard_value@klarman] [C:downside@klarman] [C:expected_irr] [C:p_loss]
+- → 슬레이터: 슬레이터의 생존 논거는 맞다. 현금이 8.1억 유로이고 은행 차입이 없다. 그러나 회사가 살아남는 것과 주주가 돈을 지키는 것은 다르다. 생존 경로는 하방의 바닥이 아니다. 회사가 멀쩡해도 성장 프리미엄이 지워지면 주가는 단단한 가치 쪽으로 수렴한다. 슬레이터 자신도 기본 시나리오 연 수익률이 +7.9%로 할인율에 못 미친다고 썼다. 작은 시작 비중도 가격이 틀리면 영구적 손실이다. 가격이 맞기 전에는 사지 않는 쪽이 일관된 결론이다. [F75] [C:downside@klarman] [C:growth_premium@klarman] [C:irr@base]
+- → 애크먼: 애크먼의 가장 강한 논거는 10년 FCF를 좁은 범위로 추정할 수 없다는 것이다. 나도 같은 이유로 가치를 범위로 본다. 약세 56.8과 기본 182.4 모두 주가 200.9보다 낮다. 다만 애크먼의 안전마진도 성장 시나리오로 계산한 내재가치에서 나오므로 성장에 기댄다. 나는 예측 가능성이 아니라 단단한 가치에서 출발한다. 그래서 같은 반대 방향이어도 나는 가격이 내려오면 살 수 있는 회사로 본다. 사업을 거부하는 것이 아니라 가격을 거부한다. [C:iv_low@klarman] [C:mos@klarman] [C:no_growth_ps@klarman] [C:buy_below@klarman]
+- → 레드팀: 레드팀의 사전 부검 네 개를 단단한 가치까지 깎는지, 성장 프리미엄만 지우는지로 가른다. YORVIPATH 정체와 YUVIWEL 부진은 성장 프리미엄을 지우는 시나리오다. 그것만으로도 주가의 82.0%가 성장 몫이라 하락 폭이 크다. 희석과 SBC는 성장 없는 가치 자체를 깎는다. 약한 가정 중 주식 수 증가 1%가 실제 증가율과 크게 다르다는 지적은 단단한 가치 계산에도 해당한다. 그 지적을 받아들이면 36.1은 낙관적일 수 있다. [C:growth_premium@klarman] [C:sbc_to_ocf] [C:share_change@FY2025] [F94] [F98]
+
+**인정한 점**
+- 앤더슨 인정: 사업의 수요 곡선(미국 등록 증가, YUVIWEL 등록 증가)은 실제다. 내가 단단한 가치를 SBC 차감 주주 FCF로 보수적으로 잡은 탓에, 경상 영업현금흐름이 가이던스대로 나오면 성장 없는 가치와 조건 가격이 올라간다. 결과: 3분기 경상 현금흐름이 확인되면 조건 가격을 다시 계산하지만 지금 근거로는 입장이 바뀌지 않는다.
+- 애크먼 인정: 예측 가능성이 낮은 사업에서 단일 내재가치에 확신을 두면 안 된다. 결과: 기본 시나리오 하나가 아니라 약세~기본 범위로 판단하고, 범위 위쪽 끝도 주가보다 낮다는 점을 근거로 유지한다.
+- 레드팀 인정: 희석이 기본 시나리오 가정보다 빠르면 단단한 가치 36.1도 낙관적이다. 결과: 입장은 조건부 찬성 그대로이고, 반대(against)로 옮기지는 않는다. 가격과 무관한 원칙 위반(레버리지·회계 red_flag)은 없다.
+
+
+## 분석 모듈 (L4)
+
+### 사업·산업 — unclear
+
+Ascendis는 TransCon 장기작용 프로드럭 기술로 희귀 내분비 질환 주사제를 만들어 파는 단일 부문 바이오 기업이다. 현재 매출은 YORVIPATH(부갑상선기능저하증), SKYTROFA(성장호르몬 결핍), 2026년 2월 가속승인을 받아 4월에 출시한 YUVIWEL(연골무형성증)이 만든다. 2026년 2분기 총매출은 €339.285M(전년 €158.045M)이다. 그중 YORVIPATH가 €252.114M(전년 €102.957M), SKYTROFA가 €55.214M, YUVIWEL이 첫 분기 €7.582M이었다. 총이익률은 2025년 86.8%(C:gross_margin@FY2025)이고, 영업현금흐름은 2025년 3분기에 처음 양수가 됐다. 2분기 영업현금흐름은 €281.682M인데 PRV 매각 현금 €158.1M이 섞여 있다. 단위경제의 핵심 변수인 순가격·이탈률·CAC는 공시되지 않아, 마진은 입증됐지만 환자 단위 경제성은 아직 입증되지 않았다. SBC는 2025년 매출의 16.1%(C:sbc_to_revenue@FY2025)로 높다.
+
+- [unit_economics] 총이익률은 2023년 83.4%, 2024년 87.8%, 2025년 86.8%로 높고 안정적이다(C:gross_margin@FY2025). 2026년 2분기 매출총이익은 €311.627M(매출원가 €27.658M)이다. 이익 구조는 제품 단위에서 입증됐다. 다만 순가격과 리베이트는 공시되지 않았다. 1월에 YORVIPATH 도매가(WAC)를 8% 올렸다는 내용은 애널리스트 발언으로만 확인된다. [C:gross_margin@FY2025] [S56](https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437dex991.htm) [S76](https://www.fool.com/earnings/call-transcripts/2026/02/23/ascendis-asnd-q4-2025-earnings-call-transcript/)
+- [unit_economics] 영업 레버리지가 보인다. 영업이익률은 2025년 -18.9%(C:operating_margin@FY2025)에서 2026년 2분기 Non-IFRS 기준 27.1%로 올랐다. 이는 IFRS 영업이익에서 PRV 매각이익 €158.067M을 빼고 SBC €29.608M을 더한 값이다. 분기 영업현금흐름은 2025년 3분기 €2.153M에서 4분기 €73M으로 늘었고, 2026년 1분기에는 -€7.721M으로 꺾였다. 현금흐름이 불규칙하다는 뜻이다. 2분기 €281.682M에는 PRV 현금이 들어 있어 경상 수준이 아니다. [C:operating_margin@FY2025] [S56](https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437dex991.htm) [S58](https://www.sec.gov/Archives/edgar/data/1612042/000119312526210386/d121855dex991.htm) [S59](https://www.sec.gov/Archives/edgar/data/1612042/000119312526046736/d73635dex991.htm) [S61](https://www.sec.gov/Archives/edgar/data/1612042/000119312525277622/asnd-20250930.htm#mdna) [S57](https://www.sec.gov/Archives/edgar/data/1612042/000161204226000016/asnd-20260630.htm#mdna-notes)
+- [customers] YORVIPATH 수요는 보험 접근과 함께 커진다. 미국 상위 보험사 커버리지는 생명 기준 약 80%이고, 등록의 절반 이상이 8주 안에 승인된다. 1분기 미국 신규 등록은 1,000명을 넘었다. 다만 1분기 매출 €196.896M은 일시적 무상공급과 유럽 일회성으로 약 €15M 줄었고, 계절성도 있다. 회사는 2분기부터 미국 신규 등록 수를 공시하지 않는다. 성장의 질을 추적할 지표가 줄어든 점은 약점이다. [S75](https://www.fool.com/earnings/call-transcripts/2026/05/08/ascendis-asnd-q1-2026-earnings-call-transcript/) [S58](https://www.sec.gov/Archives/edgar/data/1612042/000119312526210386/d121855dex991.htm) [F250] [F248]
+- [industry] 연골무형성증은 이미 경쟁 시장이다. BioMarin의 일 1회 VOXZOGO는 2026년 2분기 순매출 $253M(+14%)이고, 2026년 가이던스를 $1,000M~$1,050M으로 올렸다. 미국 신규 시작은 대부분 2세 미만이다. YUVIWEL(주 1회)의 영아 근거는 센티넬 7명, 52주 결과로 아직 얇다. BridgeBio의 경구 infigratinib은 3상에서 연간 키 성장 속도가 위약 대비 +1.74cm/년(LS 평균)이었고, 2026년 하반기 허가 신청을 계획한다. 경구약이 나오면 주사제인 YUVIWEL에 불리하다. [S82](https://www.sec.gov/Archives/edgar/data/0001048477/000104847726000015/earningsrelease-6aug26ex991.htm) [S91](https://www.sec.gov/Archives/edgar/data/1612042/000119312526386630/d152057d6k.htm#reachin) [S83](https://investor.bridgebio.com/news/news-details/2026/BridgeBio-Reports-Positive-Phase-3-Topline-Results-for-Oral-Infigratinib-with-the-First-Statistically-Significant-Improvements-in-Body-Proportionality-in-Achondroplasia/) [S57](https://www.sec.gov/Archives/edgar/data/1612042/000161204226000016/asnd-20260630.htm#mdna-notes)
+- [industry] 부갑상선기능저하증은 지금 경쟁 약이 거의 없는 구간이다. 그러나 다음 경쟁이 시험 중이다. AstraZeneca의 eneboparatide는 3상에서 복합 1차 평가변수 31.1%를 달성했다. MBX의 주 1회 canvuparatide는 3상 첫 환자 투여를 마쳤고, 이는 Ascendis가 개발 중인 주 1회 TransCon PTH와 겹친다. YORVIPATH의 3상 182주 반응률 86%는 시험 설계가 달라 직접 비교할 수 없다. 선점 우위가 얼마나 오래갈지는 입증되지 않았다. [S84](https://www.astrazeneca.com/media-centre/press-releases/2026/eneboparatide-normalised-serum-calcium-and-achieved-independence-from-supplements-in-31-1-percent-of-adults-with-HypoPT-in-CALYPSO-Phase-iii-trial.html) [S85](https://www.sec.gov/Archives/edgar/data/0001776111/000119312526369674/mbx-ex99_1.htm) [S57](https://www.sec.gov/Archives/edgar/data/1612042/000161204226000016/asnd-20260630.htm#mdna-notes) [S69](https://www.sec.gov/Archives/edgar/data/1612042/000119312526009636/d13397d6k.htm)
+- [runway] 재투자 활주로는 넓지만 근거는 다양하다. YUVIWEL은 미국 고유 등록이 5월 1일 60명 초과에서 7월 31일 220명 초과로 늘었고, 급여 승인 비율은 65%를 넘었다. TransCon CNP+hGH 병용 2상 COACH 78주는 21명 전원이 치료를 이어갔고 평균 성장속도는 7.73cm/년이었다. 그러나 단일군 공개 시험이라 대조군이 없다. EU CHMP는 2026-10-16 긍정 의견을 냈고, EC 결정은 2026년 4분기로 예상된다. EMA가 고아의약품 지정을 유지할지는 아직 모른다. [F253] [F255] [F258] [S56](https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437dex991.htm) [S90](https://www.sec.gov/Archives/edgar/data/1612042/000119312526337270/d169607d6k.htm#coach-w78) [S67](https://www.sec.gov/Archives/edgar/data/1612042/000119312526423938/d167361d6k.htm#chmp)
+- [runway] Novo Nordisk 협력이 2026-09-14에 종료되어 TransCon semaglutide를 포함한 대사·심혈관 권리가 Ascendis로 돌아왔고, 양측의 지속 재무 의무는 없다. 비만 시장 접근 가능성은 열렸지만, 이제 개발 비용을 직접 부담한다. 회사는 R&D가 크게 늘지 않는다고만 했고 예산은 공시되지 않았다. 반환 프로그램이 가치로 이어질지는 임상 데이터 전까지 입증되지 않았다. [S65](https://www.sec.gov/Archives/edgar/data/1612042/000119312526390877/d183438d6k.htm#novo-termination) [S89](https://fiercebiotech.com/biotech/novo-walks-away-285m-pact-develop-monthly-glp-1-ascendis) [S77](https://quartr.com/events/ascendis-pharma-a-s-asnd-morgan-stanley-24th-annual-global-healthcare-conference_FktzYToh)
+- [unit_economics] 비용 측면의 위험 두 가지가 있다. 첫째, Royalty Pharma 합성 로열티 계약으로 미국 SKYTROFA 순매출의 9.15%와 미국 YORVIPATH 순매출의 3.0%를 정해진 배수까지 지급한다. 2026년 6월 말 잔액은 €301.789M이다. 둘째, 2026-09-29부터 비-Annex III 기업에 적용될 수 있는 섹션 232 의약품 관세를 회사가 정량화하지 않았다. 여기에 SBC가 영업현금흐름의 215.5%(C:sbc_to_ocf@FY2025)로 높아, FCF 마진 6.3%(C:fcf_margin@FY2025)는 주주 몫을 과대평가한다. [F231] [F232] [S62](https://www.sec.gov/Archives/edgar/data/1612042/000119312526046590/asnd-20251231.htm) [S57](https://www.sec.gov/Archives/edgar/data/1612042/000161204226000016/asnd-20260630.htm#mdna-notes) [C:sbc_to_ocf@FY2025] [C:fcf_margin@FY2025]
+- [proven] YUVIWEL은 고아약 독점이 2033-02-27까지다. 부갑상선기능저하증의 경쟁약(BridgeBio, AstraZeneca, MBX 등)은 모두 임상 단계다. 다만 BioMarin과의 특허 분쟁은 YUVIWEL 순매출의 20%(미국)·18%(EU·한국·브라질)를 2030-05-20까지 로열티로 내는 합의로 이어졌다. 특허 방어력이 완전하지 않았고, 독점의 경제적 가치가 그만큼 깎였다는 뜻이다. [S58](https://www.sec.gov/Archives/edgar/data/1612042/000119312526210386/d121855dex991.htm) [S57](https://www.sec.gov/Archives/edgar/data/1612042/000161204226000016/asnd-20260630.htm#mdna-notes) [S64](https://www.sec.gov/Archives/edgar/data/1612042/000119312526376733/d139239d6k.htm#biomarin-settlement) [F259] [F260]
+- [claimed] YORVIPATH 미국 고유 등록은 4,250명(2025Q3)에서 5,300명(2025년 말), 6,300명(2026Q1)으로 늘었다. 처방의사도 2,000명에서 2,400명, 2,700명으로 늘었다. 환자 누적은 늘고 있지만, 이탈률·순가격·치료 지속률은 공시되지 않았다. 미국 담당자는 이탈의 대부분이 용량 적정 기간에 생긴다고만 말했다. 전환비용 해자는 숫자로 입증되지 않았다. [F242] [F243] [F244] [F245] [F246] [F247] [S74](https://www.fool.com/earnings/call-transcripts/2026/08/20/ascendis-pharma-asnd-q2-2026-earnings-call-transcript/) [S75](https://www.fool.com/earnings/call-transcripts/2026/05/08/ascendis-asnd-q1-2026-earnings-call-transcript/)
+- [proven] SKYTROFA의 미국 전체 성장호르몬 시장 점유율은 7%로 소수다. 2025년 매출은 €206.160M, 2026년 2분기는 €55.214M(전년 €50.706M)으로 정체에 가깝다. 2024년 가이던스 €320M~€340M은 크게 빗나갔다(실제 €197.0M). Novo의 Sogroya 적응증 확대와 Pfizer의 Ngenla가 같은 시장에 있어 이 제품에는 입증된 해자가 없다. [S75](https://www.fool.com/earnings/call-transcripts/2026/05/08/ascendis-asnd-q1-2026-earnings-call-transcript/) [S59](https://www.sec.gov/Archives/edgar/data/1612042/000119312526046736/d73635dex991.htm) [S56](https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437dex991.htm) [S57](https://www.sec.gov/Archives/edgar/data/1612042/000161204226000016/asnd-20260630.htm#mdna-notes) [S71](https://www.sec.gov/Archives/edgar/data/1612042/000119312524129390/d820168dex991.htm) [S73](https://www.sec.gov/Archives/edgar/data/1612042/000119312525025103/d840926dex991.htm) [F251]
+
+### 경영진·자본배분 — mixed
+
+경영진의 주주 정렬은 혼재다. 긍정: 경영진이 공시된 틀 안에서 비용 가이던스는 지켰고, 2026년 H1에 자사주 €103.412M을 매입했으며, 사외이사 Bienaimé와 CFO가 공개시장에서 매수했고, 전환사채가 전액 자본으로 전환돼 은행 차입·전환 차입이 없다. 부정: 과거 매출 가이던스 적중률이 낮다(C:guidance_hit_rate 33%). 2024년 SKYTROFA 가이던스는 두 번 모두 빗나갔고, 2026년 영업현금흐름 목표는 '약 €500M'에서 '€500M 초과'로 표현이 바뀌었으며 H1 영업현금흐름에는 일회성 PRV 현금이 들어 있다. SBC가 매출의 16.1%이고 주식 수가 해마다 늘며, 자사주 매입이 워런트·RSU 희석을 상쇄하는 구조다. 보상 지표와 지분 구조는 DEF 14A가 없는 외국 사업자라 이번에 정리하지 못했다(20-F Item 6 미확인). 자본배분은 R&D 1순위를 표방하고 Novo 협력 종료 뒤 자체 개발을 선언했으나 예산은 공시되지 않았다.
+
+- [compensation] 경영진 보상의 연동 지표(매출·FCF·ROIC 등 장기 지표인지 단기 EPS인지)와 베스팅은 근거 없음. DEF 14A가 없는 외국 사업자이고 20-F Item 6 보상 부분은 정리되지 않았다. 확인되는 것은 직원 워런트 부여 방식뿐이다. 2026-10-13에 35,890개를 부여일 종가 $223.21에 부여했고, 1년 뒤 25%가 가득되고 이후 36개월 균등 가득된다. 행사가가 부여일 종가라 가격 하락 시 재설정 장치는 보이지 않는다. 별도로 매년 대규모 정기 부여·RSU·PSU가 있다. [S70](https://www.sec.gov/Archives/edgar/data/1612042/000119312526421789/d743945d6k.htm#warrant-grants) [S62](https://www.sec.gov/Archives/edgar/data/1612042/000119312526046590/asnd-20251231.htm)
+- [insider] 내부자 매수는 소규모지만 방향은 정렬적이다. 사외이사 Jean-Jacques Bienaimé가 5/26 400주, 5/29 500주, 8/14 2,000주를 공개시장에서 매수해 2,900주를 보유한다. CFO Scott Smith는 5/29 250주($223.32)와 6/2 100주를 매수해 4,367주를 보유한다. 매도는 Flemming Steen Jensen이 5/11 19,460주를 $238.49에 팔아 보유가 0이 된 것이 가장 크다. 이사 Lars Holtug 9/2 236주, Mads Bodenhoff 9/8 워런트 3,000주 행사 후 매도도 있다. 창업자·CEO 지분은 이번 근거에 없다. 또 Bienaimé의 기존 워런트 9,160개(행사가 $172.35)는 취소되고 행사가 $249.84로 다시 부여됐다. [S87](https://www.sec.gov/Archives/edgar/data/1612042/000161071726000360/0001610717-26-000360-index.htm) [S88](https://www.sec.gov/Archives/edgar/data/1612042/000161071726000159/0001610717-26-000159-index.htm)
+- [guidance] 과거 가이던스 적중률은 33%로 낮다(C:guidance_hit_rate). 2024년 SKYTROFA 매출 가이던스 €320M~€340M은 실제 €197.0M으로 크게 못 미쳤다. 2분기에 €220M~€240M으로 낮춘 전망도 하단에 못 미쳤다(회사는 과거 연도 판매 차감 €4.7M을 빼면 약 €202M이라고 설명). 반면 총영업비용 약 €600M은 실제 €598M으로 적중했다(비용 통제는 신뢰, 매출 예측은 불신). 분기 영업현금흐름 손익분기 목표도 '2024년 말'에서 늦춰져 2025년 3분기(€2.2M)에 처음 달성됐다. [C:guidance_hit_rate] [S71](https://www.sec.gov/Archives/edgar/data/1612042/000119312524129390/d820168dex991.htm) [S72](https://www.sec.gov/Archives/edgar/data/1612042/000119312524212183/d854471dex991.htm) [S73](https://www.sec.gov/Archives/edgar/data/1612042/000119312525025103/d840926dex991.htm) [S61](https://www.sec.gov/Archives/edgar/data/1612042/000119312525277622/asnd-20250930.htm#mdna)
+- [guidance] 2026년 영업현금흐름 가이던스는 연초 '약 €500M'(TransCon CNP 출시는 미반영, CEO)에서 2분기 콜에서 CFO가 'EUR 500M 초과, 상단은 정하지 않는다'로 표현을 바꿨다. 목표 달성 판단에는 일회성이 섞인다. 상반기 영업현금흐름 €273.961M 중 2분기 €281.682M에 PRV 매각 현금 €158.1M이 들어 있어(PRV 매각은 영업현금흐름으로 분류), 연초 가이던스가 PRV 매각 전에 나왔다는 질문이 콜에서 나왔다. 상반기 영업현금흐름에서 PRV를 빼면 달성 경로의 핵심은 하반기 YORVIPATH·YUVIWEL 성장이다. 아직 검증되지 않은 가이던스다. [S76](https://www.fool.com/earnings/call-transcripts/2026/02/23/ascendis-asnd-q4-2025-earnings-call-transcript/) [S74](https://www.fool.com/earnings/call-transcripts/2026/08/20/ascendis-pharma-asnd-q2-2026-earnings-call-transcript/) [S56](https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437dex991.htm) [S57](https://www.sec.gov/Archives/edgar/data/1612042/000161204226000016/asnd-20260630.htm#mdna-notes)
+- [dilution] 희석은 지속되고 있다. 희석 주식 수는 FY2024 5,789만에서 FY2025 6,061만으로 늘었고 주식 수 변화는 4.7%였다(C:share_change@FY2025). 2026년 2분기 희석 가중 주식 수는 68,320,412주로 전년 동기 63,911,374주보다 많다. SBC는 2025년 €116.171M으로 매출 대비 16.1%(C:sbc_to_revenue@FY2025)이고, SBC/영업현금흐름은 215.5%(C:sbc_to_ocf)다. 2025년 SBC 차감 FCF는 음수다(C:fcf_after_sbc@FY2025). 6월 30일 미행사 워런트가 4,759,879개(가중평균 행사가 €107.87)로 남아 있어 추가 희석 잠재량이 크다. [C:share_change@FY2025] [C:sbc_to_revenue@FY2025] [C:sbc_to_ocf] [C:fcf_after_sbc@FY2025] [S56](https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437dex991.htm) [S62](https://www.sec.gov/Archives/edgar/data/1612042/000119312526046590/asnd-20251231.htm) [S57](https://www.sec.gov/Archives/edgar/data/1612042/000161204226000016/asnd-20260630.htm#mdna-notes)
+- [dilution] 자사주 매입은 희석을 상쇄하는 성격이 강하고, 매입가는 높고 발행가는 낮다. 2026년 상반기 $120M 프로그램을 3월 254,027주(평균 $236.16)와 5월 251,391주(평균 $238.64)로 전액 집행했고 현금 €103.412M이 나갔다. 같은 기간 워런트 행사로 들어온 현금은 €50.086M이며, 행사 기간별 신주 발행가는 약 $92.10(3월), 약 $121.57(6월), 약 $123.36(9월)이다. 자기주식 중 585,872주는 주식보상으로 이전됐다. 즉 매입한 주식이 보상으로 다시 나가 총 주식 수 증가를 가린다. 2분기 말 자기주식은 516,642주(총주식의 0.8%)다. 새 $400M 프로그램(2026-09-14 승인)은 매입 의무가 없고 2026-10-18 기준 집행 실적은 공시되지 않았다. [S57](https://www.sec.gov/Archives/edgar/data/1612042/000161204226000016/asnd-20260630.htm#mdna-notes) [S56](https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437dex991.htm) [S63](https://www.sec.gov/Archives/edgar/data/1612042/000119312526407293/d153773d6k.htm#share-capital) [S66](https://www.sec.gov/Archives/edgar/data/1612042/000119312526390874/d52763d6k.htm#buyback)
+- [capital_allocation] 재무 구조 정리는 주주에 유리하게 진행됐다. 2026-05-06 $575M 2.25% 2028년 만기 전환사채가 전액 전환돼 3,635,813주가 교부됐고 차입금·파생부채 €719M이 자본으로 바뀌었다(자기자본은 2025년 말 −€162.821M에서 €1,436.491M으로). 이는 현금 상환이 아니라 주식 교부이므로 주식 수 증가(희석)를 동반한다. 은행 차입이 없고 금융 약정(covenant)도 없지만, Royalty Pharma 상한형 로열티 펀딩 부채 €301.789M과 리스 부채 €148.285M이 남아 있다(SKYTROFA 미국 순매출의 9.15%, YORVIPATH 미국 순매출의 3.0%를 정해진 배수까지 지급). 회사는 추가 자본 조달 계획이 없다고 했으나 이 진술의 출처는 2차 요약이다. [S58](https://www.sec.gov/Archives/edgar/data/1612042/000119312526210386/d121855dex991.htm) [S56](https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437dex991.htm) [S57](https://www.sec.gov/Archives/edgar/data/1612042/000161204226000016/asnd-20260630.htm#mdna-notes) [S62](https://www.sec.gov/Archives/edgar/data/1612042/000119312526046590/asnd-20251231.htm) [S77](https://quartr.com/events/ascendis-pharma-a-s-asnd-morgan-stanley-24th-annual-global-healthcare-conference_FktzYToh)
+- [capital_allocation] 자본배분 이력은 R&D 우선(CFO 발언)이며, 최근에는 방향 전환과 비용 공개가 부족하다. 종양(TransCon IL-2 β/γ) 자체 개발을 중단했고, Novo와의 협력(월 1회 TransCon semaglutide)이 2026-09-14 종료돼 권리가 반환됐다(양측 지속적 재무 의무 없음). 회사는 반환받은 비만·심혈관·대사 프로그램을 직접 시작하겠다고 했지만 비용·예산은 밝히지 않았다(2차 요약은 R&D가 크게 늘지 않는다고만 함). 2026년 H1 설비투자는 €10.948M 수준으로 작다. 인수 이력은 이 근거에 없고, VISEN(39%)·Eyconis(41%) 지분의 가치 평가도 이뤄지지 않았다. BioMarin과는 소송을 접고 2030-05-20까지 YUVIWEL 순매출의 로열티(미국 20%, EU·한국·브라질 18%)를 내는 조건합의서를 맺었다. 이는 ITC 위험을 제거하는 대신 매출총이익을 낮추는 선택이다. [S75](https://www.fool.com/earnings/call-transcripts/2026/05/08/ascendis-asnd-q1-2026-earnings-call-transcript/) [S58](https://www.sec.gov/Archives/edgar/data/1612042/000119312526210386/d121855dex991.htm) [S65](https://www.sec.gov/Archives/edgar/data/1612042/000119312526390877/d183438d6k.htm#novo-termination) [S89](https://fiercebiotech.com/biotech/novo-walks-away-285m-pact-develop-monthly-glp-1-ascendis) [S77](https://quartr.com/events/ascendis-pharma-a-s-asnd-morgan-stanley-24th-annual-global-healthcare-conference_FktzYToh) [S56](https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437dex991.htm) [S64](https://www.sec.gov/Archives/edgar/data/1612042/000119312526376733/d139239d6k.htm#biomarin-settlement) [S69](https://www.sec.gov/Archives/edgar/data/1612042/000119312526009636/d13397d6k.htm)
+
+### 회계 품질 — watch
+
+공시 수치는 전반적으로 믿을 수 있다. 감사인(Deloitte) 변경이나 재무제표 정정은 확인되지 않았고, 영업현금흐름은 1차 공시와 데이터 제공사 값이 일치한다. 다만 보고 이익과 현금흐름은 경상 수준이 아니다. 2026년 1·2분기 이익에는 이연법인세자산 인식(1분기 €679.0M, 2분기 €24.6M)이 들어 있다. 2분기 영업이익(€220.5M)에는 PRV 매각이익 €158.1M이 들어 있고, 상반기 영업현금흐름(€274.0M)에도 같은 PRV 현금이 들어 있다. 그래서 IFRS 순이익, PER, FCF 수익률은 그대로 쓰지 말고 Non-IFRS 영업이익(2분기 €92.0M)과 PRV를 뺀 현금흐름으로 조정해 봐야 한다. SBC는 매출의 16.1%이고 2025년에는 영업현금흐름보다 컸으므로(SBC 차감 FCF 음수), 'FCF 흑자'는 주주에게서 받은 보상비용을 빼고 보면 아직 흑자가 아니다. 이 차이는 2026년 현금흐름이 커지면서 줄어들고 있다. 이상 항목은 모두 공시에서 확인되고 숨겨진 것은 없으므로 red_flag는 아니고 watch로 판정한다.
+
+- [concern] sbc_to_revenue: SBC/매출이 16.1%로 문턱 10%를 넘는다. 2024년 26.3%에서 내려오는 중이고, 분기 SBC는 €29.6M 안팎으로 일정하다. 매출이 빠르게 늘어 비율이 낮아지는 것이므로 구조적 왜곡은 아니다. 하지만 SBC는 실제 주주 가치 희석 비용이다(희석 가중 주식 수 2025년 6,061만, 2026년 2분기 6,832만). 매월 부여되는 직원 워런트와 별도 정기 부여가 계속 있으므로, 이익과 FCF는 SBC를 비용으로 차감해서 봐야 한다. 한편 자사주 매입이 희석을 일부 상쇄하고 있다(상반기 €103.4M). [C:sbc_to_revenue] [F219] [F220] [F183] [F94] [F185] [S62](https://www.sec.gov/Archives/edgar/data/1612042/000119312526046590/asnd-20251231.htm)
+- [concern] sbc_to_ocf: SBC/영업현금흐름이 215.5%(2025년: SBC €116.2M, 영업현금흐름 €53.9M)로 문턱 50%를 크게 넘는다. 그래서 SBC 차감 FCF는 2025년에도 음수(-€70.8M)다. 이 비율은 영업현금흐름이 막 흑자로 돌아선 해의 분모 효과가 크다. 2026년 상반기 영업현금흐름은 €274.0M으로 SBC €60.0M의 몇 배이지만, 여기에는 PRV 현금 €158.1M이 일회성으로 들어 있다. PRV를 빼도 SBC를 넘기는 하나, 아직 한 해 이상 지속되는 경상 흑자라는 증거는 부족하다. 2분기 콜의 '2026년 영업현금흐름 €500M 초과' 가이던스가 PRV 매각 이전에 나온 목표가 포함된 것인지도 불확실하다. 판정: SBC 부담은 실재하나 급감 추세라서 concern이지만 red는 아니다. [C:sbc_to_ocf] [C:fcf_after_sbc@FY2025] [F219] [F43] [F80] [F78] [F187] [S62](https://www.sec.gov/Archives/edgar/data/1612042/000119312526046590/asnd-20251231.htm) [S74](https://www.fool.com/earnings/call-transcripts/2026/08/20/ascendis-pharma-asnd-q2-2026-earnings-call-transcript/)
+- [watch] 이연법인세자산 인식이 순이익을 크게 부풀린다. 1분기에 미인식 이연법인세자산 €679.0M, 2분기에 €24.6M이 인식되어 법인세가 이익으로 잡혔고, 상반기 법인세 수익은 €654.4M이다. 세전이익은 1분기에 -€48.2M 손실이었으나 순이익은 €629.3M이다. 현금이 들어온 것이 아니며, 인식된 자산 €699.3M(총자산 €2,286.0M의 큰 부분)의 실현은 미래 과세소득에 달려 있다. 순이익, EPS(희석 1분기 €9.75), PER에는 일회성으로 봐야 하고, 컨센서스 EPS(2026년 12.79)도 이 항목 때문에 왜곡됐다. [F168] [F169] [F207] [F79] [F153] [F144] [F167] [F240] [S56](https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437dex991.htm) [S58](https://www.sec.gov/Archives/edgar/data/1612042/000119312526210386/d121855dex991.htm) [S80](https://stockanalysis.com/stocks/asnd/forecast/)
+- [watch] PRV 매각이익(순 €158.1M)이 2분기 기타영업이익과 영업현금흐름에 모두 들어가, 2분기 IFRS 영업이익 €220.5M(마진 65.0%)과 영업현금흐름 €281.7M이 경상 수준보다 크다. 회사의 Non-IFRS 영업이익(€92.0M, 마진 27.1%)은 PRV를 빼고 SBC를 더해 계산한 것이다. 즉 이번 분기 Non-IFRS는 IFRS보다 작다. 조정 방향이 이익을 부풀리는 쪽이 아니라서 공격적 조정으로 보지 않는다. 다만 Non-IFRS는 SBC €29.6M을 비용에서 제외하므로 SBC 비용을 되돌려 놓고 봐야 한다. [F78] [F73] [F160] [F174] [F183] [S56](https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437dex991.htm) [S57](https://www.sec.gov/Archives/edgar/data/1612042/000161204226000016/asnd-20260630.htm#mdna-notes)
+- [info] Non-IFRS 순이익(2분기 €61.3M)은 IFRS 순이익(€207.0M)보다 작다. 조정 항목은 SBC, PRV, 관계기업 손익, 파생부채 재측정, 이연법인세자산 인식, 세효과이며 각각 공시되어 있다. 이익을 키우는 방향의 조정이 아니다. 단, 2025년 3·4분기의 Non-IFRS 수치는 공시된 것이 없어서 TTM Non-IFRS 이익을 만들 수 없다. [F162] [F163] [F164] [F74] [S56](https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437dex991.htm)
+- [info] 매출채권은 2025년 말 €141.3M에서 2026년 2분기 €206.5M으로 늘었으나, 같은 기간 분기 매출이 €247.5M에서 €339.3M으로 늘었고 2분기 매출에는 마일스톤 €17.0M이 포함되어 있다. DSO가 2024년 166.9일에서 2025년 71.6일로 내려온 흐름과도 맞는다. 재고는 €310.6M으로 2025년 말 수준과 비슷해 쌓이지 않고 있다(DIO는 매출 증가로 하락 중). 회사는 YUVIWEL 출시 초기의 재고 비축이 제한적이라고 했다. 이상 신호로 보지 않는다. [F200] [F201] [F203] [F32] [F33] [F104] [F72] [F158] [C:dso@FY2025] [C:dio@FY2025] [S56](https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437dex991.htm) [S74](https://www.fool.com/earnings/call-transcripts/2026/08/20/ascendis-pharma-asnd-q2-2026-earnings-call-transcript/)
+- [watch] 과거 가이던스와 회계 추정치에 신뢰 문제가 있다. 2024년 2분기에 SKYTROFA 매출에 과거 기간 판매 차감 추정 조정 -€27M이 반영됐고, 연간 전망을 €320M~€340M에서 €220M~€240M으로 낮췄다. 실제는 €197.0M으로 낮춘 전망 하단에도 못 미쳤다(가이던스 적중률 33%). 총영업비용 €598M만 적중했다. 이는 판매 차감(리베이트·반품 등) 추정이 보수적이지 않았음을 보여 주며, 미국 약가·급여 구조가 복잡한 YORVIPATH·YUVIWEL에서도 같은 추정 위험이 있다. 회사는 YORVIPATH 순가격을 공개하지 않는다. 최근 2025~2026년에는 반복된 소급 조정이 확인되지 않았다. [S71](https://www.sec.gov/Archives/edgar/data/1612042/000119312524129390/d820168dex991.htm) [S72](https://www.sec.gov/Archives/edgar/data/1612042/000119312524212183/d854471dex991.htm) [S73](https://www.sec.gov/Archives/edgar/data/1612042/000119312525025103/d840926dex991.htm) [C:guidance_hit_rate] [F226] [F233] [F234] [S76](https://www.fool.com/earnings/call-transcripts/2026/02/23/ascendis-asnd-q4-2025-earnings-call-transcript/)
+- [watch] YORVIPATH 1분기 매출에는 일시적 미국 무상공급 프로그램과 유럽 Direct의 일회성 효과가 있다(약 €15M 감소). 반대로 2분기 SKYTROFA에는 협력사 대상 제품 판매가 포함되고, 2분기 총매출에는 마일스톤 €17.0M(TransCon CNP 관련)이 들어 있어 제품 매출만 따로 봐야 한다. 제품 매출은 €314.9M이다. 매출 인식 방식이 바뀌었다는 증거는 없지만 분기 변동 요인이 크다. [F110] [F158] [F120] [S56](https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437dex991.htm) [S75](https://www.fool.com/earnings/call-transcripts/2026/05/08/ascendis-asnd-q1-2026-earnings-call-transcript/)
+- [watch] 부채 지표가 왜곡될 수 있다. Royalty Pharma 로열티 펀딩 부채(€301.8M)는 은행 차입이 아니라 미래 매출에 연동된 지급 의무여서 매출이 커질수록 상환액이 늘고 비용 성격이 있다. 2025년 말 전환사채 파생부채 €256.2M은 차입금에 들어가지 않았고, 2026년 5월 전환사채 전액이 주식으로 전환되며 자기자본이 -€162.8M에서 €1,436.5M으로 바뀌었다(전환 €719M 포함). 자기자본 개선의 상당 부분은 이연법인세자산 인식과 전환이며 영업 성과가 아니다. 또 코드 입력에서 2분기 차입금 F76(€450.1M)이 비유동+유동 합계인데 F77(유동 €65.4M)이 따로 있어 calc가 이중 계상(순현금 €65.4M 과소)한다고 리서처가 밝혔다. 회계 문제가 아닌 입력 문제이므로 순현금과 EV는 그만큼 보정해서 봐야 한다. [F208] [F194] [F192] [F216] [F76] [F77] [S57](https://www.sec.gov/Archives/edgar/data/1612042/000161204226000016/asnd-20260630.htm#mdna-notes) [S56](https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437dex991.htm) [S62](https://www.sec.gov/Archives/edgar/data/1612042/000119312526046590/asnd-20251231.htm)
+- [info] 비용 자본화 신호는 없다. 무형자산은 €3.7M으로 거의 변동이 없고 연간 설비투자도 €8.5M으로 작다. 영업현금흐름이 설비투자로 부풀려질 여지가 없다. 재무상태표의 영업권도 없다. [F204] [F205] [F217] [S59](https://www.sec.gov/Archives/edgar/data/1612042/000119312526046736/d73635dex991.htm) [S62](https://www.sec.gov/Archives/edgar/data/1612042/000119312526046590/asnd-20251231.htm)
+- [info] 감사인은 Deloitte(코펜하겐)이며 감사인 변경이나 재무제표 정정 공시는 확인되지 않았다. 금융 약정(covenant)도 없다. 계속기업 의문은 제기되지 않았다. 다만 2025년까지는 자기자본이 음수였다. [S62](https://www.sec.gov/Archives/edgar/data/1612042/000119312526046590/asnd-20251231.htm) [F194]
+- [info] 관계기업 Eyconis(41%), VISEN(39%) 지분이 있으나 장부가는 €30.5M으로 작고 관계기업 손익은 2분기 -€3.8M이다. 내부자 거래는 소규모(이사·CFO 매수, 일부 임원 매도 포함)이고, 직원 워런트 부여는 매월 같은 날 종가로 이루어져 행사가 조작 신호가 없다. 한편 Bienaimé 이사의 기존 워런트 9,160개(행사가 $172.35)가 취소 후 더 높은 행사가 $249.84로 재부여된 것은 주주에게 불리하지 않다. [F206] [S56](https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437dex991.htm) [S69](https://www.sec.gov/Archives/edgar/data/1612042/000119312526009636/d13397d6k.htm) [S70](https://www.sec.gov/Archives/edgar/data/1612042/000119312526421789/d743945d6k.htm#warrant-grants) [S87](https://www.sec.gov/Archives/edgar/data/1612042/000161071726000360/0001610717-26-000360-index.htm)
+- [watch] 희석이 실제로 진행 중이다. 희석 가중 주식 수는 2025년 2분기 6,391만(전년 같은 분기)에서 2026년 2분기 6,832만으로 늘었고, 전환사채 전환으로 364만 주가 추가됐다. 워런트 미행사 475.99만 개(가중평균 행사가 €107.87)는 현재 주가(€200.88 상당)보다 훨씬 낮아 행사 시 신주가 계속 나온다. $400M 자사주 매입은 의무가 아니고 집행 실적이 공시되지 않았다. 다만 주식 수는 큰 쪽(희석 가중)을 쓰고 있어 과소 계상되지는 않는다. [F94] [F83] [F98] [F100] [F189] [S56](https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437dex991.htm) [S57](https://www.sec.gov/Archives/edgar/data/1612042/000161204226000016/asnd-20260630.htm#mdna-notes) [S66](https://www.sec.gov/Archives/edgar/data/1612042/000119312526390874/d52763d6k.htm#buyback)
+
+## 레드팀 — 사전 부검 (5년 뒤 −60%라면)
+
+- (20%) YORVIPATH 성장이 2분기에서 멈춘다. 매출의 가장 큰 축인 YORVIPATH는 2분기 €252.114M(전년 €102.957M)인데, 순가격·이탈률·치료 지속률은 공시되지 않는다. 회사는 2분기부터 미국 신규 등록 수도 내지 않아 성장의 질을 밖에서 검증할 수 없다. 미국 담당자는 이탈의 대부분이 용량 적정 기간에 생긴다고만 했다. 그 사이 경쟁약이 들어온다. AstraZeneca의 eneboparatide는 3상에서 복합 1차 평가변수 31.1%를 달성했고, MBX의 주 1회 canvuparatide는 3상 첫 환자 투여를 마쳤다. 이는 Ascendis가 개발 중인 주 1회 TransCon PTH와 겹친다. 환자 누적 증가가 둔화되고 순가격이 리베이트로 깎이면, 2030년 매출 €5B 목표를 전제로 한 서사와 현재 배수가 함께 무너진다. 메커니즘: 선점 우위 약화 → 신규 환자 감소 → 성장 배수 압축. [S56](https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437dex991.htm) [S74](https://www.fool.com/earnings/call-transcripts/2026/08/20/ascendis-pharma-asnd-q2-2026-earnings-call-transcript/) [S75](https://www.fool.com/earnings/call-transcripts/2026/05/08/ascendis-asnd-q1-2026-earnings-call-transcript/) [S84](https://www.astrazeneca.com/media-centre/press-releases/2026/eneboparatide-normalised-serum-calcium-and-achieved-independence-from-supplements-in-31-1-percent-of-adults-with-HypoPT-in-CALYPSO-Phase-iii-trial.html) [S85](https://www.sec.gov/Archives/edgar/data/0001776111/000119312526369674/mbx-ex99_1.htm) [F115]
+- (20%) YUVIWEL이 BioMarin의 VOXZOGO를 대체하지 못한다. 합의서에 따라 YUVIWEL 순매출의 20%(미국)·18%(EU·한국·브라질)를 2030-05-20까지 BioMarin에 내므로, 독점이 있어도 매출총이익이 깎인다. VOXZOGO는 2분기 순매출 $253M(+14%)이고 2026년 가이던스를 $1,000M~$1,050M으로 올렸다. 미국 신규 시작은 대부분 2세 미만인데, 이 영아 구간의 YUVIWEL 근거는 센티넬 7명, 52주 결과뿐이다. BridgeBio의 경구 infigratinib은 3상에서 위약 대비 +1.74cm/년을 보였고 2026년 하반기에 허가를 신청할 계획이다. 주사가 필요 없는 약이 나오면 주사제의 편의성 우위가 사라진다. EU에서는 EMA가 고아의약품 지정 유지 여부를 다시 검토한다. 첫 분기 매출 €7.582M이 2분기 이후 의미 있게 커지지 않으면, 연골무형성증 프랜차이즈 기대가 가격에서 빠진다. [S64](https://www.sec.gov/Archives/edgar/data/1612042/000119312526376733/d139239d6k.htm#biomarin-settlement) [S82](https://www.sec.gov/Archives/edgar/data/0001048477/000104847726000015/earningsrelease-6aug26ex991.htm) [S83](https://investor.bridgebio.com/news/news-details/2026/BridgeBio-Reports-Positive-Phase-3-Topline-Results-for-Oral-Infigratinib-with-the-First-Statistically-Significant-Improvements-in-Body-Proportionality-in-Achondroplasia/) [S91](https://www.sec.gov/Archives/edgar/data/1612042/000119312526386630/d152057d6k.htm#reachin) [S67](https://www.sec.gov/Archives/edgar/data/1612042/000119312526423938/d167361d6k.htm#chmp) [S56](https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437dex991.htm) [F259] [F260] [F121]
+- (15%) 현금 창출의 질이 실망을 낳고 신뢰가 깨진다. 2026년 상반기 영업현금흐름 €273.961M에는 PRV 매각 현금 €158.1M이 일회성으로 들어 있다. 회사는 연초 '약 €500M'에서 2분기 '€500M 초과, 상단은 정하지 않는다'로 표현을 바꿨고, 연초 가이던스가 PRV 이전에 나왔다는 질문도 있었다. 과거 가이던스 적중률은 낮다(C:guidance_hit_rate). 2024년 SKYTROFA는 두 번 모두 빗나갔고 낮춘 전망 하단에도 못 미쳤다. 3분기에 PRV 없는 경상 현금흐름이 낮게 나오거나 하반기 연간 목표 달성 경로가 불투명해지면, 시장이 일회성을 뺀 FCF 수익률을 다시 계산한다. 현재 P/FCF는 일회성이 섞인 TTM 값 기준이다. 이때 과거 판매 차감 추정이 보수적이지 않았던 문제까지 드러나면 신뢰 할인이 붙는다. [S56](https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437dex991.htm) [S57](https://www.sec.gov/Archives/edgar/data/1612042/000161204226000016/asnd-20260630.htm#mdna-notes) [S74](https://www.fool.com/earnings/call-transcripts/2026/08/20/ascendis-pharma-asnd-q2-2026-earnings-call-transcript/) [S76](https://www.fool.com/earnings/call-transcripts/2026/02/23/ascendis-asnd-q4-2025-earnings-call-transcript/) [S71](https://www.sec.gov/Archives/edgar/data/1612042/000119312524129390/d820168dex991.htm) [S72](https://www.sec.gov/Archives/edgar/data/1612042/000119312524212183/d854471dex991.htm) [C:guidance_hit_rate] [C:p_fcf] [F78] [F80]
+- (12%) 희석과 비용이 이익을 갉아먹는다. SBC는 2025년 영업현금흐름의 215.5%(C:sbc_to_ocf)여서 SBC 차감 FCF가 음수였다. 매월 직원 워런트를 부여하고 별도로 대규모 정기 부여·RSU·PSU가 있다. 6월 30일 미행사 워런트는 4,759,879개(가중평균 행사가 €107.87)로 현재가보다 훨씬 낮아, 행사 때마다 신주가 나온다. 자사주 매입은 매입 의무가 없고, 매입한 주식이 보상으로 다시 나가 증가를 가린다. 여기에 Novo 계약 종료로 비만·심혈관 프로그램의 개발비를 직접 부담하게 됐는데 예산은 공시되지 않았다. 섹션 232 관세도 회사가 정량화하지 않았고, 미국 약가 정책 노출은 찾지 못했다. 희석이 매입을 계속 앞지르고 R&D가 늘면 FCF 마진 30% 가정이 깨지고, 주당 가치가 낮아진다. [C:sbc_to_ocf] [C:fcf_after_sbc@FY2025] [S57](https://www.sec.gov/Archives/edgar/data/1612042/000161204226000016/asnd-20260630.htm#mdna-notes) [S62](https://www.sec.gov/Archives/edgar/data/1612042/000119312526046590/asnd-20251231.htm) [S65](https://www.sec.gov/Archives/edgar/data/1612042/000119312526390877/d183438d6k.htm#novo-termination) [S66](https://www.sec.gov/Archives/edgar/data/1612042/000119312526390874/d52763d6k.htm#buyback) [S70](https://www.sec.gov/Archives/edgar/data/1612042/000119312526421789/d743945d6k.htm#warrant-grants) [F94] [F98] [F100]
+- 약한 가정 `base.fcf_margin`: 기본 시나리오의 FCF 마진 30%는 2025년 6.3%에서 5년 만에 오르는 값인데, 근거는 영업 레버리지 서사와 일회성이 섞인 2026년 상반기 수치다. SBC 차감 FCF는 2025년에도 음수이고, YUVIWEL 로열티와 Royalty Pharma 지급이 마진을 깎으며, Novo 종료 뒤 자체 개발비는 공시되지 않았다. 마진을 SBC 차감 기준으로 정의하지 않았다면 주주 몫이 과대평가된다. [C:fcf_margin@FY2025] [C:fcf_after_sbc@FY2025] [C:sbc_to_ocf] [S62](https://www.sec.gov/Archives/edgar/data/1612042/000119312526046590/asnd-20251231.htm) [S64](https://www.sec.gov/Archives/edgar/data/1612042/000119312526376733/d139239d6k.htm#biomarin-settlement) [S65](https://www.sec.gov/Archives/edgar/data/1612042/000119312526390877/d183438d6k.htm#novo-termination)
+- 약한 가정 `base.exit_multiple`: 기본 시나리오 연 수익률 +7.6% 분해에서 멀티플 변화가 −55.9%로 가장 큰 항이다. 매출 성장과 마진 확대가 기여를 거의 다 채워 준다는 뜻이고, 둘 중 하나만 어긋나도 수익률이 크게 바뀐다. 출구 18배는 성장이 36%에서 15%로 꺾인 해의 값인데, 이 정도 성장 둔화 시점에 18배를 받는다는 근거는 기저율 표가 없어 확인할 수 없다. 민감도 표에서 멀티플 ×0.75, 성장 −5%p이면 −2.0%다. [C:implied_cagr@m30] [C:irr@base] [C:base_rate@base]
+- 약한 가정 `base.share_change`: 기본 시나리오의 연 주식 수 증가 1%는 2025년 실제 증가율 4.7%(C:share_change@FY2025)와 큰 차이가 난다. 희석 가중 주식 수는 2분기 6,832만으로 늘었고 미행사 워런트가 4,759,879개 남아 있다. $400M 자사주 매입은 의무가 아니며 집행 실적이 공시되지 않았다. 이 가정이 틀리면 주당 가치가 직접 깎인다. [C:share_change@FY2025] [S57](https://www.sec.gov/Archives/edgar/data/1612042/000161204226000016/asnd-20260630.htm#mdna-notes) [S66](https://www.sec.gov/Archives/edgar/data/1612042/000119312526390874/d52763d6k.htm#buyback) [F94] [F98]
+
+## 검증 (L6)
+
+주장 91개 — supported 71 · unsupported 18 · contradicted 0 · leap 2 · 미검증 0
+
+- [unsupported] 회계 품질: 매출채권은 2025년 말 €141.3M에서 2026년 2분기 €206.5M으로 늘었으나, 같은 기간 분기 매출이 €247.5M에서 €339.3M으로 늘었고 2분기 — 매출채권·재고·분기 매출·마일스톤은 맞지만, 2024년 DSO 166.9일은 인용 자료에 없다.
+- [unsupported] 애크먼: 이익의 질이 경상 수준이 아니다. 2분기 영업이익과 영업현금흐름에 PRV 매각분이 들어 있고, 순이익에는 이연법인세자산 인식이 들어 있다. PER과 FCF 수익률 — 인용 F78은 영업이익 쪽 PRV 이익이고, PRV 현금이 영업현금흐름에 들어 있다는 내용은 인용 자료에 없다.
+- [unsupported] 슬레이터: 사전 부검: 성장의 질을 추적할 수 없다. 회사가 2분기부터 미국 신규 등록 수를 공시하지 않고 순가격도 비공개다. 환자 수는 늘어도 이탈이 커지거나 순가격이 내 — 순가격 비공개는 S76에 있으나, 2분기부터 미국 신규 등록 수 공시를 중단했다는 내용은 인용 자료에 없다.
+- [leap] 앤더슨: 클라만의 가장 강한 논거는 성장이 틀리면 82.0%를 잃는다는 하방 계산이다. 이 숫자는 성장 없는 현금흐름 가치 36.1로 재서 나온다. 그러나 이 회사는 20 — 성장 없는 가치가 2025년 OCF 기준이라는 점과 매출 두 배 성장은 인용 값에서 따라 나오지 않고, 2025년 영업이익률 -18.9%만으로는 부족하다.
+- [unsupported] 사업·산업: YORVIPATH 수요는 보험 접근과 함께 커진다. 미국 상위 보험사 커버리지는 생명 기준 약 80%이고, 등록의 절반 이상이 8주 안에 승인된다. 1분기 미국  — 커버리지 80%, 8주 내 승인, Q1 매출 감소와 계절성은 맞지만, 2분기부터 신규 등록 수 공시를 중단했다는 내용은 자료에 없다.
+- [unsupported] 애크먼: 역DCF가 요구하는 성장(목표 FCF 마진 20%에서 10년 연 22.0%)이 낮은 문턱이라는 주장은 생존자 편향이다. 같은 성장을 해낸 기업의 비율을 보여 주는 — 없는 근거 인용: C:base_rate@base
+- [unsupported] 앤더슨: 슬레이터의 가장 강한 논거는 확률 가중 기대 연 수익률 8.4%가 할인율에 못 미친다는 것이다. 그러나 이 수익률은 5년 보유에 출구 멀티플을 낮게 잡은 기본 시 — 기대 IRR, 총이익률, 등록 수는 맞지만 수익률 분해의 가장 큰 음의 항이 멀티플 변화라는 내용은 인용에 없다.
+- [unsupported] 앤더슨: 애크먼의 가장 강한 논거는 시나리오 범위가 너무 넓어 10년 FCF를 좁게 추정할 수 없다는 것이다. 범위가 넓은 것은 사실이다. 그러나 멱법칙 기업은 원래 분포 — CAGR, FCF 마진, 현금은 맞지만 상방 10년 가치가 5배를 넘는다는 코드 값은 인용에 없다.
+- [unsupported] 클라만: 이익의 질이 단단한 가치를 깎는다. 2025년 SBC가 영업현금흐름의 215.5%였고, SBC를 뺀 FCF는 음수다. 2분기 이익과 현금흐름에는 일회성 PRV 매 — SBC 비율은 맞지만, S56은 PRV를 기타영업이익으로만 서술해 현금흐름에 PRV가 섞였다는 내용은 인용 자료에 없다.
+- [leap] 사업·산업: YUVIWEL은 고아약 독점이 2033-02-27까지다. 부갑상선기능저하증의 경쟁약(BridgeBio, AstraZeneca, MBX 등)은 모두 임상 단계다.  — 독점 만료일, 후발 약제 단계, 로열티율은 맞지만 합의에서 특허 방어력이 완전하지 않았다는 결론은 자료에서 따라 나오지 않는다.
+- [unsupported] 사업·산업: 총이익률은 2023년 83.4%, 2024년 87.8%, 2025년 86.8%로 높고 안정적이다(C:gross_margin@FY2025). 2026년 2분기 매출 — 2025년 총이익률과 Q2 매출총이익은 맞지만, 2023년 83.4%와 2024년 87.8%는 인용에 없다.
+- [unsupported] 앤더슨: 시장은 이 기회를 평범한 성장주로 값을 매긴다. 역DCF는 목표 FCF 마진 20%에서 10년 연 22.0% 매출 성장을 요구한다. 수요 곡선과 해외 출시 계획을 — 역DCF 22.0%는 맞지만 상방 10년 가치가 5배 문턱을 넘는다는 코드 값은 인용에 없다.
+- [unsupported] 회계 품질: SBC/영업현금흐름이 215.5%(2025년: SBC €116.2M, 영업현금흐름 €53.9M)로 문턱 50%를 크게 넘는다. 그래서 SBC 차감 FCF는 202 — 상반기 SBC €60.0M과 PRV 현금의 OCF 포함은 인용 자료(S62, S74, F78)에 없다. 그 외 수치는 일치한다.
+- [unsupported] 레드팀: YORVIPATH 성장이 2분기에서 멈춘다. 매출의 가장 큰 축인 YORVIPATH는 2분기 €252.114M(전년 €102.957M)인데, 순가격·이탈률·치료  — YORVIPATH 매출, 이탈 발언, 경쟁약 정보는 맞지만, 2분기부터 미국 신규 등록 수를 내지 않는다는 내용은 자료에 없다.
+- [unsupported] 회계 품질: 비용 자본화 신호는 없다. 무형자산은 €3.7M으로 거의 변동이 없고 연간 설비투자도 €8.5M으로 작다. 영업현금흐름이 설비투자로 부풀려질 여지가 없다. 재무상 — 무형자산 €3.7M과 설비투자 €8.5M은 맞지만, 재무상태표에 영업권이 없다는 내용은 인용 자료에 없다.
+- [unsupported] 레드팀: 기본 시나리오 연 수익률 +7.6% 분해에서 멀티플 변화가 −55.9%로 가장 큰 항이다. 매출 성장과 마진 확대가 기여를 거의 다 채워 준다는 뜻이고, 둘 중  — 없는 근거 인용: C:base_rate@base
+- [unsupported] 애크먼: 회사 가이던스의 신뢰가 낮다. 과거 가이던스 적중률은 33%이고, 2024년 SKYTROFA 매출 가이던스는 두 번 모두 빗나갔다. 2026년 영업현금흐름 목표도 — 적중률 33%와 가이던스 표현 변화는 맞지만, 2024년 SKYTROFA 가이던스를 두 번 빗나갔다는 근거는 인용에 없다.
+- [unsupported] 회계 품질: SBC/매출이 16.1%로 문턱 10%를 넘는다. 2024년 26.3%에서 내려오는 중이고, 분기 SBC는 €29.6M 안팎으로 일정하다. 매출이 빠르게 늘어 비 — SBC/매출 16.1%와 SBC 금액은 맞지만, 2024년 26.3%, 2025년 희석 주식 수 6,061만, 분기 SBC가 일정하다는 내용은 인용에 없다.
+- [unsupported] 모델러: 2026년 매출·영업현금흐름 수준에서는 컨센서스와 크게 다르지 않다. 다른 점은 이익의 질이다. 2026년 상반기 이익과 영업현금흐름에는 PRV 매각(순 €158 — SBC/OCF, 적중률, 로열티율은 맞지만, 영업현금흐름에 PRV 현금이 섞였다는 내용과 OCF 수준이 컨센서스와 비슷하다는 내용은 인용에 없다.
+- [unsupported] 앤더슨: 사전 부검 1: 성장 가설 자체가 꺾이는 경우. 순가격·이탈률이 공시되지 않아 YORVIPATH 환자 단위 경제성이 약할 수 있다. 회사는 2분기부터 미국 신규  — 순가격·이탈률 비공개와 경쟁약 정보는 맞지만, 2분기부터 신규 등록 공시를 줄였다는 내용은 자료에 없다.
+
 ## 계산 근거 (L3)
 
 ### 재무 이력 (코드 계산 · 인용은 C:지표@기간, 예: C:fcf_margin@FY2025)
@@ -26,31 +323,116 @@
 | 영업이익률 (operating_margin) | -5808.6% | -1097.9% | -170.8% | -76.7% | -18.9% |
 | 순이익 (net_income) | -3.8억 EUR | -5.8억 EUR | -4.8억 EUR | -3.8억 EUR | -2.3억 EUR |
 | 영업현금흐름 (ocf) | -4.2억 EUR | -5.0억 EUR | -4.7억 EUR | -3.1억 EUR | 5,390만 EUR |
-| 설비투자 (capex) | 2,370만 EUR | 1,449만 EUR | 244만 EUR | — | — |
-| FCF (fcf) | -4.4억 EUR | -5.1억 EUR | -4.7억 EUR | — | — |
-| FCF 마진 (fcf_margin) | -5674.4% | -997.0% | -176.1% | — | — |
-| 순현금 (net_cash) | 4.5억 EUR | 4.4억 EUR | 3.9억 EUR | 5.6억 EUR | 6.2억 EUR |
+| 설비투자 (capex) | 2,370만 EUR | 1,449만 EUR | 244만 EUR | 143만 EUR | 848만 EUR |
+| FCF (fcf) | -4.4억 EUR | -5.1억 EUR | -4.7억 EUR | -3.1억 EUR | 4,541만 EUR |
+| FCF 마진 (fcf_margin) | -5674.4% | -997.0% | -176.1% | -84.6% | 6.3% |
+| SBC (sbc) | — | — | — | 9,551만 EUR | 1.2억 EUR |
+| SBC/매출 (sbc_to_revenue) | — | — | — | 26.3% | 16.1% |
+| SBC/영업현금흐름 (sbc_to_ocf) | — | — | — | — | 215.5% |
+| SBC 차감 FCF (fcf_after_sbc) | — | — | — | -4.0억 EUR | -7,076만 EUR |
+| ROIC (roic) | — | — | — | -176.4% | -380.8% |
+| 순현금 (net_cash) | 4.5억 EUR | 4.4억 EUR | 3.9억 EUR | -2.6억 EUR | -2.0억 EUR |
 | 희석 주식 수 (diluted_shares) | 5,477만 | 5,607만 | 5,629만 | 5,789만 | 6,061만 |
 | 주식 수 변화 (share_change) | — | 2.4% | 0.4% | 2.9% | 4.7% |
+| DSO(일) (dso) | — | — | — | 166.9 | 71.6 |
 | DIO(일) (dio) | 7,812.3 | 3,929.8 | 1,717.8 | 2,437.9 | 1,159.6 |
 | 발생액 비율 (accruals_ratio) | — | -8.0% | -1.5% | -7.2% | -22.7% |
 
-표에 없는 키도 인용할 수 있다: cash, cash_total, cost_of_revenue, debt_total, gross_profit, income_tax, inventory, inventory_growth, operating_income, pretax_income, rnd, total_assets
+표에 없는 키도 인용할 수 있다: cash, cash_total, cost_of_revenue, debt, debt_current, debt_total, equity, gross_profit, income_tax, intangibles, inventory, inventory_growth, operating_income, pretax_income, receivables, receivables_growth, rnd, total_assets
+
+### 시장 · TTM(FY2026Q2) 기준 (C:키)
+
+| 항목 | 값 |
+|---|---|
+| 주가 (price) | 225.25 USD/ADR (2026-10-16, F84) → 주당 200.88 EUR |
+| 희석 주식 수 (shares) | 6,832만 |
+| 시가총액 (market_cap) | 137.2억 EUR |
+| 순현금 (net_cash) | 3.3억 EUR |
+| EV (ev) | 134.0억 EUR |
+| FCF 수익률 (fcf_yield) | 2.4% |
+| P/FCF (p_fcf) | 41.00x |
+| EV/매출 (ev_revenue) | 12.80x |
+| PER (pe) | 18.50x |
+| 순부채/EBITDA (net_debt_to_ebitda) | — |
+| 현금 소진 연수 (runway_years) | — |
 
 ### 회계 품질 신호 (코드 계산 — forensic이 하나씩 해명해야 한다)
 
-- 신호 없음
+- [watch] sbc_to_revenue (C:sbc_to_revenue): SBC/매출 16.1% > 10%
+- [watch] sbc_to_ocf (C:sbc_to_ocf): SBC/영업현금흐름 — FCF의 상당 부분이 주식 보상 215.5% > 50%
+
+### 가이던스 적중 (C:guidance_hit_rate = 33%)
+
+- skytrofa_revenue FY2024: 가이던스 3.3억 → 실제 2.0억 = miss [F233, F226]
+- skytrofa_revenue FY2024: 가이던스 2.3억 → 실제 2.0억 = miss [F234, F226]
+- operating_expenses FY2024: 가이던스 6.0억 → 실제 6.0억 = hit [F235, F230]
+
+### 역DCF — 현재 가격이 가정하는 것
+
+EV 134.0억 EUR를 정당화하려면 매출이 10년간 연 몇 % 커져야 하는가 — FCF 마진이 지금 값에서 목표 마진으로 직선 수렴, 할인율 10%, 이후 영구성장 3%.
+기본 시나리오 목표 마진 30% 기준: 연 17.2% (C:implied_cagr)
+
+| 목표 FCF 마진 | 내재 매출 성장(연) | 인용 키 |
+|---|---|---|
+| 10% | 30.3% | C:implied_cagr@m10 |
+| 15% | 25.4% | C:implied_cagr@m15 |
+| 20% | 22.0% | C:implied_cagr@m20 |
+| 25% | 19.4% | C:implied_cagr@m25 |
+| 30% | 17.2% | C:implied_cagr@m30 |
+
+### 시나리오 가치 — 5년, 할인율 10% (C:지표@시나리오 — p·revenue_cagr·fcf_margin·exit_multiple·value·iv·irr·revenue·fcf)
+
+| 시나리오 | 확률 | 5년 매출 | 매출 연성장 | FCF 마진 | 출구 P/FCF | 주당 가치 | 현재가치(IV) | 연 수익률 |
+|---|---|---|---|---|---|---|---|---|
+| 약세 | 30% | 20.1억 EUR | 22.8% | 20% | 14x | 91.46 | 56.79 | -14.6% |
+| 기본 | 50% | 33.5억 EUR | 36.0% | 30% | 18x | 293.75 | 182.40 | +7.9% |
+| 강세 | 20% | 46.1억 EUR | 45.0% | 38% | 22x | 632.60 | 392.80 | +25.8% |
+
+확률 가중: 주당 가치 300.83 · IV 186.79 · 기대 연 수익률 +8.4% (C:expected_irr) · 손실 확률 30% (C:p_loss) · 현재 주가 200.88
+
+기본 시나리오 연 수익률 분해 (로그 기여, 합 = 총계): 매출 성장 +30.7% · 마진 변화 +31.2% · 멀티플 변화 -55.9% · 주식 수 변화 -1.0% · 현금 축적 +2.6% = +7.6%
+
+민감도 — 기본 시나리오 연 수익률 (행: 매출 성장 ±, 열: 출구 멀티플 배수)
+
+| 성장 \ 멀티플 | ×0.75 | ×1 | ×1.25 |
+|---|---|---|---|
+| -5%p | -2.0% | +2.8% | +6.8% |
+| +0%p | +2.8% | +7.9% | +12.2% |
+| +5%p | +7.7% | +13.1% | +17.6% |
+
+기본 시나리오 연도별 (드라이버 모델)
+
+| 기간 | 매출 | FCF 마진 | FCF | 희석 주식 수 | 순현금 |
+|---|---|---|---|---|---|
+| FY2026 | 13.5억 EUR | 11.0% | 1.5억 EUR | 6,900만 | 4.8억 EUR |
+| FY2027 | 19.0억 EUR | 15.8% | 3.0억 EUR | 6,969만 | 7.8억 EUR |
+| FY2028 | 24.3억 EUR | 20.5% | 5.0억 EUR | 7,039만 | 12.7억 EUR |
+| FY2029 | 29.1억 EUR | 25.3% | 7.4억 EUR | 7,109만 | 20.1억 EUR |
+| FY2030 | 33.5억 EUR | 30.0% | 10.0억 EUR | 7,181만 | 30.1억 EUR |
+
+### 컨센서스 대비 (C:consensus_diff@지표@기간)
+
+| 지표 | 기간 | 컨센서스 | 기본 시나리오 | 차이 |
+|---|---|---|---|---|
+| revenue | FY2026 | 13.7억 EUR | 13.5억 EUR | -1.2% |
+| revenue | FY2027 | 20.2억 EUR | 19.0억 EUR | -6.2% |
+
+### 기저율 — 같은 성장을 해낸 기업 비율 (C:base_rate@implied·base·bull)
+
+- 시장 내재 성장 (역DCF): 연 17.2% × 10년 → 기저율 표 없음
+- base 시나리오 매출 성장: 연 36.0% × 5년 → 기저율 표 없음
+- bull 시나리오 매출 성장: 연 45.0% × 5년 → 기저율 표 없음
 
 ### 페르소나 지표 (코드 계산 · case 기본값 기준, C:지표@페르소나)
 
-- 앤더슨 case={"from": "bull"}: 
-- 슬레이터 case={"from": "base"}: 
-- 애크먼 case={"from": "base"}: leveraged=아니오
-- 클라만 case={"from": "base"}: leveraged=아니오
+- 앤더슨 case={"from": "bull"}: value_10y=1,702.0, revenue_5y=6.41x, price=200.9, upside_10y=8.47x, buy_below=340.4
+- 슬레이터 case={"from": "base"}: cash_survives=예, cash_min=8.4억 EUR, price=200.9
+- 애크먼 case={"from": "base"}: fcf_positive=예, leveraged=아니오, intrinsic_value=182.4, price=200.9, mos=-10.1%, buy_below=145.9
+- 클라만 case={"from": "base"}: fcf_positive=예, leveraged=아니오, net_cash_ps=4.8, no_growth_ps=36.1, tangible_book_ps=21.0, owner_fcf=2.1억 EUR, hard_value=36.1, hard_basis=no_growth_ps, low_52w=165.9, high_52w=251.6, intrinsic_value=182.4, iv_low=56.8, iv_high=182.4, price=200.9, mos=-10.1%, downside=82.0%, growth_premium=82.0%, buy_below=72.3, traded_below_52w=아니오
 
 ### 계산 경고
 
-- 주가 통화 USD ≠ 재무 통화 EUR — fx 사실 필요 (단위 EUR/USD)
+- 기저율 표 없음 — `python3 council.py baserate`로 data/base_rates.json을 만든다
 
 ## 근거
 
@@ -90,9 +472,7 @@
 | S32 | filing | 2025-02-12 | [20-F (XBRL)](https://www.sec.gov/Archives/edgar/data/1612042/000095017025018852/0000950170-25-018852-index.htm) |  |
 | S33 | filing | 2026-02-11 | [20-F (XBRL)](https://www.sec.gov/Archives/edgar/data/1612042/000119312526046590/0001193125-26-046590-index.htm) |  |
 | S34 | filing | 2023-02-16 | [20-F (XBRL)](https://www.sec.gov/Archives/edgar/data/1612042/000095017023003068/0000950170-23-003068-index.htm) |  |
-| S35 | news | 2026-10-16 | [Ascendis Pharma A/S (ASND) Stock Price, News, Quote & History - Yahoo! Finance Canada](https://news.google.com/rss/articles/CBMiUkFVX3lxTE9EOVJNcG5FM21pY0NPNEJDVzVLbUhTT05JUkhKb2FxbzNUZEZ4dGJEWnNaR1h6QUkyZXoxU0tDZ0ZtdVBEY3dXOXNmTDRlcV9iZ3c?oc=5) | Yahoo! Finance Canada |
 | S36 | news | 2026-08-13 | [Ascendis Pharma A/S Q2 Earnings Call Highlights - TradingView](https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdUJFVXhFNDdmaGU5NEJqWDgycEdZZFdkMV9iM3hQZWJIWDhqLXp2ZVVoWmFxR0JIQnMtMlNqV0RzNmEwSDdfaENpOGhJbXNLc2w0cGYzMVJkc1ZweVgtV25DaVlfZVhkZWFEZGlMY0FnZi1xWWtCcVVrNkVaY1paUXdUVTJUcm96eEZ2aVh6N0Y1bkxIZV9uT3hSVHBHeUlBZTFJSlZHTmwtZ00?oc=5) | TradingView |
-| S37 | news | 2026-10-03 | [Ascendis Pharma (NasdaqGS:ASND) Stock Price - Simply Wall Street](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5MZnBMYU94VVhYYWcwd05DVWNXTDBkNEw1MFU1M2toTVpKUUZ6N3FFN1dfNUYzdm9ZNlVrbGxpM1NKU3BPTDc1YmF1WFh0YUFlSHFV?oc=5) | Simply Wall Street |
 | S38 | news | 2026-09-08 | [Ascendis Pharma to Participate in the Morgan Stanley 24th Annual Global Healthcare Conference - GlobeNewswire](https://news.google.com/rss/articles/CBMi-AFBVV95cUxQMndMeTdpclVMNm5XZTVwcG5IQ0hFZTNkdWwxUk5sSHdObWNIOEJ4MkVjMEdPdk1mbzNsN1NHc0NTMEk4YUVEV3hTblYwdnZUbDdGTlFyRVI1UGw0MXlsMEMwN19hXzhPbzJSVzhyQUU5SkU5VGU1SlpzNDZaWG5tckRWX2ZjZGQ3ak9tQVFHcm5pWXUtdl8xbWszbjlRbEFYSUstaXRjU2RWR1NwUEMyWGE0cnp6ZENSaEZhWFV4OE1fTG9fbUd6NnZSaHZhU0lTY0dkRk9JYUwyNFJqei00VVlOUGtqWlNwQWU0SW9ZU3VPcl9uWk1xUA?oc=5) | GlobeNewswire |
 | S39 | news | 2026-08-13 | [Ascendis Pharma Reports More Than 220 U.S. YUVIWEL Enrollments - Stock Titan](https://news.google.com/rss/articles/CBMirAFBVV95cUxONHVXM2EtWkc1M1padi16bnF0YW52elAyM25UMHp4RnlqMzctdTdMMV9UNDZVTWN1NThwTUN6Q25YZ2NWLUdxeUFndFBaWE5leUZCb28yRE9Fdi1nNGdmZzFRMmhBd0VnTlBFOFBQZW10MU1jNVZhYVpVcDNReHh5WFB4TXREenh3ZnVmXy03bmpLbWcxRzFGVXJyNUV4ZnRsUnBsV3ZSUE9TTUJD?oc=5) | Stock Titan |
 | S40 | news | 2026-09-16 | [Ascendis Pharma: Back To Full Independence (NASDAQ:ASND) - Seeking Alpha](https://news.google.com/rss/articles/CBMiigFBVV95cUxQam9fZWc1Q2hyWEhxNllSQ1dGdGJKdU1mWUM0SE5qUmxKa21DUlRmU1gxQjBtOFpGeklNWVNvZ2VBQUE2b0J4Q2dpT2w0Zm9IWnFzSGZCZDhYOXhLdXFfRHZBOGp2bzNRSDZobzlSQk5jVDNBVU5mcnRkWVIwdWRabm9oelJlN1JWbHc?oc=5) | Seeking Alpha |
@@ -111,3 +491,39 @@
 | S53 | news | 2026-09-14 | [Ascendis Pharma Regains Rights to TransCon Metabolic and Cardiovascular Programs, Including Once-Monthly TransCon Semaglutide - Quiver Quantitative](https://news.google.com/rss/articles/CBMi8gFBVV95cUxPOS1MdzFyanNaNzMwZDB1N1F1OGVPR2xjUnZYX3V5LVdNU0NQR2JtR1VoOEdkRkxjY0FRVzIxTDZWcm93VHBhZ2NHSnZhTm92dXNvWmpWTHFIMlVPY21mN0tLVFZJTmo1YTQ2dGpOU082X1U5eXhFNHUyd3BzWUNSTUZfQmVzS19tUnJPMm1DQWdINThRaUxEampoYUY3ZkEzaF9LWUgxaTNPbUdqLVVUNW93MnpKMlFzb00tZUhxRHE3cUp5LUt6dUVZQjhfWFA4QkljTUdoYURmV29oTkgxWDRlMGRXc3pjTlFqUFNqdXNtQQ?oc=5) | Quiver Quantitative |
 | S54 | news | 2026-08-06 | [Ascendis Announces COACH Week 78 Results and Provides - GlobeNewswire](https://news.google.com/rss/articles/CBMimAJBVV95cUxOSjB6b05ObkY5QmNxeXFRU25vdzNJVjNoUVh2M1UxaUh0X09aT25iSkxfSGozdFctTFFFaE81U3pRSDZLcGplZU5kX2M4SzBuaXdyODljV1VTN2taSmw1VVdHcldSYnltWGRCZkwyYm5mTVgzeG5sd0gwVEZoR3R1NC1NZVNGQWtzbzdDZG9yUjdyVG9zSGJxS2VtNkN2cDkzdzlKVHlNWktxak9jblBPdHhWVWtkQWFabDlzbDd0R1RBTV9SN1pPY2F6RHNTS3FrcWtEd242U3JPdUgyblJjOVc3RU1ESVkwNm1MZmlmTjMzQUpJbm5DSVIwSF9CekhxcnBvVW9XejNueVZYMllZSEM3S3lQVVBN?oc=5) | GlobeNewswire |
 | S55 | data | 2026-10-12 | [Why Ascendis Pharma A/S's (ASND) Stock Is Down 12.50% - AAII](https://www.aaii.com/investingideas/article/543156-why-ascendis-pharma-as8217s-asnd-stock-is-down-1250) | 2026-10-12 오후 4시(CST) 기준 ASND 주가 $227.00, 직전 종가 $229.230 대비 -0.97%. 10월 16일 종가는 찾지 못했다. 다른 날짜의 참고치: 10월 2일 종가 $227.87(chartrow). 같은 시기 증권사 목표가는 모건스탠리 $273(10/12 신규 매수), UBS $269(10/16, $307에서 하향), HC Wainwright $345(8/27 신규 매수) — 모두 언론 보도 기준. |
+| S56 | filing | 2026-08-13 | [Ascendis Pharma Reports Second Quarter 2026 Financial Results (6-K Ex.99.1)](https://www.sec.gov/Archives/edgar/data/1612042/000119312526348046/d31437dex991.htm) | 2026년 2분기(2026-06-30 종료) 실적 보도자료, 1차. 총매출 €339.285M(전년 €158.045M). 제품매출 €314.910M(+105%): YORVIPATH €252.114M(전년 €102.957M), SKYTROFA €55.214M(전년 €50.706M, 협력사 대상 제품 판매 포함), YUVIWEL €7.582M(첫 분기). 비제품 매출: 서비스·임상공급 €4.856M, 라이선스 €2.473M, 마일스톤 €17.046M(TransCon CNP 관련). 지역별: 미국 €265.471M(전년 €108.344M), 유럽 €49.671M, 기타 €24.143M. 매출원가 €27.658M, 매출총이익 €311.627M, R&D €75.888M, SG&A €173.341M. 기타영업이익 €158.067M은 PRV 매각(일회성). 영업이익 €220.465M(IFRS 마진 65.0%). Non-IFRS 영업이익 €92.006M(마진 27.1%) = IFRS 영업이익 + SBC €29.608M − PRV €158.067M. 세전이익 €230.093M, 법인세비용 €23.123M, 순이익 €206.970M(희석 EPS €2.83, 기본 €3.22). Non-IFRS 순이익 €61.264M(희석 €0.90); 조정 항목은 SBC, PRV, 관계기업 손익 −€3.836M, 파생부채 재측정 −€8.313M, 미인식 이연법인세자산 인식 −€24.622M, 세효과 +€19.524M. 희석 가중 주식 수 68,320,412주(전년 63,911,374주). 상반기: 매출 €585.886M, 영업현금흐름 €273.961M(전년 −€21.654M), 무형·유형자산 취득 €10.948M, 자사주 취득 €103.412M, 워런트 행사 유입 €50.086M, SBC €59.964M, 법인세 +€654.393M(미인식 이연법인세자산 €704.209M 인식 포함), Non-IFRS 영업이익 €147.174M, Non-IFRS 순이익 €78.252M. 2026-06-30 재무상태: 현금 €812.260M(2분기에 자사주 매입·RSU 순결제로 €56M 사용), 비유동 차입금 €384.642M, 유동 차입금 €65.432M, 전환사채 0, 자기자본 €1,436.491M(2025년 말 −€162.821M), 총자산 €2,286.020M, 이연법인세자산 €699.276M, 매출채권 €206.505M, 재고 €310.576M, 무형자산 €3.680M, 관계기업 투자 €30.479M. 차입금 합계는 €384.642M + €65.432M = €450.1M이다. 기존 F76(debt €450.1M)은 이 합계라서 F77(debt_current €65.4M)과 더하면 €65.4M이 이중 계상된다. 발행주식은 66,189,926주이고 자기주식 516,642주를 포함한다. 2026-05-06 $575M 2.25% 2028년 만기 전환사채가 전액 전환됐다(차입금·파생부채 €719M이 자본으로 전환). 2026-06-26 장 마감 후 러셀 3000·1000·2500·Midcap 지수에 편입. KPI: YUVIWEL은 7월 31일까지 미국 고유 환자 등록 220명 초과, 처방의 100명 초과, 등록의 65% 초과가 급여 승인. SKYTROFA 출시 후 누적 고유 등록 2만 명 초과. YORVIPATH는 35개국 초과에서 상업 판매 또는 named patient 프로그램으로 공급. COACH 78주: 21명 전원 투여 지속. reACHin(0~2세) 목표 등록 완료. TransCon CNP+hGH 소아 연골무형성증 3상은 2026년 4분기 등록 개시, 연골저형성증 CNP 단독 3상은 하반기 개시 예정. EMA 결정은 2026년 4분기 예상. |
+| S57 | filing | 2026-08-13 | [Ascendis Pharma Interim Report Q2 2026 (6-K, IFRS) — MD&A 3개월 현금흐름·자기주식·워런트·차입금·소송](https://www.sec.gov/Archives/edgar/data/1612042/000161204226000016/asnd-20260630.htm#mdna-notes) | 2026년 2분기 중간보고서 본문·주석, 1차. MD&A 표: 3개월 영업현금흐름 €281.682M(2025년 2분기 −€7.342M), 3개월 영업비용(R&D+SG&A) €249.229M. 주석 9: 발행주식 66,189,926주(액면 DKK 1, 자기주식 516,642주 포함), 상반기 4,212,518주 증가(그중 전환사채 전환 3,635,813주). 주석 10 자기주식: 1월 1일 597,096주, 제3자 매입 505,418주, 주식보상으로 이전 585,872주, 6월 30일 516,642주(총주식의 0.8%). $120M 자사주 매입 프로그램(2026-01-09 승인) 집행: 3월 254,027주 $60.0M(평균 $236.16), 5월 251,391주 $60.0M(평균 $238.64) — $120M 전액 집행. 6월 30일 기준 주주총회가 이사회에 최대 2,000,000주 매입 권한을 줬다. 주석 8: 6월 30일 미행사 워런트 4,759,879개(가중평균 행사가 €107.87), 행사 가능 4,008,234개, 행사가 범위 €19.42~€211.85. EPS 주석: 2분기 기본 가중 64,344,993주, 희석 효과는 전환사채 1,291,546주, 워런트·RSU 2,683,873주. 차입금 구성(2026-06-30): Royalty Pharma 로열티 펀딩 부채 €301.789M(공정가치 €303.0M, 미래 매출의 일정 비율을 받은 금액의 정해진 배수까지 지급), 리스 부채 €148.285M. 은행 차입과 전환사채는 없다. PRV 매각($187.5M, 순 €158.1M)은 기타영업이익이자 영업현금흐름으로 분류. 1분기 이연법인세자산 최초 인식 €679.6M. BioMarin 소송: UPC 뮌헨(EP3175863 — EPO 항고심판부가 2025-10-16 전면 무효화, UPC가 2025-12-29 침해 소송 기각, BioMarin이 일부 소송비용 상환), 미국 ITC(US RE48,267 — 2026년 4월 심리), 캘리포니아 북부지법 소송은 ITC 대기로 정지. FDA는 2026년 2월 BioMarin의 시민청원(VOXZOGO 고아약 독점 만료 전 CNP 유사체 승인 보류 요청)을 기각. 경쟁: BioMarin 일 1회 VOXZOGO(2021-11 FDA 승인)와 장기작용 CNP 개발. 성장호르몬은 Novo Sogroya(2026년 2월 미국 소아 ISS·누난 증후군·SGA 적응증 추가 승인), Pfizer Ngenla, 중국 Jintrolong·Pegpesen. Eli Lilly Humatrope는 2026-12-31 영구 단종 예정. 부갑상선기능저하증 임상 단계 경쟁: Calcilytix(BridgeBio), Entera Bio/Opko, Extend, AstraZeneca, MBX, Septerna. 관세: 2026-04-02 섹션 232 특허 의약품 관세 포고. Annex III 기업은 2026-07-31, 기타 기업은 2026-09-29부터 적용 예정이며 회사는 영향을 정량화하지 않았다. 사업 부문은 단일. |
+| S58 | filing | 2026-05-07 | [Ascendis Pharma Reports First Quarter 2026 Financial Results (6-K Ex.99.1)](https://www.sec.gov/Archives/edgar/data/1612042/000119312526210386/d121855dex991.htm) | 2026년 1분기(2026-03-31 종료) 실적 보도자료, 1차. 총매출 €246.601M(전년 €100.954M). 제품매출 €240.853M: YORVIPATH €196.896M(전년 €44.688M; 미국 계절성, 일시적 무상공급 환자 증가, 유럽 Direct의 시장접근 확대 관련 일회성 영향 포함), SKYTROFA €43.957M(전년 €51.340M). 매출원가 €17.515M, 매출총이익 €229.086M, R&D €59.044M(YUVIWEL 출시 전 재고 상각 환입 포함), SG&A €145.230M, 영업이익 €24.812M(마진 10.1%). Non-IFRS 영업이익 €55.168M(SBC €30.356M 가산, 마진 22.4%). 세전손실 −€48.177M(전환사채 파생부채 재측정 등 금융비용 €67.255M), 법인세 +€677.516M(미인식 이연법인세자산 €679.024M 인식), 순이익 €629.339M(희석 EPS €9.75). Non-IFRS 순이익 €17.550M(희석 €0.27). 희석 주식 수 64,521,948주. 1분기 현금흐름표: 영업현금흐름 −€7.721M, 무형·유형자산 취득 €7.712M, 감가상각 €4.220M, 자사주 취득 €51.857M, 워런트 행사 유입 €31.625M. 2026-03-31 현금 €572.820M, 자기자본 €487.973M, 총자산 €2,003.279M, 발행주식 62,376,846주(자기주식 265,251주 포함). KPI: 1분기 YORVIPATH 미국 신규 환자 등록 1,000명 초과, 3월 31일까지 누적 미국 고유 등록 6,300명 초과(처방의 2,700명 초과), 35개국 공급. YUVIWEL은 2026-02 FDA 가속승인, 고아약 독점 2033-02-27까지, 4월 미국 출시 후 5월 1일까지 등록 60명 초과(처방의 35명 초과). 후속 사건: 2026-04-20 보통주 나스닥 직접 상장(ADS 대체). 2026-05-06 $575M 전환사채 전액 상환 통지, 보유자 전원 전환으로 3,635,813주 교부(3월 말 차입금·파생부채 €733M). PRV를 $187.5M에 매각 계약. 종양(TransCon IL-2 β/γ) 자체 개발 중단. |
+| S59 | filing | 2026-02-11 | [Ascendis Pharma Reports Fourth Quarter and Full-Year 2025 Financial Results (6-K Ex.99.1)](https://www.sec.gov/Archives/edgar/data/1612042/000119312526046736/d73635dex991.htm) | 2025년 4분기·연간 실적 보도자료, 1차. CEO: '2026년 약 €500M의 영업현금흐름을 낼 위치에 있으며 2030년 연간 제품매출 최소 €5B를 목표로 한다(Vision 2030)'. 4분기: 총매출 €247.500M, 제품매출 €240.092M(YORVIPATH €186.677M, SKYTROFA €53.415M), 매출원가 €23.598M, 매출총이익 €223.902M, R&D €78.151M, SG&A €135.855M, 영업이익 €9.896M, 세전손실 −€26.705M, 법인세 €6.857M, 순손실 −€33.562M, 4분기 영업현금흐름 €73M(회사 발표). 2025년 연간: 매출 €720.132M, 제품매출 €683.572M(YORVIPATH €477.412M, SKYTROFA €206.160M), 비제품매출 €37M, 총영업비용 €761M, 순손실 €228.034M. 2024년 비교치: SKYTROFA €197.001M, YORVIPATH €28.727M, 제품매출 €225.728M, 총영업비용 €598M. 2025-12-31: 현금 €616.041M, 비유동 차입금 €385.254M, 유동 기타 차입금 €57.141M, 전환사채 차입금 €429.391M + 파생부채 €256.231M, 자기자본 −€162.821M, 매출채권 €141.333M, 무형자산 €3.710M. 발행주식 61,977,408주(회사 보유 ADS 597,096주 포함). KPI: 미국 YORVIPATH 고유 등록 5,300명 초과, 처방의 약 2,400명. $120M 자사주 매입을 2026년에 시작한다고 밝혔다. |
+| S60 | filing | 2025-11-12 | [Ascendis Pharma Reports Third Quarter 2025 Financial Results (6-K Ex.99.1)](https://www.sec.gov/Archives/edgar/data/1612042/000119312525277532/d88973dex991.htm) | 2025년 3분기(2025-09-30 종료) 실적 보도자료, 1차. 총매출 €213.634M(전년 €57.833M; 일본 Teijin 승인 마일스톤 €12.922M 포함). 제품매출 €193.790M: YORVIPATH €143.089M(전분기 대비 환율 영향 −€3.6M), SKYTROFA €50.701M. 매출원가 €22.354M, 매출총이익 €191.280M, R&D €66.879M, SG&A €113.404M, 영업이익 €10.997M(첫 영업흑자 분기), 순금융비용 €60.9M(비현금 재측정 손실 €47.2M 포함), 세전손실 −€57.372M, 법인세 €3.617M, 순손실 −€60.989M. 2025-09-30: 현금 €539.092M, 자기자본 −€174.075M, 총자산 €1,154.750M, 비유동 차입금 €331.369M, 전환사채 차입금 €426.241M, 발행주식 61,695,211주(회사 보유 ADS 597,055주 포함). KPI: 미국 YORVIPATH 고유 등록 4,250명 초과, 처방의 2,000명 초과, 30개국 초과 공급. 당시 TransCon CNP PDUFA는 2025-11-30이었다(이후 2026-02-28로 연장돼 2026-02-27 승인). |
+| S61 | filing | 2025-11-12 | [Ascendis Pharma Interim Report Q3 2025 (6-K, IFRS) — MD&A 3개월 영업현금흐름](https://www.sec.gov/Archives/edgar/data/1612042/000119312525277622/asnd-20250930.htm#mdna) | 2025년 3분기 중간보고서, 1차. MD&A 표: 3개월 영업현금흐름 €2.153M(2024년 3분기 −€56.131M) — 회사는 '처음으로 분기 영업현금흐름이 양수'라고 밝혔다. 9개월 누계: 영업현금흐름 −€19.501M, 무형·유형자산 취득 €5.094M. 3분기 가중평균 주식 수 60,756,015주(순손실이라 기본=희석). 3분기 영업비용(R&D+SG&A) €180.283M. |
+| S62 | filing | 2026-02-11 | [Ascendis Pharma Annual Report 2025 (Form 20-F) — 현금흐름표·차입금 구성·워런트·감사인](https://www.sec.gov/Archives/edgar/data/1612042/000119312526046590/asnd-20251231.htm) | 2025년 20-F 본문, 1차(기존 S33은 같은 공시의 색인 페이지). 현금흐름표: 무형·유형자산 취득 2025년 €8.485M, 2024년 €1.427M, 2023년 €2.442M. 영업현금흐름 2025년 €53.897M, 2024년 −€306.197M. 주식보상비용 2025년 €116.171M, 2024년 €95.512M. 2025-12-31 차입금: 전환사채 €429.391M, 로열티 펀딩 부채 €290.871M, 리스 부채 €151.524M. 재무상태표 분류: 비유동 €385.254M, 유동 기타 €57.141M, 유동 전환사채 €429.391M. 2024-12-31: 비유동 €365.080M, 유동 기타 €33.329M, 전환사채 €458.207M. 전환사채 파생부채 2025년 €256.231M. 금융 약정(covenant)은 없다. Royalty Pharma 상한형 합성 로열티 계약 두 건: 2023-09 $150M을 받고 미국 SKYTROFA 순매출의 9.15%, 2024-09 $150M을 받고 미국 YORVIPATH 순매출의 3.0%를 정해진 배수에 이를 때까지 지급. 2025년 이자비용: 전환사채 €36.675M, 로열티 펀딩 €39.572M, 리스 €4.186M. 2025-12-31 미행사 워런트 5,222,591개(가중평균 행사가 €103.24, 행사가 €11.98~€180.65). 감사인 Deloitte Statsautoriseret Revisionspartnerselskab(코펜하겐). 감사인 변경·재무제표 정정 공시는 확인되지 않았다. |
+| S63 | filing | 2026-09-29 | [6-K: Closing of Warrant Exercise Window — share capital DKK 66,400,738](https://www.sec.gov/Archives/edgar/data/1612042/000119312526407293/d153773d6k.htm#share-capital) | 2026-09-29 워런트 행사 기간 종료, 1차(기존 S3과 같은 공시). 210,812주 신주 발행(평균 행사대금 약 $123.36/주), 등록 자본금 DKK 66,400,738(액면 DKK 1, 즉 발행주식 66,400,738주, 자기주식 포함)으로 증가. 이것이 이 노트에서 찾은 가장 최근의 공시 주식 수다. 같은 해 다른 행사 기간: 2026-03-30 399,438주(약 $92.10/주, 자본금 DKK 62,376,846), 2026-06-29 177,267주(약 $121.57/주, 자본금 DKK 66,189,926). 9월 29일 기준 자기주식 수는 공시되지 않았다(6월 30일 516,642주). |
+| S64 | filing | 2026-08-31 | [6-K: Ascendis and BioMarin enter binding term sheet for global settlement and license (YUVIWEL/navepegritide)](https://www.sec.gov/Archives/edgar/data/1612042/000119312526376733/d139239d6k.htm#biomarin-settlement) | 2026-08-31 BioMarin과 전 세계 합의·라이선스 구속력 있는 조건합의서, 1차(기존 S8과 같은 공시). BioMarin이 navepegritide 관련 제품의 연구·개발·제조·판매에 대해 비독점, 전 세계, 로열티 지급 조건의 라이선스를 부여한다. 또 일부 규제상 권리·독점을 포기하고, 모든 소송을 취하하며, 해당 지식재산에 대해 소송하지 않기로 약정한다. Ascendis도 모든 소송을 취하하고, YUVIWEL 국가별 첫 판매일부터 2030-05-20까지 navepegritide 순매출의 로열티를 낸다: 미국 20%, EU·한국·브라질 18%. 합의가 이행되면 ITC 수입금지 위험이 사라진다. 대신 2030년 5월까지 YUVIWEL 매출총이익이 그만큼 줄어든다(약세 요인). 2분기 콜(2026-08-13)에서 CEO는 ITC 단독 판사의 1차 판단이 8월, 최종 결정이 12월에 나온다고 했다. 1차 판단 내용은 확인하지 못했다. 최종 계약서 체결 여부도 이 노트에서 확인하지 못했다. |
+| S65 | filing | 2026-09-15 | [6-K: Ascendis regains rights to TransCon metabolic and cardiovascular programs after Novo Nordisk termination](https://www.sec.gov/Archives/edgar/data/1612042/000119312526390877/d183438d6k.htm#novo-termination) | 2026-09-14 발표, 1차(기존 S4와 같은 공시). 2024년 11월 Novo Nordisk와 맺은 협력 계약이 종료된다. Novo에 준 대사·심혈관 질환(비만 포함) 라이선스는 모두 Ascendis로 돌아오며, 월 1회 TransCon semaglutide가 여기에 포함된다. '양측 모두 상대방에 대한 지속적 재무 의무가 없다' — 반환 대가나 위약금이 없다는 뜻이다. Fierce Biotech(S933)에 따르면 원 계약은 선급·개발·허가 마일스톤 최대 $285M과 단계별 로열티였고, 추가 후보마다 $77.5M 마일스톤이 붙었다. 회사는 비만을 포함한 심혈관·대사 신규 프로그램 여러 개를 직접 시작할 계획이다. 같은 날 $400M 자사주 매입을 발표했다(S910). 다음 날 9월 15일 주가는 종가 $264.92에서 $239.77로 내렸다(약 −9.5%, 노트 계산; 장중 저가 $228.56, Yahoo S922). 같은 날 한 애널리스트의 하향이 겹쳤다는 보도가 있다(Quiver, AI 생성 2차). |
+| S66 | filing | 2026-09-15 | [6-K: Board authorizes up to $400 million share repurchase program](https://www.sec.gov/Archives/edgar/data/1612042/000119312526390874/d52763d6k.htm#buyback) | 2026-09-14 이사회가 최대 $400M의 보통주 매입을 승인했다, 1차(기존 S5와 같은 공시). 방식은 공개시장 매입, 장외 협상, 블록, ASR, 10b5-1 등. 매입 의무는 없고 언제든 수정·중단할 수 있다. 직전 $120M 프로그램(2026-01 승인)은 3월·5월에 505,418주로 전액 집행됐다(S901). 새 프로그램의 집행 실적은 2026-10-18 기준 공시되지 않았다. 모건스탠리 컨퍼런스 요약(S921, 2차)에 따르면 회사는 추가 자본 조달 계획이 없다고 했다. |
+| S67 | filing | 2026-10-16 | [6-K: CHMP positive opinion for once-weekly TransCon CNP (navepegritide) in the EU](https://www.sec.gov/Archives/edgar/data/1612042/000119312526423938/d167361d6k.htm#chmp) | 2026-10-16 EMA CHMP가 TransCon CNP(navepegritide)의 EU 판매 허가에 긍정 의견을 냈다, 1차(기존 S1과 같은 공시). 적응증은 성장판이 닫히지 않은 2세 이상 연골무형성증 소아다. EC 최종 결정은 2026년 4분기 예상이다. EMA는 고아의약품 지정 유지 여부를 다시 검토한다(약세 위험: 유지되지 않으면 EU 시장 독점이 없다). 승인되면 YUVIWEL 브랜드로 2027년 1분기 독일에서 EU 첫 출시를 계획한다. |
+| S68 | filing | 2026-04-20 | [6-K: Ordinary shares commence trading on Nasdaq, replacing ADS listing (mandatory 1:1 exchange)](https://www.sec.gov/Archives/edgar/data/1612042/000119312526162766/d620541d6k.htm#direct-listing) | 2026-04-20 보통주가 나스닥 글로벌 셀렉트에서 같은 티커 ASND로 거래를 시작했다, 1차(기존 S25와 같은 공시). ADS의 마지막 거래일은 2026-04-17이고, 모든 ADS는 1 ADS = 보통주 1주로 강제 교환됐다. 같은 날 8-A12B/A 제출. 그래서 현재 시세는 사실상 보통주 1주 가격이다. 하네스 관례에 따라 주가 단위는 USD/ADR로 두고 adr_ratio = 1을 유지한다(경제적으로 같다). ISIN은 DK0060615755로 정정됐다(2026-04-21 6-K). |
+| S69 | filing | 2026-01-09 | [6-K: Business and strategic roadmap update, 2026 milestones and $120 million share repurchase program](https://www.sec.gov/Archives/edgar/data/1612042/000119312526009636/d13397d6k.htm) | 2026-01-09 사업·전략 로드맵, 1차. YORVIPATH: 미국 고유 등록 5,300명 초과, 처방의 약 2,400명(연말). 미국 외 30개국 초과 공급, 2026년 말까지 10개국 추가 정식 출시 예정. 주 1회 TransCon PTH 제품 프로필 확정. TransCon CNP: PDUFA 2026-02-28, EU MAA 2025-10 제출(결정 2026년 4분기). 지분: Eyconis 41%, VISEN 39%(홍콩 상장사). 이사회가 $120M 자사주 매입을 승인했다. Novo Nordisk 협력(TransCon semaglutide)은 이때 '진행 중'이었다. |
+| S70 | filing | 2026-10-14 | [6-K: Warrant grants of October 13, 2026 (35,890 warrants at $223.21) — 2026 employee warrant grants](https://www.sec.gov/Archives/edgar/data/1612042/000119312526421789/d743945d6k.htm#warrant-grants) | 2026-10-13 직원 워런트 35,890개 부여(행사가 $223.21 = 부여일 종가, 1년 뒤 25%, 이후 36개월 균등 가득), 부여 후 추가 부여 가능 1,459,173개, 1차(기존 S2와 같은 공시). 2026년 월별 직원 워런트 부여(각 6-K): 1/13 42,030개 $215.05, 3/10 22,480개 $240.52, 4/14 32,310개 $249.84, 5/12 31,250개 $237.65, 6/9 27,030개 $213.23, 7/14 14,060개 $265.57, 8/11 15,060개 $254.57, 9/8 29,380개 $270.09, 10/13 35,890개 $223.21. 행사가는 모두 Yahoo 일별 종가(S922)와 일치한다. 이것과 별도로 매년 대규모 정기 부여·RSU·PSU가 있다(SBC 2025년 €116.2M). |
+| S71 | filing | 2024-05-02 | [Ascendis Pharma Reports First Quarter 2024 Financial Results (6-K Ex.99.1) — 2024 guidance](https://www.sec.gov/Archives/edgar/data/1612042/000119312524129390/d820168dex991.htm) | 2024년 1분기 보도자료의 'Financial Update and Outlook', 1차. 2024년 SKYTROFA 매출 €320M~€340M(2023년 평균 환율 기준), 2024년 총영업비용(SG&A+R&D) 약 €600M, 2024년 말까지 분기 영업현금흐름 손익분기 달성 예상. 실제: SKYTROFA 2024년 €197.0M(S917)으로 하단에 크게 못 미쳤다. 총영업비용은 €598M으로 적중했다. 분기 영업현금흐름 흑자는 2025년 3분기(€2.2M, S905)에 처음 달성해 '2024년 말' 목표보다 늦었다. |
+| S72 | filing | 2024-09-03 | [Ascendis Pharma Reports Second Quarter 2024 Financial Results (6-K Ex.99.1) — revised SKYTROFA outlook](https://www.sec.gov/Archives/edgar/data/1612042/000119312524212183/d854471dex991.htm) | 2024년 2분기 보도자료, 1차. 2분기 SKYTROFA 매출 €26M에 과거 기간 판매 차감 추정 조정 −€27M이 반영됐고, 물량은 전년 대비 +134%였다. 2024년 SKYTROFA 전망을 €220M~€240M으로 낮췄다(종전 €320M~€340M). 총영업비용 약 €600M은 유지했다. 분기 영업현금흐름 손익분기는 'YORVIPATH 미국 출시 시점에 따라 2024년 또는 2025년'으로 늦췄다. 같은 시기 Royalty Pharma와 YORVIPATH $150M 합성 로열티 계약을 맺었다. 실제 SKYTROFA 2024년 €197.0M은 낮춘 전망 하단에도 못 미쳤다. 회사는 과거 연도 판매 차감 €4.7M을 빼면 약 €202M이라고 했다(S917). |
+| S73 | filing | 2025-02-12 | [Ascendis Pharma Reports Fourth Quarter and Full Year 2024 Financial Results (6-K Ex.99.1)](https://www.sec.gov/Archives/edgar/data/1612042/000119312525025103/d840926dex991.htm) | 2024년 4분기·연간 보도자료, 1차. 2024년 SKYTROFA 보고 매출 €197.001M(과거 연도 판매 차감 €4.7M 제외 시 약 €202M), YORVIPATH €28.727M, 총영업비용 €598M(R&D €307.0M, SG&A €291.1M), 총매출 €363.6M(Novo 선급금 $100M 포함). 2025년 수치 가이던스는 제시하지 않았다. 2025-02-07까지 미국 YORVIPATH 처방 908건. |
+| S74 | call | 2026-08-13 | [Ascendis Pharma (ASND) Q2 2026 Earnings Call Transcript — The Motley Fool](https://www.fool.com/earnings/call-transcripts/2026/08/20/ascendis-pharma-asnd-q2-2026-earnings-call-transcript/) | 2026-08-13 2분기 어닝콜 원문(Motley Fool 게재). 참석: CEO Jan Mikkelsen, CFO Scott Smith, CBO Sherrie Glass, 미국 사장 Jay Wu. CFO: 2026년 영업현금흐름 'EUR 500M 초과'를 기대하며 'YUVIWEL 출시 초기라 상단은 정하지 않는다'(연초 '약 €500M'에서 하한으로 표현을 바꿈, 연초 가이던스는 PRV 매각 전에 나왔다는 질문 있음). 하반기 전망: YORVIPATH는 '이전 분기와 같은 성장·성과', SKYTROFA 미국은 '비교적 안정', YUVIWEL은 초기 수요가 고무적. YORVIPATH는 미국 출시 2년차에 연환산 블록버스터. YUVIWEL은 6월 30일까지 미국 등록 170명 초과, 7월 말 220명 초과, 급여 승인 65% 초과. 전환 환자, 치료 재개 환자, 처음 치료하는 환자가 모두 있으며 '시장을 키우고 있다'. 재고 비축은 제한적. 은행·전환 차입이 없고 자기자본 €1.4B. Vision 2030 매출 €5B, 장기적으로 €10B 초과 가능. 위험: CEO는 BioMarin ITC 사건에서 단독 판사의 1차 의견이 8월, 최종 결정이 12월이라고 했다(이후 8/31 합의, S908). Jay Wu: YORVIPATH 이탈의 대부분은 용량 적정 기간에 생긴다. 당시 CEO는 Novo의 TransCon semaglutide가 곧 임상에 들어간다고 했다(9/14 종료, S909). |
+| S75 | call | 2026-05-07 | [Ascendis (ASND) Q1 2026 Earnings Call Transcript — The Motley Fool](https://www.fool.com/earnings/call-transcripts/2026/05/08/ascendis-asnd-q1-2026-earnings-call-transcript/) | 2026-05-07 1분기 어닝콜 원문. YORVIPATH 1분기 매출은 일시적 미국 무상공급 프로그램과 유럽 Direct 일회성 사건으로 약 €15M 줄었다. 1분기 미국 신규 처방 환자 1,000명 초과, 누적 6,300명 초과, 처방의 2,700명 초과(분기 300명 이상 증가). 미국 보험 상위 커버리지 약 80% 생명, 누적 승인율 70%대 중반, 등록의 절반 이상이 8주 안에 승인. CEO: '3월이 YORVIPATH 사상 최대 매출 월'. SKYTROFA는 미국 전체 성장호르몬 시장 점유율 7%. YUVIWEL은 출시 4~5주 만에 60명 초과 처방. €500M 영업현금흐름 목표 재확인 질문에 CEO는 '2분기에 다시 말하겠다'고 했다. 자본 배분 1순위는 R&D(CFO). |
+| S76 | call | 2026-02-11 | [Ascendis (ASND) Q4 2025 Earnings Call Transcript — The Motley Fool](https://www.fool.com/earnings/call-transcripts/2026/02/23/ascendis-asnd-q4-2025-earnings-call-transcript/) | 2026-02-11 4분기 어닝콜 원문. CEO: 2026년 영업현금흐름 '약 €500M' 예상, 2030년 연간 제품매출 최소 €5B 목표. 리링크 질문에 CEO는 '€500M 목표에 TransCon CNP 출시는 반영되지 않았다'고 답했다. CFO: YORVIPATH는 2026년에도 꾸준한 환자 증가로 강한 성장을 예상하되 분기별 계절성이 있다. SKYTROFA는 2025년과 비슷한 계절 패턴에 처방 증가율만큼 성장. 2025년 약달러가 SKYTROFA 매출을 약 €9M 줄였다. 4분기 영업현금흐름 €73M, 2025년 순현금 금융비용 약 €8M. 에버코어 애널리스트는 YORVIPATH 1월 WAC 8% 인상을 언급했다. 회사는 순가격을 공개하지 않는다고 답했다. 경쟁 질문(BridgeBio FGFR 억제제, BioMarin 장기작용 CNP)에 CEO는 TransCon CNP의 연속 노출과 내약성을 강조했다. 독립 경영 의지를 재확인했다. |
+| S77 | conference | 2026-09-15 | [Ascendis Pharma at Morgan Stanley 24th Annual Global Healthcare Conference — Quartr summary](https://quartr.com/events/ascendis-pharma-a-s-asnd-morgan-stanley-24th-annual-global-healthcare-conference_FktzYToh) | 모건스탠리 헬스케어 컨퍼런스 발표의 AI 요약(Quartr, 2차 — 원문 아님). 요약 내용: $400M 자사주 매입을 발표했고 추가 자본 조달 계획은 없다. 2026년 영업현금흐름은 €500M 초과, 이듬해 대략 두 배가 될 수 있다(구체 수치 없음). 40개국 초과에서 매출을 인식하며 2028년까지 매년 10~20개국 정식 출시. R&D 비용은 크게 늘지 않고 매출 증가가 비용 증가를 크게 웃돌 것. 내년 3상 결과 2~3건. 주 1회 TransCon PTH 개발. 반환받은 심혈관·대사 프랜차이즈의 1/2상 계획. 2차 요약이라 수치는 사실로 넣지 않았다. |
+| S78 | data | 2026-10-16 | [Yahoo Finance chart API — ASND daily prices (range=2y, interval=1d)](https://query1.finance.yahoo.com/v8/finance/chart/ASND?range=2y&interval=1d) | 2026-10-18에 받은 Yahoo 일별 시세(USD, NasdaqGS). 2026-10-16(금) 종가 $225.25(시가 $226.62, 고가 $226.76, 저가 $223.78, 거래량 680,300주). 직전: 10/15 $226.62, 10/14 $227.00, 10/13 $223.21, 10/12 $227.00(기존 S55와 일치). 52주(2025-10-16~2026-10-16, 252거래일): 장중 최저 $186.054(2025-10-20), 장중 최고 $282.15(2026-07-09). 종가 기준 최저 $196.01(2025-11-10), 최고 $277.18(2026-07-08). 메타데이터의 fiftyTwoWeekLow·High도 186.054·282.15. 주요 변동: 2026-09-14 $264.92 → 9/15 $239.77(Novo 종료·$400M 매입 발표 다음 날), 8/12 $255.46 → 8/13 $246.23(2분기 실적일), 4/17 $244.48(ADS 마지막 거래일) → 4/20 $245.38(보통주 첫 거래일). 2026-04-20 이후는 보통주 1주 가격이다(S912). |
+| S79 | data | 2026-10-16 | [Yahoo Finance chart API — EURUSD=X daily (range=2y, interval=1d)](https://query1.finance.yahoo.com/v8/finance/chart/EURUSD=X?range=2y&interval=1d) | 2026-10-18에 받은 Yahoo 유로/달러 일별 시세. 2026-10-16(런던 기준일) 종가 1.12132 USD/EUR(1유로 = 1.1213달러). 참고: 10/15 1.11951, 10/14 1.12045, 분기 말 2026-06-30 1.14220, 2026-03-31 1.14600, 2025-12-31 1.17473, 2025-09-30 1.17314. 10/17(토) 1.1242는 주말 호가라 쓰지 않았다. 2분기 말보다 유로가 약 1.8% 약해졌다(노트 계산). |
+| S80 | data | 2026-10-09 | [StockAnalysis — Ascendis Pharma (ASND) Stock Forecast & Analyst Estimates (S&P Global consensus)](https://stockanalysis.com/stocks/asnd/forecast/) | 2026-10-09 갱신, 2차(S&P Global 집계를 StockAnalysis가 표시). 재무 통화 EUR. 매출 컨센서스: 2026년 평균 €1.37B(범위 €1.3B~€1.5B, 애널리스트 18명), 2027년 €2.02B. EPS 컨센서스: 2026년 12.79(범위 3.61~18.69), 2027년 9.62. EPS는 회계 기준이 섞였을 수 있다. 2026년 값은 1분기 이연법인세자산 인식(€679M)이 포함된 IFRS EPS로 보인다(상반기 IFRS 희석 EPS €12.73). 그래서 2027년이 2026년보다 낮게 나온다(노트 추론). 투자의견: Strong Buy 15, Buy 5, Hold 0, Sell 0(2026년 10월, 20명). 목표가: 평균 $307.08, 중앙값 $311.94, 최저 $261.84, 최고 $349.37(10/9 종가 $229.23 기준). 개별 목표가 보도: 모건스탠리 $273(10/12 신규 매수, S41), UBS $307→$269(10/16, S52), HC Wainwright $345(8/27, S44), Citi $355(5/19 신규), 에버코어 $329(5/15), RBC $280(7/7), 모건스탠리 $256→$275(7/23)(Benzinga, 보도). 분기 컨센서스는 찾지 못했다. |
+| S81 | data | 2026-10-18 | [StockAnalysis — Ascendis Pharma quarterly cash flow statement (EUR millions)](https://stockanalysis.com/stocks/asnd/financials/cash-flow-statement/?p=quarterly) | 2차(데이터 제공사가 회사의 누계 현금흐름표에서 빼서 만든 분기 값, EUR 백만, 소수 둘째 자리). 영업현금흐름: 2025Q3 2.15, 2025Q4 73.40, 2026Q1 −7.72, 2026Q2 281.68 — 1차 공시(S905·S903·S902·S901)와 일치. 설비투자: 2025Q3 −0.05, 2025Q4 −3.39, 2026Q1 −7.71, 2026Q2 −3.24. 주식보상: 2025Q3 30.64, 2025Q4 29.96, 2026Q1 30.36, 2026Q2 29.61. 2025Q3·2025Q4·2026Q2 설비투자와 2025Q3·2025Q4 주식보상은 회사가 분기 단독으로 공시하지 않아 이 2차 값만 사실로 넣었다. 값은 공시된 누계의 차이와 같다(9개월−반기, 연간−9개월, 반기−1분기). 나머지 분기는 1차 자료를 썼다. |
+| S82 | filing | 2026-08-06 | [BioMarin Reports Second Quarter 2026 Financial and Operating Results (8-K Ex.99.1)](https://www.sec.gov/Archives/edgar/data/0001048477/000104847726000015/earningsrelease-6aug26ex991.htm) | 경쟁사 BioMarin의 1차 공시. 2026년 2분기 VOXZOGO(일 1회 vosoritide) 순매출 $253M(전년 $221M, +14%), 상반기 $472M(+9%). VOXZOGO 전 세계 치료 아동 수는 전년 대비 20% 초과 증가했고, 미국 신규 시작은 대부분 2세 미만이다. 미국은 2분기 VOXZOGO 매출의 약 25%. 2026년 VOXZOGO 가이던스를 $1,000M~$1,050M으로 올렸다(종전 $975M~$1,025M). 장기작용 CNP BMN 333은 2/3상 등록 중이며 데이터 업데이트는 2027년 예정. 보도자료에 Ascendis 소송·합의 언급은 없다. YUVIWEL 출시 첫 분기에 VOXZOGO가 아직 성장 중이라는 교차 확인이다. 다만 미국 비중은 25%뿐이다. |
+| S83 | news | 2026-02-12 | [BridgeBio Reports Positive Phase 3 Topline Results for Oral Infigratinib in Achondroplasia (PROPEL 3)](https://investor.bridgebio.com/news/news-details/2026/BridgeBio-Reports-Positive-Phase-3-Topline-Results-for-Oral-Infigratinib-with-the-First-Statistically-Significant-Improvements-in-Body-Proportionality-in-Achondroplasia/) | 경쟁사 보도자료(1차, SEC 밖). 2026-02-12 경구 FGFR 억제제 infigratinib 3상 PROPEL 3 탑라인: 52주 연간 키 성장 속도가 위약 대비 LS 평균 +1.74cm/년(평균 차이 +2.10cm/년, p<0.0001). 8세 미만에서 체형 비율이 개선됐고(p<0.05) 전체 집단에서는 유의하지 않았다. 고인산혈증 3건(4%)은 경미했다. 2026년 하반기 NDA·MAA 제출 계획. 주사가 필요 없는 경구 경쟁 약이 2027년 전후 나올 수 있다는 점에서 YUVIWEL에 약세 위험이다(승인 시점은 추론). |
+| S84 | news | 2026-05-12 | [AstraZeneca: eneboparatide normalised serum calcium and achieved independence from supplements in 31.1% of adults with HypoPT in CALYPSO Phase III](https://www.astrazeneca.com/media-centre/press-releases/2026/eneboparatide-normalised-serum-calcium-and-achieved-independence-from-supplements-in-31-1-percent-of-adults-with-HypoPT-in-CALYPSO-Phase-iii-trial.html) | 경쟁사 보도자료(1차, SEC 밖). 2026-05-12 AstraZeneca의 일 1회 PTH1R 작용제 eneboparatide 3상 CALYPSO 24주 결과: 복합 1차 평가변수(정상 혈청 칼슘, 활성 비타민 D 중단, 칼슘 ≤600mg/일) 달성 31.1%(41/132) 대 위약 5.9%(4/68), p=0.0001. 허가 신청 일정은 밝히지 않았다. 참고로 YORVIPATH 3상 PaTHway 182주 반응률은 86%였다(S900·2026-06-13 6-K, 시험 설계가 달라 직접 비교 불가). |
+| S85 | filing | 2026-08-27 | [MBX Biosciences 8-K Ex.99.1 — First Patient Dosed in Pivotal Phase 3 oPTimize Trial of once-weekly canvuparatide](https://www.sec.gov/Archives/edgar/data/0001776111/000119312526369674/mbx-ex99_1.htm) | 경쟁사 MBX Biosciences의 1차 공시(2026-08-27). 주 1회 PTH 프로드럭 canvuparatide의 성인 부갑상선기능저하증 3상 oPTimize에서 첫 환자 투여. 약 160명을 3:1로 무작위 배정하고 26주 복합 반응률이 1차 평가변수다. 탑라인·허가 시점은 밝히지 않았다. 주 1회 투여는 Ascendis가 개발 중인 주 1회 TransCon PTH와 겹친다(경쟁 위험). |
+| S86 | data | 2026-10-18 | [Drugs.com — Yuviwel (navepegritide) price guide](https://www.drugs.com/price-guide/yuviwel) | 2026-10-18 조회. 현금 결제가는 1.3mg·2.8mg·5.5mg 모두 4바이알 공급분 $37,443.76(바이알당 $9,360.94)이다. 가격 기준일은 표시되지 않았다. 보험 적용가가 아니며, 순가격과 리베이트는 알 수 없다. 주 1회 투여라 4바이알은 약 4주분이다(노트 추론). |
+| S87 | filing | 2026-08-18 | [Form 4 — Jean-Jacques Bienaimé (director) open-market purchase, Aug 14, 2026](https://www.sec.gov/Archives/edgar/data/1612042/000161071726000360/0001610717-26-000360-index.htm) | Form 4 원문(XML) 요약, 1차. 2026년 3월부터 외국 사업자 내부자도 Form 3·4를 내기 시작했다(2026-03-18 Form 3 다수). 이사 Jean-Jacques Bienaimé(2026-03-23 주총 결과 6-K에서 신규 사외이사 선임 확인; 전 BioMarin CEO로 알려졌으나 이 노트에서 따로 확인하지 않음)는 공개시장에서 매수했다: 5/26 400주(약 $236~$239), 5/29 500주(약 $222~$224), 8/14 2,000주(약 $246~$247). 보유 2,900주. CFO Scott Smith는 5/29 250주 $223.32, 6/2 100주 $219를 매수했다(보유 4,367주). 매도: Flemming Steen Jensen 5/11 19,460주 $238.49(보유 0, S932), 이사 Lars Holtug 9/2 236주 $264.13, PAO Mads Bodenhoff 9/8 워런트 3,000주 행사($110) 후 $270.19에 매도. 규모는 모두 작다. Bienaimé의 기존 워런트 9,160개(행사가 $172.35)는 취소되고 이사 선임에 따라 행사가 $249.84로 다시 부여됐다(9/28 신고). |
+| S88 | filing | 2026-05-12 | [Form 4 — Flemming Steen Jensen sale of 19,460 shares, May 11, 2026](https://www.sec.gov/Archives/edgar/data/1612042/000161071726000159/0001610717-26-000159-index.htm) | Form 4, 1차. 2026-05-11 19,460주를 $238.4903에 매도했고 거래 후 직접 보유는 0주다. 직함은 '비고 참조'로만 표시됐다. 2026년 3~10월 Form 4 가운데 가장 큰 내부자 매도다. |
+| S89 | news | 2026-09-15 | [Novo walks away from $285M pact to develop monthly GLP-1 obesity drug with Ascendis — Fierce Biotech](https://fiercebiotech.com/biotech/novo-walks-away-285m-pact-develop-monthly-glp-1-ascendis) | 보도. 2026-09-14 장 마감 후 Ascendis가 발표했다. Novo가 2024년 11월 계약을 종료했다. 원 계약은 선급·개발·허가 마일스톤 최대 $285M과 단계별 로열티였고, 추가 후보마다 $77.5M이 붙었다. 선급금 금액은 기사에 없다. 회사 2024년 실적(S917)에는 Novo 선급 $100M이 2024년 매출로 잡혔다. CEO는 비만을 포함한 심혈관·대사 신규 프로그램 여러 개를 시작하겠다고 했다. 비용 계획이나 예산은 밝히지 않았다. |
+| S90 | filing | 2026-08-06 | [6-K: Achondroplasia program updates — COACH Week 78 topline and ApproaCH Week 104](https://www.sec.gov/Archives/edgar/data/1612042/000119312526337270/d169607d6k.htm#coach-w78) | 2026-08-06 연골무형성증 프로그램 업데이트, 1차(기존 S12와 같은 공시). TransCon CNP+TransCon hGH 병용 2상 COACH 78주: 치료 경험이 없는 군(N=12) 평균 연간 성장속도 7.73cm/년, ACH 특이 키 Z점수 +1.29(0.46→1.75). CNP 경험군(N=9, CNP 평균 2.56년 투여) 7.67cm/년, Z +1.10(1.28→2.38). 평균 성장속도는 평균 신장 아동의 97백분위 이상을 유지했다. 회사는 CNP 단독 대비 효능이 세 배라고 주장한다. 21명 전원이 78주를 마치고 치료를 계속 중이다. 안전성은 각 단독요법과 같다. 단일군 공개 시험이라 위약 대조가 없다(약세 고려). 3상은 2026년 4분기 등록 개시 예정. |
+| S91 | filing | 2026-09-09 | [6-K: reACHin sentinel cohort Week 52 data in infants 0 to <2 years (TransCon CNP)](https://www.sec.gov/Archives/edgar/data/1612042/000119312526386630/d152057d6k.htm#reachin) | 2026-09-09 ESPE 2026 발표, 1차(기존 S6과 같은 공시). 0~2세 영아 공개 센티넬 코호트 7명(평균 11.7개월)의 52주 결과: 대후두공 협착 점수가 모두 안정 또는 개선됐고, 대후두공 시상 직경이 평균 +3.15mm, 감압 수술 0건, 누운 키 Z점수 +0.42, 평균 연간 성장속도 9.9cm/년, 주사부위 반응 0건. 본 시험(이중맹검, 최소 66명)은 등록을 마쳤다. BioMarin 보도(S926)에 따르면 VOXZOGO의 미국 신규 시작은 대부분 2세 미만이라, 이 영아 적응증이 경쟁의 핵심 구간이다. |
