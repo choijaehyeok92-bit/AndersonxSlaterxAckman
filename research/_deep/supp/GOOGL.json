@@ -1,0 +1,14 @@
+{
+ "sources": [
+  {"id": "S901", "type": "data", "date": "2026-10-16",
+   "title": "Yahoo Finance chart API — GOOGL daily prices (range=1y, interval=1d)",
+   "url": "https://query1.finance.yahoo.com/v8/finance/chart/GOOGL?range=1y&interval=1d",
+   "note": "2026-10-18에 받은 Yahoo 일별 시세(USD, NasdaqGS). 2026-10-16(금) 종가 $340.59(시가 $348.28, 고가 $350.66, 저가 $339.08, 거래량 28,516,200주). 직전 종가: 10/15 $349.22, 10/14 $347.64, 10/13 $353.78, 10/12 $352.72, 10/09 $351.66(기존 S49의 $352와 일치). 52주(2025-10-17~2026-10-16, 251거래일): 장중 최저 $244.15(2025-10-21), 장중 최고 $408.61(2026-05-18). 종가 기준 최저 $250.46(2025-10-21), 최고 $402.62(2026-05-13). 메타데이터의 fiftyTwoWeekLow·High도 244.15·408.61. 리서처가 확인하지 못한 10월 12~16일 종가를 채운다(위원회 다른 종목과 같은 10-16 종가 기준)."}
+ ],
+ "facts": [
+  {"id": "F901", "metric": "price", "value": 340.59, "unit": "USD/share", "end": "2026-10-16", "basis": "market", "source": "S901"},
+  {"id": "F902", "metric": "price_52w_high", "value": 408.61, "unit": "USD/share", "end": "2026-10-16", "basis": "market", "source": "S901"},
+  {"id": "F903", "metric": "price_52w_low", "value": 244.15, "unit": "USD/share", "end": "2026-10-16", "basis": "market", "source": "S901"}
+ ],
+ "gaps": []
+}
