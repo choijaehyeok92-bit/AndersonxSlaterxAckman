@@ -487,6 +487,15 @@
       "note": "GlobeNewswire",
       "date": "2026-08-06",
       "retrieved": "2026-10-18T10:31:12Z"
+    },
+    {
+      "id": "S55",
+      "type": "data",
+      "title": "Why Ascendis Pharma A/S's (ASND) Stock Is Down 12.50% - AAII",
+      "url": "https://www.aaii.com/investingideas/article/543156-why-ascendis-pharma-as8217s-asnd-stock-is-down-1250",
+      "date": "2026-10-12",
+      "note": "2026-10-12 오후 4시(CST) 기준 ASND 주가 $227.00, 직전 종가 $229.230 대비 -0.97%. 10월 16일 종가는 찾지 못했다. 다른 날짜의 참고치: 10월 2일 종가 $227.87(chartrow). 같은 시기 증권사 목표가는 모건스탠리 $273(10/12 신규 매수), UBS $269(10/16, $307에서 하향), HC Wainwright $345(8/27 신규 매수) — 모두 언론 보도 기준.",
+      "retrieved": "2026-10-18T10:31:54Z"
     }
   ],
   "facts": [
@@ -1247,8 +1256,176 @@
       "basis": "reported",
       "origin": "sec",
       "source": "S33"
+    },
+    {
+      "id": "F70",
+      "metric": "price",
+      "value": 227.0,
+      "unit": "USD/ADR",
+      "end": "2026-10-12",
+      "basis": "market",
+      "source": "S55",
+      "origin": "research"
+    },
+    {
+      "id": "F71",
+      "metric": "adr_ratio",
+      "value": 1,
+      "unit": "shares/ADR",
+      "end": "2026-10-12",
+      "basis": "market",
+      "source": "S55",
+      "origin": "research"
+    },
+    {
+      "id": "F72",
+      "metric": "revenue",
+      "value": 339300000,
+      "unit": "EUR",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S10",
+      "origin": "research"
+    },
+    {
+      "id": "F73",
+      "metric": "operating_income",
+      "value": 220500000,
+      "unit": "EUR",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S10",
+      "origin": "research"
+    },
+    {
+      "id": "F74",
+      "metric": "net_income",
+      "value": 207000000,
+      "unit": "EUR",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S10",
+      "origin": "research"
+    },
+    {
+      "id": "F75",
+      "metric": "cash",
+      "value": 812300000,
+      "unit": "EUR",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S10",
+      "origin": "research"
+    },
+    {
+      "id": "F76",
+      "metric": "debt",
+      "value": 450100000,
+      "unit": "EUR",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S10",
+      "origin": "research"
+    },
+    {
+      "id": "F77",
+      "metric": "debt_current",
+      "value": 65400000,
+      "unit": "EUR",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S10",
+      "origin": "research"
+    },
+    {
+      "id": "F78",
+      "metric": "pediatric_priority_review_voucher_sale_gain",
+      "value": 158100000,
+      "unit": "EUR",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S10",
+      "origin": "research"
+    },
+    {
+      "id": "F79",
+      "metric": "income_tax_benefit_h1",
+      "value": 654400000,
+      "unit": "EUR",
+      "period": "FY2026H1",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S10",
+      "origin": "research"
+    },
+    {
+      "id": "F80",
+      "metric": "ocf",
+      "value": 274000000,
+      "unit": "EUR",
+      "period": "FY2026H1",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S10",
+      "origin": "research"
+    },
+    {
+      "id": "F81",
+      "metric": "revenue",
+      "value": 585900000,
+      "unit": "EUR",
+      "period": "FY2026H1",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S10",
+      "origin": "research"
+    },
+    {
+      "id": "F82",
+      "metric": "net_income",
+      "value": 836300000,
+      "unit": "EUR",
+      "period": "FY2026H1",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "source": "S10",
+      "origin": "research"
+    },
+    {
+      "id": "F83",
+      "metric": "convertible_notes_conversion_shares",
+      "value": 3635813,
+      "unit": "shares",
+      "period": "FY2026Q2",
+      "end": "2026-05-06",
+      "basis": "reported",
+      "source": "S10",
+      "origin": "research"
     }
   ],
   "as_of": "2026-10-18",
-  "collected": "2026-10-18T10:31:12Z"
+  "collected": "2026-10-18T10:31:12Z",
+  "gaps": [
+    "2026-10-16 종가를 찾지 못했다. 주가는 10월 12일 $227.00(AAII)이다. UBS의 10월 16일 목표가 하향 이후 움직임은 반영되지 않았다.",
+    "52주 최저·최고가(price_52w_low, price_52w_high)를 찾지 못했다.",
+    "현재 총 발행주식 수와 희석 주식 수를 찾지 못했다. 2025년 말 6,197만 주에 2026년 5월 전환사채 전환 3,635,813주가 더해졌고, 자사주 매입(약 $120M 실행)과 워런트 행사(S47: 210,812주)로 늘거나 줄었다. 공시된 최신 값이 있어야 주당 계산이 맞다. 기존 FY2025 희석 주식 수(6,061만)는 낡았다.",
+    "유로화 대비 달러 환율(fx, EUR/USD)을 찾지 못했다. 재무는 EUR, 주가는 USD라 환율이 있어야 비교할 수 있다.",
+    "2026년 연간 매출 가이던스와 과거 가이던스(basis guidance)를 찾지 못했다. 경영진 적중률을 계산할 수 없다.",
+    "컨센서스 매출(2026·2027년)을 찾지 못했다. variant perception을 검증할 수 없다. 증권사 목표가(모건스탠리 $273, UBS $269, HC Wainwright $345)만 보도로 확인했다.",
+    "Yorvipath, Skytrofa, Skytrofa 외 제품별 매출과 KPI(처방·등록 수, 2분기 YUVIWEL 미국 등록 220건 초과 등)는 공시 표 접근이 막혀 사실로 넣지 못했다. 이 항목은 보도(S39)에만 있다.",
+    "2026년 상반기 이익은 PRV 매각이익 €158.1M과 법인세 환입 €654.4M을 포함한다. 이 일회성 항목을 뺀 경상 영업이익과 순이익은 확인하지 못했다. 코드 계산 시 일회성 여부를 구분해야 한다.",
+    "차입금 구성(만기, 금리, 담보)과 2028년 전환사채 전환 후의 순부채 사항을 6-K에서 확인하지 못했다.",
+    "노보 노디스크 계약 종료 조건(반환 대가, 로열티 유지 여부)과 $400M 자사주 매입의 집행 현황을 1차 공시로 확인하지 못했다.",
+    "감사의견·감사인 변경·재무제표 정정·특수관계자 거래·Non-GAAP 조정 내역, DEF 14A 보상 지표(외국 사업자라 20-F 기준), 내부자 매매는 찾지 못했다. 보도로는 직원 워런트 35,890개 부여(행사가 $223.21, S43)가 있다.",
+    "어닝콜 원문(최근 4개 분기)과 컨퍼런스 발표는 요약 보도(S36, S38)만 있고 원문은 확인하지 못했다.",
+    "클라만용 자료(유형 순자산, 영업권, 장기 투자자산), 경쟁사·고객사 교차 확인 자료, 대체 데이터는 찾지 못했다."
+  ],
+  "researched": "2026-10-18"
 }
