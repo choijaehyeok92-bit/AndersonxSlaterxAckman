@@ -4513,10 +4513,85 @@
       "basis": "market",
       "source": "S65",
       "origin": "research"
+    },
+    {
+      "id": "F344",
+      "metric": "intangibles",
+      "value": 0,
+      "unit": "USD",
+      "period": "FY2025",
+      "end": "2025-05-03",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S5"
+    },
+    {
+      "id": "F345",
+      "metric": "intangibles",
+      "value": 17131000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2025-11-01",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S11"
+    },
+    {
+      "id": "F346",
+      "metric": "intangibles",
+      "value": 17624000,
+      "unit": "USD",
+      "period": "FY2026Q3",
+      "end": "2026-01-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S8"
+    },
+    {
+      "id": "F347",
+      "metric": "intangibles",
+      "value": 29262000,
+      "unit": "USD",
+      "period": "FY2026",
+      "end": "2026-05-02",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S2"
+    },
+    {
+      "id": "F348",
+      "metric": "intangibles",
+      "value": 378817000,
+      "unit": "USD",
+      "period": "FY2027Q1",
+      "end": "2026-08-01",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S2"
+    },
+    {
+      "id": "F349",
+      "metric": "price_52w_low",
+      "value": 86.49,
+      "unit": "USD/share",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S42",
+      "origin": "research"
+    },
+    {
+      "id": "F350",
+      "metric": "price_52w_high",
+      "value": 308.67,
+      "unit": "USD/share",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S42",
+      "origin": "research"
     }
   ],
   "as_of": "2026-10-18",
-  "collected": "2026-10-17T17:52:31Z",
+  "collected": "2026-10-18T06:07:10Z",
   "gaps": [
     "Q1 FY27 어닝콜 원문을 확보하지 못했다. FY27 성장 '>85%'·상하반기 흐름·광 매출 >$600M과 그 구성은 2차 요약(S915–S917·S918)뿐이다.",
     "FY27·FY28 컨센서스(S45·S918)는 데이터 출처 미표기 2차 자료다. FactSet·LSEG 등 1차 컨센서스, 목표가 상·하단, 공매도 잔고는 확인하지 못했다. FY27 컨센서스 약 $2.45B는 '>85%' 하한보다 낮아 상향 전 값일 수 있다.",

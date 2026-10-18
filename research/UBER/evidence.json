@@ -557,6 +557,24 @@
       "url": "https://uk.marketscreener.com/quote/stock/UBER-TECHNOLOGIES-INC-57860975/calendar/",
       "note": "집계 사이트, 날짜 표기 없는 '예측'. 2026년 3분기: 매출 146.69억 달러, EBITDA 29.23억, EBIT 22.06억, EPS 0.91달러. 2026년 연간: 매출 578.9억 달러, EPS 3.18달러. 2027년 연간: 매출 667.7억 달러, EPS 4.54달러. EPS가 GAAP인지 Non-GAAP인지 밝히지 않았다. 기존 TickFlow 2026년 매출 컨센서스(F207, 582.8억)와 조금 다르다. 3분기 실적 발표일 2026-11-04.",
       "retrieved": "2026-10-17T23:39:32Z"
+    },
+    {
+      "id": "S64",
+      "type": "news",
+      "title": "Here’s Why the Strategy Exited Uber Technologies (UBER) - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNeFdhamctaVlaM05BbGZHcW5XeUdrODNFQk1NRENXSFAxRGlPUTdteGxVSXZuS2l4MEd0X3NnU3BOeElFQkJ6ZTdMZ19QSlByYjRubm15MGJiX0luX2YwY0NiM0xKS21reGZyejRSaXRmc25ZV2VjR3B4Qk9JZnNtcjJaQ0xkXzVIanptQ2IzSlV0XzlWdUFQVlVNbS1jc2E3SjZmUA?oc=5",
+      "note": "Yahoo Finance",
+      "date": "2026-10-16",
+      "retrieved": "2026-10-18T06:07:05Z"
+    },
+    {
+      "id": "S65",
+      "type": "news",
+      "title": "Uber Technologies (UBER) Dips More Than Broader Market: What You Should Know - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSG14Q1RWVzFrVkNGeEp1czMwWGZhYlcxLUFLWHVNLTd1S0JYX2xfdXlSV21DT0VLeHAtLThDbWV3bzRjVmRIaTM5RjhPQS1LOXd5bHFiSkhTWnA4dkN3Q2NUSHJDdFBoTGF2R2U2NnAwXzhZbUhPTXRNSDVxenFMNXIzLUliOWFyVXZGVUxKc25sX3lCb20xTWtuNzFLUQ?oc=5",
+      "note": "Yahoo Finance",
+      "date": "2026-10-14",
+      "retrieved": "2026-10-18T06:07:05Z"
     }
   ],
   "facts": [
@@ -4085,10 +4103,140 @@
       "basis": "market",
       "source": "S60",
       "origin": "research"
+    },
+    {
+      "id": "F318",
+      "metric": "intangibles",
+      "value": 2412000000,
+      "unit": "USD",
+      "period": "FY2021",
+      "end": "2021-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S19"
+    },
+    {
+      "id": "F319",
+      "metric": "intangibles",
+      "value": 1874000000,
+      "unit": "USD",
+      "period": "FY2022",
+      "end": "2022-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S18"
+    },
+    {
+      "id": "F320",
+      "metric": "intangibles",
+      "value": 1425000000,
+      "unit": "USD",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S17"
+    },
+    {
+      "id": "F321",
+      "metric": "intangibles",
+      "value": 1125000000,
+      "unit": "USD",
+      "period": "FY2024",
+      "end": "2024-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S11"
+    },
+    {
+      "id": "F322",
+      "metric": "intangibles",
+      "value": 1065000000,
+      "unit": "USD",
+      "period": "FY2025Q1",
+      "end": "2025-03-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S20"
+    },
+    {
+      "id": "F323",
+      "metric": "intangibles",
+      "value": 1187000000,
+      "unit": "USD",
+      "period": "FY2025Q2",
+      "end": "2025-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S21"
+    },
+    {
+      "id": "F324",
+      "metric": "intangibles",
+      "value": 1104000000,
+      "unit": "USD",
+      "period": "FY2025Q3",
+      "end": "2025-09-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S15"
+    },
+    {
+      "id": "F325",
+      "metric": "intangibles",
+      "value": 1048000000,
+      "unit": "USD",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S3"
+    },
+    {
+      "id": "F326",
+      "metric": "intangibles",
+      "value": 990000000,
+      "unit": "USD",
+      "period": "FY2026Q1",
+      "end": "2026-03-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S8"
+    },
+    {
+      "id": "F327",
+      "metric": "intangibles",
+      "value": 1132000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S3"
+    },
+    {
+      "id": "F328",
+      "metric": "price_52w_low",
+      "value": 65.41,
+      "unit": "USD/share",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S46",
+      "origin": "research"
+    },
+    {
+      "id": "F329",
+      "metric": "price_52w_high",
+      "value": 100.35,
+      "unit": "USD/share",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S46",
+      "origin": "research"
     }
   ],
   "as_of": "2026-10-18",
-  "collected": "2026-10-17T17:52:14Z",
+  "collected": "2026-10-18T06:07:05Z",
   "gaps": [
     "TTM 입력 중 FY2025Q3·FY2025Q4·FY2026Q2의 ocf와 capex는 현금흐름표 원문이 아니라 보도자료 수치와 이를 다룬 2차 요약에서 가져왔다. FY2025Q3 ocf 23.2억은 Nasdaq 보도의 2.32B, FY2025Q4 ocf 29억은 보도자료의 2.9B(반올림), FY2026Q2 ocf 28.6억은 상반기 52.1억에서 1분기 23.5억을 뺀 값이다.",
     "capex는 '영업현금흐름 − 잉여현금흐름'으로 역산한 근사치다. FY2025Q3 약 9천만 달러, FY2025Q4 약 1억 달러(반올림), FY2026Q2 약 7천만 달러(상반기 FCF 50.8억 기준)이며, 10-Q·10-K의 'purchases of property and equipment' 줄로 확인하지 못했다.",

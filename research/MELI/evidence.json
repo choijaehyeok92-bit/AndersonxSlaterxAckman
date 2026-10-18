@@ -604,6 +604,15 @@
       "date": "2026-03-12",
       "note": "2차·제목만 확인. 아르헨티나에서 Mercado Libre와 Temu가 불공정 경쟁 분쟁을 합의로 종료(2026-03-12).",
       "retrieved": "2026-10-17T23:38:11Z"
+    },
+    {
+      "id": "S68",
+      "type": "news",
+      "title": "MercadoLibre Stock: Why This E-Commerce Leader Can Outperform the Market Over the Next 5 Years - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcFc0NjJadVJyQXNCUENzZHZ0WHNQYkhXZW1seUNzREtNOWFucDRwcHI3Ti1NOUExMUxuQXJvMGdhN1JrRDRJUlVvSmhGSHdPRXB3Ump3dWIzTTBJNTZLcFJFeEF6V0RGcmRuT3RYT2docVhDWXR5MmZDckRfTTUySVNpN1l1X0pwY3pqVkRSZm9vbWZpbTRTRFBVc3gyQXM?oc=5",
+      "note": "Yahoo Finance",
+      "date": "2026-07-27",
+      "retrieved": "2026-10-18T06:07:03Z"
     }
   ],
   "facts": [
@@ -5007,10 +5016,140 @@
       "source": "S63",
       "period": "FY2027",
       "origin": "research"
+    },
+    {
+      "id": "F396",
+      "metric": "intangibles",
+      "value": 45000000,
+      "unit": "USD",
+      "period": "FY2021",
+      "end": "2021-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S19"
+    },
+    {
+      "id": "F397",
+      "metric": "intangibles",
+      "value": 25000000,
+      "unit": "USD",
+      "period": "FY2022",
+      "end": "2022-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S17"
+    },
+    {
+      "id": "F398",
+      "metric": "intangibles",
+      "value": 11000000,
+      "unit": "USD",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S18"
+    },
+    {
+      "id": "F399",
+      "metric": "intangibles",
+      "value": 12000000,
+      "unit": "USD",
+      "period": "FY2024",
+      "end": "2024-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S10"
+    },
+    {
+      "id": "F400",
+      "metric": "intangibles",
+      "value": 39000000,
+      "unit": "USD",
+      "period": "FY2025Q1",
+      "end": "2025-03-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S20"
+    },
+    {
+      "id": "F401",
+      "metric": "intangibles",
+      "value": 39000000,
+      "unit": "USD",
+      "period": "FY2025Q2",
+      "end": "2025-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S21"
+    },
+    {
+      "id": "F402",
+      "metric": "intangibles",
+      "value": 38000000,
+      "unit": "USD",
+      "period": "FY2025Q3",
+      "end": "2025-09-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S14"
+    },
+    {
+      "id": "F403",
+      "metric": "intangibles",
+      "value": 33000000,
+      "unit": "USD",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S3"
+    },
+    {
+      "id": "F404",
+      "metric": "intangibles",
+      "value": 33000000,
+      "unit": "USD",
+      "period": "FY2026Q1",
+      "end": "2026-03-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S6"
+    },
+    {
+      "id": "F405",
+      "metric": "intangibles",
+      "value": 30000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S3"
+    },
+    {
+      "id": "F406",
+      "metric": "price_52w_low",
+      "value": 1495.0,
+      "unit": "USD/share",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S47",
+      "origin": "research"
+    },
+    {
+      "id": "F407",
+      "metric": "price_52w_high",
+      "value": 2428.0,
+      "unit": "USD/share",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S47",
+      "origin": "research"
     }
   ],
   "as_of": "2026-10-18",
-  "collected": "2026-10-17T17:52:19Z",
+  "collected": "2026-10-18T06:07:03Z",
   "gaps": [
     "정량 가이던스 없음 — 2분기 주주서한은 '기회가 요구하는 규모와 속도로 계속 투자'라고만 했다. 과거 가이던스 사실이 없어 경영진 적중률을 낼 수 없다.",
     "커머스·핀테크 부문별 매출 달러 금액(주주서한 표)을 확보하지 못했다 — 성장률만 사실로 넣었다.",

@@ -4152,10 +4152,107 @@
       "source": "S58",
       "note": "2차(서브스택)",
       "origin": "research"
+    },
+    {
+      "id": "F324",
+      "metric": "intangibles",
+      "value": 3836000,
+      "unit": "USD",
+      "period": "FY2021",
+      "end": "2021-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S15"
+    },
+    {
+      "id": "F325",
+      "metric": "intangibles",
+      "value": 35539000,
+      "unit": "USD",
+      "period": "FY2022",
+      "end": "2022-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S14"
+    },
+    {
+      "id": "F326",
+      "metric": "intangibles",
+      "value": 25902000,
+      "unit": "USD",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S12"
+    },
+    {
+      "id": "F327",
+      "metric": "intangibles",
+      "value": 18058000,
+      "unit": "USD",
+      "period": "FY2024",
+      "end": "2024-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S9"
+    },
+    {
+      "id": "F328",
+      "metric": "intangibles",
+      "value": 16909000,
+      "unit": "USD",
+      "period": "FY2025Q1",
+      "end": "2025-03-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S13"
+    },
+    {
+      "id": "F329",
+      "metric": "intangibles",
+      "value": 15760000,
+      "unit": "USD",
+      "period": "FY2025Q2",
+      "end": "2025-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S16"
+    },
+    {
+      "id": "F330",
+      "metric": "intangibles",
+      "value": 14611000,
+      "unit": "USD",
+      "period": "FY2025Q3",
+      "end": "2025-09-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S9"
+    },
+    {
+      "id": "F331",
+      "metric": "price_52w_low",
+      "value": 106.37,
+      "unit": "USD/share",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S39",
+      "origin": "research"
+    },
+    {
+      "id": "F332",
+      "metric": "price_52w_high",
+      "value": 212.94,
+      "unit": "USD/share",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S39",
+      "origin": "research"
     }
   ],
   "as_of": "2026-10-18",
-  "collected": "2026-10-17T17:52:33Z",
+  "collected": "2026-10-18T06:07:12Z",
   "gaps": [
     "총 고객 수(전사): 2분기 자료에 공개되지 않음",
     "전체 잔여 계약가치(RDV) 131억 달러는 2차 보도(S904)뿐이고 1차 자료에서 확인하지 못함",

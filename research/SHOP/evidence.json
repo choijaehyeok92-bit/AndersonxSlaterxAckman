@@ -3841,10 +3841,140 @@
       "basis": "reported",
       "source": "S64",
       "origin": "research"
+    },
+    {
+      "id": "F314",
+      "metric": "intangibles",
+      "value": 138496000,
+      "unit": "USD",
+      "period": "FY2021",
+      "end": "2021-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S15"
+    },
+    {
+      "id": "F315",
+      "metric": "intangibles",
+      "value": 390000000,
+      "unit": "USD",
+      "period": "FY2022",
+      "end": "2022-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S17"
+    },
+    {
+      "id": "F316",
+      "metric": "intangibles",
+      "value": 29000000,
+      "unit": "USD",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S16"
+    },
+    {
+      "id": "F317",
+      "metric": "intangibles",
+      "value": 22000000,
+      "unit": "USD",
+      "period": "FY2024",
+      "end": "2024-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S9"
+    },
+    {
+      "id": "F318",
+      "metric": "intangibles",
+      "value": 39000000,
+      "unit": "USD",
+      "period": "FY2025Q1",
+      "end": "2025-03-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S18"
+    },
+    {
+      "id": "F319",
+      "metric": "intangibles",
+      "value": 36000000,
+      "unit": "USD",
+      "period": "FY2025Q2",
+      "end": "2025-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S19"
+    },
+    {
+      "id": "F320",
+      "metric": "intangibles",
+      "value": 33000000,
+      "unit": "USD",
+      "period": "FY2025Q3",
+      "end": "2025-09-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S12"
+    },
+    {
+      "id": "F321",
+      "metric": "intangibles",
+      "value": 30000000,
+      "unit": "USD",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S1"
+    },
+    {
+      "id": "F322",
+      "metric": "intangibles",
+      "value": 28000000,
+      "unit": "USD",
+      "period": "FY2026Q1",
+      "end": "2026-03-31",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S7"
+    },
+    {
+      "id": "F323",
+      "metric": "intangibles",
+      "value": 27000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S1"
+    },
+    {
+      "id": "F324",
+      "metric": "price_52w_low",
+      "value": 94.0,
+      "unit": "USD/share",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S44",
+      "origin": "research"
+    },
+    {
+      "id": "F325",
+      "metric": "price_52w_high",
+      "value": 182.19,
+      "unit": "USD/share",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S44",
+      "origin": "research"
     }
   ],
   "as_of": "2026-10-18",
-  "collected": "2026-10-17T17:52:03Z",
+  "collected": "2026-10-18T06:07:08Z",
   "gaps": [
     "어닝콜 원문 전체와 Q&A 전문은 아직 보지 못했다. 콜 근거(S49~S51, S905)는 일부 전사와 AI·2차 요약뿐이다. 해외·오프라인·B2B·Shop Pay 성장률과 MCA 순풍 발언은 원문으로 확인해야 한다",
     "가맹점 수, Plus 가맹점 수·MRR 비중, 순매출유지율·이탈률·코호트 GMV 유지율·CAC·LTV는 1차 자료가 없다. 코호트 자료는 2022년 Globe and Mail 분석(S913)뿐이다",

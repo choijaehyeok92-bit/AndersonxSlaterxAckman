@@ -550,6 +550,24 @@
       "date": "2025-09-04",
       "note": "경쟁사 자체 발표(6개월 넘은 자료). Geotab 커넥티드 차량 구독 500만 돌파, 고객 100,000곳 이상, 연 R&D $150M 이상, 2년마다 약 100만 구독 추가. Lytx·Netradyne·Verizon Connect의 최신 수치는 찾지 못함.",
       "retrieved": "2026-10-17T23:39:08Z"
+    },
+    {
+      "id": "S66",
+      "type": "news",
+      "title": "Piper Sandler downgrades Samsara to neutral on weakening app downloads - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSy1hWm45Z2dwWENZcDBxYndGZVVfa3dBNmRjUV9DN201emhxcnhwR0NicVJlQjM2VVJPdzlYWHUwT2NIVVhPLXhYZWJTRkJleU5vX3lfM2lNWHFrY2RxNDVkQkUwMFliOGFFcHF2OHBvaVp3ajZZTWdGMm5TRDJvWTZUb20xT0lUN1BTM0tKaG1lY2oycXNZTDYzZnBOWDhRZnI2SzZUZHE?oc=5",
+      "note": "Yahoo Finance",
+      "date": "2026-08-10",
+      "retrieved": "2026-10-18T06:07:14Z"
+    },
+    {
+      "id": "S67",
+      "type": "news",
+      "title": "Samsara Inc. (IOT) Just Reclaimed the 50-Day Moving Average - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaEdxbUNCS20xb084a011QzNlY0l6RmJCVEN0dUtxcEpjNmxQUHJnMnVQN0l6VnphaUVrOWUtTlNmTUlBSmxEXy1EUFpXanlBYTAxZ1Q1dmhrTHhNbldFTWtpdEdxYnZNVGFIa0k5VU9qZHRUakttRlpFN2NBVk1sbGtOOTNEWjJzQ0dLWEZESDh3UDVPeFpSb3hobw?oc=5",
+      "note": "Yahoo Finance",
+      "date": "2026-07-28",
+      "retrieved": "2026-10-18T06:07:14Z"
     }
   ],
   "facts": [
@@ -3809,10 +3827,30 @@
       "basis": "consensus",
       "source": "S60",
       "origin": "research"
+    },
+    {
+      "id": "F290",
+      "metric": "price_52w_low",
+      "value": 23.38,
+      "unit": "USD/share",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S44",
+      "origin": "research"
+    },
+    {
+      "id": "F291",
+      "metric": "price_52w_high",
+      "value": 47.47,
+      "unit": "USD/share",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S44",
+      "origin": "research"
     }
   ],
   "as_of": "2026-10-18",
-  "collected": "2026-10-17T17:52:46Z",
+  "collected": "2026-10-18T06:07:14Z",
   "gaps": [
     "Q2 FY27 발표 이후의 신뢰할 만한 FY27·FY28 컨센서스(매출·EPS·FCF)는 찾지 못했다. TickFlow는 2026-10-17에도 FY27 매출 $1.97B(회사 가이던스 하단 $2.043B 아래)로 갱신 전 값이고 FY28 행은 분기 값으로 보인다. Seeking Alpha·Benzinga 추정 페이지는 열지 못했다.",
     "NRR 실적치 이력(FY25·FY26 실제)은 1차 자료 어디에도 없다. 회사는 핵심 고객 대상 '약 115%' 목표만 밝힌다(S902). 기존 F231(nrr 1.15, reported)은 목표치이므로 nrr < 1.15 같은 반증 조건은 기계 판정에 쓸 수 없다.",

@@ -514,6 +514,24 @@
       "date": "2025-11-25",
       "note": "2025년 3분기 총매출 US$25.4M(전년 대비 +72%), 총이익 US$4.7M(총이익률 18.4%), 순손실 US$61.6M. 로보택시 매출 US$6.7M. 현금 잔액은 검색 요약에 없어 확인하지 못했다.",
       "retrieved": "2026-10-17T17:54:34Z"
+    },
+    {
+      "id": "S58",
+      "type": "news",
+      "title": "Pony.ai and Uber Plan Deployment of More Than 2,000 Robotaxis Across Europe - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPT205NDc5ZXViTEpDVFM3ZjlldGtYdXZSaWloLW1NSTU2WGtORS0xdEo1RWN1bzBNbWwzTHJlMTZXUGhuWGVUVTNYa05LaVZha3Q3UmQwbEZWV3R0dXJ4LVdzMXlUZWl0ZjB3amtFSFFFWHRLQ3JicmZCdlRXU0pmMi1TeVNjaEpPUGFLaVIybUZ2SGNpSkpV?oc=5",
+      "note": "Yahoo Finance",
+      "date": "2026-08-14",
+      "retrieved": "2026-10-18T06:07:17Z"
+    },
+    {
+      "id": "S59",
+      "type": "news",
+      "title": "Pony.AI Has Plans For 4,000 Robotaxis Outside China - AI Business",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUEMxUTZFUmxtTXB4VGxNQ0dxX3NQTldLT0xabGRWZmR0UEJYdHA4TjhCYXNLQUFXVF9xeF9yTVplSGkzVXVTUUw2dzJhSEw0NEE0MVM2ZGFyU01lei1fSnE3RF9PWFN0emZNNlc3cXM5d1Q5c25rVGJ3YVdvVWNmNjhBRWtCT28?oc=5",
+      "note": "AI Business",
+      "date": "2026-08-19",
+      "retrieved": "2026-10-18T06:07:17Z"
     }
   ],
   "facts": [
@@ -1502,10 +1520,30 @@
       "basis": "reported",
       "source": "S57",
       "origin": "research"
+    },
+    {
+      "id": "F91",
+      "metric": "price_52w_low",
+      "value": 4.9,
+      "unit": "USD/share",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S55",
+      "origin": "research"
+    },
+    {
+      "id": "F92",
+      "metric": "price_52w_high",
+      "value": 22.46,
+      "unit": "USD/share",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S55",
+      "origin": "research"
     }
   ],
   "as_of": "2026-10-18",
-  "collected": "2026-10-17T17:52:37Z",
+  "collected": "2026-10-18T06:07:17Z",
   "gaps": [
     "TTM 계산 입력을 채우지 못했다. 마지막 연간(FY2025) 이후 '최근 4개 연속 분기'는 FY2025Q3·FY2025Q4·FY2026Q1·FY2026Q2다(FY2026Q3는 아직 발표 전). 매출은 FY2025Q3(S57)·FY2026Q1(S17)·FY2026Q2(F76)만 있고 FY2025Q4 단독 값은 찾지 못했다. 연간에서 분기를 빼서 만든 값은 직접 계산이라 넣지 않았다.",
     "분기 영업현금흐름(ocf)과 설비투자(capex)는 어느 분기도 6-K 본문으로 확인하지 못했다. FY2026Q1 영업현금유출을 US$774.2M으로 적은 어닝콜 요약이 있으나 현금 약 US$1.4B 규모와 맞지 않는 이상치로 보이고 6-K 현금흐름표로 확인하지 못해 넣지 않았다. S17 6-K의 현금흐름표 원문 확인이 필요하다.",

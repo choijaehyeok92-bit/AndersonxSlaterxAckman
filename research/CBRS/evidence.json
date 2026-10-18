@@ -2499,10 +2499,30 @@
       "source": "S52",
       "period": "FY2027",
       "origin": "research"
+    },
+    {
+      "id": "F183",
+      "metric": "price_52w_low",
+      "value": 126.05,
+      "unit": "USD/share",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S31",
+      "origin": "research"
+    },
+    {
+      "id": "F184",
+      "metric": "price_52w_high",
+      "value": 386.34,
+      "unit": "USD/share",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S31",
+      "origin": "research"
     }
   ],
   "as_of": "2026-10-18",
-  "collected": "2026-10-17T17:52:38Z",
+  "collected": "2026-10-18T06:07:15Z",
   "gaps": [
     "Q3 FY2026(2026-09-30 종료) 실적 발표일 공식 확인 안 됨(11월 초중순 예상). 주 락업 해제가 이 발표에 연동돼 있어 펀더멘털 시험과 물량 부담이 겹친다.",
     "FY2026·FY2027 연간 매출 컨센서스를 찾지 못했다. 기존 F59·F60(core 매출)은 가이던스 상향 전 값이다. 2027 EPS 컨센서스 $1.27과 목표가 $291.64(S918)만 있다.",
