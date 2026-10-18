@@ -6,7 +6,7 @@ research/<TICKER>/journal.jsonl에 한 줄씩 덧붙인다 (지우지 않는다)
   decision  사람이 정한 비중과 이유 (하네스는 비중을 정하지 않는다)
 """
 import json
-from . import core, facts
+from . import calc, core, facts
 from .judge import break_status, status
 
 KEEP = ("basis", "verdict", "score", "agents", "kpis", "gated", "iv")
@@ -37,7 +37,8 @@ def log(d, r):
              expected_irr=v["expected"]["irr"] if v else None, kpis=r["kpis"], breaks=r["breaks"],
              must_be_true=[x for x in slater.get("must_be_true", []) if x.get("metric")],
              projection={x["period"]: dict(revenue=x["revenue"], fcf=x["fcf"]) for x in v["scenarios"]["base"]["rows"]} if v else None,
-             sources=[s["id"] for s in r["sources"]], sizing=r["sizing"].get("suggested"))
+             sources=[s["id"] for s in r["sources"]], sizing=r["sizing"].get("suggested"),
+             ladder=[dict(price=x["price"], label=x["label"], votes=x["votes"], who=x["who"]) for x in r.get("ladder") or []])
     prev = js[-1] if js else None
     if prev and core.digest({k: prev.get(k) for k in KEEP}) == core.digest({k: e.get(k) for k in KEEP}):
         return None
@@ -91,13 +92,17 @@ def update(d):
             dev.append(dict(period=period, metric="revenue", model=p["revenue"], actual=rev, diff=rev / p["revenue"] - 1))
         if ocf is not None and capex is not None and p["fcf"]:
             dev.append(dict(period=period, metric="fcf", model=p["fcf"], actual=ocf - abs(capex), diff=(ocf - abs(capex)) / p["fcf"] - 1))
+    # 조건부 판정의 가격에 닿았는가 — 새 주가 사실로 대조한다 (주가를 예측하지 않는다, 도달 여부만 본다)
+    price = (calc.analyze(ev)["market"] or {}).get("price")
+    hits = [x for x in (j.get("ladder") or [])[1:] if price is not None and price <= x["price"]]
     broken = [b for b in br if b["status"].startswith("충족")] + [x for x in mbt if x["status"] == "broken"]
     weak = [k for k in kp if k["status"] == "빗나감"] + [x for x in dev if x["metric"] == "revenue" and x["diff"] < -0.10]
     e = dict(type="update", date=core.today(), as_of=ev.get("as_of"), ref=j["id"], status="훼손" if broken else "약화" if weak else "유지",
-             kpis=kp, breaks=br, must_be_true=mbt, deviations=dev)
+             kpis=kp, breaks=br, must_be_true=mbt, deviations=dev, price=price,
+             price_trigger=dict(price=hits[-1]["price"], label=hits[-1]["label"], votes=hits[-1]["votes"]) if hits else None)
     last = next((x for x in reversed(es) if x["type"] == "update"), None)
-    same = last and core.digest({k: last.get(k) for k in ("ref", "as_of", "kpis", "breaks", "deviations")}) == \
-        core.digest({k: e.get(k) for k in ("ref", "as_of", "kpis", "breaks", "deviations")})
+    keep = ("ref", "as_of", "kpis", "breaks", "deviations", "price")
+    same = last and core.digest({k: last.get(k) for k in keep}) == core.digest({k: e.get(k) for k in keep})
     return e if same else append(d, e)
 
 

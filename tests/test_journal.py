@@ -45,6 +45,15 @@ class Journal(Base):
         self.assertEqual(journal.update(self.d), u)                       # 같은 대조는 다시 쓰지 않는다
         self.assertEqual(sum(e["type"] == "update" for e in journal.entries(self.d)), 1)
 
+    def test_price_trigger(self):  # 조건부 판정의 가격에 닿으면 알려 준다 — 주가를 예측하지 않고 도달만 본다
+        journal.log(self.d, judge(self.d))
+        ev = core.load(self.d / "evidence.json")
+        ev["sources"].append({"id": "S12", "type": "data", "title": "시장 데이터", "url": "u12", "date": "2026-11-20"})
+        core.save(self.d / "evidence.json", {**ev, "as_of": "2026-11-20"})
+        self.add_facts({"metric": "price", "value": 10.5, "unit": "USD/share", "end": "2026-11-20", "basis": "market", "source": "S12"})
+        u = journal.update(self.d)
+        self.assertEqual((u["price"], u["price_trigger"]["price"], u["price_trigger"]["label"]), (10.5, 10.8, "찬성 우세"))
+
     def test_calibration(self):
         self.update_with_results()
         c = journal.calibrate([self.d])

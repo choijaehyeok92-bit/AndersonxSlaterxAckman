@@ -1,6 +1,6 @@
 {
   "agent": "slater",
-  "basis": "392e04e6e4e4",
+  "basis": "c641fd3759c3",
   "stance": "for",
   "conviction": 3,
   "rebuttals": [
@@ -24,6 +24,14 @@
       "to": "redteam",
       "point": "가격 경쟁 시나리오는 회수기간으로 먼저 드러난다 — 이미 참이어야 하는 것에 18개월 상한으로 걸어 두었다",
       "cites": [
+        "F50"
+      ]
+    },
+    {
+      "to": "klarman",
+      "point": "94% 하방은 성장이 완전히 멈출 때의 숫자다. 회수기간 16개월은 성장이 멈춰도 설치된 로봇이 현금을 돌려준다는 뜻이다 — 그래서 사지 않는 대신 작게 시작한다",
+      "cites": [
+        "C:downside@klarman",
         "F50"
       ]
     }

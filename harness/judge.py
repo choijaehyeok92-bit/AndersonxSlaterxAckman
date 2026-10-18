@@ -108,10 +108,10 @@ def judge(d):
     if redteam:
         notes += stale(d, "레드팀", redteam, "model")
     r = dict(cmd="judge", ticker=ev.get("ticker", d.name), name=ev.get("name", d.name), as_of=fx.as_of, gates=[], gated=None,
-             verdict="INCOMPLETE", label="판정 불가", votes={k: 0 for k in core.STANCE}, score=0.0, agents=[], notes=notes,
+             verdict="INCOMPLETE", label="판정 불가", votes={k: 0 for k in core.VOTES}, score=0.0, agents=[], notes=notes,
              analysis=an, modules=mods, model=model, redteam=redteam, breaks=[], kpis=[], user_view=None,
              verification=dict(checked=False, total=0, counts={}, flagged=[]), sources=list(fx.src.values()),
-             sizing=dict(suggested=0.0, why="판정 전"))
+             sizing=dict(suggested=0.0, why="판정 전"), ladder=[])
 
     def stop(name, why, verdict="INCOMPLETE", label=None):
         r["gates"].append(dict(name=name, ok=False, why=why))
@@ -192,7 +192,7 @@ def judge(d):
         m, warn = dict(o.get("metrics", {})), []
         warn += stale(d, "1라운드", core.load(d / f"{a}.1.json"), "model")
         for k, val in an["personas"][a].items():
-            if k in ("case", "leveraged", "error"):
+            if k in ("case", "error"):
                 continue
             mine = m.get(k)
             if isinstance(mine, (int, float)) and not isinstance(mine, bool) and isinstance(val, (int, float)) and val \
@@ -214,7 +214,7 @@ def judge(d):
                     x = {**x, "status": "broken"}
                 mbt.append(x)
             m["must_be_true"] = mbt
-        fails = [msg for ok, msg in rules.RED_LINES[a] if not ok(m)]
+        fails = redlines(a, m)
         mine = [c for c in cl if c["role"] == a]
         args = [c for c in mine if c["where"].startswith("arguments")]
         bad = [c for c in args if c["verdict"] in ("unsupported", "contradicted")]
@@ -233,26 +233,70 @@ def judge(d):
             warn.append("기계로 판정할 수 있는 반증 조건(thesis_breaks의 metric·op·value) 없음")
         warn += [f"반증 조건이 이미 충족됨: {b['note'] or b['metric']} (실제 {b['actual']:g})" for b in tb if b["status"].startswith("충족")]
         r["breaks"] += tb
-        final, override = stance, None
-        if stance == "for" and fails:
-            final, override = "against", "redline"
-        elif verify_fail and stance != "abstain":
-            final, override = "abstain", "verify"
+        final, override = resolve(a, stance, m, fails, verify_fail)
         rows.append(dict(agent=a, name=core.AGENTS[a], opening=o["opening"], stance=stance, final=final, override=override,
                          conviction=min(max(int(o.get("conviction", 3)), 1), 5), red_lines=fails, warnings=warn, metrics=m,
-                         verify=dict(total=len(args), failed=len(bad)), opinion=o))
+                         verify=dict(total=len(args), failed=len(bad)), verify_fail=verify_fail, opinion=o))
     r["breaks"] += breaks(fx, [p["signal"] for p in items(redteam.get("premortem"), "point") if isinstance(p.get("signal"), dict)], "레드팀")
     r["kpis"] = kpis(fx, model)
     w = {x["agent"]: rules.WEIGHTS[x["agent"]] / sum(rules.WEIGHTS[y["agent"]] for y in rows) for x in rows}
-    tally = sum(w[x["agent"]] * core.STANCE[x["final"]][1] for x in rows)
-    verdict = "FOR" if tally > 1e-9 else "AGAINST" if tally < -1e-9 else "SPLIT"
-    word = {"FOR": "찬성", "AGAINST": "반대", "SPLIT": "보류"}[verdict]
-    label = f"만장일치 {word}" if len({x["final"] for x in rows}) == 1 else "팽팽" if verdict == "SPLIT" else f"{word} 우세"
-    r.update(verdict=verdict, label=label, agents=rows, votes={k: sum(x["final"] == k for x in rows) for k in core.STANCE},
+    verdict, label, votes = count(rows, {x["agent"]: x["final"] for x in rows})
+    r.update(verdict=verdict, label=label, agents=rows, votes=votes,
              score=round(sum(w[x["agent"]] * core.STANCE[x["final"]][1] * x["conviction"] / 5 for x in rows), 2), ok=verdict == "FOR")
+    r["ladder"] = ladder(rows, an)
     r["sizing"] = sizing(r, an, rows)
     r["user_view"] = contrast(d, r)
     return r
+
+
+def redlines(a, m):
+    return [msg for ok, msg in rules.RED_LINES[a] if not ok(m)]
+
+
+def resolve(a, stance, m, fails, verify_fail):
+    """말(stance)과 원칙(레드라인)으로 표를 정한다 → (최종 표, 바뀐 이유).
+    '조건부 찬성'은 지금 가격에서 원칙을 지키면 찬성, 더 낮은 가격(buy_below)에서는 지키면 CONDITIONAL_ABOVE,
+    어떤 가격에서도 못 지키면(가격과 무관한 레드라인) 반대. 레드라인 위반은 검증 실패보다 먼저 적용한다."""
+    if stance == "conditional" and fails:
+        bb = rules.buy_below(a, m)
+        later = bb is not None and not redlines(a, calc.reprice(m, bb))
+        final, why = (rules.CONDITIONAL_ABOVE, "conditional") if later else ("against", "redline")
+    elif stance == "for" and fails:
+        final, why = "against", "redline"
+    else:
+        final, why = ("for" if stance == "conditional" else stance), None
+    if verify_fail and final != "abstain" and why != "redline":
+        final, why = "abstain", "verify"
+    return final, why
+
+
+def count(rows, finals):  # 가중 표결 → (판정, 라벨, 표 수)
+    w = {x["agent"]: rules.WEIGHTS[x["agent"]] for x in rows}
+    tally = sum(w[a] * core.STANCE[f][1] for a, f in finals.items()) / sum(w.values())
+    verdict = "FOR" if tally > 1e-9 else "AGAINST" if tally < -1e-9 else "SPLIT"
+    word = {"FOR": "찬성", "AGAINST": "반대", "SPLIT": "보류"}[verdict]
+    label = f"만장일치 {word}" if len(set(finals.values())) == 1 else "팽팽" if verdict == "SPLIT" else f"{word} 우세"
+    return verdict, label, {k: sum(f == k for f in finals.values()) for k in core.VOTES}
+
+
+def ladder(rows, an):
+    """조건부 판정 — 주가가 각 페르소나의 조건 가격(buy_below)까지 내려오면 표결이 어떻게 바뀌는가.
+    가치는 그대로 두고 가격에 걸린 지표만 다시 계산한다(calc.reprice). 첫 줄은 현재가로, 본 판정과 같다."""
+    p0 = (an.get("market") or {}).get("price")
+    if not p0:
+        return []
+    pts = sorted({x["metrics"]["buy_below"] for x in rows if x["stance"] in ("for", "conditional")
+                  and (x["metrics"].get("buy_below") or p0) < p0}, reverse=True)
+    out = []
+    for p in [p0, *pts]:
+        finals = {}
+        for x in rows:
+            m = calc.reprice(x["metrics"], p)
+            finals[x["agent"]] = resolve(x["agent"], x["stance"], m, redlines(x["agent"], m), x["verify_fail"])[0]
+        verdict, label, votes = count(rows, finals)
+        out.append(dict(price=p, change=p / p0 - 1, finals=finals, verdict=verdict, label=label, votes=votes,
+                        who=[core.AGENTS[x["agent"]] for x in rows if x["metrics"].get("buy_below") == p]))
+    return out
 
 
 def mechanical(c, fx, ref, everything, allowed, pct=None):

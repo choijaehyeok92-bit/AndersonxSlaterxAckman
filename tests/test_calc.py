@@ -40,7 +40,7 @@ class History(Base):
         self.add_facts({"metric": "revenue", "value": 1.8e9, "unit": "USD", "period": "FY2026", "end": "2026-12-31", "source": "S9",
                         "basis": "consensus"})                          # 같은 날 자료 — 나중에 들어온 사실이 앞의 것을 대신한다
         v = cons()
-        self.assertEqual([c["cites"] for c in v["consensus"] if c["period"] == "FY2026"], [["F60"]])
+        self.assertEqual([c["cites"] for c in v["consensus"] if c["period"] == "FY2026"], [["F62"]])
         self.assertIn("F57: 같은 revenue FY2026", " ".join(v["stale_consensus"]))
         self.add_facts({"metric": "revenue", "value": 1.9e9, "unit": "USD", "period": "FY2026", "end": "2026-12-31", "source": "S9",
                         "basis": "guidance", "low": 1.85e9, "high": 1.95e9})  # 가이던스 하단보다 낮은 컨센서스 = 실적 반영 전 값
@@ -71,7 +71,7 @@ class History(Base):
                        {"metric": "nrr", "value": 1.2, "unit": "ratio", "end": "2026-06-30", "source": "S99"})
         fx = Facts(core.load(self.d / "evidence.json"))
         w = " | ".join(fx.warnings)
-        for k in ("F53 제외 — ratio 31", "F60 제외 — 기준일(2026-10-16) 이후 실적", "F62 제외 — 출처 S99 없음", "사실 충돌 revenue FY2025"):
+        for k in ("F53 제외 — ratio 31", "F62 제외 — 기준일(2026-10-16) 이후 실적", "F64 제외 — 출처 S99 없음", "사실 충돌 revenue FY2025"):
             self.assertIn(k, w)
         self.assertEqual(fx.value("revenue", "FY2025"), 1.2e9)          # 충돌하면 1차 자료(filing) 값
 
@@ -158,6 +158,32 @@ class Valuation(Base):
         self.assertEqual(br["implied"]["bucket"], "작음")              # 매출 12억 달러
         self.assertTrue(br["bull"]["capped"])                          # 표의 끝보다 높은 성장 = '최대'
         self.assertIn("기저율상", " ".join(an["warnings"]))             # 기본 시나리오 31.9%는 드문 성장
+
+
+class Klarman(Base):
+    def test_hard_value_downside_and_buy_below(self):
+        ev, model = core.load(self.d / "evidence.json"), core.load(self.d / "model.json")
+        an = calc.analyze(ev, model, {"klarman": {"from": "base", "exit_multiple": 20}})
+        k = an["personas"]["klarman"]
+        self.assertEqual((k["net_cash_ps"], k["tangible_book_ps"], k["no_growth_ps"], k["owner_fcf"]), (3.6, 5.4, 3.6, -1.5e7))
+        self.assertEqual((k["hard_value"], k["hard_basis"]), (5.4, "tangible_book_ps"))   # 셋 중 가장 큰 바닥
+        self.assertAlmostEqual(k["downside"], 1 - 5.4 / 84)
+        self.assertAlmostEqual(k["iv_low"], an["valuation"]["scenarios"]["bear"]["iv"])
+        self.assertAlmostEqual(k["iv_high"], an["valuation"]["scenarios"]["base"]["iv"])
+        self.assertAlmostEqual(k["buy_below"], min(k["intrinsic_value"] * 0.7, 5.4 / 0.5))  # 안전마진·하방 둘 다 지키는 가격
+        self.assertEqual((k["low_52w"], k["traded_below_52w"]), (61, False))
+        same = calc.reprice(k, 84)                                     # 지표와 조건부 판정이 같은 식을 쓴다
+        self.assertEqual({x: same[x] for x in ("mos", "downside", "growth_premium")}, {x: k[x] for x in ("mos", "downside", "growth_premium")})
+        low = calc.reprice(k, k["buy_below"])
+        self.assertAlmostEqual(low["downside"], 0.5)
+
+    def test_owner_cash_flow_and_intangibles(self):
+        self.fact("F24", value=1e7)                                    # SBC가 작으면 주주 FCF가 양수 → 성장 없는 가치가 커진다
+        self.add_facts({"metric": "intangibles", "value": 3e8, "unit": "USD", "period": "FY2025", "end": "2025-12-31", "source": "S1"})
+        k = calc.analyze(core.load(self.d / "evidence.json"))["personas"]["klarman"]
+        self.assertAlmostEqual(k["no_growth_ps"], (5e7 / 0.10 + 9e8) / 2.5e8)
+        self.assertAlmostEqual(k["tangible_book_ps"], (1.35e9 - 3e8) / 2.5e8)  # 무형자산은 유형 순자산에서 뺀다
+        self.assertNotIn("buy_below", k)                               # 모델 전에는 내재가치가 없어 조건 가격도 없다
 
 
 class Forensic(Base):

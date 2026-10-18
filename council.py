@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Anderson×Slater×Ackman 리서치 하네스 — 증거·계산·분석·판단·검증·기록을 층으로 나눠 규율을 구조로 강제한다.
+"""Anderson×Slater×Ackman×Klarman 리서치 하네스 — 증거·계산·분석·판단·검증·기록을 층으로 나눠 규율을 구조로 강제한다.
 
   python3 council.py collect <TICKER> [--name 회사명] [--lang en|ko] [--as-of YYYY-MM-DD]   # L1 공시·XBRL/DART·뉴스
   python3 council.py merge   <TICKER> <보강.json>                     # 리서처 보강분 병합 (수집 사실은 못 바꾼다)
@@ -111,9 +111,11 @@ def main(argv=None):
                       + ("" if k["actual"] is None else f" (실제 {k['actual']:g})") for k in r["kpis"]]
             lines += [f"- 반증 조건 {b['who']}: {b['note'] or b['metric']} — {b['status']}" for b in r["breaks"]]
             lines += [f"- 추정 대비 {x['metric']} {x['period']}: {x['diff']:+.1%}" for x in r["deviations"]]
+            if t := r.get("price_trigger"):
+                lines.append(f"- 가격 조건 도달: 주가 {r['price']:,.2f} ≤ {t['price']:,.2f} → 직전 판단의 조건부 판정은 {t['label']} — 재판정 권장")
             lines += ["→ 재토론 권장: 근거 갱신 후 `run --force` 또는 라운드 파일 삭제 뒤 다시 판정"] if r["status"] != "유지" else []
             show(a, r, "\n".join(lines))
-            return 0 if r["status"] == "유지" else 1
+            return 0 if r["status"] == "유지" and not r.get("price_trigger") else 1
         if a.cmd == "decide":
             r = journal.decide(d, a.size, a.note)
             print(f"기록: {r['ref']} {r['verdict']} → 비중 {r['size']:.1%} (하네스 참고값 {r['suggested'] or 0:.1%})")

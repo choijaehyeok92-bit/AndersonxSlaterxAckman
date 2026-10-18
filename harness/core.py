@@ -4,10 +4,12 @@ from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-AGENTS = {"anderson": "앤더슨", "slater": "슬레이터", "ackman": "애크먼"}          # L5 판단 — 표를 던진다
+AGENTS = {"anderson": "앤더슨", "slater": "슬레이터", "ackman": "애크먼", "klarman": "클라만"}  # L5 판단 — 표를 던진다
 MODULES = {"business": "사업·산업", "management": "경영진·자본배분", "forensic": "회계 품질"}  # L4 분석
 ROLES = {"researcher": "리서처", **MODULES, "modeler": "모델러", **AGENTS, "redteam": "레드팀", "verifier": "검증자"}
-STANCE = {"for": ("찬성", 1), "against": ("반대", -1), "abstain": ("보류", 0)}
+STANCE = {"for": ("찬성", 1), "against": ("반대", -1), "abstain": ("보류", 0),
+          "conditional": ("조건부 찬성", 0)}  # '이 가격 이하라면 찬성' — 집계 전에 찬성·보류·반대로 풀린다
+VOTES = ("for", "against", "abstain")
 TYPES = ("filing", "call", "conference", "news", "data")
 BASES = ("reported", "guidance", "consensus", "market")
 ITEMS = {"1.01": "중요 계약", "2.01": "인수·매각", "2.02": "실적 발표", "4.01": "감사인 변경", "4.02": "재무제표 정정",

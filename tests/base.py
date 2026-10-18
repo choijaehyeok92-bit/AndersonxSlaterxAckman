@@ -21,7 +21,7 @@ elif role == "verifier":
     out = {"checks": [{"id": i, "verdict": "supported" if p.strip() in orig else "contradicted", "reason": "가짜"}
                       for i, p in re.findall(r"### (V\d+)\n주장: (.*)", t)]}
 else:
-    name = f"{role}.{rnd}.json" if role in ("anderson", "slater", "ackman") else "model.json" if role == "modeler" else f"{role}.json"
+    name = f"{role}.{rnd}.json" if role in ("anderson", "slater", "ackman", "klarman") else "model.json" if role == "modeler" else f"{role}.json"
     out = json.loads((src / name).read_text(encoding="utf-8"))
 print("설명 문장이 앞에 붙어도 된다.\n```json\n" + json.dumps(out, ensure_ascii=False) + "\n```")
 '''

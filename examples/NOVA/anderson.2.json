@@ -1,6 +1,6 @@
 {
   "agent": "anderson",
-  "basis": "392e04e6e4e4",
+  "basis": "c641fd3759c3",
   "stance": "for",
   "conviction": 5,
   "rebuttals": [
@@ -27,6 +27,14 @@
       "cites": [
         "S6",
         "F51"
+      ]
+    },
+    {
+      "to": "klarman",
+      "point": "단단한 가치 5.4달러로 이 회사를 재는 것은 설치 대수 +72%로 커지는 플릿을 장부가로 재는 일이다. 하방을 묻는 것은 정당하지만, 성장 없는 가치로 아웃라이어를 재면 모든 아웃라이어가 비싸 보인다",
+      "cites": [
+        "C:hard_value@klarman",
+        "S2"
       ]
     }
   ],

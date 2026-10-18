@@ -16,14 +16,14 @@ class Run(Base):
     def test_full_pipeline_with_any_cli(self):  # 프롬프트를 stdin으로 받는 CLI면 무엇이든 — 여기선 가짜 CLI
         cli = self.cli()
         r, _ = self.quiet(pipeline.run, self.d, "NOVA", cli)
-        self.assertEqual((r["verdict"], r["score"], r["label"]), ("FOR", 0.33, "찬성 우세"))
+        self.assertEqual((r["verdict"], r["score"], r["label"]), ("FOR", 0.25, "찬성 우세"))
         calls = self.called()
         self.assertEqual(calls[0], "researcher.1")
         self.assertEqual(sorted(calls[1:4]), ["business.1", "forensic.1", "management.1"])
         self.assertEqual(calls[4], "modeler.1")
-        self.assertEqual(sorted(calls[5:9]), ["ackman.1", "anderson.1", "redteam.1", "slater.1"])
-        self.assertEqual(sorted(calls[9:12]), ["ackman.2", "anderson.2", "slater.2"])
-        self.assertEqual(calls[12:], ["verifier.1"])
+        self.assertEqual(sorted(calls[5:10]), ["ackman.1", "anderson.1", "klarman.1", "redteam.1", "slater.1"])
+        self.assertEqual(sorted(calls[10:14]), ["ackman.2", "anderson.2", "klarman.2", "slater.2"])
+        self.assertEqual(calls[14:], ["verifier.1"])
         self.assertTrue(core.load(self.d / "evidence.json")["researched"])
         self.assertEqual(core.load(self.d / "forensic.json")["basis"], core.basis(self.d, "evidence"))
         self.assertEqual(r["verification"]["counts"]["contradicted"], 0)
@@ -37,7 +37,7 @@ class Run(Base):
         self.calls.unlink()
         self.add_facts({"metric": "nrr", "value": 1.35, "unit": "ratio", "period": "FY2026Q1", "end": "2026-03-31", "source": "S3"})
         self.quiet(pipeline.run, self.d, "NOVA", cli)                  # 사실이 바뀌면 모듈부터 다시 — 사실 → 모델 → 판단
-        self.assertEqual(len(self.called()), 12)
+        self.assertEqual(len(self.called()), 14)
         self.assertNotIn("researcher.1", self.called())
 
     def test_forensic_gate_stops_pipeline(self):

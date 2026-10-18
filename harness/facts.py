@@ -104,7 +104,7 @@ RATIO = {"revenue_growth", "gross_margin", "operating_margin", "fcf_margin", "fc
          "roic", "share_change", "accruals_ratio", "fcf_yield", "implied_cagr", "irr", "expected_irr", "p_loss", "mos",
          "consensus_diff", "guidance_hit_rate", "base_rate", "p", "revenue_cagr", "receivables_growth", "inventory_growth",
          "deferred_revenue_growth", "goodwill_to_assets", "capitalized_to_revenue", "ocf_to_ni", "accruals", "receivables_gap",
-         "inventory_gap", "dilution", "capitalized", "goodwill", "deferred_revenue", "discount_rate"}
+         "inventory_gap", "dilution", "capitalized", "goodwill", "deferred_revenue", "discount_rate", "downside", "growth_premium"}
 
 
 def numbers(text, strict=False):

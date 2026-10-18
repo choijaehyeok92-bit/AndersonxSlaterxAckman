@@ -1,4 +1,4 @@
-# AGENTS.md — Anderson × Slater × Ackman 리서치 하네스
+# AGENTS.md — Anderson × Slater × Ackman × Klarman 리서치 하네스
 
 모든 AI CLI(Claude Code · Codex CLI · Gemini CLI · Cursor · Copilot · OpenCode 등)에 공통으로 적용하는 지침이다.
 전문 애널리스트와 LLM 분석의 차이는 지능이 아니라 **규율**이다 — 숫자를 어디서 가져왔는지, 계산을 누가 했는지,
@@ -11,7 +11,7 @@
 | L2 사실 저장소 | 값·단위·기간·출처로만 저장, 출처 없는 숫자·단위 오류·기준일 이후 자료는 버림 | 코드 | `harness/facts.py` |
 | L3 계산 | 재무 비율·TTM·역DCF·드라이버 모델·시나리오 가치·수익률 분해·민감도·컨센서스 대비·기저율 | 코드 (가정은 [모델러](agents/modeler.md)) | `harness/calc.py` |
 | L4 분석 모듈 | [사업·산업](agents/business.md) · [경영진·자본배분](agents/management.md) · [회계 품질](agents/forensic.md) | 서로 모르는 세 역할 | `<module>.json` |
-| L5 판단 | [앤더슨](agents/anderson.md) · [슬레이터](agents/slater.md) · [애크먼](agents/ackman.md) 2라운드 토론 + [레드팀](agents/redteam.md) 사전 부검 | 페르소나 ([공통 규칙](agents/debate.md)) | `<agent>.<round>.json` |
+| L5 판단 | [앤더슨](agents/anderson.md) · [슬레이터](agents/slater.md) · [애크먼](agents/ackman.md) · [클라만](agents/klarman.md) 2라운드 토론 + [레드팀](agents/redteam.md) 사전 부검 | 페르소나 ([공통 규칙](agents/debate.md)) | `<agent>.<round>.json` |
 | L6 검증 | 숫자 대조(코드) + 작성자·입장을 가린 [독립 검증자](agents/verifier.md) | 코드 + 검증자 | `harness/judge.py` |
 | L7 기록·교정 | 판단 로그, 실적 갱신(유지·약화·훼손), 예측 교정(Brier), 사람의 비중 결정 | 코드 | `harness/journal.py` |
 
@@ -47,12 +47,12 @@
 4. **모델 (L3 입력)** — `prompt modeler X` → `model.json`. 다시 `calc X`로 시나리오 가치·역DCF·기저율 경고를 확인한다.
 5. **1라운드 + 레드팀 (L5)** — 페르소나마다 `prompt <agent> X --round 1` → `<agent>.1.json`, 그리고 `prompt redteam X` → `redteam.json`.
    레드팀은 페르소나의 결론을 보지 않는다.
-6. **2라운드** — `prompt <agent> X --round 2` → `<agent>.2.json`. 두 상대와 레드팀에게 반론한다.
+6. **2라운드** — `prompt <agent> X --round 2` → `<agent>.2.json`. 다른 페르소나 모두와 레드팀에게 반론한다.
 7. **검증 (L6)** — `prompt verifier X` → `verifier.json`. **이 대화의 맥락이 없는 새 서브에이전트**에게 맡긴다. 자기 작업을 자기가 채점하면 거의 항상 통과한다.
 8. **판정** — `python3 council.py judge X` → `research/X/report.md`, 판단 로그 `journal.jsonl`.
    결과(게이트·판정·표결·레드라인·검증·경고)를 그대로 보고하고, 보고서 앞의 6개 산출물 —
-   variant perception · 시나리오 분포와 기대수익률 · 반증 조건 · 모니터링 KPI · 확신도와 비중 참고값 — 을 요약한다.
-   비중은 사람이 정한다고 덧붙인다.
+   variant perception · 시나리오 분포와 기대수익률 · 반증 조건 · 모니터링 KPI · 확신도와 비중 참고값 — 과
+   **조건부 판정**(주가가 어디까지 내려오면 표결이 어떻게 바뀌는가)을 요약한다. 비중은 사람이 정한다고 덧붙인다.
 
 - 서브에이전트를 지원하는 CLI(Claude Code의 Agent 도구 등): 3·5·6단계의 역할들을 병렬 서브에이전트로 띄워 독립성을 지킨다.
 - 지원하지 않는 CLI: 순서대로 쓰되 같은 단계의 다른 역할 파일을 다시 읽지 않는다. 완전한 독립이 필요하면 아래 `run`을 쓴다.
@@ -82,6 +82,13 @@
 | 앤더슨 | `upside_10y`(코드: case의 10년 주당가치 ÷ 주가) ≥ 5 | `revenue_5y`(코드) < 2 |
 | 슬레이터 | `unit_economics` ≠ `deteriorating` · `survival_path` ≠ `false` · `cash_survives`(코드: case 현금 경로) ≠ `false` · `must_be_true` 작성 · `broken` 없음(코드가 사실로 대조) | `must_be_true`에 주가·목표가 |
 | 애크먼 | `simple_predictable` · `fcf_positive`(코드) · `capital_markets_dependent` = `false`(순부채/EBITDA > 4 또는 FCF 음수·소진 3년 미만이면 코드가 `true`) · `mos`(코드) ≥ 20% | — |
+| 클라만 | `mos`(코드: case 내재가치 대비) ≥ 30% · `downside`(코드: 성장이 틀릴 때 단단한 가치까지 하락) ≤ 50% · `leveraged`(코드) = `false` | `growth_premium`(주가 중 성장 몫) > 50% |
+
+**조건부 찬성** — 페르소나는 `stance`를 `conditional`("이 가격 이하라면 찬성")로 쓸 수 있다. 조건 가격 `buy_below`는 가격에 걸린 레드라인
+(앤더슨 10년 5배 · 애크먼 안전마진 20% · 클라만 안전마진 30%·하방 50%)을 모두 지키는 가장 높은 주가로 코드가 계산한다.
+현재가에서 레드라인을 지키면 찬성, 더 낮은 조건 가격에서는 지키면 `CONDITIONAL_ABOVE`(기본 '보류'), 가격과 무관한 레드라인을 어기면 반대로 집계한다.
+보고서의 **조건부 판정**은 가치는 그대로 두고 가격에 걸린 지표만 다시 계산해(`calc.reprice`), 주가가 각 조건 가격까지 내려왔을 때의 표결을 보여 준다.
+주가를 예측하지 않는다. `update`는 새 주가가 직전 판단의 조건 가격에 닿으면 알린다(종료 코드 1).
 
 **검증** — 주장마다: 인용 없음 · 없는 근거 · 기준일 이후 근거 · **출처 없는 숫자**(코드가 숫자를 하나씩 대조해 근거·계산값 어디에도 없는 숫자,
 퍼센트와 금액을 구분) · 검증자의 `unsupported`·`contradicted`는 실패. 한 페르소나의 논거 절반 이상이 실패하면 그 표는 '보류'로 집계.
@@ -92,10 +99,10 @@
 직전 분기 값으로 판정하지 않고 '대기'로 둔다. 컨센서스는 같은 지표·기간이면 가장 최근 것만 쓰고, 회사 가이던스 하단보다 낮거나 최근 실적 발표 전
 날짜이거나, 연간 값이 같은 해 분기 합(실적 + 분기 컨센서스)보다 낮으면 '낡은 컨센서스'로 제외한다. 주식 수는 기간 가중평균 희석 주식 수와 현재 주식 수 중 큰 쪽, 순현금에는 단기·장기 투자자산을 넣는다.
 
-**경고** — 2라운드 반론 누락(두 상대 + 레드팀) · 기계 판정 가능한 반증 조건 없음 · 이미 충족된 반증 조건 · 회계 신호 미해명 ·
+**경고** — 2라운드 반론 누락(다른 페르소나 + 레드팀) · 기계 판정 가능한 반증 조건 없음 · 이미 충족된 반증 조건 · 회계 신호 미해명 ·
 회사 발표만으로 '입증'한 해자 · 컨센서스와 같은 모델(variant 없음) · 기저율상 드문 기본 시나리오 · 낡은 입력(`basis`) · `filing`·`call` 근거 부재.
 
-**표결** — 찬성 +1 · 반대 −1 · 보류 0, 가중치는 `WEIGHTS`(기본 동일). 합이 양수면 찬성 우세(종료 코드 0), 아니면 1.
+**표결** — 찬성 +1 · 반대 −1 · 보류 0, 가중치는 `WEIGHTS`(기본 네 명 동일 — 2:2면 팽팽). 합이 양수면 찬성 우세(종료 코드 0), 아니면 1.
 확신 가중 점수 Σ 가중치 × 표 × 확신/5 (−1~+1)와 비중 참고값(요구수익률 초과분의 1/4 켈리, 상한 10%)은 판정을 바꾸지 않는다.
 2라운드 값은 1라운드 값을 덮어쓴다(`metrics`·`case`는 필드 단위).
 
@@ -124,7 +131,7 @@ research/<TICKER>/
 python3 council.py collect  <TICKER> [--name 회사명] [--lang en|ko] [--as-of YYYY-MM-DD]
 python3 council.py merge    <TICKER> <보강.json>
 python3 council.py calc     <TICKER> [--case '{"ackman": {"from": "bear"}}'] [--json]
-python3 council.py prompt   <researcher|business|management|forensic|modeler|anderson|slater|ackman|redteam|verifier> <TICKER> [--round 1|2]
+python3 council.py prompt   <researcher|business|management|forensic|modeler|anderson|slater|ackman|klarman|redteam|verifier> <TICKER> [--round 1|2]
 python3 council.py run      <TICKER> --cli "<명령>" [--force] [--json]
 python3 council.py judge    <TICKER|폴더> [--json] [--no-log]
 python3 council.py update   <TICKER> [--json]

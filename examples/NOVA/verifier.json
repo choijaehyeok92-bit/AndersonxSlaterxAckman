@@ -1,6 +1,6 @@
 {
   "agent": "verifier",
-  "basis": "b7df1f92c4d1",
+  "basis": "59fde2f0e17b",
   "checks": [
     {
       "id": "V1",
@@ -94,8 +94,8 @@
     },
     {
       "id": "V19",
-      "verdict": "leap",
-      "reason": "FCF 수익률 0.3%·영업현금흐름 1.4억 달러는 인용 자료와 맞지만, '아마존을 놓친 방식'이라는 결론은 인용 자료에서 따라 나오지 않는 유비다"
+      "verdict": "supported",
+      "reason": "인용 자료의 숫자·사실이 주장과 일치한다"
     },
     {
       "id": "V20",
@@ -109,8 +109,8 @@
     },
     {
       "id": "V22",
-      "verdict": "supported",
-      "reason": "인용 자료의 숫자·사실이 주장과 일치한다"
+      "verdict": "leap",
+      "reason": "FCF 수익률 0.3%·영업현금흐름 1.4억 달러는 인용 자료와 맞지만, '아마존을 놓친 방식'이라는 결론은 인용 자료에서 따라 나오지 않는 유비다"
     },
     {
       "id": "V23",
@@ -135,7 +135,7 @@
     {
       "id": "V27",
       "verdict": "supported",
-      "reason": "순매출유지율 138%는 F51·S3과 일치한다. 전환비용의 크기 자체를 보여 주는 자료는 아니다"
+      "reason": "인용 자료의 숫자·사실이 주장과 일치한다"
     },
     {
       "id": "V28",
@@ -160,7 +160,7 @@
     {
       "id": "V32",
       "verdict": "supported",
-      "reason": "인용 자료의 숫자·사실이 주장과 일치한다"
+      "reason": "순매출유지율 138%는 F51·S3과 일치한다. 전환비용의 크기 자체를 보여 주는 자료는 아니다"
     },
     {
       "id": "V33",
@@ -259,6 +259,71 @@
     },
     {
       "id": "V52",
+      "verdict": "supported",
+      "reason": "인용 자료의 숫자·사실이 주장과 일치한다"
+    },
+    {
+      "id": "V53",
+      "verdict": "supported",
+      "reason": "인용 자료의 숫자·사실이 주장과 일치한다"
+    },
+    {
+      "id": "V54",
+      "verdict": "supported",
+      "reason": "인용 자료의 숫자·사실이 주장과 일치한다"
+    },
+    {
+      "id": "V55",
+      "verdict": "supported",
+      "reason": "인용 자료의 숫자·사실이 주장과 일치한다"
+    },
+    {
+      "id": "V56",
+      "verdict": "supported",
+      "reason": "인용 자료의 숫자·사실이 주장과 일치한다"
+    },
+    {
+      "id": "V57",
+      "verdict": "supported",
+      "reason": "인용 자료의 숫자·사실이 주장과 일치한다"
+    },
+    {
+      "id": "V58",
+      "verdict": "supported",
+      "reason": "인용 자료의 숫자·사실이 주장과 일치한다"
+    },
+    {
+      "id": "V59",
+      "verdict": "supported",
+      "reason": "인용 자료의 숫자·사실이 주장과 일치한다"
+    },
+    {
+      "id": "V60",
+      "verdict": "supported",
+      "reason": "인용 자료의 숫자·사실이 주장과 일치한다"
+    },
+    {
+      "id": "V61",
+      "verdict": "supported",
+      "reason": "인용 자료의 숫자·사실이 주장과 일치한다"
+    },
+    {
+      "id": "V62",
+      "verdict": "supported",
+      "reason": "인용 자료의 숫자·사실이 주장과 일치한다"
+    },
+    {
+      "id": "V63",
+      "verdict": "supported",
+      "reason": "인용 자료의 숫자·사실이 주장과 일치한다"
+    },
+    {
+      "id": "V64",
+      "verdict": "supported",
+      "reason": "인용 자료의 숫자·사실이 주장과 일치한다"
+    },
+    {
+      "id": "V65",
       "verdict": "supported",
       "reason": "인용 자료의 숫자·사실이 주장과 일치한다"
     }

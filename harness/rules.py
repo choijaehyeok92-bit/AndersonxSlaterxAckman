@@ -5,11 +5,13 @@ agents/*.md의 '레드라인'·'게이트'·'검증' 절과 같아야 한다. �
 """
 import re
 
-WEIGHTS = {"anderson": 1, "slater": 1, "ackman": 1}   # 표결 가중치
+WEIGHTS = {"anderson": 1, "slater": 1, "ackman": 1, "klarman": 1}   # 표결 가중치
 
 # 페르소나 레드라인
 UPSIDE, REVENUE_5Y = 5.0, 2.0      # 앤더슨: 10년 주당가치 5배 (LTGG Q10) · 5년 매출 2배 (Q1)
 MOS, LEVERAGE = 0.20, 4.0          # 애크먼: 안전마진 20% · 순부채/EBITDA 4배 초과 = 자본시장 의존
+MOS_K, MAX_LOSS = 0.30, 0.50       # 클라만: 보수적 내재가치 대비 안전마진 30% · 성장이 틀릴 때 단단한 가치까지 하락 50% 이내
+CONDITIONAL_ABOVE = "abstain"      # '조건부 찬성'인데 현재가가 조건 가격보다 높을 때의 표 — "against"로 바꾸면 더 엄격하다
 
 # L3 계산 기본값 — 모델러가 model.json에서 바꿀 수 있다
 DISCOUNT, TERMINAL_G, HORIZON = 0.10, 0.03, 5   # 할인율 · 역DCF 영구성장률 · 모델 기간(년)
@@ -58,12 +60,31 @@ RED_LINES = {  # '찬성'하려면 자기 원칙을 통과해야 한다. m = 페
                (lambda m: m.get("fcf_positive") is True, "잉여현금흐름을 만들지 못함 (코드 계산)"),
                (lambda m: m.get("capital_markets_dependent") is False, "레버리지·자본시장 의존"),
                (lambda m: not _fails(m, "mos", lambda v: v >= MOS), f"안전마진 {MOS:.0%} 미만 또는 계산 불가")],
+    "klarman": [(lambda m: not _fails(m, "mos", lambda v: v >= MOS_K), f"보수적 내재가치 대비 안전마진 {MOS_K:.0%} 미만 또는 계산 불가"),
+                (lambda m: not _fails(m, "downside", lambda v: v <= MAX_LOSS),
+                 f"성장이 틀리면 단단한 가치까지 {MAX_LOSS:.0%} 넘게 하락 — 영구적 손실 위험"),
+                (lambda m: m.get("leveraged") is not True, "레버리지·자본시장 의존 (코드 계산)")],
 }
+
+
+def buy_below(a, m):
+    """가격에 걸린 레드라인을 모두 통과하는 가장 높은 주가 — '이 가격 이하라면 찬성'의 그 가격. 가격과 무관한 페르소나는 None."""
+    pos = lambda v: v if isinstance(v, (int, float)) and v > 0 else None
+    if a == "anderson":
+        return pos(m.get("value_10y") and m["value_10y"] / UPSIDE)
+    if a == "ackman":
+        return pos(m.get("intrinsic_value") and m["intrinsic_value"] * (1 - MOS))
+    if a == "klarman":
+        iv, hard = pos(m.get("intrinsic_value")), pos(m.get("hard_value"))
+        return min(iv * (1 - MOS_K), hard / (1 - MAX_LOSS)) if iv and hard else None
+    return None
 
 
 def soft(a, m):  # 경고만 하는 원칙
     if a == "anderson" and (m.get("revenue_5y") or 0) < REVENUE_5Y:
         return [f"5년 매출 {m.get('revenue_5y') or 0:.2f}배 < {REVENUE_5Y:g}배 (LTGG Q1)"]
+    if a == "klarman" and (m.get("growth_premium") or 0) > 0.5:
+        return [f"주가의 {m['growth_premium']:.0%}가 성장에 대한 값 — 성장 없는 가치는 주당 {m.get('no_growth_ps') or 0:,.2f}"]
     if a == "slater":  # 점검 항목은 가격이 아니라 운영 지표
         return [f"가격 기반 검증 항목 — 운영 지표로 교체: {x.get('claim')}"
                 for x in m.get("must_be_true", []) if PRICE.search(x.get("claim", ""))]

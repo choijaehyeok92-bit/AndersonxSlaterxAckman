@@ -1,4 +1,5 @@
-from harness import core, prompts, report
+from unittest import mock
+from harness import core, prompts, report, rules
 from harness.judge import judge
 from tests.base import Base
 
@@ -6,27 +7,33 @@ from tests.base import Base
 class Verdict(Base):
     def test_example(self):
         r = judge(self.d)
-        self.assertEqual((r["verdict"], r["label"], r["score"]), ("FOR", "찬성 우세", 0.33))
+        self.assertEqual((r["verdict"], r["label"], r["score"], r["votes"]), ("FOR", "찬성 우세", 0.25, {"for": 2, "against": 1, "abstain": 1}))
         self.assertEqual([(x["opening"], x["final"], x["conviction"], x["override"]) for x in r["agents"]],
-                         [("for", "for", 5, None), ("for", "for", 3, None), ("against", "against", 3, None)])
+                         [("for", "for", 5, None), ("for", "for", 3, None), ("against", "against", 3, None),
+                          ("conditional", "abstain", 4, "conditional")])   # 클라만: 조건 가격 위 → 보류
         self.assertEqual([g["name"] for g in r["gates"] if g["ok"]], ["근거 충분성", "회계 품질", "모델"])
         self.assertEqual(r["agents"][0]["warnings"], [r["agents"][0]["warnings"][0]])  # 앤더슨: 아마존 유비 = leap 하나
         self.assertIn("leap", r["agents"][0]["warnings"][0])
         self.assertEqual(r["agents"][1]["warnings"] + r["agents"][2]["warnings"], [])
+        self.assertEqual(r["agents"][3]["warnings"], ["주가의 96%가 성장에 대한 값 — 성장 없는 가치는 주당 3.60"])
+        self.assertEqual([(x["price"], x["label"], x["votes"]["for"], x["who"]) for x in r["ladder"]],
+                         [(84, "찬성 우세", 2, []), (10.8, "찬성 우세", 3, ["클라만"])])
         self.assertEqual(len(r["notes"]), 1)                           # 기저율 표 없음
         self.assertEqual(r["verification"]["counts"]["supported"], r["verification"]["total"] - 1)
         self.assertEqual([k["id"] for k in r["kpis"]], ["K1", "K2", "K3", "K4"])
         self.assertEqual(r["sizing"]["suggested"], 0.0)                # 기대 5.7% < 요구수익률 10%
         md = report.render(r)
         for k in ("## 1. Variant perception", "## 2. 시나리오 분포", "## 3. 반증 조건", "## 4. 모니터링 KPI", "## 5. 확신도와 비중",
-                  "[at_risk] 휴머노이드", "사람이 정한다"):
+                  "## 6. 조건부 판정", "조건부 판정: 주가 ≤ 10.80 (-87%) → 찬성 우세 (찬3·반1·보0)", "클라만의 세 질문",
+                  "조건 가격 이하로 내려간 적이 없다", "[at_risk] 휴머노이드", "사람이 정한다"):
             self.assertIn(k, md)
 
     def test_red_lines_use_computed_metrics(self):  # 말로 '찬성'해도 코드 계산이 원칙을 어기면 '반대'
         self.edit("ackman.2.json", stance="for")
         self.edit("anderson.2.json", case={"from": "base"})
         r = judge(self.d)
-        self.assertEqual([(x["stance"], x["final"]) for x in r["agents"]], [("for", "against"), ("for", "for"), ("for", "against")])
+        self.assertEqual([(x["stance"], x["final"]) for x in r["agents"]],
+                         [("for", "against"), ("for", "for"), ("for", "against"), ("conditional", "abstain")])
         self.assertEqual((r["verdict"], r["label"]), ("AGAINST", "반대 우세"))
         self.assertIn("10년 주당가치", r["agents"][0]["red_lines"][0])
         self.assertIn("안전마진", " ".join(r["agents"][2]["red_lines"]))
@@ -56,6 +63,34 @@ class Verdict(Base):
         x = judge(self.d)["agents"][2]
         self.assertTrue(x["metrics"]["capital_markets_dependent"])
         self.assertIn("자본시장 의존", " ".join(x["warnings"]))
+
+
+class Conditional(Base):  # 클라만 — '이 가격 이하라면 찬성'
+    def test_conditional_resolves_by_price(self):
+        self.fact("F59", value=10)                                     # 주가가 조건 가격(10.8) 아래로
+        r = judge(self.d)
+        x = r["agents"][3]
+        self.assertEqual((x["final"], x["override"], x["red_lines"]), ("for", None, []))
+        self.assertEqual(r["ladder"][0]["votes"], r["votes"])          # 첫 줄 = 본 판정
+        with mock.patch.object(rules, "CONDITIONAL_ABOVE", "against"):  # 더 엄격한 규칙으로 바꿀 수 있다
+            self.fact("F59", value=84)
+            self.assertEqual(judge(self.d)["agents"][3]["final"], "against")
+
+    def test_conditional_cannot_buy_past_non_price_red_lines(self):
+        self.add_facts({"metric": "debt", "value": 5e9, "unit": "USD", "period": "FY2025", "end": "2025-12-31", "source": "S1"})
+        x = judge(self.d)["agents"][3]                                 # 레버리지는 가격과 무관 — 어떤 가격에도 못 산다
+        self.assertEqual((x["final"], x["override"]), ("against", "redline"))
+        self.assertIn("레버리지", " ".join(x["red_lines"]))
+
+    def test_ladder_recomputes_price_lines_only(self):
+        self.edit("ackman.2.json", stance="conditional")               # 애크먼: 안전마진 가격은 있지만 단순성 레드라인은 가격과 무관
+        r = judge(self.d)
+        lad = {x["price"]: x for x in r["ladder"]}
+        ack = r["agents"][2]["metrics"]["buy_below"]
+        self.assertAlmostEqual(ack, r["agents"][2]["metrics"]["intrinsic_value"] * 0.8)
+        self.assertEqual(lad[ack]["finals"]["ackman"], "against")
+        self.assertEqual(lad[10.8]["finals"], {"anderson": "for", "slater": "for", "ackman": "against", "klarman": "for"})
+        self.assertEqual(r["agents"][2]["final"], "against")
 
 
 class Verification(Base):
@@ -94,7 +129,7 @@ class Verification(Base):
         w = " ".join(r["agents"][1]["warnings"])
         self.assertTrue(all(k in w for k in ("인용 없음", "S99", "가격 기반")))
         self.assertEqual(r["agents"][1]["final"], "abstain")
-        self.assertEqual([w for w in r["agents"][2]["warnings"] if "반론 없음" in w], ["슬레이터에 대한 반론 없음", "레드팀에 대한 반론 없음"])
+        self.assertEqual([w for w in r["agents"][2]["warnings"] if "반론 없음" in w], ["슬레이터에 대한 반론 없음", "클라만에 대한 반론 없음", "레드팀에 대한 반론 없음"])
 
     def test_stale_inputs(self):
         ev = core.load(self.d / "evidence.json")

@@ -1,6 +1,6 @@
 {
   "agent": "forensic",
-  "basis": "1d360a6bb0f0",
+  "basis": "1b1076cf1ec9",
   "summary": "매출 인식·발생액에서 문제 신호는 없고, 영업현금흐름이 순이익을 꾸준히 웃돈다. FY2024 매출채권 급증은 FY2025에 되돌아왔다. 다만 SBC가 영업현금흐름의 절반을 넘으므로 FCF는 SBC를 뺀 값으로 봐야 한다 — SBC 차감 FCF는 아직 음수다.",
   "grade": "watch",
   "flags": [

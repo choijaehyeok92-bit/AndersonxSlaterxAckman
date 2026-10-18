@@ -1,6 +1,6 @@
 {
   "agent": "ackman",
-  "basis": "392e04e6e4e4",
+  "basis": "c641fd3759c3",
   "stance": "against",
   "conviction": 3,
   "rebuttals": [
@@ -27,6 +27,14 @@
       "cites": [
         "C:p_loss",
         "S6"
+      ]
+    },
+    {
+      "to": "klarman",
+      "point": "하방 규율에는 동의한다. 다만 기본 시나리오 내재가치 63.1달러에도 84달러는 비싸다 — 단단한 가치까지 내려가지 않아도 반대할 이유가 충분하다",
+      "cites": [
+        "C:intrinsic_value@ackman",
+        "F59"
       ]
     }
   ],

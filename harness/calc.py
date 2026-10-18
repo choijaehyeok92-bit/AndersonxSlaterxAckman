@@ -13,9 +13,9 @@ FLOWS = ("revenue", "cost_of_revenue", "gross_profit", "operating_income", "net_
          "ocf", "capex", "sbc", "rnd", "d_and_a", "interest_expense", "buybacks", "dividends", "capitalized_software",
          "non_gaap_net_income", "non_gaap_operating_income", "adjusted_ebitda")
 STOCKS = ("cash", "short_term_investments", "debt", "debt_current", "receivables", "inventory", "deferred_revenue",
-          "total_assets", "equity", "goodwill")
+          "total_assets", "equity", "goodwill", "intangibles", "long_term_investments")
 ANNUAL, QUARTER = re.compile(r"^FY\d{4}$"), re.compile(r"^FY\d{4}Q[1-4]$")
-DEFAULT_CASE = {"anderson": {"from": "bull"}, "slater": {"from": "base"}, "ackman": {"from": "base"}}
+DEFAULT_CASE = {"anderson": {"from": "bull"}, "slater": {"from": "base"}, "ackman": {"from": "base"}, "klarman": {"from": "base"}}
 BASE_RATES = core.ROOT / "data" / "base_rates.json"   # council.py baserate가 만든다
 MARGINS = (0.10, 0.15, 0.20, 0.25, 0.30)               # 역DCF 목표 FCF 마진 격자 — 모델과 무관하게 고정된 인용 키
 
@@ -139,7 +139,8 @@ def balance(fx, cur):
     # 기간 가중평균 희석 주식 수는 기간 중 상장·대규모 발행이 있으면 현재 주식 수보다 작다 — 더 큰 쪽(보수적)을 쓴다
     shares = max(dil, ref) if dil and ref else dil or ref
     return dict(cash=None if cash is None else cash + (at("short_term_investments") or 0) + (at("long_term_investments") or 0),
-                debt=(at("debt") or 0) + (at("debt_current") or 0), shares=shares, date=last)
+                debt=(at("debt") or 0) + (at("debt_current") or 0), shares=shares, date=last,
+                equity=at("equity"), goodwill=at("goodwill"), intangibles=at("intangibles"))
 
 
 def market(fx, cur, t, bal):
@@ -160,6 +161,11 @@ def market(fx, cur, t, bal):
         return None, ["주식 수 사실 없음 (diluted_shares 또는 shares_outstanding)"]
     if days(fx.as_of, pf["end"]) > 10:
         notes.append(f"주가 기준일 {pf['end']}이 as_of({fx.as_of})보다 {days(fx.as_of, pf['end'])}일 오래됨")
+    band = {}  # 52주 범위 — 주가와 같은 단위로 적힌 사실을 같은 환산(ADR·환율)으로 주당 재무 통화로
+    for m, k in (("price_52w_low", "low_52w"), ("price_52w_high", "high_52w")):
+        f = fx.get(m, basis="market", unit=pf["unit"])
+        if f:
+            band[k] = f["value"] * price / pf["value"]
     cap = price * bal["shares"]
     net_cash = (bal["cash"] or 0) - bal["debt"]
     if bal["cash"] is None:
@@ -174,7 +180,8 @@ def market(fx, cur, t, bal):
                 ev_ebit=div(ev, g("operating_income")) if (g("operating_income") or 0) > 0 else None,
                 fcf_positive=None if fcf is None else fcf > 0,
                 net_debt_to_ebitda=div(-net_cash, ebitda) if (ebitda or 0) > 0 else None,
-                runway_years=div(bal["cash"] or 0, -fcf) if fcf is not None and fcf < 0 else None), notes
+                runway_years=div(bal["cash"] or 0, -fcf) if fcf is not None and fcf < 0 else None,
+                equity=bal["equity"], goodwill=bal["goodwill"], intangibles=bal["intangibles"], **band), notes
 
 
 # ── L4 회계 품질 신호: 판정이 아니라 forensic 역할이 반드시 해명해야 할 질문 목록 ──
@@ -451,33 +458,77 @@ def consensus(fx):
     return out, why
 
 
+def leveraged(mkt):  # 자본시장 의존 — 순부채/EBITDA 과다, 또는 FCF 음수에 현금 소진 3년 미만
+    return bool((mkt.get("net_debt_to_ebitda") or 0) > rules.LEVERAGE
+                or (mkt.get("fcf_positive") is False and (mkt.get("runway_years") or 0) < 3))
+
+
+def floor(an, r):
+    """클라만의 '단단한 가치'(주당) — 성장이 틀려도 남는 것: 순현금 · 유형 순자산 · 성장 없는 현금흐름 가치.
+    성장 없는 가치 = 주주 FCF(FCF − SBC, 음수면 0) ÷ 할인율 + 순현금. 셋 중 가장 큰 것이 하방의 바닥이다."""
+    mkt, t = an["market"] or {}, an["ttm"] or {}
+    sh = mkt.get("shares")
+    if not sh:
+        return {}
+    owner = None if t.get("fcf") is None else t["fcf"] - (t.get("sbc") or 0)  # 주식 보상은 비용이다
+    eq = mkt.get("equity")
+    parts = dict(net_cash_ps=mkt["net_cash"] / sh, no_growth_ps=(max(owner or 0, 0) / r + mkt["net_cash"]) / sh,
+                 tangible_book_ps=None if eq is None else (eq - (mkt.get("goodwill") or 0) - (mkt.get("intangibles") or 0)) / sh)
+    basis, hard = max(((k, v) for k, v in parts.items() if v is not None), key=lambda kv: kv[1])
+    return dict(parts, owner_fcf=owner, hard_value=hard, hard_basis=basis)
+
+
+def reprice(m, p):
+    """가격에 걸린 지표만 주가 p에서 다시 계산한다 — 가치(내재가치·10년 가치·단단한 가치)는 가격과 무관하다.
+    페르소나 지표도, 조건부 판정(가격별 표결)도 이 한 곳의 식을 쓴다."""
+    m = dict(m, price=p)
+    if m.get("value_10y") is not None:
+        m["upside_10y"] = m["value_10y"] / p
+    if m.get("intrinsic_value"):
+        m["mos"] = 1 - p / m["intrinsic_value"] if m["intrinsic_value"] > 0 else None
+    if m.get("hard_value") is not None:
+        m["downside"] = 1 - max(m["hard_value"], 0) / p
+        m["growth_premium"] = 1 - max(m["no_growth_ps"], 0) / p
+    return m
+
+
 def persona(an, base, model, a, case=None):
     """페르소나가 고른 가정(case)으로 코드가 지표를 계산한다 — 페르소나가 숫자를 지어낼 여지를 없앤다."""
     case = {**DEFAULT_CASE[a], **(case or {})}
     mkt = an["market"] or {}
     out = {"case": case}
-    if a == "ackman":
-        out.update(price=mkt.get("price"), fcf_positive=mkt.get("fcf_positive"), net_debt_to_ebitda=mkt.get("net_debt_to_ebitda"),
-                   leveraged=bool((mkt.get("net_debt_to_ebitda") or 0) > rules.LEVERAGE
-                                  or (mkt.get("fcf_positive") is False and (mkt.get("runway_years") or 0) < 3)))
+    if a in ("ackman", "klarman"):
+        out.update(fcf_positive=mkt.get("fcf_positive"), net_debt_to_ebitda=mkt.get("net_debt_to_ebitda"), leveraged=leveraged(mkt))
+    if a == "klarman":
+        out.update(floor(an, float(model.get("discount_rate", rules.DISCOUNT))))
+        if mkt.get("low_52w") is not None:
+            out.update(low_52w=mkt["low_52w"], high_52w=mkt.get("high_52w"))
+    done = lambda o: reprice(o, mkt["price"]) if mkt.get("price") else o
     if not base:
-        return out
+        return done(out)
     if case["from"] not in ("bear", "base", "bull") or case["from"] not in (model.get("scenarios") or {}):
         out["error"] = f"case.from '{case['from']}'는 bear·base·bull 중 하나"
-        return out
+        return done(out)
     sc = {**model["scenarios"][case["from"]], **{k: v for k, v in case.items() if k not in ("from", "years")}}
     try:
         if a == "anderson":  # LTGG Q10·Q1 — 기간은 10년·5년으로 고정
             r10, r5 = project(base, model, sc, 10), project(base, model, sc, 5)
-            out.update(upside_10y=r10["value"] / base["price"], revenue_5y=r5["rows"][-1]["revenue"] / base["revenue"])
+            out.update(value_10y=r10["value"], revenue_5y=r5["rows"][-1]["revenue"] / base["revenue"])
         elif a == "slater":
             res = project(base, model, sc, case.get("years"))
             out.update(cash_survives=res["cash_min"] >= 0, cash_min=res["cash_min"], runway_years=mkt.get("runway_years"))
         else:
-            res = project(base, model, sc, case.get("years"))
-            out.update(intrinsic_value=res["iv"], mos=1 - base["price"] / res["iv"] if res["iv"] > 0 else None)
+            out["intrinsic_value"] = project(base, model, sc, case.get("years"))["iv"]
+            if a == "klarman":  # 내재가치는 한 숫자가 아니라 범위 — 약세~기본 시나리오
+                out.update(iv_low=project(base, model, model["scenarios"]["bear"])["iv"],
+                           iv_high=project(base, model, model["scenarios"]["base"])["iv"])
     except (TypeError, ValueError, KeyError, ZeroDivisionError, OverflowError) as e:
         out["error"] = f"case 계산 실패 — {type(e).__name__}: {e}"
+    out = done(out)
+    if (bb := rules.buy_below(a, out)) is not None:
+        out["buy_below"] = bb
+        if out.get("low_52w") is not None:
+            out["traded_below_52w"] = out["low_52w"] <= bb  # 지난 52주 안에 그 가격이 있었는가 — 예측이 아니라 기록
     return out
 
 
@@ -550,7 +601,7 @@ def refs(an, fx):
             if f.get("period"):
                 out[f"C:{f['key']}@{f['period']}"] = f["value"]
     for k in ("price", "shares", "market_cap", "net_cash", "ev", "fcf_yield", "p_fcf", "ev_revenue", "pe", "ev_ebit",
-              "net_debt_to_ebitda", "runway_years"):
+              "net_debt_to_ebitda", "runway_years", "low_52w", "high_52w"):
         if (an["market"] or {}).get(k) is not None:
             out[f"C:{k}"] = an["market"][k]
     t = an["ttm"] or {}

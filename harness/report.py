@@ -11,7 +11,23 @@ ROWS = [("revenue", "매출", "money"), ("revenue_growth", "매출 성장", "pct
         ("share_change", "주식 수 변화", "pct"), ("dso", "DSO(일)", "num"), ("dio", "DIO(일)", "num"),
         ("accruals_ratio", "발생액 비율", "pct")]
 SCEN = {"bear": "약세", "base": "기본", "bull": "강세"}
-KIND = {"mos": "pct", "cash_min": "money", "starter_weight": "pct", "upside_10y": "x", "revenue_5y": "x", "net_debt_to_ebitda": "x"}
+KIND = {"mos": "pct", "cash_min": "money", "starter_weight": "pct", "upside_10y": "x", "revenue_5y": "x", "net_debt_to_ebitda": "x",
+        "downside": "pct", "growth_premium": "pct", "owner_fcf": "money"}
+HARD = {"net_cash_ps": "순현금", "tangible_book_ps": "유형 순자산", "no_growth_ps": "성장 없는 현금흐름 가치"}
+
+
+def votes(v):
+    return f"찬{v['for']}·반{v['against']}·보{v['abstain']}"
+
+
+def conditional(r):
+    """조건부 판정 — '이 가격 이하라면'. 표결이 바뀌는 가격만 한 줄씩."""
+    rows, prev, out = r.get("ladder") or [], None, []
+    for x in rows[1:]:
+        if prev is None or (x["label"], x["votes"]) != prev:
+            out.append(f"주가 ≤ {x['price']:,.2f} ({x['change']:+.0%}) → {x['label']} ({votes(x['votes'])})")
+        prev = (x["label"], x["votes"])
+    return out
 PARTS = {"revenue": "매출 성장", "margin": "마진 변화", "multiple": "멀티플 변화", "margin_multiple": "마진·멀티플(P/S)",
          "shares": "주식 수 변화", "cash": "현금 축적"}
 
@@ -37,7 +53,7 @@ def fmt(v, kind="num", cur=""):
     if isinstance(v, str):
         return v
     return {"money": lambda: money(v, cur), "pct": lambda: f"{v:.1%}", "x": lambda: f"{v:.2f}x",
-            "count": lambda: money(v), "num": lambda: f"{v:,.1f}" if abs(v) < 1e4 else f"{v:,.0f}"}[kind]()
+            "count": lambda: money(v), "price": lambda: f"{v:,.2f}", "num": lambda: f"{v:,.1f}" if abs(v) < 1e4 else f"{v:,.0f}"}[kind]()
 
 
 def esc(s):
@@ -171,7 +187,9 @@ def render(r):
     out = [f"# {r['name']} ({r['ticker']}) 리서치 보고서 — 기준일 {r['as_of']}", "",
            f"**{r['label']}** — " + (f"찬성 {r['votes']['for']} · 반대 {r['votes']['against']} · 보류 {r['votes']['abstain']} · "
                                      f"확신 가중 점수 {r['score']:+.2f} (−1~+1)" if r["agents"] else "토론 전 단계에서 멈춤"), ""]
-    out += ["- 게이트: " + " → ".join(f"{g['name']} {'✓' if g['ok'] else '✗ ' + '; '.join(g['why'])}" for g in r["gates"]), ""]
+    out += ["- 게이트: " + " → ".join(f"{g['name']} {'✓' if g['ok'] else '✗ ' + '; '.join(g['why'])}" for g in r["gates"])]
+    out += [f"- 조건부 판정: {' · '.join(conditional(r))}"] if conditional(r) else []
+    out += [""]
     if r.get("gated"):
         out += [f"> 게이트에서 멈췄다 — 뒤 단계(모델·토론)는 실행하지 않는다. 이유: {r['gated']}", ""]
     vp = (r.get("model") or {}).get("variant") or {}
@@ -214,11 +232,35 @@ def render(r):
             f"- 확신 가중 점수 {r['score']:+.2f} · 비중 참고값 {sz['suggested']:.1%} ({sz['why']})"
             + (f" · 슬레이터 시작 비중 {sz['starter_weight']:.1%}" if sz.get("starter_weight") is not None else ""),
             "- **최종 확신도와 비중은 사람이 정한다** — `python3 council.py decide <TICKER> --size 0.02 --note \"이유\"`", ""]
+    if len(r.get("ladder") or []) > 1 or any(x["agent"] == "klarman" for x in r["agents"]):
+        out += ["## 6. 조건부 판정 — 이 가격 이하라면", "",
+                "가치(내재가치·10년 가치·단단한 가치)는 그대로 두고 가격에 걸린 지표만 다시 계산해, 주가가 각 페르소나의 조건 가격까지 "
+                "내려왔을 때의 표결을 본다. 주가를 예측하는 것이 아니다.", ""]
+        out += table(["주가", "현재가 대비", "표", "판정", "이 가격이 조건인 페르소나"],
+                     [[f"{x['price']:,.2f}", "현재가" if i == 0 else f"{x['change']:+.0%}", votes(x["votes"]), x["label"],
+                       ", ".join(x["who"])] for i, x in enumerate(r.get("ladder") or [])]) + [""]
+        k = next((x["metrics"] for x in r["agents"] if x["agent"] == "klarman"), None)
+        if k and k.get("hard_value") is not None:
+            out += ["클라만의 세 질문 (코드 계산):", "",
+                    f"- 성장 전망이 틀리면 어디까지? 단단한 가치 주당 {k['hard_value']:,.2f} ({HARD.get(k.get('hard_basis'), '')}) — "
+                    f"현재가에서 {-k['downside']:+.1%} · 내재가치 범위(약세~기본) {fmt(k.get('iv_low'), 'price')}~{fmt(k.get('iv_high'), 'price')}"
+                    + " · ".join([""] + [f"{HARD[h]} {k[h]:,.2f}" for h in HARD if k.get(h) is not None])]
+            out.append(f"- 현재 가격에 성장이 얼마나 들어 있나? 주가의 {k['growth_premium']:.0%}가 성장 없는 가치({k['no_growth_ps']:,.2f}) 위의 몫"
+                       + (f" · 시장 내재 매출 성장 연 {rd['implied_cagr']:.1%}" if rd.get("implied_cagr") is not None else ""))
+            bb = k.get("buy_below")
+            out.append("- 기다리면 더 싼 가격이 오나? " + (
+                "조건 가격 없음 — 어떤 가격에서도 원칙을 지킬 수 없다" if bb is None else
+                f"조건 가격 {bb:,.2f}" + (f" · 지난 52주 범위 {k['low_52w']:,.2f}~{fmt(k.get('high_52w'), 'price')} — 그 기간에 조건 가격 "
+                                          f"{'이하 거래가 있었다' if k.get('traded_below_52w') else '이하로 내려간 적이 없다'}"
+                                          if k.get("low_52w") is not None else " · 52주 범위 사실 없음 (리서처: price_52w_low·high)")
+                + " — 가격은 예측하지 않는다, 기록만 본다"))
+            out.append("")
     if r["agents"]:
         out += ["## 표결", ""]
         rows = []
         for x in r["agents"]:
-            final = tag(x["final"]) + {"redline": " (레드라인 → 반대)", "verify": " (검증 실패 → 보류)"}.get(x["override"], "")
+            final = tag(x["final"]) + {"redline": " (레드라인 → 반대)", "verify": " (검증 실패 → 보류)",
+                                       "conditional": f" (조건 가격 {fmt(x['metrics'].get('buy_below'))} 위)"}.get(x["override"], "")
             kv = [f"{k}={fmt(val, KIND.get(k, 'num'), cur)}" for k, val in x["metrics"].items()
                   if not isinstance(val, (list, dict)) and val is not None and k not in ("price",)]
             rows.append([x["name"], f"{tag(x['opening'])} → {final}", f"{x['conviction']}/5",

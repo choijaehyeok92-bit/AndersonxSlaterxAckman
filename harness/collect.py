@@ -50,11 +50,13 @@ XBRL = {  # metric → (단위 종류, 태그 우선순위). 회사마다 태그
     "total_assets": ("money", [G + "Assets", I + "Assets"]),
     "equity": ("money", [G + "StockholdersEquity", I + "EquityAttributableToOwnersOfParent"]),
     "goodwill": ("money", [G + "Goodwill", I + "Goodwill"]),
+    "intangibles": ("money", [G + "IntangibleAssetsNetExcludingGoodwill", G + "FiniteLivedIntangibleAssetsNet",
+                              I + "IntangibleAssetsOtherThanGoodwill"]),
     "diluted_shares": ("shares", [G + "WeightedAverageNumberOfDilutedSharesOutstanding", I + "WeightedAverageShares"]),
     "shares_outstanding": ("shares", ["dei:EntityCommonStockSharesOutstanding"]),
 }
 STOCK_METRICS = {"cash", "short_term_investments", "debt", "debt_current", "receivables", "inventory", "deferred_revenue",
-                 "total_assets", "equity", "goodwill", "shares_outstanding"}
+                 "total_assets", "equity", "goodwill", "intangibles", "shares_outstanding"}
 DART_ACCOUNTS = {  # DART 표준계정 → metric
     "revenue": ["ifrs-full_Revenue", "ifrs_Revenue"], "cost_of_revenue": ["ifrs-full_CostOfSales", "ifrs_CostOfSales"],
     "gross_profit": ["ifrs-full_GrossProfit", "ifrs_GrossProfit"], "operating_income": ["dart_OperatingIncomeLoss"],
@@ -65,6 +67,7 @@ DART_ACCOUNTS = {  # DART 표준계정 → metric
     "cash": ["ifrs-full_CashAndCashEquivalents", "ifrs_CashAndCashEquivalents"], "inventory": ["ifrs-full_Inventories"],
     "receivables": ["ifrs-full_TradeAndOtherCurrentReceivables", "dart_ShortTermTradeReceivable"],
     "total_assets": ["ifrs-full_Assets", "ifrs_Assets"], "goodwill": ["ifrs-full_Goodwill"],
+    "intangibles": ["ifrs-full_IntangibleAssetsOtherThanGoodwill"],
     "equity": ["ifrs-full_EquityAttributableToOwnersOfParent", "ifrs_EquityAttributableToOwnersOfParent", "ifrs-full_Equity"],
 }
 DART_KEEP = re.compile(r"사업보고서|반기보고서|분기보고서|주요사항보고서|잠정|실적|기업설명회|최대주주|임원")

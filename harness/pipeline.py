@@ -22,7 +22,7 @@ def check(role, rnd, o):  # 최소 형식 — 어기면 한 번 다시 묻는다
             "forensic": ("grade", judge.GRADES)}
     if role in core.AGENTS:
         if o.get("stance") not in core.STANCE:
-            return "stance는 for|against|abstain"
+            return "stance는 for|against|abstain|conditional"
         if not o.get("arguments" if rnd == 1 else "rebuttals"):
             return f"{'arguments' if rnd == 1 else 'rebuttals'} 필요"
     elif role in need and o.get(need[role][0]) not in need[role][1]:
