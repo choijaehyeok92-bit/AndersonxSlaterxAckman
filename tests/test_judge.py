@@ -92,6 +92,18 @@ class Conditional(Base):  # 클라만 — '이 가격 이하라면 찬성'
         self.assertEqual(lad[10.8]["finals"], {"anderson": "for", "slater": "for", "ackman": "against", "klarman": "for"})
         self.assertEqual(r["agents"][2]["final"], "against")
 
+    def test_buy_below_passes_its_own_price_lines(self):  # 1 - 0.8 = 0.19999999999999996 — 조건 가격에서 문턱을 반올림으로 놓치면 안 된다
+        from harness import calc
+        from harness.judge import redlines
+        for v in (100.0, 131.05, 151.72, 1.7, 2208.16):
+            cases = {"anderson": {"value_10y": v * 3},
+                     "ackman": {"intrinsic_value": v, "simple_predictable": True, "fcf_positive": True, "capital_markets_dependent": False},
+                     "klarman": {"intrinsic_value": v, "hard_value": v * 0.35, "no_growth_ps": v * 0.35, "leveraged": False}}
+            for a, m in cases.items():
+                bb = rules.buy_below(a, m)
+                self.assertEqual(redlines(a, calc.reprice(m, bb)), [], (a, v))
+                self.assertNotEqual(redlines(a, calc.reprice(m, bb * 1.001)), [], (a, v))
+
 
 class Verification(Base):
     def test_unsourced_numbers_downgrade_vote(self):

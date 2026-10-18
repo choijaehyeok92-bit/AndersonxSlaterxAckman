@@ -41,6 +41,9 @@ KELLY, MAX_WEIGHT = 0.25, 0.10   # 비중 참고값: 1/4 켈리, 상한 10% — 
 NEAR = 0.005             # 조건(반증 조건·참이어야 하는 것)의 문턱과 실제 값 차이가 이 비율 이내면 '문턱을 넘지 않음' —
                          # 최신 실제치를 그대로 문턱으로 쓴 조건이 반올림 차이로 깨지는 오경보를 막는다
 
+EPS = 1e-9               # 부동소수점 허용치 — 조건 가격(buy_below)에서 다시 계산한 지표가 반올림 때문에 문턱을 못 넘는 일을 막는다
+                         # (예: 1 - 0.8 = 0.19999999999999996 < 0.2). 문턱값 자체는 바꾸지 않는다
+
 PRICE = re.compile(r"주가|목표\s*주?가|share price|stock price|price target|target price", re.I)
 
 
@@ -49,7 +52,7 @@ def _fails(m, key, ok):
 
 
 RED_LINES = {  # '찬성'하려면 자기 원칙을 통과해야 한다. m = 페르소나 지표 + 코드 계산값(계산값 우선)
-    "anderson": [(lambda m: not _fails(m, "upside_10y", lambda v: v >= UPSIDE),
+    "anderson": [(lambda m: not _fails(m, "upside_10y", lambda v: v >= UPSIDE - EPS),
                   f"10년 주당가치 {UPSIDE:g}배 미만 또는 계산 불가 (LTGG Q10)")],
     "slater": [(lambda m: m.get("unit_economics") != "deteriorating", "단위경제 악화 — CAC 상승·이탈률 악화"),
                (lambda m: m.get("survival_path") is not False, "외부 자본 없이 생존할 경로가 없음"),
@@ -59,9 +62,9 @@ RED_LINES = {  # '찬성'하려면 자기 원칙을 통과해야 한다. m = 페
     "ackman": [(lambda m: m.get("simple_predictable") is True, "단순·예측 가능한 사업이 아님"),
                (lambda m: m.get("fcf_positive") is True, "잉여현금흐름을 만들지 못함 (코드 계산)"),
                (lambda m: m.get("capital_markets_dependent") is False, "레버리지·자본시장 의존"),
-               (lambda m: not _fails(m, "mos", lambda v: v >= MOS), f"안전마진 {MOS:.0%} 미만 또는 계산 불가")],
-    "klarman": [(lambda m: not _fails(m, "mos", lambda v: v >= MOS_K), f"보수적 내재가치 대비 안전마진 {MOS_K:.0%} 미만 또는 계산 불가"),
-                (lambda m: not _fails(m, "downside", lambda v: v <= MAX_LOSS),
+               (lambda m: not _fails(m, "mos", lambda v: v >= MOS - EPS), f"안전마진 {MOS:.0%} 미만 또는 계산 불가")],
+    "klarman": [(lambda m: not _fails(m, "mos", lambda v: v >= MOS_K - EPS), f"보수적 내재가치 대비 안전마진 {MOS_K:.0%} 미만 또는 계산 불가"),
+                (lambda m: not _fails(m, "downside", lambda v: v <= MAX_LOSS + EPS),
                  f"성장이 틀리면 단단한 가치까지 {MAX_LOSS:.0%} 넘게 하락 — 영구적 손실 위험"),
                 (lambda m: m.get("leveraged") is not True, "레버리지·자본시장 의존 (코드 계산)")],
 }
