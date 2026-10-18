@@ -1,376 +1,446 @@
 {
   "agent": "verifier",
-  "basis": "d0ca98c64687",
+  "basis": "f0613840e903",
   "checks": [
     {
       "id": "V1",
       "verdict": "supported",
-      "reason": "S55·S47과 코드 값이 SBC 추이, 전년비 증가 항목, 희석 주식 수, 매입 0(F1·F2)을 그대로 받친다."
+      "reason": "hard_value 14.40과 주가 169.7로 1-14.4/169.7≈91.5%가 맞는다."
     },
     {
       "id": "V2",
       "verdict": "supported",
-      "reason": "71%, RPO $4.2M, 안전마진 약 9.2%, 차입금 없음, 양(+)의 현금 경로, 가이던스 하단 $525M이 인용 자료와 맞는다."
+      "reason": "RPO 4.2M, 구매약정 222.2M, 고객 A 43%+B 28%=71%가 자료와 일치한다."
     },
     {
       "id": "V3",
       "verdict": "supported",
-      "reason": "계약 상대방 43%·28%, 최종고객 33·28·13·10%(합 84%), 전년 88%, 매출채권 A 57%, 라벨 불일치가 모두 S53에 있다."
+      "reason": "DSO 135.5→63.8일, Q1 채권 +54.5M, A 채권 비중 57%가 자료와 맞고 결론은 해석이다."
     },
     {
       "id": "V4",
-      "verdict": "supported",
-      "reason": "고객 집중 수치는 S53과 일치하고, 임원 매도 약 $290M, 554건 중 507건 10b5-1, 매수 0건, 세금 납부용 여부 미확인이 S60에 있다."
+      "verdict": "leap",
+      "reason": "GAAP·비GAAP 마진과 가이던스는 맞다. 그러나 S67은 마진 압박을 익명 애널리스트의 '의견일 뿐'이라고 했는데, 주가 하락 원인을 시장의 마진 지속성 의심으로 단정했다."
     },
     {
       "id": "V5",
       "verdict": "supported",
-      "reason": "Feynman의 구리·CPO 선택과 NVIDIA의 Marvell 투자는 S69에, Marvell AEC DSP는 S73에, PIC 헤지 성격은 S57에 있다."
+      "reason": "차입금 없음, 현금+단기투자 $764.3M, cash_survives=1, ATM 대비 인수 대가 규모가 자료와 일치한다."
     },
     {
       "id": "V6",
       "verdict": "supported",
-      "reason": "GAAP 순이익·EPS, 비GAAP 순이익·EPS, SBC·인수 비용·상각 항목이 S47과 F240~F243에 일치한다."
+      "reason": "재고 $313.1M(전 분기 $250.8M), 평가손 $3.9M, 약정 $222.2M, 보증금 $62.9M·$25.3M이 자료와 맞다."
     },
     {
       "id": "V7",
-      "verdict": "unsupported",
-      "reason": "FY2022 총이익률 60.1%와 FY2025 영업이익률 8.5%, 가이던스 항목 8개라는 수는 인용 자료에 없다(FY2026 값만 있음)."
+      "verdict": "supported",
+      "reason": "사전 부검의 근거 사실(임원 매도 약 $290M, 장내 매수 0건, SBC $88.0M/$49.7M, ATM과 인수 규모, P/FCF 75)이 자료와 맞다."
     },
     {
       "id": "V8",
       "verdict": "supported",
-      "reason": "임원 매도 약 $290M, 매수 0건, 대부분 10b5-1이 S60에 있다. '확신의 증거가 없다'는 해석이다."
+      "reason": "약세 24.43·강세 368.73과 고객·제품 집중 사실이 자료와 일치한다."
     },
     {
       "id": "V9",
       "verdict": "supported",
-      "reason": "71%, PO 기반, RPO $4.2M, 재고 $313.1M, 약정 $222.2M, Marvell·Broadcom 경쟁이 인용 자료에 있고 나머지는 시나리오 가정이다."
+      "reason": "ATM $736.3M, 현금 대가 $769.6M, 현금 $764.3M, 영업권 986.4/총자산 3,012.7≈33%, 언아웃 $310M이 맞다."
     },
     {
       "id": "V10",
-      "verdict": "supported",
-      "reason": "Rubin Ultra까지 구리 NVLink, Feynman 구리·CPO 병행, JPM 발언, PIC 내재화 서술이 S69·S70·S57과 일치한다."
+      "verdict": "unsupported",
+      "reason": "인용은 FY2026 총이익률 68.0%뿐이라 '올랐다'는 비교 근거가 없다. 가격 압박이 없다는 결론도 이 자료로는 나오지 않는다."
     },
     {
       "id": "V11",
       "verdict": "supported",
-      "reason": "채권 증가율 격차 45.4%p, DSO 135.5일에서 63.8일로 개선, Q1 매출채권 +$54.5M(잔액 $288.8M), A 57%가 모두 맞다."
+      "reason": "bear 24.43, bull 368.73, 손실 확률 0.25, 역DCF 23.8%가 맞다. 기저율 근거가 없다는 서술도 인용 상태와 일치한다."
     },
     {
       "id": "V12",
       "verdict": "supported",
-      "reason": "23.8%, 205.7%·126.3%, 증가분의 99% 초과가 AEC 램프라는 점, 광 매출 $600M 목표의 2차 출처, PO 기반과 RPO $4.2M이 모두 인용 자료에 있다."
+      "reason": "운전자본 $151.3M 흡수 내역, 약정 $222.2M, RPO $4.2M, 구매주문 기반 판매가 모두 자료에 있다."
     },
     {
       "id": "V13",
       "verdict": "supported",
-      "reason": "소수 고객 집중, PO 기반, 다년 물량 약정 공시 없음이 S53·S56과 F266·F268·F290에 있고 나머지는 의견이다."
+      "reason": "구매주문 기반, 채택 후 전환 어려움 서술, 가이던스 적중률 1이 자료와 일치한다."
     },
     {
       "id": "V14",
-      "verdict": "unsupported",
-      "reason": "FY2022 총이익률 60.1%에서 올랐다는 기준값과 가이던스 8개 항목은 인용 자료에 없다(FY2026 68.0%만 있음)."
+      "verdict": "supported",
+      "reason": "ATM 4.8M주·$736.3M·비용 $13.7M, 인수 현금 $769.6M, 자사사 매입 0과 미발견, 현금·단기투자 수치가 맞다."
     },
     {
       "id": "V15",
       "verdict": "supported",
-      "reason": "Q1 OCF $90.2M, 운전자본 $151.3M 흡수, SBC 증가, SBC 차감 FCF가 FCF의 약 절반, Q1 SBC가 FY2026 분기 평균의 약 2배라는 점이 자료로 확인된다."
+      "reason": "Form 4 집계(약 $290M, 554건 중 507건 10b5-1, 매수 0건, 세금 납부 여부 미확인)와 일치한다."
     },
     {
       "id": "V16",
-      "verdict": "leap",
-      "reason": "중국 본토 감소와 말레이시아 증가는 출하지 변화일 뿐이고 S53은 증가분의 90% 이상이 AEC라고 하므로 '광 쪽 다변화'라는 결론은 따라 나오지 않는다. 나머지 BizLink 의존과 2차 요약 부분은 맞다."
+      "verdict": "supported",
+      "reason": "적중률 1, PSU의 매출·주가 허들 구조, 지분 9.06%가 자료와 맞다."
     },
     {
       "id": "V17",
       "verdict": "supported",
-      "reason": "임원별 매도액, 507/554건 10b5-1, 매수 0건, 2026-09-02 이후 $69.8M, 지분 9.06%가 S60·S59와 일치한다."
+      "reason": "영업이익률 8.5%→33.3%, FCF 마진 30.5%, ROIC 71.3%가 계산값과 일치한다."
     },
     {
       "id": "V18",
-      "verdict": "supported",
-      "reason": "경쟁사 목록, Marvell의 Amphenol 생태계·1.6T AEC DSP·NVIDIA $2B 투자, Broadcom XPU, 가격 경쟁에 보고된 근거가 없다는 점이 S56·S69·S71~S73·S67에 있다."
+      "verdict": "unsupported",
+      "reason": "인수 대가·배분·영업권·언아웃은 맞다. 그러나 영업권 비중이 '문턱 아래'라는 근거(goodwill_to_assets)가 존재하지 않는다."
     },
     {
       "id": "V19",
       "verdict": "supported",
-      "reason": "P/FCF 75.2, 베타 3.228, 영업권 $986.4M, 언아웃 지표 미공시, SBC 약 1.8배, 임원 매도, SBC 차감 FCF가 FCF의 절반 수준이라는 점이 자료와 맞는다."
+      "reason": "10-K 경쟁사 목록, Marvell의 Amphenol 생태계와 1.6T AEC DSP, NVIDIA의 Marvell $2B 투자, 88% 무출처가 자료에 있다."
     },
     {
       "id": "V20",
       "verdict": "supported",
-      "reason": "SBC $88.0M, GAAP·비GAAP EPS, 재고 $313.1M, 약정 $222.2M, 임원 매도 약 $290M과 매수 0건이 인용 자료에 있다."
+      "reason": "GTC 로드맵(Rubin까지 구리, Rubin Ultra 144 GPU 구리, Feynman 병행), Jefferies와 JPM 견해, 인수 $1,251.1M이 맞다."
     },
     {
       "id": "V21",
       "verdict": "supported",
-      "reason": "S61이 Ernst & Young 승인과 감사인 변경 없음을 밝힌다. Item 4.02와 핵심감사사항을 확인하지 못했다는 단서는 주장 스스로 인정한 한계다."
+      "reason": "ATM, 현금 대가, 영업권 급증, 임원 매도·매수 0건, 인수 매출의 허들 산입이 자료와 일치한다."
     },
     {
       "id": "V22",
       "verdict": "supported",
-      "reason": "10-K의 설계 고착 문구, 매출 +205.7%, 총이익률 68.0%, PO 기반과 RPO $4.2M이 자료에 있다."
+      "reason": "downside 0.915, 조건 가격 28.80이 52주 저가 86.49보다 낮아 닿지 않았다는 서술과 cash_survives=1이 맞다."
     },
     {
       "id": "V23",
       "verdict": "supported",
-      "reason": "PO 기반, 다년 약정 공시 없음, RPO $4.2M, 71% 집중이 자료에 있고 예측 가능성이 낮다는 결론은 의견이다."
+      "reason": "고객 71%, 최종고객 84%, 구매주문 기반, RPO $4.2M, 약정 $222.2M이 자료와 일치한다."
     },
     {
       "id": "V24",
       "verdict": "supported",
-      "reason": "ATM $750M·4.8M주·순수입 $736.3M·비용 $13.7M, 인수 대가 구성, 영업권, 대체 RSU $222.35와 현 주가 $169.7, 매출 기여 미공시가 모두 자료와 일치한다."
+      "reason": "광 매출 $600M은 회사 목표이고, 증가분의 90% 이상이 AEC이며 제품별 공시가 없다는 서술이 자료와 맞다. upside 8.885도 일치한다."
     },
     {
       "id": "V25",
       "verdict": "supported",
-      "reason": "순부채/EBITDA -3.0, FCF 흑자, 차입금 없음이 코드 값과 S55에 있다."
+      "reason": "비GAAP 순이익 $236.3M, GAAP $129.4M, 조정 항목 금액이 자료와 일치한다."
     },
     {
       "id": "V26",
-      "verdict": "supported",
-      "reason": "Q3 18%·Q2 11.7% 상회, 비GAAP 총이익률 68.6% 대 64–66%, Q1 FY27 +0.8%, 4+4건 달성이 S47·S49·S51·S48과 일치한다. 해석은 의견이다."
+      "verdict": "leap",
+      "reason": "적중률과 마진은 맞다. 그러나 'Q4 0.5%, Q1 0.8%로 줄고 있다'는 근거 수치가 오히려 커졌다. 줄어드는 추세는 Q3 18%, Q2 11.7%에서만 나온다."
     },
     {
       "id": "V27",
       "verdict": "supported",
-      "reason": "85% 초과(S62)와 80% 초과(S64)의 불일치, 원문 콜 미확인, 광 매출 $600M이 2차 요약뿐이라는 점이 S62·S64·S44에 있다."
+      "reason": "시나리오의 근거 사실(AEC 90% 이상, 71%, RPO, 약정)이 자료와 일치한다."
     },
     {
       "id": "V28",
       "verdict": "supported",
-      "reason": "n-1 노드와 7년 이상 수명은 S56의 회사 서술이다. 비GAAP 총이익률 67.7·68.6·68.3%가 가이던스 64–66%를 웃돌았다는 점은 S51·S49·S48에 있다."
+      "reason": "베타 3.228과 52주 고저가 자료와 맞다."
     },
     {
       "id": "V29",
       "verdict": "supported",
-      "reason": "Rubin Ultra까지 구리(S70), 5번째 하이퍼스케일러(S71), OmniConnect 확장(S65), Jefferies의 2027년 AEC 약 $3B(S68)가 자료에 있다. 나머지는 시나리오 가정이다."
+      "reason": "FCF 마진 30.5%, 운전자본 흡수, OCF<순이익, FY2025 SBC 차감 FCF 음수, 고객 집중이 자료와 일치한다."
     },
     {
       "id": "V30",
-      "verdict": "unsupported",
-      "reason": "Q1 SBC 증가의 원인으로 든 인수 관련 대체 RSU는 인용한 S55·S47에 없고 S55는 'new equity awards'만 말한다. 나머지 수치는 맞다."
+      "verdict": "supported",
+      "reason": "OCF $90.2M은 순이익 $129.4M보다 작고, 운전자본 $151.3M 흡수와 항목이 S55와 일치한다."
     },
     {
       "id": "V31",
       "verdict": "supported",
-      "reason": "기본 시나리오 IRR 12.2%, 기대 IRR 11.0%, 역DCF 23.8%, 71%, RPO $4.2M이 코드 값·자료와 일치하고 기저율 표가 없다는 점도 사실이다."
+      "reason": "총이익률 61.9%→68.0%, FCF 마진 30.5%가 계산값과 일치한다."
     },
     {
       "id": "V32",
-      "verdict": "leap",
-      "reason": "트랜치 구성, 허들, 기한, 인수 매출 산입은 S59와 맞다. 그러나 주가 허들이 분명히 있는데 '주가 지표가 없다'고 쓰고 '쉽게 채울 수 있다'고 단정하는 것은 자료에서 따라 나오지 않는다."
+      "verdict": "supported",
+      "reason": "계약 상대방·최종고객·채권 비중과 전년 3곳 88%가 자료와 일치한다."
     },
     {
       "id": "V33",
       "verdict": "unsupported",
-      "reason": "수익률 분해의 +31.7%·-19.4%, 민감도 6.7%, 요구수익률 10%라는 수는 인용 자료에 없고 base_rate 근거는 존재하지 않는다. 30배·15배·75.2배 값만 확인된다."
+      "reason": "민감도 0.75배 시 연 수익률 +5.3%와 내재가치 175.4는 인용 자료에 없다."
     },
     {
       "id": "V34",
       "verdict": "supported",
-      "reason": "OCF $90.2M, 운전자본 $151.3M 구성, 유동 보증금 $62.9M이 S55·F115·F335에 있다."
+      "reason": "PSU 200% 달성, Special PSU $116 허들과 25% 베스팅, 컨센서스 FY27 약 $2.45B가 자료와 맞다."
     },
     {
       "id": "V35",
-      "verdict": "unsupported",
-      "reason": "안전마진 9.2%와 요구치 20%, 상대 분석가의 조건 수치는 인용에 없다. 기대 IRR과 FCF 마진 30.5%, 차입금 없음만 확인된다."
+      "verdict": "supported",
+      "reason": "bear 24.43, bull 368.73, mos 3.3%, upside 8.89가 계산값과 일치한다."
     },
     {
       "id": "V36",
       "verdict": "supported",
-      "reason": "P/FCF 75.21배와 기대 연 수익률 11.0%, 기본 IRR 12.2%가 코드 값과 일치한다."
+      "reason": "bear 24.43, 손실 확률 25%, mos 3.3%, 약정 $222.2M이 맞다."
     },
     {
       "id": "V37",
-      "verdict": "unsupported",
-      "reason": "'안전마진이 요구치 20%의 절반'이라는 사실 진술을 받치는 자료가 인용에 없다. 기대 IRR 11.0%, 손실 확률 30%, P/FCF 75.21배만 확인된다."
+      "verdict": "supported",
+      "reason": "mos 3.3%, hard_value 14.4, growth_premium 91.5%, 순현금, 적중률이 계산값과 일치한다."
     },
     {
       "id": "V38",
       "verdict": "supported",
-      "reason": "순수입 $736.3M, 현금 대가 $769.6M, 영업권 $895.8M, 인수 사업 단독 매출 미공시가 S56·S54에 있다."
+      "reason": "고객 집중, 평가손 $3.9M, 약정 $222.2M 등 근거 사실이 맞다."
     },
     {
       "id": "V39",
       "verdict": "supported",
-      "reason": "재고 $313.1M(전분기 $250.8M), 약정 $222.2M, DIO 214.5일이 자료에 있고 램프 둔화 시나리오는 가정이다."
+      "reason": "지분 9.06%와 개인별 지분, Form 4 매도 내역과 10b5-1 건수가 자료와 일치한다."
     },
     {
       "id": "V40",
-      "verdict": "supported",
-      "reason": "PO 기반, 다년 약정 공시 없음, RPO $4.2M(FY2026 말 $31.9M)이 S53·S56에 있다. 이상 징후를 찾지 못했다는 부분은 반박할 자료가 없다."
+      "verdict": "unsupported",
+      "reason": "SBC·주식 수·ATM·RSU 수치는 맞다. 그러나 'dilution 신호 연 8.7%'와 회계 신호 'watch'는 인용에 없다."
     },
     {
       "id": "V41",
       "verdict": "supported",
-      "reason": "Hyperlume·CoMira 금액, 인수 비용 $10.4M, 상각 $11.6M, GAAP 영업이익률 35.7%에서 25.2%, 현금·투자, OCF와 설비투자, 운전자본 $151.3M이 자료와 일치한다."
+      "reason": "비GAAP 총이익률 67.7/68.6/68.3/68.0%가 가이던스 64–66% 위이고 연간 총이익률 추이도 맞다. n-1은 회사 주장이라고 구분했다."
     },
     {
       "id": "V42",
       "verdict": "supported",
-      "reason": "Q2 가이던스 중간값 $530M, 80%·85% 전망, 광 매출 $600M, 비GAAP 영업이익률 48%대, FCF 마진 30.5%, 희석 3.9%가 자료와 맞고 성장률·배수는 가정이다."
+      "reason": "컨센서스, 가이던스 85%, 고객 집중, RPO, 약정, 광 매출 목표가 자료와 일치한다."
     },
     {
       "id": "V43",
       "verdict": "supported",
-      "reason": "PSU 매출·주가 허들, FY2031 $5B 전략 계획, 이사·NEO 지분 9.06%, 공동창업자 이사가 S59에 있다. 정렬 평가는 해석이다."
+      "reason": "growth_premium 91.5%, 마진 30%에서 연 23.8%, 고객·제품 집중이 맞다."
     },
     {
       "id": "V44",
       "verdict": "supported",
-      "reason": "실적 발표 후 약 20% 하락과 현 주가가 S67·F222에 있고, 마진 우려가 과장이었다는 부분은 가정이며 Q2 확인 전 판단 불가라는 결론은 의견이다."
+      "reason": "mos 3.3%, 조건 가격 140.36, 현재가 169.7, 기대 수익률 10.8%가 맞다."
     },
     {
       "id": "V45",
-      "verdict": "unsupported",
-      "reason": "매출 증가율 205.7%, 총이익률 68.0%, 가이던스 적중은 확인된다. 그러나 총이익률이 '올랐다'는 방향을 받치는 이전 기간 값이 인용에 없다."
+      "verdict": "supported",
+      "reason": "TAM 확장 표현, PIC 내재화와 헤지 성격, 광 매출 목표가 자료에 있다."
     },
     {
       "id": "V46",
       "verdict": "supported",
-      "reason": "5년 매출 약 5배(CAGR 37.3%), 가이던스 상회 폭 18%에서 0.8%, RPO·D 33%, 기저율 표 부재가 인용과 일치한다. FY28 +45% 등은 가정이다."
+      "reason": "mos 3.3%, iv 24.43~175.45가 현재가 169.7과 거의 같고 손실 확률은 0.25다."
     },
     {
       "id": "V47",
       "verdict": "supported",
-      "reason": "71%, PO 기반, RPO $4.2M이 S53·S56·F266·F268에 있고 나머지는 의견이다."
+      "reason": "23.8%, 28.9%, FY2026 성장 205.7%가 계산값과 일치한다."
     },
     {
       "id": "V48",
       "verdict": "supported",
-      "reason": "재고 $313.1M과 취소 불가 약정 $222.2M이 S55에 있고 램프 둔화 결과는 가상 시나리오다."
+      "reason": "Rubin Ultra까지 구리 NVLink, Jefferies 강세 시나리오, 광 매출 $600M 목표가 자료와 맞다."
     },
     {
       "id": "V49",
-      "verdict": "supported",
-      "reason": "Feynman의 구리·CPO 선택, Marvell의 NVIDIA 투자와 AEC DSP, 대가 $1.25B·영업권 $986.4M·매출 기여 미공시가 S69·S70·S54에 있다."
+      "verdict": "unsupported",
+      "reason": "FY2024 20.2%, FY2025 17.7%, 문턱 10%가 인용에 없다."
     },
     {
       "id": "V50",
-      "verdict": "unsupported",
-      "reason": "배수 0.75배에서 수익률 6.7%, 안전마진 9.2%, 요구수익률 10%, SBC 차감 FCF가 FCF의 절반이라는 비교는 인용에 없다. 손실 확률 30%, 재고·약정은 확인된다."
+      "verdict": "supported",
+      "reason": "SBC/매출 13.7%, 영업권 급증, 단독 매출 미공시, 주식 대가 인수가 자료와 일치한다."
     },
     {
       "id": "V51",
       "verdict": "supported",
-      "reason": "FCF 마진 30.5%, 순현금 $1.44B, 차입금 없음이 코드 값과 S55에 있다. 외부 조달 없이 실행 가능하다는 점은 이들에서 따라 나온다."
+      "reason": "순현금 $764M, FCF 마진 30.5%, 적중률 1이 일치한다."
     },
     {
       "id": "V52",
       "verdict": "supported",
-      "reason": "희석 8.7%, 주식 수 3.9% 증가, ATM 4.8M주·$736.3M, DustPhotonics 주식 760k주($169.1M)가 인용 자료와 일치한다."
+      "reason": "기대 수익률 10.8%, 손실 확률 25%, base IRR 10.7%가 계산값과 맞다."
     },
     {
       "id": "V53",
       "verdict": "supported",
-      "reason": "재고, 약정, DIO 214.5일, 평가손 $3.9M, 수주잔고 미정량, 800G→1.6T 불확실성이 S55·S64·코드 값에 있다. 평가손 확대는 가상 시나리오다."
+      "reason": "Feynman 구리·CPO 병행, 인수 대가 $1,251.1M, 영업권 $986M, 언아웃 $310M, 광 매출 목표가 자료와 일치한다."
     },
     {
       "id": "V54",
-      "verdict": "unsupported",
-      "reason": "컨센서스 수치, 71%, RPO, 운전자본 $151M, A 57%, 상회 폭 18%에서 0.8%는 맞다. 그러나 '기저율상 높은 성장은 드물다'는 사실 진술은 인용에 없다(기저율 표가 없음)."
+      "verdict": "supported",
+      "reason": "재고·채권·보증금, 약정 $222.2M, RPO $4.2M, 평가손 $3.9M이 맞다."
     },
     {
       "id": "V55",
       "verdict": "supported",
-      "reason": "GAAP 총이익률 64.5% 대 67.4%의 원인이 인수 무형자산 상각이라는 점, Q2 가이던스 상각 2.8%p, SBC 약 1.8배가 S53·S47과 일치한다."
+      "reason": "순부채/EBITDA -3.0, 적중률 1, 조건 가격 28.8이 52주 저가 86.49보다 낮다는 서술이 맞다."
     },
     {
       "id": "V56",
       "verdict": "supported",
-      "reason": "재고 $313.1M(전분기 $250.8M), 매출채권 +$54.5M, 보증금 $25.3M, OCF $90.2M, 운전자본 $151.3M, 약정 $222.2M, DIO 214.5일이 자료와 맞는다."
+      "reason": "AEC 90% 이상, 제품별 공시 없음, Feynman 선택지, Marvell 투자가 자료와 일치한다."
     },
     {
       "id": "V57",
       "verdict": "supported",
-      "reason": "대가 $1,251.1M, 영업권 $986.4M, 무형자산 $378.8M, 언아웃 $310.0M의 지표 미공시, 단독 매출 미공시가 S54와 F 값에 있다."
+      "reason": "EY가 FY2027 감사인으로 승인되고 변경 없음이 S61과 일치한다. 나머지는 확인하지 못했다는 서술이다."
     },
     {
       "id": "V58",
       "verdict": "supported",
-      "reason": "'업계 유일' 주장은 S56의 회사 서술이고, 88% 점유율은 S72에서 출처·날짜가 없으며 Siemon·Volex는 의견성 2차 자료다."
+      "reason": "회사의 '유일' 주장, 경쟁사 3곳, 특허 라이선스와 공동 개발의 출처가 자료와 맞다."
     },
     {
       "id": "V59",
       "verdict": "supported",
-      "reason": "FY2026 +205.7%, Q1 FY27 전년비 +114.7%, 증가분의 99% 초과가 AEC 램프라는 점이 자료에 있고 5년 내 2배는 이미 한 해에 넘었다."
+      "reason": "p_fcf 75, 두 고객 집중, 구매주문 기반, RPO와 약정이 자료와 일치한다."
     },
     {
       "id": "V60",
       "verdict": "supported",
-      "reason": "순현금 $1.44B, FCF 마진 30.5%, Q1 현금·투자 $764.3M, PIC 내재화와 CPO 헤지 성격이 코드 값·S47·S57에 있다."
+      "reason": "구리→광 전환 위험, 인수 $1,251.1M, 단독 매출 미공시, 영업권 증가가 맞다."
     },
     {
       "id": "V61",
-      "verdict": "supported",
-      "reason": "Microsoft dual-ToR와 Oracle ZeroFlap은 S56의 회사 서술이고 AWS Trainium 랙은 S72의 2차·의견성 자료다."
+      "verdict": "unsupported",
+      "reason": "수치는 대부분 맞다. 그러나 8.7%가 'FY2023의 높은 증가율' 때문이라는 설명은 인용에 없다."
     },
     {
       "id": "V62",
       "verdict": "supported",
-      "reason": "'세 가지 multi-billion TAM 확장'은 S49의 회사 서술이고 광 매출은 S64의 2차 요약 목표일 뿐이라는 점이 맞다."
+      "reason": "대가 구성, 영업권, 무형자산, Hyperlume·CoMira, PIC의 foundational component 서술이 맞다."
     },
     {
       "id": "V63",
       "verdict": "supported",
-      "reason": "재고 증가율 격차 121.2%p, DIO 214.5일, 재고 $313.1M(전분기 $250.8M), 원재료·재공품 증가, 평가손 $3.9M, 약정 $222.2M이 자료와 일치한다."
+      "reason": "10-K의 전환 어려움 서술, 적중률, RPO, 약세·강세 가치 인용이 맞고 한계도 인정했다."
     },
     {
       "id": "V64",
-      "verdict": "supported",
-      "reason": "71%, 84%, PO 기반, RPO $4.2M이 S53·F 값에 있고 설계 이탈 시나리오는 가상이다."
+      "verdict": "unsupported",
+      "reason": "36%, 16%, 멀티플 변화 -19.4%, 민감도 +5.3%는 인용 자료에 없다. p_fcf 75만 근거가 있다."
     },
     {
       "id": "V65",
       "verdict": "supported",
-      "reason": "ATM 순수입과 비슷한 규모의 현금 인수 대가, 영업권 급증, 매출 기여·언아웃 지표 미공시, 매입 0(FY2022·2023)이 자료에 있다."
+      "reason": "AEC 90% 이상, 광 매출은 목표일 뿐 제품별 공시 없음이 자료와 일치한다."
     },
     {
       "id": "V66",
-      "verdict": "unsupported",
-      "reason": "평가손 $3.9M, 구리 유지, PIC 헤지는 맞다. 그러나 '총이익률은 Q1에 68.0%를 유지했다'는 인용된 값(FY2026)으로 받쳐지지 않고, S53은 Q1 GAAP 총이익률이 64.5%로 하락했다고 한다."
+      "verdict": "supported",
+      "reason": "Q3 +18%, Q2 +$28M(11.7%), Q4 0.5%, Q1 0.8%와 85% 상향의 2차 출처 한계가 자료와 맞다."
     },
     {
       "id": "V67",
-      "verdict": "unsupported",
-      "reason": "가이던스 적중, 역DCF 23.8%, 성장률은 맞다. 그러나 총이익률이 올랐다는 점과 안전마진 9.2%, 상방 5년 매출 약 7배는 인용 자료에 없다."
+      "verdict": "supported",
+      "reason": "구매주문 기반, RPO $4.2M, 71%, 라벨 불일치, Amazon 워런트가 자료와 일치한다."
     },
     {
       "id": "V68",
       "verdict": "supported",
-      "reason": "재고 $313.1M, 약정 $222.2M, Q1 평가손 $3.9M, 71%, RPO가 S55·S53에 있다. 조건 설정은 상대의 반론이다."
+      "reason": "PSU 트랜치, 허들, 예외, 인수 매출 산입이 DEF 14A와 일치한다."
     },
     {
       "id": "V69",
       "verdict": "supported",
-      "reason": "FY2025 PSU 200% 달성, Special PSU $116과 25% 베스팅, 인수 매출의 허들 산입이 S59에 있다. 인수 유인은 그에서 나온 해석이다."
+      "reason": "hard_value 14.4, SBC 차감 FCF 양수, ROIC 71.3%, 조건 가격 28.8, RPO가 맞다."
     },
     {
       "id": "V70",
       "verdict": "supported",
-      "reason": "역DCF 23.8%, 성장률 126.3%·205.7%, 광 매출 $600M 초과와 3개 제품군 각 $100M 초과 목표가 코드 값과 S64에 있다."
+      "reason": "52주 저가 86.49가 조건 가격보다 높아 이하 거래가 없었다는 서술과 적중률이 맞다."
     },
     {
       "id": "V71",
       "verdict": "supported",
-      "reason": "광 매출 $600M 목표와 3개 제품군 목표(S64), 대가 $1.25B, 영업권 $895.8M, 단독 매출·언아웃 지표 미공시, 제품별 구분 없음이 자료와 맞는다."
+      "reason": "구리 NVLink 유지, Jefferies 강세 점유율 70%, 광 매출 목표가 자료에 있다."
     },
     {
       "id": "V72",
       "verdict": "supported",
-      "reason": "NVIDIA의 both와 Feynman 선택, Marvell의 NVIDIA 자금·Amphenol 생태계, Broadcom 광 DSP 점유율, 광 매출 목표의 2차 출처, 가격 경쟁 해석(S67)이 자료에 있다. 나머지는 가상 시나리오다."
+      "reason": "판매 측 약정 부재, 구매 측 약정 $222.2M, 가이던스 하단 마진 인용이 맞다."
     },
     {
       "id": "V73",
       "verdict": "supported",
-      "reason": "가이던스 적중률 100%와 FY27 성장 전망 상향 보도(S62), 기대 IRR 11.0%가 자료에 있고 강세 확률 20%는 시나리오 가정이다."
+      "reason": "hard_value 14.4, downside 91.5%, 23.8%, FY2026 성장 205.7%가 계산값과 일치한다."
     },
     {
       "id": "V74",
       "verdict": "supported",
-      "reason": "71%·84%, PO 기반, RPO $4.2M, Marvell·Broadcom·Amphenol 경쟁, 10-K 문구, 증가분의 90% 이상이 AEC라는 점이 자료와 맞고 램프 둔화는 가상 시나리오다."
+      "reason": "성장률 126.3%, 205.7%, 가이던스 85%, 5년 매출 6.93배가 맞다."
+    },
+    {
+      "id": "V75",
+      "verdict": "supported",
+      "reason": "고객 A 39/67/49%, 최종고객 D 63→33%, 구매주문 기반과 RPO, 라벨 불일치가 자료와 일치한다."
+    },
+    {
+      "id": "V76",
+      "verdict": "supported",
+      "reason": "고객 집중, 구매주문 기반, RPO $4.2M, 약정 $222.2M이 맞다."
+    },
+    {
+      "id": "V77",
+      "verdict": "supported",
+      "reason": "기대 수익률 10.8%, mos 3.3%, 광 매출은 목표일 뿐, FCF 마진 30.5%가 맞다. 다른 분석가 언급은 판정하지 않는다."
+    },
+    {
+      "id": "V78",
+      "verdict": "supported",
+      "reason": "GAAP 마진 하락의 상각 설명, Marvell의 NVIDIA 투자, 가이던스 하단 인용이 맞다."
+    },
+    {
+      "id": "V79",
+      "verdict": "supported",
+      "reason": "가이던스, 초과 폭 축소, 적중률, FCF 마진, 희석 근거가 자료와 일치한다."
+    },
+    {
+      "id": "V80",
+      "verdict": "supported",
+      "reason": "71%, 84%, 구매주문 기반, RPO $4.2M, 약정 $222.2M이 맞다."
+    },
+    {
+      "id": "V81",
+      "verdict": "supported",
+      "reason": "AEC 90% 이상, 71%, RPO, 약정 $222.2M, 재고 $313M, 손실 확률 0.25가 맞다."
+    },
+    {
+      "id": "V82",
+      "verdict": "supported",
+      "reason": "p_fcf, base IRR, mos 3.3%, 구매주문 기반 매출 인용이 자료와 일치한다."
+    },
+    {
+      "id": "V83",
+      "verdict": "supported",
+      "reason": "광 매출 $600M 목표와 PIC 인수 목적(헤지)이 자료와 맞다."
+    },
+    {
+      "id": "V84",
+      "verdict": "supported",
+      "reason": "광 매출은 목표일 뿐 제품별 공시가 없고, 기저율 근거가 없다는 서술도 인용 상태와 일치한다. 성장 가정은 모델 가정이다."
+    },
+    {
+      "id": "V85",
+      "verdict": "supported",
+      "reason": "증가분 $255.9M의 90% 이상이 AEC이고 10-K는 99% 초과다. 제품별 미공시와 가이던스도 맞다."
+    },
+    {
+      "id": "V86",
+      "verdict": "supported",
+      "reason": "SBC 차감 FCF 양수, ROIC 71.3%, SBC 급증이 일치한다."
+    },
+    {
+      "id": "V87",
+      "verdict": "supported",
+      "reason": "downside 91.5%, 주당 14.4, 23.8%, 71%와 AEC 집중이 자료와 일치한다."
+    },
+    {
+      "id": "V88",
+      "verdict": "leap",
+      "reason": "Marvell 투자와 생태계는 자료에 있다. 그러나 주가 하락이 마진 우려 때문이었다는 서술은 S67에서 익명 의견일 뿐 보고된 가격 하락 근거가 없다고 한 것과 어긋난다."
     }
   ]
 }
