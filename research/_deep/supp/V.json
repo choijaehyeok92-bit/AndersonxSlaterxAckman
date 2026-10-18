@@ -1,0 +1,3208 @@
+{
+ "sources": [
+  {
+   "id": "S900",
+   "type": "filing",
+   "title": "Visa 8-K Ex.99.1 — Visa Reports Fiscal Third Quarter 2026 Results",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000103/q32026earningsrelease.htm",
+   "date": "2026-07-28",
+   "note": "1차. 2026-07-28 3분기(2026-04~06) 실적 발표문(S3 8-K 첨부). 순매출 116.33억 달러(+14%, 고정환율 +13%). 매출 항목: 서비스 49.22억(+14%, 전 분기 결제액 기준 인식), 데이터 처리 60.42억(+17%), 국제 거래 38.53억(+6%), 기타 14.96억(+45%), 고객 인센티브(매출 차감) -46.80억(+18%). GAAP 영업비용 47.56억(+19%; 인건비 24.58억 +40%은 감원 퇴직비용 5.63억 포함, 마케팅 6.49억 +54%, 소송충당금 2.53억), Non-GAAP 영업비용 38.78억(+17%). 영업이익 68.77억, 세전이익 68.33억, 법인세 12.05억(GAAP 실효세율 17.6%, Non-GAAP 18.4%), 순이익 56.28억(+7%), 희석 EPS 2.97달러(+10%). Non-GAAP 순이익 62.96억(+8%), EPS 3.32달러(+11%, 고정환율 약 +11%). 일회성(특수 항목): 퇴직비용 5.63억, MDL 소송충당금 2.37억, 해외이익 과세 변경에 따른 이연법인세 이익 0.18억; 그 외 지분투자 순손실 0.09억, 인수 무형자산 상각·인수비용 0.78억. 전년 3분기 특수 항목은 MDL 등 소송충당금 6.15억. 핵심 지표(고정환율): 결제액 +10%(3월 분기 결제액 +9%가 3분기 서비스 매출 기준), 역내 유럽 제외 국경 간 +12%(명목 +14%), 국경 간 전체 +13%, 처리 건수 717억 건(+10%). 현금·현금성자산·투자증권 139억 달러. 3분기 희석 가중평균 클래스 A 주식 수 18.98억 주(전년 19.59억, '완전 희석 클래스 A 기준'). 9개월 누적 현금흐름: 영업현금흐름 163.42억(전년 168.21억), 설비투자 11.78억, 자사주 매입 164.30억, 배당 38.52억, 선순위채 상환 55.65억, 발행 29.95억, CP 순발행 14.96억. 9개월 소송 미지급금 변동 -17.58억. 2분기 동안 클래스 A 약 1,450만 주를 평균 330.71달러에 49억 달러 매입, 6/30 잔여 한도 284억. 2026-06-25 소송 에스크로 2.5억 예치(VWAP 333.42달러로 B-1·B-2·B-3 환산 주식 수 감소 = 자사주 매입과 같은 EPS 효과). 2026-05-12 클래스 B-1·B-2 교환 공개매수 정산. 2026-07-28 분기 배당 주당 0.670달러 선언(9/1 지급, 8/11 기준)."
+  },
+  {
+   "id": "S901",
+   "type": "filing",
+   "title": "Visa 10-Q for quarter ended 2026-06-30 (deep extract; same filing as S2)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/0001403161-26-000104-index.htm",
+   "date": "2026-07-29",
+   "note": "1차. S2와 같은 10-Q(심층 발췌). 표지: 2026-07-21 기준 발행주식 클래스 A 1,704,112,694주, B-1 2,180,148주, B-2 486,669주, B-3 60,589,871주, C 17,059,152주. Note 11(2026-06-30) 클래스 A 환산 주식 수 합계 18.80억 주(2025-09-30 19.30억): 시리즈 A 우선주(100만 주 미만, 전환비율 100.0000) 7백만, 시리즈 B 우선주 2백만 주×0.5830=1백만, 시리즈 C 우선주 3백만 주×0.7140=2백만, 클래스 A 17.02억, B-1 2백만 주×1.5445=3백만, B-2(100만 주 미만)×1.5014=1백만, B-3 61백만 주×1.4953=91백만, C 18백만 주×4.0000=73백만. 내 계산(2026-07-21 환산): 표지 주식 수×6/25 이후 전환비율 = A 1,704.11 + B-1 3.37 + B-2 0.73 + B-3 90.60 + C 68.24 = 1,867.05백만 주, 여기에 우선주 환산분 약 10백만 주(Note 11의 반올림 값 7+1+2)를 더해 약 18.77억 주(우선주 반올림 탓에 ±1백만 주). Note 12: 희석 클래스 A EPS는 B-1·B-2·B-3·C와 참여증권(우선주 포함)을 환산 기준으로 모두 전환한다고 가정 → 3분기 희석 가중평균 18.98억 주(기본 16.73억 + 환산 B-1 5·B-2 80·B-3 51·C 71·참여증권 15백만), 9개월 19.16억. 기존 XBRL에는 diluted_shares 사실이 없다(Visa가 클래스 차원으로만 태그해 수집기가 못 읽음). 기존 shares_outstanding F171(469,280,842주, 2010-01-27)은 2010년 표지의 클래스 A만이라 낡고 환산 기준이 아니다. 대차대조표: 현금 123.59억, 제한현금(미국 소송 에스크로) 8.88억, 유동 투자증권 14.33억, 비유동 투자증권 1.50억, 매출채권 35.27억, 영업권 208.25억, 무형자산 275.32억, 총자산 945.90억, 유동성 장기차입금 29.96억(CP 15억 포함, 가중평균 금리 3.77%), 장기차입금 208.62억(총 차입 장부가 238.58억), 미지급 소송 12.74억, 자본총계 351.78억. 차입 만기: 2027년 4월 15억·8월 5억·9월 7.5억, 2028년 5월 유로채 14.28억, 2029년 2월 9억·6월 11.42억 등. 2026년 2월 30억 달러 선순위채(3.80~4.70%) 발행, 2025년 12월 40억·2026년 6월 €13.5억 상환. CP 한도 2026년 7월 30억→70억 확대. 부가가치서비스(VAS) 매출 3분기 38억(전년 28억, +33%), 9개월 103억(전년 78억, +32%) — 발급·수용 솔루션, 자문, FIFA 월드컵·밀라노 코르티나 올림픽 마케팅 서비스. 자문 건수 약 30% 증가, 결제 자격증명 +8%. 잔여 수행의무 56억(약 절반 2년 내 인식). 9개월: 에스크로 예치 8.75억, 옵트아웃·금지명령 집단 가맹점 지급 29.77억, 에스크로 잔액 8.88억(기초 29.90억). 미국 피보험 소송 충당 잔액 8.22억(9개월 MDL 충당 11.31억, 지급 30.07억). VE 지역 소송 충당 0.89억; 우선주로 회수 가능한 VE 손실 여력(환산 가치−회수권) 11.58억. 2025-11-10 금지명령 집단 수정 합의 2026-06-09 예비 승인, 7/15 최종 승인 신청. 2026-04-21 손해배상 집단 일부 가맹점(Potayto-Potahto)이 손해배상 합의의 미래 면책 조항 무효 확인 청구, 6/16 Visa·MA 합의 이행 신청. 옵트아웃 가맹점 결제액의 약 95%와 합의, 2026년 4월 예정 재판 모두 해소. 영국 CAT 2026-02-18 '일부 업종 외 인터체인지는 가맹점이 전가하지 않았다' 판단(Visa 항소 허가 신청), 2025년 6월 CAT 경쟁제한 판단에 2026-03-17 항소 허가. 2026년 4~6월 유럽 가맹점들이 영국 고등법원에 유럽 인터체인지 손해배상 소송 추가 제기. 증권 집단소송 2026-06-29 각하(재청구 불가). 실효세율: 9개월 이연법인세 이익 3.51억, 비용 세무 포지션 이익 2.17억. 2026년 7월 2035년까지 약 8.2억 달러 스폰서십·소프트웨어 약정. 2026년 2월 아르헨티나 Prisma·Newpay 인수 대가 15억 달러(현금)."
+  },
+  {
+   "id": "S902",
+   "type": "filing",
+   "title": "Visa 8-K Ex.99.1 — Visa Reports Fiscal Second Quarter 2026 Results",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000077/q22026earningsrelease.htm",
+   "date": "2026-04-28",
+   "note": "1차. 2분기(2026-01~03): 순매출 112.30억(+17%, 고정환율 +16%, 2022년 이후 최고 성장). 서비스 49.81억(+13%), 데이터 처리 55.43억(+18%), 국제 거래 36.31억(+10%), 기타 13.20억(+41%), 인센티브 -42.45억(+14%). GAAP 영업비용 39.96억(-4%, 소송충당금 감소), Non-GAAP 35.99억(+17%). 순이익 60.21억(+32%), EPS 3.14달러(+36%); Non-GAAP 순이익 63.42억(+17%), EPS 3.31달러(+20%). 특수 항목: MDL 등 소송충당금 3.11억(전년 9.92억). 결제액 +9%, 역내 유럽 제외 국경 간 +11%(명목 +17%), 국경 간 전체 +12%(명목 +21%), 처리 건수 661억(+9%). 희석 가중평균 클래스 A 19.16억 주(전년 19.74억). 2026-02-12 30억 달러 선순위채 발행, 2026-02-26 에스크로 1.25억 예치(VWAP 312.44달러), 2026년 2월 Prisma·Newpay 인수 완료(아르헨티나 경쟁당국 심사 중). 2분기 자사주 약 2,500만 주를 평균 320.66달러에 79억 달러 매입(분기 사상 최대), 3/31 잔여 한도 132억; 2026년 4월 200억 달러 신규 매입 프로그램 승인. 6개월 누적: Non-GAAP EPS 6.48달러(전년 5.51). 전년 2분기 Non-GAAP 순이익 54.42억, EPS 2.76달러, GAAP EPS 2.32달러."
+  },
+  {
+   "id": "S903",
+   "type": "filing",
+   "title": "Visa 8-K Ex.99.1 — Visa Reports Fiscal First Quarter 2026 Results",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000044/q12026earningsrelease.htm",
+   "date": "2026-01-29",
+   "note": "(6개월 이상) 1차. 1분기(2025-10~12): 순매출 109.01억(+15%, 고정환율 +13%). 서비스 47.60억(+13%), 데이터 처리 55.44억(+17%), 국제 거래 36.52억(+6%), 기타 12.14억(+33%), 인센티브 -42.69억(+12%). GAAP 영업비용 41.64억(+27%, 소송충당금 증가), Non-GAAP 33.91억(+16%). 순이익 58.53억, EPS 3.03달러(+17%); Non-GAAP 순이익 61.24억(+12%), EPS 3.17달러(+15%). 특수 항목: MDL 소송충당금 7.07억, 해외이익 과세 변경 이연법인세 이익 3.33억(GAAP 실효세율 13.0%, Non-GAAP 18.4%). 전년 1분기 특수 항목: 퇴직비용 2.13억, 임차 통합 0.39억, 소송 0.27억. 결제액 +8%, 역내 유럽 제외 국경 간 +11%, 전체 +12%, 처리 건수 694억(+9%). 희석 가중평균 클래스 A 19.33억 주(전년 19.85억). 2025-11-10 금지명령 집단 수정 합의 체결, 2025-12-23 에스크로 5억 예치(VWAP 354.46달러). 1분기 약 1,100만 주를 평균 342.13달러에 38억 매입, 잔여 한도 211억. 전년 1분기 Non-GAAP 순이익 54.63억, EPS 2.75달러, GAAP EPS 2.58달러."
+  },
+  {
+   "id": "S904",
+   "type": "filing",
+   "title": "Visa 8-K Ex.99.1 — Visa Reports Fiscal Fourth Quarter and Full-Year 2025 Results",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000077/q42025earningsrelease.htm",
+   "date": "2025-10-28",
+   "note": "1차(6개월 이상). 4분기(2025-07~09): 순매출 107.24억(+12%), 서비스 46.02억, 데이터 처리 53.94억, 국제 거래 38.00억, 기타 11.76억, 인센티브 -42.48억(+17%). GAAP 영업비용 45.76억(+40%; 소송충당금 9.03억, 특수 항목 8.99억), Non-GAAP 36.11억(+13%). 순이익 50.90억(-4%), EPS 2.62달러; Non-GAAP 순이익 58.03억, EPS 2.98달러(+10%). 결제액 +9%, 역내 유럽 제외 국경 간 +11%, 전체 +12%, 처리 건수 677억(+10%). 희석 가중평균 19.45억 주. 연간 FY2025: 순매출 400억(+11%, 고정환율 +12%), 서비스 175.39억(+9%), 데이터 처리 199.93억(+13%), 국제 거래 141.66억(+12%), 기타 40.53억(+27%), 인센티브 -157.51억(+14%). GAAP 영업비용 160.06억(+30%), Non-GAAP 129.06억(+11%). 순이익 200.58억(+2%), EPS 10.20달러(+5%); Non-GAAP 순이익 225.42억(+11%), EPS 11.47달러(+14%, 고정환율 약 +15%). 특수 항목: 소송충당금 25억, 퇴직비용 2.13억, 임차 통합 0.39억. 연간 결제액 +8%, 역내 유럽 제외 국경 간 +13%, 처리 건수 2,575억 건(+10%). 연간 희석 가중평균 19.66억 주. 2025-06-21 네 번째 VE 해제 평가로 시리즈 B·C 우선주 환산 가치 약 14억 달러 해제, 시리즈 A 우선주 발행(완전 희석 주식 수 불변). 2025-09-25 에스크로 5억 예치. FY2025 약 5,400만 주를 평균 335.44달러에 182억 매입, 잔여 한도 249억. 분기 배당 14% 인상해 주당 0.670달러. FY2024 Non-GAAP 순이익 203.89억, EPS 10.05달러, GAAP EPS 9.73달러."
+  },
+  {
+   "id": "S905",
+   "type": "call",
+   "title": "Visa Inc. (V) Q3 2026 Earnings Call — Corrected Transcript (FactSet, Visa IR)",
+   "url": "https://s1.q4cdn.com/050606653/files/doc_financials/2026/q3/Visa-Inc-V-US-Q3-2026-Earnings-Call-28-July-2026-5_00-PM-ET.pdf",
+   "date": "2026-07-28",
+   "note": "1차(IR 게시 원문). 2026-07-28 3분기 콜. McInerney: 분기 결제액 사상 처음 4조 달러 돌파, 결제 자격증명 +8%, 전자상거래 토큰화 약 60%. 유럽에서 12개월간 자격증명 4,000만 개 이상 증가, 수주분으로 3,000만 개 이상 추가 예정(NatWest 소비자 신용 전량 수주). Bradesco 갱신, 콜롬비아 처리 점유 90% 이상. CMS 매출 +17%(고정환율), 상업 결제액 +13%. Visa Direct 거래 40억 건 +21%. 스테이블코인: Open Standard 컨소시엄 참여(Open USD 발행 예정), Visa Stablecoin Platform 출시(발행·이동·관리, Pismo와 통합). 에이전트 커머스: OpenAI·Meta 제휴, Agent Score·Token Assurance Framework. '기술·제품 팀 위주로 직무를 없앤다'(감원 발표). VAS 매출 +34%(고정환율) 38억 달러, 대부분 거래·카드·계좌 연동. Suh(CFO): 미국 결제액 +10%(2019년 이후 최고, 세금 환급·유가·유통 행사·Visa Direct·FIFA), 신용 +11%, 직불 +9%, '저소비 계층 약화 신호 없음'. 국경 간 +12%: 전자상거래 +16%, 여행 +10%, 중동 분쟁은 상쇄 요인. 국제 거래 매출 +6%는 작년 3분기 변동성 정점 기저와 믹스 탓. 인센티브 +18%(작년 저점 기저). Prisma·Newpay가 Non-GAAP 매출 성장에 약 1.5%p, 비용 약 2%p, EPS 약 0.5%p 기여. 7/21까지: 미국 결제액 +9%, 국경 간 +14%(전자상거래 +18%, 여행 +12%), 처리 건수 +9%. 가이던스(조정 = Non-GAAP·고정환율·인수 제외): 4분기 순매출 '저두 자릿수 상단(high end of low-double-digits)', 영업비용 '저두 자릿수', 영업외 비용 약 8,000만 달러, 세율 약 19%, EPS '중반 10%대 하단(low end of mid-teens)'. 연간: 순매출 '저 10%대 하단(low end of low-teens)', 영업비용 '저 10%대 하단', 영업외 비용 약 1.65억, 세율 18~18.25%, EPS '중반 10%대 하단'. 연말까지 결제액의 약 20% 재계약 → 4분기 인센티브 증가율이 3분기보다 약간 높음. FY2027 가이던스는 다음 분기에 제시, 가격 인상 기여는 '최근 몇 년과 비슷'. Q&A: Open USD — 'Visa는 멀티 코인·멀티 체인', 스테이블코인은 아직 '몇 가지 용도' 이상으로 확장되지 못함. 감원 절감액 재투자, '앞으로도 강한 마진'. 6~7월 국경 간 전자상거래는 '이례적으로 높다' — 정상화 예상. 유럽 로컬 스킴과의 경쟁에서 계속 수주."
+  },
+  {
+   "id": "S906",
+   "type": "call",
+   "title": "Visa Fiscal Third Quarter 2026 Financial Results presentation (Visa IR)",
+   "url": "https://s1.q4cdn.com/050606653/files/doc_financials/2026/q3/Visa-Inc-Third-Quarter-2026-Financial-Results-Presentation.pdf",
+   "date": "2026-07-28",
+   "note": "1차. 3분기 결과 슬라이드: GAAP 명목 순매출 +14%·영업비용 +19%·EPS +10%; Non-GAAP 명목 +14%·+17%·+11%; 환율 영향 약 -1.0%p·-1.5%p·-0.5%p; 인수 영향 약 -1.5%p·-2.0%p·-0.5%p; Non-GAAP 조정 고정환율 순매출 +12%, 영업비용 +14%, 세율 18.3%, EPS +10%. FCF 계산(회사 제시): 3분기 영업현금흐름 65.54억 − 설비투자 4.17억 = FCF 61.37억; 9개월 163.42억 − 11.78억 = 151.64억. 주주환원: 3분기 자사주 48.78억(세금 포함, 미결제 1.5억 포함)·배당 12.73억, 9개월 165.37억·38.52억. 전망 슬라이드(조정 고정환율): 4분기 순매출 high-end of low-double-digit, 영업비용 low-double-digit, EPS low-end of mid-teens; 연간 순매출 low-end of low-teens, 영업비용 low-end of low-teens, EPS low-end of mid-teens. 연간 GAAP 명목 기준: 순매출 low-end of mid-teens, 영업비용 mid-single-digit, EPS low- to mid-twenties(연간 특수 항목: 소송충당금 13억 달러·주당 0.51, 퇴직 5.63억·0.23, 이연법인세 이익 3.51억·-0.18). 가이던스 사실의 범위는 아래 환산 관례를 따른다(말→숫자, 노트 해석): HSD=0.07~0.09, 중~고 한 자릿수=0.05~0.09, HSD~LDD=0.08~0.11, LDD(low-double-digit)=0.10~0.12, LDD 상단=0.115~0.125, LDD~low-teens=0.10~0.13, low-teens=0.12~0.14, low-teens 하단=0.12~0.13, mid-teens=0.14~0.16, mid-teens 하단=0.14~0.15, high-teens=0.17~0.19. 회사가 낸 것은 말뿐이고 숫자 범위는 이 노트의 관례다."
+  },
+  {
+   "id": "S907",
+   "type": "call",
+   "title": "Visa Inc. (V) Q2 2026 Earnings Call — Corrected Transcript (FactSet, Visa IR)",
+   "url": "https://s1.q4cdn.com/050606653/files/doc_financials/2026/q2/CORRECTED-TRANSCRIPT_-Visa-Inc-V-US-Q2-2026-Earnings-Call-28-April-2026-5_00-PM-ET-4.pdf",
+   "date": "2026-04-28",
+   "note": "1차. 2026-04-28 2분기 콜. McInerney: VAS가 순매출의 30%, 고정환율 25% 이상 성장. Visa Direct 엔드포인트 180억 개 이상, 2분기 37억 건 +23%(X Money 출시, UnionPay MoneyExpress 연결). 상업 결제액 +11%, 상업 국경 간 비중 사상 최고. 에이전트 커머스가 TAM을 넓힌다는 네 가지 논리(디지털화, 거래 증가·마이크로 결제, B2B 디지털화, GDP 80~150bp 부양 — 제3자 추정). Visa CLI 개념 증명. 스테이블코인 연동 카드 프로그램 160개 이상(Rain·Reap·Bridge), 결제액 전년 대비 '거의 200%' 증가; 스테이블코인 정산 연환산 70억 달러(전 분기 대비 50% 이상 증가), 정산 블록체인 9개(Arc·Base·Canton·Polygon·Tempo 추가), Tempo 검증인·Canton 슈퍼 검증인. 작년 Visa 정산 총액 약 13조 달러. VAS 2분기 +27%(고정환율) 33억 달러. Wells Fargo가 Pismo 코어 원장으로 이전 합의. 중동 분쟁 영향 주시. Suh: 미국 결제액 +8%(직불 +7%, 신용 +10%, 세금 환급 효과), '저소비 계층 약화 신호 없음'; CEMEA 결제액 성장 약 2.5%p 하락(중동, 총 결제액의 약 6%). 국경 간 +11%: 전자상거래 +13%(암호화폐는 약간 부담), 여행 +10%. 인센티브 +14%(예상보다 낮음, 거래 시점·성과 조정). CMS +24%(일회성 성과 조정 포함). 영업외 비용 4,500만(차입 증가). 2분기 자사주 79억 달러로 분기 사상 최대. 4/21까지 국경 간 +9%(여행 +5%, 라마단·중동), 처리 건수 +8%. 가이던스 상향: 연간 순매출 LDD→'LDD~low-teens', 영업비용 'LDD~low-teens'(FIFA 마케팅), 영업외 비용 약 1.5억, 세율 18~18.5%(하단 근처), 조정 EPS 'low-teens'(상향). 3분기: 순매출 LDD(연중 최저 분기), 영업비용 low-teens, 영업외 약 5,500만, 세율 약 18.5%, EPS 중~고 한 자릿수. 새 가격은 하반기 적용, 가격 가정 변화 없음. Q&A: 유럽 결제 민족주의 — 'Wero·디지털 유로 등 경쟁은 더 많아질 것', 최근 1년 카드 약 3,000만 장 추가. 사기 방지 수요 '단계적 증가', Visa 대형 거래 모델(LTM)로 최대 5배 사기 포착. CMS 일부 일회성은 반복되지 않음. Pismo는 VAS(기타 매출)로 인식."
+  },
+  {
+   "id": "S908",
+   "type": "call",
+   "title": "Visa Fiscal Second Quarter 2026 Financial Results presentation (Visa IR)",
+   "url": "https://s1.q4cdn.com/050606653/files/doc_financials/2026/q2/Visa-Inc-Second-Quarter-2026-Financial-Results-Presentation.pdf",
+   "date": "2026-04-28",
+   "note": "1차. 2분기 Non-GAAP 조정 고정환율: 순매출 +15%, 영업비용 +13%, 세율 16.3%, EPS +20%(GAAP 명목 +17%·-4%·16.1%·+36%). FCF: 2분기 영업현금흐름 30.08억 − 설비투자 3.83억 = 26.25억(6개월 97.88억 − 7.61억 = 90.27억). 2분기 자사주 78.94억, 배당 12.86억. 전망(조정 고정환율): 3분기 순매출 LDD, 영업비용 low-teens, EPS 중~고 한 자릿수(GAAP 명목: 순매출 LDD 상단, EPS high-teens); 연간 순매출 LDD~low-teens, 영업비용 LDD~low-teens, EPS low-teens(GAAP 명목 순매출 low-teens, EPS mid-twenties). 환산 관례는 S906 노트와 같다."
+  },
+  {
+   "id": "S909",
+   "type": "call",
+   "title": "Visa Inc. (V) Q1 2026 Earnings Call — Corrected Transcript (FactSet, Visa IR)",
+   "url": "https://s1.q4cdn.com/050606653/files/doc_financials/2026/q1/CORRECTED-TRANSCRIPT_-Visa-Inc-V-US-Q1-2026-Earnings-Call-29-January-2026-5_00-PM-ET.pdf",
+   "date": "2026-01-29",
+   "note": "(6개월 이상) 1차. 2026-01-29 1분기 콜. CMS +20%(고정환율), 상업 결제액 +10%, Visa Direct 37억 건 +23%, VAS +28%(32억 달러, 매출 성장의 약 50%). 스테이블코인 정산 연환산 46억 달러(미국 USDC 정산 확대). Suh: 미국 결제액 +7%(신용 +7%, 직불 +6%). 분기 중 미국 결제액 둔화는 직불 탓 — 'Visa Direct 고객 하나가 남은 물량을 자체 솔루션으로 옮김', Capital One 직불의 Discover 이전에 따른 Interlink 물량 이탈, 악천후. 연말 쇼핑 성장은 작년과 비슷, 저소비 계층 악화 없음. 국경 간 +11%(전자상거래 +12% — 암호화폐 구매 둔화, 여행 +10%, 캐나다발 미국 입국 개선). 인센티브 +12%(일회성 하향 조정). 국제 거래 매출 +6% — 변동성이 예상보다 훨씬 낮음. 가이던스: 연간 조정 순매출 LDD·영업비용 LDD 유지, 영업외 비용 1~1.25억, 세율 18~18.5%(소송 합의 관련 claim of right 세금 혜택; 장기 세율 19~20%), 조정 EPS LDD('범위 안에서 약간 높게'). 2분기: 순매출 LDD, 영업비용 mid-teens(올림픽·FIFA 마케팅), 영업외 약 3,000만, 세율 약 16.5%, EPS LDD 상단. 가격: 새 가격 효과는 작년과 비슷한 규모, 대부분 하반기. Q&A(CCCA): McInerney — 의회와 계속 접촉, CCCA는 '매우 해롭고 필요 없다', 시행되면 신용 접근 축소·리워드 소멸·보안 약화. 자본환원: 매입은 대체로 기계적이나 '시장이 저평가할 때 더 사들인다'."
+  },
+  {
+   "id": "S910",
+   "type": "call",
+   "title": "Visa Fiscal First Quarter 2026 Financial Results presentation (Visa IR)",
+   "url": "https://s1.q4cdn.com/050606653/files/doc_financials/2026/q1/Visa-Inc-First-Quarter-2026-Financial-Results-Presentation.pdf",
+   "date": "2026-01-29",
+   "note": "(6개월 이상) 1차. 1분기 Non-GAAP 조정 고정환율: 순매출 +13%, 영업비용 +14%, 세율 18.4%, EPS +14%(GAAP 명목 +15%·+27%·13.0%·+17%). FCF: 영업현금흐름 67.80억 − 설비투자 3.78억 = 64.02억. 자사주 37.65억, 배당 12.93억. 전망(조정 고정환율): 2분기 순매출 LDD, 영업비용 mid-teens, EPS LDD 상단; 연간 순매출 LDD, 영업비용 LDD, EPS LDD. 환산 관례는 S906 노트와 같다."
+  },
+  {
+   "id": "S911",
+   "type": "call",
+   "title": "Visa Fiscal Fourth Quarter 2025 Financial Results presentation (Visa IR)",
+   "url": "https://s1.q4cdn.com/050606653/files/doc_financials/2025/q4/Visa-Inc-Fourth-Quarter-2025-Financial-Results-Presentation.pdf",
+   "date": "2025-10-28",
+   "note": "1차(6개월 이상). 4분기 Non-GAAP 조정 고정환율: 순매출 +11%, 영업비용 +11%, 세율 18.8%, EPS +10%. FCF: 4분기 영업현금흐름 62.38억 − 설비투자 3.89억 = 58.49억, FY2025 230.59억 − 14.82억 = 215.77억. 자사주 4분기 49.44억·FY2025 181.85억, 배당 11.46억·46.34억. FY2026 첫 전망(2025-10-28, 조정 고정환율): 1분기 순매출 LDD 상단, 영업비용 LDD, EPS low-teens; 연간 순매출 LDD, 영업비용 LDD, EPS LDD(GAAP 명목 EPS low- to mid-twenties). FY2025 연간 조정 고정환율 실적은 슬라이드에 없음. 환산 관례는 S906 노트와 같다."
+  },
+  {
+   "id": "S912",
+   "type": "call",
+   "title": "Visa Fiscal Third Quarter 2025 Financial Results presentation (Visa IR)",
+   "url": "https://s1.q4cdn.com/050606653/files/doc_financials/2025/q3/Visa-Inc-Third-Quarter-2025-Financial-Results-Presentation.pdf",
+   "date": "2025-07-29",
+   "note": "1차(6개월 이상). FY2025 3분기 Non-GAAP 조정 고정환율: 순매출 +14%, 영업비용 +13%, 세율 17.3%, EPS +23%. 2025-07-29 전망: 4분기 순매출 HSD~LDD, 영업비용 HSD~LDD, EPS HSD; FY2025 연간 순매출 LDD, 영업비용 HSD~LDD, EPS low-teens. 과거 가이던스 적중률 비교용."
+  },
+  {
+   "id": "S913",
+   "type": "call",
+   "title": "Visa Fiscal Second Quarter 2025 Financial Results presentation (Visa IR)",
+   "url": "https://s1.q4cdn.com/050606653/files/doc_financials/2025/q2/Visa-Inc-Second-Quarter-2025-Financial-Results-Presentation.pdf",
+   "date": "2025-04-29",
+   "note": "1차(6개월 이상). FY2025 2분기 조정 고정환율: 순매출 +11%, 영업비용 +8%, 세율 16.8%, EPS +12%. 2025-04-29 전망: 3분기 순매출 LDD, 영업비용 LDD, EPS high-teens; 연간 순매출 LDD, 영업비용 HSD~LDD, EPS low-teens."
+  },
+  {
+   "id": "S914",
+   "type": "call",
+   "title": "Visa Fiscal First Quarter 2025 Financial Results presentation (Visa IR)",
+   "url": "https://s1.q4cdn.com/050606653/files/doc_financials/2025/q1/Visa-Inc-First-Quarter-2025-Financial-Results-Presentation.pdf",
+   "date": "2025-01-30",
+   "note": "1차(6개월 이상). FY2025 1분기 조정 고정환율: 순매출 +11%, 영업비용 +9%, 세율 17.6%, EPS +16%. 2025-01-30 전망: 2분기 순매출 HSD~LDD, 영업비용 HSD~LDD, EPS HSD; 연간 순매출 LDD(10월의 HSD~LDD에서 상향), 영업비용 HSD~LDD, EPS low-teens(10월 LDD 상단에서 상향)."
+  },
+  {
+   "id": "S915",
+   "type": "call",
+   "title": "Visa Fiscal Fourth Quarter 2024 Financial Results presentation (Visa IR)",
+   "url": "https://s1.q4cdn.com/050606653/files/doc_financials/2024/q4/Visa-Inc-Fourth-Quarter-2024-Financial-Results-Presentation.pdf",
+   "date": "2024-10-29",
+   "note": "1차(6개월 이상). FY2024 4분기 조정 고정환율: 순매출 +12%, 영업비용 +10%, EPS +17%. FY2025 첫 전망(2024-10-29): 1분기 순매출 HSD, 영업비용 HSD~LDD, EPS LDD; 연간 순매출 HSD~LDD, 영업비용 HSD~LDD, EPS LDD 상단. FY2025 실제: 순매출 명목 +11%·고정환율 +12%, Non-GAAP EPS +14%(고정환율 약 +15%) — S904; 보상 목적 'VIP 조정' 순매출 +11.2%·EPS +15.1% — S926. 연간 조정 고정환율 실적이 공시되지 않아 연간 적중 여부는 사실로 넣지 않았다."
+  },
+  {
+   "id": "S916",
+   "type": "data",
+   "title": "Yahoo Finance chart API — V daily prices (range=1y, interval=1d)",
+   "url": "https://query1.finance.yahoo.com/v8/finance/chart/V?range=1y&interval=1d",
+   "date": "2026-10-16",
+   "note": "2026-10-18에 받은 Yahoo 일별 시세(USD, NYSE). 2026-10-16(금) 종가 $402.61(시가 $402.50, 고가 $404.74, 저가 $399.73, 거래량 6,780,000주). 직전 종가: 10/15 $399.75, 10/14 $391.43, 10/13 $396.06, 10/12 $389.27, 10/09 $385.45. 9/30 종가 $359.33 → 10/16까지 +12.0%(내 계산). 52주(2025-10-16~2026-10-16, 252거래일; 2025-10-16은 period1/period2 조회로 보충): 장중 최저 $293.89(2026-04-01), 장중 최고 $404.74(2026-10-16), 종가 최저 $295.52(2026-03-27), 종가 최고 $402.61(2026-10-16). 메타데이터 fiftyTwoWeekLow·High 293.89·404.742. 참고 종가: 2025-10-16 $335.40, 2025-12-31 $350.71, 2026-03-31 $302.24, 2026-06-30 $343.09(10-Q의 6/30 종가와 일치), 2026-07-28 $366.59. 큰 하루 변동: 2026-01-13 -4.5%(트럼프 CCCA 지지 당일), 2026-02-23 -4.5%, 2026-04-29 +8.3%(2분기 실적 다음 날), 2025-12-11 +6.1%."
+  },
+  {
+   "id": "S917",
+   "type": "data",
+   "title": "StockAnalysis — Visa (V) analyst forecast & consensus (S&P Global Market Intelligence)",
+   "url": "https://stockanalysis.com/stocks/v/forecast/",
+   "date": "2026-10-16",
+   "note": "2차(집계 사이트, 2026-10-16 갱신). FY2026(2026-09 결산) 매출 컨센서스 457.8억 달러(범위 444억~460억), EPS(Non-GAAP) 13.23달러(13.10~13.50), 애널리스트 36명. FY2027 매출 508.0억, EPS 15.01달러. 목표주가(근거 노트 전용, 사실 아님): 평균 $422.77(+5.0%), 중앙 $425, 최저 $330, 최고 $475. 의견 40명: Strong Buy 27, Buy 9, Hold 3, Sell 1. 참고: Zacks 집계(날짜 미확인, 3분기 실적 직후) FY2026 EPS 13.14·매출 457.1억, FY2027 EPS 14.94·매출 504.4억, 평균 목표가 $416.24 — 날짜를 확인하지 못해 사실로 넣지 않았다."
+  },
+  {
+   "id": "S918",
+   "type": "news",
+   "title": "TIKR — Visa Stock Is Up 11% in October While Earnings Estimates Stood Still. Here's What October 27 Has to Prove",
+   "url": "https://www.tikr.com/blog/visa-stock-is-up-11-in-october-while-earnings-estimates-stood-still-heres-what-october-27-has-to-prove",
+   "date": "2026-10-16",
+   "note": "2차(분석 블로그). 4분기(FY2026Q4) 컨센서스 매출 약 121억 달러, 조정 EPS 약 3.43달러. FY2027 매출 컨센서스 약 508억. NTM 정규화 EPS 약 14.45달러로 10월 중 거의 불변, FY2027 매출 추정 변화 0.02% — 10월 상승(9/30 $359.33 → 10/15 $399.75, +11.2%)은 '기대 상향이 아니라 멀티플 상승'. NTM P/E 약 28배(10/15), 약 25배(9/30), 약 23배(3/31). Mastercard도 사상 최고가. 상승 중 뉴스: 중국 국내 은행카드 청산 준비 승인(10/13), Visa Direct 스테이블코인 상용화(10/15) — 상승은 10/13 전부터 시작. 목표주가(노트 전용): 평균 약 $422, BMO $405→$425(10/15). 의견: Buy 27·Outperform 9·Hold 3·Underperform 1."
+  },
+  {
+   "id": "S919",
+   "type": "filing",
+   "title": "Visa 8-K 2026-09-23 (Item 8.01, U.S. litigation escrow deposit and class B conversion-rate adjustment) — filing index",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000121/0001403161-26-000121-index.htm",
+   "date": "2026-09-23",
+   "note": "1차. S1과 같은 8-K(내용 발췌). 2026-09-18 미국 소송 에스크로에 4.05억 달러 예치 승인. 전환비율: B-1 1.5445→1.5400, B-2 1.5014→1.4924, B-3 1.4953→1.4773(2026-09-18 발효, 9/18~9/22 VWAP 기준). 환산 주식 수: B-1 3,367,156→3,357,351, B-2 730,688→726,311, B-3 90,599,965→89,510,039(합계 약 110만 주 감소 = 자사주 매입과 같은 EPS 효과). 이전 조정: 2026-06-24 8-K(S5) 2.5억 예치, B-1 1.5475→1.5445, B-2 1.5075→1.5014, B-3 1.5075→1.4953(6/25 발효); 2026-02-27 8-K(S10) 1.25억 예치, B-1 1.5491→1.5475, B-2 1.5108→1.5075; 2025-12-30 8-K(S16) 5억 예치, B-1 1.5549→1.5491, B-2 1.5223→1.5108. 클래스 C→A 전환비율 4.0000 고정. 9/18 이후 클래스 A 발행주식 수는 공시되지 않아 최신 환산 주식 수는 7/21 표지 기준(S901)이다."
+  },
+  {
+   "id": "S920",
+   "type": "filing",
+   "title": "Visa 8-K 2025-11-10 (Item 8.01, amended Injunctive Relief Class settlement in MDL 1720) — filing index",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000093/0001403161-25-000093-index.htm",
+   "date": "2025-11-10",
+   "note": "(6개월 이상) 1차. S19와 같은 8-K(내용 발췌). Visa·MA가 MDL 금지명령 집단과 수정 합의: 미국 신용카드 평균 유효 인터체인지 10bp 인하 5년, 게시 인터체인지 5년 상한, 표준 소비자 신용 125bp 상한(합의 기간), 가맹점이 다른 신용 네트워크에 할증하지 않아도 할증 가능, 상업·프리미엄 소비자·표준 소비자 카드별 수용 선택(Honor All Cards 완화), 가맹점 교육. 법원 승인 조건. 2024-03-25 첫 합의는 2024-06-25 Brodie 판사가 예비 승인 거부. 10-Q(S901): 2026-06-09 예비 승인, 7/15 최종 승인 신청."
+  },
+  {
+   "id": "S921",
+   "type": "filing",
+   "title": "Visa 8-K Ex.99.1 — Visa Announces Expiration and Results of Exchange Offer for Class B-1 and Class B-2 Common Stock",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312526215875/d59695dex991.htm",
+   "date": "2026-05-11",
+   "note": "1차. 교환 공개매수 2026-05-08 만료. B-1 약 270만 주·B-2 약 1억 1,980만 주 응모(B-1의 약 55%, B-2의 99% 초과, 합계 약 98%) → B-3 약 6,060만 주(양도 제한 유지)·C 약 2,330만 주(자유 양도, 일부 최대 90일 양도 제한) 발행, 단주는 만료일 종가 $318.79로 현금. 만료일 전환비율 B-1 1.5475, B-2 1.5075, C 4. 배경(S11, 2026-02-13 8-K): 후속 교환 조건 = 첫 교환 1년 경과 + 미해결 손해배상 청구의 인터체인지 금액이 2023-10-01 대비 50% 이상 감소; 2023-10-01 약 496억 달러, 2025-10-01 약 394억 달러. C주가 시장에 풀리며 클래스 A 유통 물량 증가 압력(6월 말 C 1,800만 주, 7/21 1,706만 주)."
+  },
+  {
+   "id": "S922",
+   "type": "filing",
+   "title": "Visa 8-K 2026-05-12 (Items 1.01/8.01, exchange offer settlement, makewhole agreement, interchange at issue) — filing index",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312526219432/0001193125-26-219432-index.htm",
+   "date": "2026-05-12",
+   "note": "1차. S6과 같은 8-K(내용 발췌). 교환 공개매수 정산, Makewhole Agreement 양식(Ex.10.1) 첨부. 미국 피보험 소송에서 미해결 손해배상 청구 대상 인터체인지 금액 추정 2026-05-11 기준 174억 달러(2025-10-01 394억, 2023-10-01 496억에서 감소; 간접구매자 집단·청구 안 한 옵트아웃 제외, 앞으로 계속 증가)."
+  },
+  {
+   "id": "S923",
+   "type": "filing",
+   "title": "Visa FY2025 10-K (deep extract; same filing as S20) — filing index",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/0001403161-25-000089-index.htm",
+   "date": "2025-11-06",
+   "note": "(6개월 이상) 1차. S20과 같은 10-K. Note 16: 희석 가중평균 클래스 A(환산) FY2025 19.66억 주(EPS 10.20달러), FY2024 20.29억(9.73), FY2023 20.85억(8.28); 환산 가중평균 B-1 FY2025 8백만·FY2024 2.35억·FY2023 3.92억, B-2 1.85억·0.77억·0, C 37백만·64백만·39백만, 참여증권 20·29·34백만. VAS 매출 FY2025 109억(+24%), FY2024 88억, FY2023 72억. 감사인 KPMG(적정, 핵심감사사항 = MDL 옵트아웃 개별 가맹점 소송 충당금). 2024년 1월 Pismo 인수(9.29억 달러, 영업권 7.90억), 2024년 12월 Featurespace 인수(9.46억, 영업권 7.94억), 멕시코 Prosa 지분 과반 인수 계약. 직원 FY2024 약 31,600명 → FY2025 약 34,100명(+8%). DOJ: 2024-09-24 SDNY에 직불 독점 소송 제기(일반 목적 직불·비대면 직불 네트워크 서비스 독점, 가맹점·매입사와의 계약), 2025-06-23 Visa의 기각 신청 기각. 미국 직불 집단소송(가맹점·카드 소지자)은 2025-10-29 일부 기각·일부 유지. 연준 직불 상한(21센트+5bp+사기 1센트) 개정 움직임과 노스다코타 판결 위험, 의회의 신용 인터체인지·라우팅 규제 관심. 국경 간 인터체인지: EC 합의 상한 2029년까지 연장, 영국 PSR 시장 검토. 2025 회계연도 결제·현금 총액 17조 달러, 자격증명 약 50억 개."
+  },
+  {
+   "id": "S924",
+   "type": "filing",
+   "title": "Visa FY2023 10-K (EPS note; diluted class A as-converted shares FY2021–FY2023)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316123000099/v-20230930.htm",
+   "date": "2023-11-15",
+   "note": "1차(6개월 이상). S25와 같은 10-K 본문. Note 16: 희석 가중평균 클래스 A(환산) FY2023 20.85억 주(희석 EPS 8.28달러), FY2022 21.36억(7.00), FY2021 21.88억(5.63). 이 기간 클래스 B 환산분은 매년 약 2.45억 주(기본), 클래스 C 약 10백만 주. 기존 XBRL 사실에는 희석 주식 수가 없어 이 값으로 연간 희석 주식 수를 채운다(환산 기준)."
+  },
+  {
+   "id": "S925",
+   "type": "filing",
+   "title": "Visa DEF 14A 2025-12-08 (deep extract; same filing as S18) — filing index",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/0001308179-25-000635-index.htm",
+   "date": "2025-12-08",
+   "note": "(6개월 이상) 1차. 보상: CEO McInerney FY2025 총보상 3,156만 달러(급여 151만, 주식 1,872만, 옵션 569만, 성과급 525만; FY2024 2,600만, FY2023 2,260만). CFO Suh 1,125만. 연간 성과급(VIP) 지표: 순매출 성장(VIP 조정 11.2%, 목표 9.8%), 순이익 성장(11.5%, 목표 8.2%), EPS 성장(15.1%, 목표 12.2%), NPS 76, 결제 거래 성장 등 — 지급률 목표의 140%. 장기 성과주식: 3년간 연간 EPS 목표 평균 + S&P 500 대비 상대 TSR 수정, 상한 200%; 연간 주식 보상은 옵션 25%·RSU 25%·성과주식 50%. CEO 보유 기준 급여의 6배. 2025년 Say-on-Pay 찬성 약 92%. 2026-01-27 주총(S15): 이사 Bill Ready(Pinterest CEO, 2025-09-29 선임) 반대 20.47%, 나머지 이사 98% 이상 찬성; Say-on-Pay 93.28% 찬성."
+  },
+  {
+   "id": "S926",
+   "type": "filing",
+   "title": "Form 4 — Rajat Taneja (President, Technology), Visa, transaction 2026-08-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000113/form4.xml",
+   "date": "2026-08-24",
+   "note": "1차. Taneja(기술 부문 사장)가 2026-08-21 클래스 A 17,927주를 평균 $370.9968에 매도 — 10b5-1 계획 각주 없음(기존 뉴스 S35 '계획 외 매도'와 일치). 같은 기간 CEO McInerney는 2026-05-22 채택 10b5-1 계획으로 매월 5,875주 옵션 행사 후 매도(8/21 $367.87, 9/1 $379.65, 10/1 $358.81), 법률 고문 Rottenberg도 10b5-1 계획 매도(8/31 2,028주 $381.35, 9/9 1,867주 $368.34). CFO Suh·CAO는 8/15 성과주식 확정분 세금 원천징수(F)만. 2025-10~2026-10 내부자 매수는 찾지 못했다."
+  },
+  {
+   "id": "S927",
+   "type": "news",
+   "title": "Payments Dive — Visa delivers 6M documents to DOJ (debit antitrust case discovery extended)",
+   "url": "https://www.paymentsdive.com/news/visa-delivers-6m-documents-to-doj/829168/",
+   "date": "2026-08-31",
+   "note": "보도. DOJ 직불 독점 소송(2024년 9월 제기, SDNY Koeltl 판사): Cave 치안판사가 사실 증거개시 마감을 2026년 10월에서 2027-01-29로 연장, 문서 제출 9/30까지. Visa 600만 건 이상 문서 제출(약 200건 요청), DOJ와 Visa 합계 약 150건 증언 요청(DOJ는 Visa 증인 48명), 재판 일정 미정 — 현 일정상 2028년 재판 가능성(합의 없을 경우). 8/20 기사: DOJ가 Visa의 '지연 행위'를 비판, 각 측 증언 255시간. 트럼프 행정부에서도 소송 유지."
+  },
+  {
+   "id": "S928",
+   "type": "news",
+   "title": "PYMNTS — President Trump Endorses Credit Card Competition Act",
+   "url": "https://www.pymnts.com/credit-cards/2026/president-donald-trump-endorses-legislation-lower-credit-card-swipe-fees/",
+   "date": "2026-01-13",
+   "note": "(6개월 이상) 보도. 2026-01-13 트럼프가 Truth Social에서 Marshall 상원의원의 CCCA 지지('Everyone should support...'). Marshall·Durbin이 같은 날 법안 재발의, 하원은 Lofgren·Gooden 동반 발의. 자산 1,000억 달러 초과 발급사가 비계열 네트워크 최소 2개(그중 하나는 Visa·MA가 아님)를 신용카드에 지원하도록 의무화. 며칠 전 트럼프는 신용카드 금리 1년간 10% 상한을 요구. 당일 Visa 주가 -4.5%(S916)."
+  },
+  {
+   "id": "S929",
+   "type": "news",
+   "title": "Payments Dive — Trump backs card bill, again",
+   "url": "https://www.paymentsdive.com/news/trump-backs-card-bill-again/826938/",
+   "date": "2026-08-04",
+   "note": "보도. 2026-08-03 트럼프가 Marshall 재선 지지 글에서 'CCCA 통과를 위해 애쓴다'며 스와이프 수수료를 '통제 불능'이라 비판. 2026년 3월 상원이 CCCA 수정안 없이 주택 법안을 통과시켜 법안은 정체. 하원 표결 없음. 가맹점 연합(MPC): 스와이프 수수료가 코로나 이후 80% 늘어 작년 1,980억 달러, 통과 시 연 170억 달러 절감(CMSPI) — 이해관계자 주장. 전자결제연합(EPC, 네트워크·은행)은 반대."
+  },
+  {
+   "id": "S930",
+   "type": "news",
+   "title": "Reuters via NC Lawyers Weekly — Visa, Mastercard $38 billion swipe fee settlement wins US judge's approval",
+   "url": "https://nclawyersweekly.com/2026/06/10/visa-mastercard-38-billion-swipe-fee-settlement-wins-us-judges-approval/",
+   "date": "2026-06-10",
+   "note": "보도. 2026-06-09 브루클린 연방법원 Brian Cogan 판사가 금지명령 집단 수정 합의를 예비 승인('fair, reasonable, and adequate', 최종 승인 가능성 높다). 원고 측 전문가(Stiglitz·Leffler)는 2031년까지 가맹점 380억 달러 절감·총 2,240억 혜택 추정(원고 측 주장). 수수료 0.1%p 5년 인하, 표준 소비자 카드 1.25% 상한 8년, 카드 범주별 수용 선택, 할증 확대. 반대: NRF·NACS·Walmart·MPC. 2024년 6월 Brodie 판사는 0.07%p 인하 300억 달러 합의를 거부. 평균 스와이프 수수료 2.36%."
+  },
+  {
+   "id": "S931",
+   "type": "news",
+   "title": "Shopappy — Swipe fees: no 2027 relief (MDL injunctive settlement timeline)",
+   "url": "https://shopappy.com/payments/card-networks/swipe-fees-no-2027-relief",
+   "date": "2026-09-25",
+   "note": "2차(가맹점 대상 블로그, 확률은 저자 추정이라 사실 아님). 이의 제기 마감 2026-09-14, Walmart(299쪽)·NRF·RILA 등 1,000건 이상 이의. 최종 승인(공정성) 심리 2026-11-16 예정. 승인 후 90일 내 규칙 변경(할증·범주 수용), 요율 상한·동결은 승인 4개월 이후 — 10bp 인하가 반영될 첫 재가격 주기는 빨라야 2027년 10월(2028년 4월 가능성 더 큼). 항소 시 최종 확정 2029년. 미국 Visa·MA 신용 인터체인지 평균 약 2.35%."
+  },
+  {
+   "id": "S932",
+   "type": "news",
+   "title": "Crowdfund Insider — London High Court Backs PSR: Mastercard, Visa, Revolut Lose Battle Over Proposed EEA-UK Card Fee Ceiling",
+   "url": "https://www.crowdfundinsider.com/2026/01/257433-london-high-court-backs-psr-mastercard-visa-revolut-lose-battle-over-proposed-eea-uk-card-fee-ceiling/",
+   "date": "2026-01-16",
+   "note": "(6개월 이상) 보도. 2026-01-15 영국 고등법원(Cavanagh 판사)이 EEA 발급 카드의 영국 비대면 국경 간 인터체인지 상한에 대한 Visa·MA·Revolut의 이의를 기각 — PSR의 상한 부과 권한 인정. 상한 수준·시행 시기는 미정(협의 진행). PSR 2025년 10월 방법론 협의(가맹점 무차별 테스트, 11/21 마감; PSR factsheet). 정부는 2025년 PSR 해체·FCA 통합 계획 발표. 이후 최종 상한 결정은 찾지 못했다."
+  },
+  {
+   "id": "S933",
+   "type": "news",
+   "title": "PYMNTS/Reuters — EU Expands Antitrust Probe Into Visa and Mastercard Fees, Seeks Industry Input",
+   "url": "https://www.pymnts.com/cpi-posts/eu-expands-antitrust-probe-into-visa-and-mastercard-fees-seeks-industry-input/",
+   "date": "2025-05-29",
+   "note": "보도(6개월 이상). EU 집행위원회가 Visa·MA 스킴 수수료(매입사에 부과)를 조사 — 2017~2024년 수수료·서비스 변경, 필수 서비스, 변경 통지, 민원 처리 질의서를 단말기·결제사에 발송(가맹점 대상 1차 질의서에 이은 2차). 지배적 지위 남용 여부 검토 가능성. 공식 혐의 통지·결정 일정 없음. 2026년 진행 상황은 찾지 못했다."
+  },
+  {
+   "id": "S934",
+   "type": "news",
+   "title": "PYMNTS — Capital One Tests Moving Credit Cards to Discover Network",
+   "url": "https://www.pymnts.com/dashboard-post/earnings/2026/capital-one-tests-moving-credit-cards-to-discover-network/",
+   "date": "2026-07-21",
+   "note": "보도. Capital One 2026년 2분기 실적(7/21): 직불카드의 Discover 네트워크 전환 완료, 직불 수익 시너지 분기 전액 반영. 기존 Capital One 브랜드 신용카드를 Discover 네트워크로 발급하는 시험과 기존 계좌 전환 시험 진행 — 얼마나·언제 옮길지는 시험 결과 후 결정(Fairbank). 국내 수용 격차 해소·해외(멕시코·카리브·캐나다·영국) 수용 확대 중. 글로벌 결제 네트워크 거래액 약 1,900억 달러(전 분기 +9%). 신용카드 구매액 2,538억(+26%, Discover 포함 효과). PaymentsJournal(7/22): 직불 약 2,500만 장 전환, Venture X·T-Mobile·Kohl's·Bass Pro 제휴카드는 당분간 Visa 유지. Visa 1분기 콜(S909)은 Capital One 직불 이전으로 Interlink 물량 이탈을 언급."
+  },
+  {
+   "id": "S935",
+   "type": "filing",
+   "title": "Mastercard 2Q26 Earnings Release (IR PDF; same content as MA 8-K Ex.99.1)",
+   "url": "https://s25.q4cdn.com/479285134/files/doc_financials/2026/q2/2Q26-Mastercard-Earnings-Release.pdf",
+   "date": "2026-07-30",
+   "note": "1차(경쟁사). Mastercard 2026년 2분기: 순매출 93억 달러(+14%, 통화 중립 +12%), 결제 네트워크 +10%(+8%), VAS·솔루션 +20%(+18%), 리베이트·인센티브 +22%. GDV +8%(현지 통화) 2.9조 달러, 국경 간 +12%, 스위치 거래 +9%. 조정 영업이익률 61.1%, 조정 EPS 5.04달러(+21%). 교차 확인: Visa 같은 분기 결제액 +10%·국경 간 +12%·VAS +33%로 Visa가 볼륨·VAS 성장에서 앞섬, 성장률 자체는 비슷한 수준."
+  },
+  {
+   "id": "S936",
+   "type": "news",
+   "title": "Digital Transactions — FedNow marks a third anniversary, tally at more than 1,800 banks and credit unions",
+   "url": "https://www.digitaltransactions.net/fednow-marks-a-third-anniversary-tally-at-more-than-1800-banks-and-credit-unions/",
+   "date": "2026-07-01",
+   "note": "보도. FedNow 참가 기관 1,800곳 초과(1월 1,600곳+, 10대 은행 중 7곳). 2025년 840만 건 8,534억 달러, 2026년 1분기 270만 건 2,713억 달러. TCH RTP 2026년 1분기 1.28억 건 4,800억 달러, 1,200곳 이상. 비교: Visa 1분기 처리 건수 694억 건(S903) — 미국 실시간 A2A는 건수로 아직 작다."
+  },
+  {
+   "id": "S937",
+   "type": "news",
+   "title": "StartupTalky — UPI transactions September 2026 (NPCI data)",
+   "url": "https://startuptalky.com/upi-transactions-september-2026/",
+   "date": "2026-10-05",
+   "note": "보도(NPCI 자료 인용). 2026년 9월 UPI 240.7억 건(+23%, 전년 196.3억), 29.37조 루피(+18%), 일평균 8.02억 건(처음 8억 건 돌파). Visa 전 세계 분기 처리 건수(717억 건, S900)의 3분의 1 수준을 인도 한 나라 A2A가 한 달에 처리 — 신흥국 A2A 대체 위험의 규모 지표. 브라질 Pix 2026년 통계는 찾지 못했다."
+  },
+  {
+   "id": "S938",
+   "type": "news",
+   "title": "KTVU/FOX — GENIUS Act: Trump signs stablecoin bill into law",
+   "url": "https://www.ktvu.com/news/genius-stablecoin-act-trump-signs-law",
+   "date": "2025-07-19",
+   "note": "보도(6개월 이상). 2025-07-18 GENIUS Act 서명 — 미국 스테이블코인 발행사 연방 규제 틀. 영향(노트 정리): 2025년 6월 법안 진행 당시 '스테이블코인이 Visa·MA를 우회' 우려가 제기됐고(Benzinga 2025-06-19, Mizuho는 반대 의견), Visa는 이후 스테이블코인 연동 카드 160개 이상, 정산 연환산 70억 달러, Visa Stablecoin Platform·Open USD 참여, Visa Direct USDC 사전 충전 상용화(2026-10-15)로 '브리지 레이어' 전략을 택했다(S907·S905·S941). 경영진: 스테이블코인 카드 경제성은 기존 상품과 비슷, 아직 몇 가지 용도 외에는 확장되지 않음."
+  },
+  {
+   "id": "S939",
+   "type": "news",
+   "title": "Visa press release — Visa Receives Approval to Begin Preparations for a Domestic Business in China",
+   "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22846.html",
+   "date": "2026-10-13",
+   "note": "1차(회사 보도자료). 2026-10-13 중국인민은행(PBOC)이 Visa의 '준비 신청'을 승인 — 중국 국내 은행카드 청산기관 설립 준비 착수. 운영 개시 시기 미정. McInerney: 'significant step forward'. 10월 주가 상승 중 나온 뉴스(S918은 결정적 원인으로 보지 않음)."
+  },
+  {
+   "id": "S940",
+   "type": "news",
+   "title": "Visa press release — Visa Direct Launches Stablecoin-Powered Money Movement as Pilots Move to Production",
+   "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22851.html",
+   "date": "2026-10-15",
+   "note": "1차(회사 보도자료). 2026-10-15 Visa Direct의 USDC 사전 충전(prefunding)이 시범에서 상용 단계로 — 기업이 국경 간 지급을 스테이블코인으로 거의 실시간 사전 충전. 첫 지원 처리사 Inyo Global(180개국 이상 지급). 거래량·매출 수치 없음. 기존 뉴스 S32와 같은 사건."
+  },
+  {
+   "id": "S941",
+   "type": "news",
+   "title": "Visa agrees to buy BioCatch for USD 2.4 billion in cash",
+   "url": "https://www.vermoegenszentrum.ch/en/stock-exchange-and-markets/news/visa-agrees-buy-biocatch-usd-24-billion-cash",
+   "date": "2026-08-03",
+   "note": "보도(Business Wire 원문 인용). 2026-08-03 Visa가 행동 생체 인식 사기 탐지 업체 BioCatch를 현금 24억 달러에 인수 합의(키 입력·터치 제스처로 사기·계정 탈취 실시간 탐지). 종결 예상: Visa FY2027 2분기 말까지. Law360은 매도자를 Permira라고 보도(확인 안 함). 기존 뉴스 S37('Visa Bets $2.4 Billion')과 같은 사건. 위험·보안 VAS 강화이자 Featurespace(9.46억, 2024년 12월)·Pismo(9.29억, 2024년 1월)·Prisma/Newpay(15억, 2026년 2월)에 이은 인수."
+  },
+  {
+   "id": "S942",
+   "type": "news",
+   "title": "Dealroom (Bloomberg/CNBC) — Visa to cut 2,600 jobs, 7% of staff, as AI reshapes work",
+   "url": "https://dealroom.co/news/141615-visa-to-cut-2-600-jobs-7-of-staff-as-ai-reshapes-work/",
+   "date": "2026-07-28",
+   "note": "보도. 2026-07-28 Visa가 약 2,600명(인력의 7%) 감원, 주로 기술·제품 팀. McInerney 메모: 'we must continue evolving how we work', AI가 변화를 가속(유일한 이유는 아님). 3분기 GAAP 퇴직비용 5.63억 달러(S900). FY2025 말 직원 약 34,100명(S923). 콜에서는 10명 이상 팀을 2~4명 '에이전트 스쿼드'로 개편, 코드 커밋 80% 증가라고 설명(S905)."
+  },
+  {
+   "id": "S943",
+   "type": "conference",
+   "title": "Visa Inc. at Bernstein 42nd Annual Strategic Decisions Conference (transcript, May 28, 2026)",
+   "url": "https://financialfilings.com/filings/visa-inc/call-transcript/2026/48458319/",
+   "date": "2026-05-28",
+   "note": "2차(제3자 녹취, 오탈자 많음). CEO McInerney: 소비자 지출에 '엄청난 회복력', 5/14 업데이트 이후에도 지속, 미국 국내·국경 간 데이터 '전반적으로 약간 개선'. 상업 결제는 '약 2조 달러 사업, 지난 분기 약 11% 성장'. VAS는 '매출의 3분의 1 가까이', '수년간 20% 넘게 성장', '모델링은 어렵지만 더 큰 기회'. 에이전트 세계에서 'Visa 자격증명이 단연 최선', '모든 API가 판매 시점이 된다'. 스테이블코인 정산은 '아직 한 자릿수 십억 달러, 매우 빠르게 성장'. 가격: '용도에 맞게 가격·상업 모델을 조정할 수 있다', '일부 지역 신용카드는 미국보다 훨씬 싸다'. 유럽: 향후 10년간 5억 유로 추가 투자, '국내 경쟁자보다 혁신·역량이 많다'. 자본환원 언급 없음."
+  },
+  {
+   "id": "S944",
+   "type": "conference",
+   "title": "TIKR — Visa CFO just laid out a new growth roadmap (J.P. Morgan TMT Conference, May 19, 2026)",
+   "url": "https://www.tikr.com/es/blog/visa-cfo-just-laid-out-a-new-growth-roadmap-heres-what-it-means-for-v-stock",
+   "date": "2026-05-21",
+   "note": "2차(컨퍼런스 요약 기사, 원문 녹취 미확인). CFO Suh(J.P. Morgan 글로벌 TMT 컨퍼런스, 2026-05-19): 5/14까지 미국 결제액·국경 간 여행·전자상거래가 '4/21 이후 약간 개선' — 4월 둔화는 라마단·중동 여행 차질 등 달력 요인. Visa 전자상거래 거래의 50% 이상 토큰화(+30%), 목표는 100% 가까이. 에이전트 커머스는 '선형을 넘는' 기회. Wells Fargo의 Pismo 이전은 '중요 고객의 지지'. 5/19 종가 $329.91(52주 고점 $375.51 대비 약 12% 아래)."
+  },
+  {
+   "id": "S945",
+   "type": "news",
+   "title": "Visa IR — Visa to Announce Fiscal Fourth Quarter and Full-Year 2026 Financial Results on October 27, 2026",
+   "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22841.html",
+   "date": "2026-10-08",
+   "note": "1차(회사 보도자료, 2026-10-08). FY2026 4분기·연간 실적 2026-10-27(화) 장 마감 후 발표, 웹캐스트 오후 5시(동부). 기준일 2026-10-18 이후라 4분기 실적은 넣지 않는다. FY2027 가이던스도 이때 처음 나온다(S905). 행사 일정: 2026-09-08 Goldman Sachs Communacopia + Technology Conference에 CEO 참석(2026-08-24 공지) — 발언 내용은 찾지 못했다."
+  },
+  {
+   "id": "S946",
+   "type": "news",
+   "title": "Reuters via The Star — Ackman unveils six new investments including Netflix, Visa, Mastercard",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/08/13/ackman-unveils-six-new-investments-including-netflix-visa-mastercard-in-biggest-portfolio-overhaul-in-years",
+   "date": "2026-08-13",
+   "note": "보도. 2026-08-13 Pershing Square(Ackman)가 Netflix·Visa·Mastercard·Alcon·ICE·S&P Global 신규 투자 공개(2분기부터 매수, 수년 내 최대 포트폴리오 개편). 이유: 이익 성장이 장기 가치의 최대 동인. 주식 수·금액은 기사에 없음(13F로 확인 필요). 기존 뉴스 S39와 같은 사건."
+  }
+ ],
+ "facts": [
+  {
+   "metric": "price",
+   "value": 402.61,
+   "unit": "USD/share",
+   "end": "2026-10-16",
+   "basis": "market",
+   "source": "S916"
+  },
+  {
+   "metric": "price_52w_low",
+   "value": 293.89,
+   "unit": "USD/share",
+   "end": "2026-10-16",
+   "basis": "market",
+   "source": "S916"
+  },
+  {
+   "metric": "price_52w_high",
+   "value": 404.74,
+   "unit": "USD/share",
+   "end": "2026-10-16",
+   "basis": "market",
+   "source": "S916"
+  },
+  {
+   "metric": "diluted_shares",
+   "value": 1898000000.0,
+   "unit": "shares",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S901",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "diluted_shares",
+   "value": 1916000000.0,
+   "unit": "shares",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S902",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "diluted_shares",
+   "value": 1933000000.0,
+   "unit": "shares",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S903",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "diluted_shares",
+   "value": 1945000000.0,
+   "unit": "shares",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025Q4"
+  },
+  {
+   "metric": "diluted_shares",
+   "value": 1959000000.0,
+   "unit": "shares",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2025Q3"
+  },
+  {
+   "metric": "diluted_shares",
+   "value": 1974000000.0,
+   "unit": "shares",
+   "end": "2025-03-31",
+   "basis": "reported",
+   "source": "S902",
+   "period": "FY2025Q2"
+  },
+  {
+   "metric": "diluted_shares",
+   "value": 1985000000.0,
+   "unit": "shares",
+   "end": "2024-12-31",
+   "basis": "reported",
+   "source": "S903",
+   "period": "FY2025Q1"
+  },
+  {
+   "metric": "diluted_shares",
+   "value": 2003000000.0,
+   "unit": "shares",
+   "end": "2024-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2024Q4"
+  },
+  {
+   "metric": "diluted_shares",
+   "value": 1966000000.0,
+   "unit": "shares",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S923",
+   "period": "FY2025"
+  },
+  {
+   "metric": "diluted_shares",
+   "value": 2029000000.0,
+   "unit": "shares",
+   "end": "2024-09-30",
+   "basis": "reported",
+   "source": "S923",
+   "period": "FY2024"
+  },
+  {
+   "metric": "diluted_shares",
+   "value": 2085000000.0,
+   "unit": "shares",
+   "end": "2023-09-30",
+   "basis": "reported",
+   "source": "S923",
+   "period": "FY2023"
+  },
+  {
+   "metric": "diluted_shares",
+   "value": 2136000000.0,
+   "unit": "shares",
+   "end": "2022-09-30",
+   "basis": "reported",
+   "source": "S924",
+   "period": "FY2022"
+  },
+  {
+   "metric": "diluted_shares",
+   "value": 2188000000.0,
+   "unit": "shares",
+   "end": "2021-09-30",
+   "basis": "reported",
+   "source": "S924",
+   "period": "FY2021"
+  },
+  {
+   "metric": "shares_outstanding",
+   "value": 1930000000.0,
+   "unit": "shares",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S901",
+   "note": "Note 11 클래스 A 환산 합계"
+  },
+  {
+   "metric": "shares_outstanding",
+   "value": 1918000000.0,
+   "unit": "shares",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S13",
+   "note": "1분기 10-Q Note 11 클래스 A 환산 합계"
+  },
+  {
+   "metric": "shares_outstanding",
+   "value": 1894000000.0,
+   "unit": "shares",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S8",
+   "note": "2분기 10-Q Note 11 클래스 A 환산 합계"
+  },
+  {
+   "metric": "shares_outstanding",
+   "value": 1880000000.0,
+   "unit": "shares",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S901",
+   "note": "3분기 10-Q Note 11 클래스 A 환산 합계"
+  },
+  {
+   "metric": "shares_outstanding",
+   "value": 1877000000.0,
+   "unit": "shares",
+   "end": "2026-07-21",
+   "basis": "reported",
+   "source": "S901",
+   "note": "10-Q 표지(2026-07-21) 클래스별 주식 수 × 6/25 이후 전환비율 + 우선주 환산 약 10백만 주(S901 노트의 계산) — 과제 지시에 따른 환산값"
+  },
+  {
+   "metric": "revenue",
+   "value": 11633000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "operating_income",
+   "value": 6877000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "net_income",
+   "value": 5628000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "pretax_income",
+   "value": 6833000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "income_tax",
+   "value": 1205000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "d_and_a",
+   "value": 367000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "opex",
+   "value": 4756000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "non_gaap_opex",
+   "value": 3878000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "non_gaap_net_income",
+   "value": 6296000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "service_revenue",
+   "value": 4922000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "data_processing_revenue",
+   "value": 6042000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "international_transaction_revenue",
+   "value": 3853000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "other_revenue",
+   "value": 1496000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "client_incentives",
+   "value": 4680000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "personnel_expense",
+   "value": 2458000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "marketing_expense",
+   "value": 649000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "litigation_provision",
+   "value": 253000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "severance_costs",
+   "value": 563000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "litigation_provision_special_item",
+   "value": 237000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "deferred_tax_benefit",
+   "value": 18000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "eps_diluted",
+   "value": 2.97,
+   "unit": "USD/share",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "non_gaap_eps",
+   "value": 3.32,
+   "unit": "USD/share",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "effective_tax_rate",
+   "value": 0.176,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "effective_tax_rate_non_gaap",
+   "value": 0.184,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "ocf",
+   "value": 6554000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S906",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "capex",
+   "value": 417000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S906",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "fcf",
+   "value": 6137000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S906",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "dividends",
+   "value": 1273000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S901",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "buybacks",
+   "value": 4805000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3",
+   "note": "현금흐름표 자사주 매입 9개월 누적 164.30억 − 6개월 누적 116.25억(2분기 10-Q) — collect의 Q3=누적 차감 방식과 같다. 회사 제시 거래일 기준(세금·미결제 포함)은 48.78억(S906)"
+  },
+  {
+   "metric": "sbc",
+   "value": 222000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3",
+   "note": "현금흐름표 주식보상 9개월 누적 7.28억 − 6개월 누적 5.06억(F169+F170) — 누적 차감"
+  },
+  {
+   "metric": "cash",
+   "value": 12359000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "short_term_investments",
+   "value": 1433000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "long_term_investments",
+   "value": 150000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "debt",
+   "value": 20862000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "debt_current",
+   "value": 2996000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "receivables",
+   "value": 3527000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "goodwill",
+   "value": 20825000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "intangibles",
+   "value": 27532000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "total_assets",
+   "value": 94590000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "equity",
+   "value": 35178000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "litigation_escrow_restricted_cash",
+   "value": 888000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "accrued_litigation",
+   "value": 1274000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "us_covered_litigation_accrual",
+   "value": 822000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S901",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "commercial_paper",
+   "value": 1500000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S901",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "ve_covered_loss_recovery_available",
+   "value": 1158000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S901",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "remaining_performance_obligations",
+   "value": 5600000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S901",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "buyback_authorization_remaining",
+   "value": 28400000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "shares_repurchased",
+   "value": 14500000.0,
+   "unit": "shares",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "avg_repurchase_price",
+   "value": 330.71,
+   "unit": "USD/share",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "quarterly_dividend_per_share",
+   "value": 0.67,
+   "unit": "USD/share",
+   "end": "2026-07-28",
+   "basis": "reported",
+   "source": "S900",
+   "note": "2026-07-28 선언, 9/1 지급"
+  },
+  {
+   "metric": "quarterly_dividend_per_share",
+   "value": 0.67,
+   "unit": "USD/share",
+   "end": "2025-10-28",
+   "basis": "reported",
+   "source": "S904",
+   "note": "2025-10-28 14% 인상 선언"
+  },
+  {
+   "metric": "vas_revenue",
+   "value": 3800000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S901",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "vas_revenue_growth",
+   "value": 0.33,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S901",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "vas_revenue_growth_cc",
+   "value": 0.34,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S905",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "cms_revenue_growth_cc",
+   "value": 0.17,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S905",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "commercial_payments_volume_growth_cc",
+   "value": 0.13,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S905",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "payments_volume_growth_cc",
+   "value": 0.1,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "us_payments_volume_growth",
+   "value": 0.1,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S905",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "cross_border_volume_ex_intra_europe_growth_cc",
+   "value": 0.12,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "cross_border_volume_growth_cc",
+   "value": 0.13,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "processed_transactions",
+   "value": 71700000000.0,
+   "unit": "count",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "processed_transactions_growth",
+   "value": 0.1,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "visa_direct_transactions",
+   "value": 4000000000.0,
+   "unit": "count",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S905",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "visa_direct_transactions_growth",
+   "value": 0.21,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S905",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "payment_credentials_growth",
+   "value": 0.08,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S901",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "net_revenue_growth_adj_cc",
+   "value": 0.12,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S906",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "opex_growth_adj_cc",
+   "value": 0.14,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S906",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "eps_growth_adj_cc",
+   "value": 0.1,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S906",
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "service_revenue",
+   "value": 4981000000.0,
+   "unit": "USD",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S902",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "data_processing_revenue",
+   "value": 5543000000.0,
+   "unit": "USD",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S902",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "international_transaction_revenue",
+   "value": 3631000000.0,
+   "unit": "USD",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S902",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "other_revenue",
+   "value": 1320000000.0,
+   "unit": "USD",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S902",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "client_incentives",
+   "value": 4245000000.0,
+   "unit": "USD",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S902",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "opex",
+   "value": 3996000000.0,
+   "unit": "USD",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S902",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "non_gaap_opex",
+   "value": 3599000000.0,
+   "unit": "USD",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S902",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "non_gaap_net_income",
+   "value": 6342000000.0,
+   "unit": "USD",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S902",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "litigation_provision",
+   "value": 329000000.0,
+   "unit": "USD",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S902",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "litigation_provision_special_item",
+   "value": 311000000.0,
+   "unit": "USD",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S902",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "eps_diluted",
+   "value": 3.14,
+   "unit": "USD/share",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S902",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "non_gaap_eps",
+   "value": 3.31,
+   "unit": "USD/share",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S902",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "effective_tax_rate_non_gaap",
+   "value": 0.164,
+   "unit": "ratio",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S902",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "fcf",
+   "value": 2625000000.0,
+   "unit": "USD",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S908",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "equity",
+   "value": 35661000000.0,
+   "unit": "USD",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S8",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "vas_revenue",
+   "value": 3300000000.0,
+   "unit": "USD",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S8",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "vas_revenue_growth",
+   "value": 0.29,
+   "unit": "ratio",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S8",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "vas_revenue_growth_cc",
+   "value": 0.27,
+   "unit": "ratio",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S907",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "cms_revenue_growth_cc",
+   "value": 0.24,
+   "unit": "ratio",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S907",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "commercial_payments_volume_growth_cc",
+   "value": 0.11,
+   "unit": "ratio",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S907",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "payments_volume_growth_cc",
+   "value": 0.09,
+   "unit": "ratio",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S902",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "us_payments_volume_growth",
+   "value": 0.08,
+   "unit": "ratio",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S907",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "cross_border_volume_ex_intra_europe_growth_cc",
+   "value": 0.11,
+   "unit": "ratio",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S902",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "cross_border_volume_growth_cc",
+   "value": 0.12,
+   "unit": "ratio",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S902",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "processed_transactions",
+   "value": 66099999999.99999,
+   "unit": "count",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S902",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "processed_transactions_growth",
+   "value": 0.09,
+   "unit": "ratio",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S902",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "visa_direct_transactions",
+   "value": 3700000000.0,
+   "unit": "count",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S907",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "visa_direct_transactions_growth",
+   "value": 0.23,
+   "unit": "ratio",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S907",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "net_revenue_growth_adj_cc",
+   "value": 0.15,
+   "unit": "ratio",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S908",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "opex_growth_adj_cc",
+   "value": 0.13,
+   "unit": "ratio",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S908",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "eps_growth_adj_cc",
+   "value": 0.2,
+   "unit": "ratio",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S908",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "stablecoin_settlement_annual_run_rate",
+   "value": 7000000000.0,
+   "unit": "USD",
+   "end": "2026-04-28",
+   "basis": "reported",
+   "source": "S907"
+  },
+  {
+   "metric": "stablecoin_card_programs",
+   "value": 160,
+   "unit": "count",
+   "end": "2026-04-28",
+   "basis": "reported",
+   "source": "S907",
+   "note": "'160개 이상'"
+  },
+  {
+   "metric": "service_revenue",
+   "value": 4760000000.0,
+   "unit": "USD",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S903",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "data_processing_revenue",
+   "value": 5544000000.0,
+   "unit": "USD",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S903",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "international_transaction_revenue",
+   "value": 3652000000.0,
+   "unit": "USD",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S903",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "other_revenue",
+   "value": 1214000000.0,
+   "unit": "USD",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S903",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "client_incentives",
+   "value": 4269000000.0,
+   "unit": "USD",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S903",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "opex",
+   "value": 4164000000.0,
+   "unit": "USD",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S903",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "non_gaap_opex",
+   "value": 3391000000.0,
+   "unit": "USD",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S903",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "non_gaap_net_income",
+   "value": 6124000000.0,
+   "unit": "USD",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S903",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "litigation_provision",
+   "value": 708000000.0,
+   "unit": "USD",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S903",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "litigation_provision_special_item",
+   "value": 707000000.0,
+   "unit": "USD",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S903",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "deferred_tax_benefit",
+   "value": 333000000.0,
+   "unit": "USD",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S903",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "eps_diluted",
+   "value": 3.03,
+   "unit": "USD/share",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S903",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "non_gaap_eps",
+   "value": 3.17,
+   "unit": "USD/share",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S903",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "effective_tax_rate_non_gaap",
+   "value": 0.184,
+   "unit": "ratio",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S903",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "fcf",
+   "value": 6402000000.0,
+   "unit": "USD",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S910",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "equity",
+   "value": 38777000000.0,
+   "unit": "USD",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S13",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "vas_revenue",
+   "value": 3200000000.0,
+   "unit": "USD",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S13",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "vas_revenue_growth",
+   "value": 0.32,
+   "unit": "ratio",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S13",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "vas_revenue_growth_cc",
+   "value": 0.28,
+   "unit": "ratio",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S909",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "cms_revenue_growth_cc",
+   "value": 0.2,
+   "unit": "ratio",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S909",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "commercial_payments_volume_growth_cc",
+   "value": 0.1,
+   "unit": "ratio",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S909",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "payments_volume_growth_cc",
+   "value": 0.08,
+   "unit": "ratio",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S903",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "us_payments_volume_growth",
+   "value": 0.07,
+   "unit": "ratio",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S909",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "cross_border_volume_ex_intra_europe_growth_cc",
+   "value": 0.11,
+   "unit": "ratio",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S903",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "cross_border_volume_growth_cc",
+   "value": 0.12,
+   "unit": "ratio",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S903",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "processed_transactions",
+   "value": 69400000000.0,
+   "unit": "count",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S903",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "processed_transactions_growth",
+   "value": 0.09,
+   "unit": "ratio",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S903",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "visa_direct_transactions",
+   "value": 3700000000.0,
+   "unit": "count",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S909",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "visa_direct_transactions_growth",
+   "value": 0.23,
+   "unit": "ratio",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S909",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "net_revenue_growth_adj_cc",
+   "value": 0.13,
+   "unit": "ratio",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S910",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "opex_growth_adj_cc",
+   "value": 0.14,
+   "unit": "ratio",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S910",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "eps_growth_adj_cc",
+   "value": 0.14,
+   "unit": "ratio",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S910",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "stablecoin_settlement_annual_run_rate",
+   "value": 4600000000.0,
+   "unit": "USD",
+   "end": "2026-01-29",
+   "basis": "reported",
+   "source": "S909"
+  },
+  {
+   "metric": "service_revenue",
+   "value": 4602000000.0,
+   "unit": "USD",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025Q4"
+  },
+  {
+   "metric": "data_processing_revenue",
+   "value": 5394000000.0,
+   "unit": "USD",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025Q4"
+  },
+  {
+   "metric": "international_transaction_revenue",
+   "value": 3800000000.0,
+   "unit": "USD",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025Q4"
+  },
+  {
+   "metric": "other_revenue",
+   "value": 1176000000.0,
+   "unit": "USD",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025Q4"
+  },
+  {
+   "metric": "client_incentives",
+   "value": 4248000000.0,
+   "unit": "USD",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025Q4"
+  },
+  {
+   "metric": "opex",
+   "value": 4576000000.0,
+   "unit": "USD",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025Q4"
+  },
+  {
+   "metric": "non_gaap_opex",
+   "value": 3611000000.0,
+   "unit": "USD",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025Q4"
+  },
+  {
+   "metric": "non_gaap_net_income",
+   "value": 5803000000.0,
+   "unit": "USD",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025Q4"
+  },
+  {
+   "metric": "litigation_provision",
+   "value": 903000000.0,
+   "unit": "USD",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025Q4"
+  },
+  {
+   "metric": "litigation_provision_special_item",
+   "value": 899000000.0,
+   "unit": "USD",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025Q4"
+  },
+  {
+   "metric": "eps_diluted",
+   "value": 2.62,
+   "unit": "USD/share",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025Q4"
+  },
+  {
+   "metric": "non_gaap_eps",
+   "value": 2.98,
+   "unit": "USD/share",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025Q4"
+  },
+  {
+   "metric": "fcf",
+   "value": 5849000000.0,
+   "unit": "USD",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S911",
+   "period": "FY2025Q4"
+  },
+  {
+   "metric": "payments_volume_growth_cc",
+   "value": 0.09,
+   "unit": "ratio",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025Q4"
+  },
+  {
+   "metric": "cross_border_volume_ex_intra_europe_growth_cc",
+   "value": 0.11,
+   "unit": "ratio",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025Q4"
+  },
+  {
+   "metric": "cross_border_volume_growth_cc",
+   "value": 0.12,
+   "unit": "ratio",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025Q4"
+  },
+  {
+   "metric": "processed_transactions",
+   "value": 67700000000.0,
+   "unit": "count",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025Q4"
+  },
+  {
+   "metric": "processed_transactions_growth",
+   "value": 0.1,
+   "unit": "ratio",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025Q4"
+  },
+  {
+   "metric": "net_revenue_growth_adj_cc",
+   "value": 0.11,
+   "unit": "ratio",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S911",
+   "period": "FY2025Q4"
+  },
+  {
+   "metric": "opex_growth_adj_cc",
+   "value": 0.11,
+   "unit": "ratio",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S911",
+   "period": "FY2025Q4"
+  },
+  {
+   "metric": "eps_growth_adj_cc",
+   "value": 0.1,
+   "unit": "ratio",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S911",
+   "period": "FY2025Q4"
+  },
+  {
+   "metric": "service_revenue",
+   "value": 4330000000.0,
+   "unit": "USD",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2025Q3"
+  },
+  {
+   "metric": "data_processing_revenue",
+   "value": 5153000000.0,
+   "unit": "USD",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2025Q3"
+  },
+  {
+   "metric": "international_transaction_revenue",
+   "value": 3633000000.0,
+   "unit": "USD",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2025Q3"
+  },
+  {
+   "metric": "other_revenue",
+   "value": 1028000000.0,
+   "unit": "USD",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2025Q3"
+  },
+  {
+   "metric": "client_incentives",
+   "value": 3972000000.0,
+   "unit": "USD",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2025Q3"
+  },
+  {
+   "metric": "opex",
+   "value": 3995000000.0,
+   "unit": "USD",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2025Q3"
+  },
+  {
+   "metric": "non_gaap_opex",
+   "value": 3307000000.0,
+   "unit": "USD",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2025Q3"
+  },
+  {
+   "metric": "non_gaap_net_income",
+   "value": 5834000000.0,
+   "unit": "USD",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2025Q3"
+  },
+  {
+   "metric": "litigation_provision",
+   "value": 615000000.0,
+   "unit": "USD",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2025Q3"
+  },
+  {
+   "metric": "eps_diluted",
+   "value": 2.69,
+   "unit": "USD/share",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2025Q3"
+  },
+  {
+   "metric": "non_gaap_eps",
+   "value": 2.98,
+   "unit": "USD/share",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2025Q3"
+  },
+  {
+   "metric": "vas_revenue",
+   "value": 2800000000.0,
+   "unit": "USD",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S901",
+   "period": "FY2025Q3"
+  },
+  {
+   "metric": "non_gaap_net_income",
+   "value": 5442000000.0,
+   "unit": "USD",
+   "end": "2025-03-31",
+   "basis": "reported",
+   "source": "S902",
+   "period": "FY2025Q2"
+  },
+  {
+   "metric": "non_gaap_eps",
+   "value": 2.76,
+   "unit": "USD/share",
+   "end": "2025-03-31",
+   "basis": "reported",
+   "source": "S902",
+   "period": "FY2025Q2"
+  },
+  {
+   "metric": "eps_diluted",
+   "value": 2.32,
+   "unit": "USD/share",
+   "end": "2025-03-31",
+   "basis": "reported",
+   "source": "S902",
+   "period": "FY2025Q2"
+  },
+  {
+   "metric": "vas_revenue",
+   "value": 2600000000.0,
+   "unit": "USD",
+   "end": "2025-03-31",
+   "basis": "reported",
+   "source": "S8",
+   "period": "FY2025Q2"
+  },
+  {
+   "metric": "non_gaap_net_income",
+   "value": 5463000000.0,
+   "unit": "USD",
+   "end": "2024-12-31",
+   "basis": "reported",
+   "source": "S903",
+   "period": "FY2025Q1"
+  },
+  {
+   "metric": "non_gaap_eps",
+   "value": 2.75,
+   "unit": "USD/share",
+   "end": "2024-12-31",
+   "basis": "reported",
+   "source": "S903",
+   "period": "FY2025Q1"
+  },
+  {
+   "metric": "eps_diluted",
+   "value": 2.58,
+   "unit": "USD/share",
+   "end": "2024-12-31",
+   "basis": "reported",
+   "source": "S903",
+   "period": "FY2025Q1"
+  },
+  {
+   "metric": "vas_revenue",
+   "value": 2400000000.0,
+   "unit": "USD",
+   "end": "2024-12-31",
+   "basis": "reported",
+   "source": "S13",
+   "period": "FY2025Q1"
+  },
+  {
+   "metric": "net_revenue_growth_adj_cc",
+   "value": 0.14,
+   "unit": "ratio",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S912",
+   "period": "FY2025Q3"
+  },
+  {
+   "metric": "opex_growth_adj_cc",
+   "value": 0.13,
+   "unit": "ratio",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S912",
+   "period": "FY2025Q3"
+  },
+  {
+   "metric": "eps_growth_adj_cc",
+   "value": 0.23,
+   "unit": "ratio",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S912",
+   "period": "FY2025Q3"
+  },
+  {
+   "metric": "net_revenue_growth_adj_cc",
+   "value": 0.11,
+   "unit": "ratio",
+   "end": "2025-03-31",
+   "basis": "reported",
+   "source": "S913",
+   "period": "FY2025Q2"
+  },
+  {
+   "metric": "opex_growth_adj_cc",
+   "value": 0.08,
+   "unit": "ratio",
+   "end": "2025-03-31",
+   "basis": "reported",
+   "source": "S913",
+   "period": "FY2025Q2"
+  },
+  {
+   "metric": "eps_growth_adj_cc",
+   "value": 0.12,
+   "unit": "ratio",
+   "end": "2025-03-31",
+   "basis": "reported",
+   "source": "S913",
+   "period": "FY2025Q2"
+  },
+  {
+   "metric": "net_revenue_growth_adj_cc",
+   "value": 0.11,
+   "unit": "ratio",
+   "end": "2024-12-31",
+   "basis": "reported",
+   "source": "S914",
+   "period": "FY2025Q1"
+  },
+  {
+   "metric": "opex_growth_adj_cc",
+   "value": 0.09,
+   "unit": "ratio",
+   "end": "2024-12-31",
+   "basis": "reported",
+   "source": "S914",
+   "period": "FY2025Q1"
+  },
+  {
+   "metric": "eps_growth_adj_cc",
+   "value": 0.16,
+   "unit": "ratio",
+   "end": "2024-12-31",
+   "basis": "reported",
+   "source": "S914",
+   "period": "FY2025Q1"
+  },
+  {
+   "metric": "net_revenue_growth_adj_cc",
+   "value": 0.12,
+   "unit": "ratio",
+   "end": "2024-09-30",
+   "basis": "reported",
+   "source": "S915",
+   "period": "FY2024Q4"
+  },
+  {
+   "metric": "opex_growth_adj_cc",
+   "value": 0.1,
+   "unit": "ratio",
+   "end": "2024-09-30",
+   "basis": "reported",
+   "source": "S915",
+   "period": "FY2024Q4"
+  },
+  {
+   "metric": "eps_growth_adj_cc",
+   "value": 0.17,
+   "unit": "ratio",
+   "end": "2024-09-30",
+   "basis": "reported",
+   "source": "S915",
+   "period": "FY2024Q4"
+  },
+  {
+   "metric": "service_revenue",
+   "value": 17539000000.0,
+   "unit": "USD",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025"
+  },
+  {
+   "metric": "data_processing_revenue",
+   "value": 19993000000.0,
+   "unit": "USD",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025"
+  },
+  {
+   "metric": "international_transaction_revenue",
+   "value": 14166000000.0,
+   "unit": "USD",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025"
+  },
+  {
+   "metric": "other_revenue",
+   "value": 4053000000.0,
+   "unit": "USD",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025"
+  },
+  {
+   "metric": "client_incentives",
+   "value": 15751000000.0,
+   "unit": "USD",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025"
+  },
+  {
+   "metric": "opex",
+   "value": 16006000000.0,
+   "unit": "USD",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025"
+  },
+  {
+   "metric": "non_gaap_opex",
+   "value": 12906000000.0,
+   "unit": "USD",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025"
+  },
+  {
+   "metric": "non_gaap_net_income",
+   "value": 22542000000.0,
+   "unit": "USD",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025"
+  },
+  {
+   "metric": "litigation_provision",
+   "value": 2562000000.0,
+   "unit": "USD",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025"
+  },
+  {
+   "metric": "eps_diluted",
+   "value": 10.2,
+   "unit": "USD/share",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025"
+  },
+  {
+   "metric": "non_gaap_eps",
+   "value": 11.47,
+   "unit": "USD/share",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025"
+  },
+  {
+   "metric": "fcf",
+   "value": 21577000000.0,
+   "unit": "USD",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S911",
+   "period": "FY2025"
+  },
+  {
+   "metric": "payments_volume_growth_cc",
+   "value": 0.08,
+   "unit": "ratio",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025"
+  },
+  {
+   "metric": "cross_border_volume_ex_intra_europe_growth_cc",
+   "value": 0.13,
+   "unit": "ratio",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025"
+  },
+  {
+   "metric": "processed_transactions",
+   "value": 257500000000.0,
+   "unit": "count",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025"
+  },
+  {
+   "metric": "processed_transactions_growth",
+   "value": 0.1,
+   "unit": "ratio",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2025"
+  },
+  {
+   "metric": "short_term_investments",
+   "value": 1833000000.0,
+   "unit": "USD",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2025"
+  },
+  {
+   "metric": "long_term_investments",
+   "value": 999000000.0,
+   "unit": "USD",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2025"
+  },
+  {
+   "metric": "equity",
+   "value": 37909000000.0,
+   "unit": "USD",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S923",
+   "period": "FY2025"
+  },
+  {
+   "metric": "equity",
+   "value": 39137000000.0,
+   "unit": "USD",
+   "end": "2024-09-30",
+   "basis": "reported",
+   "source": "S923",
+   "period": "FY2024"
+  },
+  {
+   "metric": "equity",
+   "value": 38733000000.0,
+   "unit": "USD",
+   "end": "2023-09-30",
+   "basis": "reported",
+   "source": "S924",
+   "period": "FY2023"
+  },
+  {
+   "metric": "equity",
+   "value": 35581000000.0,
+   "unit": "USD",
+   "end": "2022-09-30",
+   "basis": "reported",
+   "source": "S924",
+   "period": "FY2022"
+  },
+  {
+   "metric": "equity",
+   "value": 37589000000.0,
+   "unit": "USD",
+   "end": "2021-09-30",
+   "basis": "reported",
+   "source": "S25",
+   "period": "FY2021"
+  },
+  {
+   "metric": "non_gaap_net_income",
+   "value": 20389000000.0,
+   "unit": "USD",
+   "end": "2024-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2024"
+  },
+  {
+   "metric": "non_gaap_eps",
+   "value": 10.05,
+   "unit": "USD/share",
+   "end": "2024-09-30",
+   "basis": "reported",
+   "source": "S904",
+   "period": "FY2024"
+  },
+  {
+   "metric": "eps_diluted",
+   "value": 9.73,
+   "unit": "USD/share",
+   "end": "2024-09-30",
+   "basis": "reported",
+   "source": "S923",
+   "period": "FY2024"
+  },
+  {
+   "metric": "eps_diluted",
+   "value": 8.28,
+   "unit": "USD/share",
+   "end": "2023-09-30",
+   "basis": "reported",
+   "source": "S923",
+   "period": "FY2023"
+  },
+  {
+   "metric": "eps_diluted",
+   "value": 7.0,
+   "unit": "USD/share",
+   "end": "2022-09-30",
+   "basis": "reported",
+   "source": "S924",
+   "period": "FY2022"
+  },
+  {
+   "metric": "eps_diluted",
+   "value": 5.63,
+   "unit": "USD/share",
+   "end": "2021-09-30",
+   "basis": "reported",
+   "source": "S924",
+   "period": "FY2021"
+  },
+  {
+   "metric": "vas_revenue",
+   "value": 10900000000.0,
+   "unit": "USD",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S923",
+   "period": "FY2025"
+  },
+  {
+   "metric": "vas_revenue_growth",
+   "value": 0.24,
+   "unit": "ratio",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S923",
+   "period": "FY2025"
+  },
+  {
+   "metric": "vas_revenue",
+   "value": 8800000000.0,
+   "unit": "USD",
+   "end": "2024-09-30",
+   "basis": "reported",
+   "source": "S923",
+   "period": "FY2024"
+  },
+  {
+   "metric": "vas_revenue",
+   "value": 7200000000.0,
+   "unit": "USD",
+   "end": "2023-09-30",
+   "basis": "reported",
+   "source": "S923",
+   "period": "FY2023"
+  },
+  {
+   "metric": "employees",
+   "value": 34100,
+   "unit": "count",
+   "end": "2025-09-30",
+   "basis": "reported",
+   "source": "S923",
+   "period": "FY2025"
+  },
+  {
+   "metric": "employees",
+   "value": 31600,
+   "unit": "count",
+   "end": "2024-09-30",
+   "basis": "reported",
+   "source": "S923",
+   "period": "FY2024"
+  },
+  {
+   "metric": "interchange_at_issue_unresolved",
+   "value": 49600000000.0,
+   "unit": "USD",
+   "end": "2023-10-01",
+   "basis": "reported",
+   "source": "S11"
+  },
+  {
+   "metric": "interchange_at_issue_unresolved",
+   "value": 39400000000.0,
+   "unit": "USD",
+   "end": "2025-10-01",
+   "basis": "reported",
+   "source": "S11"
+  },
+  {
+   "metric": "interchange_at_issue_unresolved",
+   "value": 17400000000.0,
+   "unit": "USD",
+   "end": "2026-05-11",
+   "basis": "reported",
+   "source": "S922"
+  },
+  {
+   "metric": "litigation_escrow_deposit",
+   "value": 500000000.0,
+   "unit": "USD",
+   "end": "2025-09-25",
+   "basis": "reported",
+   "source": "S904"
+  },
+  {
+   "metric": "litigation_escrow_deposit",
+   "value": 500000000.0,
+   "unit": "USD",
+   "end": "2025-12-23",
+   "basis": "reported",
+   "source": "S903"
+  },
+  {
+   "metric": "litigation_escrow_deposit",
+   "value": 125000000.0,
+   "unit": "USD",
+   "end": "2026-02-26",
+   "basis": "reported",
+   "source": "S902"
+  },
+  {
+   "metric": "litigation_escrow_deposit",
+   "value": 250000000.0,
+   "unit": "USD",
+   "end": "2026-06-25",
+   "basis": "reported",
+   "source": "S900"
+  },
+  {
+   "metric": "litigation_escrow_deposit",
+   "value": 405000000.0,
+   "unit": "USD",
+   "end": "2026-09-18",
+   "basis": "reported",
+   "source": "S919"
+  },
+  {
+   "metric": "class_b3_conversion_rate",
+   "value": 1.4773,
+   "unit": "x",
+   "end": "2026-09-18",
+   "basis": "reported",
+   "source": "S919"
+  },
+  {
+   "metric": "class_b1_conversion_rate",
+   "value": 1.54,
+   "unit": "x",
+   "end": "2026-09-18",
+   "basis": "reported",
+   "source": "S919"
+  },
+  {
+   "metric": "class_b2_conversion_rate",
+   "value": 1.4924,
+   "unit": "x",
+   "end": "2026-09-18",
+   "basis": "reported",
+   "source": "S919"
+  },
+  {
+   "metric": "class_c_conversion_rate",
+   "value": 4.0,
+   "unit": "x",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S901"
+  },
+  {
+   "metric": "acquisition_price",
+   "value": 2400000000.0,
+   "unit": "USD",
+   "end": "2026-08-03",
+   "basis": "reported",
+   "source": "S941",
+   "note": "BioCatch 인수 합의(현금)"
+  },
+  {
+   "metric": "acquisition_price",
+   "value": 1500000000.0,
+   "unit": "USD",
+   "end": "2026-02-27",
+   "basis": "reported",
+   "source": "S901",
+   "note": "Prisma·Newpay 인수 대가(현금), 2026년 2월"
+  },
+  {
+   "metric": "net_revenue_growth_adj_cc",
+   "value": 0.08,
+   "unit": "ratio",
+   "end": "2024-12-31",
+   "basis": "guidance",
+   "source": "S915",
+   "period": "FY2025Q1",
+   "low": 0.07,
+   "high": 0.09
+  },
+  {
+   "metric": "eps_growth_adj_cc",
+   "value": 0.11,
+   "unit": "ratio",
+   "end": "2024-12-31",
+   "basis": "guidance",
+   "source": "S915",
+   "period": "FY2025Q1",
+   "low": 0.1,
+   "high": 0.12
+  },
+  {
+   "metric": "net_revenue_growth_adj_cc",
+   "value": 0.095,
+   "unit": "ratio",
+   "end": "2025-03-31",
+   "basis": "guidance",
+   "source": "S914",
+   "period": "FY2025Q2",
+   "low": 0.08,
+   "high": 0.11
+  },
+  {
+   "metric": "eps_growth_adj_cc",
+   "value": 0.08,
+   "unit": "ratio",
+   "end": "2025-03-31",
+   "basis": "guidance",
+   "source": "S914",
+   "period": "FY2025Q2",
+   "low": 0.07,
+   "high": 0.09
+  },
+  {
+   "metric": "net_revenue_growth_adj_cc",
+   "value": 0.11,
+   "unit": "ratio",
+   "end": "2025-06-30",
+   "basis": "guidance",
+   "source": "S913",
+   "period": "FY2025Q3",
+   "low": 0.1,
+   "high": 0.12
+  },
+  {
+   "metric": "eps_growth_adj_cc",
+   "value": 0.18,
+   "unit": "ratio",
+   "end": "2025-06-30",
+   "basis": "guidance",
+   "source": "S913",
+   "period": "FY2025Q3",
+   "low": 0.17,
+   "high": 0.19
+  },
+  {
+   "metric": "net_revenue_growth_adj_cc",
+   "value": 0.095,
+   "unit": "ratio",
+   "end": "2025-09-30",
+   "basis": "guidance",
+   "source": "S912",
+   "period": "FY2025Q4",
+   "low": 0.08,
+   "high": 0.11
+  },
+  {
+   "metric": "eps_growth_adj_cc",
+   "value": 0.08,
+   "unit": "ratio",
+   "end": "2025-09-30",
+   "basis": "guidance",
+   "source": "S912",
+   "period": "FY2025Q4",
+   "low": 0.07,
+   "high": 0.09
+  },
+  {
+   "metric": "net_revenue_growth_adj_cc",
+   "value": 0.12,
+   "unit": "ratio",
+   "end": "2025-12-31",
+   "basis": "guidance",
+   "source": "S911",
+   "period": "FY2026Q1",
+   "low": 0.115,
+   "high": 0.125
+  },
+  {
+   "metric": "eps_growth_adj_cc",
+   "value": 0.13,
+   "unit": "ratio",
+   "end": "2025-12-31",
+   "basis": "guidance",
+   "source": "S911",
+   "period": "FY2026Q1",
+   "low": 0.12,
+   "high": 0.14
+  },
+  {
+   "metric": "net_revenue_growth_adj_cc",
+   "value": 0.11,
+   "unit": "ratio",
+   "end": "2026-03-31",
+   "basis": "guidance",
+   "source": "S910",
+   "period": "FY2026Q2",
+   "low": 0.1,
+   "high": 0.12
+  },
+  {
+   "metric": "eps_growth_adj_cc",
+   "value": 0.12,
+   "unit": "ratio",
+   "end": "2026-03-31",
+   "basis": "guidance",
+   "source": "S910",
+   "period": "FY2026Q2",
+   "low": 0.115,
+   "high": 0.125
+  },
+  {
+   "metric": "net_revenue_growth_adj_cc",
+   "value": 0.11,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "guidance",
+   "source": "S908",
+   "period": "FY2026Q3",
+   "low": 0.1,
+   "high": 0.12
+  },
+  {
+   "metric": "eps_growth_adj_cc",
+   "value": 0.07,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "guidance",
+   "source": "S908",
+   "period": "FY2026Q3",
+   "low": 0.05,
+   "high": 0.09
+  },
+  {
+   "metric": "net_revenue_growth_adj_cc",
+   "value": 0.12,
+   "unit": "ratio",
+   "end": "2026-09-30",
+   "basis": "guidance",
+   "source": "S906",
+   "period": "FY2026Q4",
+   "low": 0.115,
+   "high": 0.125
+  },
+  {
+   "metric": "eps_growth_adj_cc",
+   "value": 0.145,
+   "unit": "ratio",
+   "end": "2026-09-30",
+   "basis": "guidance",
+   "source": "S906",
+   "period": "FY2026Q4",
+   "low": 0.14,
+   "high": 0.15
+  },
+  {
+   "metric": "opex_growth_adj_cc",
+   "value": 0.11,
+   "unit": "ratio",
+   "end": "2026-09-30",
+   "basis": "guidance",
+   "source": "S906",
+   "period": "FY2026Q4",
+   "low": 0.1,
+   "high": 0.12
+  },
+  {
+   "metric": "net_revenue_growth_adj_cc",
+   "value": 0.095,
+   "unit": "ratio",
+   "end": "2025-09-30",
+   "basis": "guidance",
+   "source": "S915",
+   "period": "FY2025",
+   "low": 0.08,
+   "high": 0.11
+  },
+  {
+   "metric": "eps_growth_adj_cc",
+   "value": 0.12,
+   "unit": "ratio",
+   "end": "2025-09-30",
+   "basis": "guidance",
+   "source": "S915",
+   "period": "FY2025",
+   "low": 0.115,
+   "high": 0.125
+  },
+  {
+   "metric": "net_revenue_growth_adj_cc",
+   "value": 0.11,
+   "unit": "ratio",
+   "end": "2025-09-30",
+   "basis": "guidance",
+   "source": "S914",
+   "period": "FY2025",
+   "low": 0.1,
+   "high": 0.12
+  },
+  {
+   "metric": "eps_growth_adj_cc",
+   "value": 0.13,
+   "unit": "ratio",
+   "end": "2025-09-30",
+   "basis": "guidance",
+   "source": "S914",
+   "period": "FY2025",
+   "low": 0.12,
+   "high": 0.14
+  },
+  {
+   "metric": "net_revenue_growth_adj_cc",
+   "value": 0.11,
+   "unit": "ratio",
+   "end": "2025-09-30",
+   "basis": "guidance",
+   "source": "S913",
+   "period": "FY2025",
+   "low": 0.1,
+   "high": 0.12
+  },
+  {
+   "metric": "eps_growth_adj_cc",
+   "value": 0.13,
+   "unit": "ratio",
+   "end": "2025-09-30",
+   "basis": "guidance",
+   "source": "S913",
+   "period": "FY2025",
+   "low": 0.12,
+   "high": 0.14
+  },
+  {
+   "metric": "net_revenue_growth_adj_cc",
+   "value": 0.11,
+   "unit": "ratio",
+   "end": "2025-09-30",
+   "basis": "guidance",
+   "source": "S912",
+   "period": "FY2025",
+   "low": 0.1,
+   "high": 0.12
+  },
+  {
+   "metric": "eps_growth_adj_cc",
+   "value": 0.13,
+   "unit": "ratio",
+   "end": "2025-09-30",
+   "basis": "guidance",
+   "source": "S912",
+   "period": "FY2025",
+   "low": 0.12,
+   "high": 0.14
+  },
+  {
+   "metric": "net_revenue_growth_adj_cc",
+   "value": 0.11,
+   "unit": "ratio",
+   "end": "2026-09-30",
+   "basis": "guidance",
+   "source": "S911",
+   "period": "FY2026",
+   "low": 0.1,
+   "high": 0.12
+  },
+  {
+   "metric": "opex_growth_adj_cc",
+   "value": 0.11,
+   "unit": "ratio",
+   "end": "2026-09-30",
+   "basis": "guidance",
+   "source": "S911",
+   "period": "FY2026",
+   "low": 0.1,
+   "high": 0.12
+  },
+  {
+   "metric": "eps_growth_adj_cc",
+   "value": 0.11,
+   "unit": "ratio",
+   "end": "2026-09-30",
+   "basis": "guidance",
+   "source": "S911",
+   "period": "FY2026",
+   "low": 0.1,
+   "high": 0.12
+  },
+  {
+   "metric": "net_revenue_growth_adj_cc",
+   "value": 0.11,
+   "unit": "ratio",
+   "end": "2026-09-30",
+   "basis": "guidance",
+   "source": "S910",
+   "period": "FY2026",
+   "low": 0.1,
+   "high": 0.12
+  },
+  {
+   "metric": "opex_growth_adj_cc",
+   "value": 0.11,
+   "unit": "ratio",
+   "end": "2026-09-30",
+   "basis": "guidance",
+   "source": "S910",
+   "period": "FY2026",
+   "low": 0.1,
+   "high": 0.12
+  },
+  {
+   "metric": "eps_growth_adj_cc",
+   "value": 0.11,
+   "unit": "ratio",
+   "end": "2026-09-30",
+   "basis": "guidance",
+   "source": "S910",
+   "period": "FY2026",
+   "low": 0.1,
+   "high": 0.12
+  },
+  {
+   "metric": "net_revenue_growth_adj_cc",
+   "value": 0.115,
+   "unit": "ratio",
+   "end": "2026-09-30",
+   "basis": "guidance",
+   "source": "S908",
+   "period": "FY2026",
+   "low": 0.1,
+   "high": 0.13
+  },
+  {
+   "metric": "opex_growth_adj_cc",
+   "value": 0.115,
+   "unit": "ratio",
+   "end": "2026-09-30",
+   "basis": "guidance",
+   "source": "S908",
+   "period": "FY2026",
+   "low": 0.1,
+   "high": 0.13
+  },
+  {
+   "metric": "eps_growth_adj_cc",
+   "value": 0.13,
+   "unit": "ratio",
+   "end": "2026-09-30",
+   "basis": "guidance",
+   "source": "S908",
+   "period": "FY2026",
+   "low": 0.12,
+   "high": 0.14
+  },
+  {
+   "metric": "net_revenue_growth_adj_cc",
+   "value": 0.125,
+   "unit": "ratio",
+   "end": "2026-09-30",
+   "basis": "guidance",
+   "source": "S906",
+   "period": "FY2026",
+   "low": 0.12,
+   "high": 0.13
+  },
+  {
+   "metric": "opex_growth_adj_cc",
+   "value": 0.125,
+   "unit": "ratio",
+   "end": "2026-09-30",
+   "basis": "guidance",
+   "source": "S906",
+   "period": "FY2026",
+   "low": 0.12,
+   "high": 0.13
+  },
+  {
+   "metric": "eps_growth_adj_cc",
+   "value": 0.145,
+   "unit": "ratio",
+   "end": "2026-09-30",
+   "basis": "guidance",
+   "source": "S906",
+   "period": "FY2026",
+   "low": 0.14,
+   "high": 0.15
+  },
+  {
+   "metric": "effective_tax_rate_non_gaap",
+   "value": 0.19,
+   "unit": "ratio",
+   "end": "2026-09-30",
+   "basis": "guidance",
+   "source": "S905",
+   "period": "FY2026Q4"
+  },
+  {
+   "metric": "effective_tax_rate_non_gaap",
+   "value": 0.18125,
+   "unit": "ratio",
+   "end": "2026-09-30",
+   "basis": "guidance",
+   "source": "S905",
+   "period": "FY2026",
+   "low": 0.18,
+   "high": 0.1825
+  },
+  {
+   "metric": "non_gaap_non_operating_expense",
+   "value": 165000000.0,
+   "unit": "USD",
+   "end": "2026-09-30",
+   "basis": "guidance",
+   "source": "S905",
+   "period": "FY2026"
+  },
+  {
+   "metric": "non_gaap_non_operating_expense",
+   "value": 80000000.0,
+   "unit": "USD",
+   "end": "2026-09-30",
+   "basis": "guidance",
+   "source": "S905",
+   "period": "FY2026Q4"
+  },
+  {
+   "metric": "non_gaap_non_operating_expense",
+   "value": 150000000.0,
+   "unit": "USD",
+   "end": "2026-09-30",
+   "basis": "guidance",
+   "source": "S907",
+   "period": "FY2026"
+  },
+  {
+   "metric": "revenue",
+   "value": 12100000000.0,
+   "unit": "USD",
+   "end": "2026-09-30",
+   "basis": "consensus",
+   "source": "S918",
+   "period": "FY2026Q4"
+  },
+  {
+   "metric": "non_gaap_eps",
+   "value": 3.43,
+   "unit": "USD/share",
+   "end": "2026-09-30",
+   "basis": "consensus",
+   "source": "S918",
+   "period": "FY2026Q4"
+  },
+  {
+   "metric": "revenue",
+   "value": 45780000000.0,
+   "unit": "USD",
+   "end": "2026-09-30",
+   "basis": "consensus",
+   "source": "S917",
+   "period": "FY2026",
+   "low": 44400000000.0,
+   "high": 46000000000.0
+  },
+  {
+   "metric": "non_gaap_eps",
+   "value": 13.23,
+   "unit": "USD/share",
+   "end": "2026-09-30",
+   "basis": "consensus",
+   "source": "S917",
+   "period": "FY2026",
+   "low": 13.1,
+   "high": 13.5
+  },
+  {
+   "metric": "revenue",
+   "value": 50800000000.0,
+   "unit": "USD",
+   "end": "2027-09-30",
+   "basis": "consensus",
+   "source": "S917",
+   "period": "FY2027"
+  },
+  {
+   "metric": "non_gaap_eps",
+   "value": 15.01,
+   "unit": "USD/share",
+   "end": "2027-09-30",
+   "basis": "consensus",
+   "source": "S917",
+   "period": "FY2027"
+  }
+ ],
+ "gaps": [
+  "FY2026 4분기·연간 실적(2026-10-27 발표)은 기준일 이후라 넣지 않았다. FY2027 가이던스도 그때 처음 나온다.",
+  "FY2025 연간 '조정 고정환율' 실적은 공시되지 않았다(명목 +11%·고정환율 +12%, Non-GAAP EPS +14%만 공시). 그래서 FY2025 연간 가이던스 사실은 코드가 대조하지 못하고 분기 7개만 대조된다.",
+  "가이던스는 말(LDD·low-teens 등)뿐이다. 사실의 low·high는 S906 노트의 환산 관례이고 회사 수치가 아니다. 과거 분기 영업비용 가이던스는 비용이 낮을수록 좋아 '미달'의 뜻이 반대라 노트에만 남겼다.",
+  "최신 환산 주식 수는 2026-07-21 표지 기준 계산값(약 18.77억 주)이다. 9/18 전환비율 인하(약 110만 주 감소) 이후의 클래스 A 주식 수와 7~9월 자사주 매입분은 10-K(11월) 전에는 알 수 없다. 우선주 환산분은 백만 주 단위 반올림 값이다.",
+  "3분기 자사주 매입(현금흐름 기준 48.05억)과 SBC(2.22억)는 10-Q 누적값 차감이다. 분기 현금흐름표는 공시되지 않는다(영업현금흐름·설비투자·FCF는 회사 슬라이드 수치).",
+  "2026-09-08 Goldman Sachs Communacopia(CEO) 발언 내용을 찾지 못했다. Bernstein(5/28)은 제3자 녹취, J.P. Morgan(5/19)은 요약 기사뿐이다.",
+  "MDL 금지명령 합의 최종 승인 심리(2026-11-16)는 블로그 출처(2차)뿐이고 법원 기록으로 확인하지 않았다. 옵트아웃 개별 소송의 잔여 충당 규모 외에 남은 손해배상 상한은 공시되지 않는다.",
+  "영국 PSR의 국경 간 인터체인지 상한 최종 수준·시기, 스킴·처리 수수료 시장 검토의 구제책, EU 집행위 스킴 수수료 조사의 2026년 진행 상황을 찾지 못했다.",
+  "CCCA의 2026년 하반기 표결 일정과 트럼프의 10% 금리 상한 제안의 입법 상태를 확인하지 못했다.",
+  "Capital One이 Visa에서 옮길 신용카드 규모와 Visa 매출에서 Capital One이 차지하는 비중은 공시되지 않았다(Visa는 고객 집중도를 숫자로 내지 않는다).",
+  "브라질 Pix의 2026년 거래 통계, 스테이블코인 결제가 Visa 볼륨을 대체한 정도에 대한 정량 자료를 찾지 못했다.",
+  "VAS 4개 포트폴리오(발급·수용·위험·자문)별 매출, 가격 인상의 매출 기여도(%p)는 공시되지 않는다.",
+  "Pershing Square의 Visa 보유 주식 수·금액(13F)은 확인하지 못했다. BioCatch 매도자(Permira)는 보도만 있다.",
+  "4분기·FY2026·FY2027 컨센서스는 집계 사이트·분석 블로그(2차) 값이다. 4분기 매출·EPS는 '약' 값이다."
+ ]
+}
