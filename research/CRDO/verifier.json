@@ -1,0 +1,446 @@
+{
+  "agent": "verifier",
+  "basis": "f0613840e903",
+  "checks": [
+    {
+      "id": "V1",
+      "verdict": "supported",
+      "reason": "hard_value 14.40과 주가 169.7로 1-14.4/169.7≈91.5%가 맞는다."
+    },
+    {
+      "id": "V2",
+      "verdict": "supported",
+      "reason": "RPO 4.2M, 구매약정 222.2M, 고객 A 43%+B 28%=71%가 자료와 일치한다."
+    },
+    {
+      "id": "V3",
+      "verdict": "supported",
+      "reason": "DSO 135.5→63.8일, Q1 채권 +54.5M, A 채권 비중 57%가 자료와 맞고 결론은 해석이다."
+    },
+    {
+      "id": "V4",
+      "verdict": "leap",
+      "reason": "GAAP·비GAAP 마진과 가이던스는 맞다. 그러나 S67은 마진 압박을 익명 애널리스트의 '의견일 뿐'이라고 했는데, 주가 하락 원인을 시장의 마진 지속성 의심으로 단정했다."
+    },
+    {
+      "id": "V5",
+      "verdict": "supported",
+      "reason": "차입금 없음, 현금+단기투자 $764.3M, cash_survives=1, ATM 대비 인수 대가 규모가 자료와 일치한다."
+    },
+    {
+      "id": "V6",
+      "verdict": "supported",
+      "reason": "재고 $313.1M(전 분기 $250.8M), 평가손 $3.9M, 약정 $222.2M, 보증금 $62.9M·$25.3M이 자료와 맞다."
+    },
+    {
+      "id": "V7",
+      "verdict": "supported",
+      "reason": "사전 부검의 근거 사실(임원 매도 약 $290M, 장내 매수 0건, SBC $88.0M/$49.7M, ATM과 인수 규모, P/FCF 75)이 자료와 맞다."
+    },
+    {
+      "id": "V8",
+      "verdict": "supported",
+      "reason": "약세 24.43·강세 368.73과 고객·제품 집중 사실이 자료와 일치한다."
+    },
+    {
+      "id": "V9",
+      "verdict": "supported",
+      "reason": "ATM $736.3M, 현금 대가 $769.6M, 현금 $764.3M, 영업권 986.4/총자산 3,012.7≈33%, 언아웃 $310M이 맞다."
+    },
+    {
+      "id": "V10",
+      "verdict": "unsupported",
+      "reason": "인용은 FY2026 총이익률 68.0%뿐이라 '올랐다'는 비교 근거가 없다. 가격 압박이 없다는 결론도 이 자료로는 나오지 않는다."
+    },
+    {
+      "id": "V11",
+      "verdict": "supported",
+      "reason": "bear 24.43, bull 368.73, 손실 확률 0.25, 역DCF 23.8%가 맞다. 기저율 근거가 없다는 서술도 인용 상태와 일치한다."
+    },
+    {
+      "id": "V12",
+      "verdict": "supported",
+      "reason": "운전자본 $151.3M 흡수 내역, 약정 $222.2M, RPO $4.2M, 구매주문 기반 판매가 모두 자료에 있다."
+    },
+    {
+      "id": "V13",
+      "verdict": "supported",
+      "reason": "구매주문 기반, 채택 후 전환 어려움 서술, 가이던스 적중률 1이 자료와 일치한다."
+    },
+    {
+      "id": "V14",
+      "verdict": "supported",
+      "reason": "ATM 4.8M주·$736.3M·비용 $13.7M, 인수 현금 $769.6M, 자사사 매입 0과 미발견, 현금·단기투자 수치가 맞다."
+    },
+    {
+      "id": "V15",
+      "verdict": "supported",
+      "reason": "Form 4 집계(약 $290M, 554건 중 507건 10b5-1, 매수 0건, 세금 납부 여부 미확인)와 일치한다."
+    },
+    {
+      "id": "V16",
+      "verdict": "supported",
+      "reason": "적중률 1, PSU의 매출·주가 허들 구조, 지분 9.06%가 자료와 맞다."
+    },
+    {
+      "id": "V17",
+      "verdict": "supported",
+      "reason": "영업이익률 8.5%→33.3%, FCF 마진 30.5%, ROIC 71.3%가 계산값과 일치한다."
+    },
+    {
+      "id": "V18",
+      "verdict": "unsupported",
+      "reason": "인수 대가·배분·영업권·언아웃은 맞다. 그러나 영업권 비중이 '문턱 아래'라는 근거(goodwill_to_assets)가 존재하지 않는다."
+    },
+    {
+      "id": "V19",
+      "verdict": "supported",
+      "reason": "10-K 경쟁사 목록, Marvell의 Amphenol 생태계와 1.6T AEC DSP, NVIDIA의 Marvell $2B 투자, 88% 무출처가 자료에 있다."
+    },
+    {
+      "id": "V20",
+      "verdict": "supported",
+      "reason": "GTC 로드맵(Rubin까지 구리, Rubin Ultra 144 GPU 구리, Feynman 병행), Jefferies와 JPM 견해, 인수 $1,251.1M이 맞다."
+    },
+    {
+      "id": "V21",
+      "verdict": "supported",
+      "reason": "ATM, 현금 대가, 영업권 급증, 임원 매도·매수 0건, 인수 매출의 허들 산입이 자료와 일치한다."
+    },
+    {
+      "id": "V22",
+      "verdict": "supported",
+      "reason": "downside 0.915, 조건 가격 28.80이 52주 저가 86.49보다 낮아 닿지 않았다는 서술과 cash_survives=1이 맞다."
+    },
+    {
+      "id": "V23",
+      "verdict": "supported",
+      "reason": "고객 71%, 최종고객 84%, 구매주문 기반, RPO $4.2M, 약정 $222.2M이 자료와 일치한다."
+    },
+    {
+      "id": "V24",
+      "verdict": "supported",
+      "reason": "광 매출 $600M은 회사 목표이고, 증가분의 90% 이상이 AEC이며 제품별 공시가 없다는 서술이 자료와 맞다. upside 8.885도 일치한다."
+    },
+    {
+      "id": "V25",
+      "verdict": "supported",
+      "reason": "비GAAP 순이익 $236.3M, GAAP $129.4M, 조정 항목 금액이 자료와 일치한다."
+    },
+    {
+      "id": "V26",
+      "verdict": "leap",
+      "reason": "적중률과 마진은 맞다. 그러나 'Q4 0.5%, Q1 0.8%로 줄고 있다'는 근거 수치가 오히려 커졌다. 줄어드는 추세는 Q3 18%, Q2 11.7%에서만 나온다."
+    },
+    {
+      "id": "V27",
+      "verdict": "supported",
+      "reason": "시나리오의 근거 사실(AEC 90% 이상, 71%, RPO, 약정)이 자료와 일치한다."
+    },
+    {
+      "id": "V28",
+      "verdict": "supported",
+      "reason": "베타 3.228과 52주 고저가 자료와 맞다."
+    },
+    {
+      "id": "V29",
+      "verdict": "supported",
+      "reason": "FCF 마진 30.5%, 운전자본 흡수, OCF<순이익, FY2025 SBC 차감 FCF 음수, 고객 집중이 자료와 일치한다."
+    },
+    {
+      "id": "V30",
+      "verdict": "supported",
+      "reason": "OCF $90.2M은 순이익 $129.4M보다 작고, 운전자본 $151.3M 흡수와 항목이 S55와 일치한다."
+    },
+    {
+      "id": "V31",
+      "verdict": "supported",
+      "reason": "총이익률 61.9%→68.0%, FCF 마진 30.5%가 계산값과 일치한다."
+    },
+    {
+      "id": "V32",
+      "verdict": "supported",
+      "reason": "계약 상대방·최종고객·채권 비중과 전년 3곳 88%가 자료와 일치한다."
+    },
+    {
+      "id": "V33",
+      "verdict": "unsupported",
+      "reason": "민감도 0.75배 시 연 수익률 +5.3%와 내재가치 175.4는 인용 자료에 없다."
+    },
+    {
+      "id": "V34",
+      "verdict": "supported",
+      "reason": "PSU 200% 달성, Special PSU $116 허들과 25% 베스팅, 컨센서스 FY27 약 $2.45B가 자료와 맞다."
+    },
+    {
+      "id": "V35",
+      "verdict": "supported",
+      "reason": "bear 24.43, bull 368.73, mos 3.3%, upside 8.89가 계산값과 일치한다."
+    },
+    {
+      "id": "V36",
+      "verdict": "supported",
+      "reason": "bear 24.43, 손실 확률 25%, mos 3.3%, 약정 $222.2M이 맞다."
+    },
+    {
+      "id": "V37",
+      "verdict": "supported",
+      "reason": "mos 3.3%, hard_value 14.4, growth_premium 91.5%, 순현금, 적중률이 계산값과 일치한다."
+    },
+    {
+      "id": "V38",
+      "verdict": "supported",
+      "reason": "고객 집중, 평가손 $3.9M, 약정 $222.2M 등 근거 사실이 맞다."
+    },
+    {
+      "id": "V39",
+      "verdict": "supported",
+      "reason": "지분 9.06%와 개인별 지분, Form 4 매도 내역과 10b5-1 건수가 자료와 일치한다."
+    },
+    {
+      "id": "V40",
+      "verdict": "unsupported",
+      "reason": "SBC·주식 수·ATM·RSU 수치는 맞다. 그러나 'dilution 신호 연 8.7%'와 회계 신호 'watch'는 인용에 없다."
+    },
+    {
+      "id": "V41",
+      "verdict": "supported",
+      "reason": "비GAAP 총이익률 67.7/68.6/68.3/68.0%가 가이던스 64–66% 위이고 연간 총이익률 추이도 맞다. n-1은 회사 주장이라고 구분했다."
+    },
+    {
+      "id": "V42",
+      "verdict": "supported",
+      "reason": "컨센서스, 가이던스 85%, 고객 집중, RPO, 약정, 광 매출 목표가 자료와 일치한다."
+    },
+    {
+      "id": "V43",
+      "verdict": "supported",
+      "reason": "growth_premium 91.5%, 마진 30%에서 연 23.8%, 고객·제품 집중이 맞다."
+    },
+    {
+      "id": "V44",
+      "verdict": "supported",
+      "reason": "mos 3.3%, 조건 가격 140.36, 현재가 169.7, 기대 수익률 10.8%가 맞다."
+    },
+    {
+      "id": "V45",
+      "verdict": "supported",
+      "reason": "TAM 확장 표현, PIC 내재화와 헤지 성격, 광 매출 목표가 자료에 있다."
+    },
+    {
+      "id": "V46",
+      "verdict": "supported",
+      "reason": "mos 3.3%, iv 24.43~175.45가 현재가 169.7과 거의 같고 손실 확률은 0.25다."
+    },
+    {
+      "id": "V47",
+      "verdict": "supported",
+      "reason": "23.8%, 28.9%, FY2026 성장 205.7%가 계산값과 일치한다."
+    },
+    {
+      "id": "V48",
+      "verdict": "supported",
+      "reason": "Rubin Ultra까지 구리 NVLink, Jefferies 강세 시나리오, 광 매출 $600M 목표가 자료와 맞다."
+    },
+    {
+      "id": "V49",
+      "verdict": "unsupported",
+      "reason": "FY2024 20.2%, FY2025 17.7%, 문턱 10%가 인용에 없다."
+    },
+    {
+      "id": "V50",
+      "verdict": "supported",
+      "reason": "SBC/매출 13.7%, 영업권 급증, 단독 매출 미공시, 주식 대가 인수가 자료와 일치한다."
+    },
+    {
+      "id": "V51",
+      "verdict": "supported",
+      "reason": "순현금 $764M, FCF 마진 30.5%, 적중률 1이 일치한다."
+    },
+    {
+      "id": "V52",
+      "verdict": "supported",
+      "reason": "기대 수익률 10.8%, 손실 확률 25%, base IRR 10.7%가 계산값과 맞다."
+    },
+    {
+      "id": "V53",
+      "verdict": "supported",
+      "reason": "Feynman 구리·CPO 병행, 인수 대가 $1,251.1M, 영업권 $986M, 언아웃 $310M, 광 매출 목표가 자료와 일치한다."
+    },
+    {
+      "id": "V54",
+      "verdict": "supported",
+      "reason": "재고·채권·보증금, 약정 $222.2M, RPO $4.2M, 평가손 $3.9M이 맞다."
+    },
+    {
+      "id": "V55",
+      "verdict": "supported",
+      "reason": "순부채/EBITDA -3.0, 적중률 1, 조건 가격 28.8이 52주 저가 86.49보다 낮다는 서술이 맞다."
+    },
+    {
+      "id": "V56",
+      "verdict": "supported",
+      "reason": "AEC 90% 이상, 제품별 공시 없음, Feynman 선택지, Marvell 투자가 자료와 일치한다."
+    },
+    {
+      "id": "V57",
+      "verdict": "supported",
+      "reason": "EY가 FY2027 감사인으로 승인되고 변경 없음이 S61과 일치한다. 나머지는 확인하지 못했다는 서술이다."
+    },
+    {
+      "id": "V58",
+      "verdict": "supported",
+      "reason": "회사의 '유일' 주장, 경쟁사 3곳, 특허 라이선스와 공동 개발의 출처가 자료와 맞다."
+    },
+    {
+      "id": "V59",
+      "verdict": "supported",
+      "reason": "p_fcf 75, 두 고객 집중, 구매주문 기반, RPO와 약정이 자료와 일치한다."
+    },
+    {
+      "id": "V60",
+      "verdict": "supported",
+      "reason": "구리→광 전환 위험, 인수 $1,251.1M, 단독 매출 미공시, 영업권 증가가 맞다."
+    },
+    {
+      "id": "V61",
+      "verdict": "unsupported",
+      "reason": "수치는 대부분 맞다. 그러나 8.7%가 'FY2023의 높은 증가율' 때문이라는 설명은 인용에 없다."
+    },
+    {
+      "id": "V62",
+      "verdict": "supported",
+      "reason": "대가 구성, 영업권, 무형자산, Hyperlume·CoMira, PIC의 foundational component 서술이 맞다."
+    },
+    {
+      "id": "V63",
+      "verdict": "supported",
+      "reason": "10-K의 전환 어려움 서술, 적중률, RPO, 약세·강세 가치 인용이 맞고 한계도 인정했다."
+    },
+    {
+      "id": "V64",
+      "verdict": "unsupported",
+      "reason": "36%, 16%, 멀티플 변화 -19.4%, 민감도 +5.3%는 인용 자료에 없다. p_fcf 75만 근거가 있다."
+    },
+    {
+      "id": "V65",
+      "verdict": "supported",
+      "reason": "AEC 90% 이상, 광 매출은 목표일 뿐 제품별 공시 없음이 자료와 일치한다."
+    },
+    {
+      "id": "V66",
+      "verdict": "supported",
+      "reason": "Q3 +18%, Q2 +$28M(11.7%), Q4 0.5%, Q1 0.8%와 85% 상향의 2차 출처 한계가 자료와 맞다."
+    },
+    {
+      "id": "V67",
+      "verdict": "supported",
+      "reason": "구매주문 기반, RPO $4.2M, 71%, 라벨 불일치, Amazon 워런트가 자료와 일치한다."
+    },
+    {
+      "id": "V68",
+      "verdict": "supported",
+      "reason": "PSU 트랜치, 허들, 예외, 인수 매출 산입이 DEF 14A와 일치한다."
+    },
+    {
+      "id": "V69",
+      "verdict": "supported",
+      "reason": "hard_value 14.4, SBC 차감 FCF 양수, ROIC 71.3%, 조건 가격 28.8, RPO가 맞다."
+    },
+    {
+      "id": "V70",
+      "verdict": "supported",
+      "reason": "52주 저가 86.49가 조건 가격보다 높아 이하 거래가 없었다는 서술과 적중률이 맞다."
+    },
+    {
+      "id": "V71",
+      "verdict": "supported",
+      "reason": "구리 NVLink 유지, Jefferies 강세 점유율 70%, 광 매출 목표가 자료에 있다."
+    },
+    {
+      "id": "V72",
+      "verdict": "supported",
+      "reason": "판매 측 약정 부재, 구매 측 약정 $222.2M, 가이던스 하단 마진 인용이 맞다."
+    },
+    {
+      "id": "V73",
+      "verdict": "supported",
+      "reason": "hard_value 14.4, downside 91.5%, 23.8%, FY2026 성장 205.7%가 계산값과 일치한다."
+    },
+    {
+      "id": "V74",
+      "verdict": "supported",
+      "reason": "성장률 126.3%, 205.7%, 가이던스 85%, 5년 매출 6.93배가 맞다."
+    },
+    {
+      "id": "V75",
+      "verdict": "supported",
+      "reason": "고객 A 39/67/49%, 최종고객 D 63→33%, 구매주문 기반과 RPO, 라벨 불일치가 자료와 일치한다."
+    },
+    {
+      "id": "V76",
+      "verdict": "supported",
+      "reason": "고객 집중, 구매주문 기반, RPO $4.2M, 약정 $222.2M이 맞다."
+    },
+    {
+      "id": "V77",
+      "verdict": "supported",
+      "reason": "기대 수익률 10.8%, mos 3.3%, 광 매출은 목표일 뿐, FCF 마진 30.5%가 맞다. 다른 분석가 언급은 판정하지 않는다."
+    },
+    {
+      "id": "V78",
+      "verdict": "supported",
+      "reason": "GAAP 마진 하락의 상각 설명, Marvell의 NVIDIA 투자, 가이던스 하단 인용이 맞다."
+    },
+    {
+      "id": "V79",
+      "verdict": "supported",
+      "reason": "가이던스, 초과 폭 축소, 적중률, FCF 마진, 희석 근거가 자료와 일치한다."
+    },
+    {
+      "id": "V80",
+      "verdict": "supported",
+      "reason": "71%, 84%, 구매주문 기반, RPO $4.2M, 약정 $222.2M이 맞다."
+    },
+    {
+      "id": "V81",
+      "verdict": "supported",
+      "reason": "AEC 90% 이상, 71%, RPO, 약정 $222.2M, 재고 $313M, 손실 확률 0.25가 맞다."
+    },
+    {
+      "id": "V82",
+      "verdict": "supported",
+      "reason": "p_fcf, base IRR, mos 3.3%, 구매주문 기반 매출 인용이 자료와 일치한다."
+    },
+    {
+      "id": "V83",
+      "verdict": "supported",
+      "reason": "광 매출 $600M 목표와 PIC 인수 목적(헤지)이 자료와 맞다."
+    },
+    {
+      "id": "V84",
+      "verdict": "supported",
+      "reason": "광 매출은 목표일 뿐 제품별 공시가 없고, 기저율 근거가 없다는 서술도 인용 상태와 일치한다. 성장 가정은 모델 가정이다."
+    },
+    {
+      "id": "V85",
+      "verdict": "supported",
+      "reason": "증가분 $255.9M의 90% 이상이 AEC이고 10-K는 99% 초과다. 제품별 미공시와 가이던스도 맞다."
+    },
+    {
+      "id": "V86",
+      "verdict": "supported",
+      "reason": "SBC 차감 FCF 양수, ROIC 71.3%, SBC 급증이 일치한다."
+    },
+    {
+      "id": "V87",
+      "verdict": "supported",
+      "reason": "downside 91.5%, 주당 14.4, 23.8%, 71%와 AEC 집중이 자료와 일치한다."
+    },
+    {
+      "id": "V88",
+      "verdict": "leap",
+      "reason": "Marvell 투자와 생태계는 자료에 있다. 그러나 주가 하락이 마진 우려 때문이었다는 서술은 S67에서 익명 의견일 뿐 보고된 가격 하락 근거가 없다고 한 것과 어긋난다."
+    }
+  ]
+}

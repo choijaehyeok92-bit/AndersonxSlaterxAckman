@@ -1,0 +1,495 @@
+{
+ "vol": {
+  "UBER": 0.35164731005619226,
+  "MELI": 0.40436831298021997,
+  "NVDA": 0.37328590297083963,
+  "AMZN": 0.34302650641489163,
+  "CRDO": 0.9521947665904286,
+  "PLTR": 0.6062143453027293,
+  "CBRS": 1.14891762722718,
+  "SHOP": 0.5888232286678978,
+  "IOT": 0.5975946236586178,
+  "SCHD": 0.11209361533217738
+ },
+ "corr": {
+  "UBER-UBER": 1.0,
+  "UBER-MELI": 0.4084954799949279,
+  "UBER-NVDA": 0.14670616504217382,
+  "UBER-AMZN": 0.27429860994701005,
+  "UBER-CRDO": 0.058277182885387635,
+  "UBER-PLTR": 0.2849092954576977,
+  "UBER-CBRS": -0.06310332975693088,
+  "UBER-SHOP": 0.3430912448943008,
+  "UBER-IOT": 0.23048750858991768,
+  "UBER-SCHD": 0.16105271123578482,
+  "MELI-UBER": 0.4084954799949279,
+  "MELI-MELI": 1.0,
+  "MELI-NVDA": 0.16984526751672605,
+  "MELI-AMZN": 0.3118035158344666,
+  "MELI-CRDO": 0.07038254605971006,
+  "MELI-PLTR": 0.22039894953681968,
+  "MELI-CBRS": 0.029172818886496466,
+  "MELI-SHOP": 0.3757561904279206,
+  "MELI-IOT": 0.1735836401932177,
+  "MELI-SCHD": 0.12952289225225855,
+  "NVDA-UBER": 0.14670616504217382,
+  "NVDA-MELI": 0.16984526751672605,
+  "NVDA-NVDA": 1.0,
+  "NVDA-AMZN": 0.24672754327780497,
+  "NVDA-CRDO": 0.41526953652517756,
+  "NVDA-PLTR": 0.28419589344945134,
+  "NVDA-CBRS": 0.3652549128296628,
+  "NVDA-SHOP": 0.2572398735691384,
+  "NVDA-IOT": 0.040894431551211606,
+  "NVDA-SCHD": -0.1759094448393399,
+  "AMZN-UBER": 0.27429860994701005,
+  "AMZN-MELI": 0.3118035158344666,
+  "AMZN-NVDA": 0.24672754327780497,
+  "AMZN-AMZN": 1.0,
+  "AMZN-CRDO": 0.19574297572708022,
+  "AMZN-PLTR": 0.2363808155505047,
+  "AMZN-CBRS": 0.17640486107084297,
+  "AMZN-SHOP": 0.23010965916636125,
+  "AMZN-IOT": 0.0979872407906738,
+  "AMZN-SCHD": 0.042437324502005595,
+  "CRDO-UBER": 0.058277182885387635,
+  "CRDO-MELI": 0.07038254605971006,
+  "CRDO-NVDA": 0.41526953652517756,
+  "CRDO-AMZN": 0.19574297572708022,
+  "CRDO-CRDO": 1.0,
+  "CRDO-PLTR": 0.27824036295686805,
+  "CRDO-CBRS": 0.37044944068941793,
+  "CRDO-SHOP": 0.1404730839582543,
+  "CRDO-IOT": 0.016759381638846133,
+  "CRDO-SCHD": -0.1910474236187374,
+  "PLTR-UBER": 0.2849092954576977,
+  "PLTR-MELI": 0.22039894953681968,
+  "PLTR-NVDA": 0.28419589344945134,
+  "PLTR-AMZN": 0.2363808155505047,
+  "PLTR-CRDO": 0.27824036295686805,
+  "PLTR-PLTR": 1.0,
+  "PLTR-CBRS": 0.04113844523910401,
+  "PLTR-SHOP": 0.48385397888623277,
+  "PLTR-IOT": 0.4809833500404999,
+  "PLTR-SCHD": 0.01465965326448661,
+  "CBRS-UBER": -0.06310332975693088,
+  "CBRS-MELI": 0.029172818886496466,
+  "CBRS-NVDA": 0.3652549128296628,
+  "CBRS-AMZN": 0.17640486107084297,
+  "CBRS-CRDO": 0.37044944068941793,
+  "CBRS-PLTR": 0.04113844523910401,
+  "CBRS-CBRS": 1.0,
+  "CBRS-SHOP": -0.12895092629356297,
+  "CBRS-IOT": -0.21954085054857536,
+  "CBRS-SCHD": -0.1605956368264934,
+  "SHOP-UBER": 0.3430912448943008,
+  "SHOP-MELI": 0.3757561904279206,
+  "SHOP-NVDA": 0.2572398735691384,
+  "SHOP-AMZN": 0.23010965916636125,
+  "SHOP-CRDO": 0.1404730839582543,
+  "SHOP-PLTR": 0.48385397888623277,
+  "SHOP-CBRS": -0.12895092629356297,
+  "SHOP-SHOP": 1.0,
+  "SHOP-IOT": 0.4395315685286791,
+  "SHOP-SCHD": -0.010074285530141428,
+  "IOT-UBER": 0.23048750858991768,
+  "IOT-MELI": 0.1735836401932177,
+  "IOT-NVDA": 0.040894431551211606,
+  "IOT-AMZN": 0.0979872407906738,
+  "IOT-CRDO": 0.016759381638846133,
+  "IOT-PLTR": 0.4809833500404999,
+  "IOT-CBRS": -0.21954085054857536,
+  "IOT-SHOP": 0.4395315685286791,
+  "IOT-IOT": 1.0,
+  "IOT-SCHD": 0.07017731085840638,
+  "SCHD-UBER": 0.16105271123578482,
+  "SCHD-MELI": 0.12952289225225855,
+  "SCHD-NVDA": -0.1759094448393399,
+  "SCHD-AMZN": 0.042437324502005595,
+  "SCHD-CRDO": -0.1910474236187374,
+  "SCHD-PLTR": 0.01465965326448661,
+  "SCHD-CBRS": -0.1605956368264934,
+  "SCHD-SHOP": -0.010074285530141428,
+  "SCHD-IOT": 0.07017731085840638,
+  "SCHD-SCHD": 1.0
+ },
+ "n": {
+  "UBER": 251,
+  "MELI": 251,
+  "NVDA": 251,
+  "AMZN": 251,
+  "CRDO": 251,
+  "PLTR": 251,
+  "CBRS": 107,
+  "SHOP": 251,
+  "IOT": 251,
+  "SCHD": 251
+ },
+ "harness": {
+  "UBER": {
+   "label": "찬성 우세",
+   "votes": {
+    "for": 2,
+    "against": 1,
+    "abstain": 0
+   },
+   "iv": 95.24833255942636,
+   "price": 70.35,
+   "irr": 0.16872232789771346,
+   "p_loss": 0.25,
+   "variance": 0.8847984223819576,
+   "kelly_ref": 0.1,
+   "agents": {
+    "anderson": {
+     "final": "for",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [],
+     "starter": null
+    },
+    "slater": {
+     "final": "against",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [
+      "이미 반증된 가설"
+     ],
+     "starter": 0.02
+    },
+    "ackman": {
+     "final": "for",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [],
+     "starter": null
+    }
+   }
+  },
+  "MELI": {
+   "label": "찬성 우세",
+   "votes": {
+    "for": 2,
+    "against": 1,
+    "abstain": 0
+   },
+   "iv": 2026.483662635083,
+   "price": 1834.0,
+   "irr": 0.12217719908130564,
+   "p_loss": 0.3,
+   "variance": 1.3662951666316423,
+   "kelly_ref": 0.030928114542172015,
+   "agents": {
+    "anderson": {
+     "final": "for",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [],
+     "starter": null
+    },
+    "slater": {
+     "final": "for",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [],
+     "starter": 0.01
+    },
+    "ackman": {
+     "final": "against",
+     "stance": "against",
+     "conviction": 4,
+     "red_lines": [
+      "단순·예측 가능한 사업이 아님",
+      "레버리지·자본시장 의존",
+      "안전마진 20% 미만 또는 계산 불가"
+     ],
+     "starter": null
+    }
+   }
+  },
+  "NVDA": {
+   "label": "찬성 우세",
+   "votes": {
+    "for": 2,
+    "against": 1,
+    "abstain": 0
+   },
+   "iv": 240.69738781619537,
+   "price": 214.13,
+   "irr": 0.12603387858423498,
+   "p_loss": 0.3,
+   "variance": 1.663373858340432,
+   "kelly_ref": 0.03003204465616642,
+   "agents": {
+    "anderson": {
+     "final": "for",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [],
+     "starter": null
+    },
+    "slater": {
+     "final": "for",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [],
+     "starter": 0.02
+    },
+    "ackman": {
+     "final": "against",
+     "stance": "against",
+     "conviction": 4,
+     "red_lines": [
+      "단순·예측 가능한 사업이 아님",
+      "안전마진 20% 미만 또는 계산 불가"
+     ],
+     "starter": null
+    }
+   }
+  },
+  "AMZN": {
+   "label": "반대 우세",
+   "votes": {
+    "for": 1,
+    "against": 2,
+    "abstain": 0
+   },
+   "iv": 240.2062106489808,
+   "price": 250.0,
+   "irr": 0.0912431482307936,
+   "p_loss": 0.25,
+   "variance": 0.6913849260824234,
+   "kelly_ref": 0.0,
+   "agents": {
+    "anderson": {
+     "final": "against",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [
+      "10년 주당가치 5배 미만 또는 계산 불가 (LTGG Q10)"
+     ],
+     "starter": null
+    },
+    "slater": {
+     "final": "for",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [],
+     "starter": 0.01
+    },
+    "ackman": {
+     "final": "against",
+     "stance": "against",
+     "conviction": 4,
+     "red_lines": [
+      "단순·예측 가능한 사업이 아님",
+      "잉여현금흐름을 만들지 못함 (코드 계산)",
+      "레버리지·자본시장 의존",
+      "안전마진 20% 미만 또는 계산 불가"
+     ],
+     "starter": null
+    }
+   }
+  },
+  "CRDO": {
+   "label": "찬성 우세",
+   "votes": {
+    "for": 2,
+    "against": 1,
+    "abstain": 0
+   },
+   "iv": 163.31838693471965,
+   "price": 169.7,
+   "irr": 0.09159951253688736,
+   "p_loss": 0.3,
+   "variance": 1.1611690673472828,
+   "kelly_ref": 0.0,
+   "agents": {
+    "anderson": {
+     "final": "for",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [],
+     "starter": null
+    },
+    "slater": {
+     "final": "for",
+     "stance": "for",
+     "conviction": 2,
+     "red_lines": [],
+     "starter": 0.01
+    },
+    "ackman": {
+     "final": "against",
+     "stance": "against",
+     "conviction": 4,
+     "red_lines": [
+      "단순·예측 가능한 사업이 아님",
+      "안전마진 20% 미만 또는 계산 불가"
+     ],
+     "starter": null
+    }
+   }
+  },
+  "PLTR": {
+   "label": "반대 우세",
+   "votes": {
+    "for": 1,
+    "against": 2,
+    "abstain": 0
+   },
+   "iv": 111.93183799995838,
+   "price": 186.03,
+   "irr": -0.006273629145708726,
+   "p_loss": 0.8,
+   "variance": 0.3138011720969721,
+   "kelly_ref": 0.0,
+   "agents": {
+    "anderson": {
+     "final": "for",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [],
+     "starter": null
+    },
+    "slater": {
+     "final": "against",
+     "stance": "against",
+     "conviction": 3,
+     "red_lines": [],
+     "starter": 0
+    },
+    "ackman": {
+     "final": "against",
+     "stance": "against",
+     "conviction": 4,
+     "red_lines": [
+      "단순·예측 가능한 사업이 아님",
+      "안전마진 20% 미만 또는 계산 불가"
+     ],
+     "starter": null
+    }
+   }
+  },
+  "CBRS": {
+   "label": "반대 우세",
+   "votes": {
+    "for": 1,
+    "against": 2,
+    "abstain": 0
+   },
+   "iv": 81.98533835449307,
+   "price": 127.21,
+   "irr": 0.02579602261680969,
+   "p_loss": 0.8,
+   "variance": 1.1878592885511374,
+   "kelly_ref": 0.0,
+   "agents": {
+    "anderson": {
+     "final": "for",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [],
+     "starter": null
+    },
+    "slater": {
+     "final": "against",
+     "stance": "against",
+     "conviction": 3,
+     "red_lines": [],
+     "starter": 0.0
+    },
+    "ackman": {
+     "final": "against",
+     "stance": "against",
+     "conviction": 4,
+     "red_lines": [
+      "단순·예측 가능한 사업이 아님",
+      "잉여현금흐름을 만들지 못함 (코드 계산)",
+      "레버리지·자본시장 의존",
+      "안전마진 20% 미만 또는 계산 불가"
+     ],
+     "starter": null
+    }
+   }
+  },
+  "SHOP": {
+   "label": "찬성 우세",
+   "votes": {
+    "for": 2,
+    "against": 1,
+    "abstain": 0
+   },
+   "iv": 153.28217567676137,
+   "price": 169.52,
+   "irr": 0.0780696692695213,
+   "p_loss": 0.3,
+   "variance": 0.5938414082889656,
+   "kelly_ref": 0.0,
+   "agents": {
+    "anderson": {
+     "final": "for",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [],
+     "starter": null
+    },
+    "slater": {
+     "final": "for",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [],
+     "starter": 0.01
+    },
+    "ackman": {
+     "final": "against",
+     "stance": "against",
+     "conviction": 4,
+     "red_lines": [
+      "안전마진 20% 미만 또는 계산 불가"
+     ],
+     "starter": null
+    }
+   }
+  },
+  "IOT": {
+   "label": "팽팽",
+   "votes": {
+    "for": 1,
+    "against": 1,
+    "abstain": 1
+   },
+   "iv": 28.510406718958812,
+   "price": 39.57,
+   "irr": 0.030196707802431,
+   "p_loss": 0.3,
+   "variance": 0.5302237656128381,
+   "kelly_ref": 0.0,
+   "agents": {
+    "anderson": {
+     "final": "for",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [],
+     "starter": null
+    },
+    "slater": {
+     "final": "abstain",
+     "stance": "abstain",
+     "conviction": 2,
+     "red_lines": [],
+     "starter": 0.01
+    },
+    "ackman": {
+     "final": "against",
+     "stance": "against",
+     "conviction": 4,
+     "red_lines": [
+      "단순·예측 가능한 사업이 아님",
+      "안전마진 20% 미만 또는 계산 불가"
+     ],
+     "starter": null
+    }
+   }
+  }
+ }
+}

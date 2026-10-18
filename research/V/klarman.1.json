@@ -1,0 +1,113 @@
+{
+  "agent": "klarman",
+  "basis": "4bfd76a0a17a",
+  "stance": "conditional",
+  "conviction": 3,
+  "thesis": "사업은 사지 않을 이유가 없는 수준이다. 레버리지가 낮고(C:net_debt_to_ebitda@klarman) 이익의 현금 전환이 좋으며 가이던스는 한 번도 빗나가지 않았다. 문제는 가격이다. 성장이 틀릴 때 단단한 가치까지 내려가는 폭이 하네스 한도 50%를 크게 넘고(C:downside@klarman), 주가의 상당 부분이 성장에 대한 값이다(C:growth_premium@klarman). 기본 시나리오 내재가치도 현재 주가보다 낮아 안전마진이 음수다(C:mos@klarman). 그래서 어떤 가격에도 안 산다는 `against`가 아니라, 코드가 계산한 조건 가격(C:buy_below@klarman) 이하라면 찬성하는 `conditional`이다. 현재가에서는 원칙을 지키지 못하므로 '보류'로 집계되는 것이 맞다. 그 조건 가격이 최근 52주 저점보다 훨씬 아래라 기다림이 보상받을 확률은 낮게 본다. 그래서 확신은 3으로 둔다.",
+  "case": {
+    "from": "base"
+  },
+  "metrics": {
+    "inefficiency": "none",
+    "intrinsic_value": 375.5,
+    "iv_low": 173.3,
+    "iv_high": 375.5,
+    "hard_value": 100.6,
+    "no_growth_ps": 100.6,
+    "downside": 0.75,
+    "growth_premium": 0.75,
+    "mos": -0.072,
+    "buy_below": 201.3,
+    "low_52w": 293.9,
+    "traded_below_52w": false,
+    "leveraged": false
+  },
+  "arguments": [
+    {
+      "point": "하방부터 본다. 성장이 멈춰도 남는 가치(주주 FCF를 할인율로 나눈 값과 순현금)는 주당 100.6달러로, 현재가 대비 하락 폭이 75%다. 영구적 손실의 크기가 안전마진 원칙의 한도를 넘는다.",
+      "cites": [
+        "C:hard_value@klarman",
+        "C:downside@klarman",
+        "F204"
+      ]
+    },
+    {
+      "point": "주가의 75%가 성장에 대한 값이다. 역DCF로 보면 기본 시나리오의 목표 마진을 가정해도 시장은 10년간 매출 연 14.3% 성장을 요구한다. 이는 기본 시나리오의 연 11.0%보다 높고, 성장의 작은 실망이 가격에 크게 반영되는 구조다.",
+      "cites": [
+        "C:growth_premium@klarman",
+        "C:implied_cagr",
+        "C:revenue_cagr@base"
+      ]
+    },
+    {
+      "point": "안전마진이 없다. 기본 시나리오 내재가치 375.5달러가 현재가 402.61달러보다 낮아 안전마진은 -7.2%다. 확률 가중 기대 연 수익률은 6.9%이고 손실 확률은 25%다. 모델이 컨센서스와 같아 우리 쪽 엣지도 없다.",
+      "cites": [
+        "C:intrinsic_value@klarman",
+        "C:mos@klarman",
+        "C:expected_irr",
+        "C:p_loss",
+        "F204"
+      ]
+    },
+    {
+      "point": "사업 품질은 하방 논리를 약화시키는 쪽이다. FY2025 ROIC 45.1%, 순부채/EBITDA 0.35배라 레버리지 레드라인에 걸리지 않고, 회계 신호도 없으며 가이던스 적중률은 100%다. 가격만 맞으면 살 회사라는 점이 `against`가 아니라 `conditional`을 고른 이유다.",
+      "cites": [
+        "C:roic@FY2025",
+        "C:net_debt_to_ebitda@klarman",
+        "C:guidance_hit_rate"
+      ]
+    },
+    {
+      "point": "기다리면 더 싸질 가능성은 낮다. 52주 저점은 293.89달러인데 조건 가격 201.3달러는 그 아래라 지난 1년간 한 번도 닿지 않았다. 강제 매도나 스핀오프 같은 제도적 비효율도 없다. 10월 상승은 추정 상향이 아니라 배수 상승이었고, 그래서 가격이 이익보다 앞서 달렸다.",
+      "cites": [
+        "C:buy_below@klarman",
+        "C:traded_below_52w@klarman",
+        "F205",
+        "S70"
+      ]
+    }
+  ],
+  "risks": [
+    {
+      "point": "사전 부검 1: 단단한 가치까지 깎는 시나리오. 인터체인지 규제(CCCA)나 DOJ 직불 독점 소송이 현실화하면 성장 프리미엄만 지워지는 것이 아니라 성장 없는 현금흐름 자체가 줄어 하방이 지금 계산보다 깊어질 수 있다. 직불 소송은 현 일정상 2028년 재판 가능성이 있고, CCCA는 정체 중이지만 대통령이 거듭 지지했다.",
+      "cites": [
+        "S79",
+        "S81",
+        "S80"
+      ]
+    },
+    {
+      "point": "사전 부검 2: 내가 틀렸다면 너무 보수적이었기 때문이다. 이 회사는 가이던스를 계속 상회하고 자사주 매입으로 주식 수가 줄어든다. 시장이 높은 배수를 유지하면 조건 가격이 오지 않고 기회를 놓친다. 이 손실은 회복 가능한 기회비용이라 영구적 손실보다 가볍게 본다.",
+      "cites": [
+        "C:guidance_hit_rate",
+        "C:share_change@FY2025",
+        "S70"
+      ]
+    },
+    {
+      "point": "사전 부검 3: 성장 없는 가치 계산이 보수적일 수 있다. 소송 충당이 반복되는 비용이라 주주 FCF 기준으로 보수적으로 잡았고, 이것이 하방을 키워 보였을 가능성이 있다. 소송 현금유출이 줄면 단단한 가치는 올라간다.",
+      "cites": [
+        "F420",
+        "F241",
+        "C:no_growth_ps@klarman"
+      ]
+    }
+  ],
+  "thesis_breaks": [
+    {
+      "metric": "debt",
+      "op": ">",
+      "value": 30000000000,
+      "note": "차입금 300억 달러 초과 — 인수와 환원으로 레버리지가 늘면 레버리지 레드라인 위험"
+    },
+    {
+      "metric": "payments_volume_growth_cc",
+      "op": "<",
+      "value": 0.06,
+      "note": "결제액 성장 6% 미만 — 성장 프리미엄을 정당화하는 핵심 동력 약화"
+    },
+    {
+      "note": "DOJ 직불 독점 소송이나 CCCA로 라우팅·수수료 구조가 바뀌는 판결·입법 — 수동 확인"
+    }
+  ]
+}

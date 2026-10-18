@@ -1,0 +1,1212 @@
+{
+ "sources": [
+  {
+   "id": "S900",
+   "type": "filing",
+   "title": "Cerebras Announces Financial Results for Second Quarter 2026 (8-K Ex.99.1)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0002021728/000162828026056186/cbrsannouncesfinancialresu.htm",
+   "note": "Q2 FY2026(2026-06-30 종료) 실적 보도자료. GAAP 매출 $180.1M(+74% YoY): 하드웨어 $54.1M(−23%), 클라우드·기타 서비스 $126.0M(+281%). Core 매출 $209.9M(+103%): core 하드웨어 $82.1M(+17%), core 클라우드 $127.7M(+287%). H1 GAAP 매출 $373.5M, core $401.2M. GAAP 매출총이익 $25.6M(14.2%) vs core $85.2M(40.6%); core 하드웨어 GM 38.8%, core 클라우드 GM 41.8%; H1 GAAP GM 29.9%, core 43.4%. GAAP 영업손실 $(477.2)M(−265%) vs core $(33.6)M(−16%); 조정 EBITDA $(53.1)M; GAAP 순손실 $(450.5)M(EPS −$2.98) vs core 순손실 $(6.9)M. Core는 '고객 워런트의 비현금 상각과 주식보상'과 패스스루 항목 등을 제외. 매출 브리지: GAAP $180.1M − 패스스루 매출 $14.5M + 워런트 상각 $44.3M(하드웨어 $28.0M, 클라우드 $16.2M) = core $209.9M. 매출총이익 조정: 패스스루 비용 $14.1M, 워런트 상각 $44.3M, 매출원가 내 SBC $15.4M, IPO 관련 SBC 급여세 $0.5M. 영업 조정: SBC 합계 $377.0M, 워런트 상각 $44.3M, 패스스루 비용 $14.1M, IPO SBC 급여세 $22.8M, 패스스루 매출 차감 $14.5M; GAAP 영업비용 $502.8M vs core $118.8M. Q2 2025 GAAP 순이익 $309.5M에는 선도계약 소멸 이익 $363.3M 포함. 2026-06-30 현금성자산 $6,742.2M, 제한현금 $684.7M, 투자자산(유동) $1,179.4M, 총 유동성 $8.6B. H1 현금흐름: 영업 $(47.5)M, capex $(548.9)M, 재무 +$7,853.2M(IPO 순수입 $6,232.5M, Series H $1,014.2M, 운전자본 대출 $1,004.6M). 가이던스: Q3 core 매출 $214–216M, core GM 38–40%, core 영업이익률 (25)%~(23)%. FY2026 상향: core 매출 $880–890M(종전 $855–865M), core GM 41–43%(종전 38–41%), core 영업이익률 (19)%~(17)%(종전 (28)~(32)%). CFO: 2027년 매출을 '3배 넘게(more than triple)' 늘릴 계획 — 정량 범위·core/GAAP 구분 없음. >600 MW 가동·계약(2027년 말까지 인도), Flex·Sanmina·Rocket EMS 위탁생산으로 2026년 생산능력 10배 이상. TSMC 웨이퍼 확보, HBM·CoWoS·3nm 미사용. 회사 주장: GPT-5.6 Sol 750 tok/s 서비스, AMD 분리형 추론 최대 5배 처리량(2026Q4 양산), AWS Bedrock 분리형 추론(2027Q1).",
+   "date": "2026-08-12"
+  },
+  {
+   "id": "S901",
+   "type": "filing",
+   "title": "Cerebras Announces Financial Results for First Quarter 2026 (8-K Ex.99.1)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0002021728/000162828026044941/cbrsannouncesfinancialresu.htm",
+   "note": "Q1 FY2026(2026-03-31 종료) 실적 보도자료. GAAP 매출 $193.4M(+94% YoY): 하드웨어 $110.6M, 클라우드·기타 $82.8M. Core 매출 $191.3M(+92%). GAAP GM 45%, core 47%. GAAP 영업손실 $15.0M, core $3.5M. GAAP 순손실 $14.0M. Q1과 함께 낸 첫 가이던스: Q2 core 매출 약 $194.0M, core GM 36–38%; FY2026 core 매출 $855–865M, core GM 38–41%, core 영업이익률 (28)%~(32)%. 최대 $850M 리볼빙 신용한도('데이터센터 인수 자금용') — 미인출(MarketBeat 2026-08-12 기준). 실적 이력: Q2 core 매출 $209.9M과 core GM 40.6%는 이 가이던스(약 $194M, 36–38%)를 웃돌았다(S900).",
+   "date": "2026-06-23"
+  },
+  {
+   "id": "S902",
+   "type": "call",
+   "title": "Cerebras Systems Q2 Earnings Call Highlights (MarketBeat)",
+   "url": "https://www.marketbeat.com/instant-alerts/cerebras-systems-q2-earnings-call-highlights-2026-08-12/",
+   "note": "2차(콜 요약, 원문 아님). 경영진: Q2 매출총이익률 압박 약 500bp는 수요 대응을 위해 클라우드 고객에게서 시스템을 일시 재임차(rent-back)한 탓; Q3가 GM 저점이고 자체 시스템 데이터센터 가동으로 Q4 개선 예상. 장기 GM 목표는 '시간이 지나며' 60% 초과 — 2027년 마진 수치는 제시하지 않음(S29의 '2027 core GM 60%+'보다 약함). CS-5는 2027년 하반기 예정, 속도 매년 2배·향후 18개월 처리량 20배 이상 주장. RPO $25.4B에는 AWS 등 하이퍼스케일러 백로그 미포함. AWS Bedrock GA 2027Q1 예상, 첫 하이퍼스케일러 매출 2027년 중반, 2028년까지 증가. Q2에 OpenAI·하이퍼스케일러 외 $30M 초과 계약 6건; 고객 Figma·Cognition·Lovable·Block·AlphaSense·GSK·CrowdStrike. 계약 시설로 2027년 추가 3–4배 능력. $850M 리볼버 미인출.",
+   "date": "2026-08-12"
+  },
+  {
+   "id": "S903",
+   "type": "news",
+   "title": "Cerebras stock almost doubles initial offering price in biggest tech IPO in years (SiliconANGLE)",
+   "url": "https://siliconangle.com/2026/05/13/cerebras-stock-almost-doubles-initial-offering-price-biggest-tech-ipo-years-raised-55b/",
+   "note": "IPO 2026-05-13 가격 결정, 05-14 거래 시작. 범위 $115–125(2,800만 주) → $150–160(3,000만 주)로 상향 후 $185에 결정. 시초가 $350, 장중 고점 약 $386, 첫날 종가 $311.07(+68%). IPO가 기준 완전희석 가치 약 $56.4B. FY2025 MBZUAI 62%·G42 24% 매출 비중(S-1 기준 보도).",
+   "date": "2026-05-13"
+  },
+  {
+   "id": "S904",
+   "type": "news",
+   "title": "Cerebras Faces Fast IPO Lockup Release (LetsDataScience)",
+   "url": "https://letsdatascience.com/news/cerebras-faces-fast-ipo-lockup-release-8d4f562d",
+   "note": "2차(Seeking Alpha의 S-1 요약 인용). 주 락업은 (a) 2026-09-30 종료 분기 실적 발표 후 2거래일 또는 (b) 투자설명서 날짜 후 180일 중 이른 날 종료. 약 1억 7,100만 주(IPO 규모의 약 5배)가 대상. 180일은 약 2026-11-09(노트 계산). 즉 Q3 실적(2026년 11월 초중순 예상)과 주 락업 해제가 겹친다.",
+   "date": "2026-05-17"
+  },
+  {
+   "id": "S905",
+   "type": "news",
+   "title": "Cerebras stock braces for 19.4 million share unlock (Benzinga)",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62330736/cerebras-stock-braces-for-19-4-million-share-unlock",
+   "note": "2026-10-12 종가 $146.62 — 당시 사상 최저. 10-13 장중 $147.34(이후 위젯 $132.30, −6.94%). 분할 락업 해제: 2026-08-19부터 2주마다 최대 1,460만 주, 2026-09-30 최대 1,940만 주(발행주식 약 8%), 2026-10-14 추가 최대 1,940만 주. Citi는 2026–2028 매출 전망 '변경 없음', GPT-6.1 롤아웃에 대해 '많이 읽기엔 이르다'. 주의: 10-12 종가 $146.62는 기존 F40($175.44를 2026-10-13 값으로 기록, S27 Weiss)이 10-13 종가일 수 없음을 보여준다 — F40은 9/30~10/1 무렵 값으로 보인다(노트 추론).",
+   "date": "2026-10-13"
+  },
+  {
+   "id": "S906",
+   "type": "news",
+   "title": "Cerebras stock hits post-IPO low on Nvidia pressure, lockup expiration (CNBC via Ghanamma)",
+   "url": "https://www.ghanamma.com/?p=71787",
+   "note": "CNBC 기사 전재(2차). CEO 앤드루 펠드먼과 CTO 션 리가 2026-08-20~09-25에 IPO 직후 채택한 매매계획으로 Class A 주식 $240M 넘게 매도. 2026-10-02 종가 $166.43, 시총 약 $39B. Axios: IPO 시점에 추가 해제 회차가 '10월 말까지' 이어진다고 보도. 2026-09-30 SemiAnalysis가 X에 OpenAI GPT-6.1 Sol 'Ultrafast' 모드가 Cerebras가 아닌 Nvidia GPU에서 돈다고 게시 — 양사 모두 확인·부인하지 않음.",
+   "date": "2026-10-02"
+  },
+  {
+   "id": "S907",
+   "type": "news",
+   "title": "Cerebras stock hits post-IPO low on Nvidia pressure, lockup expiration (CNBC)",
+   "url": "https://www.cnbc.com/2026/10/02/cerebras-stock-hits-post-ipo-low-on-nvidia-pressure-lockup-expiration.html",
+   "note": "CNBC 원문. Q2 실적 후 주가 약 14% 하락. OpenAI 계약을 '2028년까지 $10B 넘는' 규모로 기술 — 424B4의 '$20B 넘는'과 충돌(공시 수치 우선).",
+   "date": "2026-10-02"
+  },
+  {
+   "id": "S908",
+   "type": "news",
+   "title": "Cerebras insiders file Form 144 (Tech Jacks citing 24/7 Wall St.)",
+   "url": "https://techjacksolutions.com/?p=92070",
+   "note": "2차. 2026-10-01 무렵 약 $84M 규모 Form 144 매도 예정 통지 제출. 2026-09-30 종가 $194.95, 10-01 장중 약 $177.65(−8.9%).",
+   "date": "2026-10-01"
+  },
+  {
+   "id": "S909",
+   "type": "news",
+   "title": "Cerebras IPO (Curved Trading)",
+   "url": "https://curvedtrading.com/articles/en/investing/cerebras-ipo/",
+   "note": "2차. 2026-06-23 Q1 실적 후 약 2,800만 주 조기 해제, 주 180일 락업은 '2026년 11월 중순 무렵'이라고 기술 — 다른 2차 자료(S904·S905)와 일정이 일부 다르다. Q1 실적 후 주가 약 20% 하락, 매출총이익률 가이던스가 계기, CEO는 '오해'라고 언급.",
+   "date": "2026-07-02"
+  },
+  {
+   "id": "S910",
+   "type": "news",
+   "title": "Cerebras S-1 Teardown: Is the $23B Wafer-Scale IPO the End of GPU Homogeneity? (Futurum)",
+   "url": "https://futurumgroup.com/insights/cerebras-s-1-teardown-is-the-23b-wafer-scale-ipo-the-end-of-gpu-homogeneity/",
+   "note": "2차(S-1 분석). FY2025 매출 비중 MBZUAI 62.0%, G42 24.0%(둘 다 UAE, 특수관계); MBZUAI는 연말 매출채권의 77.9%. FY2025 GAAP 순이익에는 G42 관련 선도계약 소멸에 따른 일회성 비현금 이익 $363.3M 포함; FY2025 non-GAAP 순손실 $75.7M, SBC $49.8M. OpenAI 운전자본 대출: 이자율 6%, 용량 인도로 상환하면 이자 면제; 인도·SLA 미달 시 OpenAI가 대출 자금을 회수하고 상환을 요구할 수 있음. OpenAI 워런트 확정 조건에 시총 $40B 초과·2GW 전량 인도 등 포함, 전량 확정 시 OpenAI 지분 약 10%. AWS와 구속력 있는 텀시트: Bedrock에 CS-3, Trainium3가 prefill·Cerebras가 decode. S-1 위험: UAE 매출 집중, BIS 수출통제, OpenAI 대출 회수, 하이퍼스케일 데이터센터 운영 이력 없음, 단일 파운드리(TSMC 5nm) 의존, TSMC의 5nm→3nm 전환. Series H $1B(Tiger Global 주도) 2026년 2월 종결. 주관사 Morgan Stanley·Citigroup·Barclays·UBS. S-1 시점 가치 약 $23B(후행 매출 약 45배).",
+   "date": "2026-04-22"
+  },
+  {
+   "id": "S911",
+   "type": "news",
+   "title": "Cerebras: Faster Tokens Please (SemiAnalysis)",
+   "url": "https://newsletter.semianalysis.com/p/cerebras-faster-tokens-please",
+   "note": "2차(독립 분석, 일부 유료). 구조적 비판: SRAM 확장 정체 — 18GB(16nm)·40GB(7nm)·44GB(5nm), N3E는 '축소 0', CS-4도 WSE-3 SRAM 유지. 웨이퍼 밖 I/O 약 150GB/s vs NVLink5 900GB/s. DeepSeek V4에 CS-3 약 24대 vs GB300 NVL72 5랙. 프로덕션 최대 모델 120B(355B 프리뷰), 1T–5T 프런티어 모델은 1,000 tok/s 미만 가능성. WSE-3: TSMC N5 웨이퍼 1장 약 $20k, 44GB SRAM, 약 21PB/s; 마케팅 125 PFLOPS(희소 FP16) vs SemiAnalysis 추정 밀집 약 15.6 PFLOPS(B300 13.5·GB300 15·Rubin 35 PFLOPS 밀집 FP4). 랙당 BOM 약 $450k(메모리 비용으로 $350k에서 상향). 오클라호마 시설은 5°C 입수 6,000톤 냉각 플랜트(NVL72 사양 45°C). RPO는 2025-12-31 $24.6B, '사실상 전부' OpenAI. OpenAI 워런트 완전희석 최대 약 12%; 주당 $82.02 기준 OpenAI 워런트 매출 차감 이론상 최대 약 $2.74B(예상 OpenAI 매출의 약 10%). OpenAI 대출: OpenAI 자신의 미치유 위반이 아닌 사유로 계약이 끝나면 잔액 전액 즉시 상환 요구 가능(가속 조항).",
+   "date": "2026-05-13"
+  },
+  {
+   "id": "S912",
+   "type": "news",
+   "title": "Cerebras (CBRS) stock plummets 9% on Nvidia partnership concerns (Parameter)",
+   "url": "https://parameter.io/cerebras-cbrs-stock-plummets-9-on-nvidia-partnership-concerns/",
+   "note": "2차. 2026-09-30 SemiAnalysis 주장: OpenAI GPT-6.1 Sol Ultrafast가 Nvidia에서 돈다 — 핵심은 '낮은 배치 크기' 서비스. 약세 근거: RPO 전환의 가장 중요한 단일 반대 신호(노트 추론). 주의: 이 기사는 IPO가를 $350로 잘못 적음($350은 시초가, IPO가 $185).",
+   "date": "2026-10-01"
+  },
+  {
+   "id": "S913",
+   "type": "news",
+   "title": "Cerebras CBRS stock drop: OpenAI and Nvidia (KuCoin blog)",
+   "url": "https://www.kucoin.com/blog/bd-cerebras-cbrs-stock-drop-openai-nvidia",
+   "note": "저품질 2차. 강세 반론: 2026년 8월 OpenAI가 GPT-5.6 Sol Ultrafast는 Cerebras 기반(최대 약 750 tok/s)이라고 확인; OpenAI는 750MW 계약을 취소하지 않았다. 2026-09-25 주가 $206.75.",
+   "date": "2026-10-05"
+  },
+  {
+   "id": "S914",
+   "type": "news",
+   "title": "Cerebras stock record low, down 62 percent (Crypto Briefing)",
+   "url": "https://cryptobriefing.com/cerebras-stock-record-low-down-62-percent/",
+   "note": "2차, 모호함. '여름에 나온' SemiAnalysis 보고서가 핵심 워크로드의 Cerebras→Nvidia 이동을 시사했다고 보도. 첫날 장중 고점 약 $386 대비 사상 최저.",
+   "date": "2026-10-12"
+  },
+  {
+   "id": "S915",
+   "type": "news",
+   "title": "Nvidia says its Groq 3 LPX is four times faster than Cerebras, but the math is more complicated (The Decoder)",
+   "url": "https://the-decoder.com/nvidia-says-its-groq-3-lpx-is-four-times-faster-than-cerebras-but-the-math-is-more-complicated/",
+   "note": "2차, 날짜는 Hot Chips 발표일(2026-08-25) 기준. Nvidia 주장: Groq 3 LPX가 Gemma 4 31B·100K 컨텍스트에서 3,400 tok/s(Artificial Analysis 벤치마크)로 Cerebras 882 tok/s의 4배. 강세 반론(단서): Nvidia 구성은 가속기 최소 64개 vs Cerebras 1–2대, 밀집 모델이 한 랙에 들어가는 경우이고 MoE 확장은 미검증, CS-4는 비교에서 빠짐. LPX는 2026년 하반기 Nebius부터 가동.",
+   "date": "2026-08-25"
+  },
+  {
+   "id": "S916",
+   "type": "news",
+   "title": "Cerebras won speed, not the shortlist (BenchLM)",
+   "url": "https://benchlm.ai/blog/posts/cerebras-won-speed-not-the-shortlist",
+   "note": "벤더 공개표(독립 실측 아님). 속도: GPT-OSS 120B Cerebras 약 3,000 tok/s vs Groq 약 500; Gemma 4 31B Cerebras 약 1,850 tok/s. 가격: GPT-OSS 120B Cerebras 입력/출력 1M 토큰당 $0.35/$0.75 vs Groq $0.15/$0.60 — 더 빠르지만 더 비쌈. Cerebras 공개 카탈로그는 엔드포인트 2개뿐; 필자는 속도가 에이전트 지연을 좌우하는 일은 드물다고 주장.",
+   "date": "2026-08-18"
+  },
+  {
+   "id": "S917",
+   "type": "news",
+   "title": "Nvidia to buy AI chip startup Groq assets (Yahoo Finance / Reuters)",
+   "url": "https://finance.yahoo.com/news/nvidia-buy-ai-chip-startup-210634730.html",
+   "note": "2025년 12월(정확한 날짜 미확인). Nvidia가 Groq 기술 라이선스와 경영진 영입에 합의, 거래 가치 약 $20B — Cerebras의 저지연 추론 틈새에 직접 경쟁."
+  },
+  {
+   "id": "S918",
+   "type": "data",
+   "title": "Cerebras Systems cratered by 20% this year; it's going to double according to this analyst (24/7 Wall St.)",
+   "url": "https://247wallst.com/investing/2026/10/13/cerebras-systems-cratered-by-20-this-year-its-going-to-double-in-price-according-to-this-respected-wall-street-analyst/",
+   "note": "2026-10-13 기준 컨센서스 목표가 $291.64(애널리스트 11명: Strong Buy 3·Buy 7·Hold 1). 최고 목표가 UBS(Timothy Arcuri) Buy $330. 2027년 EPS 컨센서스 $1.27(60일 전 $0.96). 매출 컨센서스는 없음.",
+   "date": "2026-10-13"
+  },
+  {
+   "id": "S919",
+   "type": "news",
+   "title": "Cerebras stock soars 18% as multiple Wall Street firms launch coverage with buy ratings (TIKR)",
+   "url": "https://www.tikr.com/blog/cerebras-nasdaq-crbs-stock-soars-18-as-multiple-wall-street-firms-launch-coverage-with-buy-ratings",
+   "note": "2차. 2026-06-09 9개사 커버리지 개시, 전원 매수 등급, 목표가 $250–300(Barclays·Citi·Mizuho·Morgan Stanley·Needham·Rosenblatt·TD Cowen·UBS·Wedbush). 06-08 종가 $234, 06-09 +18%. UBS: Cerebras는 현재 선지급 계약으로 OpenAI에 출하하는 유일한 공급사.",
+   "date": "2026-06-09"
+  },
+  {
+   "id": "S920",
+   "type": "news",
+   "title": "Cerebras to deploy 200MW of compute in Europe by end of 2027 (DCD)",
+   "url": "https://www.datacenterdynamics.com/en/news/cerebras-to-deploy-200mw-of-compute-in-europe-by-end-of-2027/",
+   "note": "2027년 말까지 유럽 200MW(프랑스·북유럽·노르웨이·핀란드). 기존 미국: Santa Clara·Stockton(Nautilus 부유 바지선)·Dallas·Columbiana AL, Minneapolis 구축 중; Montreal(Bit Digital), Saskatchewan·Manitoba(Bell), Guyana(계획), India(G42와). 2026년 5월 Digi Power X(앨라배마) 40MW 임차. CEO: 부지 확보는 '개싸움(dog fight)'. 주의: 이 기사의 'FY2025 순이익 $87.9M'은 424B4($237.8M)와 충돌 — 공시 수치 사용.",
+   "date": "2026-07-09"
+  },
+  {
+   "id": "S921",
+   "type": "news",
+   "title": "UAE-backed Cerebras passes US security check before IPO (AGBI)",
+   "url": "https://www.agbi.com/ai/2025/04/uae-backed-cerebras-passes-us-security-check-before-ipo",
+   "note": "6개월 넘은 자료. 2025년 3–4월 CFIUS가 G42 관계 심사 통과 — G42는 무의결권 주식 매입($335M, 약 5% 예정). 2024년 상반기 G42가 매출의 87%. 2026년 UAE·인도 출하 수출 허가 현황은 미확인.",
+   "date": "2025-04-01"
+  }
+ ],
+ "facts": [
+  {
+   "metric": "shares_outstanding",
+   "value": 237564041,
+   "unit": "shares",
+   "end": "2026-08-05",
+   "basis": "reported",
+   "source": "S1"
+  },
+  {
+   "metric": "shares_outstanding_class_a",
+   "value": 112247109,
+   "unit": "shares",
+   "end": "2026-08-05",
+   "basis": "reported",
+   "source": "S1"
+  },
+  {
+   "metric": "shares_outstanding_class_b",
+   "value": 111601424,
+   "unit": "shares",
+   "end": "2026-08-05",
+   "basis": "reported",
+   "source": "S1"
+  },
+  {
+   "metric": "shares_outstanding_class_n",
+   "value": 13715508,
+   "unit": "shares",
+   "end": "2026-08-05",
+   "basis": "reported",
+   "source": "S1"
+  },
+  {
+   "metric": "revenue_hardware",
+   "value": 54100000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "revenue_cloud",
+   "value": 126000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "core_revenue_hardware",
+   "value": 82100000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "core_revenue_cloud",
+   "value": 127700000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "revenue",
+   "value": 373500000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026H1"
+  },
+  {
+   "metric": "core_revenue",
+   "value": 401200000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026H1"
+  },
+  {
+   "metric": "core_gross_profit",
+   "value": 85200000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "core_gross_margin_hardware",
+   "value": 0.388,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "core_gross_margin_cloud",
+   "value": 0.418,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "gaap_gross_margin",
+   "value": 0.299,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026H1"
+  },
+  {
+   "metric": "core_gross_margin",
+   "value": 0.434,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026H1"
+  },
+  {
+   "metric": "core_operating_income",
+   "value": -33600000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "core_operating_margin",
+   "value": -0.16,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "adjusted_ebitda",
+   "value": -53100000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "non_gaap_net_income",
+   "value": -6900000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "diluted_eps",
+   "value": -2.98,
+   "unit": "USD/share",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "operating_expenses",
+   "value": 502800000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "core_operating_expenses",
+   "value": 118800000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "pass_through_revenue",
+   "value": 14500000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "pass_through_costs",
+   "value": 14100000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "customer_warrant_amortization",
+   "value": 44300000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "customer_warrant_amortization_hardware",
+   "value": 28000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "customer_warrant_amortization_cloud",
+   "value": 16200000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "customer_warrant_amortization",
+   "value": 46300000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2026H1"
+  },
+  {
+   "metric": "customer_warrant_asset_current",
+   "value": 167800000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "customer_warrant_asset_noncurrent",
+   "value": 960600000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "sbc_cost_of_revenue",
+   "value": 15400000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "ipo_sbc_payroll_tax",
+   "value": 22800000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "ipo_rsu_catchup_sbc",
+   "value": 273600000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "sbc",
+   "value": 386600000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2026H1"
+  },
+  {
+   "metric": "sbc",
+   "value": 22400000.0,
+   "unit": "USD",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2025H1"
+  },
+  {
+   "metric": "options_outstanding",
+   "value": 23800000.0,
+   "unit": "shares",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "unvested_rsus",
+   "value": 16500000.0,
+   "unit": "shares",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "contingent_prsus",
+   "value": 9000000.0,
+   "unit": "shares",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "revenue_hardware",
+   "value": 110600000.0,
+   "unit": "USD",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S901",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "revenue_cloud",
+   "value": 82800000.0,
+   "unit": "USD",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S901",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "core_revenue",
+   "value": 191300000.0,
+   "unit": "USD",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S901",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "core_gross_margin",
+   "value": 0.47,
+   "unit": "ratio",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S901",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "gaap_gross_margin",
+   "value": 0.45,
+   "unit": "ratio",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S901",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "core_operating_income",
+   "value": -3500000.0,
+   "unit": "USD",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S901",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "rpo_recognized_within_24m_share",
+   "value": 0.22,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "rpo_recognized_25_48m_share",
+   "value": 0.43,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "remaining_performance_obligations",
+   "value": 24600000000.0,
+   "unit": "USD",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S911",
+   "period": "FY2025"
+  },
+  {
+   "metric": "customer_a_revenue_share",
+   "value": 0.34,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "customer_b_revenue_share",
+   "value": 0.32,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "customer_c_revenue_share",
+   "value": 0.1,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "customer_a_revenue_share",
+   "value": 0.49,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2026H1"
+  },
+  {
+   "metric": "customer_b_revenue_share",
+   "value": 0.2,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2026H1"
+  },
+  {
+   "metric": "customer_d_revenue_share",
+   "value": 0.1,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2026H1"
+  },
+  {
+   "metric": "customer_a_revenue_share",
+   "value": 0.7,
+   "unit": "ratio",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2025Q2"
+  },
+  {
+   "metric": "customer_d_revenue_share",
+   "value": 0.18,
+   "unit": "ratio",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2025Q2"
+  },
+  {
+   "metric": "customer_b_receivables_share",
+   "value": 0.57,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "customer_d_receivables_share",
+   "value": 0.19,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "customer_a_receivables_share",
+   "value": 0.78,
+   "unit": "ratio",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2025"
+  },
+  {
+   "metric": "mbzuai_revenue_share",
+   "value": 0.62,
+   "unit": "ratio",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S910",
+   "period": "FY2025"
+  },
+  {
+   "metric": "g42_revenue_share",
+   "value": 0.24,
+   "unit": "ratio",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S910",
+   "period": "FY2025"
+  },
+  {
+   "metric": "mbzuai_receivables_share",
+   "value": 0.779,
+   "unit": "ratio",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S910",
+   "period": "FY2025"
+  },
+  {
+   "metric": "openai_revenue",
+   "value": 56800000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "openai_revenue",
+   "value": 74400000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2026H1"
+  },
+  {
+   "metric": "openai_warrant_amortization",
+   "value": 2500000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "openai_warrant_amortization",
+   "value": 3300000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2026H1"
+  },
+  {
+   "metric": "openai_warrant_shares_nominal_strike",
+   "value": 33445026,
+   "unit": "shares",
+   "end": "2026-05-13",
+   "basis": "reported",
+   "source": "S33"
+  },
+  {
+   "metric": "openai_warrant_shares_100_strike",
+   "value": 2696678,
+   "unit": "shares",
+   "end": "2026-05-13",
+   "basis": "reported",
+   "source": "S33"
+  },
+  {
+   "metric": "openai_committed_capacity_mw",
+   "value": 750,
+   "unit": "count",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "openai_working_capital_loan",
+   "value": 918200000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "working_capital_loan_proceeds",
+   "value": 1004600000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026H1"
+  },
+  {
+   "metric": "openai_loan_interest_rate",
+   "value": 0.06,
+   "unit": "ratio",
+   "end": "2026-04-22",
+   "basis": "reported",
+   "source": "S910"
+  },
+  {
+   "metric": "ipo_price",
+   "value": 185.0,
+   "unit": "USD/share",
+   "end": "2026-05-13",
+   "basis": "reported",
+   "source": "S33"
+  },
+  {
+   "metric": "ipo_shares_offered",
+   "value": 30000000,
+   "unit": "shares",
+   "end": "2026-05-13",
+   "basis": "reported",
+   "source": "S33"
+  },
+  {
+   "metric": "ipo_overallotment_shares",
+   "value": 4500000,
+   "unit": "shares",
+   "end": "2026-05-13",
+   "basis": "reported",
+   "source": "S33"
+  },
+  {
+   "metric": "ipo_gross_proceeds_base",
+   "value": 5550000000.0,
+   "unit": "USD",
+   "end": "2026-05-13",
+   "basis": "reported",
+   "source": "S33"
+  },
+  {
+   "metric": "ipo_underwriting_discount",
+   "value": 130400000.0,
+   "unit": "USD",
+   "end": "2026-05-13",
+   "basis": "reported",
+   "source": "S33"
+  },
+  {
+   "metric": "ipo_rsu_tax_withholding",
+   "value": 416100000.0,
+   "unit": "USD",
+   "end": "2026-05-13",
+   "basis": "reported",
+   "source": "S33"
+  },
+  {
+   "metric": "class_b_voting_power",
+   "value": 0.992,
+   "unit": "ratio",
+   "end": "2026-05-13",
+   "basis": "reported",
+   "source": "S33"
+  },
+  {
+   "metric": "class_b_share_of_shares",
+   "value": 0.853,
+   "unit": "ratio",
+   "end": "2026-05-13",
+   "basis": "reported",
+   "source": "S33"
+  },
+  {
+   "metric": "insider_ownership",
+   "value": 0.381,
+   "unit": "ratio",
+   "end": "2026-05-13",
+   "basis": "reported",
+   "source": "S33"
+  },
+  {
+   "metric": "insider_voting_power",
+   "value": 0.508,
+   "unit": "ratio",
+   "end": "2026-05-13",
+   "basis": "reported",
+   "source": "S33"
+  },
+  {
+   "metric": "restricted_cash",
+   "value": 684680000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "short_term_investments",
+   "value": 1179390000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "total_liquidity",
+   "value": 8600000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "ocf",
+   "value": -47500000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026H1"
+  },
+  {
+   "metric": "capex",
+   "value": 548900000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026H1"
+  },
+  {
+   "metric": "financing_cash_flow",
+   "value": 7853200000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026H1"
+  },
+  {
+   "metric": "ipo_net_proceeds",
+   "value": 6232500000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026H1"
+  },
+  {
+   "metric": "series_h_proceeds",
+   "value": 1014200000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2026H1"
+  },
+  {
+   "metric": "operating_lease_rou_assets",
+   "value": 528300000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "lease_liabilities_current",
+   "value": 88400000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "lease_liabilities_noncurrent",
+   "value": 480400000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "reported",
+   "source": "S1",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "revolver_capacity",
+   "value": 850000000.0,
+   "unit": "USD",
+   "end": "2026-03-31",
+   "basis": "reported",
+   "source": "S901",
+   "period": "FY2026Q1"
+  },
+  {
+   "metric": "net_income",
+   "value": 237827000,
+   "unit": "USD",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S33",
+   "period": "FY2025"
+  },
+  {
+   "metric": "forward_contract_extinguishment_gain",
+   "value": 363300000.0,
+   "unit": "USD",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S910",
+   "period": "FY2025"
+  },
+  {
+   "metric": "net_income",
+   "value": 309500000.0,
+   "unit": "USD",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2025Q2"
+  },
+  {
+   "metric": "forward_contract_extinguishment_gain",
+   "value": 363300000.0,
+   "unit": "USD",
+   "end": "2025-06-30",
+   "basis": "reported",
+   "source": "S900",
+   "period": "FY2025Q2"
+  },
+  {
+   "metric": "sbc",
+   "value": 49800000.0,
+   "unit": "USD",
+   "end": "2025-12-31",
+   "basis": "reported",
+   "source": "S910",
+   "period": "FY2025"
+  },
+  {
+   "metric": "core_gross_margin",
+   "value": 0.42,
+   "unit": "ratio",
+   "end": "2026-12-31",
+   "basis": "guidance",
+   "source": "S900",
+   "low": 0.41,
+   "high": 0.43,
+   "period": "FY2026"
+  },
+  {
+   "metric": "core_gross_margin",
+   "value": 0.395,
+   "unit": "ratio",
+   "end": "2026-12-31",
+   "basis": "guidance",
+   "source": "S901",
+   "low": 0.38,
+   "high": 0.41,
+   "period": "FY2026"
+  },
+  {
+   "metric": "core_operating_margin",
+   "value": -0.18,
+   "unit": "ratio",
+   "end": "2026-12-31",
+   "basis": "guidance",
+   "source": "S900",
+   "low": -0.19,
+   "high": -0.17,
+   "period": "FY2026"
+  },
+  {
+   "metric": "core_operating_margin",
+   "value": -0.3,
+   "unit": "ratio",
+   "end": "2026-12-31",
+   "basis": "guidance",
+   "source": "S901",
+   "low": -0.32,
+   "high": -0.28,
+   "period": "FY2026"
+  },
+  {
+   "metric": "core_operating_margin",
+   "value": -0.24,
+   "unit": "ratio",
+   "end": "2026-09-30",
+   "basis": "guidance",
+   "source": "S900",
+   "low": -0.25,
+   "high": -0.23,
+   "period": "FY2026Q3"
+  },
+  {
+   "metric": "core_revenue",
+   "value": 194000000.0,
+   "unit": "USD",
+   "end": "2026-06-30",
+   "basis": "guidance",
+   "source": "S901",
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "core_gross_margin",
+   "value": 0.37,
+   "unit": "ratio",
+   "end": "2026-06-30",
+   "basis": "guidance",
+   "source": "S901",
+   "low": 0.36,
+   "high": 0.38,
+   "period": "FY2026Q2"
+  },
+  {
+   "metric": "revenue_multiple_yoy",
+   "value": 3.0,
+   "unit": "x",
+   "end": "2027-12-31",
+   "basis": "guidance",
+   "source": "S900",
+   "low": 3.0,
+   "period": "FY2027"
+  },
+  {
+   "metric": "price",
+   "value": 146.62,
+   "unit": "USD/share",
+   "end": "2026-10-12",
+   "basis": "market",
+   "source": "S905"
+  },
+  {
+   "metric": "price",
+   "value": 166.43,
+   "unit": "USD/share",
+   "end": "2026-10-02",
+   "basis": "market",
+   "source": "S906"
+  },
+  {
+   "metric": "price",
+   "value": 194.95,
+   "unit": "USD/share",
+   "end": "2026-09-30",
+   "basis": "market",
+   "source": "S908"
+  },
+  {
+   "metric": "price",
+   "value": 311.07,
+   "unit": "USD/share",
+   "end": "2026-05-14",
+   "basis": "market",
+   "source": "S903"
+  },
+  {
+   "metric": "price_target",
+   "value": 291.64,
+   "unit": "USD/share",
+   "end": "2026-10-13",
+   "basis": "consensus",
+   "source": "S918"
+  },
+  {
+   "metric": "price_target_high",
+   "value": 330.0,
+   "unit": "USD/share",
+   "end": "2026-10-13",
+   "basis": "consensus",
+   "source": "S918"
+  },
+  {
+   "metric": "analyst_count",
+   "value": 11,
+   "unit": "count",
+   "end": "2026-10-13",
+   "basis": "consensus",
+   "source": "S918"
+  },
+  {
+   "metric": "diluted_eps",
+   "value": 1.27,
+   "unit": "USD/share",
+   "end": "2027-12-31",
+   "basis": "consensus",
+   "source": "S918",
+   "period": "FY2027"
+  }
+ ],
+ "gaps": [
+  "Q3 FY2026(2026-09-30 종료) 실적 발표일 공식 확인 안 됨(11월 초중순 예상). 주 락업 해제가 이 발표에 연동돼 있어 펀더멘털 시험과 물량 부담이 겹친다.",
+  "FY2026·FY2027 연간 매출 컨센서스를 찾지 못했다. 기존 F59·F60(core 매출)은 가이던스 상향 전 값이다. 2027 EPS 컨센서스 $1.27과 목표가 $291.64(S918)만 있다.",
+  "424B4 원문의 정확한 락업 일정은 확인하지 못했고 2차 자료(S904·S905·S906·S909)끼리 일부 충돌한다.",
+  "어닝콜 원문이 없다. Q&A는 2차 요약(S902·S29)뿐이다.",
+  "Q2 단독 ocf·capex(F64·F62)는 1차 자료에서 따로 확인하지 못했다. H1 ocf −$47.5M·capex $548.9M와 Q1 값의 차이로는 일치한다.",
+  "OpenAI MRA의 take-or-pay·최소 지급·해지 조건, MBZUAI·G42 계약 구조, Q2 고객 C(10%)의 정체는 미확인. 고객 B=OpenAI, A=MBZUAI, D=G42는 노트의 추론(B: $56.8M/$180.1M≈32%, A: 2025년 말 매출채권 78% ≈ S-1의 MBZUAI 77.9%)이다.",
+  "Q2 워런트 상각 $44.3M 중 OpenAI 몫은 $2.5M뿐 — 나머지(하드웨어 매출에서 $28.0M 차감)를 가진 고객과 2031년 10월까지의 연도별 상각 일정을 모른다. 워런트 자산 합계 약 $1.13B(유동 $167.8M + 비유동 $960.6M).",
+  "RPO 인식 시기 중 48개월 이후 몫(약 35%)은 22%·43%를 뺀 나머지로 노트 계산 값이다. AWS 등 하이퍼스케일러 백로그는 RPO에 없고 규모·워런트 여부도 모른다.",
+  "IPO 후 반복 SBC 수준: Q2 SBC $377.0M에서 일회성 $273.6M을 빼면 약 $103M(노트 계산) — Q3로 확인 필요.",
+  "완전희석 주식 수(옵션 2,380만·RSU 1,650만·PRSU 900만·OpenAI 워런트 중 확정분)는 알 수 없다. Class N 발행분 13,715,508주가 워런트 확정분인지 미확인.",
+  "2026·2027년 capex 가이던스, MW당 capex, 데이터센터 매입 약정, 2026년 UAE·인도 수출 허가 현황을 찾지 못했다.",
+  "CS-4·Groq 3 LPX·TPU·Trainium을 같은 모델에서 비교한 독립 벤치마크와 토큰당 비용 분석이 없다(S915·S916은 벤더 수치).",
+  "기존 F40($175.44, 2026-10-13, S27)은 2026-10-12 종가 $146.62(S905)와 맞지 않아 10-13 종가일 수 없다. 기존 F41(2.196억 주, S28)은 10-Q 표지 237,564,041주(2026-08-05)보다 작다. 둘 다 수정할 수 없어 그대로 남는다.",
+  "2026-10-14~10-16 종가와 $147→$127 하락 원인(10-14 해제가 유력)은 독립 확인하지 못했다."
+ ]
+}

@@ -1,0 +1,58 @@
+{
+  "agent": "redteam",
+  "basis": "c641fd3759c3",
+  "premortem": [
+    {
+      "point": "빅테크 휴머노이드가 2028년 창고에 들어오며 가격 경쟁이 시작됐다. 31%였던 하드웨어 총이익률이 개선되지 못한 채 성장 기업에서 가치 기업으로 재평가됐다",
+      "p": 0.2,
+      "cites": [
+        "S6",
+        "F53"
+      ],
+      "signal": {
+        "metric": "payback_months",
+        "op": ">",
+        "value": 20,
+        "note": "회수기간 20개월 초과 — 가격 경쟁 시작"
+      }
+    },
+    {
+      "point": "상위 3개 고객(매출 47%) 중 한 곳이 자체 로봇 개발로 돌아서며 성장률이 반토막 났다",
+      "p": 0.15,
+      "cites": [
+        "F49"
+      ],
+      "signal": {
+        "metric": "top3_concentration",
+        "op": ">",
+        "value": 0.5,
+        "note": "상위 3개 고객 비중 50% 초과로 재상승"
+      }
+    },
+    {
+      "point": "성장은 이어졌지만 P/FCF 350배가 정상화되며 주가가 무너졌다 — 시장이 요구한 연 29% 성장을 10년 내내 해내지 못했다",
+      "p": 0.25,
+      "cites": [
+        "C:p_fcf",
+        "C:implied_cagr"
+      ]
+    }
+  ],
+  "weakest": [
+    {
+      "assumption": "base.exit_multiple",
+      "point": "5년 뒤에도 P/FCF 28배를 받으려면 그때도 고성장 기업이어야 한다 — 기본 시나리오 수익의 상당 부분이 멀티플 유지에 걸려 있다",
+      "cites": [
+        "C:irr@base"
+      ]
+    },
+    {
+      "assumption": "base.fcf_margin",
+      "point": "FCF 마진 5%에서 18%로의 확장은 하드웨어 원가 연 12% 하락이라는 회사 목표에 기대고 있다",
+      "cites": [
+        "C:fcf_margin@FY2025",
+        "S4"
+      ]
+    }
+  ]
+}

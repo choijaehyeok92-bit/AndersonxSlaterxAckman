@@ -1,27 +1,92 @@
 {
   "agent": "slater",
+  "basis": "c641fd3759c3",
   "stance": "for",
   "conviction": 3,
-  "thesis": "시장의 천장이 아직 보이지 않고 단위경제는 이미 작동한다. 다만 5배 시나리오의 핵심인 하드웨어 원가 하락은 아직 계획이다. 2%로 시작해 원가 곡선이 공시로 확인될 때 키운다.",
+  "thesis": "시장의 천장이 아직 보이지 않고 단위경제는 이미 작동한다. 기본 시나리오에서도 현금이 줄지 않는다. 다만 5배 시나리오의 핵심인 하드웨어 원가 하락은 아직 계획이다. 2%로 시작해 원가 곡선이 공시로 확인될 때 키운다.",
+  "case": {
+    "from": "base"
+  },
   "metrics": {
     "unit_economics": "proven",
     "survival_path": true,
     "starter_weight": 0.02,
     "must_be_true": [
-      {"claim": "로봇 1대당 회수기간 18개월 이하 유지", "status": "on_track"},
-      {"claim": "상위 3개 고객 매출 비중 30% 이하로 하락", "status": "on_track"},
-      {"claim": "하드웨어 총이익률 연 3%p 이상 개선", "status": "on_track"},
-      {"claim": "외부 조달 없이 영업현금흐름으로 증설 자금 충당", "status": "on_track"}
+      {
+        "claim": "로봇 1대당 회수기간 18개월 이하 유지",
+        "metric": "payback_months",
+        "op": "<=",
+        "value": 18,
+        "status": "on_track"
+      },
+      {
+        "claim": "상위 3개 고객 매출 비중 FY2028까지 30% 이하로 하락",
+        "metric": "top3_concentration",
+        "period": "FY2028",
+        "op": "<=",
+        "value": 0.3,
+        "status": "on_track"
+      },
+      {
+        "claim": "하드웨어 총이익률 FY2026 34% 이상 (연 3%p 개선)",
+        "metric": "hardware_gross_margin",
+        "period": "FY2026",
+        "op": ">=",
+        "value": 0.34,
+        "status": "on_track"
+      },
+      {
+        "claim": "외부 조달 없이 영업현금흐름으로 증설 자금 충당",
+        "status": "on_track"
+      }
     ]
   },
   "arguments": [
-    {"point": "회수기간 16개월 — 고객 한 명을 데려오는 비용을 1년 반 안에 되찾는다", "cites": ["S2"]},
-    {"point": "순현금 9억 달러, 증설도 무차입 — 2022년식 자금줄 리스크가 없다", "cites": ["S1", "S8"]},
-    {"point": "고객 집중도가 55%에서 47%로 내려오는 중 — 시장이 넓어지고 있다는 신호", "cites": ["S2"]}
+    {
+      "point": "회수기간 16개월 — 고객 한 명을 데려오는 비용을 1년 반 안에 되찾는다",
+      "cites": [
+        "F50"
+      ]
+    },
+    {
+      "point": "순현금 9억 달러, 증설도 무차입 — 2022년식 자금줄 리스크가 없다",
+      "cites": [
+        "C:net_cash",
+        "S8"
+      ]
+    },
+    {
+      "point": "고객 집중도가 55%에서 47%로 내려오는 중 — 시장이 넓어지고 있다는 신호",
+      "cites": [
+        "F48",
+        "F49"
+      ]
+    }
   ],
   "risks": [
-    {"point": "하드웨어 총이익률 31% — 원가 연 12% 하락 목표가 빗나가면 5배 경로가 끊긴다", "cites": ["S1", "S4"]},
-    {"point": "휴머노이드 진입이 수주 경쟁을 바꾸면 회수기간이 늘어난다", "cites": ["S6"]}
+    {
+      "point": "하드웨어 총이익률 31% — 원가 연 12% 하락 목표가 빗나가면 5배 경로가 끊긴다",
+      "cites": [
+        "F53",
+        "S4"
+      ]
+    },
+    {
+      "point": "휴머노이드 진입이 수주 경쟁을 바꾸면 회수기간이 늘어난다",
+      "cites": [
+        "S6"
+      ]
+    }
   ],
-  "change_my_mind": ["회수기간 24개월 초과", "증설에 외부 조달 필요"]
+  "thesis_breaks": [
+    {
+      "metric": "payback_months",
+      "op": ">",
+      "value": 24,
+      "note": "회수기간 24개월 초과"
+    },
+    {
+      "note": "증설에 외부 조달 필요 (수동 확인)"
+    }
+  ]
 }

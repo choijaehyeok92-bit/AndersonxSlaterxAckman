@@ -1,0 +1,30 @@
+{
+ "sources": [
+  {
+   "id": "S900",
+   "type": "data",
+   "title": "Yahoo Finance CBRS 일간 시세 — 52주 최저·최고가 (2025-10-17~2026-10-16)",
+   "url": "https://finance.yahoo.com/quote/CBRS/history/",
+   "date": "2026-10-16",
+   "note": "일간 장중 최저 126.05(2026-10-16), 최고 386.34(2026-05-14), 108거래일 (상장 기간이 1년보다 짧으면 상장 후 전체). 마지막 종가 127.21(2026-10-16)."
+  }
+ ],
+ "facts": [
+  {
+   "metric": "price_52w_low",
+   "value": 126.05,
+   "unit": "USD/share",
+   "end": "2026-10-16",
+   "basis": "market",
+   "source": "S900"
+  },
+  {
+   "metric": "price_52w_high",
+   "value": 386.34,
+   "unit": "USD/share",
+   "end": "2026-10-16",
+   "basis": "market",
+   "source": "S900"
+  }
+ ]
+}

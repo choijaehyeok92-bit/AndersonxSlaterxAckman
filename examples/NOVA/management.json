@@ -1,0 +1,47 @@
+{
+  "agent": "management",
+  "basis": "1b1076cf1ec9",
+  "summary": "창업자가 지분 18%와 차등의결권으로 회사를 지배하고, CEO 보상의 90%가 10년 베스팅 주식이라 시간 지평이 길다. 가이던스는 보수적으로 내고 넘긴다. 다만 SBC가 영업현금흐름의 절반을 넘어 희석이 해마다 쌓인다.",
+  "alignment": "aligned",
+  "findings": [
+    {
+      "area": "compensation",
+      "point": "CEO 보상의 90%가 10년 베스팅 주식이고 매출·FCF에 연동된다 — 단기 EPS가 아니다",
+      "cites": [
+        "S5"
+      ]
+    },
+    {
+      "area": "insider",
+      "point": "창업자 지분 18%(차등의결권) — 외부 행동주의가 개입할 여지는 낮다",
+      "cites": [
+        "F55",
+        "S1"
+      ]
+    },
+    {
+      "area": "guidance",
+      "point": "FY2025 매출 가이던스 11억~11.5억 달러에 실제 12억 달러로 상단을 넘겼다",
+      "cites": [
+        "S10",
+        "F4",
+        "C:guidance_hit_rate"
+      ]
+    },
+    {
+      "area": "dilution",
+      "point": "희석 주식 수가 해마다 2%씩 늘었다 — SBC 0.75억 달러를 자사주로 상쇄하지 않는다",
+      "cites": [
+        "C:share_change@FY2025",
+        "F24"
+      ]
+    },
+    {
+      "area": "capital_allocation",
+      "point": "신규 공장 증설을 보유 현금과 영업현금흐름으로 충당했다 — 차입·증자 없음",
+      "cites": [
+        "S8"
+      ]
+    }
+  ]
+}

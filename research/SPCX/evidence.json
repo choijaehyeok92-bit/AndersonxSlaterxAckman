@@ -1,0 +1,669 @@
+{
+  "ticker": "SPCX",
+  "name": "SpaceX",
+  "sources": [
+    {
+      "id": "S1",
+      "type": "filing",
+      "title": "8-K 인수·매각",
+      "date": "2026-08-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026056945/spcx-20260814.htm",
+      "accn": "0001628280-26-056945",
+      "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "id": "S2",
+      "type": "filing",
+      "title": "10-Q",
+      "date": "2026-08-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026052535/spcx-20260630.htm",
+      "accn": "0001628280-26-052535",
+      "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "id": "S3",
+      "type": "filing",
+      "title": "8-K 실적 발표",
+      "date": "2026-08-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026052515/spcx-20260804.htm",
+      "accn": "0001628280-26-052515",
+      "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "id": "S4",
+      "type": "filing",
+      "title": "8-K 기타 중요 사항",
+      "date": "2026-06-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026045763/spcx-closing8xkjune2026.htm",
+      "accn": "0001628280-26-045763",
+      "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "id": "S5",
+      "type": "filing",
+      "title": "8-K 기타 중요 사항",
+      "date": "2026-06-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026044955/spcx-pricing8xk.htm",
+      "accn": "0001628280-26-044955",
+      "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "id": "S6",
+      "type": "filing",
+      "title": "8-K IR·컨퍼런스 자료 기타 중요 사항",
+      "date": "2026-06-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026044489/spcx8-kxlaunchseniornotes.htm",
+      "accn": "0001628280-26-044489",
+      "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "id": "S7",
+      "type": "filing",
+      "title": "8-K 경영진 변동",
+      "date": "2026-06-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026043865/spaceexplorationtechnologi.htm",
+      "accn": "0001628280-26-043865",
+      "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "id": "S8",
+      "type": "filing",
+      "title": "8-K 중요 계약",
+      "date": "2026-06-16",
+      "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026043411/spaceexplorationtechnologi.htm",
+      "accn": "0001628280-26-043411",
+      "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "id": "S9",
+      "type": "filing",
+      "title": "8-K 경영진 변동 IR·컨퍼런스 자료 기타 중요 사항",
+      "date": "2026-06-15",
+      "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026043288/spaceexplorationtechnologi.htm",
+      "accn": "0001628280-26-043288",
+      "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "id": "S10",
+      "type": "filing",
+      "title": "S-1",
+      "date": "2026-05-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+      "accn": "0001628280-26-036936",
+      "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "id": "S11",
+      "type": "news",
+      "title": "Starship Flight 14 - SpaceX",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBpYThOaTctbk9jeFBjOFJYamJqaEFqZEwzd3lVV1NRSHNZN3BzMms0NGNLeHJYY24xR3VOTFZYZl81OFFXVmpENkNrckNXeVo2N2JJVkdBd3VTSGh2SDhZ?oc=5",
+      "note": "SpaceX",
+      "date": "2026-09-28",
+      "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "id": "S12",
+      "type": "news",
+      "title": "USSF-153 Mission - SpaceX",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5hY2h4b2FpekxyMW5kdzl5bkRZdXByNGFpVGV4TkVsY01nMm8zclozM21qazNvQkF1SEk3SjdxazZENzRPUWQ1d1haLWI0VFpU?oc=5",
+      "note": "SpaceX",
+      "date": "2026-09-10",
+      "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "id": "S13",
+      "type": "news",
+      "title": "Roman Space Telescope Mission - SpaceX",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yLWdieFJLakhJV012S0pjNFpfWjFVNktfU2tuYW12eDZDMG9KUkhzVmd4Y0lvTTA1b0ZTbTJOcE1kYkFmVHNQR0pDWTlyQQ?oc=5",
+      "note": "SpaceX",
+      "date": "2026-08-30",
+      "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "id": "S14",
+      "type": "news",
+      "title": "Starship's Thirteenth Flight Test - SpaceX",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41MGFNdXBjRXNHRjlCY21CWXJNYVBNdGwzdnE2RWlzeDJ3dGw1SG41MkQyS0ZrZklJekZRejIzRzREZmhkd3Fwc3J6RUxhTUNvMi1VWjF6TndQSkN1c0tN?oc=5",
+      "note": "SpaceX",
+      "date": "2026-07-24",
+      "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "id": "S15",
+      "type": "news",
+      "title": "Crew-13 Mission - SpaceX",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE10MDRFSXpPenJzTHkwM2ZIT3IwRFVuQi1tS2Uta2lDbXZjcFVGQnA2VXBBTHVlWDhsbkVnb2FnYXF6dm80cWp0UmZR?oc=5",
+      "note": "SpaceX",
+      "date": "2026-10-01",
+      "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "id": "S16",
+      "type": "news",
+      "title": "Transporter-18 Mission - SpaceX",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1UYVlhMzVMakRkVVVCdmlYLTRJT1BmVkwtNTRPTGtFTkY2b1V1a1o4bXJsM0V5U25rc1BVeENrUFVDUVVFUjhDY3BWeXJVQmdydGdXZW1lOTM?oc=5",
+      "note": "SpaceX",
+      "date": "2026-10-01",
+      "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "id": "S17",
+      "type": "news",
+      "title": "SDA’s Fourth Tranche 1 Mission - SpaceX",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1XbnVpODR4eS1keE1WaDNVU1hmQ2N4YnY3eWdCcW1KSWM4dk5KSWFscDk0eERzQ0ZnXzlhSTBZbkZtbS1uM2V1VVdGUTNGNjhHZXhVNQ?oc=5",
+      "note": "SpaceX",
+      "date": "2026-10-10",
+      "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "id": "S18",
+      "type": "news",
+      "title": "NROL-97 Mission - SpaceX",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE45cVZ0dUtaRXdnOUlmenRkSEpzUVE1TmNwYUtnOFNCU0F0b3hNREM5YmhMVElRRTNvcVo3YWU2a1cyTFdZWnozRW1Cd21XZ0U?oc=5",
+      "note": "SpaceX",
+      "date": "2026-10-01",
+      "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "id": "S19",
+      "type": "news",
+      "title": "CRS-35 Mission - SpaceX",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBiQUk3UGNxTlZuMl92Qml4aU1Ob25ZRU42bEEtTnhuY0dENm1WZVRyQUhRMzFlRTUtV3JPNC02YkE0aWdnVTBWZ3JseFdLUQ?oc=5",
+      "note": "SpaceX",
+      "date": "2026-10-13",
+      "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "id": "S20",
+      "type": "news",
+      "title": "Holy Grail Of Rocketry - SpaceX",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5YczVnTmhfY3RnSV8xTnNnZmFMNXBuN0o3ZTRwbm1zNXVvWmFmcG5WWWhVTWdGcWgxRWVPd3o3N0l1VnVqOUlRWDlSZUoyS25vbmQ1clhvVGtzN2QzclZ3Tmd5Z1k0RHZ4dkN6Yy14OA?oc=5",
+      "note": "SpaceX",
+      "date": "2026-09-16",
+      "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "id": "S21",
+      "type": "news",
+      "title": "SpaceX - SpaceX",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB5UzBmTk41Yk50UTlRYXp5eGl5ZTI5NnFGZkZHYXYtMXVscEZCc1lkVFczUWNhT3JqRl95bXdUcmI1ZDl3MTlVRzcwOXJINC1KOFE?oc=5",
+      "note": "SpaceX",
+      "date": "2026-08-18",
+      "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "id": "S22",
+      "type": "news",
+      "title": "MRV-MEP Mission - SpaceX",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4tVHNCcXVUbW5HdTFqdTJtUEtFS0d4b2k1Mms3eEpzc2lSc3NzSi1TVk1OeFRFTlU5enFLV1pKWTRaYW5LS1JWU1pLRU5KcXNK?oc=5",
+      "note": "SpaceX",
+      "date": "2026-07-21",
+      "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "id": "S23",
+      "type": "news",
+      "title": "SpaceX launches its massive Starship rocket into orbit for the first time - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPc2RkMkI4ZlBkTUhDYWZkZVBWa0M1c2JVZ2NMS1FuMkhqa3RjSERxMi1XWXNLUkNJZTNJaUMzZ2hJbWtGV19ES1RJazJ2YlVLTGpGQnpEcFFPaENXeUdyUVZZUlJkT1hJUWVISjhHQW5wb0JueUR3QjJoS3dXS3lBeUktQTAzLWN6TGd6VjVIem9EZ1IwekdLaUtHNFJtNHhkclHSAacBQVVfeXFMTy1yTXk1Qk0wcEZ2QnhELWJQOVZtaEZFUHozUFd6TnNqNjFmNTVaNW1qRk41Yi1GeW8tZXhXMnlhZjVUQWFsSzJPZEVvNUtONjQxVTlsRkItbUI3aHVtVUtsdl9QbWJxSWxKd3FYcGhNR3Fkb3JtZTFxNXpRaGlHRTJZdGlwbE5CNzF5bkZmbjcxSlN5LUNqNVJYZ1Fvc3NhUzNaN1U3cWs?oc=5",
+      "note": "CNBC",
+      "date": "2026-09-28",
+      "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "id": "S24",
+      "type": "news",
+      "title": "Globalstar 2-R Launch 1 Mission - SpaceX",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE03ZlVUeWlzTER4MEZqQVN4OG1CUWdSUS1UX2RvVlVMWG5IRS1aYmU0YXpRTDE3VUYweFZHTl9xNXdJNjNLYllueDhibWZjc003cV9XQ3pUTF9IakstX19Xb3ZB?oc=5",
+      "note": "SpaceX",
+      "date": "2026-08-15",
+      "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "id": "S25",
+      "type": "news",
+      "title": "SpaceX pivots away from space - Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBMQUZTeDVmNjRtWTBGSVpMWjZFNHpxQ3FxXzQxclg5eHU5eFBmRWNGOUZoeVNELVBBU09Fd2ZxWkV0MnIxUENvdVRvSmJsU3MtWWlPUlpMVVJ0Y256NzdnS2lRMFpYZEhRbFlKZnUtTm8?oc=5",
+      "note": "Financial Times",
+      "date": "2026-09-24",
+      "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "id": "S26",
+      "type": "news",
+      "title": "Our decision on Cursor following its acquisition by SpaceX - OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOU2EyMlNDTjROMndmaFl0eE1DQ2xsVUh1cXFlX3FVeERuS2wyQWw3UFZUTzlhNU1KUDV4ZExBMGRBZTdfVWtLa2VIZGJhN1p3VVdiYlpkLURzT2R1dUktbEVHZ2QtSEtueThvN214XzBoV2JadXU1OFJCY1pELWRpOUNHbi13ZVpIMjB3Tg?oc=5",
+      "note": "OpenAI",
+      "date": "2026-08-28",
+      "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "id": "S27",
+      "type": "news",
+      "title": "NASA Science, Cargo Launch on 35th SpaceX Resupply Mission to Station - NASA (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdHA4eHRNQW1GZmZSN2sxdU9LM0xJS2NuSWNIazhPQWpGOVRydE9kenBybkVjaThPZHQyV2lPb19iMXQtZUlBWE5yQTUzWUMxTy1uQUN4TFYtNFAzcUxZOXRFUWpLQWRUSXN6ZjFwMFZUaXJwajFtN3JDR19TSVZWTFZjT21rLXRiYjdacl9LTXYtdUE5Z1RHbTEyODdNR0lzaThkWnVB?oc=5",
+      "note": "NASA (.gov)",
+      "date": "2026-10-13",
+      "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "id": "S28",
+      "type": "news",
+      "title": "SpaceX Dragon Lifts Off for Thursday Cargo Delivery - NASA (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUEJfNDNWV2dRTnhkRjU0QzZ4UTdwM05xSE5WQVdFaU5BVllXclo5YmF1OHN4QzdzMXpoMkhYdm1XMzdFc1FHTDRicEtCdkZya2d5LWRMMTFZQm5ZSjBwNXZrVUVfc1dTbjNwd3AzMmRsTk12c21QQ3dhUl95VTNuVS1zeTNTMXI5ZERFdmlLNFg0RFJ4MWVkM0ZqMzI1M1JWbTRTVFVn?oc=5",
+      "note": "NASA (.gov)",
+      "date": "2026-10-13",
+      "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "id": "S29",
+      "type": "news",
+      "title": "SpaceX Dragon Counts Down to Launch for Station Resupply Mission - NASA (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOLTJTbzBwM2k1RjhKSmpvTjZtU181TjRYSE1tZnJaalBZM04xdGtjWkJ4d0ZRTmM0X25FRkNLWnNCNEVudDVpUTB2dFNlWlZxeUNIdl9HQWxTSlRkbm5LWjZ1WVNnUXlHUUNLNGlkN1VBMGFkd2I1RFYzR2Z1RXU1dEtoTDJ5ZnVEaUJCZ29BNzl5NHhmZjQ0U3UtazRaNmdMZ1hDNEJGTEJYMHJXRjZoVmxwRGVkYlE?oc=5",
+      "note": "NASA (.gov)",
+      "date": "2026-10-13",
+      "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "id": "S30",
+      "type": "news",
+      "title": "NASA awards SpaceX $946 million for 3 more astronaut missions to the ISS - Space",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVGlvX2gzOEhfbTlqTVZreXg2RTctM0ZzZXJURk1mRzhRaHZUU1JkeWJHUFZLWUo0ZndDLUZpemJ1bnJqYTU0NGJBRDJEWmlXVWNsdXBoRTM5eFByVWVMWGUwZ0l2VTlkTmZXcDlYcXM5ZXBKTWxwNTVxVDV2VWRsX2oyOGhfbGJEYU9CZUxxQ2xkcmJIRkpZeUNibXFrMTc3V3VSNk1rZldudkZMM19DOGdPT0htSGxJc3hlSThERlY5UE9iS3VhdkRZVjU?oc=5",
+      "note": "Space",
+      "date": "2026-09-19",
+      "retrieved": "2026-10-17T17:29:53Z"
+    },
+    {
+      "type": "data",
+      "title": "Yahoo Finance SPCX historical prices",
+      "url": "https://finance.yahoo.com/quote/SPCX/history/",
+      "date": "2026-10-16",
+      "note": "2026-10-16 종가 146.03 USD",
+      "id": "S31",
+      "retrieved": "2026-10-17T17:47:17Z"
+    },
+    {
+      "id": "S32",
+      "type": "news",
+      "title": "SpaceX S-1 analysis (Tom Tunguz)",
+      "url": "https://tomtunguz.com/spacex-s1-analysis",
+      "date": "2026-05-21",
+      "note": "2차 자료(블로그 분석). S-1 인용 수치로, 재무제표 원문이 아니다. FY2025 연결 매출 187억 달러, 조정 EBITDA 66억 달러, 총 설비투자 207억 달러. 부문별로는 Starlink 매출 114억 달러·영업이익 44억 달러·설비투자 42억 달러, Space 매출 41억 달러·영업손실 6.57억 달러·설비투자 38억 달러, AI 매출 32억 달러·영업손실 약 64억 달러·설비투자 127억 달러. Starlink 가입자는 2023년 230만, 2024년 440만. 연결 순이익·영업현금흐름·현금은 이 글에 없다.",
+      "retrieved": "2026-10-17T17:53:53Z"
+    },
+    {
+      "id": "S33",
+      "type": "filing",
+      "title": "Space Exploration Technologies Corp. 424B4 prospectus",
+      "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm",
+      "date": "2026-06-12",
+      "note": "연결(백만 달러): 매출 2025 18,674 · 2024 14,015 · 2023 10,387 / 영업활동 현금 6,785 · 5,776 · 4,520 / 유형자산 취득 (20,737) · (11,163) · (4,415)",
+      "retrieved": "2026-10-17T18:19:06Z"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F1",
+      "metric": "cash",
+      "value": 93522000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S2"
+    },
+    {
+      "id": "F2",
+      "metric": "cost_of_revenue",
+      "value": 3495000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S2"
+    },
+    {
+      "id": "F3",
+      "metric": "debt",
+      "value": 38285000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S2"
+    },
+    {
+      "id": "F4",
+      "metric": "deferred_revenue",
+      "value": 7977000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S2"
+    },
+    {
+      "id": "F5",
+      "metric": "diluted_shares",
+      "value": 5864000000,
+      "unit": "shares",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S2"
+    },
+    {
+      "id": "F6",
+      "metric": "equity",
+      "value": 127224000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S2"
+    },
+    {
+      "id": "F7",
+      "metric": "goodwill",
+      "value": 11645000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S2"
+    },
+    {
+      "id": "F8",
+      "metric": "income_tax",
+      "value": 23000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S2"
+    },
+    {
+      "id": "F9",
+      "metric": "inventory",
+      "value": 2718000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S2"
+    },
+    {
+      "id": "F10",
+      "metric": "net_income",
+      "value": -541000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S2"
+    },
+    {
+      "id": "F11",
+      "metric": "operating_income",
+      "value": -143000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S2"
+    },
+    {
+      "id": "F12",
+      "metric": "pretax_income",
+      "value": -518000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S2"
+    },
+    {
+      "id": "F13",
+      "metric": "receivables",
+      "value": 3596000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S2"
+    },
+    {
+      "id": "F14",
+      "metric": "revenue",
+      "value": 7814000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S2"
+    },
+    {
+      "id": "F15",
+      "metric": "rnd",
+      "value": 3548000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S2"
+    },
+    {
+      "id": "F16",
+      "metric": "sbc",
+      "value": 831000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S2"
+    },
+    {
+      "id": "F17",
+      "metric": "short_term_investments",
+      "value": 6487000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S2"
+    },
+    {
+      "id": "F18",
+      "metric": "total_assets",
+      "value": 192770000000,
+      "unit": "USD",
+      "period": "FY2026Q2",
+      "end": "2026-06-30",
+      "basis": "reported",
+      "origin": "sec",
+      "source": "S2"
+    },
+    {
+      "id": "F19",
+      "metric": "price",
+      "value": 146.03,
+      "unit": "USD/share",
+      "end": "2026-10-16",
+      "basis": "market",
+      "source": "S31",
+      "origin": "research"
+    },
+    {
+      "id": "F20",
+      "metric": "revenue",
+      "value": 18700000000,
+      "unit": "USD",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "source": "S32",
+      "origin": "research"
+    },
+    {
+      "id": "F21",
+      "metric": "adjusted_ebitda",
+      "value": 6600000000,
+      "unit": "USD",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "source": "S32",
+      "origin": "research"
+    },
+    {
+      "id": "F22",
+      "metric": "capex",
+      "value": 20700000000,
+      "unit": "USD",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "source": "S32",
+      "origin": "research"
+    },
+    {
+      "id": "F23",
+      "metric": "starlink_subscribers",
+      "value": 4400000,
+      "unit": "count",
+      "period": "FY2024",
+      "end": "2024-12-31",
+      "basis": "reported",
+      "source": "S32",
+      "origin": "research"
+    },
+    {
+      "id": "F24",
+      "metric": "revenue",
+      "value": 18674000000,
+      "unit": "USD",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F25",
+      "metric": "revenue",
+      "value": 14015000000,
+      "unit": "USD",
+      "period": "FY2024",
+      "end": "2024-12-31",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F26",
+      "metric": "revenue",
+      "value": 10387000000,
+      "unit": "USD",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F27",
+      "metric": "ocf",
+      "value": 6785000000,
+      "unit": "USD",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F28",
+      "metric": "ocf",
+      "value": 5776000000,
+      "unit": "USD",
+      "period": "FY2024",
+      "end": "2024-12-31",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F29",
+      "metric": "ocf",
+      "value": 4520000000,
+      "unit": "USD",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F30",
+      "metric": "capex",
+      "value": 20737000000,
+      "unit": "USD",
+      "period": "FY2025",
+      "end": "2025-12-31",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F31",
+      "metric": "capex",
+      "value": 11163000000,
+      "unit": "USD",
+      "period": "FY2024",
+      "end": "2024-12-31",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    },
+    {
+      "id": "F32",
+      "metric": "capex",
+      "value": 4415000000,
+      "unit": "USD",
+      "period": "FY2023",
+      "end": "2023-12-31",
+      "basis": "reported",
+      "source": "S33",
+      "origin": "research"
+    }
+  ],
+  "as_of": "2026-10-18",
+  "collected": "2026-10-17T17:52:40Z",
+  "gaps": [
+    "FY2024 연간 매출 — 2차 출처끼리 다르다(약 131억 달러 vs 약 155억 달러). 어느 쪽도 사실로 넣지 않았다. S-1(S10)의 연결 손익계산서 원문이 필요하다. 연간 매출 2개 기간이 채워지지 않아 게이트 0은 아직 통과하지 못한다.",
+    "FY2025 연결 순이익·영업이익·영업현금흐름·현금·차입금 — 2차 출처의 순손실(약 49억 달러)과 영업이익 수치는 원문과 대조하지 못해 넣지 않았다. S-1 또는 10-K에서 가져와야 한다.",
+    "FY2025 설비투자 207억 달러는 2차 출처 수치이고, 영업현금흐름이 없어 FCF를 계산할 수 없다. 외부 사이트의 FCF 수치(-139.5억·-124.7억 달러)는 서로 어긋나 사용하지 않았다.",
+    "최근 4개 분기 단독 값(revenue·ocf·capex) — FY2026Q2 매출 외에는 없다. 10-Q(S2)와 S-1(S10)의 분기 표에서 차감해 만들어야 한다.",
+    "발행주식 수(shares_outstanding)는 10-Q 표지나 IPO 종료 8-K(S4)에서, 컨센서스 매출(다음 2개 연도)은 근거에서 찾지 못했다. 컨센서스가 없으면 variant perception을 검증할 수 없다.",
+    "과거 가이던스는 실적 발표 8-K(S3) 본문을 읽어 사실로 옮겨야 한다. 어닝콜 원문·요약과 투자자 행사 자료도 찾지 못했다.",
+    "회계 품질 단서(감사인·특수관계자 거래·Non-GAAP 조정 내역, xAI 합병 관련 회계)와 지배구조(창업자 의결권·지분)·경영진 보상은 DEF 14A와 S-1 본문 확인이 필요하다.",
+    "S25(FT, 우주 사업에서 이탈), S26(Cursor 인수 관련 OpenAI 글), S1(8-K 인수·매각)은 사업 구조 변화 단서로 보이나 본문을 읽지 못해 사실로 옮기지 못했다."
+  ],
+  "researched": "2026-10-18"
+}

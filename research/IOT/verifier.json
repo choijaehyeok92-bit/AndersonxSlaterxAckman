@@ -1,0 +1,446 @@
+{
+  "agent": "verifier",
+  "basis": "9fe5a28d164a",
+  "checks": [
+    {
+      "id": "V1",
+      "verdict": "supported",
+      "reason": "고객 수 2,638→3,605, Q2 순증 242(분기 최대), 평균 ARR $338K→$365K가 모두 인용 자료와 일치한다."
+    },
+    {
+      "id": "V2",
+      "verdict": "supported",
+      "reason": "96%·72%, 전년 95%·66%, 3,605곳·$1.3B(+38%), $1M 이상 210곳·$500M 초과와 기존 고객 확장이 S56·S57에 있다."
+    },
+    {
+      "id": "V3",
+      "verdict": "supported",
+      "reason": "성장·FCF 마진은 시나리오 가정이라 판정하지 않고, 근거로 든 RPO와 $1M 이상 고객 사실은 자료와 맞는다."
+    },
+    {
+      "id": "V4",
+      "verdict": "supported",
+      "reason": "bear 가치 7.97이 단단한 가치 2.71보다 높고 Motive의 $1.3B 조달·S-1 철회도 S64와 맞는다. 나머지는 해석이다."
+    },
+    {
+      "id": "V5",
+      "verdict": "supported",
+      "reason": "하락 폭 93.1%, 단단한 가치 2.71, RPO $4,285.2M이 인용 값과 일치하고 나머지는 논증이다."
+    },
+    {
+      "id": "V6",
+      "verdict": "supported",
+      "reason": "FY2026 FCF 마진 12.8%, F257의 약 −100bp, 한 분기 만의 전망 반전, SBC 차감 FCF 음수가 모두 인용과 맞는다."
+    },
+    {
+      "id": "V7",
+      "verdict": "supported",
+      "reason": "세 번의 가이던스 상향 값(S53)과 Q2 매출 $508.4M의 컨센서스 상회($483.3M, S39)가 일치한다."
+    },
+    {
+      "id": "V8",
+      "verdict": "supported",
+      "reason": "96%·72%와 RPO는 일치하고 해자가 간접 증거 수준이라는 단서도 자료와 부합한다."
+    },
+    {
+      "id": "V9",
+      "verdict": "supported",
+      "reason": "현금·투자자산 합계 $1,325.7M, 차입금 없음, 중재 이익 $30.3M의 비GAAP 제외, ROIC −2.4%가 모두 인용과 맞는다."
+    },
+    {
+      "id": "V10",
+      "verdict": "supported",
+      "reason": "SBC/OCF 133.3%, SBC 차감 FCF 약 −1.1억 달러, 성장 없는 가치가 순현금 수준이라는 점과 자사주 매입 부재가 자료와 맞는다."
+    },
+    {
+      "id": "V11",
+      "verdict": "supported",
+      "reason": "P/FCF 91.45x, EV/매출 11.93x, 22.4% 내재 성장, 7.6% 하락과 최대 낙폭 46.37%(S61)가 일치하고 나머지는 사전 부검 시나리오다."
+    },
+    {
+      "id": "V12",
+      "verdict": "supported",
+      "reason": "PER 258.02와 P/FCF는 계산값과 일치하고 나머지는 가격 위험에 대한 해석이다."
+    },
+    {
+      "id": "V13",
+      "verdict": "supported",
+      "reason": "Motive의 S-1 철회와 $1.3B 조달(S64), 콜에 경쟁 언급이 없다는 점(S56)이 자료에 있다."
+    },
+    {
+      "id": "V14",
+      "verdict": "supported",
+      "reason": "사실 부분은 시나리오 가정을 받치는 인용과 모순이 없고, 나머지는 가정이라 판정하지 않는다."
+    },
+    {
+      "id": "V15",
+      "verdict": "supported",
+      "reason": "NRR이 핵심 고객 '약 115%' 목표일 뿐 과거 실적치가 없다는 점이 S55·S57에 그대로 있다."
+    },
+    {
+      "id": "V16",
+      "verdict": "supported",
+      "reason": "기대 연 수익률 1.4%와 손실 확률 25%가 계산값과 일치하고, 차입 없음과 NRR 미입증도 자료와 맞는다."
+    },
+    {
+      "id": "V17",
+      "verdict": "unsupported",
+      "reason": "FCF 마진 전망 반전은 F257·F258·S56에 있으나, '매출 가이던스를 세 번 올렸다'는 이력은 인용한 자료에 없다(F213은 최신 값 하나뿐)."
+    },
+    {
+      "id": "V18",
+      "verdict": "supported",
+      "reason": "희석 3.7%, FY2026 3.1%, Q1 +3.5%(587.7M), 자사주 매입 0, 순주식결제 세금 $70.4M이 모두 인용과 일치한다."
+    },
+    {
+      "id": "V19",
+      "verdict": "supported",
+      "reason": "비GAAP 총이익률 79%→76% 하락이 F282·F283에 있고, 나머지는 사전 부검 가정이다."
+    },
+    {
+      "id": "V20",
+      "verdict": "supported",
+      "reason": "안전마진 −48.9%, 기대 연 수익률 1.4%, bear −20.2%, 손실 확률 25%를 계산값대로 옮겼다."
+    },
+    {
+      "id": "V21",
+      "verdict": "supported",
+      "reason": "+100bp에서 약 −100bp로의 반전, SBC 차감 FCF 음수, 희석 3% 이상이 인용과 맞는다."
+    },
+    {
+      "id": "V22",
+      "verdict": "supported",
+      "reason": "하락 폭 93.1%, bull 수익률 12.5%, 내재 성장 22.4%를 맞게 옮겼고 나머지는 논증이다."
+    },
+    {
+      "id": "V23",
+      "verdict": "supported",
+      "reason": "3,605곳·$1.3B(+38%), 72%, $1M 이상 고객 ARR $500M 초과와 기존 고객 확장이 자료와 맞는다."
+    },
+    {
+      "id": "V24",
+      "verdict": "supported",
+      "reason": "SBC/OCF 133.3%·211.1%, FCF 2.07억(12.8%), SBC 차감 FCF −1.1억·−1.7억, Q2 SBC 9,638만 vs Q1 7,747만이 모두 일치한다."
+    },
+    {
+      "id": "V25",
+      "verdict": "supported",
+      "reason": "순신규 ARR $144.8M→$134.1M, Motive 조달, NRR 실적치 부재가 자료와 맞고 나머지는 모델 가정 비판이다."
+    },
+    {
+      "id": "V26",
+      "verdict": "supported",
+      "reason": "NRR이 목표라는 점, Motive의 'exceeds 110%'(S63)와 '120% 초과'(S64)가 자료에 있다."
+    },
+    {
+      "id": "V27",
+      "verdict": "supported",
+      "reason": "내재 성장 22.4%와 기대 연 수익률 1.4%는 계산값이고, 주가 $39.57도 일치한다."
+    },
+    {
+      "id": "V28",
+      "verdict": "supported",
+      "reason": "Motive의 $1.3B 조달(회사 주장)과 bear 수익률 −20.2%가 자료와 맞는다."
+    },
+    {
+      "id": "V29",
+      "verdict": "supported",
+      "reason": "SBC 차감 FCF 음수와 희석 3.7%는 계산값이고, 자사주 매입 프로그램이 없다는 점은 S53에 있다."
+    },
+    {
+      "id": "V30",
+      "verdict": "supported",
+      "reason": "하락 폭 93.1%, 단단한 가치 2.71, RPO, 차입 없음과 순현금이 자료와 맞고 다른 분석가 언급은 판정하지 않는다."
+    },
+    {
+      "id": "V31",
+      "verdict": "supported",
+      "reason": "FY2026 FCF 마진 12.8%, 마진 전망 −100bp 반전, bear 수익률, P/FCF가 인용과 맞는다."
+    },
+    {
+      "id": "V32",
+      "verdict": "supported",
+      "reason": "내재 성장 22.4%, 기대 연 수익률 1.4%, 손실 확률 25%를 맞게 옮겼다."
+    },
+    {
+      "id": "V33",
+      "verdict": "supported",
+      "reason": "조건 가격 5.43이 52주 최저가 23.38보다 낮고 RPO가 있다는 점이 자료와 맞는다."
+    },
+    {
+      "id": "V34",
+      "verdict": "supported",
+      "reason": "F231의 1.15가 핵심 고객 대상 경영진 목표이고 과거 실적치가 없다는 점이 S55·S57에 명시되어 있다."
+    },
+    {
+      "id": "V35",
+      "verdict": "supported",
+      "reason": "안전마진 −48.9%, 단단한 가치 2.71, SBC 차감 FCF 음수가 계산값과 일치한다."
+    },
+    {
+      "id": "V36",
+      "verdict": "supported",
+      "reason": "Motive 조달, 대형 고객 순증 242, 순신규 ARR, P/FCF, 희석을 자료대로 옮겼고 다른 분석가 언급은 판정하지 않는다."
+    },
+    {
+      "id": "V37",
+      "verdict": "supported",
+      "reason": "SBC 차감 FCF 음수, SBC/OCF 133.3%, 주식 수 3.1% 증가, 자사주 매입 프로그램 없음이 인용과 맞는다."
+    },
+    {
+      "id": "V38",
+      "verdict": "supported",
+      "reason": "S6은 목록에만 있고 내용이 없어 보상 지표를 확인하지 못했다는 부재 진술과 일치한다."
+    },
+    {
+      "id": "V39",
+      "verdict": "supported",
+      "reason": "F257/F258 반전, 비용의 점진적 매출원가 유입, 비GAAP 총이익률 79→76%, FY2026 FCF 마진 12.8%가 자료와 맞는다."
+    },
+    {
+      "id": "V40",
+      "verdict": "supported",
+      "reason": "ITC 비침해 판단(S62), 중재 이익 $30.3M, Motive의 $1.3B 조달, 콜에 경쟁 언급 없음이 모두 자료에 있다."
+    },
+    {
+      "id": "V41",
+      "verdict": "supported",
+      "reason": "SBC/매출 53.4%→27.2%→22.2%→19.5%와 투자자 자료의 21%→17%가 인용과 일치한다."
+    },
+    {
+      "id": "V42",
+      "verdict": "unsupported",
+      "reason": "'매출 가이던스는 3번 올랐다'는 사실의 근거가 인용에 없다(F213은 최신 값뿐). FCF 반전, NRR 부재, SBC 차감 FCF 음수는 자료와 맞는다."
+    },
+    {
+      "id": "V43",
+      "verdict": "supported",
+      "reason": "FY2026 총이익률 76.7%, Q2 GAAP 77%·비GAAP 78%, Q1 79→76%, AI 투자 언급, 하반기 원가 상승이 자료와 맞는다."
+    },
+    {
+      "id": "V44",
+      "verdict": "supported",
+      "reason": "RPO·순현금·내재 성장 22.4%·NRR 부재는 자료와 맞고 나머지는 반론 논증이다."
+    },
+    {
+      "id": "V45",
+      "verdict": "supported",
+      "reason": "컨센서스 $2.01B가 가이던스 하단 $2.043B보다 낮다는 점과 내재 성장 22.4%가 인용과 맞는다."
+    },
+    {
+      "id": "V46",
+      "verdict": "supported",
+      "reason": "Class B 205,332,173주와 재무 자료는 맞고, 창업자 지배의 해석은 의견이다."
+    },
+    {
+      "id": "V47",
+      "verdict": "supported",
+      "reason": "비GAAP 영업이익 $106M(21%), GAAP $4.875M, SBC 관련 비용 $101.1M, 총이익률 78% vs 77%가 자료와 일치한다."
+    },
+    {
+      "id": "V48",
+      "verdict": "supported",
+      "reason": "FCF 마진 −2.4%→12.8%, Q2 13%, 마진 전망 반전과 그 이유, SBC/매출 19.5%가 인용과 맞는다."
+    },
+    {
+      "id": "V49",
+      "verdict": "supported",
+      "reason": "RPO $4.285B, 조건 가격 5.43·21.25, 52주 최저가 23.38, SBC 차감 FCF 음수를 맞게 옮겼다."
+    },
+    {
+      "id": "V50",
+      "verdict": "supported",
+      "reason": "bull case 3.75배, 내재 성장 22.4%, bull 수익률 12.5%는 계산값과 맞고 나머지는 반론 논증이다."
+    },
+    {
+      "id": "V51",
+      "verdict": "supported",
+      "reason": "FY27 가이던스 $2.045B와 FCF 마진 −100bp 전망은 자료와 맞고 나머지는 시나리오 가정이다."
+    },
+    {
+      "id": "V52",
+      "verdict": "supported",
+      "reason": "Q2 SBC $96.4M이 Q1 $77.5M보다 늘었다는 점이 F176·F177과 맞고 나머지는 사전 부검이다."
+    },
+    {
+      "id": "V53",
+      "verdict": "supported",
+      "reason": "96%·72%, 전년 3개 이상 66%가 자료와 맞고 직접 증거가 없다는 단서도 일치한다."
+    },
+    {
+      "id": "V54",
+      "verdict": "supported",
+      "reason": "콜에 점유율·승률·가격 언급이 없고, Geotab 500만 구독·Motive ARR $600M 주장이 2차 자료와 맞는다."
+    },
+    {
+      "id": "V55",
+      "verdict": "supported",
+      "reason": "발생액 비율 −10.7%, OCF 흑자, 현금+단기·장기 투자자산 약 13.3억, 차입금 없음이 자료와 맞는다."
+    },
+    {
+      "id": "V56",
+      "verdict": "supported",
+      "reason": "신규 제품 20% 초과, 비미국 18%, 유럽 4분기 연속 50% 초과, RPO $4,285.2M과 12개월 내 43%, AI 채택 초기가 모두 자료에 있다."
+    },
+    {
+      "id": "V57",
+      "verdict": "supported",
+      "reason": "P/FCF 91.45x와 base 수익률 1.6%, 기대 수익률 1.4%가 계산값과 맞고 나머지는 모델 가정 비판이다."
+    },
+    {
+      "id": "V58",
+      "verdict": "supported",
+      "reason": "10% 이상 고객이 없다는 점(S54)과 고객 ROI 사례가 2차 매체가 전한 회사 발표라는 점(S61)이 자료와 맞는다."
+    },
+    {
+      "id": "V59",
+      "verdict": "supported",
+      "reason": "성장률 43.7→33.3→29.6%, Q2 $508.4M(+30%), 가이던스 +26%/+24%와 3회 상향, 순신규 ARR $134.1M vs $144.8M이 모두 자료와 맞는다."
+    },
+    {
+      "id": "V60",
+      "verdict": "supported",
+      "reason": "순현금 $1.33B, 차입금 없음, RPO $4.29B가 자료와 맞고 결론은 해석이다."
+    },
+    {
+      "id": "V61",
+      "verdict": "supported",
+      "reason": "중재 이익 $30.3M, Q1 순이익 $44.5M, 비GAAP 제외, GAAP 흑자 4분기 연속이 자료와 맞고 차감값(약 $14.2M)도 산술적으로 맞다."
+    },
+    {
+      "id": "V62",
+      "verdict": "supported",
+      "reason": "성장률 43.7→33.3→29.6%와 가이던스 값 $1.97B→$2.009B→$2.045B(21~22→24→26%)가 자료와 맞는다."
+    },
+    {
+      "id": "V63",
+      "verdict": "supported",
+      "reason": "차입금 없음과 단기·장기 투자자산 규모가 S54와 F232·F233에 있다."
+    },
+    {
+      "id": "V64",
+      "verdict": "leap",
+      "reason": "ARR $2.125B·3,605곳·$1.3B(+38%)는 맞지만, '성장 대부분이 기존 고객 확장'은 자료에서 $1M 이상 고객 성장에 대한 말이라 회사 전체 성장의 질로 일반화할 수 없다."
+    },
+    {
+      "id": "V65",
+      "verdict": "supported",
+      "reason": "Class B 205M주 지배와 감사의견·DEF 14A 지표를 확인하지 못했다는 부재 진술은 자료와 부합하고, S6·S9는 내용이 비어 있다."
+    },
+    {
+      "id": "V66",
+      "verdict": "supported",
+      "reason": "내부자 매도 약 $107.38M·매수 0, 내부자 지분 35.13%, 52주 범위 $23.38~$47.47이 S60과 일치한다."
+    },
+    {
+      "id": "V67",
+      "verdict": "supported",
+      "reason": "Motive 조달, FCF 마진 전망 반전, 내부자 순매도가 자료와 맞고 나머지는 사전 부검이다."
+    },
+    {
+      "id": "V68",
+      "verdict": "supported",
+      "reason": "비GAAP 영업이익률 15%→21%, 가이던스 21%(최초 19%), GAAP $4.9M, 중재 이익 $30.3M이 모두 일치한다."
+    },
+    {
+      "id": "V69",
+      "verdict": "supported",
+      "reason": "재고 증가율 격차 41.7%p, DIO 값, 재고 금액, FY2026 증가율(약 24%)이 매출 성장 29.6%보다 낮다는 점과 완충 재고 설명이 맞는다."
+    },
+    {
+      "id": "V70",
+      "verdict": "supported",
+      "reason": "자사주 매입 없음, 발행 6.69M주 중 2.12M주를 $70.4M에 원천징수, Q2 $36.0M이 자료와 일치한다."
+    },
+    {
+      "id": "V71",
+      "verdict": "supported",
+      "reason": "+100bp 개선에서 약 100bp 하락으로의 반전, 사유와 '일시적' 설명이 S56·S57에 있다."
+    },
+    {
+      "id": "V72",
+      "verdict": "supported",
+      "reason": "RPO $4.285B, 12개월 내 $1.84B, 신규 제품 20% 초과, 비미국 18%가 자료와 맞는다."
+    },
+    {
+      "id": "V73",
+      "verdict": "supported",
+      "reason": "Class A 380,273,036주, Class B 205,332,173주가 S54와 일치한다."
+    },
+    {
+      "id": "V74",
+      "verdict": "supported",
+      "reason": "P/FCF, base 수익률, 대형 고객 순증 242, 총이익률 76%를 맞게 옮겼고 나머지는 반론이다."
+    },
+    {
+      "id": "V75",
+      "verdict": "supported",
+      "reason": "SBC/OCF 133.3%, SBC 차감 FCF 음수, 희석 3%대, 내부자 매도 $107.38M, Q2 SBC 증가(약 +24%)가 자료와 맞는다."
+    },
+    {
+      "id": "V76",
+      "verdict": "supported",
+      "reason": "성장 프리미엄 94.3%, 내재 성장 22.4%, base 매출 CAGR 19.6%가 계산값과 일치한다."
+    },
+    {
+      "id": "V77",
+      "verdict": "supported",
+      "reason": "Q1 서한의 +100bp 개선, Q2 콜의 약 100bp 하락과 사유, '일시적' 설명, 총이익률 79→76%가 자료와 맞는다."
+    },
+    {
+      "id": "V78",
+      "verdict": "supported",
+      "reason": "매출채권 $321M→$338M, DSO 68.4→72.5일, 이연매출 $679M→$729M, RPO, 10% 고객 없음이 자료와 맞는다."
+    },
+    {
+      "id": "V79",
+      "verdict": "supported",
+      "reason": "기대 연 수익률 1.4%, cash_survives 1, 총이익률 76%는 자료와 맞고 다른 분석가 언급은 판정하지 않는다."
+    },
+    {
+      "id": "V80",
+      "verdict": "supported",
+      "reason": "Motive 조달·S-1 철회와 콜에 경쟁 언급이 없다는 점이 자료에 있고 나머지는 사전 부검이다."
+    },
+    {
+      "id": "V81",
+      "verdict": "supported",
+      "reason": "upside 3.75배, 3,605곳과 $1.3B(+38%), 내재 성장 22.4%가 자료와 맞고 나머지는 반론이다."
+    },
+    {
+      "id": "V82",
+      "verdict": "supported",
+      "reason": "Class B 205,332,173주, 순현금 약 $1.33B에 차입금 없음, 비GAAP 영업이익률 15%→21%가 일치한다."
+    },
+    {
+      "id": "V83",
+      "verdict": "supported",
+      "reason": "하락 폭 93.1%는 주가 39.57과 단단한 가치 2.71에서 산술적으로 맞는다."
+    },
+    {
+      "id": "V84",
+      "verdict": "supported",
+      "reason": "bull 수익률 12.5%가 계산값과 일치하고 나머지는 가정과 의견이다."
+    },
+    {
+      "id": "V85",
+      "verdict": "supported",
+      "reason": "Motive의 $1.3B 조달·S-1 철회와 Q2 콜의 경쟁·가격 언급 없음이 자료에 있고 나머지는 사전 부검이다."
+    },
+    {
+      "id": "V86",
+      "verdict": "contradicted",
+      "reason": "587.7M의 +3.5%는 Q1 FY26(567.7M) 대비인데, 주장은 FY26 573.5M에서 587.7M으로 +3.5% 늘었다고 써서 기준이 어긋난다(573.5→587.7M은 약 +2.5%)."
+    },
+    {
+      "id": "V87",
+      "verdict": "supported",
+      "reason": "현금·투자자산 합계 $1,325.7M, 차입금 없음, FCF 마진 12.8%, cash_survives 1이 자료와 맞는다."
+    },
+    {
+      "id": "V88",
+      "verdict": "supported",
+      "reason": "SBC 차감 FCF 음수와 FCF 마진 전망 반전이 자료와 맞고 나머지는 반론과 의견이다."
+    }
+  ]
+}

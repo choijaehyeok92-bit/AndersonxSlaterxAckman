@@ -1,0 +1,361 @@
+{
+  "agent": "verifier",
+  "basis": "79cd2ed57797",
+  "checks": [
+    {
+      "id": "V1",
+      "verdict": "supported",
+      "reason": "설비투자 가이던스 상향·CFO 발언·FY2023 FCF 마진 13.5%가 인용 자료와 일치하고, 나머지는 해석이다."
+    },
+    {
+      "id": "V2",
+      "verdict": "supported",
+      "reason": "24.2%, P/FCF 69.21배, 앤더슨 상방 4.18배(<5배)가 계산값과 일치한다."
+    },
+    {
+      "id": "V3",
+      "verdict": "unsupported",
+      "reason": "멀티플 ×0.75 적용 시 −4.9%라는 수치와 기저율 표 부재 근거가 인용 자료에 없고, base_rate 인용은 존재하지 않는다."
+    },
+    {
+      "id": "V4",
+      "verdict": "unsupported",
+      "reason": "FY2025 전환율 0.58x와 FY2025 설비투자 US$40.9bn은 인용 자료에 없다. 마진 13.5/30.1/26.3%와 가이던스 상향은 일치한다."
+    },
+    {
+      "id": "V5",
+      "verdict": "supported",
+      "reason": "ROIC 51.4%와 순현금 2.13조 TWD가 계산값과 일치한다."
+    },
+    {
+      "id": "V6",
+      "verdict": "unsupported",
+      "reason": "21.9%, 17.3%, −0.4%는 맞지만 멀티플 압축이 가장 큰 마이너스라는 수익률 분해는 인용에 없다."
+    },
+    {
+      "id": "V7",
+      "verdict": "supported",
+      "reason": "강세 시나리오 연 수익률 14.4%가 일치하고 나머지는 가상 시나리오와 가정이다."
+    },
+    {
+      "id": "V8",
+      "verdict": "supported",
+      "reason": "인용 자료에 고객 집중도·공정별 비중 등이 없다는 부재 진술이 맞다."
+    },
+    {
+      "id": "V9",
+      "verdict": "supported",
+      "reason": "FCF 마진 26.3%/13.5%, 전환 0.58x/0.34x가 계산값과 일치한다."
+    },
+    {
+      "id": "V10",
+      "verdict": "supported",
+      "reason": "순현금 2.13조 TWD와 FY2025 FCF 양(+)이 계산값과 일치한다."
+    },
+    {
+      "id": "V11",
+      "verdict": "supported",
+      "reason": "FY2025 FCF 마진 26.3%는 일치하고 36% 상방은 시나리오 가정이다."
+    },
+    {
+      "id": "V12",
+      "verdict": "supported",
+      "reason": "FY2023 매출 −4.5%, 10-07 대비 약 12.6% 하락(472.20→412.61)이 일치한다."
+    },
+    {
+      "id": "V13",
+      "verdict": "supported",
+      "reason": "전환율 0.58x와 설비투자 수치·가이던스 상향이 자료와 일치하고 해석은 의견이다."
+    },
+    {
+      "id": "V14",
+      "verdict": "supported",
+      "reason": "+50.9%, 총이익률 66.4%, FY2024 56.1%가 모두 일치한다."
+    },
+    {
+      "id": "V15",
+      "verdict": "unsupported",
+      "reason": "기대 수익률 +1.0%와 손실 확률 75%는 맞지만 멀티플 축소 기여가 가장 크다는 분해 수치는 인용에 없다."
+    },
+    {
+      "id": "V16",
+      "verdict": "supported",
+      "reason": "FY2020 5,072.4억 TWD, FY2025 1.27조 TWD, 가이던스 상향과 CFO 발언이 자료와 일치한다."
+    },
+    {
+      "id": "V17",
+      "verdict": "supported",
+      "reason": "원문 미확인과 요약 수준이라는 내용이 인용 자료의 기술과 일치한다."
+    },
+    {
+      "id": "V18",
+      "verdict": "supported",
+      "reason": "FY2023 매출 −4.5%와 FCF 마진 13.5%가 일치하고 나머지는 가상 부검의 해석이다."
+    },
+    {
+      "id": "V19",
+      "verdict": "supported",
+      "reason": "가이던스 중간값 45.2bn 대비 실제 46.72bn 상회, 적중률 100%가 일치한다."
+    },
+    {
+      "id": "V20",
+      "verdict": "supported",
+      "reason": "20-F는 목록만 있고 보상 정보가 자료에 없다는 부재 진술이 맞다."
+    },
+    {
+      "id": "V21",
+      "verdict": "supported",
+      "reason": "원문 미확인과 가이던스 상회가 자료와 일치하고 나머지는 가정이다."
+    },
+    {
+      "id": "V22",
+      "verdict": "supported",
+      "reason": "24.2%와 27.0%가 계산값과 일치한다."
+    },
+    {
+      "id": "V23",
+      "verdict": "supported",
+      "reason": "4Q 가이던스 범위, 2Q GM 67.7%, 2nm 비용 보도, Reuters 'prudent'가 자료와 일치한다."
+    },
+    {
+      "id": "V24",
+      "verdict": "unsupported",
+      "reason": "연 17% 성장, 22배 출구, −0.4%, 멀티플 변화 −22.3%p는 인용에 없다. 24.2%, 69배, 12.6% 하락은 일치한다."
+    },
+    {
+      "id": "V25",
+      "verdict": "supported",
+      "reason": "시가총액 69.38조 TWD와 기대 수익률 +1.0%가 계산값과 일치한다."
+    },
+    {
+      "id": "V26",
+      "verdict": "supported",
+      "reason": "3Q 매출 가이던스 상단 상회, 2Q GM 67.7%, FY2024 FCF 마진 30.1%가 일치한다."
+    },
+    {
+      "id": "V27",
+      "verdict": "supported",
+      "reason": "3Q 매출이 가이던스를 상회했고 표본이 한 분기라는 서술이 자료와 일치한다."
+    },
+    {
+      "id": "V28",
+      "verdict": "supported",
+      "reason": "내부자 지분·매매 자료가 인용에 없다는 부재 진술이 맞다."
+    },
+    {
+      "id": "V29",
+      "verdict": "supported",
+      "reason": "감사의견 등 확인 불가라는 서술이 목록뿐인 20-F와 일치한다."
+    },
+    {
+      "id": "V30",
+      "verdict": "supported",
+      "reason": "+50.9%, 4Q 가이던스, 설비투자 가이던스, FY2023 −4.5%가 자료와 일치한다."
+    },
+    {
+      "id": "V31",
+      "verdict": "supported",
+      "reason": "가이던스 US$60~64bn, 직전 52~56bn, FY2025 40.90bn, CFO 발언이 자료와 일치한다."
+    },
+    {
+      "id": "V32",
+      "verdict": "supported",
+      "reason": "+50.9%, Reuters 신중 보도, 설비투자 가이던스, FY2023 −4.5%와 FCF 마진 13.5%가 일치한다."
+    },
+    {
+      "id": "V33",
+      "verdict": "unsupported",
+      "reason": "FY2023·FY2024 발생액 비율만 인용되어 FY2021~FY2022 음수라는 부분은 자료에 없다."
+    },
+    {
+      "id": "V34",
+      "verdict": "supported",
+      "reason": "Reuters 신중 보도와 2Q GM 67.7%가 일치하고 나머지는 가상 시나리오다."
+    },
+    {
+      "id": "V35",
+      "verdict": "supported",
+      "reason": "R&D 1,094.9억에서 2,041.8억 TWD로의 증가가 일치하고 경쟁사 비교 부재도 맞다."
+    },
+    {
+      "id": "V36",
+      "verdict": "supported",
+      "reason": "5년 매출 3.12배와 10년 주당가치 4.18배가 계산값과 일치한다."
+    },
+    {
+      "id": "V37",
+      "verdict": "unsupported",
+      "reason": "FY2024 51.4%만 인용되어 FY2020~FY2024 내내 40% 초과라는 주장은 자료에 없다."
+    },
+    {
+      "id": "V38",
+      "verdict": "supported",
+      "reason": "희석 주식 수 259.3억 주, 발행주식 259.3억 주, 변화율 약 0%가 일치한다."
+    },
+    {
+      "id": "V39",
+      "verdict": "supported",
+      "reason": "R&D 증가, FY2023 GM 54.4%, 3Q GM 66.4%가 일치하고 나머지는 가상 부검이다."
+    },
+    {
+      "id": "V40",
+      "verdict": "supported",
+      "reason": "P/FCF 69.21배, FCF 마진 26.3%, GM 66.4%, 4Q 가이던스가 일치한다."
+    },
+    {
+      "id": "V41",
+      "verdict": "supported",
+      "reason": "애리조나 US$265bn과 텍사스 검토 보도가 기사 제목과 일치하고 수익성은 근거 없음으로 처리했다."
+    },
+    {
+      "id": "V42",
+      "verdict": "supported",
+      "reason": "FCF 마진 13.5%/30.1%, 약세 연 수익률 −22.6%, 손실 확률 75%가 일치한다."
+    },
+    {
+      "id": "V43",
+      "verdict": "supported",
+      "reason": "고객 집중도 근거가 없다는 부재 진술이 맞고 나머지는 가상 부검이다."
+    },
+    {
+      "id": "V44",
+      "verdict": "unsupported",
+      "reason": "ROIC FY2021~FY2024 40~62% 범위는 FY2024 51.4%만 인용되어 자료에 없다. FCF 마진과 전환율은 일치한다."
+    },
+    {
+      "id": "V45",
+      "verdict": "supported",
+      "reason": "P/FCF 69배, 설비투자 가이던스, FY2025 FCF 마진이 일치하고 나머지는 가상 부검이다."
+    },
+    {
+      "id": "V46",
+      "verdict": "supported",
+      "reason": "미국 투자 확대 보도와 공시 미확인이라는 서술이 자료와 일치한다."
+    },
+    {
+      "id": "V47",
+      "verdict": "unsupported",
+      "reason": "DIO 79.8일과 82.7일은 일치하지만 80~93일 범위의 93일은 인용에 없다."
+    },
+    {
+      "id": "V48",
+      "verdict": "supported",
+      "reason": "FY2023 −4.5%, 설비투자 가이던스, Reuters 신중 보도가 일치하고 나머지는 가상 부검이다."
+    },
+    {
+      "id": "V49",
+      "verdict": "supported",
+      "reason": "US$265bn 보도, 전환율 0.34x/0.58x, ROIC 51.4%가 일치하고 나머지는 가상 부검이다."
+    },
+    {
+      "id": "V50",
+      "verdict": "unsupported",
+      "reason": "FY2023 매출 −4.5%는 인용되지 않았다. 나머지 연도 성장률, +50.9%, US$46.72bn과 가이던스 범위는 일치한다."
+    },
+    {
+      "id": "V51",
+      "verdict": "supported",
+      "reason": "마진과 이익 금액이 서로 맞고 EPS 29.43에 주식 수 259.3억을 곱하면 순이익과 일치한다."
+    },
+    {
+      "id": "V52",
+      "verdict": "supported",
+      "reason": "상방 4.18배, 설비투자 가이던스 상향, CFO 발언, 과거 ROIC가 자료와 일치한다."
+    },
+    {
+      "id": "V53",
+      "verdict": "unsupported",
+      "reason": "IFRS 기준이라는 점과 Non-GAAP 조정 신호가 없다는 점은 인용 자료에 없다. EPS와 주식 수 일정만 일치한다."
+    },
+    {
+      "id": "V54",
+      "verdict": "supported",
+      "reason": "3Q 실적과 4Q 가이던스 근거, 컨센서스 부재, Reuters 보도가 자료와 일치한다."
+    },
+    {
+      "id": "V55",
+      "verdict": "supported",
+      "reason": "FY2025 순이익은 단일 보도이고 2Q 현금흐름은 검색 요약이라는 서술이 자료와 일치한다."
+    },
+    {
+      "id": "V56",
+      "verdict": "supported",
+      "reason": "GlobalFoundries 계약과 가이던스 상회는 정황일 뿐 전환비용 직접 증거가 아니라는 판단이 자료와 맞다."
+    },
+    {
+      "id": "V57",
+      "verdict": "supported",
+      "reason": "P/FCF 69.21배와 FCF 수익률 1.4%가 계산값과 일치한다."
+    },
+    {
+      "id": "V58",
+      "verdict": "supported",
+      "reason": "총이익률 FY2022 59.6%, FY2023 54.4%, FY2024 56.1%, FY2025 59.9%, 2Q 67.7%, 3Q 66.4%가 모두 일치한다."
+    },
+    {
+      "id": "V59",
+      "verdict": "supported",
+      "reason": "가이던스 600~640억 달러, FY2025 409.0억 달러, CFO 발언, FY2023 FCF 마진 13.5%가 일치한다."
+    },
+    {
+      "id": "V60",
+      "verdict": "supported",
+      "reason": "FCF 마진 13.5%/30.1%와 가이던스 US$60~64bn이 일치한다."
+    },
+    {
+      "id": "V61",
+      "verdict": "supported",
+      "reason": "P/FCF 69.21배와 내재 성장 24.2%가 계산값과 일치한다."
+    },
+    {
+      "id": "V62",
+      "verdict": "supported",
+      "reason": "FY2025 영업현금흐름 2.27조 TWD가 순이익 1.72조 TWD보다 크다."
+    },
+    {
+      "id": "V63",
+      "verdict": "supported",
+      "reason": "기대 수익률 +1.0%와 손실 확률 75%가 일치하고 비대칭 부재는 이를 토대로 한 해석이다."
+    },
+    {
+      "id": "V64",
+      "verdict": "supported",
+      "reason": "4Q 가이던스 GM 66%·OPM 57.5% 중간값과 2nm 초기 비용 보도가 일치한다."
+    },
+    {
+      "id": "V65",
+      "verdict": "supported",
+      "reason": "24.2%, 69.21배, FCF 마진 13.5%/30.1%, 상방 4.18배가 일치한다."
+    },
+    {
+      "id": "V66",
+      "verdict": "supported",
+      "reason": "3Q 총이익률 66.4%, 영업이익률 58.7%, ROIC 51.4%가 일치한다."
+    },
+    {
+      "id": "V67",
+      "verdict": "supported",
+      "reason": "설비투자 가이던스, Reuters 보도, FCF 마진 13.5%, FY2023 −4.5%, 69배가 일치하고 나머지는 가상 부검이다."
+    },
+    {
+      "id": "V68",
+      "verdict": "supported",
+      "reason": "기본 시나리오 −0.4%, 기대 수익률 +1.0%, FCF 수익률이 일치하고 나머지는 해석이다."
+    },
+    {
+      "id": "V69",
+      "verdict": "supported",
+      "reason": "4Q 가이던스가 3Q보다 낮다는 점과 해외 팹 보도가 자료와 일치한다."
+    },
+    {
+      "id": "V70",
+      "verdict": "supported",
+      "reason": "분기 매출, 4Q 가이던스 US$53.3bn, 환율 31.8, 설비투자, 마진, P/FCF 69배가 자료와 일치하고 나머지는 가정이다."
+    },
+    {
+      "id": "V71",
+      "verdict": "unsupported",
+      "reason": "ROIC FY2024 51.4%와 FY2022 62.4%만 인용되어 FY2020~FY2024 내내 40%대 이상이라는 주장은 자료에 없다."
+    }
+  ]
+}

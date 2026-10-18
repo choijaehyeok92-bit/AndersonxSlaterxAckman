@@ -1,0 +1,30 @@
+{
+ "sources": [
+  {
+   "id": "S900",
+   "type": "data",
+   "title": "Yahoo Finance CRDO 일간 시세 — 52주 최저·최고가 (2025-10-17~2026-10-16)",
+   "url": "https://finance.yahoo.com/quote/CRDO/history/",
+   "date": "2026-10-16",
+   "note": "일간 장중 최저 86.49(2026-03-30), 최고 308.67(2026-06-22), 251거래일 (상장 기간이 1년보다 짧으면 상장 후 전체). 마지막 종가 169.70(2026-10-16)."
+  }
+ ],
+ "facts": [
+  {
+   "metric": "price_52w_low",
+   "value": 86.49,
+   "unit": "USD/share",
+   "end": "2026-10-16",
+   "basis": "market",
+   "source": "S900"
+  },
+  {
+   "metric": "price_52w_high",
+   "value": 308.67,
+   "unit": "USD/share",
+   "end": "2026-10-16",
+   "basis": "market",
+   "source": "S900"
+  }
+ ]
+}
