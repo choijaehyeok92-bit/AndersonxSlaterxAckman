@@ -159,13 +159,18 @@ class Verification(Base):
             {"metric": "nrr", "op": "<", "value": 1.5, "note": "3분기 NRR이 2분기보다 낮아지면"},
             {"metric": "nrr", "op": "<", "value": 1.385, "note": "NRR이 지금 수준(1.38)보다 낮아지면"},   # 0.4% 차이 — 반올림 문턱
             {"metric": "nrr", "op": "<", "value": 1.5, "note": "NRR이 1.5 아래면"},
-            {"metric": "nrr", "op": "<", "value": 1.5, "period": "FY2026Q4", "note": "4분기 NRR"}])
+            {"metric": "nrr", "op": "<", "value": 1.5, "period": "FY2026Q4", "note": "4분기 NRR"},
+            {"metric": "nrr", "op": "<", "value": 1.5, "note": "연말 NRR 목표 미달"}])
         st = [b["status"] for b in judge(self.d)["breaks"] if b["who"] == "애크먼"]
-        self.assertEqual(st, ["대기 — FY2026Q3 미발표", "대기 — FY2026Q3 미발표", "미충족", "충족 — 훼손", "대기 — FY2026Q4 미발표"])
+        self.assertEqual(st, ["대기 — FY2026Q3 미발표", "대기 — FY2026Q3 미발표", "미충족", "충족 — 훼손", "대기 — FY2026Q4 미발표", "대기 — FY2026 미발표"])
         self.edit("slater.2.json", metrics={**core.load(self.d / "slater.2.json")["metrics"], "must_be_true": [
             {"claim": "회수기간 FY2026Q2 수준(15.95개월) 이하 유지", "metric": "payback_months", "op": "<=", "value": 15.95, "status": "on_track"}]})
         x = judge(self.d)["agents"][1]
-        self.assertNotIn("이미 반증된 가설", x["red_lines"])                 # 16 vs 15.95 — 0.3% 차이는 깨짐이 아니다
+        self.assertNotIn("이미 반증된 가설", x["red_lines"])
+        self.add_facts({"metric": "opex", "value": 9e8, "unit": "USD", "period": "FY2026H1", "end": "2026-06-30", "source": "S2"},
+                       {"metric": "opex", "value": 4e8, "unit": "USD", "period": "FY2026Q2", "end": "2026-06-30", "source": "S2"})
+        self.edit("ackman.1.json", thesis_breaks=[{"metric": "opex", "op": ">", "value": 5e8, "note": "분기 영업비용 5억 초과"}])
+        self.assertEqual([b["status"] for b in judge(self.d)["breaks"] if b["who"] == "애크먼"], ["미충족"])  # 반기 9억이 아니라 2분기 4억                 # 16 vs 15.95 — 0.3% 차이는 깨짐이 아니다
 
 
 class Gates(Base):

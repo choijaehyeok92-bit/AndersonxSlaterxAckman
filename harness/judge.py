@@ -43,6 +43,8 @@ def ahead(fx, x):
     ps = re.findall(r"FY\d{4}(?:Q[1-4])?", text)
     y, lq = porder(last)
     qs = [int(q) for q in re.findall(r"(?<![\dQ])([1-4])분기", text)]
+    if re.search(r"연말|올해 말|year[- ]end", text, re.I) and lq < 4:  # '연말 목표' — 그해 연간 실적이 나와야 판정한다
+        ps.append(f"FY{y}")
     if qs:
         q = max(qs)
         ps.append(f"FY{y if q >= lq else y + 1}Q{q}")
@@ -59,6 +61,11 @@ def status(fx, x, hold=False, forward=False):
     if forward and ahead(fx, x):
         return None, None
     f = fx.get(x["metric"], x.get("period")) or fx.get(x["metric"], x.get("period"), basis="market")
+    text = " ".join(str(x.get(k) or "") for k in ("note", "claim"))
+    if f and not x.get("period") and re.search(r"분기|quarter", text, re.I) and not re.match(r"^FY\d{4}Q[1-4]$", f.get("period") or "~"):
+        qs = [g for g in fx.facts.values() if g["metric"] == x["metric"] and g["basis"] == f["basis"]
+              and re.match(r"^FY\d{4}Q[1-4]$", g.get("period") or "")]  # '분기 …' 조건은 반기·연간 값이 아니라 최근 분기 값으로
+        f = fx.get(x["metric"], max(qs, key=lambda g: g["end"])["period"], basis=f["basis"]) if qs else f
     if f is None:
         return None, None
     a, b = f["value"], x["value"]
