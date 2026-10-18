@@ -1,0 +1,863 @@
+{
+ "vol": {
+  "UBER": 0.35164731005619226,
+  "MELI": 0.40436831298021997,
+  "CRDO": 0.9521947665904286,
+  "NVDA": 0.37328590297083963,
+  "SHOP": 0.5888232286678978,
+  "AMZN": 0.34302650641489163,
+  "PLTR": 0.6062143453027293,
+  "IOT": 0.5975946236586178,
+  "CBRS": 1.14891762722718,
+  "PONY": 0.6747597781567688,
+  "SCHD": 0.11209361533217738
+ },
+ "corr": {
+  "UBER-UBER": 1.0,
+  "UBER-MELI": 0.4084954799949279,
+  "UBER-CRDO": 0.058277182885387635,
+  "UBER-NVDA": 0.14670616504217382,
+  "UBER-SHOP": 0.3430912448943008,
+  "UBER-AMZN": 0.27429860994701005,
+  "UBER-PLTR": 0.2849092954576977,
+  "UBER-IOT": 0.23048750858991768,
+  "UBER-CBRS": -0.06310332975693088,
+  "UBER-PONY": 0.22254428565826043,
+  "UBER-SCHD": 0.16105271123578482,
+  "MELI-UBER": 0.4084954799949279,
+  "MELI-MELI": 1.0,
+  "MELI-CRDO": 0.07038254605971006,
+  "MELI-NVDA": 0.16984526751672605,
+  "MELI-SHOP": 0.3757561904279206,
+  "MELI-AMZN": 0.3118035158344666,
+  "MELI-PLTR": 0.22039894953681968,
+  "MELI-IOT": 0.1735836401932177,
+  "MELI-CBRS": 0.029172818886496466,
+  "MELI-PONY": 0.3167673113844845,
+  "MELI-SCHD": 0.12952289225225855,
+  "CRDO-UBER": 0.058277182885387635,
+  "CRDO-MELI": 0.07038254605971006,
+  "CRDO-CRDO": 1.0,
+  "CRDO-NVDA": 0.41526953652517756,
+  "CRDO-SHOP": 0.1404730839582543,
+  "CRDO-AMZN": 0.19574297572708022,
+  "CRDO-PLTR": 0.27824036295686805,
+  "CRDO-IOT": 0.016759381638846133,
+  "CRDO-CBRS": 0.37044944068941793,
+  "CRDO-PONY": 0.32676801972211283,
+  "CRDO-SCHD": -0.1910474236187374,
+  "NVDA-UBER": 0.14670616504217382,
+  "NVDA-MELI": 0.16984526751672605,
+  "NVDA-CRDO": 0.41526953652517756,
+  "NVDA-NVDA": 1.0,
+  "NVDA-SHOP": 0.2572398735691384,
+  "NVDA-AMZN": 0.24672754327780497,
+  "NVDA-PLTR": 0.28419589344945134,
+  "NVDA-IOT": 0.040894431551211606,
+  "NVDA-CBRS": 0.3652549128296628,
+  "NVDA-PONY": 0.4290740939462705,
+  "NVDA-SCHD": -0.1759094448393399,
+  "SHOP-UBER": 0.3430912448943008,
+  "SHOP-MELI": 0.3757561904279206,
+  "SHOP-CRDO": 0.1404730839582543,
+  "SHOP-NVDA": 0.2572398735691384,
+  "SHOP-SHOP": 1.0,
+  "SHOP-AMZN": 0.23010965916636125,
+  "SHOP-PLTR": 0.48385397888623277,
+  "SHOP-IOT": 0.4395315685286791,
+  "SHOP-CBRS": -0.12895092629356297,
+  "SHOP-PONY": 0.326957830013216,
+  "SHOP-SCHD": -0.010074285530141428,
+  "AMZN-UBER": 0.27429860994701005,
+  "AMZN-MELI": 0.3118035158344666,
+  "AMZN-CRDO": 0.19574297572708022,
+  "AMZN-NVDA": 0.24672754327780497,
+  "AMZN-SHOP": 0.23010965916636125,
+  "AMZN-AMZN": 1.0,
+  "AMZN-PLTR": 0.2363808155505047,
+  "AMZN-IOT": 0.0979872407906738,
+  "AMZN-CBRS": 0.17640486107084297,
+  "AMZN-PONY": 0.24577906073229144,
+  "AMZN-SCHD": 0.042437324502005595,
+  "PLTR-UBER": 0.2849092954576977,
+  "PLTR-MELI": 0.22039894953681968,
+  "PLTR-CRDO": 0.27824036295686805,
+  "PLTR-NVDA": 0.28419589344945134,
+  "PLTR-SHOP": 0.48385397888623277,
+  "PLTR-AMZN": 0.2363808155505047,
+  "PLTR-PLTR": 1.0,
+  "PLTR-IOT": 0.4809833500404999,
+  "PLTR-CBRS": 0.04113844523910401,
+  "PLTR-PONY": 0.3471918016598763,
+  "PLTR-SCHD": 0.01465965326448661,
+  "IOT-UBER": 0.23048750858991768,
+  "IOT-MELI": 0.1735836401932177,
+  "IOT-CRDO": 0.016759381638846133,
+  "IOT-NVDA": 0.040894431551211606,
+  "IOT-SHOP": 0.4395315685286791,
+  "IOT-AMZN": 0.0979872407906738,
+  "IOT-PLTR": 0.4809833500404999,
+  "IOT-IOT": 1.0,
+  "IOT-CBRS": -0.21954085054857536,
+  "IOT-PONY": 0.13617226887640296,
+  "IOT-SCHD": 0.07017731085840638,
+  "CBRS-UBER": -0.06310332975693088,
+  "CBRS-MELI": 0.029172818886496466,
+  "CBRS-CRDO": 0.37044944068941793,
+  "CBRS-NVDA": 0.3652549128296628,
+  "CBRS-SHOP": -0.12895092629356297,
+  "CBRS-AMZN": 0.17640486107084297,
+  "CBRS-PLTR": 0.04113844523910401,
+  "CBRS-IOT": -0.21954085054857536,
+  "CBRS-CBRS": 1.0,
+  "CBRS-PONY": 0.2712325236476468,
+  "CBRS-SCHD": -0.1605956368264934,
+  "PONY-UBER": 0.22254428565826043,
+  "PONY-MELI": 0.3167673113844845,
+  "PONY-CRDO": 0.32676801972211283,
+  "PONY-NVDA": 0.4290740939462705,
+  "PONY-SHOP": 0.326957830013216,
+  "PONY-AMZN": 0.24577906073229144,
+  "PONY-PLTR": 0.3471918016598763,
+  "PONY-IOT": 0.13617226887640296,
+  "PONY-CBRS": 0.2712325236476468,
+  "PONY-PONY": 1.0,
+  "PONY-SCHD": 0.033828489928628115,
+  "SCHD-UBER": 0.16105271123578482,
+  "SCHD-MELI": 0.12952289225225855,
+  "SCHD-CRDO": -0.1910474236187374,
+  "SCHD-NVDA": -0.1759094448393399,
+  "SCHD-SHOP": -0.010074285530141428,
+  "SCHD-AMZN": 0.042437324502005595,
+  "SCHD-PLTR": 0.01465965326448661,
+  "SCHD-IOT": 0.07017731085840638,
+  "SCHD-CBRS": -0.1605956368264934,
+  "SCHD-PONY": 0.033828489928628115,
+  "SCHD-SCHD": 1.0
+ },
+ "n": {
+  "UBER": 251,
+  "MELI": 251,
+  "CRDO": 251,
+  "NVDA": 251,
+  "SHOP": 251,
+  "AMZN": 251,
+  "PLTR": 251,
+  "IOT": 251,
+  "CBRS": 107,
+  "PONY": 251,
+  "SCHD": 251
+ },
+ "window": "2025-10-16~2026-10-16 일간 종가",
+ "harness": {
+  "UBER": {
+   "label": "찬성 우세",
+   "votes": {
+    "for": 3,
+    "against": 0,
+    "abstain": 1
+   },
+   "iv": 92.3745539834174,
+   "price": 70.35,
+   "irr": 0.16158323613054182,
+   "p_loss": 0.3,
+   "kelly_ref": 0.1,
+   "ladder": [
+    {
+     "price": 70.35,
+     "label": "찬성 우세",
+     "who": []
+    },
+    {
+     "price": 67.14402449312179,
+     "label": "만장일치 찬성",
+     "who": [
+      "클라만"
+     ]
+    }
+   ],
+   "agents": {
+    "anderson": {
+     "final": "for",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [],
+     "buy_below": 105.29885550673453,
+     "hard_value": null
+    },
+    "slater": {
+     "final": "for",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [],
+     "buy_below": null,
+     "hard_value": null
+    },
+    "ackman": {
+     "final": "for",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [],
+     "buy_below": 76.7360279921392,
+     "hard_value": null
+    },
+    "klarman": {
+     "final": "abstain",
+     "stance": "conditional",
+     "conviction": 3,
+     "red_lines": [
+      "보수적 내재가치 대비 안전마진 30% 미만 또는 계산 불가"
+     ],
+     "buy_below": 67.14402449312179,
+     "hard_value": 36.229194356716945
+    }
+   }
+  },
+  "MELI": {
+   "label": "찬성 우세",
+   "votes": {
+    "for": 2,
+    "against": 0,
+    "abstain": 2
+   },
+   "iv": 2168.1840562588322,
+   "price": 1834.0,
+   "irr": 0.1374493011042972,
+   "p_loss": 0.3,
+   "kelly_ref": 0.057394001885022784,
+   "ladder": [
+    {
+     "price": 1834.0,
+     "label": "찬성 우세",
+     "who": []
+    },
+    {
+     "price": 1417.4547778039662,
+     "label": "찬성 우세",
+     "who": [
+      "클라만"
+     ]
+    }
+   ],
+   "agents": {
+    "anderson": {
+     "final": "for",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [],
+     "buy_below": 3132.013479783698,
+     "hard_value": null
+    },
+    "slater": {
+     "final": "for",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [],
+     "buy_below": null,
+     "hard_value": null
+    },
+    "ackman": {
+     "final": "abstain",
+     "stance": "against",
+     "conviction": 4,
+     "red_lines": [
+      "단순·예측 가능한 사업이 아님",
+      "레버리지·자본시장 의존",
+      "안전마진 20% 미만 또는 계산 불가"
+     ],
+     "buy_below": 1766.5337310142131,
+     "hard_value": null
+    },
+    "klarman": {
+     "final": "abstain",
+     "stance": "conditional",
+     "conviction": 3,
+     "red_lines": [
+      "보수적 내재가치 대비 안전마진 30% 미만 또는 계산 불가"
+     ],
+     "buy_below": 1417.4547778039662,
+     "hard_value": 2351.0916291184813
+    }
+   }
+  },
+  "CRDO": {
+   "label": "찬성 우세",
+   "votes": {
+    "for": 2,
+    "against": 1,
+    "abstain": 1
+   },
+   "iv": 176.3506570730621,
+   "price": 169.7,
+   "irr": 0.10848988144657157,
+   "p_loss": 0.25,
+   "kelly_ref": 0.013300105994145345,
+   "ladder": [
+    {
+     "price": 169.7,
+     "label": "찬성 우세",
+     "who": []
+    },
+    {
+     "price": 28.795625019292306,
+     "label": "찬성 우세",
+     "who": [
+      "클라만"
+     ]
+    }
+   ],
+   "agents": {
+    "anderson": {
+     "final": "for",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [],
+     "buy_below": 301.5574573845405,
+     "hard_value": null
+    },
+    "slater": {
+     "final": "for",
+     "stance": "for",
+     "conviction": 2,
+     "red_lines": [],
+     "buy_below": null,
+     "hard_value": null
+    },
+    "ackman": {
+     "final": "against",
+     "stance": "against",
+     "conviction": 4,
+     "red_lines": [
+      "단순·예측 가능한 사업이 아님",
+      "안전마진 20% 미만 또는 계산 불가"
+     ],
+     "buy_below": 140.35991819504812,
+     "hard_value": null
+    },
+    "klarman": {
+     "final": "abstain",
+     "stance": "conditional",
+     "conviction": 4,
+     "red_lines": [
+      "보수적 내재가치 대비 안전마진 30% 미만 또는 계산 불가",
+      "성장이 틀리면 단단한 가치까지 50% 넘게 하락 — 영구적 손실 위험"
+     ],
+     "buy_below": 28.795625019292306,
+     "hard_value": 14.397812509646153
+    }
+   }
+  },
+  "NVDA": {
+   "label": "찬성 우세",
+   "votes": {
+    "for": 2,
+    "against": 1,
+    "abstain": 1
+   },
+   "iv": 220.00079384411825,
+   "price": 214.13,
+   "irr": 0.10596665040686615,
+   "p_loss": 0.3,
+   "kelly_ref": 0.01174336868289365,
+   "ladder": [
+    {
+     "price": 214.13,
+     "label": "찬성 우세",
+     "who": []
+    },
+    {
+     "price": 97.73168622606548,
+     "label": "찬성 우세",
+     "who": [
+      "클라만"
+     ]
+    }
+   ],
+   "agents": {
+    "anderson": {
+     "final": "for",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [],
+     "buy_below": 276.1133476235008,
+     "hard_value": null
+    },
+    "slater": {
+     "final": "for",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [],
+     "buy_below": null,
+     "hard_value": null
+    },
+    "ackman": {
+     "final": "against",
+     "stance": "against",
+     "conviction": 4,
+     "red_lines": [
+      "단순·예측 가능한 사업이 아님",
+      "안전마진 20% 미만 또는 계산 불가"
+     ],
+     "buy_below": 194.74369109517122,
+     "hard_value": null
+    },
+    "klarman": {
+     "final": "abstain",
+     "stance": "conditional",
+     "conviction": 3,
+     "red_lines": [
+      "보수적 내재가치 대비 안전마진 30% 미만 또는 계산 불가",
+      "성장이 틀리면 단단한 가치까지 50% 넘게 하락 — 영구적 손실 위험"
+     ],
+     "buy_below": 97.73168622606548,
+     "hard_value": 48.86584311303274
+    }
+   }
+  },
+  "SHOP": {
+   "label": "찬성 우세",
+   "votes": {
+    "for": 2,
+    "against": 1,
+    "abstain": 1
+   },
+   "iv": 131.04877998100162,
+   "price": 169.52,
+   "irr": 0.0448046404934046,
+   "p_loss": 0.25,
+   "kelly_ref": 0.0,
+   "ladder": [
+    {
+     "price": 169.52,
+     "label": "찬성 우세",
+     "who": []
+    },
+    {
+     "price": 107.36659059642191,
+     "label": "찬성 우세",
+     "who": [
+      "애크먼"
+     ]
+    },
+    {
+     "price": 37.24668653225442,
+     "label": "만장일치 찬성",
+     "who": [
+      "클라만"
+     ]
+    }
+   ],
+   "agents": {
+    "anderson": {
+     "final": "for",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [],
+     "buy_below": 188.17712289242752,
+     "hard_value": null
+    },
+    "slater": {
+     "final": "for",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [],
+     "buy_below": null,
+     "hard_value": null
+    },
+    "ackman": {
+     "final": "against",
+     "stance": "conditional",
+     "conviction": 3,
+     "red_lines": [
+      "안전마진 20% 미만 또는 계산 불가"
+     ],
+     "buy_below": 107.36659059642191,
+     "hard_value": null
+    },
+    "klarman": {
+     "final": "abstain",
+     "stance": "conditional",
+     "conviction": 3,
+     "red_lines": [
+      "보수적 내재가치 대비 안전마진 30% 미만 또는 계산 불가",
+      "성장이 틀리면 단단한 가치까지 50% 넘게 하락 — 영구적 손실 위험"
+     ],
+     "buy_below": 37.24668653225442,
+     "hard_value": 18.62334326612721
+    }
+   }
+  },
+  "AMZN": {
+   "label": "팽팽",
+   "votes": {
+    "for": 1,
+    "against": 1,
+    "abstain": 2
+   },
+   "iv": 233.71568929523946,
+   "price": 250.0,
+   "irr": 0.0852811425209905,
+   "p_loss": 0.25,
+   "kelly_ref": 0.0,
+   "ladder": [
+    {
+     "price": 250.0,
+     "label": "팽팽",
+     "who": []
+    },
+    {
+     "price": 245.20244042361327,
+     "label": "찬성 우세",
+     "who": [
+      "앤더슨"
+     ]
+    },
+    {
+     "price": 96.87535540676878,
+     "label": "찬성 우세",
+     "who": [
+      "클라만"
+     ]
+    }
+   ],
+   "agents": {
+    "anderson": {
+     "final": "abstain",
+     "stance": "conditional",
+     "conviction": 3,
+     "red_lines": [
+      "10년 주당가치 5배 미만 또는 계산 불가 (LTGG Q10)"
+     ],
+     "buy_below": 245.20244042361327,
+     "hard_value": null
+    },
+    "slater": {
+     "final": "for",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [],
+     "buy_below": null,
+     "hard_value": null
+    },
+    "ackman": {
+     "final": "against",
+     "stance": "against",
+     "conviction": 4,
+     "red_lines": [
+      "단순·예측 가능한 사업이 아님",
+      "잉여현금흐름을 만들지 못함 (코드 계산)",
+      "레버리지·자본시장 의존",
+      "안전마진 20% 미만 또는 계산 불가"
+     ],
+     "buy_below": 185.63953302498214,
+     "hard_value": null
+    },
+    "klarman": {
+     "final": "abstain",
+     "stance": "conditional",
+     "conviction": 3,
+     "red_lines": [
+      "보수적 내재가치 대비 안전마진 30% 미만 또는 계산 불가",
+      "성장이 틀리면 단단한 가치까지 50% 넘게 하락 — 영구적 손실 위험"
+     ],
+     "buy_below": 96.87535540676878,
+     "hard_value": 48.43767770338439
+    }
+   }
+  },
+  "PLTR": {
+   "label": "팽팽",
+   "votes": {
+    "for": 1,
+    "against": 1,
+    "abstain": 2
+   },
+   "iv": 141.76322289533127,
+   "price": 186.03,
+   "irr": 0.041810675966131416,
+   "p_loss": 0.3,
+   "kelly_ref": 0.0,
+   "ladder": [
+    {
+     "price": 186.03,
+     "label": "팽팽",
+     "who": []
+    },
+    {
+     "price": 121.37881841460451,
+     "label": "팽팽",
+     "who": [
+      "애크먼"
+     ]
+    },
+    {
+     "price": 26.968240670161567,
+     "label": "찬성 우세",
+     "who": [
+      "클라만"
+     ]
+    }
+   ],
+   "agents": {
+    "anderson": {
+     "final": "for",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [],
+     "buy_below": 310.84854196029835,
+     "hard_value": null
+    },
+    "slater": {
+     "final": "abstain",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [],
+     "buy_below": null,
+     "hard_value": null
+    },
+    "ackman": {
+     "final": "against",
+     "stance": "conditional",
+     "conviction": 3,
+     "red_lines": [
+      "안전마진 20% 미만 또는 계산 불가"
+     ],
+     "buy_below": 121.37881841460451,
+     "hard_value": null
+    },
+    "klarman": {
+     "final": "abstain",
+     "stance": "conditional",
+     "conviction": 4,
+     "red_lines": [
+      "보수적 내재가치 대비 안전마진 30% 미만 또는 계산 불가",
+      "성장이 틀리면 단단한 가치까지 50% 넘게 하락 — 영구적 손실 위험"
+     ],
+     "buy_below": 26.968240670161567,
+     "hard_value": 13.484120335080783
+    }
+   }
+  },
+  "IOT": {
+   "label": "팽팽",
+   "votes": {
+    "for": 1,
+    "against": 1,
+    "abstain": 2
+   },
+   "iv": 26.33208737616514,
+   "price": 39.57,
+   "irr": 0.013949983783283715,
+   "p_loss": 0.25,
+   "kelly_ref": 0.0,
+   "ladder": [
+    {
+     "price": 39.57,
+     "label": "팽팽",
+     "who": []
+    },
+    {
+     "price": 29.713725254692825,
+     "label": "찬성 우세",
+     "who": [
+      "앤더슨"
+     ]
+    },
+    {
+     "price": 21.253957727939998,
+     "label": "찬성 우세",
+     "who": [
+      "애크먼"
+     ]
+    },
+    {
+     "price": 5.426146880440339,
+     "label": "만장일치 찬성",
+     "who": [
+      "클라만"
+     ]
+    }
+   ],
+   "agents": {
+    "anderson": {
+     "final": "abstain",
+     "stance": "conditional",
+     "conviction": 3,
+     "red_lines": [
+      "10년 주당가치 5배 미만 또는 계산 불가 (LTGG Q10)"
+     ],
+     "buy_below": 29.713725254692825,
+     "hard_value": null
+    },
+    "slater": {
+     "final": "for",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [],
+     "buy_below": null,
+     "hard_value": null
+    },
+    "ackman": {
+     "final": "against",
+     "stance": "conditional",
+     "conviction": 3,
+     "red_lines": [
+      "안전마진 20% 미만 또는 계산 불가"
+     ],
+     "buy_below": 21.253957727939998,
+     "hard_value": null
+    },
+    "klarman": {
+     "final": "abstain",
+     "stance": "conditional",
+     "conviction": 4,
+     "red_lines": [
+      "보수적 내재가치 대비 안전마진 30% 미만 또는 계산 불가",
+      "성장이 틀리면 단단한 가치까지 50% 넘게 하락 — 영구적 손실 위험"
+     ],
+     "buy_below": 5.426146880440339,
+     "hard_value": 2.7130734402201697
+    }
+   }
+  },
+  "CBRS": {
+   "label": "팽팽",
+   "votes": {
+    "for": 1,
+    "against": 1,
+    "abstain": 2
+   },
+   "iv": 65.65855249463318,
+   "price": 127.21,
+   "irr": -0.03628926782213604,
+   "p_loss": 0.8,
+   "kelly_ref": 0.0,
+   "ladder": [
+    {
+     "price": 127.21,
+     "label": "팽팽",
+     "who": []
+    },
+    {
+     "price": 25.649166405674347,
+     "label": "찬성 우세",
+     "who": [
+      "클라만"
+     ]
+    }
+   ],
+   "agents": {
+    "anderson": {
+     "final": "for",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [],
+     "buy_below": 163.7569333488716,
+     "hard_value": null
+    },
+    "slater": {
+     "final": "abstain",
+     "stance": "abstain",
+     "conviction": 3,
+     "red_lines": [],
+     "buy_below": null,
+     "hard_value": null
+    },
+    "ackman": {
+     "final": "against",
+     "stance": "against",
+     "conviction": 4,
+     "red_lines": [
+      "단순·예측 가능한 사업이 아님",
+      "잉여현금흐름을 만들지 못함 (코드 계산)",
+      "레버리지·자본시장 의존",
+      "안전마진 20% 미만 또는 계산 불가"
+     ],
+     "buy_below": 54.24984375843507,
+     "hard_value": null
+    },
+    "klarman": {
+     "final": "abstain",
+     "stance": "conditional",
+     "conviction": 3,
+     "red_lines": [
+      "보수적 내재가치 대비 안전마진 30% 미만 또는 계산 불가",
+      "성장이 틀리면 단단한 가치까지 50% 넘게 하락 — 영구적 손실 위험"
+     ],
+     "buy_below": 25.649166405674347,
+     "hard_value": 38.535470105090525
+    }
+   }
+  },
+  "PONY": {
+   "label": "팽팽",
+   "votes": {
+    "for": 1,
+    "against": 1,
+    "abstain": 2
+   },
+   "iv": 4.802461042555352,
+   "price": 4.93,
+   "irr": 0.09520522494462869,
+   "p_loss": 0.3,
+   "kelly_ref": 0.0,
+   "ladder": [
+    {
+     "price": 4.93,
+     "label": "팽팽",
+     "who": []
+    },
+    {
+     "price": 2.3484699468742773,
+     "label": "찬성 우세",
+     "who": [
+      "클라만"
+     ]
+    }
+   ],
+   "agents": {
+    "anderson": {
+     "final": "for",
+     "stance": "for",
+     "conviction": 3,
+     "red_lines": [],
+     "buy_below": 20.19887006116361,
+     "hard_value": null
+    },
+    "slater": {
+     "final": "abstain",
+     "stance": "abstain",
+     "conviction": 2,
+     "red_lines": [
+      "기본 시나리오에서 현금 고갈 (코드 계산)"
+     ],
+     "buy_below": null,
+     "hard_value": null
+    },
+    "ackman": {
+     "final": "against",
+     "stance": "against",
+     "conviction": 5,
+     "red_lines": [
+      "단순·예측 가능한 사업이 아님",
+      "잉여현금흐름을 만들지 못함 (코드 계산)",
+      "레버리지·자본시장 의존",
+      "안전마진 20% 미만 또는 계산 불가"
+     ],
+     "buy_below": 2.683965653570603,
+     "hard_value": null
+    },
+    "klarman": {
+     "final": "abstain",
+     "stance": "conditional",
+     "conviction": 3,
+     "red_lines": [
+      "보수적 내재가치 대비 안전마진 30% 미만 또는 계산 불가"
+     ],
+     "buy_below": 2.3484699468742773,
+     "hard_value": 3.4233782773711248
+    }
+   }
+  }
+ }
+}
